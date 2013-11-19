@@ -39,3 +39,4 @@ node_modules
 .tmp
 
 app/data
+Gemfile.lock
