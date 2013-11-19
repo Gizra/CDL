@@ -1,0 +1,49 @@
+# Base Jekyll configuration
+
+# Grunt handles some Jekyll configuration. If you set something here and
+# it doesn't work, check if it is set in the Gruntfile.
+
+# Use _config.build.yml to override these settings on `grunt build`.
+
+name: CDL
+description: 
+
+author:
+  name: Gizra
+  email: info@gizra.com
+  github: 
+  twitter: 
+
+# Exclude directories and/or files from the conversion.
+# Grunt moves image files and asset directories.
+exclude: ['img', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+
+# Force inclusion of directories and/or files in the conversion.
+# .htaccess is a good example since dotfiles are excluded by default.
+include: ['.htaccess']
+
+# Default post path style
+# date  /:categories/:year/:month/:day/:title.html
+# pretty  /:categories/:year/:month/:day/:title/
+# none  /:categories/:title.html
+permalink: date
+
+# Publish posts with future date.
+# _config.build.yml sets this to false on `grunt build`
+future: true
+
+# Compile posts in the _drafts directory.
+# _config.build.yml sets this to false on `grunt build`
+show_drafts: true
+
+# Markdown library
+markdown: redcarpet
+# Markdown library options
+# redcarpet:
+  # extensions: ['fenced_code_blocks', 'smart']
+
+# Configuration to CDL Site
+src: 'TorahBasch_16112013'
+baseurl: http://gizra.github.io/CDL
+

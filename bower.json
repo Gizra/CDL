@@ -1,0 +1,9 @@
+{
+  "name": "yo-jekyll",
+  "version": "0.0.0",
+  "dependencies": {
+    "d3": "~3.3.9",
+    "underscore": "~1.5.2",
+    "q": "~0.9.7"
+  }
+}
