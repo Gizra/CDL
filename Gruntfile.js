@@ -1,6 +1,9 @@
 // Generated on 2013-11-17 using generator-jekyllrb 0.4.1
 'use strict';
 
+// Require libraries for the CDL task.
+var _ = require('underscore');
+
 // Directory reference:
 //   css: css
 //   compass: _scss
@@ -265,11 +268,12 @@ module.exports = function (grunt) {
             'img/**/*',
             'fonts/**/*',
             // Like Jekyll, exclude files & folders prefixed with an underscore
-            '!**/_*{,/**}'
+            '!**/_*{,/**}',
             // Explicitly add any files your site needs for distribution here
             //'_bower_components/jquery/jquery.js',
             //'favicon.ico',
             //'apple-touch*.png'
+            'data/**/*'
           ],
           dest: '<%= yeoman.dist %>'
         }]
@@ -323,8 +327,8 @@ module.exports = function (grunt) {
         verbose: true
       },
       check: {
-       src: ['<%= yeoman.app %>/css/**/*.css',
-             '<%= yeoman.app %>/_scss/**/*.scss']
+        src: ['<%= yeoman.app %>/css/**/*.css',
+          '<%= yeoman.app %>/_scss/**/*.scss']
       }
     },
     csslint: {
@@ -370,7 +374,160 @@ module.exports = function (grunt) {
         base: 'dist'
       },
       src: ['**']
+    },
+    'CDL': {
+      src: 'app/data/brain.json',
+      dest: 'app/data/tree.json'
     }
+  });
+
+  grunt.registerTask('CDL', function() {
+    var src = {},
+        dest = {};
+
+    src.path = grunt.config.get('CDL.src');
+    dest.path = grunt.config.get('CDL.dest');
+
+    /**
+     * Parse JSON to structure d3 layout.
+     *
+     * @returns {*}
+     */
+    function prepareTreeData() {
+      var nodeStyle = {},
+        nodesIndexed = [],
+        nodes = {},
+        nodesLinks = [],
+        firstNode,
+        tree = {};
+
+      /**
+       * Create json d3 tree layout structure.
+       * https://github.com/mbostock/d3/wiki/Tree-Layout
+       *
+       * @returns {*}
+       */
+      function createTreeData() {
+        var node;
+
+        /**
+         * Get childs of the node.
+         *
+         * @param node
+         * @returns {*}
+         */
+        function getChilds(node) {
+          var childs = [],
+            branchs = [],
+            branch = {};
+
+          if (node.children === undefined) {
+            node.children = [];
+          }
+          node.fill = 'red';
+
+          // Look for the childs, on each direction.
+          branch = {
+            dir: 1,
+            childs: _.where(nodesLinks, {idA: node.guid, dir: '1'})
+          };
+          branchs.push(branch);
+
+          branch = {
+            dir: 2,
+            childs: _.where(nodesLinks, {idB: node.guid, dir: '2'})
+          };
+          branchs.push(branch);
+
+          // Create links with the childs.
+          _.each(branchs, function(branch) {
+            childs = branch.childs;
+
+            _.each(childs, function(child) {
+              child.node = {};
+              child.node.children = [];
+
+              if (branch.dir === 1) {
+                child.node = nodesIndexed[child.idB];
+              }
+              else if (branch.dir === 2) {
+                child.node = nodesIndexed[child.idA];
+              }
+
+              // Look up for more generations of childrens.
+              child.node.children = getChilds(child.node);
+
+              // Set node children info.
+              node.children.push(child.node);
+            });
+          });
+
+          return node.children;
+        }
+
+        // Look up the node and position into the array.
+        node = nodesIndexed[firstNode];
+
+        // Initialize child property.
+        node.children = [];
+        node.children = getChilds(node);
+        // Define node position.
+        nodeStyle = {
+          'fill': (node.guid  === firstNode) ? 'green' : 'red'
+        };
+
+        // Add node style.
+        node = _.extend(node, nodeStyle);
+
+        return node;
+      }
+
+      // Prepare raw data in thoughts, and "guid" of the root node.
+      firstNode =  src.data.BrainData.Source.homeThoughtGuid;
+      nodes = src.data.BrainData.Thoughts.Thought;
+      nodesLinks = src.data.BrainData.Links.Link;
+
+      // Remove properties not necessary data from Node and links.
+      _.each(nodes, function(thought, index) {
+        nodes[index] = _.pick(thought, 'guid', 'name');
+      });
+      _.each(nodesLinks, function(link, index) {
+        nodesLinks[index] = _.pick(link, 'guid', 'idA', 'idB', 'dir', 'linkTypeID', 'isBackward');
+      });
+
+      // Index the nodes of thought by guid.
+      nodesIndexed = _.indexBy(nodes, 'guid');
+
+      // Prepare the root of the tree.
+      nodes = _.without(nodes, nodesIndexed[firstNode]);
+      nodes.unshift(nodesIndexed[firstNode]);
+
+      // Refresh nodesIndexed.
+      nodesIndexed = _.indexBy(nodes, 'guid');
+
+      tree = createTreeData();
+      return tree;
+    }
+
+    // Prepare JSON.
+    if (grunt.file.exists(src.path)) {
+      if (grunt.file.exists(dest.path)) {
+        grunt.file.delete(dest.path);
+      }
+      grunt.log.ok('Clean destination.');
+      src.data = grunt.file.readJSON('app/data/brain.json');
+      grunt.log.ok('Loaded source file: ' + src.path);
+    }
+    else {
+      grunt.fail.fatal('File ' + src.path + ' does not exist.');
+    }
+
+    // Generate data.
+    dest.data = prepareTreeData();
+
+    // Save the JSON into a new file.
+    grunt.file.write(dest.path, JSON.stringify(dest.data));
+    grunt.log.ok(src.path + ' saved.');
   });
 
   // Define Tasks
@@ -382,6 +539,7 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'convert',
+      'CDL',
       'concurrent:server',
       'autoprefixer:server',
       'connect:livereload',
@@ -396,9 +554,9 @@ module.exports = function (grunt) {
 
   // No real tests yet. Add your own.
   grunt.registerTask('test', [
-  //   'clean:server',
-  //   'concurrent:test',
-  //   'connect:test'
+    //   'clean:server',
+    //   'concurrent:test',
+    //   'connect:test'
   ]);
 
   grunt.registerTask('check', [
@@ -414,6 +572,8 @@ module.exports = function (grunt) {
     'clean:dist',
     // Jekyll cleans files from the target directory, so must run first
     'jekyll:dist',
+    'convert',
+    'CDL',
     'concurrent:dist',
     'useminPrepare',
     'concat',
@@ -425,7 +585,7 @@ module.exports = function (grunt) {
     'rev',
     'usemin',
     'htmlmin'
-    ]);
+  ]);
 
   grunt.registerTask('default', [
     'check',
