@@ -5,7 +5,17 @@
   var d3 = window.d3;
   var Q = window.Q;
 
-  var svgContainer;
+  var svgContainer,
+    g,
+    center,
+    background,
+    width = 1000,
+    height = 800;
+
+  // Define the scales.
+  var depthScale = d3.scale.linear()
+    .domain([0,6])
+    .range([0, width]);
 
   /**
    * Create the 'Canvas' area, it's possible define the dimensions.
@@ -13,15 +23,27 @@
    * @param width
    * @param height
    */
-  function preapreScenario(width, height) {
-    width = (!width) ? 10000 : width;
-    height = (!height) ? 10000 : height;
+  function preapreScenario() {
 
     svgContainer = d3.select('body').append('svg')
       // Create container.
       .attr('width', width)
       .attr('height', height)
-      .append('g');
+      .call(
+        d3.behavior.zoom()
+          .scaleExtent([1, 10])
+          .on('zoom', zoomCanvas)
+      );
+
+    background = svgContainer.append('rect')
+      .attr('class', 'background')
+      .attr('width', width)
+      .attr('height', height);
+
+    // Create a tree.
+    g = svgContainer.append('g')
+      .attr('class', 'tree');
+
   }
 
   /**
@@ -45,7 +67,7 @@
   }
 
   /**
-   * Draw the SVG elements with the information in nodes object.
+   * Render the SVG elements with the information in nodes object.
    * @param nodes
    */
   function renderNetwork(data) {
@@ -53,8 +75,8 @@
     // https://github.com/mbostock/d3/wiki/Tree-Layout.
     var tree,
       links,
-      w = 3000,
-      h = 3000;
+      w = width,
+      h = height;
 
     data.x0 = w/2;
     data.y0 = 0;
@@ -66,7 +88,7 @@
     links = tree.links(nodes);
 
     nodes.forEach(function(d) {
-      d.y = (d.depth === 0) ? 50 : d.depth * 260;
+      d.y = (d.depth === 0) ? 50 : depthScale(d.depth);
     });
 
     links.forEach(function(d) {
@@ -77,12 +99,12 @@
     console.log(nodes);
     console.log(links);
 
-    var node = svgContainer.selectAll('g.node')
-      .data(nodes)
-      .enter().append('svg:g')
-      .attr('transform', function(d) { return 'translate(' + d.x + ',' + (d.y) + ')'; });
 
-    var link = svgContainer.selectAll('g.link')
+    var lines = g.append('svg:g')
+      .attr('class', 'lines');
+
+    // Add the links.
+    var link = lines.selectAll('g.link')
       .data(links)
       .enter();
 
@@ -94,20 +116,31 @@
       .attr('x2', function(d) { return d.target.x; })
       .attr('y2', function(d) { return d.target.y; });
 
+    var node = g.selectAll('g.node')
+      .data(nodes)
+      .enter().append('svg:g')
+      .attr('transform', function(d) { return 'translate(' + d.x + ',' + (d.y) + ')'; });
+
     // Add circles.
     node.append('svg:circle')
-      .attr('r', 40)
+      .attr('r', 20)
       .style('fill', function(d) { return d.fill; });
-    node.append('svg:circle').
-      attr('r', 35).
-      style('fill', '#FFF');
+    node.append('svg:circle')
+      .attr('r', 15)
+      .style('fill', '#FFF');
 
     // Place the name attribute, left or right depending of the children.
     node.append('svg:text')
-      .attr('dx', function(d) { return d.children ? -8 : 8; })
-      .attr('dy', 3)
-      .attr('text-anchor', function(d) { return d.children ? 'end' : 'start'; })
+      .attr('font-size', 2.5)
+      .attr('text-anchor', 'middle')
       .text(function(d) { return d.name; });
+  }
+
+  /**
+   * Zoom canvas with the mouse wheel.
+   */
+  function zoomCanvas() {
+    g.attr('transform', 'translate(' + d3.event.translate + ')scale(' + d3.event.scale + ')');
   }
 
   // Preparing scenario, content and rendering.
