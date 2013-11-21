@@ -424,7 +424,6 @@ module.exports = function (grunt) {
           if (node.children === undefined) {
             node.children = [];
           }
-          node.fill = 'red';
 
           // Look for the childs, on each direction.
           branch = {
@@ -439,7 +438,7 @@ module.exports = function (grunt) {
           };
           branchs.push(branch);
 
-          // Create links with the childs.
+          // Create links to the father with his childs.
           _.each(branchs, function(branch) {
             childs = branch.childs;
 
@@ -468,16 +467,8 @@ module.exports = function (grunt) {
         // Look up the node and position into the array.
         node = nodesIndexed[firstNode];
 
-        // Initialize child property.
         node.children = [];
         node.children = getChilds(node);
-        // Define node position.
-        nodeStyle = {
-          'fill': (node.guid  === firstNode) ? 'green' : 'red'
-        };
-
-        // Add node style.
-        node = _.extend(node, nodeStyle);
 
         return node;
       }
