@@ -385,94 +385,21 @@ module.exports = function (grunt) {
     var src = {},
         dest = {};
 
+    // Data Information.
+    var nodesIndexed = [],
+      nodes = {},
+      nodesLinks = [],
+      firstNode,
+      tree = {};
+
     src.path = grunt.config.get('CDL.src');
     dest.path = grunt.config.get('CDL.dest');
 
     /**
-     * Parse JSON to structure d3 layout.
-     *
-     * @returns {*}
+     * Prepare collection of nodes indexed, that will use to parse and generate the tree.
      */
-    function prepareTreeData() {
-      var nodeStyle = {},
-        nodesIndexed = [],
-        nodes = {},
-        nodesLinks = [],
-        firstNode,
-        tree = {};
 
-      /**
-       * Create json d3 tree layout structure.
-       * https://github.com/mbostock/d3/wiki/Tree-Layout
-       *
-       * @returns {*}
-       */
-      function createTreeData() {
-        var node;
-
-        /**
-         * Get childs of the node.
-         *
-         * @param node
-         * @returns {*}
-         */
-        function getChilds(node) {
-          var childs = [],
-            branchs = [],
-            branch = {};
-
-          if (node.children === undefined) {
-            node.children = [];
-          }
-
-          // Look for the childs, on each direction.
-          branch = {
-            dir: 1,
-            childs: _.where(nodesLinks, {idA: node.guid, dir: '1'})
-          };
-          branchs.push(branch);
-
-          branch = {
-            dir: 2,
-            childs: _.where(nodesLinks, {idB: node.guid, dir: '2'})
-          };
-          branchs.push(branch);
-
-          // Create links to the father with his childs.
-          _.each(branchs, function(branch) {
-            childs = branch.childs;
-
-            _.each(childs, function(child) {
-              child.node = {};
-              child.node.children = [];
-
-              if (branch.dir === 1) {
-                child.node = nodesIndexed[child.idB];
-              }
-              else if (branch.dir === 2) {
-                child.node = nodesIndexed[child.idA];
-              }
-
-              // Look up for more generations of childrens.
-              child.node.children = getChilds(child.node);
-
-              // Set node children info.
-              node.children.push(child.node);
-            });
-          });
-
-          return node.children;
-        }
-
-        // Look up the node and position into the array.
-        node = nodesIndexed[firstNode];
-
-        node.children = [];
-        node.children = getChilds(node);
-
-        return node;
-      }
-
+    function prepareData() {
       // Prepare raw data in thoughts, and "guid" of the root node.
       firstNode =  src.data.BrainData.Source.homeThoughtGuid;
       nodes = src.data.BrainData.Thoughts.Thought;
@@ -495,8 +422,149 @@ module.exports = function (grunt) {
 
       // Refresh nodesIndexed.
       nodesIndexed = _.indexBy(nodes, 'guid');
+    }
 
-      tree = createTreeData();
+    /**
+     * Get first node of the array order by node.chronologicaltId.
+     *
+     * @param nodes
+     * @returns {*}
+     */
+    function getFirst(nodes) {
+      return _.min(nodes, function(node) {
+        return node.chronologicalId;
+      });
+    }
+
+    /**
+     * From an array of nodes node.type: 'chronological', Reorder these in order chronological. Where the children nodes are
+     * the next event in order, this repeat for each node.
+     *
+     * @param nodes
+     * @returns {*}
+     */
+    function reorderChronological(nodes) {
+      var node;
+
+      // Get the first node and an array without the node.
+      node = getFirst(nodes);
+      nodes = _.without(nodes, node);
+      if (nodes.length > 0) {
+        node.children = [reorderChronological(nodes)];
+      }
+
+      return node;
+    }
+
+     /**
+     * Set the properties according the type of node.
+     *
+     * @param node
+     */
+    function setNodeType(node) {
+      var regChronological = /:\d+:/,
+          regBastard = /:_:/,
+          regId = /:/;
+
+      // Categorize child.
+      if (node.name.match(regChronological)) {
+        // chronological childs.
+        node.type = 'chronological';
+        node.chronologicalId = node.name.split(regId)[1];
+        node.chronologicalName = node.name.split(regChronological)[1].trim();
+      }
+      else if (node.name.match(regBastard)) {
+        // Bastard childs.
+        node.type = 'bastard';
+      }
+      else {
+        node.type = 'default';
+      }
+    }
+
+    /**
+     * Reorder the childs properties according dir: (Brain direction), type: chronological, bastard and default.
+     * Return a collection of childs categorized and organized.
+     *
+     * @param childs
+     * @returns {*}
+     */
+    function parseChilds(childs) {
+      var childsOrdered = [],
+          chronologicalChilds;
+
+      // Parse child.
+      _.each(childs, function(child) {
+
+        // Set node information of child node.
+        child.node = {};
+        child.node.children = [];
+        if (child.dir === '1') {
+          child.node = nodesIndexed[child.idB];
+        }
+        else if (child.dir === '2') {
+          child.node = nodesIndexed[child.idA];
+        }
+
+        // Get clssification of node.
+        setNodeType(child.node);
+
+        // Look up for more generations of childrens.
+        child.node.children = getChilds(child.node);
+
+        childsOrdered.push(child.node);
+      });
+
+      // @todo: check formation of chronological nodes, with sibling not chronological. Issue #21
+      chronologicalChilds = _.where(childsOrdered, {type: 'chronological'});
+      // console.log(childsOrdered);
+      if (chronologicalChilds.length) {
+        // Reorder chronological childs.
+        childsOrdered = _.union(_.difference(childsOrdered, chronologicalChilds),  reorderChronological(chronologicalChilds));
+      }
+
+      // Join childs classified.
+      return childsOrdered;
+    }
+
+
+    /**
+     * Get childs of the node.
+     *
+     * @param node
+     * @returns {*}
+     */
+    function getChilds(node) {
+      var childsOrdered = [],
+          childs = [];
+
+      childs = _.union( _.where(nodesLinks, {idA: node.guid, dir: '1'}), _.where(nodesLinks, {idB: node.guid, dir: '2'}) );
+
+      if (childs.length) {
+        childsOrdered = parseChilds(childs);
+      }
+
+      return childsOrdered;
+    }
+
+
+     /**
+     * Parse JSON to structure d3 layout.
+     * Create json d3 tree layout structure.
+     * https://github.com/mbostock/d3/wiki/Tree-Layout
+     *
+     * @returns {*}
+     */
+    function generateTreeData() {
+
+      prepareData();
+
+      // Look up the node and position into the array.
+      tree = nodesIndexed[firstNode];
+      tree.children = [];
+
+      tree.children = getChilds(tree);
+
       return tree;
     }
 
@@ -514,7 +582,7 @@ module.exports = function (grunt) {
     }
 
     // Generate data.
-    dest.data = prepareTreeData();
+    dest.data = generateTreeData();
 
     // Save the JSON into a new file.
     grunt.file.write(dest.path, JSON.stringify(dest.data));

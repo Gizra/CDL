@@ -14,13 +14,13 @@
     tree,
     nodes,
     links,
-    width = 1000,
+    width = 960,
     height = 800,
     delay = 750;
 
   // Define the scales of the depth of the tree.
   var depthScale = d3.scale.linear()
-    .domain([0, 7])
+    .domain([0, 30])
     .range([0, width]);
 
   // The states of the node are node.active or node.selected
@@ -41,15 +41,10 @@
     .domain([0, 1])
     .range([2.5, 5]);
 
-  // Define size of fonts node.
+  // Define color of the text, for the nodes (active or inactive).
   var textColor = d3.scale.linear()
     .domain([0, 1, 3])
     .range(['black', 'red', 'white']);
-
-  // Define size of fonts node.
-  var lineColor = d3.scale.linear()
-    .domain([0, 1])
-    .range(['white', 'red']);
 
   /**
    * Handle the combination of states in a node, this is generated with the
@@ -153,7 +148,7 @@
     // https://github.com/mbostock/d3/wiki/Tree-Layout.
 
     data.x0 = width/2;
-    data.y0 = 0;
+    data.y0 = height/4;
 
     tree = d3.layout.tree()
       .size([width, height]);
@@ -162,16 +157,12 @@
     links = tree.links(nodes);
 
     // Prepare data for the tree.
-    nodes.forEach(function(d) {
-      d.y = (d.depth === 0) ? 40 : depthScale(d.depth);
-      d.active = 0;
-      d.selected = 0;
+    nodes.forEach(function(node) {
+      // @todo: positions with depth property.
+      node.y = (node.depth === 0) ? 1+data.y0 : depthScale(node.depth)+data.y0;
+      node.active = 0;
+      node.selected = 0;
     });
-
-    // Keep it like example.
-    // links.forEach(function(d) {
-    //   console.log(d.source.y, d.target.y, d.source.depth*10, d.target.depth);
-    // });
 
     // Group of lines.
     var lines = g.append('svg:g')
@@ -186,31 +177,73 @@
     link.append('svg:line')
       .style('stroke', 'black')
       .style('stroke-width', 2)
-      .attr('x1', function(d) { return d.source.x; })
-      .attr('y1', function(d) { return d.source.y; })
-      .attr('x2', function(d) { return d.target.x; })
-      .attr('y2', function(d) { return d.target.y; });
+      .attr('x1', function(line) { return line.source.x; })
+      .attr('y1', function(line) { return line.source.y; })
+      .attr('x2', function(line) { return line.target.x; })
+      .attr('y2', function(line) { return line.target.y; });
 
-    var node = g.selectAll('g.node')
+    var svgNode = g.selectAll('g.node')
       .data(nodes)
       .enter().append('svg:g')
-      .attr('transform', function(d) { return 'translate(' + d.x + ',' + (d.y) + ')'; })
+      .attr('transform', function(node) { return 'translate(' + node.x + ',' + node.y + ')'; })
       .attr('class', 'node')
-      .attr('id', function(d, i) { return 'n' + i; });
+      .attr('id', function(node, index) { return 'n' + index; });
 
     // Add circles.
-    node.append('svg:circle')
-      .attr('r', function(d) { return nodeScale(d.selected); })
-      .style('fill', function(d) { return nodeColor(d.active); })
-      .on('click', centerNode);
+    svgNode.append('svg:circle')
+      .attr('r', function(node) { return nodeScale(node.selected); })
+      .style('fill', fillNode )
+      .style('stroke', function(node) { return (node.active) ?  'red' : 'black'; } )
+      .on('click', centerNode );
 
     // Place the name attribute, left or right depending of the children.
-    node.append('svg:text')
-      .attr('font-size', function(d) { return fontScale(d.selected); })
-      .attr('dy', function(d) { return d.children ? 1 : 10; })
-      .attr('dx', function(d) { return d.children ? 7 : d; })
-      .attr('text-anchor', function(d) { if (d.selected) { return 'middle'; } return d.children ? 'start' : 'middle'; })
-      .text(function(d) { return d.name; });
+    svgNode.append('svg:text')
+      .attr('class', 'name')
+      .attr('font-size', function(node) { return fontScale(node.selected); })
+      .attr('dy', function(node) { return node.children ? 1 : 10; })
+      .attr('dx', function(node) { return node.children ? 7 : node; })
+      .attr('text-anchor', function(node) { if (node.selected) { return 'middle'; } return node.children ? 'start' : 'middle'; })
+      .text( textNode );
+
+    // Place the name attribute, left or right depending of the children.
+    svgNode.append('svg:text')
+      .attr('class', 'id')
+      .attr('font-size', 5)
+      .attr('dy', 2)
+      .attr('dx', 0)
+      .attr('text-anchor', 'middle')
+      .text( function(node) { return node.chronologicalId; } )
+      .on('click', centerNode );
+  }
+
+  /**
+   * Helper to print the node information.
+   *
+   * @param d
+   *   Node element.
+   * @returns string
+   */
+  function textNode(node) {
+    if (node.type === 'chronological') {
+      return node.chronologicalName;
+    }
+    else {
+      return node.name;
+    }
+  }
+
+  /**
+   * Helper to fill the nodes according to its type.
+   *
+   * @param d
+   * @returns {*}
+   */
+  function fillNode(node) {
+    if (node.type === 'chronological' && !node.active) {
+      return 'white';
+    }
+
+    return nodeColor(node.active);
   }
 
   /**
@@ -221,14 +254,14 @@
   }
 
   /**
-   * On click a circle apply style transformations, connect the brothers nodes,
+   * On click a circle apply style transformations, connect the siblings nodes,
    * move the center and zoom the circle to the center.
    *
    * @param node
    * @param index
    */
   function centerNode(node, index) {
-    var nx, ny, brothers = [], points = [];
+    var nx, ny, siblings = [], points = [];
 
     /**
      * Update the node data onClick event.
@@ -239,10 +272,7 @@
     function nodesUpdate(node) {
       var lastSelected;
 
-      // Enable node: {node.active: 1, node.selected: 1}
-      // Disable node: {node.active: 0, node.selected: 0}
-
-      // Disable other nodes.
+      // Inactive other nodes.
       lastSelected = _.where(nodes, {active: 1});
       if (lastSelected.length) {
         lastSelected.forEach(function(node) {
@@ -251,18 +281,18 @@
         });
       }
 
-      // Enable brothers of the select circle.
+      // Validate that the node is not the root's node (first parent), and active the siblings nodes of the selected
+      // circle.
       if (node.depth !== 0) {
-        brothers = node.parent.children;
-        // Mark point 'start' and 'end' for the line to connect the brother.
-        _.min(brothers, function(node) { return node.x; }).connection = 'end';
-        _.max(brothers, function(node) { return node.x; }).connection = 'start';
+        siblings = node.parent.children;
+        // Mark point 'start' and 'end' for the line to connect the sibling.
+        _.min(siblings, function(node) { return node.x; }).connection = 'end';
+        _.max(siblings, function(node) { return node.x; }).connection = 'start';
 
-        brothers.forEach(function(node) {
+        siblings.forEach(function(node) {
           node.active = 1;
           node.selected = 0;
-
-          // Points.
+          // Points for the connection.
           points.push({
             x: node.x,
             y: node.y
@@ -270,14 +300,14 @@
         });
       }
 
-      // Enable the node.
+      // Active the node.
       node.active = 1;
       node.selected = 1;
     }
 
 
     /**
-     * Render a line between the brothers nodes of the clicked circle.
+     * Render a line between the siblings nodes of the clicked circle.
      */
     function renderConnection() {
       // Remove connection before if exist.
@@ -286,13 +316,12 @@
         .exit()
         .remove();
 
-      // Create the brothers connections with
+      // Create the siblings connections with
       var connection = d3.svg.line()
-        .x(function(d) { return d.x; })
-        .y(function(d) { return d.y; })
+        .x(function(line) { return line.x; })
+        .y(function(line) { return line.y; })
         .interpolate('linear');
 
-      console.log(lineColor(0));
       g.select('.lines').selectAll('path'+index)
         .data([points])
         .enter()
@@ -318,20 +347,17 @@
       ny = (height/2) - node.y;
       g.transition()
         .duration(delay)
-        .attr('transform', null);  // 'translate(' + nx + ', ' + ny + ')'
+        .attr('transform', null);
     }
 
     // Update data node on click.
     nodesUpdate(node);
-    // Apply style svg circle selected and brothers circles.
+    // Apply style svg circle selected and siblings circles.
     nodesStyle();
-    // Connect brothers with lines.
+    // Connect siblings with lines.
     renderConnection();
     // Focus on the circle.
     focusCircle();
-
-
-
 
   }
 
@@ -343,18 +369,24 @@
     d3.select('g.tree').selectAll('circle')
       .transition()
       .duration(delay)
-      .attr('r', function(d) { return nodeScale(d.selected); })
-      .style('fill', function(d) { return nodeColor(d.active); });
+      .attr('r', function(node) { return nodeScale(node.selected); })
+      .style('fill', fillNode)
+      .style('stroke', function(node) { return (node.active) ?  'red' : 'black'; } );
 
     // Texts.
-    d3.select('g.tree').selectAll('text')
+    d3.select('g.tree').selectAll('text.name')
       .transition()
       .duration(delay/7)
-      .attr('font-size', function(d) { return fontScale(d.selected); })
-      .style('fill', function(d) { return textColor(getNodeState(d)); })
-      .attr('dy', function(d) { if (d.selected) { return 0; } return d.children ? 1 : 10; })
-      .attr('dx', function(d) { if (d.selected) { return 0; } return d.children ? 7 : d; })
-      .attr('text-anchor', function(d) { if (d.selected) { return 'middle'; } return d.children ? 'start' : 'middle'; });
+      .attr('font-size', function(node) { return fontScale(node.selected); })
+      .style('fill', function(node) { return textColor(getNodeState(node)); })
+      .attr('dy', function(node) { if (node.selected) { return 0; } return node.children ? 1 : 10; })
+      .attr('dx', function(node) { if (node.selected) { return 0; } return node.children ? 7 : node; })
+      .attr('text-anchor', function(node) { if (node.selected) { return 'middle'; } return node.children ? 'start' : 'middle'; });
+
+    d3.select('g.tree').selectAll('text.id')
+      .transition()
+      .duration(delay/7)
+      .text( function(node) { return (node.active) ? '' : node.chronologicalId; } );
   }
 
   // Preparing scenario, content and rendering.
