@@ -1,0 +1,12 @@
+---
+layout: page
+title: List of pages
+---
+
+<ul>
+  {% for page in site.pages %}
+  <li>
+    <a href="/pages/{{page.guid}}.html">{{page.title}}</a>
+  </li>
+  {% endfor %}
+</ul>

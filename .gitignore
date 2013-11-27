@@ -38,5 +38,7 @@ dist
 node_modules
 .tmp
 
+# Ignore files of CDL #
 app/data
+app/pages
 Gemfile.lock

@@ -27,7 +27,7 @@ include: ['.htaccess']
 # date  /:categories/:year/:month/:day/:title.html
 # pretty  /:categories/:year/:month/:day/:title/
 # none  /:categories/:title.html
-permalink: date
+permalink: none
 
 # Publish posts with future date.
 # _config.build.yml sets this to false on `grunt build`
@@ -42,8 +42,4 @@ markdown: redcarpet
 # Markdown library options
 # redcarpet:
   # extensions: ['fenced_code_blocks', 'smart']
-
-# Configuration to CDL Site
-src: 'TorahBasch_16112013'
-baseurl: http://gizra.github.io/CDL
 

@@ -3,6 +3,7 @@
 
 // Require libraries for the CDL task.
 var _ = require('underscore');
+var he = require('he');
 
 // Directory reference:
 //   css: css
@@ -376,9 +377,15 @@ module.exports = function (grunt) {
       src: ['**']
     },
     'CDL': {
-      src: 'app/data/brain.json',
-      dest: 'app/data/tree.json'
+      src: '<%= yeoman.app %>/data/brain.json',
+      dest: '<%= yeoman.app %>/data/tree.json'
+    },
+    'generate' : {
+      src: '<%= yeoman.app %>/data/tree.json',
+      dest: '<%= yeoman.app %>/pages/',
+      template: 'page'
     }
+
   });
 
   grunt.registerTask('CDL', function() {
@@ -389,11 +396,13 @@ module.exports = function (grunt) {
     var nodesIndexed = [],
       nodes = {},
       nodesLinks = [],
+      nodesEntries = [],
       firstNode,
       tree = {};
 
     src.path = grunt.config.get('CDL.src');
     dest.path = grunt.config.get('CDL.dest');
+    grunt.config.set('CDL.period', 0);
 
     /**
      * Prepare collection of nodes indexed, that will use to parse and generate the tree.
@@ -404,6 +413,7 @@ module.exports = function (grunt) {
       firstNode =  src.data.BrainData.Source.homeThoughtGuid;
       nodes = src.data.BrainData.Thoughts.Thought;
       nodesLinks = src.data.BrainData.Links.Link;
+      nodesEntries = src.data.BrainData.Entries.Entry;
 
       // Remove properties not necessary data from Node and links.
       _.each(nodes, function(thought, index) {
@@ -412,9 +422,17 @@ module.exports = function (grunt) {
       _.each(nodesLinks, function(link, index) {
         nodesLinks[index] = _.pick(link, 'guid', 'idA', 'idB', 'dir', 'linkTypeID', 'isBackward');
       });
+      _.each(nodesEntries, function(entry, index) {
+        nodesEntries[index] = _.pick(entry, 'guid', 'EntryObjects', 'body', 'format');
+      });
 
       // Index the nodes of thought by guid.
       nodesIndexed = _.indexBy(nodes, 'guid');
+      // Index entries.
+      _.each(nodesEntries, function(entry) {
+        entry.objectID = entry.EntryObjects.EntryObject.objectID;
+      });
+      nodesEntries = _.indexBy(nodesEntries, 'objectID');
 
       // Prepare the root of the tree.
       nodes = _.without(nodes, nodesIndexed[firstNode]);
@@ -441,6 +459,7 @@ module.exports = function (grunt) {
      * the next event in order, this repeat for each node.
      *
      * @param nodes
+     * @param period
      * @returns {*}
      */
     function reorderChronological(nodes) {
@@ -456,26 +475,94 @@ module.exports = function (grunt) {
       return node;
     }
 
+    /**
+     * Groups the chronological nodes in a period of time.
+     *
+     * @param nodes
+     * @param period
+     */
+    function setPeriod(nodes, period) {
+      _.each(nodes, function(node, index) {
+        nodes[index].period = period;
+      });
+    }
+
      /**
-     * Set the properties according the type of node.
+     * Set the content data and properties according the type of node.
      *
      * @param node
      */
-    function setNodeType(node) {
-      var regChronological = /:\d+:/,
-          regBastard = /:_:/,
-          regId = /:/;
+    function setNodeContent(node) {
+      var regexChronological = /:\d+:/,
+          regexBastard = /:_:/,
+          regexId = /:/,
+          regexContent = /(&lt;body&gt;)((\n.*)*)(&lt;\/body&gt;)/,
+          regexCleaner,
+          rawName;
+
+      // Init regex for content.
+      regexCleaner = [
+        {
+          regex: /class=".*?"+/,
+          phrase: ''
+        },
+        {
+          regex: /style=".*?"+/,
+          phrase: ''
+        },
+        {
+          regex: /"/,
+          phrase: '&quot;'
+        }
+      ];
+
+       /**
+        * Clean the content extracted with an array of regular expressions and phrases.
+        *
+        * @param data
+        * @param regex
+        * @param phrase
+        *
+        * @returns {string}
+        */
+      function cleanContent(data, regex, phrase) {
+        data = data.replace(regex, phrase);
+        if (data.match(regex)) {
+          data = cleanContent(data, regex, phrase);
+        }
+        return data;
+      }
+
+      // Add "node.name" to escape HTML entities in YAML.
+      rawName = he.decode(node.name);
+      node.name = '\"' + rawName + '\"';
+
+      // Add entry content to the node.
+      node.content = '';
+      if (nodesEntries[node.guid] && nodesEntries[node.guid].body) {
+        // Extract the content from body.
+        node.content = he.decode(nodesEntries[node.guid].body.match(regexContent)[2]);
+
+        // Clean content.
+        regexCleaner.forEach(function(element) {
+          node.content = cleanContent(node.content, element.regex, element.phrase);
+        });
+
+        // Escape HTML with " for YAML.
+        node.content = '\"' + node.content + '\"';
+      }
 
       // Categorize child.
-      if (node.name.match(regChronological)) {
-        // chronological childs.
+      if (node.name.match(regexChronological)) {
+        // Chronological childs.
         node.type = 'chronological';
-        node.chronologicalId = node.name.split(regId)[1];
-        node.chronologicalName = node.name.split(regChronological)[1].trim();
+        node.chronologicalId = rawName.split(regexId)[1];
+        node.chronologicalName = '\"' + rawName.split(regexChronological)[1].trim() + '\"';
       }
-      else if (node.name.match(regBastard)) {
+      else if (node.name.match(regexBastard)) {
         // Bastard childs.
         node.type = 'bastard';
+        node.bastardName = '\"' + rawName.split(regexBastard)[1].trim() + '\"';
       }
       else {
         node.type = 'default';
@@ -491,7 +578,8 @@ module.exports = function (grunt) {
      */
     function parseChilds(childs) {
       var childsOrdered = [],
-          chronologicalChilds;
+        chronologicalChilds,
+        period;
 
       // Parse child.
       _.each(childs, function(child) {
@@ -506,8 +594,8 @@ module.exports = function (grunt) {
           child.node = nodesIndexed[child.idA];
         }
 
-        // Get clssification of node.
-        setNodeType(child.node);
+        // Parse the content and set the classification of the node.
+        setNodeContent(child.node);
 
         // Look up for more generations of childrens.
         child.node.children = getChilds(child.node);
@@ -519,8 +607,11 @@ module.exports = function (grunt) {
       chronologicalChilds = _.where(childsOrdered, {type: 'chronological'});
       // console.log(childsOrdered);
       if (chronologicalChilds.length) {
+        period = grunt.config.get('CDL.period') + 1;
+        grunt.config.set('CDL.period', period);
+        setPeriod(chronologicalChilds, period);
         // Reorder chronological childs.
-        childsOrdered = _.union(_.difference(childsOrdered, chronologicalChilds),  reorderChronological(chronologicalChilds));
+        childsOrdered = _.union(_.difference(childsOrdered, chronologicalChilds),  reorderChronological(chronologicalChilds, grunt.config.get('CDL.period')));
       }
 
       // Join childs classified.
@@ -589,6 +680,130 @@ module.exports = function (grunt) {
     grunt.log.ok(src.path + ' saved.');
   });
 
+  grunt.registerTask('generate', function () {
+    var tree;
+
+    /**
+     * Helper to return a string list of siblings of a specific chronological node.
+     *
+     * @param node
+     * @returns {*}
+     */
+    function getSiblings(node) {
+      var list = '';
+      var siblings = [];
+
+      /**
+       * Filter siblings of the period of the node.
+       *
+       * @param nodes
+       * @param period
+       */
+      function filterPeriodSiblings(nodes, period) {
+        _.each(nodes, function(node) {
+          // Check for children.
+          filterPeriodSiblings(node.children, period);
+        });
+
+        siblings = _.union(siblings, _.where(nodes, {period: node.period}));
+      }
+
+      filterPeriodSiblings([tree], node.period);
+
+      // Get chronological siblings.
+      _.each(siblings.reverse(), function(node, index) {
+        list = list + '\n  - ' + index+1 + ':\n    title: ' + node.chronologicalName + '\n    data: ' + node.content;
+      });
+
+      return list;
+    }
+
+    /**
+     * Return the template content in a string object.
+     *
+     * @param name
+     *  Could be the name of the file with or without the extension.
+     * @returns {*}
+     */
+    function getTemplate(name) {
+      var template;
+
+      name = (name.match(/.html/)) ? 'template/' + name : 'template/' + name + '.html';
+
+      if (grunt.file.exists(name)) {
+        // Load template data.
+        template = grunt.file.read(name);
+      }
+      else {
+        grunt.fail.fatal('File ' + name + ' does not exist.');
+      }
+
+      return template;
+    }
+
+    /**
+     * Generate the static html file based in a YAML template and the node information. The name of the file is
+     * [node.guid].html.
+     *
+     * @param node
+     */
+    function generateStaticHtml(node) {
+      var file, template, data, yamlData;
+
+      // Prepare template, filename and data will be write in the yaml page.
+      template = getTemplate(grunt.config.get('generate.template'));
+      file = node.guid + '.html';
+      data = {
+        guid: node.guid,
+        title: (node.type === 'chronological') ? node.chronologicalName : (node.type === 'bastard') ? node.bastardName : node.name,
+        data: node.content
+      };
+
+      if (node.type === 'chronological') {
+        data.siblings = getSiblings(node);
+      }
+
+      // Replace dynamic values in the template.
+      yamlData = grunt.template.process(template, {data: data});
+
+      // Write the file.
+      grunt.file.write(grunt.config.get('generate.dest') + file, yamlData);
+      grunt.log.ok(file + ' saved.');
+    }
+
+    /**
+     * Generate jekyll page for each node.
+     *
+     * @param nodes
+     */
+    function generate(nodes) {
+      _.each(nodes, function(node) {
+        // Generate first the children info.
+        generate(node.children);
+
+        // Generate the node info.
+        generateStaticHtml(node);
+      });
+    }
+
+
+    // Init generation.
+    if (grunt.file.exists(grunt.config.get('generate.src'))) {
+      // Clean destination folder.
+      grunt.log.ok('Clean destination. ' + grunt.config.get('generate.dest') );
+      grunt.file.delete(grunt.config.get('generate.dest'));
+
+      // Load work data.
+      tree = grunt.file.readJSON(grunt.config.get('generate.src'));
+      grunt.log.ok('Loaded source file: ' + grunt.config.get('generate.src'));
+      generate([tree]);
+    }
+    else {
+      grunt.fail.fatal('File ' + grunt.config.get('generate.src') + ' does not exist.');
+    }
+
+  });
+
   // Define Tasks
   grunt.registerTask('serve', function (target) {
     if (target === 'dist') {
@@ -599,6 +814,7 @@ module.exports = function (grunt) {
       'clean:server',
       'convert',
       'CDL',
+      'generate',
       'concurrent:server',
       'autoprefixer:server',
       'connect:livereload',

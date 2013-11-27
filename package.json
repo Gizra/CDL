@@ -30,7 +30,8 @@
     "grunt-gh-pages": "~0.8.1",
     "grunt-convert": "~0.1.5",
     "underscore": "~1.5.2",
-    "grunt-cli": "~0.1.11"
+    "grunt-cli": "~0.1.11",
+    "he": "~0.3.6"
   },
   "engines": {
     "node": ">=0.8.0"
