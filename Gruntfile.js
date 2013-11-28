@@ -380,12 +380,11 @@ module.exports = function (grunt) {
       src: '<%= yeoman.app %>/data/brain.json',
       dest: '<%= yeoman.app %>/data/tree.json'
     },
-    'generate' : {
+    'generate': {
       src: '<%= yeoman.app %>/data/tree.json',
       dest: '<%= yeoman.app %>/pages/',
       template: 'page'
     }
-
   });
 
   grunt.registerTask('CDL', function() {
@@ -469,7 +468,7 @@ module.exports = function (grunt) {
       node = getFirst(nodes);
       nodes = _.without(nodes, node);
       if (nodes.length > 0) {
-        node.children = [reorderChronological(nodes)];
+        node.children = _.union(node.children, [reorderChronological(nodes)]);
       }
 
       return node;
@@ -849,6 +848,7 @@ module.exports = function (grunt) {
     'jekyll:dist',
     'convert',
     'CDL',
+    'generate',
     'concurrent:dist',
     'useminPrepare',
     'concat',
@@ -858,7 +858,7 @@ module.exports = function (grunt) {
     'imagemin',
     'svgmin',
     'rev',
-    'usemin',
+    'usemin'
   ]);
 
   grunt.registerTask('default', [
