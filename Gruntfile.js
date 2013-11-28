@@ -42,6 +42,8 @@ module.exports = function (grunt) {
         files: [
           '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown}',
           '_config.yml',
+          '_config.build.yml',
+          'template/page.html',
           '!<%= yeoman.app %>/_bower_components'
         ],
         tasks: ['jekyll:server']
@@ -854,8 +856,8 @@ module.exports = function (grunt) {
     'concat',
     'autoprefixer:dist',
     'cssmin',
-    'uglify',
-    'imagemin',
+    // 'uglify',
+    // 'imagemin',
     'svgmin',
     'rev',
     'usemin'

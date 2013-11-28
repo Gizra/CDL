@@ -5,9 +5,9 @@ title: <%= title %>
 data: <%= data %>
 siblings: <%= siblings %>
 ---
-
+{% include JB/setup %}
 <div class="wrapper">
-  <a href="/#/{{ page.guid }}">Home</a>
+  <a href="{{BASE_PATH}}/#/{{ page.guid }}">Home</a>
   <h1>{{ page.title }}</h1>
   {{ page.data }}
   <div class="sidebar-wrapper">

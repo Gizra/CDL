@@ -2,11 +2,11 @@
 layout: page
 title: List of pages
 ---
-
+{% include JB/setup %}
 <ul>
   {% for page in site.pages %}
   <li>
-    <a href="/pages/{{page.guid}}.html">{{page.title}}</a>
+    <a href="{{BASE_PATH}}/pages/{{page.guid}}.html">{{page.title}}</a>
   </li>
   {% endfor %}
 </ul>
