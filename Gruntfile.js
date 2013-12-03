@@ -27,7 +27,8 @@ module.exports = function (grunt) {
     yeoman: {
       app: 'app',
       dist: 'dist',
-      brain: 'brain'
+      brain: 'brain',
+      template: 'template'
     },
     watch: {
       compass: {
@@ -40,13 +41,20 @@ module.exports = function (grunt) {
       },
       jekyll: {
         files: [
-          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown}',
+          '<%= yeoman.app %>/**/*.index.html',
           '_config.yml',
           '_config.build.yml',
-          'template/page.html',
-          '!<%= yeoman.app %>/_bower_components'
+          '!<%= yeoman.app %>/_bower_components',
+          '<%= yeoman.template %>/**/*'
         ],
-        tasks: ['jekyll:server']
+        tasks: [
+          'cdlPrepare',
+          'convert:json2yaml',
+          'generate',
+          'copy:cdl',
+          'clean:brain',
+          'jekyll:server'
+        ]
       },
       livereload: {
         options: {
@@ -115,8 +123,11 @@ module.exports = function (grunt) {
         '.tmp',
         '.tmp',
         '.jekyll',
-        '<%= yeoman.app %>/data/*'
-
+        '<%= yeoman.app %>/pages',
+        '<%= yeoman.app %>/data'
+      ],
+      brain: [
+        '<%= yeoman.app %>/data/.tmp'
       ]
     },
     compass: {
@@ -204,7 +215,7 @@ module.exports = function (grunt) {
         basedir: '<%= yeoman.dist %>',
         dirs: ['<%= yeoman.dist %>/**/*']
       },
-      html: ['<%= yeoman.dist %>/**/*.html'],
+      html: ['<%= yeoman.dist %>/*.html'],
       css: ['<%= yeoman.dist %>/css/**/*.css']
     },
     htmlmin: {
@@ -290,6 +301,15 @@ module.exports = function (grunt) {
           src: '**/*.css',
           dest: '.tmp/css'
         }]
+      },
+      cdl: {
+        files: [{
+          expand: true,
+          dot: true,
+          cwd: 'brain/files',
+          src: '**/*.{jpg,png,gif,jpeg,webp,tiff,mp3,wav,avi,mp4}',
+          dest: '<%= yeoman.app %>/pages'
+        }]
       }
     },
     rev: {
@@ -370,6 +390,17 @@ module.exports = function (grunt) {
             ext: '.json'
           }
         ]
+      },
+      json2yaml: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= yeoman.app %>/data/.tmp/',
+            src: ['**/*.json'],
+            dest: '<%= yeoman.app %>/data/.tmp/',
+            ext: '.yml'
+          }
+        ]
       }
     },
     'gh-pages': {
@@ -385,7 +416,7 @@ module.exports = function (grunt) {
     'generate': {
       src: '<%= yeoman.app %>/data/tree.json',
       dest: '<%= yeoman.app %>/pages/',
-      template: 'page'
+      template: 'pageFull'
     }
   });
 
@@ -398,6 +429,7 @@ module.exports = function (grunt) {
       nodes = {},
       nodesLinks = [],
       nodesEntries = [],
+      nodesAttachments = [],
       firstNode,
       tree = {};
 
@@ -408,13 +440,13 @@ module.exports = function (grunt) {
     /**
      * Prepare collection of nodes indexed, that will use to parse and generate the tree.
      */
-
     function prepareData() {
       // Prepare raw data in thoughts, and "guid" of the root node.
       firstNode =  src.data.BrainData.Source.homeThoughtGuid;
       nodes = src.data.BrainData.Thoughts.Thought;
       nodesLinks = src.data.BrainData.Links.Link;
       nodesEntries = src.data.BrainData.Entries.Entry;
+      nodesAttachments = src.data.BrainData.Attachments.Attachment;
 
       // Remove properties not necessary data from Node and links.
       _.each(nodes, function(thought, index) {
@@ -426,6 +458,9 @@ module.exports = function (grunt) {
       _.each(nodesEntries, function(entry, index) {
         nodesEntries[index] = _.pick(entry, 'guid', 'EntryObjects', 'body', 'format');
       });
+      _.each(nodesAttachments, function(item, index) {
+        nodesAttachments[index] = _.omit(item, 'creationDateTime', 'modificationDateTime');
+      });
 
       // Index the nodes of thought by guid.
       nodesIndexed = _.indexBy(nodes, 'guid');
@@ -434,6 +469,10 @@ module.exports = function (grunt) {
         entry.objectID = entry.EntryObjects.EntryObject.objectID;
       });
       nodesEntries = _.indexBy(nodesEntries, 'objectID');
+      // Index attachments.
+      nodesAttachments = _.groupBy(nodesAttachments, function(item) {
+        return item.objectID;
+      });
 
       // Prepare the root of the tree.
       nodes = _.without(nodes, nodesIndexed[firstNode]);
@@ -536,21 +575,24 @@ module.exports = function (grunt) {
 
       // Add "node.name" to escape HTML entities in YAML.
       rawName = he.decode(node.name);
-      node.name = '\"' + rawName + '\"';
+      node.name = rawName;
 
       // Add entry content to the node.
-      node.content = '';
+      node.data = '';
       if (nodesEntries[node.guid] && nodesEntries[node.guid].body) {
         // Extract the content from body.
-        node.content = he.decode(nodesEntries[node.guid].body.match(regexContent)[2]);
+        node.data = he.decode(nodesEntries[node.guid].body.match(regexContent)[2]);
 
         // Clean content.
         regexCleaner.forEach(function(element) {
-          node.content = cleanContent(node.content, element.regex, element.phrase);
+          node.data = cleanContent(node.data, element.regex, element.phrase);
         });
+      }
 
-        // Escape HTML with " for YAML.
-        node.content = '\"' + node.content + '\"';
+      // Add attachments.
+      node.attachments = [];
+      if (nodesAttachments[node.guid]) {
+        node.attachments = nodesAttachments[node.guid];
       }
 
       // Categorize child.
@@ -558,12 +600,12 @@ module.exports = function (grunt) {
         // Chronological childs.
         node.type = 'chronological';
         node.chronologicalId = rawName.split(regexId)[1];
-        node.chronologicalName = '\"' + rawName.split(regexChronological)[1].trim() + '\"';
+        node.chronologicalName = rawName.split(regexChronological)[1].trim();
       }
       else if (node.name.match(regexBastard)) {
         // Bastard childs.
         node.type = 'bastard';
-        node.bastardName = '\"' + rawName.split(regexBastard)[1].trim() + '\"';
+        node.bastardName = rawName.split(regexBastard)[1].trim();
       }
       else {
         node.type = 'default';
@@ -677,12 +719,12 @@ module.exports = function (grunt) {
     dest.data = generateTreeData();
 
     // Save the JSON into a new file.
-    grunt.file.write(dest.path, JSON.stringify(dest.data));
-    grunt.log.ok(src.path + ' saved.');
+    grunt.file.write(dest.path, JSON.stringify(dest.data, null, ' '));
+    grunt.log.ok('File: ' + dest.path + ' generated.');
   });
 
-  grunt.registerTask('generate', function () {
-    var tree;
+  grunt.registerTask('cdlPrepare', function() {
+    var tree, treePrepared;
 
     /**
      * Helper to return a string list of siblings of a specific chronological node.
@@ -691,7 +733,6 @@ module.exports = function (grunt) {
      * @returns {*}
      */
     function getSiblings(node) {
-      var list = '';
       var siblings = [];
 
       /**
@@ -701,6 +742,7 @@ module.exports = function (grunt) {
        * @param period
        */
       function filterPeriodSiblings(nodes, period) {
+
         _.each(nodes, function(node) {
           // Check for children.
           filterPeriodSiblings(node.children, period);
@@ -709,15 +751,137 @@ module.exports = function (grunt) {
         siblings = _.union(siblings, _.where(nodes, {period: node.period}));
       }
 
+      // Get chronological siblings.
       filterPeriodSiblings([tree], node.period);
 
-      // Get chronological siblings.
-      _.each(siblings.reverse(), function(node, index) {
-        list = list + '\n  - ' + index+1 + ':\n    title: ' + node.chronologicalName + '\n    data: ' + node.content;
+      // Pick the necessary properties for siblings.
+      _.each(siblings, function(sibling, index) {
+        siblings[index] = _.pick(sibling, 'guid', 'chronologicalId', 'chronologicalName', 'data', 'attachments');
       });
 
-      return list;
+      return siblings.reverse();
     }
+
+    /**
+     * Convert the attachments object in a simple format to handle it in the YAML template.
+     *
+     * @param attachments
+     * @returns {*}
+     */
+    function convertAttachments(attachments) {
+      var item;
+      var regexYoutube = /http:\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/)(\w*)(&(amp;)?[\w\?=]*)?/;
+      var aParsed = {
+        images: [],
+        media: [],
+        pages: [],
+        youtube: []
+      };
+
+      _.each(attachments, function(attachment) {
+        item = {
+          name: attachment.name,
+          src: attachment.location
+        };
+
+        // Attachments type file (media || images ).
+        if (attachment.attachmentType === '1') {
+          if (attachment.format === '.jpg' || attachment.format === '.png') {
+            aParsed.images.push(item);
+          }
+          else if (attachment.format === '.mp3') {
+            aParsed.media.push(item);
+          }
+        }
+        // Attachments type url (regular links || youtube links).
+        else if (attachment.attachmentType === '3' ) {
+          // Check if the link it's youtube link and separate it.
+          if (regexYoutube.test(attachment.location)) {
+            item.id = attachment.location.match(regexYoutube)[1];
+            aParsed.youtube.push(item);
+          }
+          else {
+            aParsed.pages.push(item);
+          }
+        }
+
+      });
+
+      return aParsed;
+    }
+
+    /**
+     * Generate JSON files of jekyll pages.
+     *
+     * @param nodes
+     */
+    function extractDataPage(nodes) {
+      // Write files JSON.
+      _.each(nodes, function(node) {
+        // Prepare the data, going through the tree from the deepest node to the root.
+        if (node.children) {
+          extractDataPage(node.children);
+        }
+
+        // Pick node selected properties.
+        node = _.pick(node, 'guid', 'name', 'data', 'attachments', 'siblings');
+
+        // Generate the json file, to bind in the each Jekyll pages, is related with the node.guid.
+        grunt.file.write('app/data/.tmp/' + node.guid + '.json', JSON.stringify(node, null, ' '));
+        grunt.log.ok('Data object ' + node.guid + ' prepared.');
+      });
+    }
+
+    function prepareData(nodes) {
+      // Prepare object to binding with the template system.
+      _.each(nodes, function(node, index) {
+        // Begin with the last child.
+        if (node.children) {
+          nodes[index].children = prepareData(node.children);
+        }
+
+        // Set name according node type.
+        nodes[index].name = (node.type === 'chronological') ? node.chronologicalName : (node.type === 'bastard') ? node.bastardName : node.name;
+
+        // Modify definition of the object attachments.
+        if (node.attachments) {
+          nodes[index].attachments = convertAttachments(node.attachments);
+        }
+      });
+
+      // Get siblings.
+      _.each(nodes, function(node, index) {
+        nodes[index].siblings = [];
+        if (node.type === 'chronological') {
+          nodes[index].siblings = getSiblings(node);
+        }
+      });
+
+      return nodes;
+    }
+
+    // Init generation.
+    if (grunt.file.exists(grunt.config.get('generate.src'))) {
+      // Clean working data .tmp directory.
+      grunt.log.ok('Clean working folder in app/data/.tmp/');
+      grunt.file.delete('app/data/.tmp/');
+
+      // Load work data.
+      tree = grunt.file.readJSON(grunt.config.get('generate.src'));
+      grunt.log.ok('Load source file: ' + grunt.config.get('generate.src'));
+
+      // Prepare data to Jekyll pages.
+      treePrepared = [];
+      treePrepared = prepareData([tree]);
+      extractDataPage(treePrepared);
+    }
+    else {
+      grunt.fail.fatal('File ' + grunt.config.get('generate.src') + ' does not exist.');
+    }
+  });
+
+  grunt.registerTask('generate', function () {
+    var tree;
 
     /**
      * Return the template content in a string object.
@@ -749,27 +913,20 @@ module.exports = function (grunt) {
      * @param node
      */
     function generateStaticHtml(node) {
-      var file, template, data, yamlData;
+      var template, yamlData, page;
 
       // Prepare template, filename and data will be write in the yaml page.
       template = getTemplate(grunt.config.get('generate.template'));
-      file = node.guid + '.html';
-      data = {
-        guid: node.guid,
-        title: (node.type === 'chronological') ? node.chronologicalName : (node.type === 'bastard') ? node.bastardName : node.name,
-        data: node.content
-      };
 
-      if (node.type === 'chronological') {
-        data.siblings = getSiblings(node);
-      }
+      // Read the specific YAML data fragment.
+      yamlData = {yaml: grunt.file.read('app/data/.tmp/' + node.guid + '.yml')};
 
       // Replace dynamic values in the template.
-      yamlData = grunt.template.process(template, {data: data});
+      page = grunt.template.process(template, {data: yamlData});
 
       // Write the file.
-      grunt.file.write(grunt.config.get('generate.dest') + file, yamlData);
-      grunt.log.ok(file + ' saved.');
+      grunt.file.write(grunt.config.get('generate.dest') + node.guid + '/index.html', page);
+      grunt.log.ok(grunt.config.get('generate.dest') + node.guid + '/index.html saved.');
     }
 
     /**
@@ -787,12 +944,14 @@ module.exports = function (grunt) {
       });
     }
 
-
     // Init generation.
     if (grunt.file.exists(grunt.config.get('generate.src'))) {
       // Clean destination folder.
       grunt.log.ok('Clean destination. ' + grunt.config.get('generate.dest') );
       grunt.file.delete(grunt.config.get('generate.dest'));
+      // Clean working data .tmp directory.
+      grunt.file.delete('app/data/pages/');
+
 
       // Load work data.
       tree = grunt.file.readJSON(grunt.config.get('generate.src'));
@@ -813,9 +972,13 @@ module.exports = function (grunt) {
 
     grunt.task.run([
       'clean:server',
-      'convert',
+      'convert:xml2json',
       'CDL',
+      'cdlPrepare',
+      'convert:json2yaml',
       'generate',
+      'copy:cdl',
+      'clean:brain',
       'concurrent:server',
       'autoprefixer:server',
       'connect:livereload',
@@ -848,9 +1011,13 @@ module.exports = function (grunt) {
     'clean:dist',
     // Jekyll cleans files from the target directory, so must run first
     'jekyll:dist',
-    'convert',
+    'convert:xml2json',
     'CDL',
+    'cdlPrepare',
+    'convert:json2yaml',
     'generate',
+    'copy:cdl',
+    'clean:brain',
     'concurrent:dist',
     'useminPrepare',
     'concat',
