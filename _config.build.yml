@@ -67,8 +67,4 @@ JB :
   analytics :
     provider : google
     google :
-        tracking_id : 'UA-6558346-3'
-    getclicky :
-      site_id :
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
+        tracking_id : 'UA-TODO-3'
