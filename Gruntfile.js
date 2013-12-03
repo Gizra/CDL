@@ -437,7 +437,6 @@ module.exports = function (grunt) {
 
     src.path = grunt.config.get('CDL.src');
     dest.path = grunt.config.get('CDL.dest');
-    grunt.config.set('CDL.period', 0);
 
     /**
      * Prepare collection of nodes indexed, that will use to parse and generate the tree.
@@ -500,8 +499,7 @@ module.exports = function (grunt) {
      * From an array of nodes node.type: 'chronological', Reorder these in order chronological. Where the children nodes are
      * the next event in order, this repeat for each node.
      *
-     * @param nodes
-     * @param period
+     * param nodes
      * @returns {*}
      */
     function reorderChronological(nodes) {
@@ -515,18 +513,6 @@ module.exports = function (grunt) {
       }
 
       return node;
-    }
-
-    /**
-     * Groups the chronological nodes in a period of time.
-     *
-     * @param nodes
-     * @param period
-     */
-    function setPeriod(nodes, period) {
-      _.each(nodes, function(node, index) {
-        nodes[index].period = period;
-      });
     }
 
      /**
@@ -619,18 +605,20 @@ module.exports = function (grunt) {
      * Return a collection of childs categorized and organized.
      *
      * @param childs
+     * @param parent
      * @returns {*}
      */
-    function parseChilds(childs) {
+    function parseChilds(childs, parent) {
       var childsOrdered = [],
-        chronologicalChilds,
-        period;
+        chronologicalChilds;
+
 
       // Parse child.
       _.each(childs, function(child) {
 
         // Set node information of child node.
         child.node = {};
+
         child.node.children = [];
         if (child.dir === '1') {
           child.node = nodesIndexed[child.idB];
@@ -640,23 +628,29 @@ module.exports = function (grunt) {
         }
 
         // Parse the content and set the classification of the node.
-        setNodeContent(child.node);
+        setNodeContent(child.node, parent);
+
+        // Set parent guid.
+        child.node.parent = parent;
+        child.node.hasChronologicalChildren = false;
 
         // Look up for more generations of childrens.
         child.node.children = getChilds(child.node);
+
+        // Check if have chronological children, and set it.
+        if (child.node.type !== 'chronological' && _.where(child.node.children, {type: 'chronological'}).length) {
+          child.node.hasChronologicalChildren = true;
+        }
 
         childsOrdered.push(child.node);
       });
 
       // @todo: check formation of chronological nodes, with sibling not chronological. Issue #21
       chronologicalChilds = _.where(childsOrdered, {type: 'chronological'});
-      // console.log(childsOrdered);
+
       if (chronologicalChilds.length) {
-        period = grunt.config.get('CDL.period') + 1;
-        grunt.config.set('CDL.period', period);
-        setPeriod(chronologicalChilds, period);
         // Reorder chronological childs.
-        childsOrdered = _.union(_.difference(childsOrdered, chronologicalChilds),  reorderChronological(chronologicalChilds, grunt.config.get('CDL.period')));
+        childsOrdered = _.union(_.difference(childsOrdered, chronologicalChilds),  reorderChronological(chronologicalChilds));
       }
 
       // Join childs classified.
@@ -677,7 +671,7 @@ module.exports = function (grunt) {
       childs = _.union( _.where(nodesLinks, {idA: node.guid, dir: '1'}), _.where(nodesLinks, {idB: node.guid, dir: '2'}) );
 
       if (childs.length) {
-        childsOrdered = parseChilds(childs);
+        childsOrdered = parseChilds(childs, node.guid);
       }
 
       return childsOrdered;
@@ -706,10 +700,6 @@ module.exports = function (grunt) {
 
     // Prepare JSON.
     if (grunt.file.exists(src.path)) {
-      if (grunt.file.exists(dest.path)) {
-        grunt.file.delete(dest.path);
-      }
-      grunt.log.ok('Clean destination.');
       src.data = grunt.file.readJSON(src.path);
       grunt.log.ok('Loaded source file: ' + src.path);
     }
@@ -738,23 +728,25 @@ module.exports = function (grunt) {
       var siblings = [];
 
       /**
-       * Filter siblings of the period of the node.
+       * Filter siblings node from the parent of the first chronological node.
        *
-       * @param nodes
-       * @param period
+       * @param {*}
+       *  Nodes object.
+       * @param string
+       *  Parent node.guid.
        */
-      function filterPeriodSiblings(nodes, period) {
-
+      function filterSiblingsByParent(nodes, parentGuid) {
         _.each(nodes, function(node) {
-          // Check for children.
-          filterPeriodSiblings(node.children, period);
+            // Check for children.
+          filterSiblingsByParent(_.where(node.children, {type: 'chronological'}), parentGuid);
         });
 
-        siblings = _.union(siblings, _.where(nodes, {period: node.period}));
+        siblings = _.union(siblings, _.where(nodes, {parent: parentGuid}));
       }
 
       // Get chronological siblings.
-      filterPeriodSiblings([tree], node.period);
+      filterSiblingsByParent(_.where(node.children, {type: 'chronological'}), node.guid);
+
 
       // Pick the necessary properties for siblings.
       _.each(siblings, function(sibling, index) {
@@ -855,7 +847,7 @@ module.exports = function (grunt) {
       // Get siblings.
       _.each(nodes, function(node, index) {
         nodes[index].siblings = [];
-        if (node.type === 'chronological') {
+        if (node.type !== 'chronological' && node.hasChronologicalChildren) {
           nodes[index].siblings = getSiblings(node);
         }
       });
@@ -939,7 +931,9 @@ module.exports = function (grunt) {
         generate(node.children);
 
         // Generate the node info.
-        generateStaticHtml(node);
+        if (node.type !== 'chronological') {
+          generateStaticHtml(node);
+        }
       });
     }
 
