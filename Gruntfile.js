@@ -708,7 +708,7 @@ module.exports = function (grunt) {
         grunt.file.delete(dest.path);
       }
       grunt.log.ok('Clean destination.');
-      src.data = grunt.file.readJSON('app/data/brain.json');
+      src.data = grunt.file.readJSON(src.path);
       grunt.log.ok('Loaded source file: ' + src.path);
     }
     else {
@@ -771,7 +771,7 @@ module.exports = function (grunt) {
     function convertAttachments(attachments) {
       var item;
       var regexYoutube = /http:\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/)(\w*)(&(amp;)?[\w\?=]*)?/;
-      var aParsed = {
+      var attachmentsParsed = {
         images: [],
         media: [],
         pages: [],
@@ -784,30 +784,31 @@ module.exports = function (grunt) {
           src: attachment.location
         };
 
-        // Attachments type file (media || images ).
+        // Attachments type file (media or images ).
         if (attachment.attachmentType === '1') {
           if (attachment.format === '.jpg' || attachment.format === '.png') {
-            aParsed.images.push(item);
+            attachmentsParsed.images.push(item);
           }
           else if (attachment.format === '.mp3') {
-            aParsed.media.push(item);
+            attachmentsParsed.media.push(item);
           }
         }
-        // Attachments type url (regular links || youtube links).
+        // Attachments type url (regular links or youtube links).
         else if (attachment.attachmentType === '3' ) {
-          // Check if the link it's youtube link and separate it.
+          // Check if the link is a youtube's link and prepare properties with video id.
           if (regexYoutube.test(attachment.location)) {
             item.id = attachment.location.match(regexYoutube)[1];
-            aParsed.youtube.push(item);
+            attachmentsParsed.youtube.push(item);
           }
+          // A regular link.
           else {
-            aParsed.pages.push(item);
+            attachmentsParsed.pages.push(item);
           }
         }
 
       });
 
-      return aParsed;
+      return attachmentsParsed;
     }
 
     /**
@@ -827,7 +828,7 @@ module.exports = function (grunt) {
         node = _.pick(node, 'guid', 'name', 'data', 'attachments', 'siblings');
 
         // Generate the json file, to bind in the each Jekyll pages, is related with the node.guid.
-        grunt.file.write('app/data/.tmp/' + node.guid + '.json', JSON.stringify(node, null, ' '));
+        grunt.file.write(grunt.config.get('generate.dest') + '.tmp/' + node.guid + '.json', JSON.stringify(node, null, ' '));
         grunt.log.ok('Data object ' + node.guid + ' prepared.');
       });
     }
@@ -862,10 +863,6 @@ module.exports = function (grunt) {
 
     // Init generation.
     if (grunt.file.exists(grunt.config.get('generate.src'))) {
-      // Clean working data .tmp directory.
-      grunt.log.ok('Clean working folder in app/data/.tmp/');
-      grunt.file.delete('app/data/.tmp/');
-
       // Load work data.
       tree = grunt.file.readJSON(grunt.config.get('generate.src'));
       grunt.log.ok('Load source file: ' + grunt.config.get('generate.src'));
@@ -919,7 +916,7 @@ module.exports = function (grunt) {
       template = getTemplate(grunt.config.get('generate.template'));
 
       // Read the specific YAML data fragment.
-      yamlData = {yaml: grunt.file.read('app/data/.tmp/' + node.guid + '.yml')};
+      yamlData = {yaml: grunt.file.read(grunt.config.get('generate.dest') + '.tmp/' + node.guid + '.yml')};
 
       // Replace dynamic values in the template.
       page = grunt.template.process(template, {data: yamlData});
@@ -946,13 +943,6 @@ module.exports = function (grunt) {
 
     // Init generation.
     if (grunt.file.exists(grunt.config.get('generate.src'))) {
-      // Clean destination folder.
-      grunt.log.ok('Clean destination. ' + grunt.config.get('generate.dest') );
-      grunt.file.delete(grunt.config.get('generate.dest'));
-      // Clean working data .tmp directory.
-      grunt.file.delete('app/data/pages/');
-
-
       // Load work data.
       tree = grunt.file.readJSON(grunt.config.get('generate.src'));
       grunt.log.ok('Loaded source file: ' + grunt.config.get('generate.src'));
