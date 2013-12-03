@@ -411,7 +411,8 @@ module.exports = function (grunt) {
     },
     'CDL': {
       src: '<%= yeoman.app %>/data/brain.json',
-      dest: '<%= yeoman.app %>/data/tree.json'
+      dest: '<%= yeoman.app %>/data/tree.json',
+      tmp: '<%= yeoman.app %>/data/.tmp/'
     },
     'generate': {
       src: '<%= yeoman.app %>/data/tree.json',
@@ -828,7 +829,7 @@ module.exports = function (grunt) {
         node = _.pick(node, 'guid', 'name', 'data', 'attachments', 'siblings');
 
         // Generate the json file, to bind in the each Jekyll pages, is related with the node.guid.
-        grunt.file.write(grunt.config.get('generate.dest') + '.tmp/' + node.guid + '.json', JSON.stringify(node, null, ' '));
+        grunt.file.write(grunt.config.get('CDL.tmp') + node.guid + '.json', JSON.stringify(node, null, ' '));
         grunt.log.ok('Data object ' + node.guid + ' prepared.');
       });
     }
@@ -916,7 +917,7 @@ module.exports = function (grunt) {
       template = getTemplate(grunt.config.get('generate.template'));
 
       // Read the specific YAML data fragment.
-      yamlData = {yaml: grunt.file.read(grunt.config.get('generate.dest') + '.tmp/' + node.guid + '.yml')};
+      yamlData = {yaml: grunt.file.read(grunt.config.get('CDL.tmp') + node.guid + '.yml')};
 
       // Replace dynamic values in the template.
       page = grunt.template.process(template, {data: yamlData});
