@@ -287,7 +287,8 @@ module.exports = function (grunt) {
             //'_bower_components/jquery/jquery.js',
             //'favicon.ico',
             //'apple-touch*.png'
-            'data/**/*'
+            'data/**/*',
+            'pages/**/*.{jpg,png,gif,jpeg,webp,tiff,mp3,wav,avi,mp4}'
           ],
           dest: '<%= yeoman.dist %>'
         }]
@@ -1014,8 +1015,8 @@ module.exports = function (grunt) {
     'concat',
     'autoprefixer:dist',
     'cssmin',
-    // 'uglify',
-    // 'imagemin',
+    'uglify',
+    'imagemin',
     'svgmin',
     'rev',
     'usemin'
