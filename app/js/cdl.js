@@ -87,16 +87,18 @@
    * @param height
    */
   function prepareScenario() {
+    var zoom;
+
+    zoom = d3.behavior.zoom()
+      .center([width / 2, height / 2])
+      .scaleExtent([1, 10])
+      .on('zoom', zoomCanvas);
 
     svgContainer = d3.select('body').append('svg')
       // Create container.
       .attr('width', width)
       .attr('height', height)
-      .call(
-        d3.behavior.zoom()
-          .scaleExtent([1, 10])
-          .on('zoom', zoomCanvas)
-      );
+      .call(zoom);
 
     background = svgContainer.append('rect')
       .attr('class', 'background')
@@ -116,7 +118,6 @@
         .attr('cx', function() { return width/2; })
         .attr('cy', function() { return height/2; });
     }
-
   }
 
   /**
@@ -338,27 +339,12 @@
         .attr('d', connection);
     }
 
-    /**
-     * Get to the center the circle selected.
-     */
-    function focusCircle() {
-      // Move the tree to the selection point.
-      nx = (width/2) - node.x;
-      ny = (height/2) - node.y;
-      g.transition()
-        .duration(delay)
-        .attr('transform', null);
-    }
-
     // Update data node on click.
     nodesUpdate(node);
     // Apply style svg circle selected and siblings circles.
     nodesStyle();
     // Connect siblings with lines.
     renderConnection();
-    // Focus on the circle.
-    focusCircle();
-
   }
 
   /**
