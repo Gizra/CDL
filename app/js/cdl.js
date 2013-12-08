@@ -124,7 +124,7 @@
   function preparingData() {
     var deferred = Q.defer();
     // Relative path of the JSON file.
-    var src = window.location.href + 'data/tree.json';
+    var src = window.location.origin + window.location.pathname + 'data/tree.json';
 
     d3.json(src, function(error, json) {
       if (error) {
@@ -492,7 +492,7 @@
       }
 
       // Go to the detail page.
-      window.location = window.location.href + 'pages/' + node.guid;
+      window.location = window.location.origin + window.location.pathname + 'pages/' + node.guid;
     }
 
     // Bind events.
