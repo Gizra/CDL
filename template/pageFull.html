@@ -10,7 +10,7 @@ layout: page
       <ul>
         {% for sibling in page.siblings %}
         <li>
-          <a href="#{{ sibling.guid }}">{{ sibling.chronologicalName }}</a>
+          <a href="{{ BASE_PATH }}/#{{ sibling.guid }}">{{ sibling.chronologicalName }}</a>
         </li>
         {% endfor %}
       </ul>
