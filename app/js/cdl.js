@@ -11,11 +11,11 @@
     center,
     showCenter = false,
     background,
-    tree,
-    nodes,
-    links,
+    system,
+    c,
     width = 960,
-    height = 800,
+    height = 500,
+    diameter = 960,
     delay = 750;
 
   // Define the scales of the depth of the tree.
@@ -26,15 +26,11 @@
   // The states of the node are node.active or node.selected
   // with values 0 or 1.
 
-  // Define size (radius) of circles of node states.
-  var nodeScale = d3.scale.linear()
-    .domain([0, 1])
-    .range([5, 20]);
 
   // Define color circles of node states.
   var nodeColor = d3.scale.linear()
     .domain([0, 1])
-    .range(['black', 'red']);
+    .range(['black', 'red', 'white']);
 
   // Define size of fonts node.
   var fontScale = d3.scale.linear()
@@ -87,37 +83,37 @@
    * @param height
    */
   function prepareScenario() {
-    var zoom;
+    diameter = 960;
+    width = diameter;
+    height = diameter;
 
-    zoom = d3.behavior.zoom()
+    // Behaviours.
+    function zoomRadial() {
+      system.attr('transform', 'translate(' + d3.event.translate + ')scale(' + d3.event.scale + ')');
+    }
+
+    var zoom = d3.behavior.zoom()
       .center([width / 2, height / 2])
-      .scaleExtent([1, 10])
-      .on('zoom', zoomCanvas);
+      .scaleExtent([0.5, 10])
+      .on('zoom', zoomRadial);
 
+    // Canvas.
     svgContainer = d3.select('body').append('svg')
-      // Create container.
-      .attr('width', width)
-      .attr('height', height)
-      .call(zoom);
+      .attr('width', '100%')
+      .attr('height', '100%')
+      .call(zoom)
+      .on('dblclick.zoom', null);
 
-    background = svgContainer.append('rect')
-      .attr('class', 'background')
+    // Background.
+    background =  svgContainer.append('rect')
+      .attr('id', 'backgroud')
       .attr('width', width)
       .attr('height', height);
 
-    // Create a tree.
-    g = svgContainer.append('g')
-      .attr('class', 'tree');
+    // System.
+    system = svgContainer.append('g')
+      .attr('id', 'system');
 
-    showCenter = false;
-    if (showCenter) {
-      // Reference center point.
-      center = svgContainer.append('svg:circle')
-        .attr('class', 'center')
-        .attr('r', 3)
-        .attr('cx', function() { return width/2; })
-        .attr('cy', function() { return height/2; });
-    }
   }
 
   /**
@@ -140,119 +136,8 @@
     return deferred.promise;
   }
 
-  /**
-   * Render the SVG elements with the information in nodes object.
-   * @param nodes
-   */
-  function renderNetwork(data) {
-    // Render json data in d3 tree layout definition.
-    // https://github.com/mbostock/d3/wiki/Tree-Layout.
 
-    data.x0 = width/2;
-    data.y0 = height/4;
 
-    tree = d3.layout.tree()
-      .size([width, height]);
-
-    nodes = tree.nodes(data);
-    links = tree.links(nodes);
-
-    // Prepare data for the tree.
-    nodes.forEach(function(node) {
-      // @todo: positions with depth property.
-      node.y = (node.depth === 0) ? 1+data.y0 : depthScale(node.depth)+data.y0;
-      node.active = 0;
-      node.selected = 0;
-    });
-
-    // Group of lines.
-    var lines = g.append('svg:g')
-      .attr('class', 'lines');
-
-    // Add the links.
-    var link = lines.selectAll('g.link')
-      .data(links)
-      .enter();
-
-    // Define line.
-    link.append('svg:line')
-      .style('stroke', 'black')
-      .style('stroke-width', 2)
-      .attr('x1', function(line) { return line.source.x; })
-      .attr('y1', function(line) { return line.source.y; })
-      .attr('x2', function(line) { return line.target.x; })
-      .attr('y2', function(line) { return line.target.y; });
-
-    var svgNode = g.selectAll('g.node')
-      .data(nodes)
-      .enter().append('svg:g')
-      .attr('transform', function(node) { return 'translate(' + node.x + ',' + node.y + ')'; })
-      .attr('class', 'node')
-      .attr('id', function(node, index) { return 'n' + index; });
-
-    // Add circles.
-    svgNode.append('svg:circle')
-      .attr('r', function(node) { return nodeScale(node.selected); })
-      .style('fill', fillNode )
-      .style('stroke', function(node) { return (node.active) ?  'red' : 'black'; } )
-      .on('click', centerNode );
-
-    // Place the name attribute, left or right depending of the children.
-    svgNode.append('svg:text')
-      .attr('class', 'name')
-      .attr('font-size', function(node) { return fontScale(node.selected); })
-      .attr('dy', function(node) { return node.children ? 1 : 10; })
-      .attr('dx', function(node) { return node.children ? 7 : node; })
-      .attr('text-anchor', function(node) { if (node.selected) { return 'middle'; } return node.children ? 'start' : 'middle'; })
-      .text( textNode );
-
-    // Place the name attribute, left or right depending of the children.
-    svgNode.append('svg:text')
-      .attr('class', 'id')
-      .attr('font-size', 5)
-      .attr('dy', 2)
-      .attr('dx', 0)
-      .attr('text-anchor', 'middle')
-      .text( function(node) { return node.chronologicalId; } )
-      .on('click', centerNode );
-  }
-
-  /**
-   * Helper to print the node information.
-   *
-   * @param d
-   *   Node element.
-   * @returns string
-   */
-  function textNode(node) {
-    if (node.type === 'chronological') {
-      return node.chronologicalName;
-    }
-    else {
-      return node.name;
-    }
-  }
-
-  /**
-   * Helper to fill the nodes according to its type.
-   *
-   * @param d
-   * @returns {*}
-   */
-  function fillNode(node) {
-    if (node.type === 'chronological' && !node.active) {
-      return 'white';
-    }
-
-    return nodeColor(node.active);
-  }
-
-  /**
-   * Zoom canvas with the mouse wheel.
-   */
-  function zoomCanvas() {
-    g.attr('transform', 'translate(' + d3.event.translate + ')scale(' + d3.event.scale + ')');
-  }
 
   /**
    * On click a circle apply style transformations, connect the siblings nodes,
@@ -262,7 +147,7 @@
    * @param index
    */
   function centerNode(node, index) {
-    var nx, ny, siblings = [], points = [];
+    var siblings = [], points = [];
 
     /**
      * Update the node data onClick event.
@@ -375,12 +260,401 @@
       .text( function(node) { return (node.active) ? '' : node.chronologicalId; } );
   }
 
+
+  /**
+   *
+   * http://bl.ocks.org/mbostock/4063550
+   *
+   * @param data
+   */
+  function CDL(data) {
+    /// Scales.
+
+    // Define size (radius) of circles of node states.
+    var nodeScale = d3.scale.linear()
+      .domain([0, 1])
+      .range([5, 20]);
+
+
+    /// Helpers.
+    /**
+     * Helper to fill the nodes according to its type.
+     *
+     * @param node
+     * @returns {string
+     */
+    function fillNode(node) {
+      var color;
+
+      if (node.styleNode === 'bastard' || node.styleNode === 'chronological' || node.styleNode === 'root') {
+        color = 'white';
+      }
+      else if (node.styleNode === 'default' || node.styleNode === 'sibling') {
+        color = 'black';
+      }
+      else if (node.styleNode === 'selected') {
+        color = 'red';
+      }
+
+      return color;
+    }
+
+    /**
+     * Helper to fill the nodes according to its type.
+     *
+     * @param node
+     * @returns {string
+     */
+    function strokeNode(node) {
+      var color;
+
+      if (node.styleNode === 'root' || node.styleNode === 'selected') {
+        color = 'red';
+      }
+
+      return color;
+    }
+
+    /**
+     * Helper to set size the nodes according to its type.
+     *
+     * @param node
+     * @returns {*}
+     */
+    function sizeNode(node) {
+      var size;
+
+      if (node.styleNode === 'default' || node.styleNode === 'bastard' || node.styleNode === 'chronological') {
+        size = 5;
+      }
+      else if (node.styleNode === 'root') {
+        size = 40;
+      }
+      else if (node.styleNode === 'selected' || node.styleNode === 'sibling') {
+        size = 20;
+      }
+      return size;
+    }
+
+    /**
+     * Helper to set color of the text according to its type.
+     *
+     * @param node
+     * @returns {*}
+     */
+    function fillText(node) {
+      var color;
+
+      if (node.styleNode === 'root') {
+        color = 'red';
+      }
+      else if (node.styleNode === 'selected' || node.styleNode === 'sibling') {
+        color = 'white';
+      }
+      return color;
+    }
+
+    /**
+     * Helper to set size the text according to its type.
+     *
+     * @param node
+     * @returns {*}
+     */
+    function sizeText(node) {
+      var size = 5;
+
+      if (node.styleNode === 'root') {
+        size = 20;
+      }
+      else if (node.styleNode === 'selected' || node.styleNode === 'siblings') {
+        size = 10;
+      }
+      return size;
+    }
+
+    /**
+     * Helper to print the node information.
+     *
+     * @param node
+     *   Node element.
+     * @returns string
+     */
+    function textNode(node) {
+      if (node.type === 'chronological') {
+        return node.chronologicalName;
+      }
+      else if (node.type === 'bastard') {
+        return node.bastardName;
+      }
+      else {
+        return node.name;
+      }
+    }
+
+
+
+    /**
+     * Apply style to the node selection according yhe node.styleType
+     *
+     * @param selection
+     */
+    function styleNode(selection) {
+      var circle,
+        title;
+
+      if (typeof selection === 'undefined') {
+        selection = g.selectAll('.node');
+      }
+
+      circle = selection.select('circle');
+      title = selection.select('text');
+
+      circle.attr('r', function(node) { return sizeNode(node); })
+        .style('fill', fillNode )
+        .style('stroke', strokeNode );
+
+      title.attr('font-size', function(node) { return fontScale(node.selected); })
+        .style('fill', fillText)
+        .attr('font-size', sizeText);
+    }
+
+    /**
+     * Create a separation from the click event and the double click event.
+     * https://gist.github.com/tmcw/4067674
+     *
+     * @returns {*}
+     */
+    function clickCancel() {
+      var event = d3.dispatch('click', 'dblclick');
+      function cc(selection) {
+        var down,
+          tolerance = 5,
+          last,
+          wait = null;
+        // euclidean distance
+        function dist(a, b) {
+          return Math.sqrt(Math.pow(a[0] - b[0], 2), Math.pow(a[1] - b[1], 2));
+        }
+        selection.on('mousedown', function() {
+          down = d3.mouse(document.body);
+          last = +new Date();
+        });
+        selection.on('mouseup', function() {
+          if (dist(down, d3.mouse(document.body)) > tolerance) {
+            return;
+          }
+          else {
+            if (wait) {
+              window.clearTimeout(wait);
+              wait = null;
+              event.dblclick(d3.event);
+            }
+            else {
+              wait = window.setTimeout((function(e) {
+                return function() {
+                  event.click(e);
+                  wait = null;
+                };
+              })(d3.event), 300);
+            }
+          }
+        });
+      }
+      return d3.rebind(cc, event, 'on');
+    }
+
+    /**
+     * Click node.
+     * @param node
+     */
+    function clickNode(event) {
+
+    }
+
+    /**
+     * Double click node.
+     * @param node
+     */
+    function doubleClickNode(event) {
+      var node;
+
+      // Get element.
+      node = d3.select(event.toElement).data()[0];
+
+      // If root element, do not perform any action.
+      if (node.depth === 0) {
+        return;
+      }
+
+      // If it's chronological node, go up until the parent not chronological and set like active node.
+      while (node.type === 'chronological') {
+        node = node.parent;
+      }
+
+      // Go to the detail page.
+      window.location = window.location.href + 'pages/' + node.guid;
+    }
+
+    // Bind events.
+    var nodeEvent = clickCancel();
+    nodeEvent.on('click', clickNode )
+      .on('dblclick', doubleClickNode );
+
+
+    // Data Tree Layout.
+    var tree = d3.layout.tree()
+      .size([360, diameter  * 1.35])
+      .separation(function(a, b) { return (a.parent === b.parent ? 0.70 : 1) / a.depth; });
+
+    // Data binding.
+    var nodes = tree.nodes(data);
+    var links = tree.links(nodes);
+
+    // Data modification.
+    nodes.forEach(function(node) {
+      node.name = node.name.replace(/.{1,20} /g, '$&\n');
+      node.active = 0;
+      node.selected = false;
+      node.styleNode = node.type;
+    });
+
+    // Orbits.
+    system.append('g')
+      .attr('id', 'orbits')
+      .selectAll('circle')
+      .data(d3.range(10, width * 1.35, 75))
+      .enter().append('circle')
+      .attr('class', 'orbit')
+      .attr('cx', width/2)
+      .attr('cy', height/2)
+      .attr('r', function(d) { return d; })
+      .style('fill', 'none')
+      .style('stroke', 'black');
+
+    // Nodes.
+    g = system.append('g')
+      .attr('id', 'nodes')
+      .style('stroke', 'black')
+      .style('stroke-width', '1')
+      .style('fill', 'white')
+      .attr('transform', 'translate(' + diameter / 2 + ',' + diameter / 2 + ')');
+
+    // Center point of the system.
+    center = svgContainer.append('svg:circle')
+      .attr('class', 'center')
+      .style('fill', 'red')
+      .attr('r', 0)
+      .attr('cx', function() { return width/2; })
+      .attr('cy', function() { return height/2; });
+
+    //Links.
+    g.selectAll('.link')
+      .data(links)
+      .enter().append('path')
+      .attr('class', 'link')
+      .attr('d', function(d) {
+        function x(d) { return d.y * Math.cos((d.x - 90) / 180 * Math.PI); }
+        function y(d) { return d.y * Math.sin((d.x - 90) / 180 * Math.PI); }
+
+        return 'M' + x(d.source) + ',' + y(d.source) + 'L' + x(d.target) + ',' + y(d.target);
+      })
+      .style('stroke-width', 2);
+
+    // Circles.
+    var node = g.selectAll('.node')
+      .data(nodes)
+      .enter().append('g')
+      .attr('id', function(node, index) { return 'n' + index; })
+      .attr('class', 'node')
+      .attr('transform', function(d) { return 'rotate(' + (d.x - 90) + ')translate(' + d.y + ')'; });
+
+    // Nodes.
+    node.append('circle')
+      .attr('id', function(node, index) { return 'n' + index; })
+      .attr('r', function(node) { return nodeScale(node.selected); })
+      .style('fill', fillNode )
+      .style('stroke', function(node) { return (node.active) ?  'red' : 'black'; } )
+      .call(nodeEvent);
+
+    // Node titles.
+    node.append('text')
+      .attr('class', 'name')
+      .style('font-family', 'Verdana')
+      .style('stroke-width', '0')
+      .attr('text-anchor', 'middle')
+      .attr('transform', function(d) { return 'rotate(' + (-d.x + 90) + ')'; })
+      .text( textNode )
+      .call(nodeEvent);
+
+    // Node ID.
+    node.append('svg:text')
+      .attr('class', 'id')
+      .style('font-family', 'Verdana')
+      .attr('font-size', sizeText)
+      .attr('dy', 2)
+      .attr('dx', 0)
+      .attr('text-anchor', 'middle')
+      .attr('transform', function(d) { return 'rotate(' + (-d.x + 90) + ')'; })
+      .text( function(node) { return node.chronologicalId; } )
+      .call(nodeEvent);
+
+
+    // Public CDL API.
+    return {
+      setBackgroud: function() {
+        background.style('fill', 'white');
+      },
+      setCenter: function() {
+        center.attr('r', 10);
+      },
+      clearText: function(selection) {
+        selection.style('fill', 'none');
+      },
+      setRootStyle: function() {
+        // Update data.
+        var selection = d3.select('#n0');
+        selection.data().pop().styleNode = 'root';
+        nodes[0].styleNode = 'root';
+        // Style node.
+        styleNode();
+      },
+      selectNode: function(selection) {
+        var node = selection.data()[0];
+
+        // Update data.
+        selection.data().forEach(function(e) {
+          e.selected = true;
+          e.styleNode = 'selected';
+        });
+
+        _.each(_.where(nodes, {depth: node.depth}), function(e, index) {
+          nodes[index].styleNode = 'sibling';
+        });
+
+        // Style node.
+        styleNode();
+      }
+    };
+  }
+
+
   // Preparing scenario, content and rendering.
   prepareScenario();
 
   // Draw the elements with the promise of load data.
   preparingData().then(function(data) {
-    renderNetwork(data);
+    // Radial tree layout render.
+    c = new CDL(data);
+    c.setBackgroud();
+    // c.setCenter();
+
+    // Clear titles.
+    c.clearText(d3.select('#nodes').selectAll('.node').select('text'));
+    c.setRootStyle();
+
+
+    c.selectNode(d3.select('#n39'));
+
   });
 
 })();
