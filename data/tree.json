@@ -958,9 +958,9 @@
       "attachmentEntryID": "3BF355E9-41C3-1EB7-6FCC-C3DCCBFE9483"
      },
      "objectID": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
-     "name": "Newton detail 1.3 treatise on the origin of religion and its corruption.jpg",
+     "name": "Newton, treatise on the origin of religion and its corruption.jpg",
      "attachmentType": "1",
-     "location": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7\\Newton detail 1.3 treatise on the origin of religion and its corruption.jpg",
+     "location": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7\\Newton, treatise on the origin of religion and its corruption.jpg",
      "dataLength": "30805",
      "format": ".jpg"
     }
@@ -989,9 +989,9 @@
           "attachmentEntryID": "F1E91F6F-7E3F-50F0-7858-0FAAC4AC013D"
          },
          "objectID": "6CBFE979-B4EF-E377-DEA7-2F096D47FC66",
-         "name": "&#1504;&#1497;&#1493;&#1496;&#1493;&#1503; &#1495;&#1497;&#1513;&#1493;&#1489;&#1497; &#1511;&#1497;&#1510;&#1497;&#1503;.jpg",
+         "name": "Newton, Apocalyptic calculations.jpg",
          "attachmentType": "1",
-         "location": "6CBFE979-B4EF-E377-DEA7-2F096D47FC66\\&#1504;&#1497;&#1493;&#1496;&#1493;&#1503; &#1495;&#1497;&#1513;&#1493;&#1489;&#1497; &#1511;&#1497;&#1510;&#1497;&#1503;.jpg",
+         "location": "6CBFE979-B4EF-E377-DEA7-2F096D47FC66\\Newton, Apocalyptic calculations.jpg",
          "dataLength": "951594",
          "format": ".jpg"
         }
@@ -1005,20 +1005,8 @@
         {
          "guid": "05C16366-E98F-8859-A0D8-AA8FE3251A80",
          "name": ":2: Newton the Heretic",
-         "data": "\n<p  >Newton's extensive study of the Christian Doctrine brought him to the conclusion that the doctrine of the Trinity was a corruption of the original biblical doctrine. He believed that the Scriptures taught that God is one person and that this one person is the Father, while Christ is the literal Son of God, having no human father.</p>\n<p  >Newton hid his beliefs. Had his contemporaries known of them he would have been considered a heretic. He however, believed that he was the true Orthodox.</p>\n<p  >&#160;</p>\n<p  >&#160;</p>\n<p  dir=&quot;RTL&quot; ><span >על גבי הצילום:</span></p>\n<p  ><span >Par. 1 - The [word] God is no where in the scriptures used to signify more than the three persons at once.</span></p>\n<p  ><span >Par. 3 – When ever it is said in the scriptures that there is but one God, it is meant of the Father.</span></p>\n<p  >&#160;</p>\n",
+         "data": "\n<p  >Newton's extensive study of the Christian Doctrine brought him to the conclusion that the doctrine of the Trinity was a corruption of the original biblical doctrine. He believed that the Scriptures taught that God is one person and that this one person is the Father, while Christ is the literal Son of God, having no human father.</p>\n<p  >Newton hid his beliefs. Had his contemporaries known of them he would have been considered a heretic. He however, believed that he was the true Orthodox.</p>\n<p  >&#160;</p>\n<p  >&#160;</p>\n<p  dir=&quot;RTL&quot; >On the Photograph</p>\n<p  ><span >Par. 1 - The [word] God is no where in the scriptures used to signify more than the three persons at once.</span></p>\n<p  ><span >Par. 3 – When ever it is said in the scriptures that there is but one God, it is meant of the Father.</span></p>\n<p  >&#160;</p>\n",
          "attachments": [
-          {
-           "guid": "EC5D7549-B99C-19AC-2D5B-871F4468B82D",
-           "AttachmentEntries": {
-            "attachmentEntryID": "DA9A8C50-FA39-CD89-551A-A54E51F0FB72"
-           },
-           "objectID": "05C16366-E98F-8859-A0D8-AA8FE3251A80",
-           "name": "topdocumentaryfilms",
-           "attachmentType": "3",
-           "location": "http://topdocumentaryfilms.com/newton-the-dark-heretic/ ",
-           "dataLength": "0",
-           "format": ""
-          },
           {
            "guid": "0AAD8AD1-E347-D549-BE0D-D9C8A54B198F",
            "AttachmentEntries": {
@@ -1037,7 +1025,7 @@
             "attachmentEntryID": "DA9A8C50-FA39-CD89-551A-A54E51F0FB72"
            },
            "objectID": "05C16366-E98F-8859-A0D8-AA8FE3251A80",
-           "name": "Isaac Newton",
+           "name": "Isaac Newton, Rejector of the Trinity",
            "attachmentType": "3",
            "location": "http://www.youtube.com/watch?v=A2DWBjyVfNU",
            "dataLength": "0",
@@ -1181,11 +1169,10 @@
      "children": [
       {
        "guid": "E8096AB9-F897-17EA-4D1B-638B8A62ECD7",
-       "name": ":_: A.S.  Yahuda  Madrid- New-Haven - Jerusalem",
+       "name": "A.S.  Yahuda  Madrid- New-Haven - Jerusalem",
        "data": "",
        "attachments": [],
-       "type": "bastard",
-       "bastardName": "A.S.  Yahuda  Madrid- New-Haven - Jerusalem",
+       "type": "default",
        "parent": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
        "hasChronologicalChildren": true,
        "children": [
@@ -1497,9 +1484,9 @@
                   "attachmentEntryID": "6211AFD8-CC4E-2B06-09B9-1F72A591DFCA"
                  },
                  "objectID": "5B1844AA-E868-D84F-B0F5-5FCFDBEA65DE",
-                 "name": "14th century Qur&apos;an , Yahuda Ms.Ar.900.jpg",
+                 "name": "14th century Qur&apos;an, Egypt, Yahuda Ms.Ar.900.jpg",
                  "attachmentType": "1",
-                 "location": "5B1844AA-E868-D84F-B0F5-5FCFDBEA65DE\\14th century Qur&apos;an , Yahuda Ms.Ar.900.jpg",
+                 "location": "5B1844AA-E868-D84F-B0F5-5FCFDBEA65DE\\14th century Qur&apos;an, Egypt, Yahuda Ms.Ar.900.jpg",
                  "dataLength": "77472",
                  "format": ".jpg"
                 },
@@ -1521,9 +1508,9 @@
                   "attachmentEntryID": "6211AFD8-CC4E-2B06-09B9-1F72A591DFCA"
                  },
                  "objectID": "5B1844AA-E868-D84F-B0F5-5FCFDBEA65DE",
-                 "name": "Ms.Yah.Ar.954.jpg",
+                 "name": "Qur&apos;an, Kashmir, 18th century, Ms.Yah.Ar.954.jpg",
                  "attachmentType": "1",
-                 "location": "5B1844AA-E868-D84F-B0F5-5FCFDBEA65DE\\Ms.Yah.Ar.954.jpg",
+                 "location": "5B1844AA-E868-D84F-B0F5-5FCFDBEA65DE\\Qur&apos;an, Kashmir, 18th century, Ms.Yah.Ar.954.jpg",
                  "dataLength": "2205948",
                  "format": ".jpg"
                 }
@@ -1558,9 +1545,9 @@
       "attachmentEntryID": "31A58A28-27EF-14D5-5F8D-E3DF75721A6A"
      },
      "objectID": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
-     "name": "&#1511;&#1512;&#1497;&#1488;&#1492; &#1489;&#1514;&#1493;&#1512;&#1492;-&#1489;&#1512;&#1488;&#1513;&#1497;&#1514;, &#1505;&#1508;&#1512;&#1491;&#1497;&#1501; &#1497;&#1493;&#1493;&#1503; &#1495;&#1500;&#1511;&#1497;&#1505;.mp3",
+     "name": "Reading the Torah (Genesis), Spanish-Jewish liturgy, Greece.mp3",
      "attachmentType": "1",
-     "location": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3\\&#1511;&#1512;&#1497;&#1488;&#1492; &#1489;&#1514;&#1493;&#1512;&#1492;-&#1489;&#1512;&#1488;&#1513;&#1497;&#1514;, &#1505;&#1508;&#1512;&#1491;&#1497;&#1501; &#1497;&#1493;&#1493;&#1503; &#1495;&#1500;&#1511;&#1497;&#1505;.mp3",
+     "location": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3\\Reading the Torah (Genesis), Spanish-Jewish liturgy, Greece.mp3",
      "dataLength": "1568601",
      "format": ".mp3"
     }
@@ -1580,9 +1567,9 @@
         "attachmentEntryID": "B3814E1E-1154-DBFA-4BE8-915D2F8CD885"
        },
        "objectID": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
-       "name": "Receiving Torah.jpg",
+       "name": "Receiving the Torah, Prayer book, North Italy, c.1450.jpg",
        "attachmentType": "1",
-       "location": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1\\Receiving Torah.jpg",
+       "location": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1\\Receiving the Torah, Prayer book, North Italy, c.1450.jpg",
        "dataLength": "544154",
        "format": ".jpg"
       },
@@ -1592,9 +1579,9 @@
         "attachmentEntryID": "B3814E1E-1154-DBFA-4BE8-915D2F8CD885"
        },
        "objectID": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
-       "name": "__0005 copy.jpg",
+       "name": "The Torah Scroll from Spain, 5.jpg",
        "attachmentType": "1",
-       "location": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1\\__0005 copy.jpg",
+       "location": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1\\The Torah Scroll from Spain, 5.jpg",
        "dataLength": "1053432",
        "format": ".jpg"
       },
@@ -1616,9 +1603,9 @@
         "attachmentEntryID": "B3814E1E-1154-DBFA-4BE8-915D2F8CD885"
        },
        "objectID": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
-       "name": "pal0979 Jansson Moses1 (1).jpg",
+       "name": "Moses, a painting by Jansson.jpg",
        "attachmentType": "1",
-       "location": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1\\pal0979 Jansson Moses1 (1).jpg",
+       "location": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1\\Moses, a painting by Jansson.jpg",
        "dataLength": "58841",
        "format": ".jpg"
       }
@@ -1639,11 +1626,35 @@
           "attachmentEntryID": "5AEFBCC7-FC49-C8E3-228F-B286828190E4"
          },
          "objectID": "BEEF4DB1-AC8B-667A-BAE5-E0FAF2C9F03C",
-         "name": "Yaakov Reading Torah NLI 2",
+         "name": "Yaakov Fux Reading the Torah, NLI",
          "attachmentType": "3",
          "location": "http://youtu.be/kQDgTgOVRTo",
          "dataLength": "0",
          "format": ""
+        },
+        {
+         "guid": "65CA3070-7703-3C8F-A890-31A637DAA8B7",
+         "AttachmentEntries": {
+          "attachmentEntryID": "5AEFBCC7-FC49-C8E3-228F-B286828190E4"
+         },
+         "objectID": "BEEF4DB1-AC8B-667A-BAE5-E0FAF2C9F03C",
+         "name": "Ark.JPG",
+         "attachmentType": "1",
+         "location": "BEEF4DB1-AC8B-667A-BAE5-E0FAF2C9F03C\\Ark.JPG",
+         "dataLength": "75649",
+         "format": ".jpg"
+        },
+        {
+         "guid": "9DBE4FDC-0AD2-3CEF-EE8C-1E24F3FB45BA",
+         "AttachmentEntries": {
+          "attachmentEntryID": "5AEFBCC7-FC49-C8E3-228F-B286828190E4"
+         },
+         "objectID": "BEEF4DB1-AC8B-667A-BAE5-E0FAF2C9F03C",
+         "name": "Parochet.jpg",
+         "attachmentType": "1",
+         "location": "BEEF4DB1-AC8B-667A-BAE5-E0FAF2C9F03C\\Parochet.jpg",
+         "dataLength": "90342",
+         "format": ".jpg"
         }
        ],
        "type": "chronological",
@@ -1675,9 +1686,9 @@
             "attachmentEntryID": "08ED1ECA-BDFA-7EF8-F422-F5B3BEDD03AE"
            },
            "objectID": "4693F853-82C7-E7DA-A02F-5F91D4E39AA1",
-           "name": "Writing_a_torah.jpg",
+           "name": "Writing a torah.jpg",
            "attachmentType": "1",
-           "location": "4693F853-82C7-E7DA-A02F-5F91D4E39AA1\\Writing_a_torah.jpg",
+           "location": "4693F853-82C7-E7DA-A02F-5F91D4E39AA1\\Writing a torah.jpg",
            "dataLength": "12344",
            "format": ".jpg"
           }
@@ -1761,7 +1772,20 @@
              "guid": "EB0BE33B-5FF2-8FDB-5D5E-730404D3DFB6",
              "name": "The Reading Pointer",
              "data": "\n<p>The silver hand which serves as a reading pointer</p>\n",
-             "attachments": [],
+             "attachments": [
+              {
+               "guid": "DCCFE65F-33BD-2888-5F9E-FDE62F0D9702",
+               "AttachmentEntries": {
+                "attachmentEntryID": "34376A85-63CB-3EA5-339D-7CB7678112D1"
+               },
+               "objectID": "EB0BE33B-5FF2-8FDB-5D5E-730404D3DFB6",
+               "name": "Yad LaTorah - a reading pointer.jpg",
+               "attachmentType": "1",
+               "location": "EB0BE33B-5FF2-8FDB-5D5E-730404D3DFB6\\Yad LaTorah - a reading pointer.jpg",
+               "dataLength": "3210",
+               "format": ".jpg"
+              }
+             ],
              "type": "default",
              "parent": "40BCD461-02F1-B477-4FEB-22F466AC828B",
              "hasChronologicalChildren": false,
@@ -1778,9 +1802,9 @@
                 "attachmentEntryID": "B4DF5F84-170A-A5AE-7348-CD9EB3FF42C8"
                },
                "objectID": "D7DD61A0-2E58-85AB-0653-C98D58FC2ABD",
-               "name": "220px-TorahBreastPlate.jpg",
+               "name": "Torah Breastplate.jpg",
                "attachmentType": "1",
-               "location": "D7DD61A0-2E58-85AB-0653-C98D58FC2ABD\\220px-TorahBreastPlate.jpg",
+               "location": "D7DD61A0-2E58-85AB-0653-C98D58FC2ABD\\Torah Breastplate.jpg",
                "dataLength": "19206",
                "format": ".jpg"
               }
@@ -1800,7 +1824,7 @@
     },
     {
      "guid": "7F13F425-9474-7539-509D-FEDE3A2F8619",
-     "name": ":_: Other Torah manuscripts at the NLI",
+     "name": "Other Torah manuscripts at the NLI",
      "data": "\n<p>The NLI houses a large collection of Torah manuscripts. We present to you here some of the finest of them, Scrolls as well as Codices.</p>\n",
      "attachments": [
       {
@@ -1809,15 +1833,14 @@
         "attachmentEntryID": "E9157AFB-CE97-B32B-5BFB-5CD15C84DC9C"
        },
        "objectID": "7F13F425-9474-7539-509D-FEDE3A2F8619",
-       "name": "&#1499;&#1514;&#1512; &#1491;&#1502;&#1513;&#1511; &#1502;&#1510;&#1512;&#1508;&#1514; &#1488;&#1493; &#1490;&#1512;&#1502;&#1504;&#1497;&#1492; &#1502;&#1488;&#1492; 13.jpg",
+       "name": "A Damascus Crown, France or Germany, 13th century.jpg",
        "attachmentType": "1",
-       "location": "7F13F425-9474-7539-509D-FEDE3A2F8619\\&#1499;&#1514;&#1512; &#1491;&#1502;&#1513;&#1511; &#1502;&#1510;&#1512;&#1508;&#1514; &#1488;&#1493; &#1490;&#1512;&#1502;&#1504;&#1497;&#1492; &#1502;&#1488;&#1492; 13.jpg",
+       "location": "7F13F425-9474-7539-509D-FEDE3A2F8619\\A Damascus Crown, France or Germany, 13th century.jpg",
        "dataLength": "37476",
        "format": ".jpg"
       }
      ],
-     "type": "bastard",
-     "bastardName": "Other Torah manuscripts at the NLI",
+     "type": "default",
      "parent": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
      "hasChronologicalChildren": false,
      "children": [
@@ -1832,11 +1855,23 @@
           "attachmentEntryID": "02D14362-56F6-0AF2-F9E3-E0D1EA096407"
          },
          "objectID": "EB4FD149-5DEF-8C54-818E-9F93C286A13E",
-         "name": "Sequence01",
+         "name": "Interview with Benjamin Richler",
          "attachmentType": "3",
          "location": "http://youtu.be/jAsepl1nmN4",
          "dataLength": "0",
          "format": ""
+        },
+        {
+         "guid": "874EBB78-011D-04EB-9D52-02808BB369CF",
+         "AttachmentEntries": {
+          "attachmentEntryID": "02D14362-56F6-0AF2-F9E3-E0D1EA096407"
+         },
+         "objectID": "EB4FD149-5DEF-8C54-818E-9F93C286A13E",
+         "name": "Benjamin Richler and the Edel Torah.jpg",
+         "attachmentType": "1",
+         "location": "EB4FD149-5DEF-8C54-818E-9F93C286A13E\\Benjamin Richler and the Edel Torah.jpg",
+         "dataLength": "65203",
+         "format": ".jpg"
         }
        ],
        "type": "default",
@@ -1855,9 +1890,9 @@
           "attachmentEntryID": "5596380C-5B45-F7A3-916A-EC6340301A19"
          },
          "objectID": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0",
-         "name": "&#1514;&#1493;&#1512;&#1492; &#1502;&#1512;&#1493;&#1491;&#1493;&#1505; - &#1502;&#1490;&#1497;&#1500;&#1492; &#1502;&#1514;&#1497;&#1502;&#1503; &#1506;&#1502;&#1493;&#1491; 23 &#1489;&#1491;&#1497;&#1490;&#1497;&#1496;&#1493;&#1500;.jpg",
+         "name": "A Torah Scroll from Yemen, 11th-12th centuries.jpg",
          "attachmentType": "1",
-         "location": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0\\&#1514;&#1493;&#1512;&#1492; &#1502;&#1512;&#1493;&#1491;&#1493;&#1505; - &#1502;&#1490;&#1497;&#1500;&#1492; &#1502;&#1514;&#1497;&#1502;&#1503; &#1506;&#1502;&#1493;&#1491; 23 &#1489;&#1491;&#1497;&#1490;&#1497;&#1496;&#1493;&#1500;.jpg",
+         "location": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0\\A Torah Scroll from Yemen, 11th-12th centuries.jpg",
          "dataLength": "4832937",
          "format": ".jpg"
         },
@@ -1867,9 +1902,9 @@
           "attachmentEntryID": "5596380C-5B45-F7A3-916A-EC6340301A19"
          },
          "objectID": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0",
-         "name": "&#1514;&#1493;&#1512;&#1492; &#1502;&#1512;&#1493;&#1491;&#1493;&#1505; - &#1502;&#1490;&#1497;&#1500;&#1492; &#1502;&#1488;&#1513;&#1499;&#1504;&#1494;, &#1506;&#1502;&#1493;&#1491; 27 &#1489;&#1491;&#1497;&#1490;&#1497;&#1496;&#1493;&#1500;.jpg",
+         "name": "A Torah Scroll, Germany, 15th century.jpg",
          "attachmentType": "1",
-         "location": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0\\&#1514;&#1493;&#1512;&#1492; &#1502;&#1512;&#1493;&#1491;&#1493;&#1505; - &#1502;&#1490;&#1497;&#1500;&#1492; &#1502;&#1488;&#1513;&#1499;&#1504;&#1494;, &#1506;&#1502;&#1493;&#1491; 27 &#1489;&#1491;&#1497;&#1490;&#1497;&#1496;&#1493;&#1500;.jpg",
+         "location": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0\\A Torah Scroll, Germany, 15th century.jpg",
          "dataLength": "4136686",
          "format": ".jpg"
         }
@@ -1890,9 +1925,9 @@
           "attachmentEntryID": "FAD8511B-358D-4DE0-1DB3-D97A21DBB929"
          },
          "objectID": "277C7CA7-F6EA-FFD0-D111-E975E0D01409",
-         "name": "&#1499;&#1514;&#1512; &#1491;&#1502;&#1513;&#1511;, &#1514;&#1493;&#1512;&#1492; &#1504;&#1489;&#1497;&#1488;&#1497;&#1501; &#1493;&#1499;&#1514;&#1493;&#1489;&#1497;&#1501; &#1506;&#1501; &#1504;&#1497;&#1511;&#1493;&#1491; &#1496;&#1506;&#1502;&#1497;&#1501; &#1502;&#1505;&#1493;&#1512;&#1492; &#1490;&#1491;&#1493;&#1500;&#1492; &#1493;&#1511;&#1496;&#1504;&#1492;.jpg",
+         "name": "A Damascus Crown with Cantillation (chanting marks).jpg",
          "attachmentType": "1",
-         "location": "277C7CA7-F6EA-FFD0-D111-E975E0D01409\\&#1499;&#1514;&#1512; &#1491;&#1502;&#1513;&#1511;, &#1514;&#1493;&#1512;&#1492; &#1504;&#1489;&#1497;&#1488;&#1497;&#1501; &#1493;&#1499;&#1514;&#1493;&#1489;&#1497;&#1501; &#1506;&#1501; &#1504;&#1497;&#1511;&#1493;&#1491; &#1496;&#1506;&#1502;&#1497;&#1501; &#1502;&#1505;&#1493;&#1512;&#1492; &#1490;&#1491;&#1493;&#1500;&#1492; &#1493;&#1511;&#1496;&#1504;&#1492;.jpg",
+         "location": "277C7CA7-F6EA-FFD0-D111-E975E0D01409\\A Damascus Crown with Cantillation (chanting marks).jpg",
          "dataLength": "88861",
          "format": ".jpg"
         },
@@ -1902,9 +1937,9 @@
           "attachmentEntryID": "FAD8511B-358D-4DE0-1DB3-D97A21DBB929"
          },
          "objectID": "277C7CA7-F6EA-FFD0-D111-E975E0D01409",
-         "name": "&#1499;&#1514;&#1512; &#1491;&#1502;&#1513;&#1511; &#1502;&#1489;&#1493;&#1512;&#1490;&#1493;&#1505; 3.jpg",
+         "name": "The Damascus Crown from Burgos.jpg",
          "attachmentType": "1",
-         "location": "277C7CA7-F6EA-FFD0-D111-E975E0D01409\\&#1499;&#1514;&#1512; &#1491;&#1502;&#1513;&#1511; &#1502;&#1489;&#1493;&#1512;&#1490;&#1493;&#1505; 3.jpg",
+         "location": "277C7CA7-F6EA-FFD0-D111-E975E0D01409\\The Damascus Crown from Burgos.jpg",
          "dataLength": "237609",
          "format": ".jpg"
         },
@@ -1914,9 +1949,9 @@
           "attachmentEntryID": "FAD8511B-358D-4DE0-1DB3-D97A21DBB929"
          },
          "objectID": "277C7CA7-F6EA-FFD0-D111-E975E0D01409",
-         "name": "&#1499;&#1514;&#1512; &#1491;&#1502;&#1513;&#1511; &#1502;&#1489;&#1493;&#1512;&#1490;&#1493;&#1505; 5 &#1505;&#1493;&#1507; &#1489;&#1512;&#1488;&#1513;&#1497;&#1514; &#1493;&#1514;&#1495;&#1497;&#1500;&#1514; &#1513;&#1502;&#1493;&#1514;.jpg",
+         "name": "The Damascus Crown from Burgos, end of Genesis and beginning of Exodus.jpg",
          "attachmentType": "1",
-         "location": "277C7CA7-F6EA-FFD0-D111-E975E0D01409\\&#1499;&#1514;&#1512; &#1491;&#1502;&#1513;&#1511; &#1502;&#1489;&#1493;&#1512;&#1490;&#1493;&#1505; 5 &#1505;&#1493;&#1507; &#1489;&#1512;&#1488;&#1513;&#1497;&#1514; &#1493;&#1514;&#1495;&#1497;&#1500;&#1514; &#1513;&#1502;&#1493;&#1514;.jpg",
+         "location": "277C7CA7-F6EA-FFD0-D111-E975E0D01409\\The Damascus Crown from Burgos, end of Genesis and beginning of Exodus.jpg",
          "dataLength": "238531",
          "format": ".jpg"
         }
@@ -1939,9 +1974,9 @@
         "attachmentEntryID": "2BDBE433-F734-8913-9CEE-EA3142516AC9"
        },
        "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
-       "name": "__0007 copy.jpg",
+       "name": "The Torah Scroll from Spain, no.7 .jpg",
        "attachmentType": "1",
-       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\__0007 copy.jpg",
+       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah Scroll from Spain, no.7 .jpg",
        "dataLength": "381645",
        "format": ".jpg"
       },
@@ -1951,9 +1986,9 @@
         "attachmentEntryID": "2BDBE433-F734-8913-9CEE-EA3142516AC9"
        },
        "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
-       "name": "__0013 copy.jpg",
+       "name": "The Torah Scroll from Spain, no.13.jpg",
        "attachmentType": "1",
-       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\__0013 copy.jpg",
+       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah Scroll from Spain, no.13.jpg",
        "dataLength": "691971",
        "format": ".jpg"
       },
@@ -1963,9 +1998,9 @@
         "attachmentEntryID": "2BDBE433-F734-8913-9CEE-EA3142516AC9"
        },
        "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
-       "name": "__0010 copy.jpg",
+       "name": "The Torah Scroll from Spain, no.10.jpg",
        "attachmentType": "1",
-       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\__0010 copy.jpg",
+       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah Scroll from Spain, no.10.jpg",
        "dataLength": "639057",
        "format": ".jpg"
       },
@@ -1975,9 +2010,9 @@
         "attachmentEntryID": "2BDBE433-F734-8913-9CEE-EA3142516AC9"
        },
        "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
-       "name": "__0011 copy.jpg",
+       "name": "The Torah Scroll from Spain, no.11.jpg",
        "attachmentType": "1",
-       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\__0011 copy.jpg",
+       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah Scroll from Spain, no.11.jpg",
        "dataLength": "509226",
        "format": ".jpg"
       }
@@ -1999,9 +2034,9 @@
           "attachmentEntryID": "2FD4101E-7E59-D0CE-25AF-F5D6F1A59249"
          },
          "objectID": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9",
-         "name": "Sepharadic_Migrations.jpg",
+         "name": "Map of the Spanish-Jews&apos; Migrations.jpg",
          "attachmentType": "1",
-         "location": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9\\Sepharadic_Migrations.jpg",
+         "location": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9\\Map of the Spanish-Jews&apos; Migrations.jpg",
          "dataLength": "134188",
          "format": ".jpg"
         },
@@ -2011,9 +2046,9 @@
           "attachmentEntryID": "2FD4101E-7E59-D0CE-25AF-F5D6F1A59249"
          },
          "objectID": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9",
-         "name": "&#1497;&#1510;&#1495;&#1511; &#1500;&#1493;&#1497; una pastora CD-03865_V0U_01&#1494;&#1499;&#1493;&#1497;&#1493;&#1514;!!.mp3",
+         "name": "A Hbrew-Spanish (Ladino) song_ Una Pastora, Isaac Levy.mp3",
          "attachmentType": "1",
-         "location": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9\\&#1497;&#1510;&#1495;&#1511; &#1500;&#1493;&#1497; una pastora CD-03865_V0U_01&#1494;&#1499;&#1493;&#1497;&#1493;&#1514;!!.mp3",
+         "location": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9\\A Hbrew-Spanish (Ladino) song_ Una Pastora, Isaac Levy.mp3",
          "dataLength": "3047616",
          "format": ".mp3"
         },
@@ -2023,9 +2058,9 @@
           "attachmentEntryID": "2FD4101E-7E59-D0CE-25AF-F5D6F1A59249"
          },
          "objectID": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9",
-         "name": "&#1488;&#1501; &#1497;&#1513; &#1488;&#1497; &#1513;&#1501; &#1512;&#1495;&#1493;&#1511; MCD-0077_16 &#1494;&#1499;&#1493;&#1497;&#1493;&#1514;!!.mp3",
+         "name": "An Israeli song based on a Ladino song_ &apos;Im Yesh Ey Sham Rahok&apos; (If there is a place far far away).mp3",
          "attachmentType": "1",
-         "location": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9\\&#1488;&#1501; &#1497;&#1513; &#1488;&#1497; &#1513;&#1501; &#1512;&#1495;&#1493;&#1511; MCD-0077_16 &#1494;&#1499;&#1493;&#1497;&#1493;&#1514;!!.mp3",
+         "location": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9\\An Israeli song based on a Ladino song_ &apos;Im Yesh Ey Sham Rahok&apos; (If there is a place far far away).mp3",
          "dataLength": "6429885",
          "format": ".mp3"
         }
@@ -2071,9 +2106,9 @@
             "attachmentEntryID": "9D9EC1C7-11FD-C6CE-BF73-873111D8CD6A"
            },
            "objectID": "F8D25BDD-4C45-9623-9A0D-6A7188E4C10A",
-           "name": "&#1508;&#1497;&#1493;&#1496;&#1497;&#1501; &#1500;&#1492;&#1511;&#1508;&#1493;&#1514;, &#1505;&#1500;&#1493;&#1504;&#1497;&#1511;&#1497; &#1506;&#1489;&#1512;&#1497;&#1514; &#1493;&#1505;&#1508;&#1512;&#1491;&#1497;&#1514;-&#1497;&#1492;&#1493;&#1491;&#1497;&#1514;, &#1500;&#1511;&#1496; &#1505;&#1493;&#1499;&#1493;&#1514; &#1493;&#1513;&#1502;&#1495;&#1514; &#1514;&#1493;&#1512;&#1492; Y197.mp3",
+           "name": "Piyyut. Jewish liturgical poem, Thessalonica, Spanish-Hebrew and Hebrew.mp3",
            "attachmentType": "1",
-           "location": "F8D25BDD-4C45-9623-9A0D-6A7188E4C10A\\&#1508;&#1497;&#1493;&#1496;&#1497;&#1501; &#1500;&#1492;&#1511;&#1508;&#1493;&#1514;, &#1505;&#1500;&#1493;&#1504;&#1497;&#1511;&#1497; &#1506;&#1489;&#1512;&#1497;&#1514; &#1493;&#1505;&#1508;&#1512;&#1491;&#1497;&#1514;-&#1497;&#1492;&#1493;&#1491;&#1497;&#1514;, &#1500;&#1511;&#1496; &#1505;&#1493;&#1499;&#1493;&#1514; &#1493;&#1513;&#1502;&#1495;&#1514; &#1514;&#1493;&#1512;&#1492; Y197.mp3",
+           "location": "F8D25BDD-4C45-9623-9A0D-6A7188E4C10A\\Piyyut. Jewish liturgical poem, Thessalonica, Spanish-Hebrew and Hebrew.mp3",
            "dataLength": "1138729",
            "format": ".mp3"
           },
@@ -2083,9 +2118,9 @@
             "attachmentEntryID": "9D9EC1C7-11FD-C6CE-BF73-873111D8CD6A"
            },
            "objectID": "F8D25BDD-4C45-9623-9A0D-6A7188E4C10A",
-           "name": "&#1489;&#1502;&#1493;&#1510;&#1488;&#1497; &#1497;&#1493;&#1501; &#1502;&#1504;&#1493;&#1495;&#1492;, &#1505;&#1508;&#1512;&#1491;&#1497;&#1501;, &#1488;&#1494;&#1502;&#1497;&#1512; &#1496;&#1493;&#1512;&#1511;&#1497;&#1492;.mp3",
+           "name": "Sepharadic song for the end of Sturday, Smyrna.mp3",
            "attachmentType": "1",
-           "location": "F8D25BDD-4C45-9623-9A0D-6A7188E4C10A\\&#1489;&#1502;&#1493;&#1510;&#1488;&#1497; &#1497;&#1493;&#1501; &#1502;&#1504;&#1493;&#1495;&#1492;, &#1505;&#1508;&#1512;&#1491;&#1497;&#1501;, &#1488;&#1494;&#1502;&#1497;&#1512; &#1496;&#1493;&#1512;&#1511;&#1497;&#1492;.mp3",
+           "location": "F8D25BDD-4C45-9623-9A0D-6A7188E4C10A\\Sepharadic song for the end of Sturday, Smyrna.mp3",
            "dataLength": "2845049",
            "format": ".mp3"
           }
@@ -2119,9 +2154,9 @@
               "attachmentEntryID": "7A95DC57-B9DF-469B-4ABD-AF3E7D5B89AF"
              },
              "objectID": "DC714013-3F75-D6D6-147E-175C6A4DE4B7",
-             "name": "Durme Durme  &#1500;&#1488;&#1491;&#1497;&#1504;&#1493;MCD-0123_10 &#1494;&#1499;&#1493;&#1497;&#1493;&#1514;!!.mp3",
+             "name": "A Sepharadic Ladino song, Durme Durme, Sarah Gorby.mp3",
              "attachmentType": "1",
-             "location": "DC714013-3F75-D6D6-147E-175C6A4DE4B7\\Durme Durme  &#1500;&#1488;&#1491;&#1497;&#1504;&#1493;MCD-0123_10 &#1494;&#1499;&#1493;&#1497;&#1493;&#1514;!!.mp3",
+             "location": "DC714013-3F75-D6D6-147E-175C6A4DE4B7\\A Sepharadic Ladino song, Durme Durme, Sarah Gorby.mp3",
              "dataLength": "4765989",
              "format": ".mp3"
             },
@@ -2131,9 +2166,9 @@
               "attachmentEntryID": "7A95DC57-B9DF-469B-4ABD-AF3E7D5B89AF"
              },
              "objectID": "DC714013-3F75-D6D6-147E-175C6A4DE4B7",
-             "name": "Suleyman Kasiloglou.jpg",
+             "name": "Suleyman Kasiloglou, The Mufti of Rhodes.jpg",
              "attachmentType": "1",
-             "location": "DC714013-3F75-D6D6-147E-175C6A4DE4B7\\Suleyman Kasiloglou.jpg",
+             "location": "DC714013-3F75-D6D6-147E-175C6A4DE4B7\\Suleyman Kasiloglou, The Mufti of Rhodes.jpg",
              "dataLength": "230876",
              "format": ".jpg"
             },
@@ -2221,26 +2256,14 @@
    "data": "\n<p ><span >Elimelech Basch was a member of the Jewish community of Tyachiv in eastern Hungary (today western Ukraine), invaded by the Nazis in March 1944. Between the years 1942-1944 Basch kept a diary, written in fine Hebrew</span><b><span >, </span></b><span >which describes the situation of the Jewish community there. During this period the Jews suffered from the oppressive Hungarian and Nazi regimes and moved between despair and hope.</span></p>\n<p ><span >During the Jewish festival of Shavuot, May 1944, the Jews of Tyachiv were all deported to Auschwitz.&#160; Of the Basch family - parents and their eight children – only one survived.</span></p>\n<p >&#160;</p>\n<p  ><b><span >Photo</span></b><span >: The Basch family at the beginning of the 1930's. &#160;</span></p>\n<p><span >Highlighted is the only surviving member of the family, Mrs. Perhiya Senderovich (formerly Bluma Blanka Basch), who now lives in Israel.</span></p>\n",
    "attachments": [
     {
-     "guid": "B8905F59-DB8D-527B-E7BB-7FF00F9DC178",
-     "AttachmentEntries": {
-      "attachmentEntryID": "DF57196A-3A60-3FBC-6A34-948EEA4FD0CD"
-     },
-     "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-     "name": "basch yediot 82E166AAd01-2.jpg",
-     "attachmentType": "1",
-     "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\basch yediot 82E166AAd01-2.jpg",
-     "dataLength": "149281",
-     "format": ".jpg"
-    },
-    {
      "guid": "FE695861-1DE7-0219-2B5A-E561E57589F3",
      "AttachmentEntries": {
       "attachmentEntryID": "DF57196A-3A60-3FBC-6A34-948EEA4FD0CD"
      },
      "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-     "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 1 - DOR 1.jpg",
+     "name": "The Basch Diary, 1.jpg",
      "attachmentType": "1",
-     "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 1 - DOR 1.jpg",
+     "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\The Basch Diary, 1.jpg",
      "dataLength": "60418",
      "format": ".jpg"
     },
@@ -2250,9 +2273,9 @@
       "attachmentEntryID": "DF57196A-3A60-3FBC-6A34-948EEA4FD0CD"
      },
      "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-     "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 2 - DOR 1.jpg",
+     "name": "The Basch Diary, 2.jpg",
      "attachmentType": "1",
-     "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 2 - DOR 1.jpg",
+     "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\The Basch Diary, 2.jpg",
      "dataLength": "57179",
      "format": ".jpg"
     },
@@ -2262,9 +2285,9 @@
       "attachmentEntryID": "DF57196A-3A60-3FBC-6A34-948EEA4FD0CD"
      },
      "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-     "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 3 - DOR 1.jpg",
+     "name": "The Basch Diary, 3.jpg",
      "attachmentType": "1",
-     "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 3 - DOR 1.jpg",
+     "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\The Basch Diary, 3.jpg",
      "dataLength": "73786",
      "format": ".jpg"
     },
@@ -2274,9 +2297,9 @@
       "attachmentEntryID": "DF57196A-3A60-3FBC-6A34-948EEA4FD0CD"
      },
      "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-     "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 4 - DOR 1.jpg",
+     "name": "The Basch Diary, 4.jpg",
      "attachmentType": "1",
-     "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 4 - DOR 1.jpg",
+     "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\The Basch Diary, 4.jpg",
      "dataLength": "60214",
      "format": ".jpg"
     },
@@ -2286,10 +2309,22 @@
       "attachmentEntryID": "DF57196A-3A60-3FBC-6A34-948EEA4FD0CD"
      },
      "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-     "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 5 - DOR 1.jpg",
+     "name": "The Basch Diary. 5.jpg",
      "attachmentType": "1",
-     "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 5 - DOR 1.jpg",
+     "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\The Basch Diary. 5.jpg",
      "dataLength": "28249",
+     "format": ".jpg"
+    },
+    {
+     "guid": "572B866E-028B-6A23-4FD8-6ED0917C920A",
+     "AttachmentEntries": {
+      "attachmentEntryID": "DF57196A-3A60-3FBC-6A34-948EEA4FD0CD"
+     },
+     "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+     "name": "Photograph of The Basch family.jpg",
+     "attachmentType": "1",
+     "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\Photograph of The Basch family.jpg",
+     "dataLength": "149281",
      "format": ".jpg"
     }
    ],
@@ -2308,9 +2343,9 @@
         "attachmentEntryID": "0C139FAF-2A88-BD05-AC16-197E05568647"
        },
        "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
-       "name": "&#1502;&#1495;&#1494;&#1493;&#1512; &#1493;&#1493;&#1512;&#1502;&#1505; &#1508;&#1514;&#1497;&#1495;&#1492; &#1510;&#1497;&#1508;&#1493;&#1512; 1.jpg",
+       "name": "Mahzor Worms Festival Prayerbook, opening page.jpg",
        "attachmentType": "1",
-       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\&#1502;&#1495;&#1494;&#1493;&#1512; &#1493;&#1493;&#1512;&#1502;&#1505; &#1508;&#1514;&#1497;&#1495;&#1492; &#1510;&#1497;&#1508;&#1493;&#1512; 1.jpg",
+       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Mahzor Worms Festival Prayerbook, opening page.jpg",
        "dataLength": "2492409",
        "format": ".jpg"
       },
@@ -2320,9 +2355,9 @@
         "attachmentEntryID": "0C139FAF-2A88-BD05-AC16-197E05568647"
        },
        "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
-       "name": "&#1502;&#1495;&#1494;&#1493;&#1512; &#1493;&#1493;&#1512;&#1502;&#1505; &#1508;&#1493;&#1512;&#1497;&#1501; &#1493;&#1497;&#1488;&#1492;&#1489; 2.jpg",
+       "name": "Mahzor Worms Festival Prayerbook, &apos;Va Yohav&apos;.jpg",
        "attachmentType": "1",
-       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\&#1502;&#1495;&#1494;&#1493;&#1512; &#1493;&#1493;&#1512;&#1502;&#1505; &#1508;&#1493;&#1512;&#1497;&#1501; &#1493;&#1497;&#1488;&#1492;&#1489; 2.jpg",
+       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Mahzor Worms Festival Prayerbook, &apos;Va Yohav&apos;.jpg",
        "dataLength": "2349557",
        "format": ".jpg"
       },
@@ -2332,9 +2367,9 @@
         "attachmentEntryID": "0C139FAF-2A88-BD05-AC16-197E05568647"
        },
        "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
-       "name": "&#1502;&#1495;&#1494;&#1493;&#1512; &#1493;&#1493;&#1512;&#1502;&#1505; &#1508;&#1493;&#1512;&#1497;&#1501; &#1510;&#1497;&#1493;&#1512; 3.jpg",
+       "name": "Mahzor Worms Festival Prayerbook, Purim.jpg",
        "attachmentType": "1",
-       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\&#1502;&#1495;&#1494;&#1493;&#1512; &#1493;&#1493;&#1512;&#1502;&#1505; &#1508;&#1493;&#1512;&#1497;&#1501; &#1510;&#1497;&#1493;&#1512; 3.jpg",
+       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Mahzor Worms Festival Prayerbook, Purim.jpg",
        "dataLength": "2751168",
        "format": ".jpg"
       },
@@ -2344,9 +2379,9 @@
         "attachmentEntryID": "0C139FAF-2A88-BD05-AC16-197E05568647"
        },
        "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
-       "name": "&#1502;&#1495;&#1494;&#1493;&#1512; &#1493;&#1493;&#1512;&#1502;&#1505; &#1510;&#1497;&#1493;&#1512;&#1497;&#1501; &#1489;&#1502;&#1491;&#1500;&#1497;&#1493;&#1504;&#1497;&#1501; 4.jpg",
+       "name": "Mahzor Worms Festival Prayerbook, Medalions.jpg",
        "attachmentType": "1",
-       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\&#1502;&#1495;&#1494;&#1493;&#1512; &#1493;&#1493;&#1512;&#1502;&#1505; &#1510;&#1497;&#1493;&#1512;&#1497;&#1501; &#1489;&#1502;&#1491;&#1500;&#1497;&#1493;&#1504;&#1497;&#1501; 4.jpg",
+       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Mahzor Worms Festival Prayerbook, Medalions.jpg",
        "dataLength": "2930400",
        "format": ".jpg"
       },
@@ -2356,9 +2391,9 @@
         "attachmentEntryID": "0C139FAF-2A88-BD05-AC16-197E05568647"
        },
        "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
-       "name": "&#1511;&#1512;&#1497;&#1488;&#1492; &#1489;&#1514;&#1493;&#1512;&#1492;-&#1489;&#1512;&#1488;&#1513;&#1497;&#1514;, &#1505;&#1508;&#1512;&#1491;&#1497;&#1501; &#1497;&#1493;&#1493;&#1503; &#1495;&#1500;&#1511;&#1497;&#1505;.mp3",
+       "name": "Reading the Torah (Genesis), Spanish-Jewish liturgy, Greece.mp3",
        "attachmentType": "1",
-       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\&#1511;&#1512;&#1497;&#1488;&#1492; &#1489;&#1514;&#1493;&#1512;&#1492;-&#1489;&#1512;&#1488;&#1513;&#1497;&#1514;, &#1505;&#1508;&#1512;&#1491;&#1497;&#1501; &#1497;&#1493;&#1493;&#1503; &#1495;&#1500;&#1511;&#1497;&#1505;.mp3",
+       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Reading the Torah (Genesis), Spanish-Jewish liturgy, Greece.mp3",
        "dataLength": "1568601",
        "format": ".mp3"
       },
@@ -2368,9 +2403,9 @@
         "attachmentEntryID": "0C139FAF-2A88-BD05-AC16-197E05568647"
        },
        "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
-       "name": "&#1514;&#1497;&#1511;&#1493;&#1503; &#1492;&#1490;&#1513;&#1501; &#1502;&#1499;&#1505;&#1492; &#1513;&#1502;&#1497;&#1497;&#1501;, &#1488;&#1497;&#1496;&#1500;&#1497;&#1492; &#1500;&#1511;&#1496; &#1505;&#1493;&#1499;&#1493;&#1514; &#1493;&#1513;&#1502;&#1495;&#1514; &#1514;&#1493;&#1512;&#1492; Y3899.mp3",
+       "name": "Prayer for Rain, &apos;Tikun Ha-Geshem&apos;, Italy.mp3",
        "attachmentType": "1",
-       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\&#1514;&#1497;&#1511;&#1493;&#1503; &#1492;&#1490;&#1513;&#1501; &#1502;&#1499;&#1505;&#1492; &#1513;&#1502;&#1497;&#1497;&#1501;, &#1488;&#1497;&#1496;&#1500;&#1497;&#1492; &#1500;&#1511;&#1496; &#1505;&#1493;&#1499;&#1493;&#1514; &#1493;&#1513;&#1502;&#1495;&#1514; &#1514;&#1493;&#1512;&#1492; Y3899.mp3",
+       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Prayer for Rain, &apos;Tikun Ha-Geshem&apos;, Italy.mp3",
        "dataLength": "990354",
        "format": ".mp3"
       }
@@ -2383,7 +2418,7 @@
       {
        "guid": "F8A8EC39-68D8-ECCF-6F51-12C17F60061D",
        "name": "A national language",
-       "data": "\n<p ><span >During the second half of the 19<sup>th</sup> century, when National movements in Europe arose, the Jewish Zionist movement was one of them. The revival of the ancient Hebrew language was one of the important goals of the Zionist movement. This explains why Elimelech Bash chose to write his diary in Hebrew.</span></p>\n<p ><span >Today, Hebrew is the official language of Israel and is the main spoken language in the country.</span></p>\n<p ><span >&#160;</span></p>\n<p ><span >Photo: <i>Hatikva</i>, Hymn of the state of Israel, written by Naphtali Herz Imber, in his own hanwriting. &#160;1907-8.</span></p>\n",
+       "data": "\n<p ><span >During the second half of the 19<sup>th</sup> century, when National movements in Europe arose, the Jewish Zionist movement was one of them. The revival of the ancient Hebrew language was one of the important goals of the Zionist movement. This explains why Elimelech Bash chose to write his diary in Hebrew.</span></p>\n<p ><span >Today, Hebrew is the official language of Israel and is the main spoken language in the country.</span></p>\n<p >&#160;</p>\n<p ><span >Photo: <i>Hatikva</i>, Hymn of the state of Israel, written by Naphtali Herz Imber, in his own hanwriting. &#160;1907-8.</span></p>\n",
        "attachments": [
         {
          "guid": "ABB6FACC-DE67-AD37-D51B-DC8BC04AA3CF",
@@ -2391,9 +2426,9 @@
           "attachmentEntryID": "C3F2B4E3-9DDC-8EC4-E871-9509C41972D0"
          },
          "objectID": "F8A8EC39-68D8-ECCF-6F51-12C17F60061D",
-         "name": "&#1492;&#1514;&#1511;&#1493;&#1493;&#1492; 1.jpg",
+         "name": "Ha Tikva - The Israeli Anthem, an autograph by N.H. Imber.jpg",
          "attachmentType": "1",
-         "location": "F8A8EC39-68D8-ECCF-6F51-12C17F60061D\\&#1492;&#1514;&#1511;&#1493;&#1493;&#1492; 1.jpg",
+         "location": "F8A8EC39-68D8-ECCF-6F51-12C17F60061D\\Ha Tikva - The Israeli Anthem, an autograph by N.H. Imber.jpg",
          "dataLength": "86983",
          "format": ".jpg"
         },
@@ -2403,9 +2438,9 @@
           "attachmentEntryID": "C3F2B4E3-9DDC-8EC4-E871-9509C41972D0"
          },
          "objectID": "F8A8EC39-68D8-ECCF-6F51-12C17F60061D",
-         "name": "&#1492;&#1514;&#1511;&#1493;&#1493;&#1492; 6756526_CD-06870_V0U_04.mp3",
+         "name": "Ha Tikva - The Israeli Anthem,.mp3",
          "attachmentType": "1",
-         "location": "F8A8EC39-68D8-ECCF-6F51-12C17F60061D\\&#1492;&#1514;&#1511;&#1493;&#1493;&#1492; 6756526_CD-06870_V0U_04.mp3",
+         "location": "F8A8EC39-68D8-ECCF-6F51-12C17F60061D\\Ha Tikva - The Israeli Anthem,.mp3",
          "dataLength": "1821782",
          "format": ".mp3"
         }
@@ -2428,9 +2463,9 @@
         "attachmentEntryID": "71F6D857-29D2-5738-1DC4-D43AAAF615FB"
        },
        "objectID": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55",
-       "name": "pic_T_I_Tiachiv%20city%20center.jpg",
+       "name": "Today&apos;s Tiachiv.jpg",
        "attachmentType": "1",
-       "location": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55\\pic_T_I_Tiachiv%20city%20center.jpg",
+       "location": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55\\Today&apos;s Tiachiv.jpg",
        "dataLength": "70432",
        "format": ".jpg"
       },
@@ -2440,9 +2475,9 @@
         "attachmentEntryID": "71F6D857-29D2-5738-1DC4-D43AAAF615FB"
        },
        "objectID": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55",
-       "name": "&#1502;&#1510;&#1489;&#1493;&#1514; &#1497;&#1492;&#1493;&#1491;&#1497;&#1493;&#1514; &#1489;&#1496;&#1497;&#1488;&#1510;&apos;&#1497;&#1489;.jpg",
+       "name": "Jewish Cemetery in Tiachiv.jpg",
        "attachmentType": "1",
-       "location": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55\\&#1502;&#1510;&#1489;&#1493;&#1514; &#1497;&#1492;&#1493;&#1491;&#1497;&#1493;&#1514; &#1489;&#1496;&#1497;&#1488;&#1510;&apos;&#1497;&#1489;.jpg",
+       "location": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55\\Jewish Cemetery in Tiachiv.jpg",
        "dataLength": "103991",
        "format": ".jpg"
       },
@@ -2464,9 +2499,9 @@
         "attachmentEntryID": "71F6D857-29D2-5738-1DC4-D43AAAF615FB"
        },
        "objectID": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55",
-       "name": "jews in ukraine numbers expo3_01_l DOR 1.jpg",
+       "name": "Map of Jewish communities before the Holocaust, within the borders of today&apos;s Ukraine.jpg",
        "attachmentType": "1",
-       "location": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55\\jews in ukraine numbers expo3_01_l DOR 1.jpg",
+       "location": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55\\Map of Jewish communities before the Holocaust, within the borders of today&apos;s Ukraine.jpg",
        "dataLength": "71246",
        "format": ".jpg"
       },
@@ -2476,9 +2511,9 @@
         "attachmentEntryID": "71F6D857-29D2-5738-1DC4-D43AAAF615FB"
        },
        "objectID": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55",
-       "name": "Kleyzmerim DOR 2.PNG",
+       "name": "Jewih Musicians, &apos;Kleyzmerim&apos;.PNG",
        "attachmentType": "1",
-       "location": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55\\Kleyzmerim DOR 2.PNG",
+       "location": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55\\Jewih Musicians, &apos;Kleyzmerim&apos;.PNG",
        "dataLength": "172648",
        "format": ".png"
       }
@@ -2500,9 +2535,9 @@
           "attachmentEntryID": "C1C10378-77C4-52FF-FAF4-12866CA64971"
          },
          "objectID": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
-         "name": "&#1497;&#1492;&#1493;&#1491;&#1497; &#1492;&#1493;&#1504;&#1490;&#1512;&#1497;&#1492; 1944 DOR 1.jpg",
+         "name": "Deportation of Jews, Hungary, 1944.jpg",
          "attachmentType": "1",
-         "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\&#1497;&#1492;&#1493;&#1491;&#1497; &#1492;&#1493;&#1504;&#1490;&#1512;&#1497;&#1492; 1944 DOR 1.jpg",
+         "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\Deportation of Jews, Hungary, 1944.jpg",
          "dataLength": "59263",
          "format": ".jpg"
         },
@@ -2512,9 +2547,9 @@
           "attachmentEntryID": "C1C10378-77C4-52FF-FAF4-12866CA64971"
          },
          "objectID": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
-         "name": "&#1492;&#1511;&#1502;&#1514; &#1490;&#1496;&#1493; DOR 1.jpg",
+         "name": "Building the Warsaw Ghetto&apos;s walls, December 1940.jpg",
          "attachmentType": "1",
-         "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\&#1492;&#1511;&#1502;&#1514; &#1490;&#1496;&#1493; DOR 1.jpg",
+         "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\Building the Warsaw Ghetto&apos;s walls, December 1940.jpg",
          "dataLength": "15403",
          "format": ".jpg"
         },
@@ -2524,9 +2559,9 @@
           "attachmentEntryID": "C1C10378-77C4-52FF-FAF4-12866CA64971"
          },
          "objectID": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
-         "name": "&#1492;&#1513;&#1508;&#1500;&#1492; &#1495;&#1497;&#1514;&#1493;&#1498; &#1494;&#1511;&#1504;&#1497;&#1501;.jpg",
+         "name": "Humiliation - Cutting elderly Jews&apos; beards.jpg",
          "attachmentType": "1",
-         "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\&#1492;&#1513;&#1508;&#1500;&#1492; &#1495;&#1497;&#1514;&#1493;&#1498; &#1494;&#1511;&#1504;&#1497;&#1501;.jpg",
+         "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\Humiliation - Cutting elderly Jews&apos; beards.jpg",
          "dataLength": "129327",
          "format": ".jpg"
         },
@@ -2536,9 +2571,9 @@
           "attachmentEntryID": "C1C10378-77C4-52FF-FAF4-12866CA64971"
          },
          "objectID": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
-         "name": "&#1506;&#1489;&#1493;&#1491;&#1493;&#1514; &#1499;&#1508;&#1497;&#1497;&#1492;.jpg",
+         "name": "Forced Labor.jpg",
          "attachmentType": "1",
-         "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\&#1506;&#1489;&#1493;&#1491;&#1493;&#1514; &#1499;&#1508;&#1497;&#1497;&#1492;.jpg",
+         "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\Forced Labor.jpg",
          "dataLength": "31756",
          "format": ".jpg"
         },
@@ -2548,9 +2583,9 @@
           "attachmentEntryID": "C1C10378-77C4-52FF-FAF4-12866CA64971"
          },
          "objectID": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
-         "name": "&#1497;&#1491;&#1497;&#1497;&#1501; &#1488;&#1500; &#1492;&#1511;&#1497;&#1512; DOR 3.jpg",
+         "name": "Jews lined up against the wall, the Warsaw Ghetto.jpg",
          "attachmentType": "1",
-         "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\&#1497;&#1491;&#1497;&#1497;&#1501; &#1488;&#1500; &#1492;&#1511;&#1497;&#1512; DOR 3.jpg",
+         "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\Jews lined up against the wall, the Warsaw Ghetto.jpg",
          "dataLength": "49439",
          "format": ".jpg"
         },
@@ -2560,9 +2595,9 @@
           "attachmentEntryID": "C1C10378-77C4-52FF-FAF4-12866CA64971"
          },
          "objectID": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
-         "name": "&#1497;&#1492;&#1493;&#1491;&#1497;&#1501; &#1489;&#1490;&#1496;&#1493; DOR 3.jpg",
+         "name": "The L&#243;dz Ghetto.jpg",
          "attachmentType": "1",
-         "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\&#1497;&#1492;&#1493;&#1491;&#1497;&#1501; &#1489;&#1490;&#1496;&#1493; DOR 3.jpg",
+         "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\The L&#243;dz Ghetto.jpg",
          "dataLength": "64599",
          "format": ".jpg"
         }
@@ -2596,9 +2631,9 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
            },
            "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-           "name": "arbeit_macht_frei[1].jpg",
+           "name": "arbeit macht frei (Labour liberates), the deceptive sign above the entrance to Auschwitz[1].jpg",
            "attachmentType": "1",
-           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\arbeit_macht_frei[1].jpg",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\arbeit macht frei (Labour liberates), the deceptive sign above the entrance to Auschwitz[1].jpg",
            "dataLength": "37370",
            "format": ".jpg"
           },
@@ -2608,9 +2643,9 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
            },
            "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-           "name": "&#1497;&#1492;&#1493;&#1491;&#1497; &#1495;&#1493;&#1508;&#1512; &#1489;&#1493;&#1512;.jpg",
+           "name": "A jew digging his own grave.jpg",
            "attachmentType": "1",
-           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\&#1497;&#1492;&#1493;&#1491;&#1497; &#1495;&#1493;&#1508;&#1512; &#1489;&#1493;&#1512;.jpg",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\A jew digging his own grave.jpg",
            "dataLength": "62612",
            "format": ".jpg"
           },
@@ -2620,9 +2655,9 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
            },
            "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-           "name": "&#1497;&#1500;&#1491;&#1497;&#1501; &#1489;&#1502;&#1495;&#1504;&#1492;.jpg",
+           "name": "Children at concentration camp with stripe uniform.jpg",
            "attachmentType": "1",
-           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\&#1497;&#1500;&#1491;&#1497;&#1501; &#1489;&#1502;&#1495;&#1504;&#1492;.jpg",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Children at concentration camp with stripe uniform.jpg",
            "dataLength": "622563",
            "format": ".jpg"
           },
@@ -2632,9 +2667,9 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
            },
            "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-           "name": "buchenwald51[1].jpg",
+           "name": "buchenwald.jpg",
            "attachmentType": "1",
-           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\buchenwald51[1].jpg",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\buchenwald.jpg",
            "dataLength": "33529",
            "format": ".jpg"
           },
@@ -2644,9 +2679,9 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
            },
            "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-           "name": "&#1502;&#1505;&#1508;&#1512;.jpg",
+           "name": "The number inscribed by the Nazis into the victims&apos; flesh.jpg",
            "attachmentType": "1",
-           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\&#1502;&#1505;&#1508;&#1512;.jpg",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\The number inscribed by the Nazis into the victims&apos; flesh.jpg",
            "dataLength": "7059",
            "format": ".jpg"
           },
@@ -2668,9 +2703,9 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
            },
            "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-           "name": "&#1504;&#1488;&#1510;&#1497;&#1501; &#1493;&#1490;&#1493;&#1508;&#1493;&#1514; DOR 2.jpg",
+           "name": "Nazis taking pride in killing Partisans.jpg",
            "attachmentType": "1",
-           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\&#1504;&#1488;&#1510;&#1497;&#1501; &#1493;&#1490;&#1493;&#1508;&#1493;&#1514; DOR 2.jpg",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Nazis taking pride in killing Partisans.jpg",
            "dataLength": "58716",
            "format": ".jpg"
           },
@@ -2680,9 +2715,9 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
            },
            "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-           "name": "&#1502;&#1513;&#1512;&#1508;&#1493;&#1514; 2.jpg",
+           "name": "Crematorium, burning the bodies at the Death Camps.jpg",
            "attachmentType": "1",
-           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\&#1502;&#1513;&#1512;&#1508;&#1493;&#1514; 2.jpg",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Crematorium, burning the bodies at the Death Camps.jpg",
            "dataLength": "94184",
            "format": ".jpg"
           },
@@ -2692,9 +2727,9 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
            },
            "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-           "name": "&#1497;&#1500;&#1491; &#1502;&#1512;&#1497;&#1501; &#1497;&#1491;&#1497;&#1497;&#1501; 2.jpg",
+           "name": "A boy surrenders to the Nazis, the Warsaw Ghetto revolt.jpg",
            "attachmentType": "1",
-           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\&#1497;&#1500;&#1491; &#1502;&#1512;&#1497;&#1501; &#1497;&#1491;&#1497;&#1497;&#1501; 2.jpg",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\A boy surrenders to the Nazis, the Warsaw Ghetto revolt.jpg",
            "dataLength": "59227",
            "format": ".jpg"
           },
@@ -2704,9 +2739,9 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
            },
            "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-           "name": "&#1492;&#1513;&#1506;&#1512; 2.jpg",
+           "name": "The Auschwitz Gate.jpg",
            "attachmentType": "1",
-           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\&#1492;&#1513;&#1506;&#1512; 2.jpg",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\The Auschwitz Gate.jpg",
            "dataLength": "110156",
            "format": ".jpg"
           },
@@ -2733,7 +2768,20 @@
          "guid": "5FD1D8F4-0C48-FD76-BEE1-52359E3E38F6",
          "name": ":3: The family's last days",
          "data": "\n<p><span >Elimelech Basch described in his diary his family's last days. &#160;Until the last moment, after the Germans had already entered the town, the family debated what to do:</span></p>\n<p  ><span >&quot;I argued with my wife that she shouldn't clean and paint for (the holiday of) Passover, but she continued her work as usual saying that as long as we live we should hope for the good and God will choose to do as he sees fit. My son Isaac, seeing my great anxiety, said that I should buy a gun and shoot all the members of our family&quot;.</span></p>\n<p  ><span >…&quot; I watched my children play and wept, who knows what will happen to them?&quot; &#160;&#160;</span></p>\n",
-         "attachments": [],
+         "attachments": [
+          {
+           "guid": "029F77B7-7E3B-07B2-3CFA-F8BAAD60CF2A",
+           "AttachmentEntries": {
+            "attachmentEntryID": "7F8E1BFF-5D23-0832-F341-ED3A0D89B95E"
+           },
+           "objectID": "5FD1D8F4-0C48-FD76-BEE1-52359E3E38F6",
+           "name": "The Basch Diary - The Last Days.jpg",
+           "attachmentType": "1",
+           "location": "5FD1D8F4-0C48-FD76-BEE1-52359E3E38F6\\The Basch Diary - The Last Days.jpg",
+           "dataLength": "4088948",
+           "format": ".jpg"
+          }
+         ],
          "type": "chronological",
          "chronologicalId": "3",
          "chronologicalName": "The family's last days",
@@ -2775,9 +2823,9 @@
                 "attachmentEntryID": "B0A52967-AB25-2430-1AEF-AE7301F10FE0"
                },
                "objectID": "72190B03-074A-B546-1F89-73EFBBE16E0D",
-               "name": "&#1491;&#1507; &#1506;&#1491; &#1508;&#1512;&#1495;&#1497;&#1492; &#1505;&#1504;&#1491;&#1512;&#1493;&#1489;&#1497;&#1509;&apos; (&#1489;&#1513;).jpg",
+               "name": "Perhiya&apos;s &apos;Page of Testimony&apos; at Yad Vashem museum, 1956.jpg",
                "attachmentType": "1",
-               "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\&#1491;&#1507; &#1506;&#1491; &#1508;&#1512;&#1495;&#1497;&#1492; &#1505;&#1504;&#1491;&#1512;&#1493;&#1489;&#1497;&#1509;&apos; (&#1489;&#1513;).jpg",
+               "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\Perhiya&apos;s &apos;Page of Testimony&apos; at Yad Vashem museum, 1956.jpg",
                "dataLength": "105539",
                "format": ".jpg"
               },
@@ -2787,9 +2835,9 @@
                 "attachmentEntryID": "B0A52967-AB25-2430-1AEF-AE7301F10FE0"
                },
                "objectID": "72190B03-074A-B546-1F89-73EFBBE16E0D",
-               "name": "&#1508;&#1512;&#1495;&#1497;&#1492; &#1505;&#1504;&#1491;&#1512;&#1493;&#1489;&#1497;&#1509;&apos; &#1489;&#1490;&#1497;&#1500; &#1513;&#1502;&#1493;&#1504;&#1497;&#1501; &#1508;&#1500;&#1493;&#1505;, &#1502;&#1514;&#1504;&#1491;&#1489;&#1514; &#1489;&#1500;&#1493;&#1491;.JPG",
+               "name": "Perhiya receiving a token of gratitude from the city of Lydda.JPG",
                "attachmentType": "1",
-               "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\&#1508;&#1512;&#1495;&#1497;&#1492; &#1505;&#1504;&#1491;&#1512;&#1493;&#1489;&#1497;&#1509;&apos; &#1489;&#1490;&#1497;&#1500; &#1513;&#1502;&#1493;&#1504;&#1497;&#1501; &#1508;&#1500;&#1493;&#1505;, &#1502;&#1514;&#1504;&#1491;&#1489;&#1514; &#1489;&#1500;&#1493;&#1491;.JPG",
+               "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\Perhiya receiving a token of gratitude from the city of Lydda.JPG",
                "dataLength": "28580",
                "format": ".jpg"
               },
@@ -2799,9 +2847,9 @@
                 "attachmentEntryID": "B0A52967-AB25-2430-1AEF-AE7301F10FE0"
                },
                "objectID": "72190B03-074A-B546-1F89-73EFBBE16E0D",
-               "name": "&#1508;&#1512;&#1495;&#1497;&#1492; &#1493;&#1492;&#1502;&#1513;&#1508;&#1495;&#1492; &#1489;&#1497;&#1513;&#1512;&#1488;&#1500;.jpg",
+               "name": "Perhiya and her family, Israel.jpg",
                "attachmentType": "1",
-               "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\&#1508;&#1512;&#1495;&#1497;&#1492; &#1493;&#1492;&#1502;&#1513;&#1508;&#1495;&#1492; &#1489;&#1497;&#1513;&#1512;&#1488;&#1500;.jpg",
+               "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\Perhiya and her family, Israel.jpg",
                "dataLength": "2125456",
                "format": ".jpg"
               }
@@ -2818,64 +2866,142 @@
                "data": "\n<p ><span >After the war Elimelech Basch's brother Jacob, who survived the Holocaust, came back and found the diary. He later gave it to Basch's only remaining daughter - Perhiya - &#160;who lives in Israel. She, in turn, decided to donate the diary for safekeeping to the National library of Israel for the generations to come.</span></p>\n",
                "attachments": [
                 {
-                 "guid": "218D807B-CB73-1584-79A3-A6817533B379",
+                 "guid": "593380A8-15E1-24EC-8FEC-5AC4A74695D6",
                  "AttachmentEntries": {
                   "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
                  },
                  "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
-                 "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 1 - DOR 1.jpg",
+                 "name": "The Basch Diary, 1.jpg",
                  "attachmentType": "1",
-                 "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 1 - DOR 1.jpg",
+                 "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\The Basch Diary, 1.jpg",
                  "dataLength": "60418",
                  "format": ".jpg"
                 },
                 {
-                 "guid": "3134EBEB-3E1E-A526-A6E1-F536101096FE",
+                 "guid": "A950B3AE-444D-BBB7-238B-EBFBD5F640CC",
                  "AttachmentEntries": {
                   "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
                  },
                  "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
-                 "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 2 - DOR 1.jpg",
+                 "name": "",
+                 "attachmentType": "0",
+                 "location": "",
+                 "dataLength": "0",
+                 "format": "",
+                 "deletedDateTime": "2013-12-02 15:25:25.908 @+0200"
+                },
+                {
+                 "guid": "00B8BB7C-3CF4-BB59-B0C4-6FC8226988B0",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
+                 },
+                 "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
+                 "name": "The Basch Diary, 2.jpg",
                  "attachmentType": "1",
-                 "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 2 - DOR 1.jpg",
+                 "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\The Basch Diary, 2.jpg",
                  "dataLength": "57179",
                  "format": ".jpg"
                 },
                 {
-                 "guid": "38D327E5-78E7-E608-9E7C-3E0226C5C0B5",
+                 "guid": "096A5AC1-EBB6-24C7-3E67-310B02C86FD6",
                  "AttachmentEntries": {
                   "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
                  },
                  "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
-                 "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 3 - DOR 1.jpg",
+                 "name": "",
+                 "attachmentType": "0",
+                 "location": "",
+                 "dataLength": "0",
+                 "format": "",
+                 "deletedDateTime": "2013-12-02 15:25:53.639 @+0200"
+                },
+                {
+                 "guid": "FE5650B9-2810-1EF3-A227-E3C8C335767B",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
+                 },
+                 "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
+                 "name": "The Basch Diary, 3.jpg",
                  "attachmentType": "1",
-                 "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 3 - DOR 1.jpg",
+                 "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\The Basch Diary, 3.jpg",
                  "dataLength": "73786",
                  "format": ".jpg"
                 },
                 {
-                 "guid": "6AF62D0E-B4AD-5C17-A685-21CD8E203ABE",
+                 "guid": "6B1E0B27-3680-AFEE-37BE-83BF11AD3E22",
                  "AttachmentEntries": {
                   "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
                  },
                  "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
-                 "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 4 - DOR 1.jpg",
+                 "name": "",
+                 "attachmentType": "0",
+                 "location": "",
+                 "dataLength": "0",
+                 "format": "",
+                 "deletedDateTime": "2013-12-02 15:26:21.622 @+0200"
+                },
+                {
+                 "guid": "D90A7861-5613-80CF-8746-2BC47720CC65",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
+                 },
+                 "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
+                 "name": "",
+                 "attachmentType": "0",
+                 "location": "",
+                 "dataLength": "0",
+                 "format": "",
+                 "deletedDateTime": "2013-12-02 15:26:47.606 @+0200"
+                },
+                {
+                 "guid": "C056A3D3-7E16-4645-2311-1AA10B1ED2EB",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
+                 },
+                 "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
+                 "name": "The Basch Diary, 4.jpg",
                  "attachmentType": "1",
-                 "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 4 - DOR 1.jpg",
+                 "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\The Basch Diary, 4.jpg",
                  "dataLength": "60214",
                  "format": ".jpg"
                 },
                 {
-                 "guid": "DE28FDDA-862F-BA28-F591-B640997DA6B5",
+                 "guid": "69D39613-6527-1975-0169-57E69A352B3C",
                  "AttachmentEntries": {
                   "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
                  },
                  "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
-                 "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 5 - DOR 1.jpg",
+                 "name": "",
+                 "attachmentType": "0",
+                 "location": "",
+                 "dataLength": "0",
+                 "format": "",
+                 "deletedDateTime": "2013-12-02 15:27:28.955 @+0200"
+                },
+                {
+                 "guid": "561B81CC-A0F2-A7AD-A04C-504E88CB55C5",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
+                 },
+                 "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
+                 "name": "The Basch Diary. 5.jpg",
                  "attachmentType": "1",
-                 "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 5 - DOR 1.jpg",
+                 "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\The Basch Diary. 5.jpg",
                  "dataLength": "28249",
                  "format": ".jpg"
+                },
+                {
+                 "guid": "EEF32EC9-7DD5-FCD0-B718-9A03E861E3BE",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
+                 },
+                 "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
+                 "name": "",
+                 "attachmentType": "0",
+                 "location": "",
+                 "dataLength": "0",
+                 "format": "",
+                 "deletedDateTime": "2013-12-02 15:27:58.637 @+0200"
                 }
                ],
                "type": "chronological",
@@ -2899,7 +3025,7 @@
   },
   {
    "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
-   "name": "Maimonides' Commentary on the Mishnah",
+   "name": "Maimonides' Commentary on the Mishnah]",
    "data": "\n<p  ><span>Moses Maimonides (born Cordoba 1138 – d. Cairo 1204) <span >is considered one of the greatest Jewish scholars and intellectuals of all times.</span></span></p>\n<p  align=&quot;left&quot; >Maimonides was first and foremost a preeminent interpreter of Jewish law (<i>Halakah</i>), producing groundbreaking legal codes, commentaries and wide-ranging legal opinions as leader of numerous Jewish communities. Yet was also a widely influential <a href=&quot;https://en.wikipedia.org/wiki/Jewish_philosophy&quot;><span ><span >philosopher</span></span></a><span >,&#160;</span> <span >and physician, famous &#160;throughout </span>Jewish, <a href=&quot;https://en.wikipedia.org/wiki/Middle_Ages&quot;><span ><span >Muslim</span></span></a><span ><span > and Christian intellectual circles of his time</span></span><span >. </span><span><span >&#160;</span></span><span >Maimonides constantly strove to reconcile </span><span>his knowledge<span > of philosophy and science with Jewish law and theology.</span><span >&#160;</span></span></p>\n<p  >Due both to his impressive intellectual horizons and to his outstanding influence among Jews and non-Jews Maimonides was known in Jewish tradition as <b>The Great Eagle</b>.</p>\n<p><span >Maimonides' personal biography is representative of the fate of Spanish Jews at that time: born in Cordoba, where he absorbed Islamic science and culture, he fled from the intolerant Almohads&#160; to Morocco and then to Fustat (Cairo) in Egypt, where he received the patronage of the Ayyubid court.&#160;</span></p>\n<p  >&#160;</p>\n",
    "attachments": [
     {
@@ -2908,9 +3034,9 @@
       "attachmentEntryID": "9C713123-11AD-647A-9EB4-A690B34B4156"
      },
      "objectID": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
-     "name": "&#1514;&#1489;&#1500;&#1497;&#1496; &#1512;&#1502;&#1489;&#1501; &#1502;&#1490;&#1489;&#1506;&#1514; &#1492;&#1511;&#1508;&#1497;&#1496;&#1493;&#1500;.jpg",
+     "name": "Maimonides, a marble relief at Capitol hill, Washington, artist - Brenda Putnam.jpg",
      "attachmentType": "1",
-     "location": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3\\&#1514;&#1489;&#1500;&#1497;&#1496; &#1512;&#1502;&#1489;&#1501; &#1502;&#1490;&#1489;&#1506;&#1514; &#1492;&#1511;&#1508;&#1497;&#1496;&#1493;&#1500;.jpg",
+     "location": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3\\Maimonides, a marble relief at Capitol hill, Washington, artist - Brenda Putnam.jpg",
      "dataLength": "2669415",
      "format": ".jpg"
     }
@@ -2921,7 +3047,7 @@
    "children": [
     {
      "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
-     "name": ":_: An extraordinary life story",
+     "name": "An extraordinary life story",
      "data": "\n<p  align=&quot;left&quot; >Maimonides' amazing life story starts in the multicultural world of Cordoba and ends in the King's court in Cairo.</p>\n<p  align=&quot;left&quot; >Photo: an official medal of the state of Israel, honoring Maimonides' 800th birthday, showing the various stations of Maimonides life across the Mediterranean.</p>\n",
      "attachments": [
       {
@@ -2937,8 +3063,7 @@
        "format": ".jpg"
       }
      ],
-     "type": "bastard",
-     "bastardName": "An extraordinary life story",
+     "type": "default",
      "parent": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
      "hasChronologicalChildren": true,
      "children": [
@@ -2969,7 +3094,7 @@
         {
          "guid": "0E88C45C-353C-2D9C-D6C2-A2395A860B45",
          "name": ":10: His Death",
-         "data": "\n<p  align=&quot;left&quot; >Maimonides passed away in 1204 in Egypt and was buries there, but early Jewish tradition claims that he had asked to be buried in the Holy Land and that his boned were brought to burial in Tiberias, where his tomb is still shown.</p>\n<p  align=&quot;left&quot; >A very known Hebrew proverb in Maimonides' memory is &quot;From moses to Moses no one was as great as Moses&quot;, meaning that from the biblical Moses to Moses son of Maymon (Maimonides), no one was their match in the leadership of the Jewish people and the knowledge of the Torah. This proverb was inscribed on his grave at Tiberias.&#160;</p>\n",
+         "data": "\n<p  align=&quot;left&quot; >Maimonides passed away in 1204 in Egypt and was buried there, but early Jewish tradition claims that he had asked to be buried in the Holy Land and that his boned were brought to burial in Tiberias, where his tomb is still shown.</p>\n<p  align=&quot;left&quot; >A very known Hebrew proverb in Maimonides' memory is &quot;From moses to Moses there was none as great as Moses&quot;, meaning that from the biblical Moses to Moses son of Maymon (Maimonides), no one was their match in the leadership of the Jewish people and the knowledge of the Torah. This proverb was inscribed on his grave at Tiberias.&#160;</p>\n",
          "attachments": [
           {
            "guid": "F7CF3F1C-01B4-CA2A-0FE9-1FA51DE7DD75",
@@ -3001,9 +3126,9 @@
             "attachmentEntryID": "F34F6EF5-3D36-F4C0-8FA3-A0E9B7A20FB2"
            },
            "objectID": "0E88C45C-353C-2D9C-D6C2-A2395A860B45",
-           "name": "_From moses to Moses no one was as great as Moses_.jpg",
+           "name": "_From moses to Moses there was none as great as Moses_.jpg",
            "attachmentType": "1",
-           "location": "0E88C45C-353C-2D9C-D6C2-A2395A860B45\\_From moses to Moses no one was as great as Moses_.jpg",
+           "location": "0E88C45C-353C-2D9C-D6C2-A2395A860B45\\_From moses to Moses there was none as great as Moses_.jpg",
            "dataLength": "104002",
            "format": ".jpg"
           }
@@ -3193,9 +3318,9 @@
                       "attachmentEntryID": "2594DB5D-613C-BB61-C46D-FE1247ADD26F"
                      },
                      "objectID": "A35916B5-7608-6F21-7BC9-A0335815B679",
-                     "name": "Jerusalem map at NLI 16th century.jpg",
+                     "name": "Christian van Adrichom&apos;s Map of Jerusalem in the Time of Jesus (1590) .jpg",
                      "attachmentType": "1",
-                     "location": "A35916B5-7608-6F21-7BC9-A0335815B679\\Jerusalem map at NLI 16th century.jpg",
+                     "location": "A35916B5-7608-6F21-7BC9-A0335815B679\\Christian van Adrichom&apos;s Map of Jerusalem in the Time of Jesus (1590) .jpg",
                      "dataLength": "1968749",
                      "format": ".jpg"
                     },
@@ -3205,9 +3330,9 @@
                       "attachmentEntryID": "2594DB5D-613C-BB61-C46D-FE1247ADD26F"
                      },
                      "objectID": "A35916B5-7608-6F21-7BC9-A0335815B679",
-                     "name": "Acre map at NLI 17th century.jpg",
+                     "name": "Acre map, 17th century, Vesconte, Petrus.  Civitas Acon Sive ptolomayda.jpg",
                      "attachmentType": "1",
-                     "location": "A35916B5-7608-6F21-7BC9-A0335815B679\\Acre map at NLI 17th century.jpg",
+                     "location": "A35916B5-7608-6F21-7BC9-A0335815B679\\Acre map, 17th century, Vesconte, Petrus.  Civitas Acon Sive ptolomayda.jpg",
                      "dataLength": "480410",
                      "format": ".jpg"
                     }
@@ -3289,9 +3414,9 @@
                             "attachmentEntryID": "85F6A6CE-29F7-1AF4-0E12-411180F281CE"
                            },
                            "objectID": "DA464CF2-2281-D4EB-D641-99C567B2DE43",
-                           "name": "BenEzraInterior.jpg",
+                           "name": "Ben Ezra Synagogue, Interior.jpg",
                            "attachmentType": "1",
-                           "location": "DA464CF2-2281-D4EB-D641-99C567B2DE43\\BenEzraInterior.jpg",
+                           "location": "DA464CF2-2281-D4EB-D641-99C567B2DE43\\Ben Ezra Synagogue, Interior.jpg",
                            "dataLength": "183738",
                            "format": ".jpg"
                           },
@@ -3301,9 +3426,9 @@
                             "attachmentEntryID": "85F6A6CE-29F7-1AF4-0E12-411180F281CE"
                            },
                            "objectID": "DA464CF2-2281-D4EB-D641-99C567B2DE43",
-                           "name": "reconstruction BenEzra2.jpg",
+                           "name": "Reconstruction, Ben Ezra Synagogue, 2.jpg",
                            "attachmentType": "1",
-                           "location": "DA464CF2-2281-D4EB-D641-99C567B2DE43\\reconstruction BenEzra2.jpg",
+                           "location": "DA464CF2-2281-D4EB-D641-99C567B2DE43\\Reconstruction, Ben Ezra Synagogue, 2.jpg",
                            "dataLength": "131044",
                            "format": ".jpg"
                           },
@@ -3313,9 +3438,9 @@
                             "attachmentEntryID": "85F6A6CE-29F7-1AF4-0E12-411180F281CE"
                            },
                            "objectID": "DA464CF2-2281-D4EB-D641-99C567B2DE43",
-                           "name": "reconstruction of BenEzra.jpg",
+                           "name": "Reconstruction, Ben Ezra Synagogue, 1.jpg",
                            "attachmentType": "1",
-                           "location": "DA464CF2-2281-D4EB-D641-99C567B2DE43\\reconstruction of BenEzra.jpg",
+                           "location": "DA464CF2-2281-D4EB-D641-99C567B2DE43\\Reconstruction, Ben Ezra Synagogue, 1.jpg",
                            "dataLength": "95185",
                            "format": ".jpg"
                           },
@@ -3325,9 +3450,9 @@
                             "attachmentEntryID": "85F6A6CE-29F7-1AF4-0E12-411180F281CE"
                            },
                            "objectID": "DA464CF2-2281-D4EB-D641-99C567B2DE43",
-                           "name": "BenEzra2.jpg",
+                           "name": "Ben Ezra Synagogue.jpg",
                            "attachmentType": "1",
-                           "location": "DA464CF2-2281-D4EB-D641-99C567B2DE43\\BenEzra2.jpg",
+                           "location": "DA464CF2-2281-D4EB-D641-99C567B2DE43\\Ben Ezra Synagogue.jpg",
                            "dataLength": "40023",
                            "format": ".jpg"
                           }
@@ -3362,7 +3487,7 @@
     {
      "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
      "name": "Commentary on the Mishnah",
-     "data": "\n<p><span ><span >As in other scholarly fields, Maimonides broke new ground to write a commentary directly on the </span><i><span >Mishnah</span></i><span >. &#160;Maimonides began composing his commentary &#160;in 1161 while living in in Morocco and completed it in Egypt in 1168. The NLI owns an autograph, that is one of the unique manuscripts written in Maimonides' own hand, of two parts, </span><i><span >Nashim</span></i><span >, and </span><i><span >Mo'ed</span></i><span >.</span></span></p>\n<p >&#160;</p>\n<p><span ><span >This is a page from </span><i><span >Seder Mo'ed</span></i><span > –&quot;Festival&quot; . </span></span><span ><span ><span >Although this is already a &quot;clean&quot; copy, one can see here many changes. The large number of notes and corrections in the autograph, are evidence of &#160;Maimonides' dynamic thinking and constant development. &#160;Maimonides was an original philosopher and thinker who never ceased to ask questions and to improve his works.&#160;</span></span></span></p>\n<p><span >The Commentary remained in the use of the family and in the books in the NLI there are notes which were made by Maimonides' son Abraham, and his grandson David, both of whom were scholars and leaders of the community.</span></p>\n<p>&#160;</p>\n<p  dir=&quot;RTL&quot; ><span ><span ><span >לנסות לאתר </span></span></span><span ><span ><span >אם אפשר (כנראה ריצ'לר יודע)</span></span></span></p>\n<p  align=&quot;left&quot; >&#160;</p>\n",
+     "data": "\n<p><span ><span >As in other scholarly fields, Maimonides broke new ground to write a commentary directly on the </span><i><span >Mishnah</span></i><span >. &#160;Maimonides began composing his commentary &#160;in 1161 while living in in Morocco and completed it in Egypt in 1168. The NLI owns an autograph, that is one of the unique manuscripts written in Maimonides' own hand, of two parts, </span><i><span >Nashim</span></i><span >, and </span><i><span >Mo'ed</span></i><span >.</span></span></p>\n<p >&#160;</p>\n<p><span ><span >This is a page from </span><i><span >Seder Mo'ed</span></i><span > –&quot;Festival&quot; . </span></span><span ><span ><span >Although this is already a &quot;clean&quot; copy, one can see here many changes. The large number of notes and corrections in the autograph, are evidence of &#160;Maimonides' dynamic thinking and constant development. &#160;Maimonides was an original philosopher and thinker who never ceased to ask questions and to improve his works.&#160;</span></span></span></p>\n<p><span >The Commentary remained in the use of the family and in the books in the NLI there are notes which were made by Maimonides' son Abraham, and his grandson David, both of whom were scholars and leaders of the community.</span></p>\n<p>&#160;</p>\n<p  dir=&quot;RTL&quot; >&#160;</p>\n<p  align=&quot;left&quot; >&#160;</p>\n",
      "attachments": [
       {
        "guid": "8D292534-1D28-BC8B-BB04-4702270F3CD4",
@@ -3457,7 +3582,44 @@
        "guid": "7505D43F-518B-4B46-4495-45B81531F2A9",
        "name": "The language of the Commentary",
        "data": "\n<p  align=&quot;left&quot; ><span >The commentary was written in Judeo-Arabic , a dialect of Arabic that was spoken by Jews&#160; living in the Arabic speaking world from the eighth century onwards, and is still spoken by some Jews today. &#160;Although the language was Arabic, it was written in Hebrew letters. Many of the great medieval works of Jewish law and thought were written in Judeo-Arabic.</span></p>\n<p  align=&quot;left&quot; >&#160;</p>\n<p  align=&quot;left&quot; >&#160;</p>\n",
-       "attachments": [],
+       "attachments": [
+        {
+         "guid": "3E2D1EEA-2C3D-198B-FB72-79CEEA4FDB03",
+         "AttachmentEntries": {
+          "attachmentEntryID": "7313BB3F-5C3D-6201-646C-71AD93D16A21"
+         },
+         "objectID": "7505D43F-518B-4B46-4495-45B81531F2A9",
+         "name": "Learning to read the Hebrew letters in Judeo-Arabic dialect, Yemen.mp3",
+         "attachmentType": "1",
+         "location": "7505D43F-518B-4B46-4495-45B81531F2A9\\Learning to read the Hebrew letters in Judeo-Arabic dialect, Yemen.mp3",
+         "dataLength": "1250743",
+         "format": ".mp3"
+        },
+        {
+         "guid": "6223E835-B0F3-AB10-3C46-6309CC0EF605",
+         "AttachmentEntries": {
+          "attachmentEntryID": "7313BB3F-5C3D-6201-646C-71AD93D16A21"
+         },
+         "objectID": "7505D43F-518B-4B46-4495-45B81531F2A9",
+         "name": "Judeo-Aarabic, Arabic and Hebrew letters.gif",
+         "attachmentType": "1",
+         "location": "7505D43F-518B-4B46-4495-45B81531F2A9\\Judeo-Aarabic, Arabic and Hebrew letters.gif",
+         "dataLength": "7124",
+         "format": ".gif"
+        },
+        {
+         "guid": "B0D19510-7C73-A6E9-1044-99CFE963900D",
+         "AttachmentEntries": {
+          "attachmentEntryID": "7313BB3F-5C3D-6201-646C-71AD93D16A21"
+         },
+         "objectID": "7505D43F-518B-4B46-4495-45B81531F2A9",
+         "name": "10th century Jewish Philosophy tractate, Judeo-Arabic, Sa&#699;adiah ben Yosef Gaon Page 1.jpg",
+         "attachmentType": "1",
+         "location": "7505D43F-518B-4B46-4495-45B81531F2A9\\10th century Jewish Philosophy tractate, Judeo-Arabic, Sa&#699;adiah ben Yosef Gaon Page 1.jpg",
+         "dataLength": "4755687",
+         "format": ".jpg"
+        }
+       ],
        "type": "default",
        "parent": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
        "hasChronologicalChildren": false,
@@ -3485,9 +3647,9 @@
             "attachmentEntryID": "37CFEE2B-7D22-140E-32F7-1172E2E1075D"
            },
            "objectID": "82E599B4-743F-E479-ECDA-1F0B8FC4E538",
-           "name": "_61752626_syria_aleppo_g.jpg",
+           "name": "aleppo.jpg",
            "attachmentType": "1",
-           "location": "82E599B4-743F-E479-ECDA-1F0B8FC4E538\\_61752626_syria_aleppo_g.jpg",
+           "location": "82E599B4-743F-E479-ECDA-1F0B8FC4E538\\aleppo.jpg",
            "dataLength": "50497",
            "format": ".jpg"
           }
@@ -3533,9 +3695,9 @@
                 "attachmentEntryID": "7AD75234-1F94-A6C5-F11E-4C5045A833CF"
                },
                "objectID": "1E9B1ED7-FC05-8624-14CD-02272D8B60A1",
-               "name": "kabbalah Portae_Lucis,_Joseph_Gikatilla.jpg",
+               "name": "Latin translation of a Kabalah text, Gikatilla&apos;s Shaarei Ora.jpg",
                "attachmentType": "1",
-               "location": "1E9B1ED7-FC05-8624-14CD-02272D8B60A1\\kabbalah Portae_Lucis,_Joseph_Gikatilla.jpg",
+               "location": "1E9B1ED7-FC05-8624-14CD-02272D8B60A1\\Latin translation of a Kabalah text, Gikatilla&apos;s Shaarei Ora.jpg",
                "dataLength": "1478712",
                "format": ".jpg"
               }
@@ -3549,7 +3711,7 @@
               {
                "guid": "ADA933BD-EE7D-3B4A-8329-57CBAA4CCD8A",
                "name": ":5: From Aleppo to the NLI",
-               "data": "\n<p  align=&quot;left&quot; ><span >In the 17<sup>th</sup> century, when Christian scholars became interested in Hebrew manuscripts, three of the six volumes were purchased in Aleppo by European scholars and were later sold to the Bodleian Library in &#160;Oxford.</span></p>\n<p  dir=&quot;RTL&quot; ><span ><span >פוקוק והנטינגדון</span></span></p>\n<p  align=&quot;left&quot; ><span >The other volumes remained &#160;in Aleppo, and then found their way to Damascus. There, two volumes &#160;were found in terrible condition; the&#160; Bodleian Library refused to buy them in this state. Luckily, they were purchased and conserved by the bibliophile Sassoon family from whom they were purchased by the NLI in 1975.&#160;</span></p>\n<p  align=&quot;left&quot; ><span >The sixth volume of the Commentary written Maimonides' own hand is still missing, but perhaps it will one day surface!</span></p>\n<p  align=&quot;left&quot; >&#160;</p>\n",
+               "data": "\n<p  align=&quot;left&quot; ><span >In the 17<sup>th</sup> century, when Christian scholars became interested in Hebrew manuscripts, three of the six volumes were purchased in Aleppo by European scholars and were later sold to the Bodleian Library in &#160;Oxford.</span></p>\n<p  dir=&quot;RTL&quot; >&#160;</p>\n<p  align=&quot;left&quot; ><span >The other volumes remained &#160;in Aleppo, and then found their way to Damascus. There, two volumes &#160;were found in terrible condition; the&#160; Bodleian Library refused to buy them in this state. Luckily, they were purchased and conserved by the bibliophile Sassoon family from whom they were purchased by the NLI in 1975.&#160;</span></p>\n<p  align=&quot;left&quot; ><span >The sixth volume of the Commentary written Maimonides' own hand is still missing, but perhaps it will one day surface!</span></p>\n<p  align=&quot;left&quot; >&#160;</p>\n",
                "attachments": [
                 {
                  "guid": "B94471EB-4813-8407-BC5D-CED2DCB88141",
@@ -3569,23 +3731,11 @@
                   "attachmentEntryID": "E96221AC-7B6E-322F-CDE2-FD4E5BDA732D"
                  },
                  "objectID": "ADA933BD-EE7D-3B4A-8329-57CBAA4CCD8A",
-                 "name": "haRambam",
+                 "name": "Maimonides at the NLI website - the Great Eagle exhibition",
                  "attachmentType": "3",
                  "location": "http://www.jnul.huji.ac.il/v-exhibitions/rambam/eng/",
                  "dataLength": "0",
                  "format": ""
-                },
-                {
-                 "guid": "D7ACF4E2-4618-8445-F0FF-61BD616EF1E2",
-                 "AttachmentEntries": {
-                  "attachmentEntryID": "E96221AC-7B6E-322F-CDE2-FD4E5BDA732D"
-                 },
-                 "objectID": "ADA933BD-EE7D-3B4A-8329-57CBAA4CCD8A",
-                 "name": "mishna1z.jpg",
-                 "attachmentType": "1",
-                 "location": "ADA933BD-EE7D-3B4A-8329-57CBAA4CCD8A\\mishna1z.jpg",
-                 "dataLength": "14467",
-                 "format": ".jpg"
                 }
                ],
                "type": "chronological",
@@ -3607,7 +3757,7 @@
     },
     {
      "guid": "D426D901-F0FB-99E7-6E57-289CFFFBDD64",
-     "name": ":_: Other masterpieces of Maimonides",
+     "name": "Other masterpieces of Maimonides",
      "data": "",
      "attachments": [
       {
@@ -3623,8 +3773,7 @@
        "format": ".jpg"
       }
      ],
-     "type": "bastard",
-     "bastardName": "Other masterpieces of Maimonides",
+     "type": "default",
      "parent": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
      "hasChronologicalChildren": false,
      "children": [
@@ -3662,9 +3811,9 @@
           "attachmentEntryID": "8FA311B7-C2A3-8CB2-1914-3CA8D12495EE"
          },
          "objectID": "D6BBEBDF-00D3-DBD2-7736-78D520E0189C",
-         "name": "&#1512;&#1502;&#1489;&#1501; &#1488;&#1493;&#1496;&#1493;&#1490;&#1512;&#1507; &#1502;&#1513;&#1504;&#1492; &#1514;&#1493;&#1512;&#1492; 1.jpg",
+         "name": "Misneh Torah, Maimonides&apos; autograph.jpg",
          "attachmentType": "1",
-         "location": "D6BBEBDF-00D3-DBD2-7736-78D520E0189C\\&#1512;&#1502;&#1489;&#1501; &#1488;&#1493;&#1496;&#1493;&#1490;&#1512;&#1507; &#1502;&#1513;&#1504;&#1492; &#1514;&#1493;&#1512;&#1492; 1.jpg",
+         "location": "D6BBEBDF-00D3-DBD2-7736-78D520E0189C\\Misneh Torah, Maimonides&apos; autograph.jpg",
          "dataLength": "93790",
          "format": ".jpg"
         }

@@ -5,10 +5,10 @@
       "name": "Torah+Basch 10.11.13",
       "personalBrainVersion": "7045",
       "telepathyVersion": "10",
-      "fileRoot": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\CDL English 5 brains, 25.11.13_brain\\Files",
-      "generatedDateTime": "2013-11-26 11:29:45.808 @+0200",
+      "fileRoot": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\CDL English 5 brains, 8.12.13_brain\\Files",
+      "generatedDateTime": "2013-12-08 15:37:32.848 @+0200",
       "homeThoughtGuid": "514EB540-16D5-A587-0705-13C4C5DA75AA",
-      "modificationDateTime": "2013-11-10 14:42:11.538 @+0200"
+      "modificationDateTime": "2013-11-27 13:36:01.757 @+0200"
     },
     "Attributes": {
       "Attribute": [
@@ -262,9 +262,9 @@
           "name": "Maps of The Holy Land at the Eran Laor collection, NLI",
           "label": "",
           "creationDateTime": "2013-11-25 14:46:06.976 @+0200",
-          "realModificationDateTime": "2013-11-25 16:25:50.790 @+0200",
-          "displayModificationDateTime": "2013-11-25 16:25:50.790 @+0200",
-          "activationDateTime": "2013-11-25 14:46:20.562 @+0200",
+          "realModificationDateTime": "2013-12-08 14:36:09.261 @+0200",
+          "displayModificationDateTime": "2013-12-08 14:36:09.264 @+0200",
+          "activationDateTime": "2013-12-02 17:47:27.748 @+0200",
           "linksModificationDateTime": "2013-11-25 14:46:20.452 @+0200",
           "isType": "0",
           "color": "0",
@@ -276,8 +276,8 @@
           "label": "",
           "creationDateTime": "2013-11-10 14:41:26.622 @+0200",
           "realModificationDateTime": "2013-11-10 14:41:26.622 @+0200",
-          "displayModificationDateTime": "2013-11-25 15:36:43.526 @+0200",
-          "activationDateTime": "2013-11-25 17:50:37.590 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:01:17.367 @+0200",
+          "activationDateTime": "2013-12-02 16:56:07.648 @+0200",
           "linksModificationDateTime": "2013-11-03 16:10:40.360 @+0200",
           "isType": "0",
           "color": "ffcc0000",
@@ -290,7 +290,7 @@
           "creationDateTime": "2013-11-25 14:46:12.437 @+0200",
           "realModificationDateTime": "2013-11-25 14:46:12.436 @+0200",
           "displayModificationDateTime": "2013-11-25 14:46:12.436 @+0200",
-          "activationDateTime": "2013-11-20 13:21:59.932 @+0200",
+          "activationDateTime": "2013-12-02 17:46:21.728 @+0200",
           "linksModificationDateTime": "2013-11-18 17:11:41.858 @+0200",
           "isType": "0",
           "color": "0",
@@ -389,13 +389,13 @@
         },
         {
           "guid": "D426D901-F0FB-99E7-6E57-289CFFFBDD64",
-          "name": ":_: Other masterpieces of Maimonides",
+          "name": "Other masterpieces of Maimonides",
           "label": "",
           "creationDateTime": "2013-11-25 14:37:51.202 @+0200",
-          "realModificationDateTime": "2013-11-25 14:37:51.202 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:37:51.202 @+0200",
-          "activationDateTime": "2013-11-25 15:36:28.353 @+0200",
-          "linksModificationDateTime": "2013-11-25 13:27:53.865 @+0200",
+          "realModificationDateTime": "2013-12-01 16:36:30.409 @+0200",
+          "displayModificationDateTime": "2013-12-01 16:36:30.409 @+0200",
+          "activationDateTime": "2013-12-08 15:14:54.434 @+0200",
+          "linksModificationDateTime": "2013-12-01 16:36:14.262 @+0200",
           "isType": "0",
           "color": "0",
           "accessControlType": "0"
@@ -407,7 +407,7 @@
           "creationDateTime": "2013-11-25 14:37:51.552 @+0200",
           "realModificationDateTime": "2013-11-25 14:37:51.551 @+0200",
           "displayModificationDateTime": "2013-11-25 14:37:51.551 @+0200",
-          "activationDateTime": "2013-11-25 13:34:04.935 @+0200",
+          "activationDateTime": "2013-12-02 17:24:31.977 @+0200",
           "linksModificationDateTime": "2013-11-13 15:24:55.041 @+0200",
           "isType": "0",
           "color": "0",
@@ -420,7 +420,7 @@
           "creationDateTime": "2013-11-25 14:37:50.889 @+0200",
           "realModificationDateTime": "2013-11-25 14:37:50.888 @+0200",
           "displayModificationDateTime": "2013-11-25 14:37:50.888 @+0200",
-          "activationDateTime": "2013-11-25 15:36:17.504 @+0200",
+          "activationDateTime": "2013-12-08 15:14:11.056 @+0200",
           "linksModificationDateTime": "2013-11-13 16:05:32.260 @+0200",
           "isType": "0",
           "color": "0",
@@ -432,8 +432,8 @@
           "label": "",
           "creationDateTime": "2013-11-25 14:37:53.919 @+0200",
           "realModificationDateTime": "2013-11-25 14:37:53.918 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:37:53.918 @+0200",
-          "activationDateTime": "2013-11-13 15:46:57.006 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:37:18.624 @+0200",
+          "activationDateTime": "2013-12-02 17:35:37.458 @+0200",
           "linksModificationDateTime": "2013-11-06 13:11:01.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -445,8 +445,8 @@
           "label": "",
           "creationDateTime": "2013-11-25 14:37:54.366 @+0200",
           "realModificationDateTime": "2013-11-25 14:37:54.366 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:37:54.366 @+0200",
-          "activationDateTime": "2013-11-25 15:35:45.664 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:19:34.419 @+0200",
+          "activationDateTime": "2013-12-02 17:19:08.093 @+0200",
           "linksModificationDateTime": "2013-11-25 13:26:09.927 @+0200",
           "isType": "0",
           "color": "0",
@@ -471,8 +471,8 @@
           "label": "",
           "creationDateTime": "2013-11-25 14:37:53.354 @+0200",
           "realModificationDateTime": "2013-11-25 14:37:53.353 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:38:10.686 @+0200",
-          "activationDateTime": "2013-11-25 12:29:14.247 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:21:26.108 @+0200",
+          "activationDateTime": "2013-12-02 17:19:43.729 @+0200",
           "linksModificationDateTime": "2013-11-25 13:26:54.701 @+0200",
           "isType": "0",
           "color": "0",
@@ -484,8 +484,8 @@
           "label": "",
           "creationDateTime": "2013-11-10 14:41:21.259 @+0200",
           "realModificationDateTime": "2013-11-10 14:41:21.258 @+0200",
-          "displayModificationDateTime": "2013-11-10 14:41:21.258 @+0200",
-          "activationDateTime": "2013-11-10 10:38:38.801 @+0200",
+          "displayModificationDateTime": "2013-12-02 16:51:51.090 @+0200",
+          "activationDateTime": "2013-12-02 16:48:14.246 @+0200",
           "linksModificationDateTime": "2013-11-03 16:08:30.600 @+0200",
           "isType": "0",
           "color": "ffcc0000",
@@ -497,8 +497,8 @@
           "label": "",
           "creationDateTime": "2013-11-25 14:37:53.538 @+0200",
           "realModificationDateTime": "2013-11-25 14:37:53.538 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:37:53.538 @+0200",
-          "activationDateTime": "2013-11-14 18:10:06.001 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:38:12.738 @+0200",
+          "activationDateTime": "2013-12-02 17:37:33.021 @+0200",
           "linksModificationDateTime": "2013-11-06 13:11:29.085 @+0200",
           "isType": "0",
           "color": "0",
@@ -522,8 +522,8 @@
           "name": ":7: The Family moves to Old Cairo (Fustat)",
           "label": "",
           "creationDateTime": "2013-11-25 14:37:55.524 @+0200",
-          "realModificationDateTime": "2013-11-25 14:37:55.524 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:37:55.524 @+0200",
+          "realModificationDateTime": "2013-11-26 12:05:16.712 @+0200",
+          "displayModificationDateTime": "2013-11-26 12:05:16.712 @+0200",
           "activationDateTime": "2013-11-13 15:44:56.041 @+0200",
           "linksModificationDateTime": "2013-11-06 13:10:05.000 @+0200",
           "isType": "0",
@@ -550,7 +550,7 @@
           "creationDateTime": "2013-11-25 14:37:55.379 @+0200",
           "realModificationDateTime": "2013-11-25 14:37:55.378 @+0200",
           "displayModificationDateTime": "2013-11-25 14:37:55.378 @+0200",
-          "activationDateTime": "2013-11-25 13:25:23.820 @+0200",
+          "activationDateTime": "2013-12-02 17:18:53.380 @+0200",
           "linksModificationDateTime": "2013-11-25 13:23:13.229 @+0200",
           "isType": "0",
           "color": "0",
@@ -563,7 +563,7 @@
           "creationDateTime": "2013-11-25 14:46:04.977 @+0200",
           "realModificationDateTime": "2013-11-25 14:46:04.977 @+0200",
           "displayModificationDateTime": "2013-11-25 14:46:04.977 @+0200",
-          "activationDateTime": "2013-11-25 14:08:49.228 @+0200",
+          "activationDateTime": "2013-12-02 17:47:21.839 @+0200",
           "linksModificationDateTime": "2013-11-19 13:40:37.329 @+0200",
           "isType": "0",
           "color": "0",
@@ -576,7 +576,7 @@
           "creationDateTime": "2013-11-25 14:46:05.871 @+0200",
           "realModificationDateTime": "2013-11-25 14:46:05.871 @+0200",
           "displayModificationDateTime": "2013-11-25 14:46:05.871 @+0200",
-          "activationDateTime": "2013-11-25 14:08:53.830 @+0200",
+          "activationDateTime": "2013-12-02 17:47:25.880 @+0200",
           "linksModificationDateTime": "2013-11-20 16:16:58.966 @+0200",
           "isType": "0",
           "color": "0",
@@ -693,7 +693,7 @@
           "creationDateTime": "2013-11-25 14:46:02.651 @+0200",
           "realModificationDateTime": "2013-11-25 14:46:02.650 @+0200",
           "displayModificationDateTime": "2013-11-25 14:46:02.650 @+0200",
-          "activationDateTime": "2013-11-20 13:22:08.009 @+0200",
+          "activationDateTime": "2013-12-02 17:47:15.617 @+0200",
           "linksModificationDateTime": "2013-11-18 17:01:02.791 @+0200",
           "isType": "0",
           "color": "0",
@@ -758,7 +758,7 @@
           "creationDateTime": "2013-11-25 14:46:04.382 @+0200",
           "realModificationDateTime": "2013-11-25 14:46:04.381 @+0200",
           "displayModificationDateTime": "2013-11-25 14:46:04.381 @+0200",
-          "activationDateTime": "2013-11-25 14:08:58.238 @+0200",
+          "activationDateTime": "2013-12-02 17:47:26.694 @+0200",
           "linksModificationDateTime": "2013-11-20 16:16:58.966 @+0200",
           "isType": "0",
           "color": "0",
@@ -782,9 +782,9 @@
           "name": ":2: Dark times",
           "label": "&#1514;&#1502;&#1493;&#1504;&#1493;&#1514; &#1502;&#1514;&#1495;&#1500;&#1508;&#1493;&#1514; &#1489;&#1512;&#1511;&#1506; &#1492;&#1499;&#1514;&#1493;&#1489;",
           "creationDateTime": "2013-11-10 14:46:10.461 @+0200",
-          "realModificationDateTime": "2013-11-25 13:43:56.394 @+0200",
-          "displayModificationDateTime": "2013-11-25 13:43:56.394 @+0200",
-          "activationDateTime": "2013-11-25 13:44:37.098 @+0200",
+          "realModificationDateTime": "2013-11-26 16:47:07.569 @+0200",
+          "displayModificationDateTime": "2013-12-01 17:22:50.477 @+0200",
+          "activationDateTime": "2013-12-02 16:26:22.651 @+0200",
           "linksModificationDateTime": "2013-11-03 17:00:29.593 @+0200",
           "isType": "0",
           "color": "0",
@@ -795,9 +795,9 @@
           "name": ":5: Surviving daughter in Israel",
           "label": "&#1514;&#1502;&#1493;&#1504;&#1493;&#1514; &#1502;&#1514;&#1495;&#1500;&#1508;&#1493;&#1514; &#1489;&#1512;&#1511;&#1506; &#1493;&#1491;&#1507; &#1506;&#1491; &#1499;&#1488;&#1493;&#1508;&#1510;&#1497;&#1492;",
           "creationDateTime": "2013-11-10 14:46:11.033 @+0200",
-          "realModificationDateTime": "2013-11-25 13:43:23.678 @+0200",
-          "displayModificationDateTime": "2013-11-25 13:43:23.678 @+0200",
-          "activationDateTime": "2013-11-10 15:49:51.287 @+0200",
+          "realModificationDateTime": "2013-11-26 16:47:07.801 @+0200",
+          "displayModificationDateTime": "2013-12-02 15:24:26.853 @+0200",
+          "activationDateTime": "2013-12-02 16:17:33.550 @+0200",
           "linksModificationDateTime": "2013-11-03 17:02:16.422 @+0200",
           "isType": "0",
           "color": "0",
@@ -822,8 +822,8 @@
           "label": "&#1496;&#1511;&#1505;&#1496; &#1506;&#1500; &#1512;&#1511;&#1506; &#1514;&#1502;&#1493;&#1504;&#1493;&#1514; &#1502;&#1514;&#1495;&#1500;&#1508;&#1493;&#1514;, &#1505;&#1512;&#1496;&#1497;&#1501; &#1499;&#1511;&#1497;&#1513;&#1493;&#1512;&#1497;&#1501; &#1488;&#1493;&#1508;&#1510;&#1497;&#1493;&#1504;&#1488;&#1500;&#1497;&#1497;&#1501; &#1488;&#1493; &#1500;&#1488;&#1495;&#1512; &#1492;&#1496;&#1511;&#1505;&#1496;.  &#1492;&#1508;&#1504;&#1497;&#1492; &#1500;&#1505;&#1511;&#1497;&#1512;&#1492; &#1504;&#1512;&#1495;&#1489;&#1514; &#1489;&#1488;&#1514;&#1512; &#1497;&#1491; &#1493;&#1513;&#1501;",
           "creationDateTime": "2013-11-10 14:46:09.144 @+0200",
           "realModificationDateTime": "2013-11-25 13:44:34.583 @+0200",
-          "displayModificationDateTime": "2013-11-25 13:44:34.583 @+0200",
-          "activationDateTime": "2013-11-25 13:44:23.270 @+0200",
+          "displayModificationDateTime": "2013-12-02 16:26:11.545 @+0200",
+          "activationDateTime": "2013-12-02 16:17:42.027 @+0200",
           "linksModificationDateTime": "2013-11-03 17:00:29.592 @+0200",
           "isType": "0",
           "color": "0",
@@ -846,11 +846,11 @@
           "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
           "name": "Elimelech Basch&apos;s diary",
           "label": "&#1514;&#1502;&#1493;&#1504;&#1493;&#1514; &#1513;&#1500; &#1492;&#1497;&#1493;&#1502;&#1503; &#1499;&#1512;&#1511;&#1506; &#1502;&#1514;&#1495;&#1500;&#1507; &#1493;&#1514;&#1502;&#1493;&#1504;&#1492; &#1502;&#1510;&#1493;&#1512;&#1508;&#1514; &#1513;&#1500; &#1492;&#1502;&#1513;&#1508;&#1495;&#1492;",
-          "creationDateTime": "2013-11-10 14:46:22.166 @+0200",
-          "realModificationDateTime": "2013-11-10 14:46:22.165 @+0200",
-          "displayModificationDateTime": "2013-11-25 13:43:17.513 @+0200",
-          "activationDateTime": "2013-11-25 14:37:30.794 @+0200",
-          "linksModificationDateTime": "2013-11-10 14:46:49.600 @+0200",
+          "creationDateTime": "2013-11-10 14:46:22.000 @+0200",
+          "realModificationDateTime": "2013-12-08 14:36:08.803 @+0200",
+          "displayModificationDateTime": "2013-12-08 14:36:08.809 @+0200",
+          "activationDateTime": "2013-12-02 16:46:28.519 @+0200",
+          "linksModificationDateTime": "2013-11-10 14:46:49.000 @+0200",
           "isType": "0",
           "color": "0",
           "accessControlType": "0"
@@ -861,9 +861,9 @@
           "label": "",
           "creationDateTime": "2013-11-10 14:46:14.894 @+0200",
           "realModificationDateTime": "2013-11-25 13:45:01.264 @+0200",
-          "displayModificationDateTime": "2013-11-25 13:45:01.264 @+0200",
-          "activationDateTime": "2013-11-25 13:44:49.423 @+0200",
-          "linksModificationDateTime": "2013-11-03 16:53:47.202 @+0200",
+          "displayModificationDateTime": "2013-12-02 16:46:23.357 @+0200",
+          "activationDateTime": "2013-12-02 16:45:55.580 @+0200",
+          "linksModificationDateTime": "2013-11-27 13:39:18.596 @+0200",
           "isType": "0",
           "color": "0",
           "accessControlType": "0"
@@ -874,8 +874,8 @@
           "label": "",
           "creationDateTime": "2013-11-10 14:46:21.130 @+0200",
           "realModificationDateTime": "2013-11-10 14:46:21.129 @+0200",
-          "displayModificationDateTime": "2013-11-10 14:46:21.129 @+0200",
-          "activationDateTime": "2013-11-10 16:07:44.911 @+0200",
+          "displayModificationDateTime": "2013-12-02 16:08:42.030 @+0200",
+          "activationDateTime": "2013-12-02 16:07:11.215 @+0200",
           "linksModificationDateTime": "2013-10-27 13:48:07.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -887,8 +887,8 @@
           "label": "&#1510;&#1497;&#1500;&#1493;&#1501; &#1502;&#1492;&#1497;&#1493;&#1502;&#1503; &#1489;&#1512;&#1511;&#1506; &#1488;&#1493; &#1513;&#1492;&#1496;&#1511;&#1505;&#1496; &#1497;&#1506;&#1489;&#1493;&#1512; &#1489;&#1499;&#1514;&#1493;&#1489;&#1497;&#1493;&#1514; &#1502;&#1514;&#1495;&#1500;&#1508;&#1493;&#1514;",
           "creationDateTime": "2013-11-10 14:46:12.310 @+0200",
           "realModificationDateTime": "2013-11-10 14:46:12.310 @+0200",
-          "displayModificationDateTime": "2013-11-10 14:46:12.310 @+0200",
-          "activationDateTime": "2013-11-10 15:42:55.316 @+0200",
+          "displayModificationDateTime": "2013-12-02 16:13:22.095 @+0200",
+          "activationDateTime": "2013-12-02 16:12:01.474 @+0200",
           "linksModificationDateTime": "2013-11-03 17:01:22.350 @+0200",
           "isType": "0",
           "color": "0",
@@ -900,8 +900,8 @@
           "label": "&#1505;&#1512;&#1496; &#1512;&#1511;&#1506; &#1488;&#1497;&#1500;&#1501; &#1489;&#1512;&#1511;&#1506; &#1488;&#1493; &#1499;&#1492;&#1502;&#1513;&#1498; &#1500;&#1499;&#1514;&#1493;&#1489;&#1497;&#1514;, &#1514;&#1502;&#1493;&#1504;&#1493;&#1514; &#1488;&#1493;&#1508;&#1510;&#1497;&#1493;&#1504;&#1488;&#1500;&#1497;&#1493;&#1514;",
           "creationDateTime": "2013-11-10 14:46:14.295 @+0200",
           "realModificationDateTime": "2013-11-10 14:46:14.294 @+0200",
-          "displayModificationDateTime": "2013-11-10 14:46:14.294 @+0200",
-          "activationDateTime": "2013-11-10 15:22:17.285 @+0200",
+          "displayModificationDateTime": "2013-12-01 17:06:09.271 @+0200",
+          "activationDateTime": "2013-12-02 12:55:33.596 @+0200",
           "linksModificationDateTime": "2013-10-17 15:10:08.231 @+0200",
           "isType": "0",
           "color": "0",
@@ -909,13 +909,13 @@
         },
         {
           "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
-          "name": ":_: An extraordinary life story",
+          "name": "An extraordinary life story",
           "label": "&#1502;&#1508;&#1514; &#1504;&#1491;&#1493;&#1491;&#1497;&#1493; &#1513;&#1500; &#1492;&#1512;&#1502;&#1489;&quot;&#1501; &#8211; &#1505;&#1508;&#1512;&#1491;, &#1510;&#1508;&#1493;&#1503; &#1488;&#1508;&#1512;&#1497;&#1511;&#1492; &#1493;&#1502;&#1510;&#1512;&#1497;&#1501;.",
           "creationDateTime": "2013-11-25 14:37:56.818 @+0200",
-          "realModificationDateTime": "2013-11-25 14:37:56.818 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:37:56.818 @+0200",
-          "activationDateTime": "2013-11-25 13:34:42.962 @+0200",
-          "linksModificationDateTime": "2013-11-06 13:11:29.085 @+0200",
+          "realModificationDateTime": "2013-12-01 16:37:17.065 @+0200",
+          "displayModificationDateTime": "2013-12-01 16:37:17.065 @+0200",
+          "activationDateTime": "2013-12-02 17:48:09.675 @+0200",
+          "linksModificationDateTime": "2013-12-01 16:37:06.080 @+0200",
           "isType": "0",
           "color": "ffffffff",
           "accessControlType": "0"
@@ -927,7 +927,7 @@
           "creationDateTime": "2013-11-25 14:37:43.186 @+0200",
           "realModificationDateTime": "2013-11-25 14:37:43.179 @+0200",
           "displayModificationDateTime": "2013-11-25 14:37:43.179 @+0200",
-          "activationDateTime": "2013-11-14 16:49:09.815 @+0200",
+          "activationDateTime": "2013-12-02 17:26:37.445 @+0200",
           "linksModificationDateTime": "2013-11-06 13:08:18.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -940,7 +940,7 @@
           "creationDateTime": "2013-11-25 14:37:57.118 @+0200",
           "realModificationDateTime": "2013-11-25 14:37:57.118 @+0200",
           "displayModificationDateTime": "2013-11-25 14:37:57.118 @+0200",
-          "activationDateTime": "2013-11-14 19:41:38.797 @+0200",
+          "activationDateTime": "2013-12-02 17:26:22.715 @+0200",
           "linksModificationDateTime": "2013-11-06 13:06:34.937 @+0200",
           "isType": "0",
           "color": "0",
@@ -966,8 +966,8 @@
           "creationDateTime": "2013-11-25 14:37:59.052 @+0200",
           "realModificationDateTime": "2013-11-25 14:37:59.052 @+0200",
           "displayModificationDateTime": "2013-11-25 14:38:11.771 @+0200",
-          "activationDateTime": "2013-11-25 13:33:44.307 @+0200",
-          "linksModificationDateTime": "2013-11-06 13:13:33.000 @+0200",
+          "activationDateTime": "2013-12-02 17:24:29.651 @+0200",
+          "linksModificationDateTime": "2013-11-27 13:39:18.586 @+0200",
           "isType": "0",
           "color": "0",
           "accessControlType": "0"
@@ -977,9 +977,9 @@
           "name": ":3: Intellectual milieu and influences",
           "label": "&#1491;&#1497;&#1502;&#1493;&#1497;&#1497;&#1501; &#8211; &#1488;&#1489;&#1503; &#1489;&#1488;&#1490;&apos;&#1492;, &#1488;&#1489;&#1503; &#1512;&#1513;&#1491;, &#1488;&#1489;&#1503; &#1505;&#1497;&#1504;&#1492; &#1493;&#1500;&#1510;&#1497;&#1491;&#1501; &#1492;&#1514;&#1497;&#1488;&#1493;&#1500;&#1493;&#1490;&#1497;&#1497;&#1501; &#1492;&#1504;&#1494;&#1499;&#1512;&#1497;&#1501;",
           "creationDateTime": "2013-11-25 14:37:43.691 @+0200",
-          "realModificationDateTime": "2013-11-25 14:37:43.690 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:37:43.690 @+0200",
-          "activationDateTime": "2013-11-14 19:51:31.000 @+0200",
+          "realModificationDateTime": "2013-11-26 12:05:16.372 @+0200",
+          "displayModificationDateTime": "2013-11-26 12:05:16.372 @+0200",
+          "activationDateTime": "2013-12-02 17:26:28.351 @+0200",
           "linksModificationDateTime": "2013-11-06 13:07:03.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -991,8 +991,8 @@
           "label": "",
           "creationDateTime": "2013-11-25 14:37:59.292 @+0200",
           "realModificationDateTime": "2013-11-25 14:37:59.292 @+0200",
-          "displayModificationDateTime": "2013-11-25 16:36:05.739 @+0200",
-          "activationDateTime": "2013-11-25 15:36:04.333 @+0200",
+          "displayModificationDateTime": "2013-12-02 12:12:44.089 @+0200",
+          "activationDateTime": "2013-12-08 15:13:01.765 @+0200",
           "linksModificationDateTime": "2013-11-25 14:38:09.153 @+0200",
           "isType": "0",
           "color": "0",
@@ -1013,13 +1013,13 @@
         },
         {
           "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
-          "name": "Maimonides&apos; Commentary on the Mishnah",
+          "name": "Maimonides&apos; Commentary on the Mishnah]",
           "label": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1492;&#1512;&#1502;&#1489;&quot;&#1501; &#1502;&#1492;&#1502;&#1488;&#1492; &#1492; 18 &#1489;&#1512;&#1511;&#1506; &#1492;&#1496;&#1511;&#1505;&#1496;",
           "creationDateTime": "2013-11-25 14:38:01.117 @+0200",
-          "realModificationDateTime": "2013-11-25 16:25:43.992 @+0200",
-          "displayModificationDateTime": "2013-11-25 16:25:43.993 @+0200",
-          "activationDateTime": "2013-11-25 16:35:13.362 @+0200",
-          "linksModificationDateTime": "2013-11-25 14:38:37.255 @+0200",
+          "realModificationDateTime": "2013-12-08 14:36:09.065 @+0200",
+          "displayModificationDateTime": "2013-12-08 14:36:09.068 @+0200",
+          "activationDateTime": "2013-12-08 15:21:53.543 @+0200",
+          "linksModificationDateTime": "2013-12-01 16:37:06.080 @+0200",
           "isType": "0",
           "color": "0",
           "accessControlType": "0"
@@ -1031,7 +1031,7 @@
           "creationDateTime": "2013-11-25 14:38:02.558 @+0200",
           "realModificationDateTime": "2013-11-25 14:38:02.557 @+0200",
           "displayModificationDateTime": "2013-11-25 14:38:02.557 @+0200",
-          "activationDateTime": "2013-11-25 12:27:25.290 @+0200",
+          "activationDateTime": "2013-12-02 12:45:03.902 @+0200",
           "linksModificationDateTime": "2013-11-25 12:33:14.132 @+0200",
           "isType": "0",
           "color": "0",
@@ -1043,8 +1043,8 @@
           "label": "",
           "creationDateTime": "2013-11-25 14:38:02.565 @+0200",
           "realModificationDateTime": "2013-11-25 14:38:02.564 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:38:02.564 @+0200",
-          "activationDateTime": "2013-11-25 12:27:42.425 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:18:49.360 @+0200",
+          "activationDateTime": "2013-12-02 17:18:31.919 @+0200",
           "linksModificationDateTime": "2013-11-25 12:33:28.663 @+0200",
           "isType": "0",
           "color": "0",
@@ -1056,8 +1056,8 @@
           "label": "&#1514;&#1502;&#1493;&#1504;&#1493;&#1514; &#1502;&#1514;&#1495;&#1500;&#1508;&#1493;&#1514; &#1489;&#1512;&#1511;&#1506;, &#1499;&#1502;&#1493; &#1489;&apos;&#1502;&#1508;&#1512;&#1511;&apos; &#1492;&#1512;&#1488;&#1513;&#1493;&#1503;",
           "creationDateTime": "2013-11-10 14:46:22.795 @+0200",
           "realModificationDateTime": "2013-11-10 14:46:22.794 @+0200",
-          "displayModificationDateTime": "2013-11-10 14:46:22.794 @+0200",
-          "activationDateTime": "2013-11-10 15:56:49.528 @+0200",
+          "displayModificationDateTime": "2013-12-02 15:28:07.032 @+0200",
+          "activationDateTime": "2013-12-02 15:27:54.460 @+0200",
           "linksModificationDateTime": "2013-11-03 17:02:49.669 @+0200",
           "isType": "0",
           "color": "0",
@@ -1070,7 +1070,7 @@
           "creationDateTime": "2013-11-25 14:43:00.696 @+0200",
           "realModificationDateTime": "2013-11-25 14:43:00.695 @+0200",
           "displayModificationDateTime": "2013-11-25 14:43:00.695 @+0200",
-          "activationDateTime": "2013-11-21 16:28:11.173 @+0200",
+          "activationDateTime": "2013-12-01 16:47:02.526 @+0200",
           "linksModificationDateTime": "2013-11-06 16:00:53.947 @+0200",
           "isType": "0",
           "color": "0",
@@ -1083,7 +1083,7 @@
           "creationDateTime": "2013-11-10 14:46:23.258 @+0200",
           "realModificationDateTime": "2013-11-10 14:46:23.257 @+0200",
           "displayModificationDateTime": "2013-11-10 14:46:23.257 @+0200",
-          "activationDateTime": "2013-11-10 15:46:20.525 @+0200",
+          "activationDateTime": "2013-12-02 16:17:26.144 @+0200",
           "linksModificationDateTime": "2013-11-03 17:01:43.108 @+0200",
           "isType": "0",
           "color": "0",
@@ -1095,8 +1095,8 @@
           "label": "&#1495;&#1493;&#1502;&#1512;&#1497; &#1502;&#1493;&#1505;&#1497;&#1511;&#1492; &#1502;&#1492;&#1505;&#1508;&#1512;&#1497;&#1492;,  &#1488;&#1493;&#1500;&#1497; &#1500;&#1511;&#1513;&#1512; &#1500;&#1511;&#1496;&#1506; &#1504;&#1508;&#1512;&#1491; &#1513;&#1500; &#1500;&#1513;&#1493;&#1504;&#1493;&#1514; &#1488;&#1501; &#1504;&#1490;&#1497;&#1506; &#1500;&#1499;&#1498;.....",
           "creationDateTime": "2013-11-25 14:37:44.366 @+0200",
           "realModificationDateTime": "2013-11-25 14:37:44.366 @+0200",
-          "displayModificationDateTime": "2013-11-25 16:20:48.064 @+0200",
-          "activationDateTime": "2013-11-25 15:34:12.705 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:24:11.786 @+0200",
+          "activationDateTime": "2013-12-02 17:21:45.599 @+0200",
           "linksModificationDateTime": "2013-10-22 16:42:09.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1108,8 +1108,8 @@
           "label": "",
           "creationDateTime": "2013-11-25 14:37:47.402 @+0200",
           "realModificationDateTime": "2013-11-25 14:37:47.401 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:37:47.401 @+0200",
-          "activationDateTime": "2013-11-25 15:36:26.696 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:25:34.862 @+0200",
+          "activationDateTime": "2013-12-08 15:14:18.788 @+0200",
           "linksModificationDateTime": "2013-11-13 16:05:32.257 @+0200",
           "isType": "0",
           "color": "0",
@@ -1121,8 +1121,8 @@
           "label": "&#1502;&#1508;&#1492; &#1506;&#1514;&#1497;&#1511;&#1492; &#1513;&#1500; &#1492;&#1488;&#1512;&#1509;/&#1492;&#1506;&#1512;&#1497;&#1501; &#1492;&#1500;&#1500;&#1493;",
           "creationDateTime": "2013-11-25 14:37:47.581 @+0200",
           "realModificationDateTime": "2013-11-25 14:37:47.580 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:37:47.580 @+0200",
-          "activationDateTime": "2013-11-14 18:27:42.330 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:47:46.220 @+0200",
+          "activationDateTime": "2013-12-02 17:47:35.224 @+0200",
           "linksModificationDateTime": "2013-11-06 13:09:32.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1148,7 +1148,7 @@
           "creationDateTime": "2013-11-25 14:37:48.778 @+0200",
           "realModificationDateTime": "2013-11-25 14:37:48.777 @+0200",
           "displayModificationDateTime": "2013-11-25 14:37:48.777 @+0200",
-          "activationDateTime": "2013-11-14 19:43:53.279 @+0200",
+          "activationDateTime": "2013-12-01 16:37:41.795 @+0200",
           "linksModificationDateTime": "2013-11-13 16:07:15.409 @+0200",
           "isType": "0",
           "color": "0",
@@ -1199,8 +1199,8 @@
           "label": "",
           "creationDateTime": "2013-11-25 14:43:04.065 @+0200",
           "realModificationDateTime": "2013-11-25 14:43:04.064 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:43:04.064 @+0200",
-          "activationDateTime": "2013-11-21 17:42:08.383 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:52:29.763 @+0200",
+          "activationDateTime": "2013-12-02 17:48:52.903 @+0200",
           "linksModificationDateTime": "2013-11-06 16:02:17.796 @+0200",
           "isType": "0",
           "color": "0",
@@ -1212,8 +1212,8 @@
           "label": "",
           "creationDateTime": "2013-11-10 14:41:34.981 @+0200",
           "realModificationDateTime": "2013-11-25 13:39:30.548 @+0200",
-          "displayModificationDateTime": "2013-11-25 13:39:30.548 @+0200",
-          "activationDateTime": "2013-11-25 17:50:32.217 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:13:44.802 @+0200",
+          "activationDateTime": "2013-12-08 13:36:16.754 @+0200",
           "linksModificationDateTime": "2013-11-10 10:42:52.682 @+0200",
           "isType": "0",
           "color": "ffcc0000",
@@ -1226,7 +1226,7 @@
           "creationDateTime": "2013-11-10 14:41:34.818 @+0200",
           "realModificationDateTime": "2013-11-10 14:41:34.818 @+0200",
           "displayModificationDateTime": "2013-11-10 14:41:34.818 @+0200",
-          "activationDateTime": "2013-11-25 17:48:21.090 @+0200",
+          "activationDateTime": "2013-12-02 16:44:30.231 @+0200",
           "linksModificationDateTime": "2013-07-02 11:14:50.000 @+0300",
           "isType": "0",
           "color": "0",
@@ -1303,8 +1303,8 @@
           "label": "",
           "creationDateTime": "2013-11-25 14:43:06.541 @+0200",
           "realModificationDateTime": "2013-11-25 14:43:06.540 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:43:06.540 @+0200",
-          "activationDateTime": "2013-11-25 16:56:47.098 @+0200",
+          "displayModificationDateTime": "2013-12-01 17:54:35.261 @+0200",
+          "activationDateTime": "2013-12-08 15:21:33.959 @+0200",
           "linksModificationDateTime": "2013-11-25 14:43:15.489 @+0200",
           "isType": "0",
           "color": "0",
@@ -1338,13 +1338,13 @@
         },
         {
           "guid": "E8096AB9-F897-17EA-4D1B-638B8A62ECD7",
-          "name": ":_: A.S.  Yahuda  Madrid- New-Haven - Jerusalem",
-          "label": "",
-          "creationDateTime": "2013-11-25 14:43:06.139 @+0200",
-          "realModificationDateTime": "2013-11-25 14:43:06.139 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:43:06.139 @+0200",
-          "activationDateTime": "2013-11-25 14:01:10.016 @+0200",
-          "linksModificationDateTime": "2013-11-06 16:24:21.186 @+0200",
+          "name": "A.S.  Yahuda  Madrid- New-Haven - Jerusalem",
+          "label": "&#1513;&#1501; &#1513;&#1500; &#1514;&#1502;&#1493;&#1504;&#1492;???",
+          "creationDateTime": "2013-11-25 14:43:06.000 @+0200",
+          "realModificationDateTime": "2013-12-08 15:19:22.841 @+0200",
+          "displayModificationDateTime": "2013-12-08 15:19:22.851 @+0200",
+          "activationDateTime": "2013-12-08 15:21:31.718 @+0200",
+          "linksModificationDateTime": "2013-12-01 16:43:16.000 @+0200",
           "isType": "0",
           "color": "0",
           "accessControlType": "0"
@@ -1381,8 +1381,8 @@
           "label": "",
           "creationDateTime": "2013-11-10 14:41:34.257 @+0200",
           "realModificationDateTime": "2013-11-10 14:41:34.256 @+0200",
-          "displayModificationDateTime": "2013-11-10 14:41:34.256 @+0200",
-          "activationDateTime": "2013-11-06 14:39:15.320 @+0200",
+          "displayModificationDateTime": "2013-12-02 16:42:15.988 @+0200",
+          "activationDateTime": "2013-12-02 16:40:13.374 @+0200",
           "linksModificationDateTime": "2013-11-10 10:42:23.374 @+0200",
           "isType": "0",
           "color": "0",
@@ -1394,9 +1394,9 @@
           "label": "",
           "creationDateTime": "2013-11-25 14:43:05.736 @+0200",
           "realModificationDateTime": "2013-11-25 14:43:05.736 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:43:05.736 @+0200",
-          "activationDateTime": "2013-11-25 14:43:24.909 @+0200",
-          "linksModificationDateTime": "2013-11-06 16:02:17.786 @+0200",
+          "displayModificationDateTime": "2013-12-01 16:47:45.745 @+0200",
+          "activationDateTime": "2013-12-08 15:21:32.942 @+0200",
+          "linksModificationDateTime": "2013-12-01 16:43:16.517 @+0200",
           "isType": "0",
           "color": "0",
           "accessControlType": "0"
@@ -1421,7 +1421,7 @@
           "creationDateTime": "2013-11-25 14:43:05.607 @+0200",
           "realModificationDateTime": "2013-11-25 14:43:05.607 @+0200",
           "displayModificationDateTime": "2013-11-25 14:43:05.607 @+0200",
-          "activationDateTime": "2013-11-25 16:56:46.123 @+0200",
+          "activationDateTime": "2013-12-08 13:35:43.492 @+0200",
           "linksModificationDateTime": "2013-11-06 16:18:39.295 @+0200",
           "isType": "0",
           "color": "0",
@@ -1433,8 +1433,8 @@
           "label": "",
           "creationDateTime": "2013-11-10 14:41:20.626 @+0200",
           "realModificationDateTime": "2013-11-10 14:41:20.626 @+0200",
-          "displayModificationDateTime": "2013-11-10 14:41:20.626 @+0200",
-          "activationDateTime": "2013-11-03 16:40:09.854 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:04:24.525 @+0200",
+          "activationDateTime": "2013-12-02 17:02:26.474 @+0200",
           "linksModificationDateTime": "2013-11-03 17:07:08.673 @+0200",
           "isType": "0",
           "color": "0",
@@ -1498,8 +1498,8 @@
           "label": "",
           "creationDateTime": "2013-11-10 14:41:16.158 @+0200",
           "realModificationDateTime": "2013-11-10 14:41:16.157 @+0200",
-          "displayModificationDateTime": "2013-11-10 14:41:16.157 @+0200",
-          "activationDateTime": "2013-11-03 16:13:06.943 @+0200",
+          "displayModificationDateTime": "2013-12-02 16:43:54.825 @+0200",
+          "activationDateTime": "2013-12-02 16:43:40.247 @+0200",
           "linksModificationDateTime": "2013-10-23 14:51:32.241 @+0200",
           "isType": "0",
           "color": "0",
@@ -1512,7 +1512,7 @@
           "creationDateTime": "2013-11-10 14:41:20.611 @+0200",
           "realModificationDateTime": "2013-11-10 14:41:20.610 @+0200",
           "displayModificationDateTime": "2013-11-10 14:41:20.610 @+0200",
-          "activationDateTime": "2013-11-25 17:50:29.035 @+0200",
+          "activationDateTime": "2013-12-08 13:36:09.511 @+0200",
           "linksModificationDateTime": "2013-10-23 14:51:40.762 @+0200",
           "isType": "0",
           "color": "0",
@@ -1524,8 +1524,8 @@
           "label": "",
           "creationDateTime": "2013-11-10 14:41:16.423 @+0200",
           "realModificationDateTime": "2013-11-10 14:41:16.423 @+0200",
-          "displayModificationDateTime": "2013-11-10 14:41:16.423 @+0200",
-          "activationDateTime": "2013-11-03 16:36:32.711 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:12:07.346 @+0200",
+          "activationDateTime": "2013-12-08 15:23:43.767 @+0200",
           "linksModificationDateTime": "2013-11-03 17:07:18.984 @+0200",
           "isType": "0",
           "color": "0",
@@ -1537,8 +1537,8 @@
           "label": "",
           "creationDateTime": "2013-11-10 14:37:37.906 @+0200",
           "realModificationDateTime": "2013-11-25 14:46:57.316 @+0200",
-          "displayModificationDateTime": "2013-11-25 18:12:38.455 @+0200",
-          "activationDateTime": "2013-11-25 18:08:46.758 @+0200",
+          "displayModificationDateTime": "2013-12-08 15:07:42.194 @+0200",
+          "activationDateTime": "2013-12-08 15:27:37.813 @+0200",
           "linksModificationDateTime": "2013-11-25 14:46:20.442 @+0200",
           "isType": "0",
           "color": "0",
@@ -1576,8 +1576,8 @@
           "label": "",
           "creationDateTime": "2013-11-10 14:41:36.248 @+0200",
           "realModificationDateTime": "2013-11-10 14:41:36.248 @+0200",
-          "displayModificationDateTime": "2013-11-10 14:41:36.248 @+0200",
-          "activationDateTime": "2013-11-10 10:44:46.023 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:09:57.580 @+0200",
+          "activationDateTime": "2013-12-08 15:23:47.717 @+0200",
           "linksModificationDateTime": "2013-11-03 17:07:29.930 @+0200",
           "isType": "0",
           "color": "0",
@@ -1615,8 +1615,8 @@
           "label": "",
           "creationDateTime": "2013-11-25 14:43:07.312 @+0200",
           "realModificationDateTime": "2013-11-25 14:43:07.312 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:43:07.312 @+0200",
-          "activationDateTime": "2013-11-07 15:56:23.863 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:54:06.817 @+0200",
+          "activationDateTime": "2013-12-02 17:53:18.649 @+0200",
           "linksModificationDateTime": "2013-11-06 16:07:04.346 @+0200",
           "isType": "0",
           "color": "0",
@@ -1624,13 +1624,13 @@
         },
         {
           "guid": "7F13F425-9474-7539-509D-FEDE3A2F8619",
-          "name": ":_: Other Torah manuscripts at the NLI",
+          "name": "Other Torah manuscripts at the NLI",
           "label": "",
           "creationDateTime": "2013-11-10 14:41:36.774 @+0200",
-          "realModificationDateTime": "2013-11-25 13:42:32.499 @+0200",
-          "displayModificationDateTime": "2013-11-25 13:42:32.499 @+0200",
-          "activationDateTime": "2013-11-25 13:42:15.877 @+0200",
-          "linksModificationDateTime": "2013-11-25 13:42:49.661 @+0200",
+          "realModificationDateTime": "2013-12-01 16:41:14.658 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:02:21.174 @+0200",
+          "activationDateTime": "2013-12-08 15:27:17.142 @+0200",
+          "linksModificationDateTime": "2013-12-01 16:41:02.335 @+0200",
           "isType": "0",
           "color": "0",
           "accessControlType": "0"
@@ -1654,8 +1654,8 @@
           "label": "",
           "creationDateTime": "2013-11-10 14:41:36.952 @+0200",
           "realModificationDateTime": "2013-11-10 14:41:36.952 @+0200",
-          "displayModificationDateTime": "2013-11-10 14:41:36.952 @+0200",
-          "activationDateTime": "2013-10-30 16:08:40.352 @+0200",
+          "displayModificationDateTime": "2013-12-02 16:44:26.859 @+0200",
+          "activationDateTime": "2013-12-02 16:44:03.012 @+0200",
           "linksModificationDateTime": "2013-07-07 12:00:57.879 @+0300",
           "isType": "0",
           "color": "0",
@@ -1668,7 +1668,7 @@
           "creationDateTime": "2013-11-25 14:43:10.819 @+0200",
           "realModificationDateTime": "2013-11-25 14:43:10.818 @+0200",
           "displayModificationDateTime": "2013-11-25 14:43:10.818 @+0200",
-          "activationDateTime": "2013-11-07 15:01:59.754 @+0200",
+          "activationDateTime": "2013-11-27 13:52:38.833 @+0200",
           "linksModificationDateTime": "2013-11-06 16:20:35.132 @+0200",
           "isType": "0",
           "color": "0",
@@ -1705,9 +1705,9 @@
           "name": ":5: The Yahuda Exquisite Manuscript Collection Islamic manuscripts",
           "label": "",
           "creationDateTime": "2013-11-25 14:43:08.736 @+0200",
-          "realModificationDateTime": "2013-11-25 14:43:08.735 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:43:08.735 @+0200",
-          "activationDateTime": "2013-11-21 17:45:16.000 @+0200",
+          "realModificationDateTime": "2013-12-08 15:19:27.055 @+0200",
+          "displayModificationDateTime": "2013-12-08 15:19:27.065 @+0200",
+          "activationDateTime": "2013-12-08 15:20:56.642 @+0200",
           "linksModificationDateTime": "2013-11-06 16:24:21.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1732,8 +1732,8 @@
           "label": "",
           "creationDateTime": "2013-11-25 14:43:08.050 @+0200",
           "realModificationDateTime": "2013-11-25 14:43:08.049 @+0200",
-          "displayModificationDateTime": "2013-11-25 14:43:08.049 @+0200",
-          "activationDateTime": "2013-11-25 16:36:14.758 @+0200",
+          "displayModificationDateTime": "2013-12-02 17:56:48.699 @+0200",
+          "activationDateTime": "2013-12-02 17:54:15.946 @+0200",
           "linksModificationDateTime": "2013-11-06 16:07:07.491 @+0200",
           "isType": "0",
           "color": "0",
@@ -1759,7 +1759,7 @@
           "creationDateTime": "2013-11-25 14:43:10.491 @+0200",
           "realModificationDateTime": "2013-11-25 14:43:10.490 @+0200",
           "displayModificationDateTime": "2013-11-25 14:43:10.490 @+0200",
-          "activationDateTime": "2013-11-25 14:00:04.062 @+0200",
+          "activationDateTime": "2013-11-27 13:51:35.041 @+0200",
           "linksModificationDateTime": "2013-11-06 16:22:50.758 @+0200",
           "isType": "0",
           "color": "0",
@@ -1785,7 +1785,7 @@
           "creationDateTime": "2013-11-25 14:43:10.024 @+0200",
           "realModificationDateTime": "2013-11-25 14:43:10.024 @+0200",
           "displayModificationDateTime": "2013-11-25 14:43:10.024 @+0200",
-          "activationDateTime": "2013-11-25 14:02:44.841 @+0200",
+          "activationDateTime": "2013-12-01 16:42:30.028 @+0200",
           "linksModificationDateTime": "2013-11-06 16:10:11.658 @+0200",
           "isType": "0",
           "color": "0",
@@ -1834,11 +1834,11 @@
           "guid": "247AB393-E49A-081A-B263-CFD681CA525C",
           "name": "Judeo-Arabic",
           "label": "",
-          "creationDateTime": "2013-11-10 14:41:32.610 @+0200",
-          "realModificationDateTime": "2013-11-10 14:41:32.609 @+0200",
-          "displayModificationDateTime": "2013-11-10 14:41:32.609 @+0200",
-          "activationDateTime": "2013-07-07 13:36:40.252 @+0300",
-          "linksModificationDateTime": "2013-07-07 14:38:31.679 @+0300",
+          "creationDateTime": "2013-11-10 14:41:32.000 @+0200",
+          "realModificationDateTime": "2013-11-10 14:41:32.000 @+0200",
+          "displayModificationDateTime": "2013-11-29 17:47:42.000 @+0200",
+          "activationDateTime": "2013-07-07 13:36:40.000 @+0300",
+          "linksModificationDateTime": "2013-07-07 14:38:31.000 @+0300",
           "isType": "0",
           "color": "0",
           "accessControlType": "0"
@@ -1862,9 +1862,9 @@
           "label": "",
           "creationDateTime": "2013-11-10 14:41:31.698 @+0200",
           "realModificationDateTime": "2013-11-10 14:41:31.697 @+0200",
-          "displayModificationDateTime": "2013-11-25 16:25:50.017 @+0200",
-          "activationDateTime": "2013-11-25 18:08:42.521 @+0200",
-          "linksModificationDateTime": "2013-11-25 13:42:49.662 @+0200",
+          "displayModificationDateTime": "2013-12-02 16:45:44.230 @+0200",
+          "activationDateTime": "2013-12-08 15:27:19.083 @+0200",
+          "linksModificationDateTime": "2013-12-01 16:41:02.334 @+0200",
           "isType": "0",
           "color": "ffcc0000",
           "accessControlType": "0"
@@ -1953,8 +1953,8 @@
           "label": "",
           "creationDateTime": "2013-11-10 14:41:29.612 @+0200",
           "realModificationDateTime": "2013-11-10 14:41:29.612 @+0200",
-          "displayModificationDateTime": "2013-11-25 16:25:44.478 @+0200",
-          "activationDateTime": "2013-11-25 15:36:48.084 @+0200",
+          "displayModificationDateTime": "2013-12-02 16:56:01.130 @+0200",
+          "activationDateTime": "2013-12-02 16:52:08.801 @+0200",
           "linksModificationDateTime": "2013-11-03 16:09:43.297 @+0200",
           "isType": "0",
           "color": "ffcc0000",
@@ -2032,7 +2032,7 @@
           "creationDateTime": "2013-11-25 14:45:54.056 @+0200",
           "realModificationDateTime": "2013-11-25 14:45:54.056 @+0200",
           "displayModificationDateTime": "2013-11-25 14:45:54.056 @+0200",
-          "activationDateTime": "2013-11-25 14:08:45.531 @+0200",
+          "activationDateTime": "2013-12-01 16:49:32.521 @+0200",
           "linksModificationDateTime": "2013-11-19 13:40:24.752 @+0200",
           "isType": "0",
           "color": "0",
@@ -2058,7 +2058,7 @@
           "creationDateTime": "2013-11-25 14:45:56.142 @+0200",
           "realModificationDateTime": "2013-11-25 14:45:56.141 @+0200",
           "displayModificationDateTime": "2013-11-25 14:45:56.141 @+0200",
-          "activationDateTime": "2013-11-25 14:19:52.289 @+0200",
+          "activationDateTime": "2013-11-27 15:45:03.663 @+0200",
           "linksModificationDateTime": "2013-11-19 13:33:36.842 @+0200",
           "isType": "0",
           "color": "0",
@@ -2123,7 +2123,7 @@
           "creationDateTime": "2013-11-25 14:45:56.809 @+0200",
           "realModificationDateTime": "2013-11-25 14:45:56.808 @+0200",
           "displayModificationDateTime": "2013-11-25 14:45:56.808 @+0200",
-          "activationDateTime": "2013-11-25 14:21:23.711 @+0200",
+          "activationDateTime": "2013-12-01 17:51:12.904 @+0200",
           "linksModificationDateTime": "2013-11-20 16:18:04.393 @+0200",
           "isType": "0",
           "color": "0",
@@ -2135,8 +2135,8 @@
           "label": "",
           "creationDateTime": "2013-11-10 14:41:34.075 @+0200",
           "realModificationDateTime": "2013-11-10 14:41:34.074 @+0200",
-          "displayModificationDateTime": "2013-11-10 14:41:34.075 @+0200",
-          "activationDateTime": "2013-10-30 16:11:13.685 @+0200",
+          "displayModificationDateTime": "2013-12-02 16:45:03.752 @+0200",
+          "activationDateTime": "2013-12-02 16:44:40.442 @+0200",
           "linksModificationDateTime": "2013-07-02 11:14:21.000 @+0300",
           "isType": "0",
           "color": "0",
@@ -2214,7 +2214,7 @@
           "creationDateTime": "2013-11-25 14:45:58.256 @+0200",
           "realModificationDateTime": "2013-11-25 14:45:58.256 @+0200",
           "displayModificationDateTime": "2013-11-25 14:45:58.256 @+0200",
-          "activationDateTime": "2013-11-25 14:08:40.934 @+0200",
+          "activationDateTime": "2013-12-01 16:49:26.952 @+0200",
           "linksModificationDateTime": "2013-11-19 13:28:32.242 @+0200",
           "isType": "0",
           "color": "0",
@@ -2226,8 +2226,8 @@
           "label": "",
           "creationDateTime": "2013-11-10 14:41:32.759 @+0200",
           "realModificationDateTime": "2013-11-10 14:41:32.759 @+0200",
-          "displayModificationDateTime": "2013-11-25 13:39:44.487 @+0200",
-          "activationDateTime": "2013-11-10 10:38:28.446 @+0200",
+          "displayModificationDateTime": "2013-12-02 16:48:09.561 @+0200",
+          "activationDateTime": "2013-12-02 16:46:45.359 @+0200",
           "linksModificationDateTime": "2013-11-03 16:05:16.569 @+0200",
           "isType": "0",
           "color": "ffcc0000",
@@ -2251,8 +2251,8 @@
           "name": "National Library of Israel",
           "label": "",
           "creationDateTime": "2013-11-10 14:41:32.000 @+0200",
-          "realModificationDateTime": "2013-11-25 13:58:47.740 @+0200",
-          "displayModificationDateTime": "2013-11-25 13:58:47.741 @+0200",
+          "realModificationDateTime": "2013-12-08 13:35:36.712 @+0200",
+          "displayModificationDateTime": "2013-12-08 13:35:36.722 @+0200",
           "activationDateTime": "2013-08-06 10:53:00.000 @+0300",
           "linksModificationDateTime": "2013-07-02 14:59:49.000 @+0300",
           "isType": "0",
@@ -3048,13 +3048,13 @@
           "labelForward": "",
           "labelBackward": "",
           "creationDateTime": "2013-11-25 13:27:53.862 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:05.580 @+0200",
+          "modificationDateTime": "2013-12-01 16:36:14.246 @+0200",
           "isType": "0",
           "color": "0",
           "thickness": "0",
           "strength": "0",
           "meaning": "0",
-          "linkTypeID": "959F3014-9421-5669-263B-F70A90471E51"
+          "linkTypeID": ""
         },
         {
           "guid": "321B61D4-A855-EC26-CFAC-A7A99A8CAA11",
@@ -4002,13 +4002,13 @@
           "labelForward": "",
           "labelBackward": "",
           "creationDateTime": "2013-11-06 13:01:00.700 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:05.550 @+0200",
+          "modificationDateTime": "2013-12-01 16:37:06.080 @+0200",
           "isType": "0",
           "color": "0",
           "thickness": "0",
           "strength": "0",
           "meaning": "0",
-          "linkTypeID": "959F3014-9421-5669-263B-F70A90471E51"
+          "linkTypeID": ""
         },
         {
           "guid": "954B13D9-2984-65A4-0DF3-79770D2A02B9",
@@ -4650,13 +4650,13 @@
           "labelForward": "",
           "labelBackward": "",
           "creationDateTime": "2013-11-06 15:52:54.141 @+0200",
-          "modificationDateTime": "2013-11-25 14:43:13.118 @+0200",
+          "modificationDateTime": "2013-12-01 16:43:16.514 @+0200",
           "isType": "0",
           "color": "0",
           "thickness": "0",
           "strength": "0",
           "meaning": "0",
-          "linkTypeID": "2720B269-656E-06AA-6A5A-277BA8E605A6"
+          "linkTypeID": ""
         },
         {
           "guid": "64177D0F-C694-B267-E3BB-4A31FAB6B046",
@@ -4938,13 +4938,13 @@
           "labelForward": "",
           "labelBackward": "",
           "creationDateTime": "2013-11-03 16:48:22.210 @+0200",
-          "modificationDateTime": "2013-11-25 13:42:49.643 @+0200",
+          "modificationDateTime": "2013-12-01 16:41:02.303 @+0200",
           "isType": "0",
           "color": "0",
           "thickness": "0",
           "strength": "0",
           "meaning": "0",
-          "linkTypeID": "19902CBB-5D9A-F313-D5A2-A6E9541C3ECA"
+          "linkTypeID": ""
         },
         {
           "guid": "2CFB005E-158B-FBB7-34E0-DF1017DC5774",
@@ -5635,10 +5635,10 @@
               "objectID": "ADA933BD-EE7D-3B4A-8329-57CBAA4CCD8A"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\np.msosubtitle {\nmargin: 0cm;  margin-bottom: .0001pt;  font-size: 12.0pt;  font-family: &quot;Gentium Plus&quot;;  color: #4F81BD;  letter-spacing: .75pt;  font-style: italic;\n}\np.defaultstyle {\nmargin: 0cm;  margin-bottom: .0001pt;  text-align: right;  line-height: 115%;  font-size: 11.0pt;  font-family: Calibri, sans-serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot; align=&quot;left&quot; style=&quot; margin-left: 49.65pt; text-align: left;&quot;&gt;&lt;span style=&quot; background: white;&quot;&gt;In the 17&lt;sup&gt;th&lt;/sup&gt; century, when Christian scholars became interested in Hebrew manuscripts, three of the six volumes were purchased in Aleppo by European scholars and were later sold to the Bodleian Library in &amp;#160;Oxford.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoSubtitle&quot; dir=&quot;RTL&quot; style=&quot; text-align: right; direction: rtl; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-family: David,sans-serif; background: white;&quot;&gt;&lt;span style=&quot; background-color: #FFC20E;&quot;&gt;&#1508;&#1493;&#1511;&#1493;&#1511; &#1493;&#1492;&#1504;&#1496;&#1497;&#1504;&#1490;&#1491;&#1493;&#1503;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; align=&quot;left&quot; style=&quot; margin-left: 49.65pt; text-align: left;&quot;&gt;&lt;span style=&quot; background: white;&quot;&gt;The other volumes remained &amp;#160;in Aleppo, and then found their way to Damascus. There, two volumes &amp;#160;were found in terrible condition; the&amp;#160; Bodleian Library refused to buy them in this state. Luckily, they were purchased and conserved by the bibliophile Sassoon family from whom they were purchased by the NLI in 1975.&amp;#160;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; align=&quot;left&quot; style=&quot; margin-left: 49.65pt; text-align: left;&quot;&gt;&lt;span style=&quot; background: white;&quot;&gt;The sixth volume of the Commentary written Maimonides&apos; own hand is still missing, but perhaps it will one day surface!&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; align=&quot;left&quot; style=&quot; margin-left: 49.65pt; text-align: left;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot; align=&quot;left&quot; style=&quot; margin-left: 49.65pt; text-align: left;&quot;&gt;&lt;span style=&quot; background: white;&quot;&gt;In the 17&lt;sup&gt;th&lt;/sup&gt; century, when Christian scholars became interested in Hebrew manuscripts, three of the six volumes were purchased in Aleppo by European scholars and were later sold to the Bodleian Library in &amp;#160;Oxford.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoSubtitle&quot; dir=&quot;RTL&quot; style=&quot; text-align: right; direction: rtl; unicode-bidi: embed;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; align=&quot;left&quot; style=&quot; margin-left: 49.65pt; text-align: left;&quot;&gt;&lt;span style=&quot; background: white;&quot;&gt;The other volumes remained &amp;#160;in Aleppo, and then found their way to Damascus. There, two volumes &amp;#160;were found in terrible condition; the&amp;#160; Bodleian Library refused to buy them in this state. Luckily, they were purchased and conserved by the bibliophile Sassoon family from whom they were purchased by the NLI in 1975.&amp;#160;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; align=&quot;left&quot; style=&quot; margin-left: 49.65pt; text-align: left;&quot;&gt;&lt;span style=&quot; background: white;&quot;&gt;The sixth volume of the Commentary written Maimonides&apos; own hand is still missing, but perhaps it will one day surface!&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; align=&quot;left&quot; style=&quot; margin-left: 49.65pt; text-align: left;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2013-11-25 14:38:05.780 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:05.780 @+0200"
+          "modificationDateTime": "2013-12-02 12:50:18.056 @+0200"
         },
         {
           "guid": "2FD4101E-7E59-D0CE-25AF-F5D6F1A59249",
@@ -5661,10 +5661,10 @@
               "objectID": "0E88C45C-353C-2D9C-D6C2-A2395A860B45"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot; align=&quot;left&quot; style=&quot; margin-left: 72.0pt; text-align: left;&quot;&gt;Maimonides passed away in 1204 in Egypt and was buries there, but early Jewish tradition claims that he had asked to be buried in the Holy Land and that his boned were brought to burial in Tiberias, where his tomb is still shown.&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; align=&quot;left&quot; style=&quot; margin-left: 72.0pt; text-align: left;&quot;&gt;A very known Hebrew proverb in Maimonides&apos; memory is &quot;From moses to Moses no one was as great as Moses&quot;, meaning that from the biblical Moses to Moses son of Maymon (Maimonides), no one was their match in the leadership of the Jewish people and the knowledge of the Torah. This proverb was inscribed on his grave at Tiberias.&amp;#160;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot; align=&quot;left&quot; style=&quot; margin-left: 72.0pt; text-align: left;&quot;&gt;Maimonides passed away in 1204 in Egypt and was buried there, but early Jewish tradition claims that he had asked to be buried in the Holy Land and that his boned were brought to burial in Tiberias, where his tomb is still shown.&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; align=&quot;left&quot; style=&quot; margin-left: 72.0pt; text-align: left;&quot;&gt;A very known Hebrew proverb in Maimonides&apos; memory is &quot;From moses to Moses there was none as great as Moses&quot;, meaning that from the biblical Moses to Moses son of Maymon (Maimonides), no one was their match in the leadership of the Jewish people and the knowledge of the Torah. This proverb was inscribed on his grave at Tiberias.&amp;#160;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2013-11-25 14:38:05.790 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:05.790 @+0200"
+          "modificationDateTime": "2013-12-02 17:38:12.736 @+0200"
         },
         {
           "guid": "E7A339F6-8991-EC8E-F28E-99AD160609D2",
@@ -5934,10 +5934,10 @@
               "objectID": "F8A8EC39-68D8-ECCF-6F51-12C17F60061D"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-size: 12.0pt; font-family: &apos;Gentium Plus&apos;;&quot;&gt;During the second half of the 19&lt;sup&gt;th&lt;/sup&gt; century, when National movements in Europe arose, the Jewish Zionist movement was one of them. The revival of the ancient Hebrew language was one of the important goals of the Zionist movement. This explains why Elimelech Bash chose to write his diary in Hebrew.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-size: 12.0pt; font-family: &apos;Gentium Plus&apos;;&quot;&gt;Today, Hebrew is the official language of Israel and is the main spoken language in the country.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-size: 12.0pt; font-family: &apos;Gentium Plus&apos;;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-size: 12.0pt; font-family: &apos;Gentium Plus&apos;;&quot;&gt;Photo: &lt;i&gt;Hatikva&lt;/i&gt;, Hymn of the state of Israel, written by Naphtali Herz Imber, in his own hanwriting. &amp;#160;1907-8.&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-size: 12.0pt; font-family: &apos;Gentium Plus&apos;;&quot;&gt;During the second half of the 19&lt;sup&gt;th&lt;/sup&gt; century, when National movements in Europe arose, the Jewish Zionist movement was one of them. The revival of the ancient Hebrew language was one of the important goals of the Zionist movement. This explains why Elimelech Bash chose to write his diary in Hebrew.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-size: 12.0pt; font-family: &apos;Gentium Plus&apos;;&quot;&gt;Today, Hebrew is the official language of Israel and is the main spoken language in the country.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-size: 12.0pt; font-family: &apos;Gentium Plus&apos;;&quot;&gt;Photo: &lt;i&gt;Hatikva&lt;/i&gt;, Hymn of the state of Israel, written by Naphtali Herz Imber, in his own hanwriting. &amp;#160;1907-8.&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2013-11-10 14:46:24.503 @+0200",
-          "modificationDateTime": "2013-11-10 14:46:24.503 @+0200"
+          "modificationDateTime": "2013-11-26 17:21:42.054 @+0200"
         },
         {
           "guid": "7F8E1BFF-5D23-0832-F341-ED3A0D89B95E",
@@ -6051,10 +6051,10 @@
               "objectID": "4504BA63-8A03-E369-3B65-6AA7A2D71392"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;&lt;span style=&quot; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;As in other scholarly fields, Maimonides broke new ground to write a commentary directly on the &lt;/span&gt;&lt;i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Mishnah&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;. &amp;#160;Maimonides began composing his commentary &amp;#160;in 1161 while living in in Morocco and completed it in Egypt in 1168. The NLI owns an autograph, that is one of the unique manuscripts written in Maimonides&apos; own hand, of two parts, &lt;/span&gt;&lt;i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Nashim&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;, and &lt;/span&gt;&lt;i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Mo&apos;ed&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=&quot; text-align: left;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; font-family: &apos;Gentium Plus&apos;; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;This is a page from &lt;/span&gt;&lt;i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Seder Mo&apos;ed&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot; font-size: small;&quot;&gt; &#8211;&quot;Festival&quot; . &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-family: Calibri,sans-serif; background: white;&quot;&gt;&lt;span style=&quot; font-family: &apos;Gentium Plus&apos;; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Although this is already a &quot;clean&quot; copy, one can see here many changes. The large number of notes and corrections in the autograph, are evidence of &amp;#160;Maimonides&apos; dynamic thinking and constant development. &amp;#160;Maimonides was an original philosopher and thinker who never ceased to ask questions and to improve his works.&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; background: white;&quot;&gt;The Commentary remained in the use of the family and in the books in the NLI there are notes which were made by Maimonides&apos; son Abraham, and his grandson David, both of whom were scholars and leaders of the community.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;MsoSubtitle&quot; dir=&quot;RTL&quot; style=&quot; text-align: right; direction: rtl; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-family: David,sans-serif; background: white;&quot;&gt;&lt;span style=&quot; background-color: #FFC20E;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&#1500;&#1504;&#1505;&#1493;&#1514; &#1500;&#1488;&#1514;&#1512; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-family: &apos;Times New Roman&apos;, serif; background: white;&quot;&gt;&lt;span style=&quot; background-color: #FFC20E;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&#1488;&#1501; &#1488;&#1508;&#1513;&#1512; (&#1499;&#1504;&#1512;&#1488;&#1492; &#1512;&#1497;&#1510;&apos;&#1500;&#1512; &#1497;&#1493;&#1491;&#1506;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; align=&quot;left&quot; style=&quot; text-align: left;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;&lt;span style=&quot; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;As in other scholarly fields, Maimonides broke new ground to write a commentary directly on the &lt;/span&gt;&lt;i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Mishnah&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;. &amp;#160;Maimonides began composing his commentary &amp;#160;in 1161 while living in in Morocco and completed it in Egypt in 1168. The NLI owns an autograph, that is one of the unique manuscripts written in Maimonides&apos; own hand, of two parts, &lt;/span&gt;&lt;i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Nashim&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;, and &lt;/span&gt;&lt;i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Mo&apos;ed&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=&quot; text-align: left;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; font-family: &apos;Gentium Plus&apos;; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;This is a page from &lt;/span&gt;&lt;i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Seder Mo&apos;ed&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot; font-size: small;&quot;&gt; &#8211;&quot;Festival&quot; . &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-family: Calibri,sans-serif; background: white;&quot;&gt;&lt;span style=&quot; font-family: &apos;Gentium Plus&apos;; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Although this is already a &quot;clean&quot; copy, one can see here many changes. The large number of notes and corrections in the autograph, are evidence of &amp;#160;Maimonides&apos; dynamic thinking and constant development. &amp;#160;Maimonides was an original philosopher and thinker who never ceased to ask questions and to improve his works.&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; background: white;&quot;&gt;The Commentary remained in the use of the family and in the books in the NLI there are notes which were made by Maimonides&apos; son Abraham, and his grandson David, both of whom were scholars and leaders of the community.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;MsoSubtitle&quot; dir=&quot;RTL&quot; style=&quot; text-align: right; direction: rtl; unicode-bidi: embed;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; align=&quot;left&quot; style=&quot; text-align: left;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2013-11-25 14:38:05.933 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:05.933 @+0200"
+          "modificationDateTime": "2013-12-02 12:12:44.050 @+0200"
         },
         {
           "guid": "9C713123-11AD-647A-9EB4-A690B34B4156",
@@ -6343,6 +6343,19 @@
           "modificationDateTime": "2013-11-10 14:41:45.955 @+0200"
         },
         {
+          "guid": "B0B26102-294E-FD3F-5C69-82EE5C03DD2E",
+          "EntryObjects": {
+            "EntryObject": {
+              "objectType": "0",
+              "objectID": "4FDE2B58-CB47-0212-32F1-9352581E5C14"
+            }
+          },
+          "body": "",
+          "format": "HTML",
+          "creationDateTime": "2013-12-01 16:47:14.014 @+0200",
+          "modificationDateTime": "2013-12-01 16:47:14.014 @+0200"
+        },
+        {
           "guid": "02D14362-56F6-0AF2-F9E3-E0D1EA096407",
           "EntryObjects": {
             "EntryObject": {
@@ -6405,7 +6418,7 @@
           "body": "",
           "format": "HTML",
           "creationDateTime": "2013-11-10 14:38:19.430 @+0200",
-          "modificationDateTime": "2013-11-25 18:12:38.454 @+0200"
+          "modificationDateTime": "2013-12-08 15:07:42.184 @+0200"
         },
         {
           "guid": "06BE5AE7-E694-EB38-F7E6-F5E2FEAA9A47",
@@ -6545,10 +6558,10 @@
               "objectID": "05C16366-E98F-8859-A0D8-AA8FE3251A80"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify; text-indent: 3.1pt;&quot;&gt;Newton&apos;s extensive study of the Christian Doctrine brought him to the conclusion that the doctrine of the Trinity was a corruption of the original biblical doctrine. He believed that the Scriptures taught that God is one person and that this one person is the Father, while Christ is the literal Son of God, having no human father.&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify;&quot;&gt;Newton hid his beliefs. Had his contemporaries known of them he would have been considered a heretic. He however, believed that he was the true Orthodox.&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify; text-indent: 3.1pt;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify; text-indent: 3.1pt;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; dir=&quot;RTL&quot; style=&quot; text-align: justify; text-indent: 36.0pt; direction: rtl; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-family: &apos;Times New Roman&apos;, serif; color: red; background: yellow;&quot;&gt;&#1506;&#1500; &#1490;&#1489;&#1497; &#1492;&#1510;&#1497;&#1500;&#1493;&#1501;:&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify;&quot;&gt;&lt;span style=&quot; color: red; background: yellow;&quot;&gt;Par. 1 - The [word] God is no where in the scriptures used to signify more than the three persons at once.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify;&quot;&gt;&lt;span style=&quot; color: red; background: yellow;&quot;&gt;Par. 3 &#8211; When ever it is said in the scriptures that there is but one God, it is meant of the Father.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify; text-indent: 3.1pt;&quot;&gt;Newton&apos;s extensive study of the Christian Doctrine brought him to the conclusion that the doctrine of the Trinity was a corruption of the original biblical doctrine. He believed that the Scriptures taught that God is one person and that this one person is the Father, while Christ is the literal Son of God, having no human father.&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify;&quot;&gt;Newton hid his beliefs. Had his contemporaries known of them he would have been considered a heretic. He however, believed that he was the true Orthodox.&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify; text-indent: 3.1pt;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify; text-indent: 3.1pt;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; dir=&quot;RTL&quot; style=&quot; text-indent: 36.0pt; direction: rtl; unicode-bidi: embed; text-align: left;&quot;&gt;On the Photograph&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify;&quot;&gt;&lt;span style=&quot; color: red; background: yellow;&quot;&gt;Par. 1 - The [word] God is no where in the scriptures used to signify more than the three persons at once.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify;&quot;&gt;&lt;span style=&quot; color: red; background: yellow;&quot;&gt;Par. 3 &#8211; When ever it is said in the scriptures that there is but one God, it is meant of the Father.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2013-11-25 14:43:13.319 @+0200",
-          "modificationDateTime": "2013-11-25 14:43:13.319 @+0200"
+          "modificationDateTime": "2013-12-02 17:56:48.695 @+0200"
         },
         {
           "guid": "44284531-4949-7082-FA27-40A72751BE6D",
@@ -6601,6 +6614,19 @@
           "format": "HTML",
           "creationDateTime": "2013-11-10 14:41:46.458 @+0200",
           "modificationDateTime": "2013-11-10 14:41:46.458 @+0200"
+        },
+        {
+          "guid": "51B44546-460B-F86A-2BB0-1D4041D1DC80",
+          "EntryObjects": {
+            "EntryObject": {
+              "objectType": "0",
+              "objectID": "247AB393-E49A-081A-B263-CFD681CA525C"
+            }
+          },
+          "body": "",
+          "format": "HTML",
+          "creationDateTime": "2013-11-29 17:47:42.000 @+0200",
+          "modificationDateTime": "2013-11-29 17:47:42.000 @+0200"
         },
         {
           "guid": "31A58A28-27EF-14D5-5F8D-E3DF75721A6A",
@@ -7036,13 +7062,13 @@
             "attachmentEntryID": "7A95DC57-B9DF-469B-4ABD-AF3E7D5B89AF"
           },
           "objectID": "DC714013-3F75-D6D6-147E-175C6A4DE4B7",
-          "name": "Durme Durme  &#1500;&#1488;&#1491;&#1497;&#1504;&#1493;MCD-0123_10 &#1494;&#1499;&#1493;&#1497;&#1493;&#1514;!!.mp3",
+          "name": "A Sepharadic Ladino song, Durme Durme, Sarah Gorby.mp3",
           "attachmentType": "1",
-          "location": "DC714013-3F75-D6D6-147E-175C6A4DE4B7\\Durme Durme  &#1500;&#1488;&#1491;&#1497;&#1504;&#1493;MCD-0123_10 &#1494;&#1499;&#1493;&#1497;&#1493;&#1514;!!.mp3",
+          "location": "DC714013-3F75-D6D6-147E-175C6A4DE4B7\\A Sepharadic Ladino song, Durme Durme, Sarah Gorby.mp3",
           "dataLength": "4765989",
           "format": ".mp3",
           "creationDateTime": "2013-11-25 15:36:43.476 @+0200",
-          "modificationDateTime": "2013-11-25 15:36:43.476 @+0200"
+          "modificationDateTime": "2013-12-02 17:00:45.453 @+0200"
         },
         {
           "guid": "4E1D3968-E5C2-4D80-6EEF-EC74E60F946A",
@@ -7050,13 +7076,13 @@
             "attachmentEntryID": "7A95DC57-B9DF-469B-4ABD-AF3E7D5B89AF"
           },
           "objectID": "DC714013-3F75-D6D6-147E-175C6A4DE4B7",
-          "name": "Suleyman Kasiloglou.jpg",
+          "name": "Suleyman Kasiloglou, The Mufti of Rhodes.jpg",
           "attachmentType": "1",
-          "location": "DC714013-3F75-D6D6-147E-175C6A4DE4B7\\Suleyman Kasiloglou.jpg",
+          "location": "DC714013-3F75-D6D6-147E-175C6A4DE4B7\\Suleyman Kasiloglou, The Mufti of Rhodes.jpg",
           "dataLength": "230876",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 15:36:43.496 @+0200",
-          "modificationDateTime": "2013-11-25 15:36:43.496 @+0200"
+          "modificationDateTime": "2013-12-02 17:01:17.366 @+0200"
         },
         {
           "guid": "1C79F5D5-6C1F-27C8-DC51-9C84647E6834",
@@ -7204,13 +7230,13 @@
             "attachmentEntryID": "85F6A6CE-29F7-1AF4-0E12-411180F281CE"
           },
           "objectID": "DA464CF2-2281-D4EB-D641-99C567B2DE43",
-          "name": "BenEzraInterior.jpg",
+          "name": "Ben Ezra Synagogue, Interior.jpg",
           "attachmentType": "1",
-          "location": "DA464CF2-2281-D4EB-D641-99C567B2DE43\\BenEzraInterior.jpg",
+          "location": "DA464CF2-2281-D4EB-D641-99C567B2DE43\\Ben Ezra Synagogue, Interior.jpg",
           "dataLength": "183738",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 14:38:06.508 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:06.508 @+0200"
+          "modificationDateTime": "2013-12-02 17:36:30.465 @+0200"
         },
         {
           "guid": "A9B2B7A4-72F9-3F33-D0D2-73EA16BEDC23",
@@ -7218,13 +7244,13 @@
             "attachmentEntryID": "85F6A6CE-29F7-1AF4-0E12-411180F281CE"
           },
           "objectID": "DA464CF2-2281-D4EB-D641-99C567B2DE43",
-          "name": "reconstruction BenEzra2.jpg",
+          "name": "Reconstruction, Ben Ezra Synagogue, 2.jpg",
           "attachmentType": "1",
-          "location": "DA464CF2-2281-D4EB-D641-99C567B2DE43\\reconstruction BenEzra2.jpg",
+          "location": "DA464CF2-2281-D4EB-D641-99C567B2DE43\\Reconstruction, Ben Ezra Synagogue, 2.jpg",
           "dataLength": "131044",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 14:38:06.536 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:06.536 @+0200"
+          "modificationDateTime": "2013-12-02 17:37:04.565 @+0200"
         },
         {
           "guid": "BB55D7D8-F80E-BC0F-1F5D-BA6B44520DA5",
@@ -7232,13 +7258,13 @@
             "attachmentEntryID": "85F6A6CE-29F7-1AF4-0E12-411180F281CE"
           },
           "objectID": "DA464CF2-2281-D4EB-D641-99C567B2DE43",
-          "name": "reconstruction of BenEzra.jpg",
+          "name": "Reconstruction, Ben Ezra Synagogue, 1.jpg",
           "attachmentType": "1",
-          "location": "DA464CF2-2281-D4EB-D641-99C567B2DE43\\reconstruction of BenEzra.jpg",
+          "location": "DA464CF2-2281-D4EB-D641-99C567B2DE43\\Reconstruction, Ben Ezra Synagogue, 1.jpg",
           "dataLength": "95185",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 14:38:06.554 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:06.554 @+0200"
+          "modificationDateTime": "2013-12-02 17:37:18.622 @+0200"
         },
         {
           "guid": "6CF7DD40-F257-A2AA-2D78-C7E569FF4955",
@@ -7246,13 +7272,13 @@
             "attachmentEntryID": "85F6A6CE-29F7-1AF4-0E12-411180F281CE"
           },
           "objectID": "DA464CF2-2281-D4EB-D641-99C567B2DE43",
-          "name": "BenEzra2.jpg",
+          "name": "Ben Ezra Synagogue.jpg",
           "attachmentType": "1",
-          "location": "DA464CF2-2281-D4EB-D641-99C567B2DE43\\BenEzra2.jpg",
+          "location": "DA464CF2-2281-D4EB-D641-99C567B2DE43\\Ben Ezra Synagogue.jpg",
           "dataLength": "40023",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 14:38:06.572 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:06.572 @+0200"
+          "modificationDateTime": "2013-12-02 17:36:13.904 @+0200"
         },
         {
           "guid": "BF26450D-EEDF-B840-625C-74995D66B222",
@@ -7260,13 +7286,13 @@
             "attachmentEntryID": "7AD75234-1F94-A6C5-F11E-4C5045A833CF"
           },
           "objectID": "1E9B1ED7-FC05-8624-14CD-02272D8B60A1",
-          "name": "kabbalah Portae_Lucis,_Joseph_Gikatilla.jpg",
+          "name": "Latin translation of a Kabalah text, Gikatilla&apos;s Shaarei Ora.jpg",
           "attachmentType": "1",
-          "location": "1E9B1ED7-FC05-8624-14CD-02272D8B60A1\\kabbalah Portae_Lucis,_Joseph_Gikatilla.jpg",
+          "location": "1E9B1ED7-FC05-8624-14CD-02272D8B60A1\\Latin translation of a Kabalah text, Gikatilla&apos;s Shaarei Ora.jpg",
           "dataLength": "1478712",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 14:38:06.590 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:06.590 @+0200"
+          "modificationDateTime": "2013-12-02 17:19:34.417 @+0200"
         },
         {
           "guid": "B94471EB-4813-8407-BC5D-CED2DCB88141",
@@ -7288,27 +7314,13 @@
             "attachmentEntryID": "E96221AC-7B6E-322F-CDE2-FD4E5BDA732D"
           },
           "objectID": "ADA933BD-EE7D-3B4A-8329-57CBAA4CCD8A",
-          "name": "haRambam",
+          "name": "Maimonides at the NLI website - the Great Eagle exhibition",
           "attachmentType": "3",
           "location": "http://www.jnul.huji.ac.il/v-exhibitions/rambam/eng/",
           "dataLength": "0",
           "format": "",
           "creationDateTime": "2013-11-25 14:38:06.404 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:06.404 @+0200"
-        },
-        {
-          "guid": "D7ACF4E2-4618-8445-F0FF-61BD616EF1E2",
-          "AttachmentEntries": {
-            "attachmentEntryID": "E96221AC-7B6E-322F-CDE2-FD4E5BDA732D"
-          },
-          "objectID": "ADA933BD-EE7D-3B4A-8329-57CBAA4CCD8A",
-          "name": "mishna1z.jpg",
-          "attachmentType": "1",
-          "location": "ADA933BD-EE7D-3B4A-8329-57CBAA4CCD8A\\mishna1z.jpg",
-          "dataLength": "14467",
-          "format": ".jpg",
-          "creationDateTime": "2013-11-25 14:38:06.438 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:06.438 @+0200"
+          "modificationDateTime": "2013-12-02 17:20:50.349 @+0200"
         },
         {
           "guid": "ACBB4A71-DF0C-0729-EDAB-DB676915A2FC",
@@ -7316,13 +7328,13 @@
             "attachmentEntryID": "2FD4101E-7E59-D0CE-25AF-F5D6F1A59249"
           },
           "objectID": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9",
-          "name": "Sepharadic_Migrations.jpg",
+          "name": "Map of the Spanish-Jews&apos; Migrations.jpg",
           "attachmentType": "1",
-          "location": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9\\Sepharadic_Migrations.jpg",
+          "location": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9\\Map of the Spanish-Jews&apos; Migrations.jpg",
           "dataLength": "134188",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:41:46.279 @+0200",
-          "modificationDateTime": "2013-11-10 14:41:46.279 @+0200"
+          "modificationDateTime": "2013-12-02 16:49:23.127 @+0200"
         },
         {
           "guid": "B93C4DEC-139D-F02D-4AA6-2784C9F719D7",
@@ -7330,13 +7342,13 @@
             "attachmentEntryID": "2FD4101E-7E59-D0CE-25AF-F5D6F1A59249"
           },
           "objectID": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9",
-          "name": "&#1497;&#1510;&#1495;&#1511; &#1500;&#1493;&#1497; una pastora CD-03865_V0U_01&#1494;&#1499;&#1493;&#1497;&#1493;&#1514;!!.mp3",
+          "name": "A Hbrew-Spanish (Ladino) song_ Una Pastora, Isaac Levy.mp3",
           "attachmentType": "1",
-          "location": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9\\&#1497;&#1510;&#1495;&#1511; &#1500;&#1493;&#1497; una pastora CD-03865_V0U_01&#1494;&#1499;&#1493;&#1497;&#1493;&#1514;!!.mp3",
+          "location": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9\\A Hbrew-Spanish (Ladino) song_ Una Pastora, Isaac Levy.mp3",
           "dataLength": "3047616",
           "format": ".mp3",
           "creationDateTime": "2013-11-10 14:41:46.288 @+0200",
-          "modificationDateTime": "2013-11-25 16:25:44.348 @+0200"
+          "modificationDateTime": "2013-12-02 16:50:14.916 @+0200"
         },
         {
           "guid": "5F407C7F-8FB0-2A77-1210-B177577A2E7A",
@@ -7344,13 +7356,13 @@
             "attachmentEntryID": "2FD4101E-7E59-D0CE-25AF-F5D6F1A59249"
           },
           "objectID": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9",
-          "name": "&#1488;&#1501; &#1497;&#1513; &#1488;&#1497; &#1513;&#1501; &#1512;&#1495;&#1493;&#1511; MCD-0077_16 &#1494;&#1499;&#1493;&#1497;&#1493;&#1514;!!.mp3",
+          "name": "An Israeli song based on a Ladino song_ &apos;Im Yesh Ey Sham Rahok&apos; (If there is a place far far away).mp3",
           "attachmentType": "1",
-          "location": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9\\&#1488;&#1501; &#1497;&#1513; &#1488;&#1497; &#1513;&#1501; &#1512;&#1495;&#1493;&#1511; MCD-0077_16 &#1494;&#1499;&#1493;&#1497;&#1493;&#1514;!!.mp3",
+          "location": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9\\An Israeli song based on a Ladino song_ &apos;Im Yesh Ey Sham Rahok&apos; (If there is a place far far away).mp3",
           "dataLength": "6429885",
           "format": ".mp3",
           "creationDateTime": "2013-11-10 14:41:46.309 @+0200",
-          "modificationDateTime": "2013-11-25 16:25:44.368 @+0200"
+          "modificationDateTime": "2013-12-02 16:51:51.089 @+0200"
         },
         {
           "guid": "F7CF3F1C-01B4-CA2A-0FE9-1FA51DE7DD75",
@@ -7386,13 +7398,13 @@
             "attachmentEntryID": "F34F6EF5-3D36-F4C0-8FA3-A0E9B7A20FB2"
           },
           "objectID": "0E88C45C-353C-2D9C-D6C2-A2395A860B45",
-          "name": "_From moses to Moses no one was as great as Moses_.jpg",
+          "name": "_From moses to Moses there was none as great as Moses_.jpg",
           "attachmentType": "1",
-          "location": "0E88C45C-353C-2D9C-D6C2-A2395A860B45\\_From moses to Moses no one was as great as Moses_.jpg",
+          "location": "0E88C45C-353C-2D9C-D6C2-A2395A860B45\\_From moses to Moses there was none as great as Moses_.jpg",
           "dataLength": "104002",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 14:38:06.491 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:06.491 @+0200"
+          "modificationDateTime": "2013-12-02 17:37:59.134 @+0200"
         },
         {
           "guid": "B15FA669-60E7-6D6C-7BDB-C40AA5FCF6EC",
@@ -7610,13 +7622,13 @@
             "attachmentEntryID": "C1C10378-77C4-52FF-FAF4-12866CA64971"
           },
           "objectID": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
-          "name": "&#1497;&#1492;&#1493;&#1491;&#1497; &#1492;&#1493;&#1504;&#1490;&#1512;&#1497;&#1492; 1944 DOR 1.jpg",
+          "name": "Deportation of Jews, Hungary, 1944.jpg",
           "attachmentType": "1",
-          "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\&#1497;&#1492;&#1493;&#1491;&#1497; &#1492;&#1493;&#1504;&#1490;&#1512;&#1497;&#1492; 1944 DOR 1.jpg",
+          "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\Deportation of Jews, Hungary, 1944.jpg",
           "dataLength": "59263",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:43:56.224 @+0200",
-          "modificationDateTime": "2013-11-25 13:43:56.224 @+0200"
+          "modificationDateTime": "2013-12-01 17:16:48.709 @+0200"
         },
         {
           "guid": "683765F4-8AE7-9FA4-D8C4-52DB1623D699",
@@ -7624,13 +7636,13 @@
             "attachmentEntryID": "C1C10378-77C4-52FF-FAF4-12866CA64971"
           },
           "objectID": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
-          "name": "&#1492;&#1511;&#1502;&#1514; &#1490;&#1496;&#1493; DOR 1.jpg",
+          "name": "Building the Warsaw Ghetto&apos;s walls, December 1940.jpg",
           "attachmentType": "1",
-          "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\&#1492;&#1511;&#1502;&#1514; &#1490;&#1496;&#1493; DOR 1.jpg",
+          "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\Building the Warsaw Ghetto&apos;s walls, December 1940.jpg",
           "dataLength": "15403",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:43:56.244 @+0200",
-          "modificationDateTime": "2013-11-25 13:43:56.244 @+0200"
+          "modificationDateTime": "2013-12-01 17:22:19.181 @+0200"
         },
         {
           "guid": "291D0FF0-5C0E-9315-EFB6-D9EFEA7B3C48",
@@ -7638,13 +7650,13 @@
             "attachmentEntryID": "C1C10378-77C4-52FF-FAF4-12866CA64971"
           },
           "objectID": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
-          "name": "&#1492;&#1513;&#1508;&#1500;&#1492; &#1495;&#1497;&#1514;&#1493;&#1498; &#1494;&#1511;&#1504;&#1497;&#1501;.jpg",
+          "name": "Humiliation - Cutting elderly Jews&apos; beards.jpg",
           "attachmentType": "1",
-          "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\&#1492;&#1513;&#1508;&#1500;&#1492; &#1495;&#1497;&#1514;&#1493;&#1498; &#1494;&#1511;&#1504;&#1497;&#1501;.jpg",
+          "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\Humiliation - Cutting elderly Jews&apos; beards.jpg",
           "dataLength": "129327",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:43:56.274 @+0200",
-          "modificationDateTime": "2013-11-25 13:43:56.274 @+0200"
+          "modificationDateTime": "2013-12-01 17:22:50.476 @+0200"
         },
         {
           "guid": "93FD7A47-927E-5784-75EE-6297F5B08542",
@@ -7652,13 +7664,13 @@
             "attachmentEntryID": "C1C10378-77C4-52FF-FAF4-12866CA64971"
           },
           "objectID": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
-          "name": "&#1506;&#1489;&#1493;&#1491;&#1493;&#1514; &#1499;&#1508;&#1497;&#1497;&#1492;.jpg",
+          "name": "Forced Labor.jpg",
           "attachmentType": "1",
-          "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\&#1506;&#1489;&#1493;&#1491;&#1493;&#1514; &#1499;&#1508;&#1497;&#1497;&#1492;.jpg",
+          "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\Forced Labor.jpg",
           "dataLength": "31756",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:43:56.304 @+0200",
-          "modificationDateTime": "2013-11-25 13:43:56.304 @+0200"
+          "modificationDateTime": "2013-12-01 17:20:29.333 @+0200"
         },
         {
           "guid": "CFF5C0BB-9A2B-AD9E-701E-36D3B10F4E85",
@@ -7666,13 +7678,13 @@
             "attachmentEntryID": "C1C10378-77C4-52FF-FAF4-12866CA64971"
           },
           "objectID": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
-          "name": "&#1497;&#1491;&#1497;&#1497;&#1501; &#1488;&#1500; &#1492;&#1511;&#1497;&#1512; DOR 3.jpg",
+          "name": "Jews lined up against the wall, the Warsaw Ghetto.jpg",
           "attachmentType": "1",
-          "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\&#1497;&#1491;&#1497;&#1497;&#1501; &#1488;&#1500; &#1492;&#1511;&#1497;&#1512; DOR 3.jpg",
+          "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\Jews lined up against the wall, the Warsaw Ghetto.jpg",
           "dataLength": "49439",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:43:56.324 @+0200",
-          "modificationDateTime": "2013-11-25 13:43:56.324 @+0200"
+          "modificationDateTime": "2013-12-01 17:15:51.730 @+0200"
         },
         {
           "guid": "56702B21-B48C-C0EB-33B4-D146D6947855",
@@ -7680,13 +7692,13 @@
             "attachmentEntryID": "C1C10378-77C4-52FF-FAF4-12866CA64971"
           },
           "objectID": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
-          "name": "&#1497;&#1492;&#1493;&#1491;&#1497;&#1501; &#1489;&#1490;&#1496;&#1493; DOR 3.jpg",
+          "name": "The L&#243;dz Ghetto.jpg",
           "attachmentType": "1",
-          "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\&#1497;&#1492;&#1493;&#1491;&#1497;&#1501; &#1489;&#1490;&#1496;&#1493; DOR 3.jpg",
+          "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\The L&#243;dz Ghetto.jpg",
           "dataLength": "64599",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:43:56.354 @+0200",
-          "modificationDateTime": "2013-11-25 13:43:56.354 @+0200"
+          "modificationDateTime": "2013-12-01 17:19:18.065 @+0200"
         },
         {
           "guid": "70297104-1E53-9D64-5328-D2F896A7E0AB",
@@ -7694,13 +7706,13 @@
             "attachmentEntryID": "B0A52967-AB25-2430-1AEF-AE7301F10FE0"
           },
           "objectID": "72190B03-074A-B546-1F89-73EFBBE16E0D",
-          "name": "&#1491;&#1507; &#1506;&#1491; &#1508;&#1512;&#1495;&#1497;&#1492; &#1505;&#1504;&#1491;&#1512;&#1493;&#1489;&#1497;&#1509;&apos; (&#1489;&#1513;).jpg",
+          "name": "Perhiya&apos;s &apos;Page of Testimony&apos; at Yad Vashem museum, 1956.jpg",
           "attachmentType": "1",
-          "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\&#1491;&#1507; &#1506;&#1491; &#1508;&#1512;&#1495;&#1497;&#1492; &#1505;&#1504;&#1491;&#1512;&#1493;&#1489;&#1497;&#1509;&apos; (&#1489;&#1513;).jpg",
+          "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\Perhiya&apos;s &apos;Page of Testimony&apos; at Yad Vashem museum, 1956.jpg",
           "dataLength": "105539",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:46:24.953 @+0200",
-          "modificationDateTime": "2013-11-10 14:46:24.953 @+0200"
+          "modificationDateTime": "2013-12-02 15:22:04.131 @+0200"
         },
         {
           "guid": "D74F80E9-87D1-7756-162D-5E9D0C3ACE8C",
@@ -7708,13 +7720,13 @@
             "attachmentEntryID": "B0A52967-AB25-2430-1AEF-AE7301F10FE0"
           },
           "objectID": "72190B03-074A-B546-1F89-73EFBBE16E0D",
-          "name": "&#1508;&#1512;&#1495;&#1497;&#1492; &#1505;&#1504;&#1491;&#1512;&#1493;&#1489;&#1497;&#1509;&apos; &#1489;&#1490;&#1497;&#1500; &#1513;&#1502;&#1493;&#1504;&#1497;&#1501; &#1508;&#1500;&#1493;&#1505;, &#1502;&#1514;&#1504;&#1491;&#1489;&#1514; &#1489;&#1500;&#1493;&#1491;.JPG",
+          "name": "Perhiya receiving a token of gratitude from the city of Lydda.JPG",
           "attachmentType": "1",
-          "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\&#1508;&#1512;&#1495;&#1497;&#1492; &#1505;&#1504;&#1491;&#1512;&#1493;&#1489;&#1497;&#1509;&apos; &#1489;&#1490;&#1497;&#1500; &#1513;&#1502;&#1493;&#1504;&#1497;&#1501; &#1508;&#1500;&#1493;&#1505;, &#1502;&#1514;&#1504;&#1491;&#1489;&#1514; &#1489;&#1500;&#1493;&#1491;.JPG",
+          "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\Perhiya receiving a token of gratitude from the city of Lydda.JPG",
           "dataLength": "28580",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:46:24.973 @+0200",
-          "modificationDateTime": "2013-11-10 14:46:24.973 @+0200"
+          "modificationDateTime": "2013-12-02 15:24:26.852 @+0200"
         },
         {
           "guid": "D983361E-35D2-654F-175F-67EE347F40C9",
@@ -7722,13 +7734,13 @@
             "attachmentEntryID": "B0A52967-AB25-2430-1AEF-AE7301F10FE0"
           },
           "objectID": "72190B03-074A-B546-1F89-73EFBBE16E0D",
-          "name": "&#1508;&#1512;&#1495;&#1497;&#1492; &#1493;&#1492;&#1502;&#1513;&#1508;&#1495;&#1492; &#1489;&#1497;&#1513;&#1512;&#1488;&#1500;.jpg",
+          "name": "Perhiya and her family, Israel.jpg",
           "attachmentType": "1",
-          "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\&#1508;&#1512;&#1495;&#1497;&#1492; &#1493;&#1492;&#1502;&#1513;&#1508;&#1495;&#1492; &#1489;&#1497;&#1513;&#1512;&#1488;&#1500;.jpg",
+          "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\Perhiya and her family, Israel.jpg",
           "dataLength": "2125456",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:46:24.993 @+0200",
-          "modificationDateTime": "2013-11-10 14:46:24.993 @+0200"
+          "modificationDateTime": "2013-12-02 15:22:36.492 @+0200"
         },
         {
           "guid": "E1A721BC-72BF-F473-950B-372EF2281485",
@@ -7750,13 +7762,13 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
           },
           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-          "name": "arbeit_macht_frei[1].jpg",
+          "name": "arbeit macht frei (Labour liberates), the deceptive sign above the entrance to Auschwitz[1].jpg",
           "attachmentType": "1",
-          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\arbeit_macht_frei[1].jpg",
+          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\arbeit macht frei (Labour liberates), the deceptive sign above the entrance to Auschwitz[1].jpg",
           "dataLength": "37370",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:46:24.593 @+0200",
-          "modificationDateTime": "2013-11-10 14:46:24.593 @+0200"
+          "modificationDateTime": "2013-12-02 16:19:15.026 @+0200"
         },
         {
           "guid": "DABAA167-CB19-4798-8B21-72C340A1CA78",
@@ -7764,13 +7776,13 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
           },
           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-          "name": "&#1497;&#1492;&#1493;&#1491;&#1497; &#1495;&#1493;&#1508;&#1512; &#1489;&#1493;&#1512;.jpg",
+          "name": "A jew digging his own grave.jpg",
           "attachmentType": "1",
-          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\&#1497;&#1492;&#1493;&#1491;&#1497; &#1495;&#1493;&#1508;&#1512; &#1489;&#1493;&#1512;.jpg",
+          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\A jew digging his own grave.jpg",
           "dataLength": "62612",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:46:24.613 @+0200",
-          "modificationDateTime": "2013-11-10 14:46:24.613 @+0200"
+          "modificationDateTime": "2013-12-02 16:20:32.448 @+0200"
         },
         {
           "guid": "0D470975-9EF2-F560-14A0-7D4DE8F3161B",
@@ -7778,13 +7790,13 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
           },
           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-          "name": "&#1497;&#1500;&#1491;&#1497;&#1501; &#1489;&#1502;&#1495;&#1504;&#1492;.jpg",
+          "name": "Children at concentration camp with stripe uniform.jpg",
           "attachmentType": "1",
-          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\&#1497;&#1500;&#1491;&#1497;&#1501; &#1489;&#1502;&#1495;&#1504;&#1492;.jpg",
+          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Children at concentration camp with stripe uniform.jpg",
           "dataLength": "622563",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:46:24.643 @+0200",
-          "modificationDateTime": "2013-11-10 14:46:24.643 @+0200"
+          "modificationDateTime": "2013-12-02 16:23:09.139 @+0200"
         },
         {
           "guid": "090BCF10-2AB2-3CC4-C615-D44FE55117A3",
@@ -7792,13 +7804,13 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
           },
           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-          "name": "buchenwald51[1].jpg",
+          "name": "buchenwald.jpg",
           "attachmentType": "1",
-          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\buchenwald51[1].jpg",
+          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\buchenwald.jpg",
           "dataLength": "33529",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:46:24.653 @+0200",
-          "modificationDateTime": "2013-11-10 14:46:24.653 @+0200"
+          "modificationDateTime": "2013-12-02 16:19:48.259 @+0200"
         },
         {
           "guid": "14458FC9-A414-19F7-FBDE-BC4A3FA9A223",
@@ -7806,13 +7818,13 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
           },
           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-          "name": "&#1502;&#1505;&#1508;&#1512;.jpg",
+          "name": "The number inscribed by the Nazis into the victims&apos; flesh.jpg",
           "attachmentType": "1",
-          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\&#1502;&#1505;&#1508;&#1512;.jpg",
+          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\The number inscribed by the Nazis into the victims&apos; flesh.jpg",
           "dataLength": "7059",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:46:24.673 @+0200",
-          "modificationDateTime": "2013-11-10 14:46:24.673 @+0200"
+          "modificationDateTime": "2013-12-02 16:24:42.526 @+0200"
         },
         {
           "guid": "1622CEB5-7228-747F-36BE-B627B70A5780",
@@ -7834,13 +7846,13 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
           },
           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-          "name": "&#1504;&#1488;&#1510;&#1497;&#1501; &#1493;&#1490;&#1493;&#1508;&#1493;&#1514; DOR 2.jpg",
+          "name": "Nazis taking pride in killing Partisans.jpg",
           "attachmentType": "1",
-          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\&#1504;&#1488;&#1510;&#1497;&#1501; &#1493;&#1490;&#1493;&#1508;&#1493;&#1514; DOR 2.jpg",
+          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Nazis taking pride in killing Partisans.jpg",
           "dataLength": "58716",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:46:24.723 @+0200",
-          "modificationDateTime": "2013-11-25 13:44:18.903 @+0200"
+          "modificationDateTime": "2013-12-02 16:26:11.544 @+0200"
         },
         {
           "guid": "7318C377-9660-8CCE-F6BD-1C7FD0A17D98",
@@ -7848,13 +7860,13 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
           },
           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-          "name": "&#1502;&#1513;&#1512;&#1508;&#1493;&#1514; 2.jpg",
+          "name": "Crematorium, burning the bodies at the Death Camps.jpg",
           "attachmentType": "1",
-          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\&#1502;&#1513;&#1512;&#1508;&#1493;&#1514; 2.jpg",
+          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Crematorium, burning the bodies at the Death Camps.jpg",
           "dataLength": "94184",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:46:24.743 @+0200",
-          "modificationDateTime": "2013-11-25 13:44:18.881 @+0200"
+          "modificationDateTime": "2013-12-02 16:25:21.234 @+0200"
         },
         {
           "guid": "229764F6-7781-6851-4392-77740F8B3764",
@@ -7862,13 +7874,13 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
           },
           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-          "name": "&#1497;&#1500;&#1491; &#1502;&#1512;&#1497;&#1501; &#1497;&#1491;&#1497;&#1497;&#1501; 2.jpg",
+          "name": "A boy surrenders to the Nazis, the Warsaw Ghetto revolt.jpg",
           "attachmentType": "1",
-          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\&#1497;&#1500;&#1491; &#1502;&#1512;&#1497;&#1501; &#1497;&#1491;&#1497;&#1497;&#1501; 2.jpg",
+          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\A boy surrenders to the Nazis, the Warsaw Ghetto revolt.jpg",
           "dataLength": "59227",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:46:24.753 @+0200",
-          "modificationDateTime": "2013-11-25 13:44:18.921 @+0200"
+          "modificationDateTime": "2013-12-02 16:22:09.728 @+0200"
         },
         {
           "guid": "C45BBC88-161F-134A-4189-9CDF2D6AA0B2",
@@ -7876,13 +7888,13 @@
             "attachmentEntryID": "88375AE7-831F-6FF0-C7BC-BFFCD22E499B"
           },
           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-          "name": "&#1492;&#1513;&#1506;&#1512; 2.jpg",
+          "name": "The Auschwitz Gate.jpg",
           "attachmentType": "1",
-          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\&#1492;&#1513;&#1506;&#1512; 2.jpg",
+          "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\The Auschwitz Gate.jpg",
           "dataLength": "110156",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:46:24.773 @+0200",
-          "modificationDateTime": "2013-11-25 13:44:18.848 @+0200"
+          "modificationDateTime": "2013-12-02 16:20:09.544 @+0200"
         },
         {
           "guid": "5A548894-56DF-F235-7EAB-3B5285E283DB",
@@ -7899,32 +7911,18 @@
           "modificationDateTime": "2013-11-25 13:44:18.864 @+0200"
         },
         {
-          "guid": "B8905F59-DB8D-527B-E7BB-7FF00F9DC178",
-          "AttachmentEntries": {
-            "attachmentEntryID": "DF57196A-3A60-3FBC-6A34-948EEA4FD0CD"
-          },
-          "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-          "name": "basch yediot 82E166AAd01-2.jpg",
-          "attachmentType": "1",
-          "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\basch yediot 82E166AAd01-2.jpg",
-          "dataLength": "149281",
-          "format": ".jpg",
-          "creationDateTime": "2013-11-25 13:43:17.383 @+0200",
-          "modificationDateTime": "2013-11-25 13:43:17.383 @+0200"
-        },
-        {
           "guid": "FE695861-1DE7-0219-2B5A-E561E57589F3",
           "AttachmentEntries": {
             "attachmentEntryID": "DF57196A-3A60-3FBC-6A34-948EEA4FD0CD"
           },
           "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-          "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 1 - DOR 1.jpg",
+          "name": "The Basch Diary, 1.jpg",
           "attachmentType": "1",
-          "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 1 - DOR 1.jpg",
+          "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\The Basch Diary, 1.jpg",
           "dataLength": "60418",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:43:17.403 @+0200",
-          "modificationDateTime": "2013-11-25 13:43:17.403 @+0200"
+          "modificationDateTime": "2013-12-01 16:51:07.819 @+0200"
         },
         {
           "guid": "8022F41E-E7E4-DA4D-BCB7-139417AD3700",
@@ -7932,13 +7930,13 @@
             "attachmentEntryID": "DF57196A-3A60-3FBC-6A34-948EEA4FD0CD"
           },
           "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-          "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 2 - DOR 1.jpg",
+          "name": "The Basch Diary, 2.jpg",
           "attachmentType": "1",
-          "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 2 - DOR 1.jpg",
+          "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\The Basch Diary, 2.jpg",
           "dataLength": "57179",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:43:17.433 @+0200",
-          "modificationDateTime": "2013-11-25 13:43:17.433 @+0200"
+          "modificationDateTime": "2013-12-01 16:51:23.247 @+0200"
         },
         {
           "guid": "7070ACC9-CC8E-BE39-F443-A4BF41CB4065",
@@ -7946,13 +7944,13 @@
             "attachmentEntryID": "DF57196A-3A60-3FBC-6A34-948EEA4FD0CD"
           },
           "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-          "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 3 - DOR 1.jpg",
+          "name": "The Basch Diary, 3.jpg",
           "attachmentType": "1",
-          "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 3 - DOR 1.jpg",
+          "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\The Basch Diary, 3.jpg",
           "dataLength": "73786",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:43:17.463 @+0200",
-          "modificationDateTime": "2013-11-25 13:43:17.463 @+0200"
+          "modificationDateTime": "2013-12-01 16:51:31.228 @+0200"
         },
         {
           "guid": "63B02FC0-373F-C743-D60D-445AD37EF534",
@@ -7960,13 +7958,13 @@
             "attachmentEntryID": "DF57196A-3A60-3FBC-6A34-948EEA4FD0CD"
           },
           "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-          "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 4 - DOR 1.jpg",
+          "name": "The Basch Diary, 4.jpg",
           "attachmentType": "1",
-          "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 4 - DOR 1.jpg",
+          "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\The Basch Diary, 4.jpg",
           "dataLength": "60214",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:43:17.493 @+0200",
-          "modificationDateTime": "2013-11-25 13:43:17.493 @+0200"
+          "modificationDateTime": "2013-12-01 16:51:39.779 @+0200"
         },
         {
           "guid": "52D67181-EA17-75FF-588A-78D1C6B77D6F",
@@ -7974,13 +7972,27 @@
             "attachmentEntryID": "DF57196A-3A60-3FBC-6A34-948EEA4FD0CD"
           },
           "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-          "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 5 - DOR 1.jpg",
+          "name": "The Basch Diary. 5.jpg",
           "attachmentType": "1",
-          "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 5 - DOR 1.jpg",
+          "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\The Basch Diary. 5.jpg",
           "dataLength": "28249",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:43:17.513 @+0200",
-          "modificationDateTime": "2013-11-25 13:43:17.513 @+0200"
+          "modificationDateTime": "2013-12-01 16:51:48.248 @+0200"
+        },
+        {
+          "guid": "572B866E-028B-6A23-4FD8-6ED0917C920A",
+          "AttachmentEntries": {
+            "attachmentEntryID": "DF57196A-3A60-3FBC-6A34-948EEA4FD0CD"
+          },
+          "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+          "name": "Photograph of The Basch family.jpg",
+          "attachmentType": "1",
+          "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\Photograph of The Basch family.jpg",
+          "dataLength": "149281",
+          "format": ".jpg",
+          "creationDateTime": "2013-12-01 16:53:47.167 @+0200",
+          "modificationDateTime": "2013-12-01 16:59:24.560 @+0200"
         },
         {
           "guid": "57112B69-BC95-15B3-ABF0-CC46483A9001",
@@ -7988,13 +8000,13 @@
             "attachmentEntryID": "0C139FAF-2A88-BD05-AC16-197E05568647"
           },
           "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
-          "name": "&#1502;&#1495;&#1494;&#1493;&#1512; &#1493;&#1493;&#1512;&#1502;&#1505; &#1508;&#1514;&#1497;&#1495;&#1492; &#1510;&#1497;&#1508;&#1493;&#1512; 1.jpg",
+          "name": "Mahzor Worms Festival Prayerbook, opening page.jpg",
           "attachmentType": "1",
-          "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\&#1502;&#1495;&#1494;&#1493;&#1512; &#1493;&#1493;&#1512;&#1502;&#1505; &#1508;&#1514;&#1497;&#1495;&#1492; &#1510;&#1497;&#1508;&#1493;&#1512; 1.jpg",
+          "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Mahzor Worms Festival Prayerbook, opening page.jpg",
           "dataLength": "2492409",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:44:40.259 @+0200",
-          "modificationDateTime": "2013-11-25 13:44:40.259 @+0200"
+          "modificationDateTime": "2013-12-02 16:02:53.418 @+0200"
         },
         {
           "guid": "8057D392-E39F-D47E-DAD6-2F58C8B14B5A",
@@ -8002,13 +8014,13 @@
             "attachmentEntryID": "0C139FAF-2A88-BD05-AC16-197E05568647"
           },
           "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
-          "name": "&#1502;&#1495;&#1494;&#1493;&#1512; &#1493;&#1493;&#1512;&#1502;&#1505; &#1508;&#1493;&#1512;&#1497;&#1501; &#1493;&#1497;&#1488;&#1492;&#1489; 2.jpg",
+          "name": "Mahzor Worms Festival Prayerbook, &apos;Va Yohav&apos;.jpg",
           "attachmentType": "1",
-          "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\&#1502;&#1495;&#1494;&#1493;&#1512; &#1493;&#1493;&#1512;&#1502;&#1505; &#1508;&#1493;&#1512;&#1497;&#1501; &#1493;&#1497;&#1488;&#1492;&#1489; 2.jpg",
+          "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Mahzor Worms Festival Prayerbook, &apos;Va Yohav&apos;.jpg",
           "dataLength": "2349557",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:44:40.295 @+0200",
-          "modificationDateTime": "2013-11-25 13:44:40.295 @+0200"
+          "modificationDateTime": "2013-12-02 15:59:01.534 @+0200"
         },
         {
           "guid": "E23F9D04-8F8F-33BD-64EE-B2046C570E5A",
@@ -8016,13 +8028,13 @@
             "attachmentEntryID": "0C139FAF-2A88-BD05-AC16-197E05568647"
           },
           "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
-          "name": "&#1502;&#1495;&#1494;&#1493;&#1512; &#1493;&#1493;&#1512;&#1502;&#1505; &#1508;&#1493;&#1512;&#1497;&#1501; &#1510;&#1497;&#1493;&#1512; 3.jpg",
+          "name": "Mahzor Worms Festival Prayerbook, Purim.jpg",
           "attachmentType": "1",
-          "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\&#1502;&#1495;&#1494;&#1493;&#1512; &#1493;&#1493;&#1512;&#1502;&#1505; &#1508;&#1493;&#1512;&#1497;&#1501; &#1510;&#1497;&#1493;&#1512; 3.jpg",
+          "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Mahzor Worms Festival Prayerbook, Purim.jpg",
           "dataLength": "2751168",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:44:40.325 @+0200",
-          "modificationDateTime": "2013-11-25 13:44:40.325 @+0200"
+          "modificationDateTime": "2013-12-02 16:00:58.973 @+0200"
         },
         {
           "guid": "18194420-44F2-BA56-B852-1A73083BAE8E",
@@ -8030,13 +8042,13 @@
             "attachmentEntryID": "0C139FAF-2A88-BD05-AC16-197E05568647"
           },
           "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
-          "name": "&#1502;&#1495;&#1494;&#1493;&#1512; &#1493;&#1493;&#1512;&#1502;&#1505; &#1510;&#1497;&#1493;&#1512;&#1497;&#1501; &#1489;&#1502;&#1491;&#1500;&#1497;&#1493;&#1504;&#1497;&#1501; 4.jpg",
+          "name": "Mahzor Worms Festival Prayerbook, Medalions.jpg",
           "attachmentType": "1",
-          "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\&#1502;&#1495;&#1494;&#1493;&#1512; &#1493;&#1493;&#1512;&#1502;&#1505; &#1510;&#1497;&#1493;&#1512;&#1497;&#1501; &#1489;&#1502;&#1491;&#1500;&#1497;&#1493;&#1504;&#1497;&#1501; 4.jpg",
+          "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Mahzor Worms Festival Prayerbook, Medalions.jpg",
           "dataLength": "2930400",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:44:40.355 @+0200",
-          "modificationDateTime": "2013-11-25 13:44:40.355 @+0200"
+          "modificationDateTime": "2013-12-02 16:03:12.104 @+0200"
         },
         {
           "guid": "78068D03-AD8F-270D-9704-16EB2A44CE91",
@@ -8044,13 +8056,13 @@
             "attachmentEntryID": "0C139FAF-2A88-BD05-AC16-197E05568647"
           },
           "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
-          "name": "&#1511;&#1512;&#1497;&#1488;&#1492; &#1489;&#1514;&#1493;&#1512;&#1492;-&#1489;&#1512;&#1488;&#1513;&#1497;&#1514;, &#1505;&#1508;&#1512;&#1491;&#1497;&#1501; &#1497;&#1493;&#1493;&#1503; &#1495;&#1500;&#1511;&#1497;&#1505;.mp3",
+          "name": "Reading the Torah (Genesis), Spanish-Jewish liturgy, Greece.mp3",
           "attachmentType": "1",
-          "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\&#1511;&#1512;&#1497;&#1488;&#1492; &#1489;&#1514;&#1493;&#1512;&#1492;-&#1489;&#1512;&#1488;&#1513;&#1497;&#1514;, &#1505;&#1508;&#1512;&#1491;&#1497;&#1501; &#1497;&#1493;&#1493;&#1503; &#1495;&#1500;&#1511;&#1497;&#1505;.mp3",
+          "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Reading the Torah (Genesis), Spanish-Jewish liturgy, Greece.mp3",
           "dataLength": "1568601",
           "format": ".mp3",
           "creationDateTime": "2013-11-25 13:44:40.385 @+0200",
-          "modificationDateTime": "2013-11-25 13:44:40.385 @+0200"
+          "modificationDateTime": "2013-12-02 16:46:23.356 @+0200"
         },
         {
           "guid": "E32A69C8-0386-7262-B1DD-984CB74BBCE2",
@@ -8058,13 +8070,13 @@
             "attachmentEntryID": "0C139FAF-2A88-BD05-AC16-197E05568647"
           },
           "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
-          "name": "&#1514;&#1497;&#1511;&#1493;&#1503; &#1492;&#1490;&#1513;&#1501; &#1502;&#1499;&#1505;&#1492; &#1513;&#1502;&#1497;&#1497;&#1501;, &#1488;&#1497;&#1496;&#1500;&#1497;&#1492; &#1500;&#1511;&#1496; &#1505;&#1493;&#1499;&#1493;&#1514; &#1493;&#1513;&#1502;&#1495;&#1514; &#1514;&#1493;&#1512;&#1492; Y3899.mp3",
+          "name": "Prayer for Rain, &apos;Tikun Ha-Geshem&apos;, Italy.mp3",
           "attachmentType": "1",
-          "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\&#1514;&#1497;&#1511;&#1493;&#1503; &#1492;&#1490;&#1513;&#1501; &#1502;&#1499;&#1505;&#1492; &#1513;&#1502;&#1497;&#1497;&#1501;, &#1488;&#1497;&#1496;&#1500;&#1497;&#1492; &#1500;&#1511;&#1496; &#1505;&#1493;&#1499;&#1493;&#1514; &#1493;&#1513;&#1502;&#1495;&#1514; &#1514;&#1493;&#1512;&#1492; Y3899.mp3",
+          "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Prayer for Rain, &apos;Tikun Ha-Geshem&apos;, Italy.mp3",
           "dataLength": "990354",
           "format": ".mp3",
           "creationDateTime": "2013-11-25 13:44:40.425 @+0200",
-          "modificationDateTime": "2013-11-25 13:44:40.425 @+0200"
+          "modificationDateTime": "2013-12-02 16:06:59.495 @+0200"
         },
         {
           "guid": "ABB6FACC-DE67-AD37-D51B-DC8BC04AA3CF",
@@ -8072,13 +8084,13 @@
             "attachmentEntryID": "C3F2B4E3-9DDC-8EC4-E871-9509C41972D0"
           },
           "objectID": "F8A8EC39-68D8-ECCF-6F51-12C17F60061D",
-          "name": "&#1492;&#1514;&#1511;&#1493;&#1493;&#1492; 1.jpg",
+          "name": "Ha Tikva - The Israeli Anthem, an autograph by N.H. Imber.jpg",
           "attachmentType": "1",
-          "location": "F8A8EC39-68D8-ECCF-6F51-12C17F60061D\\&#1492;&#1514;&#1511;&#1493;&#1493;&#1492; 1.jpg",
+          "location": "F8A8EC39-68D8-ECCF-6F51-12C17F60061D\\Ha Tikva - The Israeli Anthem, an autograph by N.H. Imber.jpg",
           "dataLength": "86983",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:46:25.233 @+0200",
-          "modificationDateTime": "2013-11-10 14:46:25.233 @+0200"
+          "modificationDateTime": "2013-12-02 16:08:16.794 @+0200"
         },
         {
           "guid": "859E5B00-C116-8091-96B9-FFFF427CAE53",
@@ -8086,13 +8098,27 @@
             "attachmentEntryID": "C3F2B4E3-9DDC-8EC4-E871-9509C41972D0"
           },
           "objectID": "F8A8EC39-68D8-ECCF-6F51-12C17F60061D",
-          "name": "&#1492;&#1514;&#1511;&#1493;&#1493;&#1492; 6756526_CD-06870_V0U_04.mp3",
+          "name": "Ha Tikva - The Israeli Anthem,.mp3",
           "attachmentType": "1",
-          "location": "F8A8EC39-68D8-ECCF-6F51-12C17F60061D\\&#1492;&#1514;&#1511;&#1493;&#1493;&#1492; 6756526_CD-06870_V0U_04.mp3",
+          "location": "F8A8EC39-68D8-ECCF-6F51-12C17F60061D\\Ha Tikva - The Israeli Anthem,.mp3",
           "dataLength": "1821782",
           "format": ".mp3",
           "creationDateTime": "2013-11-10 14:46:25.253 @+0200",
-          "modificationDateTime": "2013-11-10 14:46:25.253 @+0200"
+          "modificationDateTime": "2013-12-02 16:08:42.029 @+0200"
+        },
+        {
+          "guid": "029F77B7-7E3B-07B2-3CFA-F8BAAD60CF2A",
+          "AttachmentEntries": {
+            "attachmentEntryID": "7F8E1BFF-5D23-0832-F341-ED3A0D89B95E"
+          },
+          "objectID": "5FD1D8F4-0C48-FD76-BEE1-52359E3E38F6",
+          "name": "The Basch Diary - The Last Days.jpg",
+          "attachmentType": "1",
+          "location": "5FD1D8F4-0C48-FD76-BEE1-52359E3E38F6\\The Basch Diary - The Last Days.jpg",
+          "dataLength": "4088948",
+          "format": ".jpg",
+          "creationDateTime": "2013-12-01 16:38:48.124 @+0200",
+          "modificationDateTime": "2013-12-02 16:13:22.094 @+0200"
         },
         {
           "guid": "7E740536-795D-807F-90C4-C6262B504777",
@@ -8100,13 +8126,13 @@
             "attachmentEntryID": "71F6D857-29D2-5738-1DC4-D43AAAF615FB"
           },
           "objectID": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55",
-          "name": "pic_T_I_Tiachiv%20city%20center.jpg",
+          "name": "Today&apos;s Tiachiv.jpg",
           "attachmentType": "1",
-          "location": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55\\pic_T_I_Tiachiv%20city%20center.jpg",
+          "location": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55\\Today&apos;s Tiachiv.jpg",
           "dataLength": "70432",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:46:25.023 @+0200",
-          "modificationDateTime": "2013-11-25 13:43:55.744 @+0200"
+          "modificationDateTime": "2013-12-01 17:05:33.258 @+0200"
         },
         {
           "guid": "CEE2C241-C4C9-EBE6-3FBC-8C087AAC9596",
@@ -8114,13 +8140,13 @@
             "attachmentEntryID": "71F6D857-29D2-5738-1DC4-D43AAAF615FB"
           },
           "objectID": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55",
-          "name": "&#1502;&#1510;&#1489;&#1493;&#1514; &#1497;&#1492;&#1493;&#1491;&#1497;&#1493;&#1514; &#1489;&#1496;&#1497;&#1488;&#1510;&apos;&#1497;&#1489;.jpg",
+          "name": "Jewish Cemetery in Tiachiv.jpg",
           "attachmentType": "1",
-          "location": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55\\&#1502;&#1510;&#1489;&#1493;&#1514; &#1497;&#1492;&#1493;&#1491;&#1497;&#1493;&#1514; &#1489;&#1496;&#1497;&#1488;&#1510;&apos;&#1497;&#1489;.jpg",
+          "location": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55\\Jewish Cemetery in Tiachiv.jpg",
           "dataLength": "103991",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:46:25.043 @+0200",
-          "modificationDateTime": "2013-11-25 13:43:55.774 @+0200"
+          "modificationDateTime": "2013-12-01 17:06:09.270 @+0200"
         },
         {
           "guid": "A526CA5E-98AA-68D2-5AC6-85DDB68FA0FF",
@@ -8142,13 +8168,13 @@
             "attachmentEntryID": "71F6D857-29D2-5738-1DC4-D43AAAF615FB"
           },
           "objectID": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55",
-          "name": "jews in ukraine numbers expo3_01_l DOR 1.jpg",
+          "name": "Map of Jewish communities before the Holocaust, within the borders of today&apos;s Ukraine.jpg",
           "attachmentType": "1",
-          "location": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55\\jews in ukraine numbers expo3_01_l DOR 1.jpg",
+          "location": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55\\Map of Jewish communities before the Holocaust, within the borders of today&apos;s Ukraine.jpg",
           "dataLength": "71246",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:46:25.083 @+0200",
-          "modificationDateTime": "2013-11-25 13:43:55.764 @+0200"
+          "modificationDateTime": "2013-12-01 17:04:02.911 @+0200"
         },
         {
           "guid": "DCD40FB9-17CE-B634-8EDE-6D2C2543AC50",
@@ -8156,13 +8182,13 @@
             "attachmentEntryID": "71F6D857-29D2-5738-1DC4-D43AAAF615FB"
           },
           "objectID": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55",
-          "name": "Kleyzmerim DOR 2.PNG",
+          "name": "Jewih Musicians, &apos;Kleyzmerim&apos;.PNG",
           "attachmentType": "1",
-          "location": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55\\Kleyzmerim DOR 2.PNG",
+          "location": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55\\Jewih Musicians, &apos;Kleyzmerim&apos;.PNG",
           "dataLength": "172648",
           "format": ".png",
           "creationDateTime": "2013-11-10 14:46:25.103 @+0200",
-          "modificationDateTime": "2013-11-25 13:43:55.794 @+0200"
+          "modificationDateTime": "2013-12-01 17:04:42.826 @+0200"
         },
         {
           "guid": "72CACC16-9193-1128-F1DF-15E9064E0E23",
@@ -8380,13 +8406,13 @@
             "attachmentEntryID": "9C713123-11AD-647A-9EB4-A690B34B4156"
           },
           "objectID": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
-          "name": "&#1514;&#1489;&#1500;&#1497;&#1496; &#1512;&#1502;&#1489;&#1501; &#1502;&#1490;&#1489;&#1506;&#1514; &#1492;&#1511;&#1508;&#1497;&#1496;&#1493;&#1500;.jpg",
+          "name": "Maimonides, a marble relief at Capitol hill, Washington, artist - Brenda Putnam.jpg",
           "attachmentType": "1",
-          "location": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3\\&#1514;&#1489;&#1500;&#1497;&#1496; &#1512;&#1502;&#1489;&#1501; &#1502;&#1490;&#1489;&#1506;&#1514; &#1492;&#1511;&#1508;&#1497;&#1496;&#1493;&#1500;.jpg",
+          "location": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3\\Maimonides, a marble relief at Capitol hill, Washington, artist - Brenda Putnam.jpg",
           "dataLength": "2669415",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 14:38:06.907 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:06.907 @+0200"
+          "modificationDateTime": "2013-12-02 17:17:54.606 @+0200"
         },
         {
           "guid": "81C46976-D3FC-E0D9-127D-25FC162D2521",
@@ -8394,83 +8420,167 @@
             "attachmentEntryID": "37CFEE2B-7D22-140E-32F7-1172E2E1075D"
           },
           "objectID": "82E599B4-743F-E479-ECDA-1F0B8FC4E538",
-          "name": "_61752626_syria_aleppo_g.jpg",
+          "name": "aleppo.jpg",
           "attachmentType": "1",
-          "location": "82E599B4-743F-E479-ECDA-1F0B8FC4E538\\_61752626_syria_aleppo_g.jpg",
+          "location": "82E599B4-743F-E479-ECDA-1F0B8FC4E538\\aleppo.jpg",
           "dataLength": "50497",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 14:38:06.932 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:06.932 @+0200"
+          "modificationDateTime": "2013-12-02 17:18:49.359 @+0200"
         },
         {
-          "guid": "218D807B-CB73-1584-79A3-A6817533B379",
+          "guid": "593380A8-15E1-24EC-8FEC-5AC4A74695D6",
           "AttachmentEntries": {
             "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
           },
           "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
-          "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 1 - DOR 1.jpg",
+          "name": "The Basch Diary, 1.jpg",
           "attachmentType": "1",
-          "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 1 - DOR 1.jpg",
+          "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\The Basch Diary, 1.jpg",
           "dataLength": "60418",
           "format": ".jpg",
-          "creationDateTime": "2013-11-10 14:46:25.393 @+0200",
-          "modificationDateTime": "2013-11-10 14:46:25.393 @+0200"
+          "creationDateTime": "2013-12-02 15:25:25.767 @+0200",
+          "modificationDateTime": "2013-12-02 15:25:25.767 @+0200"
         },
         {
-          "guid": "3134EBEB-3E1E-A526-A6E1-F536101096FE",
+          "guid": "A950B3AE-444D-BBB7-238B-EBFBD5F640CC",
           "AttachmentEntries": {
             "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
           },
           "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
-          "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 2 - DOR 1.jpg",
+          "name": "",
+          "attachmentType": "0",
+          "location": "",
+          "dataLength": "0",
+          "format": "",
+          "modificationDateTime": "2013-12-02 15:25:25.908 @+0200",
+          "deletedDateTime": "2013-12-02 15:25:25.908 @+0200"
+        },
+        {
+          "guid": "00B8BB7C-3CF4-BB59-B0C4-6FC8226988B0",
+          "AttachmentEntries": {
+            "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
+          },
+          "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
+          "name": "The Basch Diary, 2.jpg",
           "attachmentType": "1",
-          "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 2 - DOR 1.jpg",
+          "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\The Basch Diary, 2.jpg",
           "dataLength": "57179",
           "format": ".jpg",
-          "creationDateTime": "2013-11-10 14:46:25.423 @+0200",
-          "modificationDateTime": "2013-11-10 14:46:25.423 @+0200"
+          "creationDateTime": "2013-12-02 15:25:53.449 @+0200",
+          "modificationDateTime": "2013-12-02 15:25:53.449 @+0200"
         },
         {
-          "guid": "38D327E5-78E7-E608-9E7C-3E0226C5C0B5",
+          "guid": "096A5AC1-EBB6-24C7-3E67-310B02C86FD6",
           "AttachmentEntries": {
             "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
           },
           "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
-          "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 3 - DOR 1.jpg",
+          "name": "",
+          "attachmentType": "0",
+          "location": "",
+          "dataLength": "0",
+          "format": "",
+          "modificationDateTime": "2013-12-02 15:25:53.639 @+0200",
+          "deletedDateTime": "2013-12-02 15:25:53.639 @+0200"
+        },
+        {
+          "guid": "FE5650B9-2810-1EF3-A227-E3C8C335767B",
+          "AttachmentEntries": {
+            "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
+          },
+          "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
+          "name": "The Basch Diary, 3.jpg",
           "attachmentType": "1",
-          "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 3 - DOR 1.jpg",
+          "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\The Basch Diary, 3.jpg",
           "dataLength": "73786",
           "format": ".jpg",
-          "creationDateTime": "2013-11-10 14:46:25.443 @+0200",
-          "modificationDateTime": "2013-11-10 14:46:25.443 @+0200"
+          "creationDateTime": "2013-12-02 15:26:21.479 @+0200",
+          "modificationDateTime": "2013-12-02 15:26:21.479 @+0200"
         },
         {
-          "guid": "6AF62D0E-B4AD-5C17-A685-21CD8E203ABE",
+          "guid": "6B1E0B27-3680-AFEE-37BE-83BF11AD3E22",
           "AttachmentEntries": {
             "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
           },
           "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
-          "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 4 - DOR 1.jpg",
+          "name": "",
+          "attachmentType": "0",
+          "location": "",
+          "dataLength": "0",
+          "format": "",
+          "modificationDateTime": "2013-12-02 15:26:21.622 @+0200",
+          "deletedDateTime": "2013-12-02 15:26:21.622 @+0200"
+        },
+        {
+          "guid": "D90A7861-5613-80CF-8746-2BC47720CC65",
+          "AttachmentEntries": {
+            "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
+          },
+          "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
+          "name": "",
+          "attachmentType": "0",
+          "location": "",
+          "dataLength": "0",
+          "format": "",
+          "modificationDateTime": "2013-12-02 15:26:47.606 @+0200",
+          "deletedDateTime": "2013-12-02 15:26:47.606 @+0200"
+        },
+        {
+          "guid": "C056A3D3-7E16-4645-2311-1AA10B1ED2EB",
+          "AttachmentEntries": {
+            "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
+          },
+          "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
+          "name": "The Basch Diary, 4.jpg",
           "attachmentType": "1",
-          "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 4 - DOR 1.jpg",
+          "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\The Basch Diary, 4.jpg",
           "dataLength": "60214",
           "format": ".jpg",
-          "creationDateTime": "2013-11-10 14:46:25.463 @+0200",
-          "modificationDateTime": "2013-11-10 14:46:25.463 @+0200"
+          "creationDateTime": "2013-12-02 15:27:28.772 @+0200",
+          "modificationDateTime": "2013-12-02 15:27:28.772 @+0200"
         },
         {
-          "guid": "DE28FDDA-862F-BA28-F591-B640997DA6B5",
+          "guid": "69D39613-6527-1975-0169-57E69A352B3C",
           "AttachmentEntries": {
             "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
           },
           "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
-          "name": "&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 5 - DOR 1.jpg",
+          "name": "",
+          "attachmentType": "0",
+          "location": "",
+          "dataLength": "0",
+          "format": "",
+          "modificationDateTime": "2013-12-02 15:27:28.955 @+0200",
+          "deletedDateTime": "2013-12-02 15:27:28.955 @+0200"
+        },
+        {
+          "guid": "561B81CC-A0F2-A7AD-A04C-504E88CB55C5",
+          "AttachmentEntries": {
+            "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
+          },
+          "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
+          "name": "The Basch Diary. 5.jpg",
           "attachmentType": "1",
-          "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\&#1514;&#1502;&#1493;&#1504;&#1514; &#1512;&#1511;&#1506; &#1502;&#1497;&#1493;&#1502;&#1503; 5 - DOR 1.jpg",
+          "location": "4949F0C7-D64A-9EF5-5CCD-941E827509DB\\The Basch Diary. 5.jpg",
           "dataLength": "28249",
           "format": ".jpg",
-          "creationDateTime": "2013-11-10 14:46:25.483 @+0200",
-          "modificationDateTime": "2013-11-10 14:46:25.483 @+0200"
+          "creationDateTime": "2013-12-02 15:27:58.510 @+0200",
+          "modificationDateTime": "2013-12-02 15:27:58.510 @+0200"
+        },
+        {
+          "guid": "EEF32EC9-7DD5-FCD0-B718-9A03E861E3BE",
+          "AttachmentEntries": {
+            "attachmentEntryID": "C4EA8AAA-AD9C-0F0C-187C-AC799DAD4B98"
+          },
+          "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
+          "name": "",
+          "attachmentType": "0",
+          "location": "",
+          "dataLength": "0",
+          "format": "",
+          "modificationDateTime": "2013-12-02 15:27:58.637 @+0200",
+          "deletedDateTime": "2013-12-02 15:27:58.637 @+0200"
         },
         {
           "guid": "866215D3-66AB-96F5-7CD7-BAB65EF6B470",
@@ -8501,18 +8611,60 @@
           "modificationDateTime": "2013-11-10 14:46:25.483 @+0200"
         },
         {
+          "guid": "3E2D1EEA-2C3D-198B-FB72-79CEEA4FDB03",
+          "AttachmentEntries": {
+            "attachmentEntryID": "7313BB3F-5C3D-6201-646C-71AD93D16A21"
+          },
+          "objectID": "7505D43F-518B-4B46-4495-45B81531F2A9",
+          "name": "Learning to read the Hebrew letters in Judeo-Arabic dialect, Yemen.mp3",
+          "attachmentType": "1",
+          "location": "7505D43F-518B-4B46-4495-45B81531F2A9\\Learning to read the Hebrew letters in Judeo-Arabic dialect, Yemen.mp3",
+          "dataLength": "1250743",
+          "format": ".mp3",
+          "creationDateTime": "2013-12-02 12:49:17.761 @+0200",
+          "modificationDateTime": "2013-12-02 17:23:24.128 @+0200"
+        },
+        {
+          "guid": "6223E835-B0F3-AB10-3C46-6309CC0EF605",
+          "AttachmentEntries": {
+            "attachmentEntryID": "7313BB3F-5C3D-6201-646C-71AD93D16A21"
+          },
+          "objectID": "7505D43F-518B-4B46-4495-45B81531F2A9",
+          "name": "Judeo-Aarabic, Arabic and Hebrew letters.gif",
+          "attachmentType": "1",
+          "location": "7505D43F-518B-4B46-4495-45B81531F2A9\\Judeo-Aarabic, Arabic and Hebrew letters.gif",
+          "dataLength": "7124",
+          "format": ".gif",
+          "creationDateTime": "2013-12-02 12:49:17.792 @+0200",
+          "modificationDateTime": "2013-12-02 17:24:11.785 @+0200"
+        },
+        {
+          "guid": "B0D19510-7C73-A6E9-1044-99CFE963900D",
+          "AttachmentEntries": {
+            "attachmentEntryID": "7313BB3F-5C3D-6201-646C-71AD93D16A21"
+          },
+          "objectID": "7505D43F-518B-4B46-4495-45B81531F2A9",
+          "name": "10th century Jewish Philosophy tractate, Judeo-Arabic, Sa&#699;adiah ben Yosef Gaon Page 1.jpg",
+          "attachmentType": "1",
+          "location": "7505D43F-518B-4B46-4495-45B81531F2A9\\10th century Jewish Philosophy tractate, Judeo-Arabic, Sa&#699;adiah ben Yosef Gaon Page 1.jpg",
+          "dataLength": "4755687",
+          "format": ".jpg",
+          "creationDateTime": "2013-12-02 12:49:17.870 @+0200",
+          "modificationDateTime": "2013-12-02 12:49:17.870 @+0200"
+        },
+        {
           "guid": "2D15CE2C-0960-FE07-6620-A208AEF27B96",
           "AttachmentEntries": {
             "attachmentEntryID": "8FA311B7-C2A3-8CB2-1914-3CA8D12495EE"
           },
           "objectID": "D6BBEBDF-00D3-DBD2-7736-78D520E0189C",
-          "name": "&#1512;&#1502;&#1489;&#1501; &#1488;&#1493;&#1496;&#1493;&#1490;&#1512;&#1507; &#1502;&#1513;&#1504;&#1492; &#1514;&#1493;&#1512;&#1492; 1.jpg",
+          "name": "Misneh Torah, Maimonides&apos; autograph.jpg",
           "attachmentType": "1",
-          "location": "D6BBEBDF-00D3-DBD2-7736-78D520E0189C\\&#1512;&#1502;&#1489;&#1501; &#1488;&#1493;&#1496;&#1493;&#1490;&#1512;&#1507; &#1502;&#1513;&#1504;&#1492; &#1514;&#1493;&#1512;&#1492; 1.jpg",
+          "location": "D6BBEBDF-00D3-DBD2-7736-78D520E0189C\\Misneh Torah, Maimonides&apos; autograph.jpg",
           "dataLength": "93790",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 14:38:06.198 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:06.198 @+0200"
+          "modificationDateTime": "2013-12-02 17:25:34.861 @+0200"
         },
         {
           "guid": "66910290-DE57-CB28-4760-B812A83D25DE",
@@ -8520,13 +8672,13 @@
             "attachmentEntryID": "2594DB5D-613C-BB61-C46D-FE1247ADD26F"
           },
           "objectID": "A35916B5-7608-6F21-7BC9-A0335815B679",
-          "name": "Jerusalem map at NLI 16th century.jpg",
+          "name": "Christian van Adrichom&apos;s Map of Jerusalem in the Time of Jesus (1590) .jpg",
           "attachmentType": "1",
-          "location": "A35916B5-7608-6F21-7BC9-A0335815B679\\Jerusalem map at NLI 16th century.jpg",
+          "location": "A35916B5-7608-6F21-7BC9-A0335815B679\\Christian van Adrichom&apos;s Map of Jerusalem in the Time of Jesus (1590) .jpg",
           "dataLength": "1968749",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 14:38:06.216 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:06.216 @+0200"
+          "modificationDateTime": "2013-12-02 17:47:46.219 @+0200"
         },
         {
           "guid": "E6308AE9-8AFF-814D-832C-7644275D4E38",
@@ -8534,13 +8686,13 @@
             "attachmentEntryID": "2594DB5D-613C-BB61-C46D-FE1247ADD26F"
           },
           "objectID": "A35916B5-7608-6F21-7BC9-A0335815B679",
-          "name": "Acre map at NLI 17th century.jpg",
+          "name": "Acre map, 17th century, Vesconte, Petrus.  Civitas Acon Sive ptolomayda.jpg",
           "attachmentType": "1",
-          "location": "A35916B5-7608-6F21-7BC9-A0335815B679\\Acre map at NLI 17th century.jpg",
+          "location": "A35916B5-7608-6F21-7BC9-A0335815B679\\Acre map, 17th century, Vesconte, Petrus.  Civitas Acon Sive ptolomayda.jpg",
           "dataLength": "480410",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 14:38:06.234 @+0200",
-          "modificationDateTime": "2013-11-25 14:38:06.234 @+0200"
+          "modificationDateTime": "2013-12-02 17:45:13.868 @+0200"
         },
         {
           "guid": "C15BF952-4310-6DE4-CD50-90DC9DA1DF00",
@@ -8646,13 +8798,13 @@
             "attachmentEntryID": "6211AFD8-CC4E-2B06-09B9-1F72A591DFCA"
           },
           "objectID": "5B1844AA-E868-D84F-B0F5-5FCFDBEA65DE",
-          "name": "14th century Qur&apos;an , Yahuda Ms.Ar.900.jpg",
+          "name": "14th century Qur&apos;an, Egypt, Yahuda Ms.Ar.900.jpg",
           "attachmentType": "1",
-          "location": "5B1844AA-E868-D84F-B0F5-5FCFDBEA65DE\\14th century Qur&apos;an , Yahuda Ms.Ar.900.jpg",
+          "location": "5B1844AA-E868-D84F-B0F5-5FCFDBEA65DE\\14th century Qur&apos;an, Egypt, Yahuda Ms.Ar.900.jpg",
           "dataLength": "77472",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 14:43:13.499 @+0200",
-          "modificationDateTime": "2013-11-25 14:43:13.499 @+0200"
+          "modificationDateTime": "2013-12-02 17:52:29.762 @+0200"
         },
         {
           "guid": "A2D436FA-5873-4AC4-3C2C-9607229281EA",
@@ -8674,13 +8826,13 @@
             "attachmentEntryID": "6211AFD8-CC4E-2B06-09B9-1F72A591DFCA"
           },
           "objectID": "5B1844AA-E868-D84F-B0F5-5FCFDBEA65DE",
-          "name": "Ms.Yah.Ar.954.jpg",
+          "name": "Qur&apos;an, Kashmir, 18th century, Ms.Yah.Ar.954.jpg",
           "attachmentType": "1",
-          "location": "5B1844AA-E868-D84F-B0F5-5FCFDBEA65DE\\Ms.Yah.Ar.954.jpg",
+          "location": "5B1844AA-E868-D84F-B0F5-5FCFDBEA65DE\\Qur&apos;an, Kashmir, 18th century, Ms.Yah.Ar.954.jpg",
           "dataLength": "2205948",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 14:43:13.539 @+0200",
-          "modificationDateTime": "2013-11-25 14:43:13.539 @+0200"
+          "modificationDateTime": "2013-12-02 17:50:42.559 @+0200"
         },
         {
           "guid": "6EF407CB-5A6D-4966-0785-58F3A983C2EB",
@@ -8688,13 +8840,13 @@
             "attachmentEntryID": "B3814E1E-1154-DBFA-4BE8-915D2F8CD885"
           },
           "objectID": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
-          "name": "Receiving Torah.jpg",
+          "name": "Receiving the Torah, Prayer book, North Italy, c.1450.jpg",
           "attachmentType": "1",
-          "location": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1\\Receiving Torah.jpg",
+          "location": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1\\Receiving the Torah, Prayer book, North Italy, c.1450.jpg",
           "dataLength": "544154",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:39:07.184 @+0200",
-          "modificationDateTime": "2013-11-25 13:39:07.184 @+0200"
+          "modificationDateTime": "2013-12-02 16:40:00.764 @+0200"
         },
         {
           "guid": "E9173D6D-7FCC-03D3-3CC4-758D4A15CF79",
@@ -8702,13 +8854,13 @@
             "attachmentEntryID": "B3814E1E-1154-DBFA-4BE8-915D2F8CD885"
           },
           "objectID": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
-          "name": "__0005 copy.jpg",
+          "name": "The Torah Scroll from Spain, 5.jpg",
           "attachmentType": "1",
-          "location": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1\\__0005 copy.jpg",
+          "location": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1\\The Torah Scroll from Spain, 5.jpg",
           "dataLength": "1053432",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:39:07.213 @+0200",
-          "modificationDateTime": "2013-11-25 13:39:07.213 @+0200"
+          "modificationDateTime": "2013-12-02 16:29:32.467 @+0200"
         },
         {
           "guid": "171A9EDF-E527-4A13-985E-EAED7CF85DD6",
@@ -8730,13 +8882,13 @@
             "attachmentEntryID": "B3814E1E-1154-DBFA-4BE8-915D2F8CD885"
           },
           "objectID": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
-          "name": "pal0979 Jansson Moses1 (1).jpg",
+          "name": "Moses, a painting by Jansson.jpg",
           "attachmentType": "1",
-          "location": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1\\pal0979 Jansson Moses1 (1).jpg",
+          "location": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1\\Moses, a painting by Jansson.jpg",
           "dataLength": "58841",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:39:07.270 @+0200",
-          "modificationDateTime": "2013-11-25 13:39:07.270 @+0200"
+          "modificationDateTime": "2013-12-02 17:13:44.801 @+0200"
         },
         {
           "guid": "BA230C8A-24DB-F3D1-6E10-017F7B140E28",
@@ -8786,13 +8938,13 @@
             "attachmentEntryID": "3BF355E9-41C3-1EB7-6FCC-C3DCCBFE9483"
           },
           "objectID": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
-          "name": "Newton detail 1.3 treatise on the origin of religion and its corruption.jpg",
+          "name": "Newton, treatise on the origin of religion and its corruption.jpg",
           "attachmentType": "1",
-          "location": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7\\Newton detail 1.3 treatise on the origin of religion and its corruption.jpg",
+          "location": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7\\Newton, treatise on the origin of religion and its corruption.jpg",
           "dataLength": "30805",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 14:43:13.654 @+0200",
-          "modificationDateTime": "2013-11-25 14:43:13.654 @+0200"
+          "modificationDateTime": "2013-12-01 17:54:35.260 @+0200"
         },
         {
           "guid": "6E2B8F60-49AE-53DE-622F-C0C0490607D8",
@@ -8828,13 +8980,41 @@
             "attachmentEntryID": "5AEFBCC7-FC49-C8E3-228F-B286828190E4"
           },
           "objectID": "BEEF4DB1-AC8B-667A-BAE5-E0FAF2C9F03C",
-          "name": "Yaakov Reading Torah NLI 2",
+          "name": "Yaakov Fux Reading the Torah, NLI",
           "attachmentType": "3",
           "location": "http://youtu.be/kQDgTgOVRTo",
           "dataLength": "0",
           "format": "",
           "creationDateTime": "2013-11-10 14:41:46.712 @+0200",
-          "modificationDateTime": "2013-11-10 14:41:46.712 @+0200"
+          "modificationDateTime": "2013-12-02 16:42:15.986 @+0200"
+        },
+        {
+          "guid": "65CA3070-7703-3C8F-A890-31A637DAA8B7",
+          "AttachmentEntries": {
+            "attachmentEntryID": "5AEFBCC7-FC49-C8E3-228F-B286828190E4"
+          },
+          "objectID": "BEEF4DB1-AC8B-667A-BAE5-E0FAF2C9F03C",
+          "name": "Ark.JPG",
+          "attachmentType": "1",
+          "location": "BEEF4DB1-AC8B-667A-BAE5-E0FAF2C9F03C\\Ark.JPG",
+          "dataLength": "75649",
+          "format": ".jpg",
+          "creationDateTime": "2013-12-02 16:40:12.245 @+0200",
+          "modificationDateTime": "2013-12-02 16:40:43.096 @+0200"
+        },
+        {
+          "guid": "9DBE4FDC-0AD2-3CEF-EE8C-1E24F3FB45BA",
+          "AttachmentEntries": {
+            "attachmentEntryID": "5AEFBCC7-FC49-C8E3-228F-B286828190E4"
+          },
+          "objectID": "BEEF4DB1-AC8B-667A-BAE5-E0FAF2C9F03C",
+          "name": "Parochet.jpg",
+          "attachmentType": "1",
+          "location": "BEEF4DB1-AC8B-667A-BAE5-E0FAF2C9F03C\\Parochet.jpg",
+          "dataLength": "90342",
+          "format": ".jpg",
+          "creationDateTime": "2013-12-02 16:40:12.295 @+0200",
+          "modificationDateTime": "2013-12-02 16:40:12.295 @+0200"
         },
         {
           "guid": "6F811F48-0109-92F4-9E39-EA6C86B2C505",
@@ -8842,13 +9022,27 @@
             "attachmentEntryID": "02D14362-56F6-0AF2-F9E3-E0D1EA096407"
           },
           "objectID": "EB4FD149-5DEF-8C54-818E-9F93C286A13E",
-          "name": "Sequence01",
+          "name": "Interview with Benjamin Richler",
           "attachmentType": "3",
           "location": "http://youtu.be/jAsepl1nmN4",
           "dataLength": "0",
           "format": "",
           "creationDateTime": "2013-11-10 14:41:46.126 @+0200",
-          "modificationDateTime": "2013-11-10 14:41:46.126 @+0200"
+          "modificationDateTime": "2013-12-02 17:03:50.344 @+0200"
+        },
+        {
+          "guid": "874EBB78-011D-04EB-9D52-02808BB369CF",
+          "AttachmentEntries": {
+            "attachmentEntryID": "02D14362-56F6-0AF2-F9E3-E0D1EA096407"
+          },
+          "objectID": "EB4FD149-5DEF-8C54-818E-9F93C286A13E",
+          "name": "Benjamin Richler and the Edel Torah.jpg",
+          "attachmentType": "1",
+          "location": "EB4FD149-5DEF-8C54-818E-9F93C286A13E\\Benjamin Richler and the Edel Torah.jpg",
+          "dataLength": "65203",
+          "format": ".jpg",
+          "creationDateTime": "2013-12-01 16:40:48.607 @+0200",
+          "modificationDateTime": "2013-12-02 17:04:24.524 @+0200"
         },
         {
           "guid": "DD800193-5550-9885-0CA1-5CFB08FEA0FE",
@@ -8870,13 +9064,13 @@
             "attachmentEntryID": "08ED1ECA-BDFA-7EF8-F422-F5B3BEDD03AE"
           },
           "objectID": "4693F853-82C7-E7DA-A02F-5F91D4E39AA1",
-          "name": "Writing_a_torah.jpg",
+          "name": "Writing a torah.jpg",
           "attachmentType": "1",
-          "location": "4693F853-82C7-E7DA-A02F-5F91D4E39AA1\\Writing_a_torah.jpg",
+          "location": "4693F853-82C7-E7DA-A02F-5F91D4E39AA1\\Writing a torah.jpg",
           "dataLength": "12344",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:41:46.080 @+0200",
-          "modificationDateTime": "2013-11-10 14:41:46.080 @+0200"
+          "modificationDateTime": "2013-12-02 16:43:54.824 @+0200"
         },
         {
           "guid": "230399E8-6B4D-1D43-273B-E9352E9ACA15",
@@ -8884,13 +9078,13 @@
             "attachmentEntryID": "5596380C-5B45-F7A3-916A-EC6340301A19"
           },
           "objectID": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0",
-          "name": "&#1514;&#1493;&#1512;&#1492; &#1502;&#1512;&#1493;&#1491;&#1493;&#1505; - &#1502;&#1490;&#1497;&#1500;&#1492; &#1502;&#1514;&#1497;&#1502;&#1503; &#1506;&#1502;&#1493;&#1491; 23 &#1489;&#1491;&#1497;&#1490;&#1497;&#1496;&#1493;&#1500;.jpg",
+          "name": "A Torah Scroll from Yemen, 11th-12th centuries.jpg",
           "attachmentType": "1",
-          "location": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0\\&#1514;&#1493;&#1512;&#1492; &#1502;&#1512;&#1493;&#1491;&#1493;&#1505; - &#1502;&#1490;&#1497;&#1500;&#1492; &#1502;&#1514;&#1497;&#1502;&#1503; &#1506;&#1502;&#1493;&#1491; 23 &#1489;&#1491;&#1497;&#1490;&#1497;&#1496;&#1493;&#1500;.jpg",
+          "location": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0\\A Torah Scroll from Yemen, 11th-12th centuries.jpg",
           "dataLength": "4832937",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:41:46.101 @+0200",
-          "modificationDateTime": "2013-11-10 14:41:46.101 @+0200"
+          "modificationDateTime": "2013-12-02 17:11:39.075 @+0200"
         },
         {
           "guid": "40D08D08-130A-8850-124D-E588CB504625",
@@ -8898,13 +9092,13 @@
             "attachmentEntryID": "5596380C-5B45-F7A3-916A-EC6340301A19"
           },
           "objectID": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0",
-          "name": "&#1514;&#1493;&#1512;&#1492; &#1502;&#1512;&#1493;&#1491;&#1493;&#1505; - &#1502;&#1490;&#1497;&#1500;&#1492; &#1502;&#1488;&#1513;&#1499;&#1504;&#1494;, &#1506;&#1502;&#1493;&#1491; 27 &#1489;&#1491;&#1497;&#1490;&#1497;&#1496;&#1493;&#1500;.jpg",
+          "name": "A Torah Scroll, Germany, 15th century.jpg",
           "attachmentType": "1",
-          "location": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0\\&#1514;&#1493;&#1512;&#1492; &#1502;&#1512;&#1493;&#1491;&#1493;&#1505; - &#1502;&#1490;&#1497;&#1500;&#1492; &#1502;&#1488;&#1513;&#1499;&#1504;&#1494;, &#1506;&#1502;&#1493;&#1491; 27 &#1489;&#1491;&#1497;&#1490;&#1497;&#1496;&#1493;&#1500;.jpg",
+          "location": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0\\A Torah Scroll, Germany, 15th century.jpg",
           "dataLength": "4136686",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:41:46.121 @+0200",
-          "modificationDateTime": "2013-11-10 14:41:46.121 @+0200"
+          "modificationDateTime": "2013-12-02 17:12:07.345 @+0200"
         },
         {
           "guid": "9AF41F4C-79AD-4AC7-E169-BD2D92C64CB0",
@@ -8926,13 +9120,13 @@
             "attachmentEntryID": "FAD8511B-358D-4DE0-1DB3-D97A21DBB929"
           },
           "objectID": "277C7CA7-F6EA-FFD0-D111-E975E0D01409",
-          "name": "&#1499;&#1514;&#1512; &#1491;&#1502;&#1513;&#1511;, &#1514;&#1493;&#1512;&#1492; &#1504;&#1489;&#1497;&#1488;&#1497;&#1501; &#1493;&#1499;&#1514;&#1493;&#1489;&#1497;&#1501; &#1506;&#1501; &#1504;&#1497;&#1511;&#1493;&#1491; &#1496;&#1506;&#1502;&#1497;&#1501; &#1502;&#1505;&#1493;&#1512;&#1492; &#1490;&#1491;&#1493;&#1500;&#1492; &#1493;&#1511;&#1496;&#1504;&#1492;.jpg",
+          "name": "A Damascus Crown with Cantillation (chanting marks).jpg",
           "attachmentType": "1",
-          "location": "277C7CA7-F6EA-FFD0-D111-E975E0D01409\\&#1499;&#1514;&#1512; &#1491;&#1502;&#1513;&#1511;, &#1514;&#1493;&#1512;&#1492; &#1504;&#1489;&#1497;&#1488;&#1497;&#1501; &#1493;&#1499;&#1514;&#1493;&#1489;&#1497;&#1501; &#1506;&#1501; &#1504;&#1497;&#1511;&#1493;&#1491; &#1496;&#1506;&#1502;&#1497;&#1501; &#1502;&#1505;&#1493;&#1512;&#1492; &#1490;&#1491;&#1493;&#1500;&#1492; &#1493;&#1511;&#1496;&#1504;&#1492;.jpg",
+          "location": "277C7CA7-F6EA-FFD0-D111-E975E0D01409\\A Damascus Crown with Cantillation (chanting marks).jpg",
           "dataLength": "88861",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:41:47.008 @+0200",
-          "modificationDateTime": "2013-11-25 13:41:24.576 @+0200"
+          "modificationDateTime": "2013-12-02 17:09:57.579 @+0200"
         },
         {
           "guid": "103ABA70-6891-E390-D6EA-7BFB84DD3FD2",
@@ -8940,13 +9134,13 @@
             "attachmentEntryID": "FAD8511B-358D-4DE0-1DB3-D97A21DBB929"
           },
           "objectID": "277C7CA7-F6EA-FFD0-D111-E975E0D01409",
-          "name": "&#1499;&#1514;&#1512; &#1491;&#1502;&#1513;&#1511; &#1502;&#1489;&#1493;&#1512;&#1490;&#1493;&#1505; 3.jpg",
+          "name": "The Damascus Crown from Burgos.jpg",
           "attachmentType": "1",
-          "location": "277C7CA7-F6EA-FFD0-D111-E975E0D01409\\&#1499;&#1514;&#1512; &#1491;&#1502;&#1513;&#1511; &#1502;&#1489;&#1493;&#1512;&#1490;&#1493;&#1505; 3.jpg",
+          "location": "277C7CA7-F6EA-FFD0-D111-E975E0D01409\\The Damascus Crown from Burgos.jpg",
           "dataLength": "237609",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:41:47.026 @+0200",
-          "modificationDateTime": "2013-11-25 13:41:24.592 @+0200"
+          "modificationDateTime": "2013-12-02 17:05:08.158 @+0200"
         },
         {
           "guid": "1DC66BA6-5D11-AE52-564F-4174263DB21B",
@@ -8954,13 +9148,13 @@
             "attachmentEntryID": "FAD8511B-358D-4DE0-1DB3-D97A21DBB929"
           },
           "objectID": "277C7CA7-F6EA-FFD0-D111-E975E0D01409",
-          "name": "&#1499;&#1514;&#1512; &#1491;&#1502;&#1513;&#1511; &#1502;&#1489;&#1493;&#1512;&#1490;&#1493;&#1505; 5 &#1505;&#1493;&#1507; &#1489;&#1512;&#1488;&#1513;&#1497;&#1514; &#1493;&#1514;&#1495;&#1497;&#1500;&#1514; &#1513;&#1502;&#1493;&#1514;.jpg",
+          "name": "The Damascus Crown from Burgos, end of Genesis and beginning of Exodus.jpg",
           "attachmentType": "1",
-          "location": "277C7CA7-F6EA-FFD0-D111-E975E0D01409\\&#1499;&#1514;&#1512; &#1491;&#1502;&#1513;&#1511; &#1502;&#1489;&#1493;&#1512;&#1490;&#1493;&#1505; 5 &#1505;&#1493;&#1507; &#1489;&#1512;&#1488;&#1513;&#1497;&#1514; &#1493;&#1514;&#1495;&#1497;&#1500;&#1514; &#1513;&#1502;&#1493;&#1514;.jpg",
+          "location": "277C7CA7-F6EA-FFD0-D111-E975E0D01409\\The Damascus Crown from Burgos, end of Genesis and beginning of Exodus.jpg",
           "dataLength": "238531",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:41:47.047 @+0200",
-          "modificationDateTime": "2013-11-25 13:41:24.611 @+0200"
+          "modificationDateTime": "2013-12-02 17:07:14.324 @+0200"
         },
         {
           "guid": "18CED0FA-825E-70C3-3FDC-8B34AD077D53",
@@ -8968,13 +9162,13 @@
             "attachmentEntryID": "F1E91F6F-7E3F-50F0-7858-0FAAC4AC013D"
           },
           "objectID": "6CBFE979-B4EF-E377-DEA7-2F096D47FC66",
-          "name": "&#1504;&#1497;&#1493;&#1496;&#1493;&#1503; &#1495;&#1497;&#1513;&#1493;&#1489;&#1497; &#1511;&#1497;&#1510;&#1497;&#1503;.jpg",
+          "name": "Newton, Apocalyptic calculations.jpg",
           "attachmentType": "1",
-          "location": "6CBFE979-B4EF-E377-DEA7-2F096D47FC66\\&#1504;&#1497;&#1493;&#1496;&#1493;&#1503; &#1495;&#1497;&#1513;&#1493;&#1489;&#1497; &#1511;&#1497;&#1510;&#1497;&#1503;.jpg",
+          "location": "6CBFE979-B4EF-E377-DEA7-2F096D47FC66\\Newton, Apocalyptic calculations.jpg",
           "dataLength": "951594",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 14:43:13.716 @+0200",
-          "modificationDateTime": "2013-11-25 14:43:13.716 @+0200"
+          "modificationDateTime": "2013-12-02 17:54:06.816 @+0200"
         },
         {
           "guid": "AE0BE72E-3CAF-E381-73A9-D4AC78699D17",
@@ -8982,13 +9176,13 @@
             "attachmentEntryID": "E9157AFB-CE97-B32B-5BFB-5CD15C84DC9C"
           },
           "objectID": "7F13F425-9474-7539-509D-FEDE3A2F8619",
-          "name": "&#1499;&#1514;&#1512; &#1491;&#1502;&#1513;&#1511; &#1502;&#1510;&#1512;&#1508;&#1514; &#1488;&#1493; &#1490;&#1512;&#1502;&#1504;&#1497;&#1492; &#1502;&#1488;&#1492; 13.jpg",
+          "name": "A Damascus Crown, France or Germany, 13th century.jpg",
           "attachmentType": "1",
-          "location": "7F13F425-9474-7539-509D-FEDE3A2F8619\\&#1499;&#1514;&#1512; &#1491;&#1502;&#1513;&#1511; &#1502;&#1510;&#1512;&#1508;&#1514; &#1488;&#1493; &#1490;&#1512;&#1502;&#1504;&#1497;&#1492; &#1502;&#1488;&#1492; 13.jpg",
+          "location": "7F13F425-9474-7539-509D-FEDE3A2F8619\\A Damascus Crown, France or Germany, 13th century.jpg",
           "dataLength": "37476",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:41:47.065 @+0200",
-          "modificationDateTime": "2013-11-25 13:39:11.580 @+0200"
+          "modificationDateTime": "2013-12-02 17:02:21.173 @+0200"
         },
         {
           "guid": "71D65E76-3FC0-A71F-2CC7-7EFBDE88637E",
@@ -8996,13 +9190,13 @@
             "attachmentEntryID": "B4DF5F84-170A-A5AE-7348-CD9EB3FF42C8"
           },
           "objectID": "D7DD61A0-2E58-85AB-0653-C98D58FC2ABD",
-          "name": "220px-TorahBreastPlate.jpg",
+          "name": "Torah Breastplate.jpg",
           "attachmentType": "1",
-          "location": "D7DD61A0-2E58-85AB-0653-C98D58FC2ABD\\220px-TorahBreastPlate.jpg",
+          "location": "D7DD61A0-2E58-85AB-0653-C98D58FC2ABD\\Torah Breastplate.jpg",
           "dataLength": "19206",
           "format": ".jpg",
           "creationDateTime": "2013-11-10 14:41:47.084 @+0200",
-          "modificationDateTime": "2013-11-10 14:41:47.084 @+0200"
+          "modificationDateTime": "2013-12-02 16:44:26.858 @+0200"
         },
         {
           "guid": "6820EEC6-9333-69E6-16CF-B822F1CDAA88",
@@ -9131,20 +9325,6 @@
           "modificationDateTime": "2013-11-25 14:43:13.919 @+0200"
         },
         {
-          "guid": "EC5D7549-B99C-19AC-2D5B-871F4468B82D",
-          "AttachmentEntries": {
-            "attachmentEntryID": "DA9A8C50-FA39-CD89-551A-A54E51F0FB72"
-          },
-          "objectID": "05C16366-E98F-8859-A0D8-AA8FE3251A80",
-          "name": "topdocumentaryfilms",
-          "attachmentType": "3",
-          "location": "http://topdocumentaryfilms.com/newton-the-dark-heretic/ ",
-          "dataLength": "0",
-          "format": "",
-          "creationDateTime": "2013-11-25 14:43:13.723 @+0200",
-          "modificationDateTime": "2013-11-25 14:43:13.723 @+0200"
-        },
-        {
           "guid": "0AAD8AD1-E347-D549-BE0D-D9C8A54B198F",
           "AttachmentEntries": {
             "attachmentEntryID": "DA9A8C50-FA39-CD89-551A-A54E51F0FB72"
@@ -9164,13 +9344,13 @@
             "attachmentEntryID": "DA9A8C50-FA39-CD89-551A-A54E51F0FB72"
           },
           "objectID": "05C16366-E98F-8859-A0D8-AA8FE3251A80",
-          "name": "Isaac Newton",
+          "name": "Isaac Newton, Rejector of the Trinity",
           "attachmentType": "3",
           "location": "http://www.youtube.com/watch?v=A2DWBjyVfNU",
           "dataLength": "0",
           "format": "",
           "creationDateTime": "2013-11-25 14:43:13.770 @+0200",
-          "modificationDateTime": "2013-11-25 14:43:13.770 @+0200"
+          "modificationDateTime": "2013-12-02 17:56:00.208 @+0200"
         },
         {
           "guid": "68AA73FE-820D-8896-6975-77632A8278E6",
@@ -9192,13 +9372,13 @@
             "attachmentEntryID": "31A58A28-27EF-14D5-5F8D-E3DF75721A6A"
           },
           "objectID": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
-          "name": "&#1511;&#1512;&#1497;&#1488;&#1492; &#1489;&#1514;&#1493;&#1512;&#1492;-&#1489;&#1512;&#1488;&#1513;&#1497;&#1514;, &#1505;&#1508;&#1512;&#1491;&#1497;&#1501; &#1497;&#1493;&#1493;&#1503; &#1495;&#1500;&#1511;&#1497;&#1505;.mp3",
+          "name": "Reading the Torah (Genesis), Spanish-Jewish liturgy, Greece.mp3",
           "attachmentType": "1",
-          "location": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3\\&#1511;&#1512;&#1497;&#1488;&#1492; &#1489;&#1514;&#1493;&#1512;&#1492;-&#1489;&#1512;&#1488;&#1513;&#1497;&#1514;, &#1505;&#1508;&#1512;&#1491;&#1497;&#1501; &#1497;&#1493;&#1493;&#1503; &#1495;&#1500;&#1511;&#1497;&#1505;.mp3",
+          "location": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3\\Reading the Torah (Genesis), Spanish-Jewish liturgy, Greece.mp3",
           "dataLength": "1568601",
           "format": ".mp3",
           "creationDateTime": "2013-11-25 16:25:50.014 @+0200",
-          "modificationDateTime": "2013-11-25 16:25:50.014 @+0200"
+          "modificationDateTime": "2013-12-02 16:45:44.228 @+0200"
         },
         {
           "guid": "1AB63139-3198-1B1A-8BD5-564F306E891D",
@@ -9276,13 +9456,13 @@
             "attachmentEntryID": "9D9EC1C7-11FD-C6CE-BF73-873111D8CD6A"
           },
           "objectID": "F8D25BDD-4C45-9623-9A0D-6A7188E4C10A",
-          "name": "&#1508;&#1497;&#1493;&#1496;&#1497;&#1501; &#1500;&#1492;&#1511;&#1508;&#1493;&#1514;, &#1505;&#1500;&#1493;&#1504;&#1497;&#1511;&#1497; &#1506;&#1489;&#1512;&#1497;&#1514; &#1493;&#1505;&#1508;&#1512;&#1491;&#1497;&#1514;-&#1497;&#1492;&#1493;&#1491;&#1497;&#1514;, &#1500;&#1511;&#1496; &#1505;&#1493;&#1499;&#1493;&#1514; &#1493;&#1513;&#1502;&#1495;&#1514; &#1514;&#1493;&#1512;&#1492; Y197.mp3",
+          "name": "Piyyut. Jewish liturgical poem, Thessalonica, Spanish-Hebrew and Hebrew.mp3",
           "attachmentType": "1",
-          "location": "F8D25BDD-4C45-9623-9A0D-6A7188E4C10A\\&#1508;&#1497;&#1493;&#1496;&#1497;&#1501; &#1500;&#1492;&#1511;&#1508;&#1493;&#1514;, &#1505;&#1500;&#1493;&#1504;&#1497;&#1511;&#1497; &#1506;&#1489;&#1512;&#1497;&#1514; &#1493;&#1505;&#1508;&#1512;&#1491;&#1497;&#1514;-&#1497;&#1492;&#1493;&#1491;&#1497;&#1514;, &#1500;&#1511;&#1496; &#1505;&#1493;&#1499;&#1493;&#1514; &#1493;&#1513;&#1502;&#1495;&#1514; &#1514;&#1493;&#1512;&#1492; Y197.mp3",
+          "location": "F8D25BDD-4C45-9623-9A0D-6A7188E4C10A\\Piyyut. Jewish liturgical poem, Thessalonica, Spanish-Hebrew and Hebrew.mp3",
           "dataLength": "1138729",
           "format": ".mp3",
           "creationDateTime": "2013-11-25 16:25:44.448 @+0200",
-          "modificationDateTime": "2013-11-25 16:25:44.448 @+0200"
+          "modificationDateTime": "2013-12-02 16:56:01.129 @+0200"
         },
         {
           "guid": "5954B5D7-BC96-A41F-4BC8-43E7DB9D290A",
@@ -9290,13 +9470,13 @@
             "attachmentEntryID": "9D9EC1C7-11FD-C6CE-BF73-873111D8CD6A"
           },
           "objectID": "F8D25BDD-4C45-9623-9A0D-6A7188E4C10A",
-          "name": "&#1489;&#1502;&#1493;&#1510;&#1488;&#1497; &#1497;&#1493;&#1501; &#1502;&#1504;&#1493;&#1495;&#1492;, &#1505;&#1508;&#1512;&#1491;&#1497;&#1501;, &#1488;&#1494;&#1502;&#1497;&#1512; &#1496;&#1493;&#1512;&#1511;&#1497;&#1492;.mp3",
+          "name": "Sepharadic song for the end of Sturday, Smyrna.mp3",
           "attachmentType": "1",
-          "location": "F8D25BDD-4C45-9623-9A0D-6A7188E4C10A\\&#1489;&#1502;&#1493;&#1510;&#1488;&#1497; &#1497;&#1493;&#1501; &#1502;&#1504;&#1493;&#1495;&#1492;, &#1505;&#1508;&#1512;&#1491;&#1497;&#1501;, &#1488;&#1494;&#1502;&#1497;&#1512; &#1496;&#1493;&#1512;&#1511;&#1497;&#1492;.mp3",
+          "location": "F8D25BDD-4C45-9623-9A0D-6A7188E4C10A\\Sepharadic song for the end of Sturday, Smyrna.mp3",
           "dataLength": "2845049",
           "format": ".mp3",
           "creationDateTime": "2013-11-25 16:25:44.468 @+0200",
-          "modificationDateTime": "2013-11-25 16:25:44.468 @+0200"
+          "modificationDateTime": "2013-12-02 16:53:30.507 @+0200"
         },
         {
           "guid": "A59DDE67-7468-DCE5-E1DE-50268979CA51",
@@ -9425,6 +9605,20 @@
           "modificationDateTime": "2013-11-25 14:46:17.398 @+0200"
         },
         {
+          "guid": "DCCFE65F-33BD-2888-5F9E-FDE62F0D9702",
+          "AttachmentEntries": {
+            "attachmentEntryID": "34376A85-63CB-3EA5-339D-7CB7678112D1"
+          },
+          "objectID": "EB0BE33B-5FF2-8FDB-5D5E-730404D3DFB6",
+          "name": "Yad LaTorah - a reading pointer.jpg",
+          "attachmentType": "1",
+          "location": "EB0BE33B-5FF2-8FDB-5D5E-730404D3DFB6\\Yad LaTorah - a reading pointer.jpg",
+          "dataLength": "3210",
+          "format": ".jpg",
+          "creationDateTime": "2013-12-02 16:44:29.276 @+0200",
+          "modificationDateTime": "2013-12-02 16:45:03.751 @+0200"
+        },
+        {
           "guid": "A7CB9275-7314-7B1E-A410-D0D433F7E344",
           "AttachmentEntries": {
             "attachmentEntryID": "C595A45B-7677-5F92-3B02-582EF0DEBEF5"
@@ -9472,13 +9666,13 @@
             "attachmentEntryID": "2BDBE433-F734-8913-9CEE-EA3142516AC9"
           },
           "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
-          "name": "__0007 copy.jpg",
+          "name": "The Torah Scroll from Spain, no.7 .jpg",
           "attachmentType": "1",
-          "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\__0007 copy.jpg",
+          "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah Scroll from Spain, no.7 .jpg",
           "dataLength": "381645",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:39:44.397 @+0200",
-          "modificationDateTime": "2013-11-25 13:39:44.397 @+0200"
+          "modificationDateTime": "2013-12-02 16:47:34.476 @+0200"
         },
         {
           "guid": "094F20AF-462A-10D1-B381-1CAEE12AC142",
@@ -9486,13 +9680,13 @@
             "attachmentEntryID": "2BDBE433-F734-8913-9CEE-EA3142516AC9"
           },
           "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
-          "name": "__0013 copy.jpg",
+          "name": "The Torah Scroll from Spain, no.13.jpg",
           "attachmentType": "1",
-          "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\__0013 copy.jpg",
+          "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah Scroll from Spain, no.13.jpg",
           "dataLength": "691971",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:39:44.427 @+0200",
-          "modificationDateTime": "2013-11-25 13:39:44.427 @+0200"
+          "modificationDateTime": "2013-12-02 16:48:09.560 @+0200"
         },
         {
           "guid": "1070E4EA-0DF8-88C8-E168-477D9C0BAC4C",
@@ -9500,13 +9694,13 @@
             "attachmentEntryID": "2BDBE433-F734-8913-9CEE-EA3142516AC9"
           },
           "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
-          "name": "__0010 copy.jpg",
+          "name": "The Torah Scroll from Spain, no.10.jpg",
           "attachmentType": "1",
-          "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\__0010 copy.jpg",
+          "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah Scroll from Spain, no.10.jpg",
           "dataLength": "639057",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:39:44.457 @+0200",
-          "modificationDateTime": "2013-11-25 13:39:44.457 @+0200"
+          "modificationDateTime": "2013-12-02 16:47:47.105 @+0200"
         },
         {
           "guid": "6C49B612-AFF6-871D-6487-27F702EA13B3",
@@ -9514,13 +9708,13 @@
             "attachmentEntryID": "2BDBE433-F734-8913-9CEE-EA3142516AC9"
           },
           "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
-          "name": "__0011 copy.jpg",
+          "name": "The Torah Scroll from Spain, no.11.jpg",
           "attachmentType": "1",
-          "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\__0011 copy.jpg",
+          "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah Scroll from Spain, no.11.jpg",
           "dataLength": "509226",
           "format": ".jpg",
           "creationDateTime": "2013-11-25 13:39:44.477 @+0200",
-          "modificationDateTime": "2013-11-25 13:39:44.477 @+0200"
+          "modificationDateTime": "2013-12-02 16:47:55.761 @+0200"
         },
         {
           "guid": "E21B3C1F-CAC7-5603-F276-1D91AD837546",
