@@ -331,7 +331,7 @@
      * @returns string
      */
     function textNode(node) {
-      var html = '<div class="titles no-title">{{text}}</div>',
+      var html = '<div class="titles">{{text}}</div>',
         text;
 
       if (node.type === 'chronological') {
@@ -483,7 +483,7 @@
     // Data Tree Layout.
     var tree = d3.layout.tree()
       .size([width, height])
-      .separation(function(a, b) { return (a.parent === b.parent ? 0.70 : 1) / a.depth; });
+      .separation(function(a, b) { return (a.parent === b.parent ? 1 : 2); });
 
     // Data binding.
     var nodes = tree.nodes(data);
@@ -538,11 +538,10 @@
 
     // Node titles.
     node.append('foreignObject')
-      .attr('transform', function(d) { return 'rotate(' + (-d.x + 90) + ')'; })
-      .attr('x', -30)
-      .attr('y', -15)
-      .attr('width', 60)
-      .attr('height', 60)
+      .attr('x', -20)
+      .attr('y', 10)
+      .attr('width', 40)
+      .attr('height', 40)
       .append('xhtml:body')
       .attr('class', 'area')
       .html( textNode );
