@@ -169,3 +169,31 @@ ul.posts span {
   fill: none;
   pointer-events: all;
 }
+
+.node {
+  cursor: pointer;
+}
+
+/*****************************************************************************/
+/*
+/* Styles for the SVG foreingObject inserted for the multiline and style of
+/* titles.
+/*
+/*****************************************************************************/
+
+.area {
+  background-color: transparent;
+  font: 0px Arial;
+
+  .titles {
+    font-size: 5px;
+  }
+  .no-title {
+    font-size: 0px;
+    color: transparent;
+  }
+  .root-title {
+    font-size: 15px;
+    color: red;
+  }
+}

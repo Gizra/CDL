@@ -9,28 +9,12 @@
   var svgContainer,
     g,
     center,
-    showCenter = false,
     background,
     system,
     c,
     width = 960,
     height = 500,
-    diameter = 960,
-    delay = 750;
-
-  // Define the scales of the depth of the tree.
-  var depthScale = d3.scale.linear()
-    .domain([0, 30])
-    .range([0, width]);
-
-  // The states of the node are node.active or node.selected
-  // with values 0 or 1.
-
-
-  // Define color circles of node states.
-  var nodeColor = d3.scale.linear()
-    .domain([0, 1])
-    .range(['black', 'red', 'white']);
+    delay = 250;
 
   // Define size of fonts node.
   var fontScale = d3.scale.linear()
@@ -83,25 +67,22 @@
    * @param height
    */
   function prepareScenario() {
-    diameter = 960;
-    width = diameter;
-    height = diameter;
 
     // Behaviours.
-    function zoomRadial() {
+    function zoom() {
       system.attr('transform', 'translate(' + d3.event.translate + ')scale(' + d3.event.scale + ')');
     }
 
-    var zoom = d3.behavior.zoom()
+    var zoomSvg = d3.behavior.zoom()
       .center([width / 2, height / 2])
       .scaleExtent([0.5, 10])
-      .on('zoom', zoomRadial);
+      .on('zoom', zoom);
 
     // Canvas.
     svgContainer = d3.select('body').append('svg')
       .attr('width', '100%')
       .attr('height', '100%')
-      .call(zoom)
+      .call(zoomSvg)
       .on('dblclick.zoom', null);
 
     // Background.
@@ -135,9 +116,6 @@
 
     return deferred.promise;
   }
-
-
-
 
   /**
    * On click a circle apply style transformations, connect the siblings nodes,
@@ -233,41 +211,13 @@
   }
 
   /**
-   * Apply transformation to all nodes after change state.
-   */
-  function nodesStyle() {
-    // Circles.
-    d3.select('g.tree').selectAll('circle')
-      .transition()
-      .duration(delay)
-      .attr('r', function(node) { return nodeScale(node.selected); })
-      .style('fill', fillNode)
-      .style('stroke', function(node) { return (node.active) ?  'red' : 'black'; } );
-
-    // Texts.
-    d3.select('g.tree').selectAll('text.name')
-      .transition()
-      .duration(delay/7)
-      .attr('font-size', function(node) { return fontScale(node.selected); })
-      .style('fill', function(node) { return textColor(getNodeState(node)); })
-      .attr('dy', function(node) { if (node.selected) { return 0; } return node.children ? 1 : 10; })
-      .attr('dx', function(node) { if (node.selected) { return 0; } return node.children ? 7 : node; })
-      .attr('text-anchor', function(node) { if (node.selected) { return 'middle'; } return node.children ? 'start' : 'middle'; });
-
-    d3.select('g.tree').selectAll('text.id')
-      .transition()
-      .duration(delay/7)
-      .text( function(node) { return (node.active) ? '' : node.chronologicalId; } );
-  }
-
-
-  /**
    *
    * http://bl.ocks.org/mbostock/4063550
    *
    * @param data
    */
   function CDL(data) {
+    var lastFocus;
     /// Scales.
 
     // Define size (radius) of circles of node states.
@@ -286,13 +236,13 @@
     function fillNode(node) {
       var color;
 
-      if (node.styleNode === 'bastard' || node.styleNode === 'chronological' || node.styleNode === 'root') {
+      if (node.styleNode === 'bastard' || node.styleNode === 'chronological') {
         color = 'white';
       }
       else if (node.styleNode === 'default' || node.styleNode === 'sibling') {
         color = 'black';
       }
-      else if (node.styleNode === 'selected') {
+      else if (node.styleNode === 'selected'  || node.styleNode === 'root') {
         color = 'red';
       }
 
@@ -327,31 +277,32 @@
       if (node.styleNode === 'default' || node.styleNode === 'bastard' || node.styleNode === 'chronological') {
         size = 5;
       }
-      else if (node.styleNode === 'root') {
-        size = 40;
-      }
-      else if (node.styleNode === 'selected' || node.styleNode === 'sibling') {
+      else if (node.styleNode === 'selected' || node.styleNode === 'sibling' || node.styleNode === 'root') {
         size = 20;
       }
       return size;
     }
 
     /**
-     * Helper to set color of the text according to its type.
+     * Helper to set style of the title according to its type.
      *
      * @param node
      * @returns {*}
      */
-    function fillText(node) {
-      var color;
+    function styleTitle(node) {
+      var style;
 
       if (node.styleNode === 'root') {
-        color = 'red';
+        style = 'titles root-title';
       }
-      else if (node.styleNode === 'selected' || node.styleNode === 'sibling') {
-        color = 'white';
+      else if (node.styleNode === 'selected') {
+        style = 'titles select-title';
       }
-      return color;
+      else if (node.styleNode === 'sibling') {
+        style = 'titles sibling-title';
+      }
+
+      return style;
     }
 
     /**
@@ -380,18 +331,36 @@
      * @returns string
      */
     function textNode(node) {
+      var html = '<div class="titles no-title">{{text}}</div>',
+        text;
+
       if (node.type === 'chronological') {
-        return node.chronologicalName;
+        text = node.chronologicalName;
       }
       else if (node.type === 'bastard') {
-        return node.bastardName;
+        text = node.bastardName;
       }
       else {
-        return node.name;
+        text = node.name;
       }
+
+      return html.replace(/{{text}}/, text);
     }
 
+    /**
+     * Return the x,y translation to the center of the canvas in an array [x,y].
+     *
+     * @param node
+     * @returns {Array}
+     */
+    function getCoordinateToCenter(node) {
+      var coordinate = [];
 
+      coordinate[0] = (width/2) - node.x;
+      coordinate[1] = (height/2) - node.y;
+
+      return coordinate;
+    }
 
     /**
      * Apply style to the node selection according yhe node.styleType
@@ -407,15 +376,14 @@
       }
 
       circle = selection.select('circle');
-      title = selection.select('text');
+      title = selection.select('.titles');
 
       circle.attr('r', function(node) { return sizeNode(node); })
         .style('fill', fillNode )
         .style('stroke', strokeNode );
 
-      title.attr('font-size', function(node) { return fontScale(node.selected); })
-        .style('fill', fillText)
-        .attr('font-size', sizeText);
+      title.attr('class', function(node) { return styleTitle(node); })
+
     }
 
     /**
@@ -468,7 +436,18 @@
      * @param node
      */
     function clickNode(event) {
+      var node,
+        move = [];
 
+      // Get element.
+      node = d3.select(event.toElement).data()[0];
+      console.log(node);
+      move = getCoordinateToCenter(node);
+      //
+      c.setFocus(node.id, move);
+
+      // Go to the detail page.
+      window.location = window.location.origin + window.location.pathname + '#/' + node.guid;
     }
 
     /**
@@ -503,7 +482,7 @@
 
     // Data Tree Layout.
     var tree = d3.layout.tree()
-      .size([360, diameter  * 1.35])
+      .size([width, height])
       .separation(function(a, b) { return (a.parent === b.parent ? 0.70 : 1) / a.depth; });
 
     // Data binding.
@@ -511,33 +490,20 @@
     var links = tree.links(nodes);
 
     // Data modification.
-    nodes.forEach(function(node) {
+    nodes.forEach(function(node, index) {
+      node.id = index;
       node.name = node.name.replace(/.{1,20} /g, '$&\n');
       node.active = 0;
       node.selected = false;
       node.styleNode = node.type;
     });
 
-    // Orbits.
-    system.append('g')
-      .attr('id', 'orbits')
-      .selectAll('circle')
-      .data(d3.range(10, width * 1.35, 75))
-      .enter().append('circle')
-      .attr('class', 'orbit')
-      .attr('cx', width/2)
-      .attr('cy', height/2)
-      .attr('r', function(d) { return d; })
-      .style('fill', 'none')
-      .style('stroke', 'black');
-
     // Nodes.
     g = system.append('g')
       .attr('id', 'nodes')
       .style('stroke', 'black')
       .style('stroke-width', '1')
-      .style('fill', 'white')
-      .attr('transform', 'translate(' + diameter / 2 + ',' + diameter / 2 + ')');
+      .style('fill', 'none');
 
     // Center point of the system.
     center = svgContainer.append('svg:circle')
@@ -552,21 +518,34 @@
       .data(links)
       .enter().append('path')
       .attr('class', 'link')
+
       .attr('d', function(d) {
-        function x(d) { return d.y * Math.cos((d.x - 90) / 180 * Math.PI); }
-        function y(d) { return d.y * Math.sin((d.x - 90) / 180 * Math.PI); }
+        function x(d) { return d.x; }
+        function y(d) { return d.y; }
 
         return 'M' + x(d.source) + ',' + y(d.source) + 'L' + x(d.target) + ',' + y(d.target);
       })
-      .style('stroke-width', 2);
+      .style('stroke-width', 3);
 
     // Circles.
     var node = g.selectAll('.node')
       .data(nodes)
       .enter().append('g')
       .attr('id', function(node, index) { return 'n' + index; })
+      .attr('guid', function(node) { return node.guid; })
       .attr('class', 'node')
-      .attr('transform', function(d) { return 'rotate(' + (d.x - 90) + ')translate(' + d.y + ')'; });
+      .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; });
+
+    // Node titles.
+    node.append('foreignObject')
+      .attr('transform', function(d) { return 'rotate(' + (-d.x + 90) + ')'; })
+      .attr('x', -30)
+      .attr('y', -15)
+      .attr('width', 60)
+      .attr('height', 60)
+      .append('xhtml:body')
+      .attr('class', 'area')
+      .html( textNode );
 
     // Nodes.
     node.append('circle')
@@ -574,16 +553,6 @@
       .attr('r', function(node) { return nodeScale(node.selected); })
       .style('fill', fillNode )
       .style('stroke', function(node) { return (node.active) ?  'red' : 'black'; } )
-      .call(nodeEvent);
-
-    // Node titles.
-    node.append('text')
-      .attr('class', 'name')
-      .style('font-family', 'Verdana')
-      .style('stroke-width', '0')
-      .attr('text-anchor', 'middle')
-      .attr('transform', function(d) { return 'rotate(' + (-d.x + 90) + ')'; })
-      .text( textNode )
       .call(nodeEvent);
 
     // Node ID.
@@ -594,10 +563,8 @@
       .attr('dy', 2)
       .attr('dx', 0)
       .attr('text-anchor', 'middle')
-      .attr('transform', function(d) { return 'rotate(' + (-d.x + 90) + ')'; })
       .text( function(node) { return node.chronologicalId; } )
       .call(nodeEvent);
-
 
     // Public CDL API.
     return {
@@ -605,16 +572,13 @@
         background.style('fill', 'white');
       },
       setCenter: function() {
-        center.attr('r', 10);
-      },
-      clearText: function(selection) {
-        selection.style('fill', 'none');
+        center.attr('r', 5);
       },
       setRootStyle: function() {
         // Update data.
         var selection = d3.select('#n0');
         selection.data().pop().styleNode = 'root';
-        nodes[0].styleNode = 'root';
+
         // Style node.
         styleNode();
       },
@@ -633,10 +597,44 @@
 
         // Style node.
         styleNode();
+      },
+      setFocus: function(index, move) {
+        // Validate
+        system.transition()
+          .duration(delay)
+          .attr('transform', 'translate(' + move.toString() + ')');
       }
     };
   }
 
+
+  /**
+   * Apply transformation to all nodes after change state.
+   */
+  function nodesStyle() {
+    // Circles.
+    d3.select('g.tree').selectAll('circle')
+      .transition()
+      .duration(delay)
+      .attr('r', function(node) { return nodeScale(node.selected); })
+      .style('fill', fillNode)
+      .style('stroke', function(node) { return (node.active) ?  'red' : 'black'; } );
+
+    // Texts.
+    d3.select('g.tree').selectAll('text.name')
+      .transition()
+      .duration(delay/7)
+      .attr('font-size', function(node) { return fontScale(node.selected); })
+      .style('fill', function(node) { return textColor(getNodeState(node)); })
+      .attr('dy', function(node) { if (node.selected) { return 0; } return node.children ? 1 : 10; })
+      .attr('dx', function(node) { if (node.selected) { return 0; } return node.children ? 7 : node; })
+      .attr('text-anchor', function(node) { if (node.selected) { return 'middle'; } return node.children ? 'start' : 'middle'; });
+
+    d3.select('g.tree').selectAll('text.id')
+      .transition()
+      .duration(delay/7)
+      .text( function(node) { return (node.active) ? '' : node.chronologicalId; } );
+  }
 
   // Preparing scenario, content and rendering.
   prepareScenario();
@@ -646,15 +644,10 @@
     // Radial tree layout render.
     c = new CDL(data);
     c.setBackgroud();
-    // c.setCenter();
+    c.setCenter();
 
     // Clear titles.
-    c.clearText(d3.select('#nodes').selectAll('.node').select('text'));
-    c.setRootStyle();
-
-
-    c.selectNode(d3.select('#n39'));
-
+    //c.setRootStyle();
   });
 
 })();
