@@ -6,7 +6,13 @@
         <title>CDL</title>
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/e276.main.css">
+        <!-- build:css({app,.tmp}) css/main.css -->
+        <!-- Syntax highlighting CSS -->
+        <link rel="stylesheet" href="css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- endbuild -->
 
     </head>
     <body>
@@ -15,8 +21,14 @@
             
         </div> <!-- /container-->
 
-        <script src="js/2518.libs.js"></script>
+    <!-- build:js(app) js/libs.js -->
+    <script src="_bower_components/q/q.js"></script>
+    <script src="_bower_components/d3/d3.min.js"></script>
+    <script src="_bower_components/underscore/underscore-min.js"></script>
+    <!-- endbuild -->
 
-    <script src="js/0574.scripts.js"></script>
+    <!-- build:js(app) js/scripts.js -->
+    <script src="js/cdl.js"></script>
+    <!-- endbuild -->
     </body>
 </html>
