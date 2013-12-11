@@ -4,6 +4,8 @@
   "dependencies": {
     "d3": "~3.3.9",
     "q": "~0.9.7",
-    "underscore": "~1.5.2"
+    "underscore": "~1.5.2",
+    "bootstrap-sass": "~3.0.2",
+    "jquery-fittext.js": "*"
   }
 }

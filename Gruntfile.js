@@ -45,7 +45,8 @@ module.exports = function (grunt) {
           '_config.yml',
           '_config.build.yml',
           '!<%= yeoman.app %>/_bower_components',
-          '<%= yeoman.template %>/**/*'
+          '<%= yeoman.template %>/**/*',
+          '<%= yeoman.template %>/_layouts/*'
         ],
         tasks: [
           'cdlPrepare',
@@ -115,12 +116,12 @@ module.exports = function (grunt) {
             // non-standard `keep_files` here (e.g., the generated files
             // directory from Jekyll Picture Tag).
             '!<%= yeoman.dist %>/.git*',
-            '<%= yeoman.dist %>/data/*'
+            '<%= yeoman.app %>/pages',
+            '<%= yeoman.app %>/data'
           ]
         }]
       },
       server: [
-        '.tmp',
         '.tmp',
         '.jekyll',
         '<%= yeoman.app %>/pages',
@@ -139,6 +140,9 @@ module.exports = function (grunt) {
         cssDir: '.tmp/css',
         imagesDir: '<%= yeoman.app %>/img',
         javascriptsDir: '<%= yeoman.app %>/js',
+        fontsDir: '<%= yeoman.app %>/fonts',
+        importPath: '<%= yeoman.app %>/_bower_components',
+        httpFontsPath: '/fonts',
         relativeAssets: false,
         httpImagesPath: '/img',
         httpGeneratedImagesPath: '/img/generated',
@@ -208,7 +212,7 @@ module.exports = function (grunt) {
       options: {
         dest: '<%= yeoman.dist %>'
       },
-      html: '<%= yeoman.dist %>/index.html'
+      html: ['<%= yeoman.dist %>/index.html']
     },
     usemin: {
       options: {
@@ -279,7 +283,7 @@ module.exports = function (grunt) {
             // Jekyll processes and moves HTML and text files
             // Usemin moves CSS and javascript inside of Usemin blocks
             // Copy moves asset files and directories
-            'img/**/*',
+            'images/**/*',
             'fonts/**/*',
             // Like Jekyll, exclude files & folders prefixed with an underscore
             '!**/_*{,/**}',
@@ -289,6 +293,22 @@ module.exports = function (grunt) {
             //'apple-touch*.png'
             'data/**/*',
             'pages/**/*.{jpg,png,gif,jpeg,webp,tiff,mp3,wav,avi,mp4}'
+          ],
+          dest: '<%= yeoman.dist %>'
+        },
+        {
+          expand: true,
+          dot: true,
+          cwd: '<%= yeoman.app %>',
+          src: [
+            '_bower_components/q/q.js',
+            '_bower_components/d3/d3.min.js',
+            '_bower_components/underscore/underscore-min.js',
+            'js/cdl.js',
+            '_bower_components/jquery/jquery.min.js',
+            '_bower_components/jquery-fittext.js/jquery.fittext.js',
+            '_bower_components/bootstrap-sass/dist/js/bootstrap.min.js',
+            'js/page.js'
           ],
           dest: '<%= yeoman.dist %>'
         }]
@@ -301,6 +321,15 @@ module.exports = function (grunt) {
           cwd: '<%= yeoman.app %>/css',
           src: '**/*.css',
           dest: '.tmp/css'
+        }]
+      },
+      cssNotUsemin: {
+        files: [{
+          expand: true,
+          dot: true,
+          cwd: '.tmp',
+          src: '**/*.css',
+          dest: '<%= yeoman.dist %>'
         }]
       },
       cdl: {
@@ -781,6 +810,8 @@ module.exports = function (grunt) {
         // Attachments type file (media or images ).
         if (attachment.attachmentType === '1') {
           if (attachment.format === '.jpg' || attachment.format === '.png') {
+            // Sanitize url.
+            item.src = item.src.replace(/\\/, '/');
             attachmentsParsed.images.push(item);
           }
           else if (attachment.format === '.mp3') {
@@ -995,25 +1026,26 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'clean:dist',
-    // Jekyll cleans files from the target directory, so must run first
-    'jekyll:dist',
     'convert:xml2json',
     'CDL',
     'cdlPrepare',
     'convert:json2yaml',
     'generate',
     'copy:cdl',
+    'jekyll:dist',
     'clean:brain',
     'concurrent:dist',
-    'useminPrepare',
-    'concat',
-    'autoprefixer:dist',
-    'cssmin',
-    'uglify',
-    'imagemin',
-    'svgmin',
-    'rev',
-    'usemin'
+    'copy:cssNotUsemin'
+// @todo Need to realize the configuration of useminPrepare and usemin.
+//    'useminPrepare',
+//    'concat',
+//    'autoprefixer:dist',
+//    'cssmin',
+//    'uglify',
+//    'imagemin',
+//    'svgmin',
+//    'rev',
+//    'usemin'
   ]);
 
   grunt.registerTask('default', [

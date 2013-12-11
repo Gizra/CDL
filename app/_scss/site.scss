@@ -1,0 +1,157 @@
+@import 'compass/css3';
+@import 'bootstrap-sass/lib/bootstrap';
+
+@include font-face('Calluna', font-files('CallunaSansRegular-webfont.ttf', 'CallunaSansRegular-webfont.eot', 'CallunaSansRegular-webfont.svg', 'CallunaSansRegular-webfont.woff'));
+@include font-face('Miso', font-files('miso-regular-webfont.ttf', 'miso-regular-webfont.eot', 'miso-regular-webfont.svg', 'miso-regular-webfont.woff'));
+
+div.home-icon {
+  // Pixel perfect position.
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+div.cdl {
+  margin-right: 0;
+  padding-right: 0;
+
+  .images {
+    width: 100%;
+  }
+
+  div.canvas {
+    height: 300px;
+  }
+
+  div.node {
+
+    div.node-title {
+      @include display-box;
+      @include box-align(center);
+      @include box-pack(center);
+      height: 270px;
+      width: 270px;
+      border-radius: 50%;
+      background-color: red;
+      // Pixel perfect position.
+      margin-top: 13px;
+      margin-left: -34px;
+      margin-bottom: 61px;
+
+      div.text-title {
+        width: 191px;
+        max-height: 147px;
+        font-family: 'Miso';
+        color: white;
+
+        div.inner-text-title {
+          line-height: 1em;
+        }
+      }
+    }
+
+    div.node-content {
+      font-family: 'Calluna';
+      line-height: 1.22em;
+      padding-left: 0.7em;
+      font-size: 25px;
+      color: black;
+    }
+  }
+
+
+  div.chronological {
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      div.chronological-title {
+        font-family: 'Miso';
+        font-size: 35px;
+
+        margin-top: 1.2em;
+      }
+
+      div.chronological-content {
+        margin-top: 1em;
+      }
+    }
+  }
+
+  div.navigation {
+    // Pixel perfect position.
+    padding-top: 66px;
+    padding-left: 24px;
+
+    div.navigation-title {
+      font-family: 'Miso';
+      font-size: 35px;
+      line-height: 1em;
+      border-bottom: 2px solid black;
+      // Pixel perfect position.
+      padding-bottom: 6px;
+    }
+
+    div.navigation-list {
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          @include display-box;
+          @include box-align(center);
+          border-bottom: black solid 1px;
+          float: none;
+          margin-bottom: 0;
+          padding-top: 8px;
+          padding-bottom: 8px;
+
+          a {
+            padding: 0;
+            background-color: transparent;
+            border: none;
+            text-decoration: none important;
+            font-family: 'Miso';
+            font-size: 19px;
+            line-height: 1em;
+            color:black;
+          }
+        }
+
+        li.active {
+          border-bottom: red solid 1px;
+
+          a {
+            color:red;
+          }
+
+          div.spot {
+            height: 11px;
+            width: 11px;
+            border-radius: 50%;
+            background-color: red;
+            position: absolute;
+            right: 21px;
+            top: 29px;
+          }
+        }
+      }
+    }
+
+    div.navigation-map {
+      margin-top: 78px;
+    }
+
+  }
+
+  div.footer-line {
+    height: 2px;
+    background-color: red;
+    margin-bottom: 75px;
+    margin-top: 75px;
+  }
+
+}
