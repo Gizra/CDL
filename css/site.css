@@ -7630,12 +7630,12 @@ td.visible-print {
 }
 @font-face {
   font-family: "Calluna";
-  src: url('/fonts/CallunaSansRegular-webfont.ttf') format('truetype'), url('/fonts/CallunaSansRegular-webfont.eot') format('embedded-opentype'), url('/fonts/CallunaSansRegular-webfont.svg') format('svg'), url('/fonts/CallunaSansRegular-webfont.woff') format('woff');
+  src: url('/CDL/fonts/CallunaSansRegular-webfont.ttf') format('truetype'), url('/fonts/CallunaSansRegular-webfont.eot') format('embedded-opentype'), url('/fonts/CallunaSansRegular-webfont.svg') format('svg'), url('/fonts/CallunaSansRegular-webfont.woff') format('woff');
 }
 
 @font-face {
   font-family: "Miso";
-  src: url('/fonts/miso-regular-webfont.ttf') format('truetype'), url('/fonts/miso-regular-webfont.eot') format('embedded-opentype'), url('/fonts/miso-regular-webfont.svg') format('svg'), url('/fonts/miso-regular-webfont.woff') format('woff');
+  src: url('/CDL/fonts/miso-regular-webfont.ttf') format('truetype'), url('/fonts/miso-regular-webfont.eot') format('embedded-opentype'), url('/fonts/miso-regular-webfont.svg') format('svg'), url('/fonts/miso-regular-webfont.woff') format('woff');
 }
 
 /* line 7, ../../app/_scss/site.scss */
