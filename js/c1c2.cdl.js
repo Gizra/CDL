@@ -80,6 +80,7 @@
 
     // Canvas.
     svgContainer = d3.select('body').append('svg')
+      .attr('id', 'chart')
       .attr('width', '100%')
       .attr('height', '100%')
       .call(zoomSvg)
@@ -643,10 +644,7 @@
     // Radial tree layout render.
     c = new CDL(data);
     c.setBackgroud();
-    c.setCenter();
 
-    // Clear titles.
-    //c.setRootStyle();
   });
 
 })();
