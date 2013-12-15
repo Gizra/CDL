@@ -4,18 +4,161 @@
 @include font-face('Calluna', font-files('CallunaSansRegular-webfont.ttf', 'CallunaSansRegular-webfont.eot', 'CallunaSansRegular-webfont.svg', 'CallunaSansRegular-webfont.woff'));
 @include font-face('Miso', font-files('miso-regular-webfont.ttf', 'miso-regular-webfont.eot', 'miso-regular-webfont.svg', 'miso-regular-webfont.woff'));
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
 div.home-icon {
-  // Pixel perfect position.
   margin-top: 8px;
   margin-left: 10px;
 }
 
 div.cdl {
+  margin-left: 0;
   margin-right: 0;
   padding-right: 0;
 
-  .images {
-    width: 100%;
+  #content {
+    max-width: 768px;
+    float:left;
+  }
+
+  #menu {
+    float: right;
+  }
+
+  // General styling of image flexbox.
+  .flex {
+    margin-left: -18px;
+
+    img {
+      width: 100%;
+    }
+
+    .box {
+      margin-bottom: 10px;
+    }
+
+    .box-1,
+    .box-2 {
+      @include display-box;
+      @include box-orient(vertical);
+      @include box-align(baseline);
+      @include box-pack(end);
+    }
+
+    .box-1 {
+
+      img {
+        vertical-align: bottom;
+      }
+    }
+
+    .box-2 {
+      width: 750px;
+
+      img {
+        vertical-align: top;
+      }
+    }
+  }
+
+  // Specific style for image flexbox according the layout.
+
+  .box-wrapper-1 {
+
+    .box-1 {
+
+      .item-1 {
+        width: 100%;
+      }
+    }
+  }
+
+  .box-wrapper-2 {
+
+    .box-1 {
+
+      .item-1 {
+        margin-right: 10px;
+
+      }
+
+      .item-2 {
+        min-width: 220px;
+        width: 220px;
+        height: 138px;
+        float: right;
+      }
+    }
+  }
+
+
+  .box-wrapper-3 {
+
+    .box-1 {
+
+      .item-1 {
+        margin-right: 10px;
+      }
+      .item-2 {
+        min-width: 220px;
+        width: 220px;
+        height: 138px;
+        float: right;
+      }
+    }
+
+    .box-2 {
+      float: right;
+
+      .item-3 {
+        width: 750px;
+      }
+    }
+  }
+
+  // 4 images.
+  .box-wrapper-4 {
+
+    .box-1 {
+
+      .item-1 {
+        margin-right: 10px;
+      }
+
+      .item-2 {
+        min-width: 220px;
+        width: 220px;
+        height: 138px;
+        float: right;
+      }
+    }
+
+    .box-2 {
+      float: right;
+
+      .item-3 {
+        min-width: 140px;
+        width: 140px;
+        margin-right: 10px;
+        float: right;
+      }
+
+      .item-4 {
+        width: 100%;
+      }
+
+    }
   }
 
   div.canvas {
@@ -23,6 +166,9 @@ div.cdl {
   }
 
   div.node {
+    padding-left: 18px;
+    float: left;
+    max-width: 750px;
 
     div.node-title {
       @include display-box;
@@ -32,9 +178,8 @@ div.cdl {
       width: 270px;
       border-radius: 50%;
       background-color: red;
-      // Pixel perfect position.
+
       margin-top: 13px;
-      margin-left: -34px;
       margin-bottom: 61px;
 
       div.text-title {
@@ -52,7 +197,6 @@ div.cdl {
     div.node-content {
       font-family: 'Calluna';
       line-height: 1.22em;
-      padding-left: 0.7em;
       font-size: 25px;
       color: black;
     }
@@ -80,17 +224,23 @@ div.cdl {
   }
 
   div.navigation {
-    // Pixel perfect position.
+    width: 270px;
     padding-top: 66px;
-    padding-left: 24px;
+    padding-left: 70px;
+    position: fixed;
 
     div.navigation-title {
       font-family: 'Miso';
       font-size: 35px;
       line-height: 1em;
       border-bottom: 2px solid black;
-      // Pixel perfect position.
+
       padding-bottom: 6px;
+
+      a {
+        text-decoration: none;
+        color: #000000;
+      }
     }
 
     div.navigation-list {
@@ -135,7 +285,7 @@ div.cdl {
             background-color: red;
             position: absolute;
             right: 21px;
-            top: 29px;
+            top: 87%;
           }
         }
       }
@@ -148,10 +298,16 @@ div.cdl {
   }
 
   div.footer-line {
+    width: 100%;
     height: 2px;
     background-color: red;
     margin-bottom: 75px;
     margin-top: 75px;
+    margin-left: 16px;
   }
 
+}
+
+@media only screen and (max-width: 767px) {
+  #menu {display:none;}
 }

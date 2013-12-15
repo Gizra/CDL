@@ -2,111 +2,184 @@
 layout: page
 <%= yaml %>
 ---
-<div class="home-icon">
-  <a href="{{ BASE_PATH }}/#/{{ page.guid }}" alt="Home"><img src="{{ BASE_PATH }}/images/home.png"/></a>
-</div>
-<div>
-  <div class="container cdl">
-    <div class="row">
-      <div class="col-sm-8">
-        <div class="node">
-          <div class="row node-title">
-            <div class="text-title">
-              <div class="inner-text-title">
-                {{ page.name | upcase }}
-              </div>
+<div id="{{ page.guid }}"  class="cdl">
+  <div class="clearfix">
+
+    <div id="content">
+      <div class="home-icon">
+        <a href="{{ BASE_PATH }}/#/{{ page.guid }}" alt="Home"><img class="img-responsive" src="{{ BASE_PATH }}/images/home.png"/></a>
+      </div>
+      <div class="node clearfix">
+        <div class=" node-title ">
+          <div class="text-title">
+            <div class="inner-text-title">
+              {{ page.name | upcase }}
             </div>
           </div>
-          <div class="row node-content">
-            {{ page.data }}
-          </div>
-
-          {% if page.attachments.images != empty %}
-          {% for attachment in page.attachments.images %}
-          <img class="images" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
-          {% endfor %}
-          {% endif %}
-
-          {% if page.attachments.media != empty %}
-          {% for attachment in page.attachments.media %}
-          <audio src="{{ BASE_PATH }}/pages/{{ attachment.src }}" controls></audio>
-          {% endfor %}
-          {% endif %}
-
-          {% if page.attachments.pages != empty %}
-          {% for attachment in page.attachments.pages %}
-          <a href="{{ attachment.src }}" target="_blank">{{ attachment.name }}</a>
-          {% endfor %}
-          {% endif %}
-
-          {% if page.attachments.youtube != empty %}
-          {% for attachment in page.attachments.youtube %}
-          <iframe width="560" height="315" src="//www.youtube.com/embed/{{ attachment.id }}" frameborder="0" allowfullscreen></iframe>
-          {% endfor %}
-          {% endif %}
-
-          <div class="chronological">
-            {% if page.siblings != empty %}
-
-            <ul>
-              {% for sibling in page.siblings %}
-              <li>
-                <div id="{{ sibling.guid }}" class="chronological-title">{{ sibling.chronologicalName | upcase }}</div>
-                <div class="row chronological-content node-content">
-                  {{ sibling.data }}
-                </div>
-                {% if sibling.attachments.images != empty %}
-                {% for attachment in sibling.attachments.images %}
-                <img class="images" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
-                {% endfor %}
-                {% endif %}
-
-                {% if sibling.attachments.media != empty %}
-                {% for attachment in sibling.attachments.media %}
-                <audio src="{{ BASE_PATH }}/pages/{{ attachment.src }}" controls></audio>
-                {% endfor %}
-                {% endif %}
-
-                {% if sibling.attachments.pages != empty %}
-                {% for attachment in sibling.attachments.pages %}
-                <a href="{{ attachment.src }}" target="_blank">{{ attachment.name }}</a>
-                {% endfor %}
-                {% endif %}
-
-                {% if sibling.attachments.youtube != empty %}
-                {% for attachment in sibling.attachments.youtube %}
-                <iframe width="560" height="315" src="//www.youtube.com/embed/{{ attachment.id }}" frameborder="0" allowfullscreen></iframe>
-                {% endfor %}
-                {% endif %}
-
-              </li>
-              {% endfor %}
-            </ul>
-            {% endif%}
-          </div>
         </div>
-        <div class="footer-line"></div>
-      </div>
-      <div class="col-sm-4">
-        <div class="navigation affix">
+        <div class=" node-content ">
+          {{ page.data }}
+        </div>
+        {% if page.attachments.images != empty %}
+          {% assign totalImages = 0 %}
+          {% assign count = 1 %}
+          {% assign box = 1 %}
+
+          {% for attachment in page.attachments.images %}
+            {% if forloop.index0 == 0 %}
+              {% assign totalImages = forloop.length %}
+            {% endif %}
+          {% endfor %}
+
+
+          {% for attachment in page.attachments.images %}
+            {% if forloop.first %}
+            <div class="flex box-wrapper-{{ totalImages }}">
+            {% endif %}
+
+
+            {% if count == 1 %}
+            <div class="box box-{{ box }}">
+            {% endif %}
+
+              <div class="item item-{{ forloop.index }}">
+                <img class="images-{{ forloop.index }}" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
+              </div>
+
+            {% if count == 2 %}
+            </div>
+            {% endif %}
+
+            {% if count == 2 %}
+              {% assign count = 0 %}
+              {% assign box=box | plus:1 %}
+            {% endif %}
+
+            {% assign count=count | plus:1 %}
+
+            {% if forloop.last %}
+            </div>
+            {% endif %}
+          {% endfor %}
+
+        {% endif %}
+
+        {% if page.attachments.media != empty %}
+        {% for attachment in page.attachments.media %}
+        <audio  src="{{ BASE_PATH }}/pages/{{ attachment.src }}" controls></audio>
+        {% endfor %}
+        {% endif %}
+
+        {% if page.attachments.pages != empty %}
+        {% for attachment in page.attachments.pages %}
+        <a  href="{{ attachment.src }}" target="_blank">{{ attachment.name }}</a>
+        {% endfor %}
+        {% endif %}
+
+        {% if page.attachments.youtube != empty %}
+        {% for attachment in page.attachments.youtube %}
+        <iframe  width="560" height="315" src="//www.youtube.com/embed/{{ attachment.id }}" frameborder="0" allowfullscreen></iframe>
+        {% endfor %}
+        {% endif %}
+
+        <div class="chronological">
           {% if page.siblings != empty %}
-          <div class="navigation-title">
-            {{ page.name | upcase }}
-          </div>
-          <div class="navigation-list">
-            <ul class="nav nav-tabs">
-              {% for sibling in page.siblings %}
-              <li>
-                <a href="#{{ sibling.guid }}">{{ sibling.chronologicalName | upcase }}</a>
-                <div class="spot"></div>
-              </li>
+
+          <ul>
+            {% for sibling in page.siblings %}
+            <li>
+              <div id="{{ sibling.guid }}" class="chronological-title ">{{ sibling.chronologicalName | upcase }}</div>
+              <div class=" chronological-content node-content ">
+                {{ sibling.data }}
+              </div>
+
+              {% if sibling.attachments.images != empty %}
+                {% assign totalImages = 0 %}
+
+                {% for attachment in sibling.attachments.images %}
+                  {% if forloop.index0 == 0 %}
+                    {% assign totalImages = forloop.length %}
+                  {% endif %}
+                {% endfor %}
+
+                <div class="flex box-wrapper-{{ totalImages }}">
+                {% assign count = 1 %}
+                {% assign box = 1 %}
+
+                {% for attachment in sibling.attachments.images %}
+
+                  {% if count == 1 %}
+                  <div class="box box-{{ box }}">
+                  {% endif %}
+
+                    <div class="item item-{{ forloop.index }}">
+                      <img class="images-{{ forloop.index }}" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
+                    </div>
+
+                  {% if count == 2 %}
+                  </div>
+                  {% endif %}
+
+                  {% if count == 2 %}
+                    {% assign count = 0 %}
+                    {% assign box=box | plus:1 %}
+                  {% endif %}
+
+                  {% assign count=count | plus:1 %}
+
+                {% endfor %}
+                </div>
+
+              {% endif %}
+
+              {% if sibling.attachments.media != empty %}
+              {% for attachment in sibling.attachments.media %}
+              <audio  src="{{ BASE_PATH }}/pages/{{ attachment.src }}" controls></audio>
               {% endfor %}
-            </ul>
-          </div>
-          <div class="navigation-map"><img src="{{ BASE_PATH }}/images/map.png" alt="map"/></div>
+              {% endif %}
+
+              {% if sibling.attachments.pages != empty %}
+              {% for attachment in sibling.attachments.pages %}
+              <a  href="{{ attachment.src }}" target="_blank">{{ attachment.name }}</a>
+              {% endfor %}
+              {% endif %}
+
+              {% if sibling.attachments.youtube != empty %}
+              {% for attachment in sibling.attachments.youtube %}
+              <iframe  width="560" height="315" src="//www.youtube.com/embed/{{ attachment.id }}" frameborder="0" allowfullscreen></iframe>
+              {% endfor %}
+              {% endif %}
+
+            </li>
+            {% endfor %}
+          </ul>
           {% endif%}
         </div>
       </div>
+      <div class="footer-line clearfix"></div>
+    </div>
+    <div id="menu">
+      <div class="navigation">
+        {% if page.siblings != empty %}
+        <div class="navigation-title">
+          <a href="#{{ page.guid }}">{{ page.name | upcase }}</a>
+        </div>
+        <div class="navigation-list">
+          <ul class="nav nav-tabs">
+            {% for sibling in page.siblings %}
+            <li>
+              <a href="#{{ sibling.guid }}">{{ sibling.chronologicalName | upcase }}</a>
+              <div class="spot"></div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="navigation-map"><img class="img-responsive" src="{{ BASE_PATH }}/images/map.png" alt="map"/></div>
+        {% endif%}
+      </div>
     </div>
   </div>
+
+
 </div>
+
