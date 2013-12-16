@@ -18,10 +18,6 @@ module.exports = function (grunt) {
   // Load all Grunt tasks.
   require('load-grunt-tasks')(grunt);
 
-  // Register npm task.
-  grunt.loadNpmTasks('grunt-convert');
-  grunt.loadNpmTasks('grunt-gh-pages');
-
   grunt.initConfig({
     // Configurable paths.
     yeoman: {
@@ -45,8 +41,7 @@ module.exports = function (grunt) {
           '_config.yml',
           '_config.build.yml',
           '!<%= yeoman.app %>/_bower_components',
-          '<%= yeoman.template %>/**/*',
-          '<%= yeoman.template %>/_layouts/*'
+          '<%= yeoman.template %>/**/*'
         ],
         tasks: [
           'cdlPrepare',
@@ -122,6 +117,7 @@ module.exports = function (grunt) {
         }]
       },
       server: [
+        '.tmp',
         '.tmp',
         '.jekyll',
         '<%= yeoman.app %>/pages',
@@ -212,14 +208,14 @@ module.exports = function (grunt) {
       options: {
         dest: '<%= yeoman.dist %>'
       },
-      html: ['<%= yeoman.dist %>/index.html']
+      html: '<%= yeoman.dist %>/index.html'
     },
     usemin: {
       options: {
         basedir: '<%= yeoman.dist %>',
         dirs: ['<%= yeoman.dist %>/**/*']
       },
-      html: ['<%= yeoman.dist %>/*.html'],
+      html: ['<%= yeoman.dist %>/**/*.html'],
       css: ['<%= yeoman.dist %>/css/**/*.css']
     },
     htmlmin: {
@@ -284,6 +280,7 @@ module.exports = function (grunt) {
             // Usemin moves CSS and javascript inside of Usemin blocks
             // Copy moves asset files and directories
             'images/**/*',
+            'js/**/*',
             'fonts/**/*',
             // Like Jekyll, exclude files & folders prefixed with an underscore
             '!**/_*{,/**}',
@@ -293,22 +290,6 @@ module.exports = function (grunt) {
             //'apple-touch*.png'
             'data/**/*',
             'pages/**/*.{jpg,png,gif,jpeg,webp,tiff,mp3,wav,avi,mp4}'
-          ],
-          dest: '<%= yeoman.dist %>'
-        },
-        {
-          expand: true,
-          dot: true,
-          cwd: '<%= yeoman.app %>',
-          src: [
-            '_bower_components/q/q.js',
-            '_bower_components/d3/d3.min.js',
-            '_bower_components/underscore/underscore-min.js',
-            'js/cdl.js',
-            '_bower_components/jquery/jquery.min.js',
-            '_bower_components/jquery-fittext.js/jquery.fittext.js',
-            '_bower_components/bootstrap-sass/dist/js/bootstrap.min.js',
-            'js/page.js'
           ],
           dest: '<%= yeoman.dist %>'
         }]
@@ -321,15 +302,6 @@ module.exports = function (grunt) {
           cwd: '<%= yeoman.app %>/css',
           src: '**/*.css',
           dest: '.tmp/css'
-        }]
-      },
-      cssNotUsemin: {
-        files: [{
-          expand: true,
-          dot: true,
-          cwd: '.tmp',
-          src: '**/*.css',
-          dest: '<%= yeoman.dist %>'
         }]
       },
       cdl: {
@@ -438,6 +410,27 @@ module.exports = function (grunt) {
         base: 'dist'
       },
       src: ['**']
+    },
+    replace: {
+      dist: {
+        src: [
+          '<%= yeoman.dist %>/pages/**/index.html',
+          '<%= yeoman.dist %>/index.html'
+        ],
+        overwrite: true,
+        replacements: [{
+          from: '<link rel="stylesheet" href="css/',
+          to: '<link rel="stylesheet" href="//gizra.github.io/CDL/css/'
+        },
+        {
+          from: '<script src="js/',
+          to: '<script src="//gizra.github.io/CDL/js/'
+        },
+        {
+          from: '<script src="/js/',
+          to: '<script src="//gizra.github.io/CDL/js/'
+        }]
+      }
     },
     'CDL': {
       src: '<%= yeoman.app %>/data/brain.json',
@@ -1032,20 +1025,19 @@ module.exports = function (grunt) {
     'convert:json2yaml',
     'generate',
     'copy:cdl',
+    // 'clean:brain',
     'jekyll:dist',
-    'clean:brain',
     'concurrent:dist',
-    'copy:cssNotUsemin'
-// @todo Need to realize the configuration of useminPrepare and usemin.
-//    'useminPrepare',
-//    'concat',
-//    'autoprefixer:dist',
-//    'cssmin',
-//    'uglify',
-//    'imagemin',
-//    'svgmin',
-//    'rev',
-//    'usemin'
+    'useminPrepare',
+    'concat',
+    'autoprefixer:dist',
+    'cssmin',
+    'uglify',
+    // 'imagemin',
+    // 'svgmin',
+    'rev',
+    'usemin',
+    'replace:dist'
   ]);
 
   grunt.registerTask('default', [

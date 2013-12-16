@@ -1,162 +1,315 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
+@import 'compass/css3';
+@import 'bootstrap-sass/lib/bootstrap';
 
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
+@include font-face('Calluna', font-files('CallunaSansRegular-webfont.ttf', 'CallunaSansRegular-webfont.eot', 'CallunaSansRegular-webfont.svg', 'CallunaSansRegular-webfont.woff'));
+@include font-face('Miso', font-files('miso-regular-webfont.ttf', 'miso-regular-webfont.eot', 'miso-regular-webfont.svg', 'miso-regular-webfont.woff'));
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
-html, body { height: 100%; }
-
-body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
-
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-ul.posts li {
-  line-height: 1.75em;
-}
-
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
-}
-
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
-}
-
-.site .header a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.site .header h1.title {
+.clearfix {
   display: inline-block;
-  margin-bottom: 2em;
 }
 
-.site .header h1.title a {
-  color: #a00;
+div.home-icon {
+  margin-top: 8px;
+  margin-left: 10px;
 }
 
-.site .header h1.title a:hover {
-  color: #000;
+div.cdl {
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 0;
+
+  #content {
+    max-width: 768px;
+    float:left;
+  }
+
+  #menu {
+    float: right;
+  }
+
+  // General styling of image flexbox.
+  .flex {
+    margin-left: -18px;
+
+    img {
+      width: 100%;
+    }
+
+    .box {
+      margin-bottom: 10px;
+    }
+
+    .box-1,
+    .box-2 {
+      @include display-box;
+      @include box-orient(vertical);
+      @include box-align(baseline);
+      @include box-pack(end);
+    }
+
+    .box-1 {
+
+      img {
+        vertical-align: bottom;
+      }
+    }
+
+    .box-2 {
+      width: 750px;
+
+      img {
+        vertical-align: top;
+      }
+    }
+  }
+
+  // Specific style for image flexbox according the layout.
+
+  .box-wrapper-1 {
+
+    .box-1 {
+
+      .item-1 {
+        width: 100%;
+      }
+    }
+  }
+
+  .box-wrapper-2 {
+
+    .box-1 {
+
+      .item-1 {
+        margin-right: 10px;
+
+      }
+
+      .item-2 {
+        min-width: 220px;
+        width: 220px;
+        height: 138px;
+        float: right;
+      }
+    }
+  }
+
+
+  .box-wrapper-3 {
+
+    .box-1 {
+
+      .item-1 {
+        margin-right: 10px;
+      }
+      .item-2 {
+        min-width: 220px;
+        width: 220px;
+        height: 138px;
+        float: right;
+      }
+    }
+
+    .box-2 {
+      float: right;
+
+      .item-3 {
+        width: 750px;
+      }
+    }
+  }
+
+  // 4 images.
+  .box-wrapper-4 {
+
+    .box-1 {
+
+      .item-1 {
+        margin-right: 10px;
+      }
+
+      .item-2 {
+        min-width: 220px;
+        width: 220px;
+        height: 138px;
+        float: right;
+      }
+    }
+
+    .box-2 {
+      float: right;
+
+      .item-3 {
+        min-width: 140px;
+        width: 140px;
+        margin-right: 10px;
+        float: right;
+      }
+
+      .item-4 {
+        width: 100%;
+      }
+
+    }
+  }
+
+  div.canvas {
+    height: 300px;
+  }
+
+  div.node {
+    padding-left: 18px;
+    float: left;
+    max-width: 750px;
+
+    div.node-title {
+      @include display-box;
+      @include box-align(center);
+      @include box-pack(center);
+      height: 270px;
+      width: 270px;
+      border-radius: 50%;
+      background-color: red;
+
+      margin-top: 13px;
+      margin-bottom: 61px;
+
+      div.text-title {
+        width: 191px;
+        max-height: 147px;
+        font-family: 'Miso';
+        color: white;
+
+        div.inner-text-title {
+          line-height: 1em;
+        }
+      }
+    }
+
+    div.node-content {
+      font-family: 'Calluna';
+      line-height: 1.22em;
+      font-size: 25px;
+      color: black;
+    }
+  }
+
+
+  div.chronological {
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      div.chronological-title {
+        font-family: 'Miso';
+        font-size: 35px;
+
+        margin-top: 1.2em;
+      }
+
+      div.chronological-content {
+        margin-top: 1em;
+      }
+    }
+  }
+
+  div.navigation {
+    width: 270px;
+    padding-top: 66px;
+    padding-left: 70px;
+    position: fixed;
+
+    div.navigation-title {
+      font-family: 'Miso';
+      font-size: 35px;
+      line-height: 1em;
+      border-bottom: 2px solid black;
+
+      padding-bottom: 6px;
+
+      a {
+        text-decoration: none;
+        color: #000000;
+      }
+    }
+
+    div.navigation-list {
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          @include display-box;
+          @include box-align(center);
+          border-bottom: black solid 1px;
+          float: none;
+          margin-bottom: 0;
+          padding-top: 8px;
+          padding-bottom: 8px;
+
+          a {
+            padding: 0;
+            background-color: transparent;
+            border: none;
+            text-decoration: none important;
+            font-family: 'Miso';
+            font-size: 19px;
+            line-height: 1em;
+            color:black;
+          }
+        }
+
+        li.active {
+          border-bottom: red solid 1px;
+
+          a {
+            color:red;
+          }
+
+          div.spot {
+            height: 11px;
+            width: 11px;
+            border-radius: 50%;
+            background-color: red;
+            position: absolute;
+            right: 21px;
+            top: 87%;
+          }
+        }
+      }
+    }
+
+    div.navigation-map {
+      margin-top: 78px;
+    }
+
+  }
+
+  div.footer-line {
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    margin-left: 16px;
+  }
+
 }
 
-.site .header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.site .header a.extra:hover {
-  color: #000;
-}
-
-.site .meta {
-  color: #aaa;
-}
-
-.site .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
-}
-
-.site .footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.site .footer .contact a {
-  color: #8085C1;
-}
-
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.site .footer .rss img {
-  border: 0;
-}
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
+@media only screen and (max-width: 767px) {
+  #menu {display:none;}
 }
 
 /*****************************************************************************/
@@ -165,34 +318,36 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
-.background {
-  fill: none;
-  pointer-events: all;
-}
-
-.node {
-  cursor: pointer;
-}
-
-// Styles for the SVG foreingObject inserted for the multiline and style of
-// titles.
-.area {
-  background-color: transparent;
-  font: 0px Arial;
-
-  .titles {
-    font-size: 5px;
+#chart {
+  .background {
+    fill: none;
+    pointer-events: all;
   }
-  .no-title {
-    font-size: 0px;
-    color: transparent;
+
+  .node {
+    cursor: pointer;
   }
-  .root-title {
-    font-size: 15px;
-    color: red;
-  }
-  .default {
-    font-size: 19px;
-    color: #000000;
+
+  // Styles for the SVG foreingObject inserted for the multiline and style of
+  // titles.
+  .area {
+    background-color: transparent;
+    font: 0px Arial;
+
+    .titles {
+      font-size: 5px;
+    }
+    .no-title {
+      font-size: 0px;
+      color: transparent;
+    }
+    .root-title {
+      font-size: 15px;
+      color: red;
+    }
+    .default {
+      font-size: 19px;
+      color: #000000;
+    }
   }
 }
