@@ -414,8 +414,8 @@ module.exports = function (grunt) {
     replace: {
       dist: {
         src: [
-          '<%= yeoman.dist %>/pages/**/index.html',
-          '<%= yeoman.dist %>/index.html'
+          '<%= yeoman.dist %>/**/index.html',
+          '<%= yeoman.dist %>/css/*.css'
         ],
         overwrite: true,
         replacements: [{
@@ -429,6 +429,10 @@ module.exports = function (grunt) {
         {
           from: '<script src="/js/',
           to: '<script src="//gizra.github.io/CDL/js/'
+        },
+        {
+          from: 'url(/fonts/',
+          to: 'url(http://gizra.github.io/CDL/fonts/'
         }]
       }
     },
