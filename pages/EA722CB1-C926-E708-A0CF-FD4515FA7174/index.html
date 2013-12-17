@@ -7,8 +7,10 @@
       <meta name="viewport" content="width=device-width">
 
       <link rel="stylesheet" href="//gizra.github.io/CDL/css/a19a.main.css">
+      <link rel="stylesheet" href="/_bower_components/blueimp-gallery/css/blueimp-gallery.min.css"/>
+      <link rel="stylesheet" href="/_bower_components/blueimp-bootstrap-image-gallery/css/bootstrap-image-gallery.min.css"/>
 
-      <script src="//gizra.github.io/CDL/js/c6f9.libs.js"></script>
+      <script src="//gizra.github.io/CDL/js/ace7.libs.js"></script>
 
     </head>
     <body data-spy="scroll" data-target=".navigation-list">
@@ -38,6 +40,7 @@
           
           
           
+          
 
           
             
@@ -45,30 +48,40 @@
             
           
 
+          
+            
+          
 
           
             
-            <div class="flex box-wrapper-1">
-            
+              
+              <div class="flex box-wrapper-1">
+              
 
 
-            
-            <div class="box box-1">
-            
+              
+              <div class="box box-1">
+              
 
-              <div class="item item-1">
-                <img class="images-1" src="http://gizra.github.io/CDL/pages/EA722CB1-C926-E708-A0CF-FD4515FA7174/Hierusalem, Romeyn de Hooghe [167-].jpg" alt="Hierusalem, Romeyn de Hooghe [167-].jpg"/>
+                <div class="item item-1">
+                  <a class="data-gallery-0" href="http://gizra.github.io/CDL/pages/EA722CB1-C926-E708-A0CF-FD4515FA7174/Hierusalem, Romeyn de Hooghe [167-].jpg" title="Hierusalem, Romeyn de Hooghe [167-].jpg" data-gallery="data-gallery-0">
+                    <img class="images-1" src="http://gizra.github.io/CDL/pages/EA722CB1-C926-E708-A0CF-FD4515FA7174/Hierusalem, Romeyn de Hooghe [167-].jpg" alt="Hierusalem, Romeyn de Hooghe [167-].jpg"/>
+                  </a>
+                </div>
+
+              
+
+              
+
+              
+
+              
               </div>
-
+              
             
 
-            
+          
 
-            
-
-            
-            </div>
-            
           
 
         
@@ -95,8 +108,43 @@
 
 </div>
 
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+  <!-- The container for the modal slides -->
+  <div class="slides"></div>
+  <!-- Controls for the borderless lightbox -->
+  <h3 class="title"></h3>
+  <a class="prev">‹</a>
+  <a class="next">›</a>
+  <a class="close">×</a>
+  <a class="play-pause"></a>
+  <ol class="indicator"></ol>
+  <!-- The modal dialog, which will be used to wrap the lightbox content -->
+  <div class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" aria-hidden="true">&times;</button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body next"></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default pull-left prev">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+            Previous
+          </button>
+          <button type="button" class="btn btn-primary next">
+            Next
+            <i class="glyphicon glyphicon-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-<script src="//gizra.github.io/CDL/js/785d.page.js"></script>
+
+<script src="//gizra.github.io/CDL/js/e36f.page.js"></script>
 
     </body>
 </html>
