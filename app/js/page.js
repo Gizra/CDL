@@ -22,5 +22,15 @@
   };
 
   // Apply resize to the circle titles.
-  $('.inner-text-title').cdlFonts(50)
+  $('.inner-text-title').cdlFonts(50);
+
+  // Add listener to button more to load the gallery and open in the image #5
+  $('.button-more').each( function() {
+    $(this).bind('click', function() {
+      var selector = '.data-gallery-' + $(this).data('id');
+      var gallery = blueimp.Gallery($(selector));
+      gallery.slide(4);
+    });
+  });
+
 })(jQuery);
