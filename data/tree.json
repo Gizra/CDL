@@ -33,7 +33,10 @@
     }
    ],
    "type": "default",
-   "parent": "514EB540-16D5-A587-0705-13C4C5DA75AA",
+   "parent": {
+    "guid": "514EB540-16D5-A587-0705-13C4C5DA75AA",
+    "name": "Torah+Basch+Maimonides+Newton+Maps"
+   },
    "hasChronologicalChildren": false,
    "children": [
     {
@@ -55,7 +58,10 @@
       }
      ],
      "type": "default",
-     "parent": "D4C41630-D4E6-107B-C285-E728DB90E00B",
+     "parent": {
+      "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
+      "name": "Maps of The Holy Land at the Eran Laor collection, NLI"
+     },
      "hasChronologicalChildren": false,
      "children": [
       {
@@ -89,7 +95,10 @@
         }
        ],
        "type": "default",
-       "parent": "03BA7521-8885-B14D-345A-0440CB69EB04",
+       "parent": {
+        "guid": "03BA7521-8885-B14D-345A-0440CB69EB04",
+        "name": "The Land of Israel in Jewish Eyes"
+       },
        "hasChronologicalChildren": false,
        "children": []
       },
@@ -112,7 +121,10 @@
         }
        ],
        "type": "default",
-       "parent": "03BA7521-8885-B14D-345A-0440CB69EB04",
+       "parent": {
+        "guid": "03BA7521-8885-B14D-345A-0440CB69EB04",
+        "name": "The Land of Israel in Jewish Eyes"
+       },
        "hasChronologicalChildren": false,
        "children": []
       }
@@ -137,7 +149,10 @@
       }
      ],
      "type": "default",
-     "parent": "D4C41630-D4E6-107B-C285-E728DB90E00B",
+     "parent": {
+      "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
+      "name": "Maps of The Holy Land at the Eran Laor collection, NLI"
+     },
      "hasChronologicalChildren": false,
      "children": [
       {
@@ -159,7 +174,10 @@
         }
        ],
        "type": "default",
-       "parent": "AE0BA84A-88FB-0EC6-25D5-BDD81F99F748",
+       "parent": {
+        "guid": "AE0BA84A-88FB-0EC6-25D5-BDD81F99F748",
+        "name": "Christian Maps of the Holy Land"
+       },
        "hasChronologicalChildren": false,
        "children": [
         {
@@ -181,7 +199,10 @@
           }
          ],
          "type": "default",
-         "parent": "AF11075E-6EEC-71E4-6394-9FABE999BD23",
+         "parent": {
+          "guid": "AF11075E-6EEC-71E4-6394-9FABE999BD23",
+          "name": "A Journey through Space and Time"
+         },
          "hasChronologicalChildren": false,
          "children": [
           {
@@ -203,7 +224,10 @@
             }
            ],
            "type": "default",
-           "parent": "EA722CB1-C926-E708-A0CF-FD4515FA7174",
+           "parent": {
+            "guid": "EA722CB1-C926-E708-A0CF-FD4515FA7174",
+            "name": "A Journey to Biblical Jerusalem"
+           },
            "hasChronologicalChildren": false,
            "children": []
           },
@@ -226,7 +250,10 @@
             }
            ],
            "type": "default",
-           "parent": "EA722CB1-C926-E708-A0CF-FD4515FA7174",
+           "parent": {
+            "guid": "EA722CB1-C926-E708-A0CF-FD4515FA7174",
+            "name": "A Journey to Biblical Jerusalem"
+           },
            "hasChronologicalChildren": false,
            "children": []
           },
@@ -249,7 +276,10 @@
             }
            ],
            "type": "default",
-           "parent": "EA722CB1-C926-E708-A0CF-FD4515FA7174",
+           "parent": {
+            "guid": "EA722CB1-C926-E708-A0CF-FD4515FA7174",
+            "name": "A Journey to Biblical Jerusalem"
+           },
            "hasChronologicalChildren": false,
            "children": []
           },
@@ -272,7 +302,10 @@
             }
            ],
            "type": "default",
-           "parent": "EA722CB1-C926-E708-A0CF-FD4515FA7174",
+           "parent": {
+            "guid": "EA722CB1-C926-E708-A0CF-FD4515FA7174",
+            "name": "A Journey to Biblical Jerusalem"
+           },
            "hasChronologicalChildren": false,
            "children": []
           },
@@ -295,7 +328,10 @@
             }
            ],
            "type": "default",
-           "parent": "EA722CB1-C926-E708-A0CF-FD4515FA7174",
+           "parent": {
+            "guid": "EA722CB1-C926-E708-A0CF-FD4515FA7174",
+            "name": "A Journey to Biblical Jerusalem"
+           },
            "hasChronologicalChildren": false,
            "children": [
             {
@@ -304,7 +340,10 @@
              "data": "\n<p><span >Biblical Scenes are represented widely in Adrichom's map:</span></p>\n",
              "attachments": [],
              "type": "default",
-             "parent": "34D4BBF6-4BD4-7A1C-03CD-AB701C9D6ADF",
+             "parent": {
+              "guid": "34D4BBF6-4BD4-7A1C-03CD-AB701C9D6ADF",
+              "name": "Christian van Adrichom's Map of Jerusalem in the Time of Jesus (1590)"
+             },
              "hasChronologicalChildren": true,
              "children": [
               {
@@ -328,7 +367,10 @@
                "type": "chronological",
                "chronologicalId": "1",
                "chronologicalName": "King David's palace",
-               "parent": "3AC23FB6-BE42-7EE4-D511-4D8E8E656254",
+               "parent": {
+                "guid": "3AC23FB6-BE42-7EE4-D511-4D8E8E656254",
+                "name": "Biblical Scenes in Adrichom's map"
+               },
                "hasChronologicalChildren": false,
                "children": [
                 {
@@ -352,7 +394,10 @@
                  "type": "chronological",
                  "chronologicalId": "2",
                  "chronologicalName": "King Solomon's palace and the First Temple",
-                 "parent": "3AC23FB6-BE42-7EE4-D511-4D8E8E656254",
+                 "parent": {
+                  "guid": "3AC23FB6-BE42-7EE4-D511-4D8E8E656254",
+                  "name": "Biblical Scenes in Adrichom's map"
+                 },
                  "hasChronologicalChildren": false,
                  "children": [
                   {
@@ -376,7 +421,10 @@
                    "type": "chronological",
                    "chronologicalId": "3",
                    "chronologicalName": "The shrine of the idol Moloch",
-                   "parent": "3AC23FB6-BE42-7EE4-D511-4D8E8E656254",
+                   "parent": {
+                    "guid": "3AC23FB6-BE42-7EE4-D511-4D8E8E656254",
+                    "name": "Biblical Scenes in Adrichom's map"
+                   },
                    "hasChronologicalChildren": false,
                    "children": [
                     {
@@ -400,7 +448,10 @@
                      "type": "chronological",
                      "chronologicalId": "4",
                      "chronologicalName": "The Babylonian army camp",
-                     "parent": "3AC23FB6-BE42-7EE4-D511-4D8E8E656254",
+                     "parent": {
+                      "guid": "3AC23FB6-BE42-7EE4-D511-4D8E8E656254",
+                      "name": "Biblical Scenes in Adrichom's map"
+                     },
                      "hasChronologicalChildren": false,
                      "children": []
                     }
@@ -418,7 +469,10 @@
              "data": "\n<p><span >The Via Dolorosa of Jesus, from his trial by Pilate to his Crucifixion is depicted in detail in Adrichom's map. &#160;&#160;</span></p>\n",
              "attachments": [],
              "type": "default",
-             "parent": "34D4BBF6-4BD4-7A1C-03CD-AB701C9D6ADF",
+             "parent": {
+              "guid": "34D4BBF6-4BD4-7A1C-03CD-AB701C9D6ADF",
+              "name": "Christian van Adrichom's Map of Jerusalem in the Time of Jesus (1590)"
+             },
              "hasChronologicalChildren": true,
              "children": [
               {
@@ -442,7 +496,10 @@
                "type": "chronological",
                "chronologicalId": "1",
                "chronologicalName": "The Antonia fortress and Pilate's palace",
-               "parent": "5E56A18A-96A4-E51C-9360-DC06D768B887",
+               "parent": {
+                "guid": "5E56A18A-96A4-E51C-9360-DC06D768B887",
+                "name": "The Via Dolorosa as depicted in Adrichom's map"
+               },
                "hasChronologicalChildren": false,
                "children": [
                 {
@@ -466,7 +523,10 @@
                  "type": "chronological",
                  "chronologicalId": "2",
                  "chronologicalName": "The Via Dolorosa",
-                 "parent": "5E56A18A-96A4-E51C-9360-DC06D768B887",
+                 "parent": {
+                  "guid": "5E56A18A-96A4-E51C-9360-DC06D768B887",
+                  "name": "The Via Dolorosa as depicted in Adrichom's map"
+                 },
                  "hasChronologicalChildren": false,
                  "children": [
                   {
@@ -490,7 +550,10 @@
                    "type": "chronological",
                    "chronologicalId": "3",
                    "chronologicalName": "The Crucifixion",
-                   "parent": "5E56A18A-96A4-E51C-9360-DC06D768B887",
+                   "parent": {
+                    "guid": "5E56A18A-96A4-E51C-9360-DC06D768B887",
+                    "name": "The Via Dolorosa as depicted in Adrichom's map"
+                   },
                    "hasChronologicalChildren": false,
                    "children": []
                   }
@@ -510,7 +573,10 @@
          "data": "",
          "attachments": [],
          "type": "default",
-         "parent": "AF11075E-6EEC-71E4-6394-9FABE999BD23",
+         "parent": {
+          "guid": "AF11075E-6EEC-71E4-6394-9FABE999BD23",
+          "name": "A Journey through Space and Time"
+         },
          "hasChronologicalChildren": false,
          "children": [
           {
@@ -556,7 +622,10 @@
             }
            ],
            "type": "default",
-           "parent": "D606CECD-1562-6230-2212-3D35C7C8CE72",
+           "parent": {
+            "guid": "D606CECD-1562-6230-2212-3D35C7C8CE72",
+            "name": "A Journey to the Holy Land"
+           },
            "hasChronologicalChildren": false,
            "children": [
             {
@@ -578,7 +647,10 @@
               }
              ],
              "type": "default",
-             "parent": "F513BEB2-1736-0874-4F04-5DA0EE9C5BF3",
+             "parent": {
+              "guid": "F513BEB2-1736-0874-4F04-5DA0EE9C5BF3",
+              "name": "Abraham Ortelius"
+             },
              "hasChronologicalChildren": true,
              "children": [
               {
@@ -602,7 +674,10 @@
                "type": "chronological",
                "chronologicalId": "1",
                "chronologicalName": "The altar at Beth-El",
-               "parent": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+               "parent": {
+                "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                "name": "Abraham's stories in the picture emblems"
+               },
                "hasChronologicalChildren": false,
                "children": [
                 {
@@ -626,7 +701,10 @@
                  "type": "chronological",
                  "chronologicalId": "2",
                  "chronologicalName": "Abraham and Melchizedek",
-                 "parent": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                 "parent": {
+                  "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                  "name": "Abraham's stories in the picture emblems"
+                 },
                  "hasChronologicalChildren": false,
                  "children": [
                   {
@@ -650,7 +728,10 @@
                    "type": "chronological",
                    "chronologicalId": "3",
                    "chronologicalName": "The Covenant of the Parts",
-                   "parent": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                   "parent": {
+                    "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                    "name": "Abraham's stories in the picture emblems"
+                   },
                    "hasChronologicalChildren": false,
                    "children": [
                     {
@@ -674,7 +755,10 @@
                      "type": "chronological",
                      "chronologicalId": "4",
                      "chronologicalName": "Sarah gives Abraham her slave-girl",
-                     "parent": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                     "parent": {
+                      "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                      "name": "Abraham's stories in the picture emblems"
+                     },
                      "hasChronologicalChildren": false,
                      "children": [
                       {
@@ -698,7 +782,10 @@
                        "type": "chronological",
                        "chronologicalId": "5",
                        "chronologicalName": "The three angels",
-                       "parent": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                       "parent": {
+                        "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                        "name": "Abraham's stories in the picture emblems"
+                       },
                        "hasChronologicalChildren": false,
                        "children": [
                         {
@@ -722,7 +809,10 @@
                          "type": "chronological",
                          "chronologicalId": "6",
                          "chronologicalName": "Birth of Isaac",
-                         "parent": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                         "parent": {
+                          "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                          "name": "Abraham's stories in the picture emblems"
+                         },
                          "hasChronologicalChildren": false,
                          "children": [
                           {
@@ -746,7 +836,10 @@
                            "type": "chronological",
                            "chronologicalId": "7",
                            "chronologicalName": "Abraham banishes Hagar and Ishma'el",
-                           "parent": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                           "parent": {
+                            "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                            "name": "Abraham's stories in the picture emblems"
+                           },
                            "hasChronologicalChildren": false,
                            "children": [
                             {
@@ -770,7 +863,10 @@
                              "type": "chronological",
                              "chronologicalId": "8",
                              "chronologicalName": "The sacrifice of Isaac",
-                             "parent": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                             "parent": {
+                              "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                              "name": "Abraham's stories in the picture emblems"
+                             },
                              "hasChronologicalChildren": false,
                              "children": [
                               {
@@ -794,7 +890,10 @@
                                "type": "chronological",
                                "chronologicalId": "9",
                                "chronologicalName": "Abraham's death",
-                               "parent": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                               "parent": {
+                                "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
+                                "name": "Abraham's stories in the picture emblems"
+                               },
                                "hasChronologicalChildren": false,
                                "children": []
                               }
@@ -837,7 +936,10 @@
             }
            ],
            "type": "default",
-           "parent": "D606CECD-1562-6230-2212-3D35C7C8CE72",
+           "parent": {
+            "guid": "D606CECD-1562-6230-2212-3D35C7C8CE72",
+            "name": "A Journey to the Holy Land"
+           },
            "hasChronologicalChildren": false,
            "children": []
           },
@@ -860,7 +962,10 @@
             }
            ],
            "type": "default",
-           "parent": "D606CECD-1562-6230-2212-3D35C7C8CE72",
+           "parent": {
+            "guid": "D606CECD-1562-6230-2212-3D35C7C8CE72",
+            "name": "A Journey to the Holy Land"
+           },
            "hasChronologicalChildren": true,
            "children": [
             {
@@ -884,7 +989,10 @@
              "type": "chronological",
              "chronologicalId": "1",
              "chronologicalName": "The Cartouch with the figures of Moses and Aaron",
-             "parent": "7A22DA9A-DE90-ABED-F4F5-300AD3B57259",
+             "parent": {
+              "guid": "7A22DA9A-DE90-ABED-F4F5-300AD3B57259",
+              "name": "W.J. Blaeu's Map of the Holy Land"
+             },
              "hasChronologicalChildren": false,
              "children": [
               {
@@ -908,7 +1016,10 @@
                "type": "chronological",
                "chronologicalId": "2",
                "chronologicalName": "The Wanderings of the Children of Israel in the desert",
-               "parent": "7A22DA9A-DE90-ABED-F4F5-300AD3B57259",
+               "parent": {
+                "guid": "7A22DA9A-DE90-ABED-F4F5-300AD3B57259",
+                "name": "W.J. Blaeu's Map of the Holy Land"
+               },
                "hasChronologicalChildren": false,
                "children": []
               }
@@ -935,7 +1046,10 @@
             }
            ],
            "type": "default",
-           "parent": "D606CECD-1562-6230-2212-3D35C7C8CE72",
+           "parent": {
+            "guid": "D606CECD-1562-6230-2212-3D35C7C8CE72",
+            "name": "A Journey to the Holy Land"
+           },
            "hasChronologicalChildren": false,
            "children": []
           }
@@ -966,7 +1080,10 @@
     }
    ],
    "type": "default",
-   "parent": "514EB540-16D5-A587-0705-13C4C5DA75AA",
+   "parent": {
+    "guid": "514EB540-16D5-A587-0705-13C4C5DA75AA",
+    "name": "Torah+Basch+Maimonides+Newton+Maps"
+   },
    "hasChronologicalChildren": false,
    "children": [
     {
@@ -975,7 +1092,10 @@
      "data": "",
      "attachments": [],
      "type": "default",
-     "parent": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
+     "parent": {
+      "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
+      "name": "Newton's Theological Papers"
+     },
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -999,7 +1119,10 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "2060 – The End of Days",
-       "parent": "505C629C-1C39-D352-683D-7C205AC724C8",
+       "parent": {
+        "guid": "505C629C-1C39-D352-683D-7C205AC724C8",
+        "name": "Newton's Papers"
+       },
        "hasChronologicalChildren": false,
        "children": [
         {
@@ -1035,7 +1158,10 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "Newton the Heretic",
-         "parent": "505C629C-1C39-D352-683D-7C205AC724C8",
+         "parent": {
+          "guid": "505C629C-1C39-D352-683D-7C205AC724C8",
+          "name": "Newton's Papers"
+         },
          "hasChronologicalChildren": false,
          "children": [
           {
@@ -1059,7 +1185,10 @@
            "type": "chronological",
            "chronologicalId": "3",
            "chronologicalName": "Newton and the Jewish Temple",
-           "parent": "505C629C-1C39-D352-683D-7C205AC724C8",
+           "parent": {
+            "guid": "505C629C-1C39-D352-683D-7C205AC724C8",
+            "name": "Newton's Papers"
+           },
            "hasChronologicalChildren": false,
            "children": [
             {
@@ -1069,7 +1198,10 @@
              "attachments": [],
              "type": "bastard",
              "bastardName": "The Talmud",
-             "parent": "4130AC26-0B7C-306D-58D1-87B4DD7C00BD",
+             "parent": {
+              "guid": "4130AC26-0B7C-306D-58D1-87B4DD7C00BD",
+              "name": ":3: Newton and the Jewish Temple"
+             },
              "hasChronologicalChildren": false,
              "children": []
             },
@@ -1094,7 +1226,10 @@
              "type": "chronological",
              "chronologicalId": "4",
              "chronologicalName": "Map of the Fifth and Sixth Trumpets",
-             "parent": "505C629C-1C39-D352-683D-7C205AC724C8",
+             "parent": {
+              "guid": "505C629C-1C39-D352-683D-7C205AC724C8",
+              "name": "Newton's Papers"
+             },
              "hasChronologicalChildren": false,
              "children": [
               {
@@ -1118,7 +1253,10 @@
                "type": "chronological",
                "chronologicalId": "5",
                "chronologicalName": "Newton -  Shrewd Head of the Royal Mint",
-               "parent": "505C629C-1C39-D352-683D-7C205AC724C8",
+               "parent": {
+                "guid": "505C629C-1C39-D352-683D-7C205AC724C8",
+                "name": "Newton's Papers"
+               },
                "hasChronologicalChildren": false,
                "children": [
                 {
@@ -1142,7 +1280,10 @@
                  "type": "chronological",
                  "chronologicalId": "6",
                  "chronologicalName": "Newton the Alchemist (c. 1680)",
-                 "parent": "505C629C-1C39-D352-683D-7C205AC724C8",
+                 "parent": {
+                  "guid": "505C629C-1C39-D352-683D-7C205AC724C8",
+                  "name": "Newton's Papers"
+                 },
                  "hasChronologicalChildren": false,
                  "children": []
                 }
@@ -1164,7 +1305,10 @@
      "data": "",
      "attachments": [],
      "type": "default",
-     "parent": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
+     "parent": {
+      "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
+      "name": "Newton's Theological Papers"
+     },
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -1173,7 +1317,10 @@
        "data": "",
        "attachments": [],
        "type": "default",
-       "parent": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
+       "parent": {
+        "guid": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
+        "name": "Journey of Newton's Papers: from Cambridge to the NLI"
+       },
        "hasChronologicalChildren": true,
        "children": [
         {
@@ -1197,7 +1344,10 @@
          "type": "chronological",
          "chronologicalId": "1",
          "chronologicalName": "Descent",
-         "parent": "E8096AB9-F897-17EA-4D1B-638B8A62ECD7",
+         "parent": {
+          "guid": "E8096AB9-F897-17EA-4D1B-638B8A62ECD7",
+          "name": "A.S.  Yahuda  Madrid- New-Haven - Jerusalem"
+         },
          "hasChronologicalChildren": false,
          "children": [
           {
@@ -1221,7 +1371,10 @@
            "type": "chronological",
            "chronologicalId": "2",
            "chronologicalName": "Education",
-           "parent": "E8096AB9-F897-17EA-4D1B-638B8A62ECD7",
+           "parent": {
+            "guid": "E8096AB9-F897-17EA-4D1B-638B8A62ECD7",
+            "name": "A.S.  Yahuda  Madrid- New-Haven - Jerusalem"
+           },
            "hasChronologicalChildren": false,
            "children": [
             {
@@ -1232,7 +1385,10 @@
              "type": "chronological",
              "chronologicalId": "3",
              "chronologicalName": "From Madrid to Europe and the East",
-             "parent": "E8096AB9-F897-17EA-4D1B-638B8A62ECD7",
+             "parent": {
+              "guid": "E8096AB9-F897-17EA-4D1B-638B8A62ECD7",
+              "name": "A.S.  Yahuda  Madrid- New-Haven - Jerusalem"
+             },
              "hasChronologicalChildren": false,
              "children": [
               {
@@ -1243,7 +1399,10 @@
                "type": "chronological",
                "chronologicalId": "4",
                "chronologicalName": "America",
-               "parent": "E8096AB9-F897-17EA-4D1B-638B8A62ECD7",
+               "parent": {
+                "guid": "E8096AB9-F897-17EA-4D1B-638B8A62ECD7",
+                "name": "A.S.  Yahuda  Madrid- New-Haven - Jerusalem"
+               },
                "hasChronologicalChildren": false,
                "children": [
                 {
@@ -1327,7 +1486,10 @@
                  "type": "chronological",
                  "chronologicalId": "5",
                  "chronologicalName": "The Yahuda Exquisite Manuscript Collection Islamic manuscripts",
-                 "parent": "E8096AB9-F897-17EA-4D1B-638B8A62ECD7",
+                 "parent": {
+                  "guid": "E8096AB9-F897-17EA-4D1B-638B8A62ECD7",
+                  "name": "A.S.  Yahuda  Madrid- New-Haven - Jerusalem"
+                 },
                  "hasChronologicalChildren": false,
                  "children": []
                 }
@@ -1362,7 +1524,10 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "Newton's Papers  - from 1727 to 1872",
-       "parent": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
+       "parent": {
+        "guid": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
+        "name": "Journey of Newton's Papers: from Cambridge to the NLI"
+       },
        "hasChronologicalChildren": false,
        "children": [
         {
@@ -1398,7 +1563,10 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "Donation of the Papers to Cambridge  - 1872 – 1936",
-         "parent": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
+         "parent": {
+          "guid": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
+          "name": "Journey of Newton's Papers: from Cambridge to the NLI"
+         },
          "hasChronologicalChildren": false,
          "children": [
           {
@@ -1422,7 +1590,10 @@
            "type": "chronological",
            "chronologicalId": "3",
            "chronologicalName": "July 13th 1936 – The Papers are Sold",
-           "parent": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
+           "parent": {
+            "guid": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
+            "name": "Journey of Newton's Papers: from Cambridge to the NLI"
+           },
            "hasChronologicalChildren": false,
            "children": [
             {
@@ -1470,7 +1641,10 @@
              "type": "chronological",
              "chronologicalId": "4",
              "chronologicalName": "1936 – 1951 – Yahuda and Keynes Chase after the Papers",
-             "parent": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
+             "parent": {
+              "guid": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
+              "name": "Journey of Newton's Papers: from Cambridge to the NLI"
+             },
              "hasChronologicalChildren": false,
              "children": [
               {
@@ -1518,7 +1692,10 @@
                "type": "chronological",
                "chronologicalId": "5",
                "chronologicalName": "1951 –Bequest of the Papers",
-               "parent": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
+               "parent": {
+                "guid": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
+                "name": "Journey of Newton's Papers: from Cambridge to the NLI"
+               },
                "hasChronologicalChildren": false,
                "children": []
               }
@@ -1553,7 +1730,10 @@
     }
    ],
    "type": "default",
-   "parent": "514EB540-16D5-A587-0705-13C4C5DA75AA",
+   "parent": {
+    "guid": "514EB540-16D5-A587-0705-13C4C5DA75AA",
+    "name": "Torah+Basch+Maimonides+Newton+Maps"
+   },
    "hasChronologicalChildren": true,
    "children": [
     {
@@ -1612,7 +1792,10 @@
      ],
      "type": "bastard",
      "bastardName": "Torah Introduction",
-     "parent": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
+     "parent": {
+      "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
+      "name": "The Torah Scroll from Spain"
+     },
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -1660,7 +1843,10 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "Reading The Torah",
-       "parent": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
+       "parent": {
+        "guid": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
+        "name": ":_: Torah Introduction"
+       },
        "hasChronologicalChildren": false,
        "children": [
         {
@@ -1696,7 +1882,10 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "Making the Torah Scroll",
-         "parent": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
+         "parent": {
+          "guid": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
+          "name": ":_: Torah Introduction"
+         },
          "hasChronologicalChildren": false,
          "children": [
           {
@@ -1707,7 +1896,10 @@
            "type": "chronological",
            "chronologicalId": "3",
            "chronologicalName": "Torah Accessories",
-           "parent": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
+           "parent": {
+            "guid": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
+            "name": ":_: Torah Introduction"
+           },
            "hasChronologicalChildren": false,
            "children": [
             {
@@ -1729,7 +1921,10 @@
               }
              ],
              "type": "default",
-             "parent": "40BCD461-02F1-B477-4FEB-22F466AC828B",
+             "parent": {
+              "guid": "40BCD461-02F1-B477-4FEB-22F466AC828B",
+              "name": ":3: Torah Accessories"
+             },
              "hasChronologicalChildren": false,
              "children": []
             },
@@ -1764,7 +1959,10 @@
               }
              ],
              "type": "default",
-             "parent": "40BCD461-02F1-B477-4FEB-22F466AC828B",
+             "parent": {
+              "guid": "40BCD461-02F1-B477-4FEB-22F466AC828B",
+              "name": ":3: Torah Accessories"
+             },
              "hasChronologicalChildren": false,
              "children": []
             },
@@ -1787,7 +1985,10 @@
               }
              ],
              "type": "default",
-             "parent": "40BCD461-02F1-B477-4FEB-22F466AC828B",
+             "parent": {
+              "guid": "40BCD461-02F1-B477-4FEB-22F466AC828B",
+              "name": ":3: Torah Accessories"
+             },
              "hasChronologicalChildren": false,
              "children": []
             },
@@ -1810,7 +2011,10 @@
               }
              ],
              "type": "default",
-             "parent": "40BCD461-02F1-B477-4FEB-22F466AC828B",
+             "parent": {
+              "guid": "40BCD461-02F1-B477-4FEB-22F466AC828B",
+              "name": ":3: Torah Accessories"
+             },
              "hasChronologicalChildren": false,
              "children": []
             }
@@ -1841,7 +2045,10 @@
       }
      ],
      "type": "default",
-     "parent": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
+     "parent": {
+      "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
+      "name": "The Torah Scroll from Spain"
+     },
      "hasChronologicalChildren": false,
      "children": [
       {
@@ -1875,7 +2082,10 @@
         }
        ],
        "type": "default",
-       "parent": "7F13F425-9474-7539-509D-FEDE3A2F8619",
+       "parent": {
+        "guid": "7F13F425-9474-7539-509D-FEDE3A2F8619",
+        "name": "Other Torah manuscripts at the NLI"
+       },
        "hasChronologicalChildren": false,
        "children": []
       },
@@ -1910,7 +2120,10 @@
         }
        ],
        "type": "default",
-       "parent": "7F13F425-9474-7539-509D-FEDE3A2F8619",
+       "parent": {
+        "guid": "7F13F425-9474-7539-509D-FEDE3A2F8619",
+        "name": "Other Torah manuscripts at the NLI"
+       },
        "hasChronologicalChildren": false,
        "children": []
       },
@@ -1957,7 +2170,10 @@
         }
        ],
        "type": "default",
-       "parent": "7F13F425-9474-7539-509D-FEDE3A2F8619",
+       "parent": {
+        "guid": "7F13F425-9474-7539-509D-FEDE3A2F8619",
+        "name": "Other Torah manuscripts at the NLI"
+       },
        "hasChronologicalChildren": false,
        "children": []
       }
@@ -2020,7 +2236,10 @@
      "type": "chronological",
      "chronologicalId": "1",
      "chronologicalName": "From Spain to Jerusalem",
-     "parent": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
+     "parent": {
+      "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
+      "name": "The Torah Scroll from Spain"
+     },
      "hasChronologicalChildren": false,
      "children": [
       {
@@ -2068,7 +2287,10 @@
        "type": "chronological",
        "chronologicalId": "2",
        "chronologicalName": "From Spain to Rhodes",
-       "parent": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
+       "parent": {
+        "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
+        "name": "The Torah Scroll from Spain"
+       },
        "hasChronologicalChildren": false,
        "children": [
         {
@@ -2128,7 +2350,10 @@
          "type": "chronological",
          "chronologicalId": "3",
          "chronologicalName": "Kahal Shalom Synagogue - Rhodes",
-         "parent": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
+         "parent": {
+          "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
+          "name": "The Torah Scroll from Spain"
+         },
          "hasChronologicalChildren": false,
          "children": [
           {
@@ -2188,7 +2413,10 @@
            "type": "chronological",
            "chronologicalId": "4",
            "chronologicalName": "The Nazi Occupation Period",
-           "parent": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
+           "parent": {
+            "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
+            "name": "The Torah Scroll from Spain"
+           },
            "hasChronologicalChildren": false,
            "children": [
             {
@@ -2236,7 +2464,10 @@
              "type": "chronological",
              "chronologicalId": "5",
              "chronologicalName": "Final Stop - NLI",
-             "parent": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
+             "parent": {
+              "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
+              "name": "The Torah Scroll from Spain"
+             },
              "hasChronologicalChildren": false,
              "children": []
             }
@@ -2329,7 +2560,10 @@
     }
    ],
    "type": "default",
-   "parent": "514EB540-16D5-A587-0705-13C4C5DA75AA",
+   "parent": {
+    "guid": "514EB540-16D5-A587-0705-13C4C5DA75AA",
+    "name": "Torah+Basch+Maimonides+Newton+Maps"
+   },
    "hasChronologicalChildren": true,
    "children": [
     {
@@ -2412,7 +2646,10 @@
      ],
      "type": "bastard",
      "bastardName": "The Hebrew language",
-     "parent": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+     "parent": {
+      "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+      "name": "Elimelech Basch's diary"
+     },
      "hasChronologicalChildren": false,
      "children": [
       {
@@ -2446,7 +2683,10 @@
         }
        ],
        "type": "default",
-       "parent": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
+       "parent": {
+        "guid": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
+        "name": ":_: The Hebrew language"
+       },
        "hasChronologicalChildren": false,
        "children": []
       }
@@ -2521,7 +2761,10 @@
      "type": "chronological",
      "chronologicalId": "1",
      "chronologicalName": "The Jewish community of Tyachiv",
-     "parent": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+     "parent": {
+      "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+      "name": "Elimelech Basch's diary"
+     },
      "hasChronologicalChildren": false,
      "children": [
       {
@@ -2605,7 +2848,10 @@
        "type": "chronological",
        "chronologicalId": "2",
        "chronologicalName": "Dark times",
-       "parent": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+       "parent": {
+        "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+        "name": "Elimelech Basch's diary"
+       },
        "hasChronologicalChildren": false,
        "children": [
         {
@@ -2760,7 +3006,10 @@
          ],
          "type": "bastard",
          "bastardName": "The Holocaust",
-         "parent": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
+         "parent": {
+          "guid": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
+          "name": ":2: Dark times"
+         },
          "hasChronologicalChildren": false,
          "children": []
         },
@@ -2785,7 +3034,10 @@
          "type": "chronological",
          "chronologicalId": "3",
          "chronologicalName": "The family's last days",
-         "parent": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+         "parent": {
+          "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+          "name": "Elimelech Basch's diary"
+         },
          "hasChronologicalChildren": false,
          "children": [
           {
@@ -2809,7 +3061,10 @@
            "type": "chronological",
            "chronologicalId": "4",
            "chronologicalName": "The deportation to the Death camps",
-           "parent": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+           "parent": {
+            "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+            "name": "Elimelech Basch's diary"
+           },
            "hasChronologicalChildren": false,
            "children": [
             {
@@ -2857,7 +3112,10 @@
              "type": "chronological",
              "chronologicalId": "5",
              "chronologicalName": "Surviving daughter in Israel",
-             "parent": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+             "parent": {
+              "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+              "name": "Elimelech Basch's diary"
+             },
              "hasChronologicalChildren": false,
              "children": [
               {
@@ -3007,7 +3265,10 @@
                "type": "chronological",
                "chronologicalId": "6",
                "chronologicalName": "The Diary at The National Library of Israel",
-               "parent": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+               "parent": {
+                "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+                "name": "Elimelech Basch's diary"
+               },
                "hasChronologicalChildren": false,
                "children": []
               }
@@ -3042,7 +3303,10 @@
     }
    ],
    "type": "default",
-   "parent": "514EB540-16D5-A587-0705-13C4C5DA75AA",
+   "parent": {
+    "guid": "514EB540-16D5-A587-0705-13C4C5DA75AA",
+    "name": "Torah+Basch+Maimonides+Newton+Maps"
+   },
    "hasChronologicalChildren": false,
    "children": [
     {
@@ -3064,7 +3328,10 @@
       }
      ],
      "type": "default",
-     "parent": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
+     "parent": {
+      "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
+      "name": "Maimonides' Commentary on the Mishnah]"
+     },
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -3088,7 +3355,10 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "Maimonides in Cordoba",
-       "parent": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+       "parent": {
+        "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+        "name": "An extraordinary life story"
+       },
        "hasChronologicalChildren": false,
        "children": [
         {
@@ -3136,7 +3406,10 @@
          "type": "chronological",
          "chronologicalId": "10",
          "chronologicalName": "His Death",
-         "parent": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+         "parent": {
+          "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+          "name": "An extraordinary life story"
+         },
          "hasChronologicalChildren": false,
          "children": [
           {
@@ -3196,7 +3469,10 @@
            "type": "chronological",
            "chronologicalId": "2",
            "chronologicalName": "Master of Jewish Law, Mathematics, Philosophy, Theology, and Medicine",
-           "parent": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+           "parent": {
+            "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+            "name": "An extraordinary life story"
+           },
            "hasChronologicalChildren": false,
            "children": [
             {
@@ -3232,7 +3508,10 @@
              "type": "chronological",
              "chronologicalId": "3",
              "chronologicalName": "Intellectual milieu and influences",
-             "parent": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+             "parent": {
+              "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+              "name": "An extraordinary life story"
+             },
              "hasChronologicalChildren": false,
              "children": [
               {
@@ -3268,7 +3547,10 @@
                "type": "chronological",
                "chronologicalId": "4",
                "chronologicalName": "The family is forced to leave Cordoba",
-               "parent": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+               "parent": {
+                "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+                "name": "An extraordinary life story"
+               },
                "hasChronologicalChildren": false,
                "children": [
                 {
@@ -3304,7 +3586,10 @@
                  "type": "chronological",
                  "chronologicalId": "5",
                  "chronologicalName": "1160-1165 Morocco - forced conversion",
-                 "parent": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+                 "parent": {
+                  "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+                  "name": "An extraordinary life story"
+                 },
                  "hasChronologicalChildren": false,
                  "children": [
                   {
@@ -3340,7 +3625,10 @@
                    "type": "chronological",
                    "chronologicalId": "6",
                    "chronologicalName": "Pilgrimage to the Holy Land",
-                   "parent": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+                   "parent": {
+                    "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+                    "name": "An extraordinary life story"
+                   },
                    "hasChronologicalChildren": false,
                    "children": [
                     {
@@ -3376,7 +3664,10 @@
                      "type": "chronological",
                      "chronologicalId": "7",
                      "chronologicalName": "The Family moves to Old Cairo (Fustat)",
-                     "parent": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+                     "parent": {
+                      "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+                      "name": "An extraordinary life story"
+                     },
                      "hasChronologicalChildren": false,
                      "children": [
                       {
@@ -3400,7 +3691,10 @@
                        "type": "chronological",
                        "chronologicalId": "8",
                        "chronologicalName": "Maimonides becomes Court  Physician of the Ayyubids",
-                       "parent": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+                       "parent": {
+                        "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+                        "name": "An extraordinary life story"
+                       },
                        "hasChronologicalChildren": false,
                        "children": [
                         {
@@ -3460,7 +3754,10 @@
                          "type": "chronological",
                          "chronologicalId": "9",
                          "chronologicalName": "Appointed Head of the  Jewish Community",
-                         "parent": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+                         "parent": {
+                          "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+                          "name": "An extraordinary life story"
+                         },
                          "hasChronologicalChildren": false,
                          "children": []
                         }
@@ -3515,7 +3812,10 @@
       }
      ],
      "type": "default",
-     "parent": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
+     "parent": {
+      "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
+      "name": "Maimonides' Commentary on the Mishnah]"
+     },
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -3538,7 +3838,10 @@
        ],
        "type": "bastard",
        "bastardName": "What is the Talmud?",
-       "parent": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
+       "parent": {
+        "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
+        "name": "Commentary on the Mishnah"
+       },
        "hasChronologicalChildren": false,
        "children": []
       },
@@ -3574,7 +3877,10 @@
        ],
        "type": "bastard",
        "bastardName": "What is the Mishnah?",
-       "parent": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
+       "parent": {
+        "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
+        "name": "Commentary on the Mishnah"
+       },
        "hasChronologicalChildren": false,
        "children": []
       },
@@ -3621,7 +3927,10 @@
         }
        ],
        "type": "default",
-       "parent": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
+       "parent": {
+        "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
+        "name": "Commentary on the Mishnah"
+       },
        "hasChronologicalChildren": false,
        "children": []
       },
@@ -3633,7 +3942,10 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "The History of the Manuscript",
-       "parent": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
+       "parent": {
+        "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
+        "name": "Commentary on the Mishnah"
+       },
        "hasChronologicalChildren": false,
        "children": [
         {
@@ -3657,7 +3969,10 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "From Egypt to Aleppo",
-         "parent": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
+         "parent": {
+          "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
+          "name": "Commentary on the Mishnah"
+         },
          "hasChronologicalChildren": false,
          "children": [
           {
@@ -3681,7 +3996,10 @@
            "type": "chronological",
            "chronologicalId": "3",
            "chronologicalName": "The Library in Aleppo",
-           "parent": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
+           "parent": {
+            "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
+            "name": "Commentary on the Mishnah"
+           },
            "hasChronologicalChildren": false,
            "children": [
             {
@@ -3705,7 +4023,10 @@
              "type": "chronological",
              "chronologicalId": "4",
              "chronologicalName": "The arrival of the Spanish Jews and the dispersal of the library",
-             "parent": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
+             "parent": {
+              "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
+              "name": "Commentary on the Mishnah"
+             },
              "hasChronologicalChildren": false,
              "children": [
               {
@@ -3741,7 +4062,10 @@
                "type": "chronological",
                "chronologicalId": "5",
                "chronologicalName": "From Aleppo to the NLI",
-               "parent": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
+               "parent": {
+                "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
+                "name": "Commentary on the Mishnah"
+               },
                "hasChronologicalChildren": false,
                "children": []
               }
@@ -3774,7 +4098,10 @@
       }
      ],
      "type": "default",
-     "parent": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
+     "parent": {
+      "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
+      "name": "Maimonides' Commentary on the Mishnah]"
+     },
      "hasChronologicalChildren": false,
      "children": [
       {
@@ -3796,7 +4123,10 @@
         }
        ],
        "type": "default",
-       "parent": "D426D901-F0FB-99E7-6E57-289CFFFBDD64",
+       "parent": {
+        "guid": "D426D901-F0FB-99E7-6E57-289CFFFBDD64",
+        "name": "Other masterpieces of Maimonides"
+       },
        "hasChronologicalChildren": false,
        "children": []
       },
@@ -3819,7 +4149,10 @@
         }
        ],
        "type": "default",
-       "parent": "D426D901-F0FB-99E7-6E57-289CFFFBDD64",
+       "parent": {
+        "guid": "D426D901-F0FB-99E7-6E57-289CFFFBDD64",
+        "name": "Other masterpieces of Maimonides"
+       },
        "hasChronologicalChildren": false,
        "children": [
         {
@@ -3865,7 +4198,10 @@
           }
          ],
          "type": "default",
-         "parent": "D6BBEBDF-00D3-DBD2-7736-78D520E0189C",
+         "parent": {
+          "guid": "D6BBEBDF-00D3-DBD2-7736-78D520E0189C",
+          "name": "The  Mishneh Torah"
+         },
          "hasChronologicalChildren": false,
          "children": []
         }
