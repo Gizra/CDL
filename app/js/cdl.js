@@ -414,7 +414,7 @@
         move = getCoordinateToCenter(node);
 
         // Focus the element id.
-        c.setFocus(node.id, move);
+        // c.setFocus(node.id, move);
         // Storage the id of the actual node center.
         nodeCentered = node.id;
 
