@@ -30,6 +30,18 @@ div.cdl {
   #content {
     max-width: 768px;
     float:left;
+
+    #menu-nodes {
+      float: right;
+
+      .navigation {
+        bottom: 0px;
+      }
+
+      .navigation-parent {
+        margin-bottom: 40px;
+      }
+    }
   }
 
   #menu {

@@ -513,7 +513,7 @@
 
     // Nodes.
     node.append('circle')
-      .attr('id', function(node, index) { return 'n' + index; })
+      .attr('id', function(node, index) { return 'n' + index + '-circle'; })
       .attr('r', function(node) { return nodeScale(node.selected); })
       .style('fill', fillNode )
       .style('stroke', function(node) { return (node.active) ?  'red' : 'black'; } );
@@ -541,7 +541,6 @@
 
     // Mask of the node to handle events.
     node.append('circle')
-      .attr('id', function(node, index) { return 'n' + index; })
       .attr('r', function(node) { return nodeScale(node.selected); })
       .style('fill', 'transparent' )
       .on('click', clickNode )

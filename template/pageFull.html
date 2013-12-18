@@ -3,7 +3,6 @@ layout: page
 <%= yaml %>
 ---
 {% include JB/setup %}
-
 <div id="{{ page.guid }}"  class="cdl">
   <div class="clearfix">
 
@@ -236,6 +235,36 @@ layout: page
         {% endif%}
       </div>
     </div>
+    {% if page.siblings == empty %}
+    <div id="menu-nodes">
+      <div class="navigation">
+        <div class="navigation-parent">
+          {% if page.parent != empty %}
+          <div class="navigation-list">
+            <ul class="nav nav-tabs">
+              <li>
+                <a href="{{ BASE_PATH }}/pages/{{ page.parent.guid }}">{{ page.parent.name | upcase }}</a>
+              </li>
+            </ul>
+          </div>
+          {% endif %}
+        </div>
+        <div class="navigation-children">
+          {% if page.children != empty %}
+          <div class="navigation-list">
+            <ul class="nav nav-tabs">
+              {% for child in page.children %}
+              <li>
+                <a href="{{ BASE_PATH }}/pages/{{ child.guid }}">{{ child.name | upcase }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% endif %}
   </div>
 
 

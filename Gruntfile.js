@@ -654,16 +654,16 @@ module.exports = function (grunt) {
         }
 
         // Parse the content and set the classification of the node.
-        setNodeContent(child.node, parent);
+        setNodeContent(child.node);
 
         // Set parent guid.
-        child.node.parent = parent;
+        child.node.parent = _.pick(parent, 'guid', 'name');
         child.node.hasChronologicalChildren = false;
 
         // Look up for more generations of childrens.
         child.node.children = getChilds(child.node);
 
-        // Check if have chronological children, and set it.
+        // Check if have chronological children if the node is not chronological, and set it.
         if (child.node.type !== 'chronological' && _.where(child.node.children, {type: 'chronological'}).length) {
           child.node.hasChronologicalChildren = true;
         }
@@ -697,7 +697,7 @@ module.exports = function (grunt) {
       childs = _.union( _.where(nodesLinks, {idA: node.guid, dir: '1'}), _.where(nodesLinks, {idB: node.guid, dir: '2'}) );
 
       if (childs.length) {
-        childsOrdered = parseChilds(childs, node.guid);
+        childsOrdered = parseChilds(childs, node);
       }
 
       return childsOrdered;
@@ -761,17 +761,17 @@ module.exports = function (grunt) {
        * @param string
        *  Parent node.guid.
        */
-      function filterSiblingsByParent(nodes, parentGuid) {
+      function filterSiblingsByParent(nodes) {
         _.each(nodes, function(node) {
             // Check for children.
-          filterSiblingsByParent(_.where(node.children, {type: 'chronological'}), parentGuid);
+          filterSiblingsByParent(_.where(node.children, {type: 'chronological'}));
         });
 
-        siblings = _.union(siblings, _.where(nodes, {parent: parentGuid}));
+        siblings = _.union(siblings, nodes);
       }
 
       // Get chronological siblings.
-      filterSiblingsByParent(_.where(node.children, {type: 'chronological'}), node.guid);
+      filterSiblingsByParent(_.where(node.children, {type: 'chronological'}));
 
 
       // Pick the necessary properties for siblings.
@@ -847,7 +847,17 @@ module.exports = function (grunt) {
         }
 
         // Pick node selected properties.
-        node = _.pick(node, 'guid', 'name', 'data', 'attachments', 'siblings');
+        node = _.pick(node, 'guid', 'name', 'data', 'attachments', 'siblings', 'parent', 'children');
+
+        // Reduce the properties of children.
+        if (node.children.length) {
+          node.children = _.map(node.children, function(node) {
+            return {
+              guid: node.guid,
+              name: node.name
+            };
+          });
+        }
 
         // Generate the json file, to bind in the each Jekyll pages, is related with the node.guid.
         grunt.file.write(grunt.config.get('CDL.tmp') + node.guid + '.json', JSON.stringify(node, null, ' '));
