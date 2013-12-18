@@ -1,6 +1,5 @@
 'use strict';
-
-(function( $ ) {
+(function( $, blueimp ) {
   // Extent jquery object properties.
   $.fn.cdlFonts = function(fontRatio) {
     var maxFontRatio = fontRatio;
@@ -29,8 +28,9 @@
     $(this).bind('click', function() {
       var selector = '.data-gallery-' + $(this).data('id');
       var gallery = blueimp.Gallery($(selector));
+      // Move and open to the 5th. image of the gallery.
       gallery.slide(4);
     });
   });
 
-})(jQuery);
+})(jQuery, blueimp);

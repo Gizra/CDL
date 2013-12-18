@@ -332,22 +332,28 @@ div.cdl {
   // titles.
   .area {
     background-color: transparent;
-    font: 0px Arial;
+    font-size: 0;
+    font-family: Arial;
 
     .titles {
-      font-size: 5px;
+      font-size: 6px;
+      color: #ffffff;
     }
     .no-title {
       font-size: 0px;
       color: transparent;
+    }
+    .bastard-title {
+      font-size: 6px;
+      color: #000000;
     }
     .root-title {
       font-size: 15px;
       color: red;
     }
     .default {
-      font-size: 19px;
-      color: #000000;
+      font-size: 6px;
+      color: #ffffff;
     }
   }
 }

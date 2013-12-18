@@ -16,6 +16,7 @@
     height = 500,
     delay = 250;
 
+
   // Define size of fonts node.
   var fontScale = d3.scale.linear()
     .domain([0, 1])
@@ -74,7 +75,7 @@
     }
 
     var zoomSvg = d3.behavior.zoom()
-      .center([width / 2, height / 2])
+      .center([window.innerWidth / 2, window.innerHeight / 2])
       .scaleExtent([0.5, 10])
       .on('zoom', zoom);
 
@@ -95,7 +96,6 @@
     // System.
     system = svgContainer.append('g')
       .attr('id', 'system');
-
   }
 
   /**
@@ -218,13 +218,25 @@
    * @param data
    */
   function CDL(data) {
-    var lastFocus;
     /// Scales.
 
     // Define size (radius) of circles of node states.
     var nodeScale = d3.scale.linear()
       .domain([0, 1])
-      .range([5, 20]);
+      .range([25, 220]);
+
+    // Center point calculation.
+    var centerPoint = {
+      width: function() {
+        return window.innerWidth/2;
+      },
+      height: function() {
+        return window.innerHeight/2;
+      }
+    };
+
+    // Index of the actual node centered
+    var nodeCentered = null;
 
 
     /// Helpers.
@@ -313,7 +325,7 @@
      * @returns {*}
      */
     function sizeText(node) {
-      var size = 5;
+      var size = 35;
 
       if (node.styleNode === 'root') {
         size = 20;
@@ -336,14 +348,16 @@
         text;
 
       if (node.type === 'chronological') {
+        $(html).addClass('no-title');
         text = node.chronologicalName;
       }
       else if (node.type === 'bastard') {
+        $(html).addClass('bastard-title');
         text = node.bastardName;
       }
-      else {
-        text = node.name;
-      }
+
+      $(html).addClass('default');
+      text = node.name;
 
       return html.replace(/{{text}}/, text);
     }
@@ -357,8 +371,8 @@
     function getCoordinateToCenter(node) {
       var coordinate = [];
 
-      coordinate[0] = (width/2) - node.x;
-      coordinate[1] = (height/2) - node.y;
+      coordinate[0] = (centerPoint.width()) - node.x;
+      coordinate[1] = (centerPoint.height()) - node.y;
 
       return coordinate;
     }
@@ -383,84 +397,45 @@
         .style('fill', fillNode )
         .style('stroke', strokeNode );
 
-      title.attr('class', function(node) { return styleTitle(node); })
+      title.attr('class', function(node) { return styleTitle(node); });
 
     }
 
+
     /**
-     * Create a separation from the click event and the double click event.
-     * https://gist.github.com/tmcw/4067674
-     *
-     * @returns {*}
+     * Click node center in the canvas the node.
+     * @param node
      */
-    function clickCancel() {
-      var event = d3.dispatch('click', 'dblclick');
-      function cc(selection) {
-        var down,
-          tolerance = 5,
-          last,
-          wait = null;
-        // euclidean distance
-        function dist(a, b) {
-          return Math.sqrt(Math.pow(a[0] - b[0], 2), Math.pow(a[1] - b[1], 2));
-        }
-        selection.on('mousedown', function() {
-          down = d3.mouse(document.body);
-          last = +new Date();
-        });
-        selection.on('mouseup', function() {
-          if (dist(down, d3.mouse(document.body)) > tolerance) {
-            return;
-          }
-          else {
-            if (wait) {
-              window.clearTimeout(wait);
-              wait = null;
-              event.dblclick(d3.event);
-            }
-            else {
-              wait = window.setTimeout((function(e) {
-                return function() {
-                  event.click(e);
-                  wait = null;
-                };
-              })(d3.event), 300);
-            }
-          }
-        });
+    function clickNode(node) {
+      var move = [];
+
+      // Check if it is the first or second click.
+      if (!nodeCentered || nodeCentered !== node.id) {
+        move = getCoordinateToCenter(node);
+
+        // Focus the element id.
+        c.setFocus(node.id, move);
+        // Storage the id of the actual node center.
+        nodeCentered = node.id;
+
+        // Connect siblings.
+        // @todo style line to connect the siblings.
+
+        // Go to the detail page.
+        window.location = window.location.origin + window.location.pathname + '#/' + node.guid;
       }
-      return d3.rebind(cc, event, 'on');
+      else if (nodeCentered === node.id) {
+        secondClickNode(node);
+        nodeCentered = false;
+      }
+
     }
 
     /**
-     * Click node.
+     * Second click node open the page related with the node.
      * @param node
      */
-    function clickNode(event) {
-      var node,
-        move = [];
-
-      // Get element.
-      node = d3.select(event.toElement).data()[0];
-      console.log(node);
-      move = getCoordinateToCenter(node);
-      //
-      c.setFocus(node.id, move);
-
-      // Go to the detail page.
-      window.location = window.location.origin + window.location.pathname + '#/' + node.guid;
-    }
-
-    /**
-     * Double click node.
-     * @param node
-     */
-    function doubleClickNode(event) {
-      var node;
-
-      // Get element.
-      node = d3.select(event.toElement).data()[0];
-
+    function secondClickNode(node) {
       // If root element, do not perform any action.
       if (node.depth === 0) {
         return;
@@ -475,12 +450,6 @@
       window.location = window.location.origin + window.location.pathname + 'pages/' + node.guid;
     }
 
-    // Bind events.
-    var nodeEvent = clickCancel();
-    nodeEvent.on('click', clickNode )
-      .on('dblclick', doubleClickNode );
-
-
     // Data Tree Layout.
     var tree = d3.layout.tree()
       .size([width, height])
@@ -493,10 +462,15 @@
     // Data modification.
     nodes.forEach(function(node, index) {
       node.id = index;
+      // Add a new line on each 20 characters.
       node.name = node.name.replace(/.{1,20} /g, '$&\n');
       node.active = 0;
       node.selected = false;
       node.styleNode = node.type;
+      // Multiply the x and y values to add the correct separation between the nodes.
+      // This values are related with the node size.
+      node.x = node.x * 5;
+      node.y = node.y * 3;
     });
 
     // Nodes.
@@ -509,10 +483,10 @@
     // Center point of the system.
     center = svgContainer.append('svg:circle')
       .attr('class', 'center')
-      .style('fill', 'red')
+      .style('fill', 'transparent')
       .attr('r', 0)
-      .attr('cx', function() { return width/2; })
-      .attr('cy', function() { return height/2; });
+      .attr('cx', function() { return centerPoint.width(); })
+      .attr('cy', function() { return centerPoint.height(); });
 
     //Links.
     g.selectAll('.link')
@@ -537,42 +511,53 @@
       .attr('class', 'node')
       .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; });
 
+    // Nodes.
+    node.append('circle')
+      .attr('id', function(node, index) { return 'n' + index; })
+      .attr('r', function(node) { return nodeScale(node.selected); })
+      .style('fill', fillNode )
+      .style('stroke', function(node) { return (node.active) ?  'red' : 'black'; } );
+
+    // Node ID.
+    node.append('svg:text')
+      .attr('class', 'id')
+      .style('font-family', 'Verdana')
+      .style('fill', 'black')
+      .attr('font-size', sizeText)
+      .attr('dy', 10)
+      .attr('dx', 0)
+      .attr('text-anchor', 'middle')
+      .text( function(node) { return node.chronologicalId; } );
+
     // Node titles.
     node.append('foreignObject')
       .attr('x', -20)
-      .attr('y', 10)
+      .attr('y', -15)
       .attr('width', 40)
       .attr('height', 40)
       .append('xhtml:body')
       .attr('class', 'area')
       .html( textNode );
 
-    // Nodes.
+    // Mask of the node to handle events.
     node.append('circle')
       .attr('id', function(node, index) { return 'n' + index; })
       .attr('r', function(node) { return nodeScale(node.selected); })
-      .style('fill', fillNode )
-      .style('stroke', function(node) { return (node.active) ?  'red' : 'black'; } )
-      .call(nodeEvent);
-
-    // Node ID.
-    node.append('svg:text')
-      .attr('class', 'id')
-      .style('font-family', 'Verdana')
-      .attr('font-size', sizeText)
-      .attr('dy', 2)
-      .attr('dx', 0)
-      .attr('text-anchor', 'middle')
-      .text( function(node) { return node.chronologicalId; } )
-      .call(nodeEvent);
+      .style('fill', 'transparent' )
+      .on('click', clickNode )
+      .on('touchstart', clickNode);
 
     // Public CDL API.
     return {
+      nodeCenter: null,
       setBackgroud: function() {
         background.style('fill', 'white');
       },
-      setCenter: function() {
-        center.attr('r', 5);
+      setCenter: function(color) {
+        center.attr('r', 5)
+          .style('fill', color)
+          .attr('cx', function() { return centerPoint.width(); })
+          .attr('cy', function() { return centerPoint.height(); });
       },
       setRootStyle: function() {
         // Update data.
@@ -644,6 +629,12 @@
     // Radial tree layout render.
     c = new CDL(data);
     c.setBackgroud();
+    c.setCenter('transparent');
+
+    // Add window Event Listeners.
+    window.onresize = function() {
+      c.setCenter('transparent');
+    };
 
   });
 
