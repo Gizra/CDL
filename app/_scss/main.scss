@@ -28,11 +28,14 @@ div.cdl {
   padding-right: 0;
 
   #content {
-    max-width: 768px;
     float:left;
+  }
+
+  #menu {
+    width: 340px;
+    float: right;
 
     #menu-nodes {
-      float: right;
 
       .navigation {
         bottom: 0px;
@@ -44,13 +47,10 @@ div.cdl {
     }
   }
 
-  #menu {
-    float: right;
-  }
 
   // General styling of image flexbox.
   .flex {
-    margin-left: -18px;
+    margin-left: -70px;
 
     img {
       width: 100%;
@@ -178,7 +178,7 @@ div.cdl {
   }
 
   div.node {
-    padding-left: 18px;
+    padding-left: 70px;
     float: left;
     max-width: 750px;
 
@@ -191,8 +191,9 @@ div.cdl {
       border-radius: 50%;
       background-color: red;
 
-      margin-top: 13px;
-      margin-bottom: 61px;
+      margin-left: -42px;
+      margin-top: 0px;
+      margin-bottom: 55px;
 
       div.text-title {
         width: 191px;
@@ -208,8 +209,8 @@ div.cdl {
 
     div.node-content {
       font-family: 'Calluna';
-      line-height: 1.22em;
-      font-size: 25px;
+      line-height: 1.4em;
+      font-size: 21px;
       color: black;
     }
   }
@@ -297,7 +298,8 @@ div.cdl {
             background-color: red;
             position: absolute;
             right: 21px;
-            top: 87%;
+            margin-top: -5px;
+            top: 100%;
           }
         }
       }
@@ -320,9 +322,28 @@ div.cdl {
 
 }
 
-@media only screen and (max-width: 767px) {
-  #menu {display:none;}
+@media only screen and (max-width: 768px) {
+
+  .cdl {
+
+    #menu {
+      display: none;
+    }
+  }
 }
+
+@media (min-width: 1200px) {
+
+  .cdl {
+    text-align: center;
+
+    #wrapper-content {
+      text-align: initial;
+    }
+
+  }
+}
+
 
 /*****************************************************************************/
 /*

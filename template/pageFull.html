@@ -4,12 +4,11 @@ layout: page
 ---
 {% include JB/setup %}
 <div id="{{ page.guid }}"  class="cdl">
-  <div class="clearfix">
-
+  <div id="wrapper-content" class="clearfix">
+    <div class="home-icon">
+      <a href="{{ BASE_PATH }}/#/{{ page.guid }}" alt="Home"><img class="img-responsive" src="{{ BASE_PATH }}/images/home.png"/></a>
+    </div>
     <div id="content">
-      <div class="home-icon">
-        <a href="{{ BASE_PATH }}/#/{{ page.guid }}" alt="Home"><img class="img-responsive" src="{{ BASE_PATH }}/images/home.png"/></a>
-      </div>
       <div class="node clearfix">
         <div class=" node-title ">
           <div class="text-title">
@@ -234,40 +233,38 @@ layout: page
         <div class="navigation-map"><img class="img-responsive" src="{{ BASE_PATH }}/images/map.png" alt="map"/></div>
         {% endif%}
       </div>
-    </div>
-    {% if page.siblings == empty %}
-    <div id="menu-nodes">
-      <div class="navigation">
-        <div class="navigation-parent">
-          {% if page.parent != empty %}
-          <div class="navigation-list">
-            <ul class="nav nav-tabs">
-              <li>
-                <a href="{{ BASE_PATH }}/pages/{{ page.parent.guid }}">{{ page.parent.name | upcase }}</a>
-              </li>
-            </ul>
+      {% if page.siblings == empty %}
+      <div id="menu-nodes">
+        <div class="navigation">
+          <div class="navigation-parent">
+            {% if page.parent != empty %}
+            <div class="navigation-list">
+              <ul class="nav nav-tabs">
+                <li>
+                  <a href="{{ BASE_PATH }}/pages/{{ page.parent.guid }}">{{ page.parent.name | upcase }}</a>
+                </li>
+              </ul>
+            </div>
+            {% endif %}
           </div>
-          {% endif %}
-        </div>
-        <div class="navigation-children">
-          {% if page.children != empty %}
-          <div class="navigation-list">
-            <ul class="nav nav-tabs">
-              {% for child in page.children %}
-              <li>
-                <a href="{{ BASE_PATH }}/pages/{{ child.guid }}">{{ child.name | upcase }}</a>
-              </li>
-              {% endfor %}
-            </ul>
+          <div class="navigation-children">
+            {% if page.children != empty %}
+            <div class="navigation-list">
+              <ul class="nav nav-tabs">
+                {% for child in page.children %}
+                <li>
+                  <a href="{{ BASE_PATH }}/pages/{{ child.guid }}">{{ child.name | upcase }}</a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
           </div>
-          {% endif %}
         </div>
       </div>
+      {% endif %}
     </div>
-    {% endif %}
   </div>
-
-
 </div>
 
 <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
