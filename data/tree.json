@@ -4,45 +4,9 @@
  "children": [
   {
    "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-   "name": "Zweig, Benjamin, Kafka: comets in the sky of German culture",
+   "name": "Zweig, Benjamin, Kafka: Comets in the Sky of German Culture",
    "data": "<p>In a gradual process which began in the last quarter of the 19<sup>th</sup> century, and  continued until the rise of the Nazis, Jews in the German-speaking world had made a transition from exclusion to acceptance. While until then Jews who wanted to take part in these societies usually had to convert to Christianity, a definite change took place after 1848, when many former restrictions were lifted. Jews were especially successful in the employment of these opportunities for advancement through education. It is this trend which allowed Kafka Zweig, and Benjamin to study at the university, and made the idea of Benjamin receiving a university position tenable.  Jews had become intellectual leaders in the German-speaking world. </p>\n\n\n",
    "attachments": [
-    {
-     "guid": "4287B530-C299-5DC6-BB81-564C300C2AFD",
-     "AttachmentEntries": {
-      "attachmentEntryID": "7B792E23-3396-2F3F-E878-9002120A5DE9"
-     },
-     "objectID": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-     "name": "The Young Kafka.jpg",
-     "attachmentType": "2",
-     "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\The Young Kafka.jpg",
-     "dataLength": "19900",
-     "format": ".jpg"
-    },
-    {
-     "guid": "F32ACC4F-BEFE-9695-5EE8-8B023E25429B",
-     "AttachmentEntries": {
-      "attachmentEntryID": "7B792E23-3396-2F3F-E878-9002120A5DE9"
-     },
-     "objectID": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-     "name": "Stefan Zweig.jpg",
-     "attachmentType": "2",
-     "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1513;&#1496;&#1508;&#1503; &#1510;&#1493;&#1493;&#1497;&#1490;\\Stefan Zweig.jpg",
-     "dataLength": "102350",
-     "format": ".jpg"
-    },
-    {
-     "guid": "808890D1-8B70-C1DB-49F5-B510BA6819CE",
-     "AttachmentEntries": {
-      "attachmentEntryID": "7B792E23-3396-2F3F-E878-9002120A5DE9"
-     },
-     "objectID": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-     "name": "Walter Benjamin in his youth.jpg",
-     "attachmentType": "2",
-     "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\Walter Benjamin in his youth.jpg",
-     "dataLength": "35861",
-     "format": ".jpg"
-    },
     {
      "guid": "157D1189-DCAC-2084-AFDC-AB2DC2102E87",
      "AttachmentEntries": {
@@ -80,28 +44,53 @@
      "format": ""
     },
     {
-     "guid": "4305ACF1-B408-81DA-6863-DC23CA3F1E74",
-     "AttachmentEntries": {
-      "attachmentEntryID": "7B792E23-3396-2F3F-E878-9002120A5DE9"
-     },
-     "objectID": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-     "name": "The Young Franz Kafka with Siganature.jpg",
-     "attachmentType": "1",
-     "location": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5/The Young Franz Kafka with Siganature.jpg",
-     "dataLength": "13807",
-     "format": ".jpg"
-    },
-    {
      "guid": "ACF72D62-8643-6D8B-B126-A675467CE2C2",
      "AttachmentEntries": {
       "attachmentEntryID": "7B792E23-3396-2F3F-E878-9002120A5DE9"
      },
      "objectID": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-     "name": "The Young Franz Kafka with Siganature.jpg",
+     "name": "",
+     "attachmentType": "0",
+     "location": "",
+     "dataLength": "0",
+     "format": "",
+     "deletedDateTime": "2013-12-19 11:32:52.878 @+0200"
+    },
+    {
+     "guid": "436002B7-1C2C-0C19-449A-0349B9471112",
+     "AttachmentEntries": {
+      "attachmentEntryID": "7B792E23-3396-2F3F-E878-9002120A5DE9"
+     },
+     "objectID": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
+     "name": "Stefan Zweig.jpg",
      "attachmentType": "1",
-     "location": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5/The Young Franz Kafka with Siganature.jpg",
-     "dataLength": "13807",
+     "location": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5\\Stefan Zweig.jpg",
+     "dataLength": "102350",
      "format": ".jpg"
+    },
+    {
+     "guid": "A2AE39F4-FE2E-99A3-8A76-BA25A66DA1CC",
+     "AttachmentEntries": {
+      "attachmentEntryID": "7B792E23-3396-2F3F-E878-9002120A5DE9"
+     },
+     "objectID": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
+     "name": "Walter Benjamin.jpg",
+     "attachmentType": "1",
+     "location": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5\\Walter Benjamin.jpg",
+     "dataLength": "35861",
+     "format": ".jpg"
+    },
+    {
+     "guid": "B922147F-C0D8-4830-586D-731C5DEA1F5A",
+     "AttachmentEntries": {
+      "attachmentEntryID": "7B792E23-3396-2F3F-E878-9002120A5DE9"
+     },
+     "objectID": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
+     "name": "Kafka passport photo.tif",
+     "attachmentType": "1",
+     "location": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5\\Kafka passport photo.tif",
+     "dataLength": "486832",
+     "format": ".tif"
     }
    ],
    "type": "default",
@@ -116,30 +105,6 @@
      "name": "German-speaking Jews in the NLI Archiv",
      "data": "<p>Being integrated into German-speaking society, Jews such as Zweig and Benjamin saw themselves as part of European society, and conceived Jewish identity as a universal phenomenon which lived in harmony with their Europeanism. With the rise of the Nazis to power their world fell apart. Many such Jewish intellectuals including Zweig, Benjamin, the famous poet Elsa Lasker-<span>Schüler&#160;</span>, the poet and writer Albert Ehrenstein, and many more, sent their archives to the National Library in Palestine in order to save what they could of their life's achievements and records.</p>\n",
      "attachments": [
-      {
-       "guid": "A74F1CDB-C3DE-7C3C-0BD1-84AA7B198529",
-       "AttachmentEntries": {
-        "attachmentEntryID": "59F86FD4-4F9C-B744-D80B-7ECEF299A529"
-       },
-       "objectID": "8321C673-6854-FED9-047D-8E432F85A344",
-       "name": "Zweig&apos;s Letter to Martin Buber, 24.1.1917, p.1.tif",
-       "attachmentType": "2",
-       "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1513;&#1496;&#1508;&#1503; &#1510;&#1493;&#1493;&#1497;&#1490;\\Zweig&apos;s Letter to Martin Buber, 24.1.1917, p.1.tif",
-       "dataLength": "680326",
-       "format": ".tif"
-      },
-      {
-       "guid": "8FDB55D6-C0B0-4C70-3C9D-01B9B5CDC81E",
-       "AttachmentEntries": {
-        "attachmentEntryID": "59F86FD4-4F9C-B744-D80B-7ECEF299A529"
-       },
-       "objectID": "8321C673-6854-FED9-047D-8E432F85A344",
-       "name": "The Manuscript of Walter Benjamin&apos;s Trauerspielbuch, 1925.png",
-       "attachmentType": "2",
-       "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\The Manuscript of Walter Benjamin&apos;s Trauerspielbuch, 1925.png",
-       "dataLength": "775459",
-       "format": ".png"
-      },
       {
        "guid": "B1408182-EB87-D631-4C9F-07C2215577E2",
        "AttachmentEntries": {
@@ -175,12 +140,36 @@
        "location": "8321C673-6854-FED9-047D-8E432F85A344\\Kafka&apos;s Hebrew Booklet, ca. 1917.jpg",
        "dataLength": "98349",
        "format": ".jpg"
+      },
+      {
+       "guid": "B1DC286E-2D29-D2DC-C359-FA6AFBBB4A2D",
+       "AttachmentEntries": {
+        "attachmentEntryID": "59F86FD4-4F9C-B744-D80B-7ECEF299A529"
+       },
+       "objectID": "8321C673-6854-FED9-047D-8E432F85A344",
+       "name": "The Manuscript of Walter Benjamin&apos;s Trauerspielbuch, 1925.png",
+       "attachmentType": "1",
+       "location": "8321C673-6854-FED9-047D-8E432F85A344\\The Manuscript of Walter Benjamin&apos;s Trauerspielbuch, 1925.png",
+       "dataLength": "509629",
+       "format": ".png"
+      },
+      {
+       "guid": "586D7213-33B4-4E3E-1BD6-245BD5BF6540",
+       "AttachmentEntries": {
+        "attachmentEntryID": "59F86FD4-4F9C-B744-D80B-7ECEF299A529"
+       },
+       "objectID": "8321C673-6854-FED9-047D-8E432F85A344",
+       "name": "Zweig&apos;s Letter to Martin Buber, 24.1.1917, p.1 .tif",
+       "attachmentType": "1",
+       "location": "8321C673-6854-FED9-047D-8E432F85A344\\Zweig&apos;s Letter to Martin Buber, 24.1.1917, p.1 .tif",
+       "dataLength": "547334",
+       "format": ".tif"
       }
      ],
      "type": "default",
      "parent": {
       "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-      "name": "Zweig, Benjamin, Kafka: comets in the sky of German culture"
+      "name": "Zweig, Benjamin, Kafka: Comets in the Sky of German Culture"
      },
      "hasChronologicalChildren": false,
      "children": [
@@ -189,18 +178,6 @@
        "name": "Stefan Zweig (1881 – 1942)",
        "data": "<p><span>The Austrian Jewish author Stefan Zweig was undoubtedly one of the great intellectuals of the 20<sup>th</sup> century. His novels, novellas, and historical biographies were best sellers, and were translated into more than fifty languages. <span>He was extremely popular in Europe as well as in the United States and South America, and remains so today in Continental Europe. As a pacifist and a humanist who conceived the idea of a united Europe, an idea which was completely surreal at the time, Zweig was ahead of his time. </span></span></p>\n<p> </p>\n\n\n",
        "attachments": [
-        {
-         "guid": "1E008E86-D3CE-9BE0-6F8C-37AA704CCF89",
-         "AttachmentEntries": {
-          "attachmentEntryID": "C1BFEB03-A557-B03D-092B-55A8538C2D36"
-         },
-         "objectID": "2E410E15-5403-8D01-B232-146BF004FBDC",
-         "name": "Stefan Zweig.jpg",
-         "attachmentType": "2",
-         "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1513;&#1496;&#1508;&#1503; &#1510;&#1493;&#1493;&#1497;&#1490;\\Stefan Zweig.jpg",
-         "dataLength": "102350",
-         "format": ".jpg"
-        },
         {
          "guid": "3B000642-9319-44A7-4667-04F74B2B42EF",
          "AttachmentEntries": {
@@ -211,6 +188,18 @@
          "attachmentType": "1",
          "location": "2E410E15-5403-8D01-B232-146BF004FBDC\\Austrian Coin In Memoriam Stefan Zweig.jpg",
          "dataLength": "89290",
+         "format": ".jpg"
+        },
+        {
+         "guid": "9615CEF2-F36D-DBE8-A7BE-DF59FAB81F9C",
+         "AttachmentEntries": {
+          "attachmentEntryID": "C1BFEB03-A557-B03D-092B-55A8538C2D36"
+         },
+         "objectID": "2E410E15-5403-8D01-B232-146BF004FBDC",
+         "name": "Stefan Zweig.jpg",
+         "attachmentType": "1",
+         "location": "2E410E15-5403-8D01-B232-146BF004FBDC\\Stefan Zweig.jpg",
+         "dataLength": "102350",
          "format": ".jpg"
         }
        ],
@@ -539,14 +528,14 @@
                            "data": "<p><span>On February 22ed 1942 Stefan Zweig and his wife Lotte, having taken an overdose of barbituates, were found dead in their apartment in Petropolis. She was wearing her Kimono, he, wearing his shirt and tie. The previous evening Zweig had played chess with his neighbor, had gone home and written a letter of farewell, explaining his decision to leave the world.</span></p>\n",
                            "attachments": [
                             {
-                             "guid": "AB016566-44C3-ABB6-15C9-566A2090D311",
+                             "guid": "52A3C435-9F21-4CFE-2BF5-755FF17727F4",
                              "AttachmentEntries": {
                               "attachmentEntryID": "07AAB914-1065-20BF-754E-7F7812EF4DE9"
                              },
                              "objectID": "129C5BB4-255B-050C-8511-93A446033B36",
                              "name": "Stefan Zweig&apos;s suicide letter.jpg",
-                             "attachmentType": "2",
-                             "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1513;&#1496;&#1508;&#1503; &#1510;&#1493;&#1493;&#1497;&#1490;\\Stefan Zweig&apos;s suicide letter.jpg",
+                             "attachmentType": "1",
+                             "location": "129C5BB4-255B-050C-8511-93A446033B36\\Stefan Zweig&apos;s suicide letter.jpg",
                              "dataLength": "60979",
                              "format": ".jpg"
                             }
@@ -662,15 +651,15 @@
              "format": ""
             },
             {
-             "guid": "BC0233C3-E9E2-A2D1-48FB-0EF05448F4F2",
+             "guid": "96947DED-7181-27CF-40ED-E7027D15CF18",
              "AttachmentEntries": {
               "attachmentEntryID": "56539D9A-469B-215C-123E-310D4F22BAF2"
              },
              "objectID": "8C71E338-7233-5876-B3D8-8B072725E49F",
              "name": "Herzl&apos;s Letter to Zweig, 2.11.1903.tif",
              "attachmentType": "1",
-             "location": "8C71E338-7233-5876-B3D8-8B072725E49F/Herzl&apos;s Letter to Zweig, 2.11.1903.tif",
-             "dataLength": "1574740",
+             "location": "8C71E338-7233-5876-B3D8-8B072725E49F\\Herzl&apos;s Letter to Zweig, 2.11.1903.tif",
+             "dataLength": "526630",
              "format": ".tif"
             }
            ],
@@ -740,28 +729,28 @@
            "data": "",
            "attachments": [
             {
-             "guid": "239C0495-CCCB-4126-E96A-76C9B83E7E16",
-             "AttachmentEntries": {
-              "attachmentEntryID": "7C9C4437-F070-FA83-72E4-B271F5CEC7A5"
-             },
-             "objectID": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
-             "name": "Zweig&apos;s Letter to Martin Buber, 24.1.1917, p.1.tif",
-             "attachmentType": "2",
-             "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1513;&#1496;&#1508;&#1503; &#1510;&#1493;&#1493;&#1497;&#1490;\\Zweig&apos;s Letter to Martin Buber, 24.1.1917, p.1.tif",
-             "dataLength": "680326",
-             "format": ".tif"
-            },
-            {
-             "guid": "E19915BB-B473-31AB-A190-FEDF0AA3BAAB",
+             "guid": "69916049-6A04-10A5-9997-9FC32FAA7265",
              "AttachmentEntries": {
               "attachmentEntryID": "7C9C4437-F070-FA83-72E4-B271F5CEC7A5"
              },
              "objectID": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
              "name": "Martin Buber.jpg",
-             "attachmentType": "2",
-             "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1513;&#1496;&#1508;&#1503; &#1510;&#1493;&#1493;&#1497;&#1490;\\Martin Buber.jpg",
+             "attachmentType": "1",
+             "location": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB\\Martin Buber.jpg",
              "dataLength": "48660",
              "format": ".jpg"
+            },
+            {
+             "guid": "829200FD-A1BE-CAC5-8AE1-D5E418C50098",
+             "AttachmentEntries": {
+              "attachmentEntryID": "7C9C4437-F070-FA83-72E4-B271F5CEC7A5"
+             },
+             "objectID": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
+             "name": "Zweig&apos;s Letter to Martin Buber,  24.1.1917, p.1.tif",
+             "attachmentType": "1",
+             "location": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB\\Zweig&apos;s Letter to Martin Buber,  24.1.1917, p.1.tif",
+             "dataLength": "441928",
+             "format": ".tif"
             }
            ],
            "type": "default",
@@ -801,15 +790,15 @@
                "format": ".pdf"
               },
               {
-               "guid": "E2468867-6DD2-A4D2-4FD5-7AA0040D60C6",
+               "guid": "48C9F3BA-E452-ADDD-FB0D-09618632B8F3",
                "AttachmentEntries": {
                 "attachmentEntryID": "F8FD7291-FEE5-FF54-D0DE-21D4869B5AE8"
                },
                "objectID": "F5CF3D21-6D29-2B7A-46BC-E1D5188ADE41",
-               "name": "Martin  Buber.jpg",
+               "name": "Martin Buber.jpg",
                "attachmentType": "1",
-               "location": "F5CF3D21-6D29-2B7A-46BC-E1D5188ADE41\\Martin  Buber.jpg",
-               "dataLength": "805266",
+               "location": "F5CF3D21-6D29-2B7A-46BC-E1D5188ADE41\\Martin Buber.jpg",
+               "dataLength": "477909",
                "format": ".jpg"
               }
              ],
@@ -828,15 +817,15 @@
              "data": "<p><span><span>Although born to Jewish parents, </span></span><a title=\"Religion\" href=\"http://en.wikipedia.org/wiki/Religion\"><span>religion</span></a><span><span> </span></span>did not play a central role in his education.  When i<span>nterviewed on this question Zweig said: \"My mother and father were Jewish only through</span><span><span> </span></span><a title=\"Accident of birth\" href=\"http://en.wikipedia.org/wiki/Accident_of_birth\"><span>accident of birth</span></a><span>\". Zweig believed in</span><span><span> universalism </span></span><a title=\"Internationalism (politics)\" href=\"http://en.wikipedia.org/wiki/Internationalism_(politics)\"><span>internationalism</span></a><span><span> </span></span><span>and in</span><span><span> </span></span><a title=\"Europeanism\" href=\"http://en.wikipedia.org/wiki/Europeanism\"><span>Europeanism</span></a><span> and adopted Judaism in as far as it supported these ideas. Yet he did not renounce his Jewish faith and wrote repeatedly on Jews and Jewish themes, as in his story</span><span><span> </span></span><i><a title=\"Buchmendel\" href=\"http://en.wikipedia.org/wiki/Buchmendel\"><span><span>Buchmendel</span></span></a></i><span>, and his Jewis</span>h identity clearly played a significant role in his life: “I have been vitally interested in Jewish problems all my life,” he wrote, “vitally aware of the Jewish blood that is in me ever since I have been conscious of it.\"</p>\n\n\n",
              "attachments": [
               {
-               "guid": "9E29F0CF-3DFA-5258-9105-546BD7626C3C",
+               "guid": "E1E244E0-A059-A1C4-BB1B-AA2CD0D85F44",
                "AttachmentEntries": {
                 "attachmentEntryID": "08F97CC0-31FE-E07B-217D-F81D7D2AFB27"
                },
                "objectID": "E6BEF91A-FBC5-E14F-9B65-4C7EA63AD875",
-               "name": "Zweig&apos;s Letter to Martin Buber, 24.1.1917, p.2.tif",
-               "attachmentType": "2",
-               "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1513;&#1496;&#1508;&#1503; &#1510;&#1493;&#1493;&#1497;&#1490;\\Zweig&apos;s Letter to Martin Buber, 24.1.1917, p.2.tif",
-               "dataLength": "738286",
+               "name": "Zweig&apos;s Letter to Martin Buber,  24.1.1917, p.2.tif",
+               "attachmentType": "1",
+               "location": "E6BEF91A-FBC5-E14F-9B65-4C7EA63AD875\\Zweig&apos;s Letter to Martin Buber,  24.1.1917, p.2.tif",
+               "dataLength": "386850",
                "format": ".tif"
               }
              ],
@@ -855,26 +844,26 @@
                "data": "<p><span>Zweig rejected totally, however, the Zionist movement which strove to create a national home for all the Jews in their historical homeland. Zweig believed that being a Jew allows him to conduct his life according to humanistic values, and refused to join the \"fanatical nationalistic movements\".</span></p>\n<p><span><span>In his letter </span></span><span>to the famous Jewish philosopher Martin Buber, written in 24.1.1917 in the midst of WWI, Zweig expounds on his attitude towards Judaism and Zionism. </span><span>Among other things Zweig mentions also the \"fanatic and nationalistic views\" of Kafka's close friend, Max Brod.</span></p>\n",
                "attachments": [
                 {
-                 "guid": "09661D90-9011-02B3-FE38-4F74F4058FDE",
+                 "guid": "546C911F-56C4-8838-E176-A9C3A0658C28",
                  "AttachmentEntries": {
                   "attachmentEntryID": "0B5062D9-4823-F849-C3AD-55829C82CF76"
                  },
                  "objectID": "BCD6A75F-82F3-6EDC-1024-7F03831F6CA0",
-                 "name": "Zweig&apos;s Letter to Martin Buber, 24.1.1917, p.3.tif",
-                 "attachmentType": "2",
-                 "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1513;&#1496;&#1508;&#1503; &#1510;&#1493;&#1493;&#1497;&#1490;\\Zweig&apos;s Letter to Martin Buber, 24.1.1917, p.3.tif",
-                 "dataLength": "603932",
+                 "name": "Zweig&apos;s Letter to Martin Buber,  24.1.1917, p.3.tif",
+                 "attachmentType": "1",
+                 "location": "BCD6A75F-82F3-6EDC-1024-7F03831F6CA0\\Zweig&apos;s Letter to Martin Buber,  24.1.1917, p.3.tif",
+                 "dataLength": "393736",
                  "format": ".tif"
                 },
                 {
-                 "guid": "5B22CAB0-1707-6FCC-1C51-71625286D778",
+                 "guid": "61945919-05C2-6BEC-4619-9AE4D56EE5FE",
                  "AttachmentEntries": {
                   "attachmentEntryID": "0B5062D9-4823-F849-C3AD-55829C82CF76"
                  },
                  "objectID": "BCD6A75F-82F3-6EDC-1024-7F03831F6CA0",
                  "name": "Balfour Declaration as published in The Times 9 November 1917.jpg",
-                 "attachmentType": "2",
-                 "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1513;&#1496;&#1508;&#1503; &#1510;&#1493;&#1493;&#1497;&#1490;\\Balfour Declaration as published in The Times 9 November 1917.jpg",
+                 "attachmentType": "1",
+                 "location": "BCD6A75F-82F3-6EDC-1024-7F03831F6CA0\\Balfour Declaration as published in The Times 9 November 1917.jpg",
                  "dataLength": "95289",
                  "format": ".jpg"
                 }
@@ -894,18 +883,6 @@
                  "data": "<p><span><span>[...] Regarding my feelings as a Jew, &#160;I have never felt as free as now, in the days of nationalist delusion. I am divided from you and your supporters &#160;by the fact that I have never wished that Judaism would become a nation again, thus reducing itself to competing with the present realities. &#160;I love the Diaspora and stand behind it because of its idealism, as well as its human and universal call.</span></span><span><span><span></span></span></span></p>\n<p><span><span><span>I do not wish for any union other &#160;than in spirit, the only real factor we have in common, never in a language, in nation, in customs and habits - beautiful but dangerous syntheses.</span></span></span></p>\n<p><span><span><span><span>I regard the present situation as the best for mankind: this being one entity without language, without bonds, without a homeland –united only through the aura of entity. Any closer and more tangible unification seems to me a diminution of this unparalleled situation. The only quality which we must reinforce is not to view this situation as humiliation, but rather to accept it with love and with full awareness, as I do. [...]</span></span></span></span></p>\n",
                  "attachments": [
                   {
-                   "guid": "BA7E130D-588E-A0E5-41FE-E345BA3A4634",
-                   "AttachmentEntries": {
-                    "attachmentEntryID": "591DAC20-F265-A3A0-F15C-74C000D827C0"
-                   },
-                   "objectID": "A39F194E-7EA0-E641-B943-A9255C33A28D",
-                   "name": "Zweig&apos;s Letter to Martin Buber, 24.1.1917, p.4.tif",
-                   "attachmentType": "2",
-                   "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1513;&#1496;&#1508;&#1503; &#1510;&#1493;&#1493;&#1497;&#1490;\\Zweig&apos;s Letter to Martin Buber, 24.1.1917, p.4.tif",
-                   "dataLength": "680014",
-                   "format": ".tif"
-                  },
-                  {
                    "guid": "B62DFEA1-50B3-0F4D-07BB-040190F6E68F",
                    "AttachmentEntries": {
                     "attachmentEntryID": "591DAC20-F265-A3A0-F15C-74C000D827C0"
@@ -916,6 +893,18 @@
                    "location": "http://buber.de/en/",
                    "dataLength": "0",
                    "format": ""
+                  },
+                  {
+                   "guid": "4F9EC24F-984A-1906-91DC-F0307E62506C",
+                   "AttachmentEntries": {
+                    "attachmentEntryID": "591DAC20-F265-A3A0-F15C-74C000D827C0"
+                   },
+                   "objectID": "A39F194E-7EA0-E641-B943-A9255C33A28D",
+                   "name": "Zweig&apos;s Letter to Martin Buber,  24.1.1917, p.4.tif",
+                   "attachmentType": "1",
+                   "location": "A39F194E-7EA0-E641-B943-A9255C33A28D\\Zweig&apos;s Letter to Martin Buber,  24.1.1917, p.4.tif",
+                   "dataLength": "350814",
+                   "format": ".tif"
                   }
                  ],
                  "type": "chronological",
@@ -996,16 +985,16 @@
        "data": "<p>Franz Kafka is one of the most prominent authors writing in German during the 20<sup>th</sup> century. Born in Prague in 1883, Kafka belonged to the intellectual milieu of Jews in Prague who identified themselves with the German culture and language. Together with Max Brod, Felix Weltsch, and Oskar Baum, Kafka was part of the \"Close Prague Circle\", a group of Jewish authors who met regularly and collaborated in their literary work.</p>\n<p>Making his living as an insurance officer, Kafka had low esteem for his work. It was only after his death that his works were published, due to the efforts of his good friend Max Brod and earned him a special place in the \"Hall of Fame\" of classic modern German literature.</p>",
        "attachments": [
         {
-         "guid": "D0EDF530-0677-5B07-BC6F-8E15C5F4D105",
+         "guid": "AE9B446C-61B2-CD78-45F5-F327E07DC272",
          "AttachmentEntries": {
           "attachmentEntryID": "BDD72773-92C4-27DE-78C6-DF6E7138E4E4"
          },
          "objectID": "69DCDB29-0DCD-2429-FB9E-E72337CB76E1",
-         "name": "Kafka, Portrait.jpg",
-         "attachmentType": "2",
-         "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\Kafka, Portrait.jpg",
-         "dataLength": "20554",
-         "format": ".jpg"
+         "name": "Kafka passport photo.tif",
+         "attachmentType": "1",
+         "location": "69DCDB29-0DCD-2429-FB9E-E72337CB76E1\\Kafka passport photo.tif",
+         "dataLength": "486832",
+         "format": ".tif"
         }
        ],
        "type": "default",
@@ -1021,14 +1010,14 @@
          "data": "",
          "attachments": [
           {
-           "guid": "8AB597A4-DC2E-4A7F-FCDE-705BAF512E4C",
+           "guid": "D9D826C9-1272-CB1C-93BE-BEC1A1F5A791",
            "AttachmentEntries": {
             "attachmentEntryID": "DFFD8E63-9907-8A4E-2222-32D5EFA75974"
            },
            "objectID": "BECC5ABA-AB23-EA10-9DD6-17B72E29AE48",
            "name": "Jaroslav R&#243;na&apos;s bronze statue of Franz Kafka in Prague.jpg",
-           "attachmentType": "2",
-           "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\Jaroslav R&#243;na&apos;s bronze statue of Franz Kafka in Prague.jpg",
+           "attachmentType": "1",
+           "location": "BECC5ABA-AB23-EA10-9DD6-17B72E29AE48\\Jaroslav R&#243;na&apos;s bronze statue of Franz Kafka in Prague.jpg",
            "dataLength": "26162",
            "format": ".jpg"
           }
@@ -1046,51 +1035,51 @@
            "data": "<p>Franz Kafka was born in 1883, to a German-speaking Jewish family. He was the first of six children, though only he and his three sisters reached adulthood. His father, who ran a retail business, was a domineering uneducated man, while his mother was a quiet, shy, well-educated woman. &#160;Kafka suffered from his father's authoritarian attitude; this relationship left a dominant mark on his psyche, as is evident from the <i>Letter to His Father</i> (early 1920's).</p>\n<p>Kafka, who was an excellent student, studied at a German elementary school, and later in a classic German Gymnasium where High German was taught. Although he spoke Czech, he cultivated his German and identified with the German culture.</p>\n",
            "attachments": [
             {
-             "guid": "F6D82411-A3D3-6148-980B-5093C8CE87E9",
-             "AttachmentEntries": {
-              "attachmentEntryID": "8CCA9149-7F76-1C2B-4F53-A7D6EE42F43F"
-             },
-             "objectID": "9211A3E8-4BD5-6E99-0C37-E41E7A4D161D",
-             "name": "Kafka, 5 years old.jpg",
-             "attachmentType": "2",
-             "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\Kafka, 5 years old.jpg",
-             "dataLength": "27812",
-             "format": ".jpg"
-            },
-            {
-             "guid": "BB5B72DE-73E9-2E4E-0D51-A4A63D1C88E2",
-             "AttachmentEntries": {
-              "attachmentEntryID": "8CCA9149-7F76-1C2B-4F53-A7D6EE42F43F"
-             },
-             "objectID": "9211A3E8-4BD5-6E99-0C37-E41E7A4D161D",
-             "name": "The Young Kafka.jpg",
-             "attachmentType": "2",
-             "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\The Young Kafka.jpg",
-             "dataLength": "19900",
-             "format": ".jpg"
-            },
-            {
-             "guid": "FBED7EF3-1C99-76F9-22BB-352A294EC00E",
-             "AttachmentEntries": {
-              "attachmentEntryID": "8CCA9149-7F76-1C2B-4F53-A7D6EE42F43F"
-             },
-             "objectID": "9211A3E8-4BD5-6E99-0C37-E41E7A4D161D",
-             "name": "Kafka, 10 Years Old, With His Sisters.jpg",
-             "attachmentType": "2",
-             "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\Kafka, 10 Years Old, With His Sisters.jpg",
-             "dataLength": "26009",
-             "format": ".jpg"
-            },
-            {
-             "guid": "4F622830-5C66-16F7-D59A-EE9BAEA00DD0",
+             "guid": "F70A36BC-1CC3-7291-C4F9-D58482300724",
              "AttachmentEntries": {
               "attachmentEntryID": "8CCA9149-7F76-1C2B-4F53-A7D6EE42F43F"
              },
              "objectID": "9211A3E8-4BD5-6E99-0C37-E41E7A4D161D",
              "name": "kafka&apos;s letter to his father.jpg",
-             "attachmentType": "2",
-             "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\kafka&apos;s letter to his father.jpg",
+             "attachmentType": "1",
+             "location": "9211A3E8-4BD5-6E99-0C37-E41E7A4D161D\\kafka&apos;s letter to his father.jpg",
              "dataLength": "162582",
+             "format": ".jpg"
+            },
+            {
+             "guid": "46015BB2-58BC-11F6-8ABF-B909CAB46335",
+             "AttachmentEntries": {
+              "attachmentEntryID": "8CCA9149-7F76-1C2B-4F53-A7D6EE42F43F"
+             },
+             "objectID": "9211A3E8-4BD5-6E99-0C37-E41E7A4D161D",
+             "name": "Kafka, 10 Years Old, With His Sisters.jpg",
+             "attachmentType": "1",
+             "location": "9211A3E8-4BD5-6E99-0C37-E41E7A4D161D\\Kafka, 10 Years Old, With His Sisters.jpg",
+             "dataLength": "26009",
+             "format": ".jpg"
+            },
+            {
+             "guid": "D7BFE510-694F-5E3B-817B-964A1350C030",
+             "AttachmentEntries": {
+              "attachmentEntryID": "8CCA9149-7F76-1C2B-4F53-A7D6EE42F43F"
+             },
+             "objectID": "9211A3E8-4BD5-6E99-0C37-E41E7A4D161D",
+             "name": "Kafka, 5 years old.jpg",
+             "attachmentType": "1",
+             "location": "9211A3E8-4BD5-6E99-0C37-E41E7A4D161D\\Kafka, 5 years old.jpg",
+             "dataLength": "27812",
+             "format": ".jpg"
+            },
+            {
+             "guid": "3FE91D6D-E15C-43D7-0D03-C0DF5073D996",
+             "AttachmentEntries": {
+              "attachmentEntryID": "8CCA9149-7F76-1C2B-4F53-A7D6EE42F43F"
+             },
+             "objectID": "9211A3E8-4BD5-6E99-0C37-E41E7A4D161D",
+             "name": "The Young Kafka.jpg",
+             "attachmentType": "1",
+             "location": "9211A3E8-4BD5-6E99-0C37-E41E7A4D161D\\The Young Kafka.jpg",
+             "dataLength": "19900",
              "format": ".jpg"
             }
            ],
@@ -1109,30 +1098,6 @@
              "data": "<p>Like many middle-class Jews in Prague, Kafka chose to continue his higher education at the German Charles Ferdinand University, where he at first studied chemistry and later law. It was during this period that he made the acquaintance of&#160; Felix Weltsch, Oskar Baum, Franz Werfel, and Max Brod; Kafka, Weltsch and Brod would later call themselves <span><span>&#160;</span></span><i><span>Der enge Prager Kreis</span></i><span><span>&#160;</span></span><span>(\"The Close Prague Circle\").</span></p>\n",
              "attachments": [
               {
-               "guid": "0B6A022F-DFD8-E82F-ACFE-87E06ECDB6C6",
-               "AttachmentEntries": {
-                "attachmentEntryID": "DC786C70-93FB-992E-2FF9-9C6909FCE0E7"
-               },
-               "objectID": "B9A5DA7A-D132-ACC5-C1EB-F21A3A65455A",
-               "name": "Franz Kafka and Max Brod on the Beach.jpg",
-               "attachmentType": "2",
-               "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\Franz Kafka and Max Brod on the Beach.jpg",
-               "dataLength": "23152",
-               "format": ".jpg"
-              },
-              {
-               "guid": "88F3B865-37B2-D91C-61CC-A6442EB11E1F",
-               "AttachmentEntries": {
-                "attachmentEntryID": "DC786C70-93FB-992E-2FF9-9C6909FCE0E7"
-               },
-               "objectID": "B9A5DA7A-D132-ACC5-C1EB-F21A3A65455A",
-               "name": "Kafka with his sister Ottilie near their Parents house in Prague.jpg",
-               "attachmentType": "2",
-               "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\Kafka with his sister Ottilie near their Parents house in Prague.jpg",
-               "dataLength": "37500",
-               "format": ".jpg"
-              },
-              {
                "guid": "8D11DD39-371E-9A60-6A06-BCBD367B234A",
                "AttachmentEntries": {
                 "attachmentEntryID": "DC786C70-93FB-992E-2FF9-9C6909FCE0E7"
@@ -1143,6 +1108,30 @@
                "location": "http://www.youtube.com/watch?v=H5FFR6coTu8",
                "dataLength": "0",
                "format": ""
+              },
+              {
+               "guid": "6AAFD1DB-D178-5A40-4A18-A6A35E7A338E",
+               "AttachmentEntries": {
+                "attachmentEntryID": "DC786C70-93FB-992E-2FF9-9C6909FCE0E7"
+               },
+               "objectID": "B9A5DA7A-D132-ACC5-C1EB-F21A3A65455A",
+               "name": "Franz Kafka and Max Brod on the Beach.jpg",
+               "attachmentType": "1",
+               "location": "B9A5DA7A-D132-ACC5-C1EB-F21A3A65455A\\Franz Kafka and Max Brod on the Beach.jpg",
+               "dataLength": "23152",
+               "format": ".jpg"
+              },
+              {
+               "guid": "E18659FE-2F45-EAED-F42D-75710C37F1AF",
+               "AttachmentEntries": {
+                "attachmentEntryID": "DC786C70-93FB-992E-2FF9-9C6909FCE0E7"
+               },
+               "objectID": "B9A5DA7A-D132-ACC5-C1EB-F21A3A65455A",
+               "name": "Kafka with his sister Ottilie near their Parents house in Prague.jpg",
+               "attachmentType": "1",
+               "location": "B9A5DA7A-D132-ACC5-C1EB-F21A3A65455A\\Kafka with his sister Ottilie near their Parents house in Prague.jpg",
+               "dataLength": "37500",
+               "format": ".jpg"
               }
              ],
              "type": "chronological",
@@ -1160,27 +1149,27 @@
                "data": "<p><span>After graduating in 1906 and completing his year of training, Kafka started to work as an insurance officer.</span>&#160; Kafka called this his <i>Brotberuf</i> or \"Bread Job\", and constantly bemoaned the fact that he did not have enough time for his real passion: writing. Despite this he wrote almost incessantly, writing stories, novels and letters. Yet, he was extremely critical regarding his works; as a result, many of his texts remained unfinished. Thus, his three famous novels, <i>The Castle</i>, <i>The Trial</i>, <i>The Missing Man</i>, as well as a number of stories were found unfinished by his close friend, the writer Max Brod. One of the most famous stories is <i>The Metamorphosis</i>, relating the story of the miserable Gregor Samsa who woke up one morning finding himself transformed into a huge insect.</p>\n",
                "attachments": [
                 {
-                 "guid": "32CC3BA3-CE57-3D43-6B24-33EE4D1B60B2",
-                 "AttachmentEntries": {
-                  "attachmentEntryID": "DB5AD260-9356-7726-7434-1A868F011304"
-                 },
-                 "objectID": "A708AB7A-159C-2276-0CD2-2B7E9E24DB2A",
-                 "name": "The Metamorphosis, First Edition Cover.jpg",
-                 "attachmentType": "2",
-                 "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\The Metamorphosis, First Edition Cover.jpg",
-                 "dataLength": "56681",
-                 "format": ".jpg"
-                },
-                {
-                 "guid": "F8628092-C333-3338-B892-42467FE9105B",
+                 "guid": "B0745D93-B1D1-4ECC-10B3-257B41CECDFB",
                  "AttachmentEntries": {
                   "attachmentEntryID": "DB5AD260-9356-7726-7434-1A868F011304"
                  },
                  "objectID": "A708AB7A-159C-2276-0CD2-2B7E9E24DB2A",
                  "name": "Kafka as Insurance Officer.jpg",
-                 "attachmentType": "2",
-                 "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\Kafka as Insurance Officer.jpg",
+                 "attachmentType": "1",
+                 "location": "A708AB7A-159C-2276-0CD2-2B7E9E24DB2A\\Kafka as Insurance Officer.jpg",
                  "dataLength": "60381",
+                 "format": ".jpg"
+                },
+                {
+                 "guid": "F62D3E8F-3878-1435-5509-6E403DA3FED4",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "DB5AD260-9356-7726-7434-1A868F011304"
+                 },
+                 "objectID": "A708AB7A-159C-2276-0CD2-2B7E9E24DB2A",
+                 "name": "The Metamorphosis, First Edition Cover.jpg",
+                 "attachmentType": "1",
+                 "location": "A708AB7A-159C-2276-0CD2-2B7E9E24DB2A\\The Metamorphosis, First Edition Cover.jpg",
+                 "dataLength": "56681",
                  "format": ".jpg"
                 }
                ],
@@ -1199,38 +1188,38 @@
                  "data": "<p>Kafka had many relationships with women. He had actually been betrothed to four of them, though none of these close relationships ever ended in marriage.</p>\n<p>During WWI&#160; Kafka received a draft notice.&#160; At first he was exempted by his employers; later, in 1917, when he attempted to enlist, Kafka was diagnosed with Tuberculosis, from which he suffered increasingly until his painful death in 1924.</p>\n",
                  "attachments": [
                   {
-                   "guid": "763A6938-F8E8-E8DF-BBA7-08AA7832D19E",
+                   "guid": "566F536E-4592-D7BD-DE26-F3A72795CC64",
                    "AttachmentEntries": {
                     "attachmentEntryID": "40A7E239-48D3-5855-04A8-6D7001F23D72"
                    },
                    "objectID": "AA67C69C-E433-132A-305B-A0BB13C9B4A8",
                    "name": "Dora Diamant, Kafka&apos;s Lover, 1923-1924 Until His Death.jpg",
-                   "attachmentType": "2",
-                   "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\Dora Diamant, Kafka&apos;s Lover, 1923-1924 Until His Death.jpg",
+                   "attachmentType": "1",
+                   "location": "AA67C69C-E433-132A-305B-A0BB13C9B4A8\\Dora Diamant, Kafka&apos;s Lover, 1923-1924 Until His Death.jpg",
                    "dataLength": "28949",
                    "format": ".jpg"
                   },
                   {
-                   "guid": "D3BB1E63-BD98-C7B1-3768-BAC1AFC7DDCB",
+                   "guid": "75998326-3CD6-2353-4507-092237FCAA20",
                    "AttachmentEntries": {
                     "attachmentEntryID": "40A7E239-48D3-5855-04A8-6D7001F23D72"
                    },
                    "objectID": "AA67C69C-E433-132A-305B-A0BB13C9B4A8",
                    "name": "Milena Jesensk&#225;, Kafkas Passionate Correspondent and Unfulfilled Love, 1919-1923.jpg",
-                   "attachmentType": "2",
-                   "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\Milena Jesensk&#225;, Kafkas Passionate Correspondent and Unfulfilled Love, 1919-1923.jpg",
+                   "attachmentType": "1",
+                   "location": "AA67C69C-E433-132A-305B-A0BB13C9B4A8\\Milena Jesensk&#225;, Kafkas Passionate Correspondent and Unfulfilled Love, 1919-1923.jpg",
                    "dataLength": "12987",
                    "format": ".jpg"
                   },
                   {
-                   "guid": "A405F5C2-7D6D-C42D-90C6-59BD7D1DBFBD",
+                   "guid": "C4DFF828-86A4-F965-1AAC-439A70569E2C",
                    "AttachmentEntries": {
                     "attachmentEntryID": "40A7E239-48D3-5855-04A8-6D7001F23D72"
                    },
                    "objectID": "AA67C69C-E433-132A-305B-A0BB13C9B4A8",
                    "name": "Kafka and Friends at the pleasure ground Prater in Vienna, 1913.jpg",
-                   "attachmentType": "2",
-                   "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\Kafka and Friends at the pleasure ground Prater in Vienna, 1913.jpg",
+                   "attachmentType": "1",
+                   "location": "AA67C69C-E433-132A-305B-A0BB13C9B4A8\\Kafka and Friends at the pleasure ground Prater in Vienna, 1913.jpg",
                    "dataLength": "77445",
                    "format": ".jpg"
                   }
@@ -1250,26 +1239,26 @@
                    "data": "<p><span>In spring 1914, Franz Kafka was about to go to Berlin in order to be betrothed to his first fiancée, Felice Bauer (whom he never married). In this letter Kafka invites Lise Weltsch, the young lady who was photographed with him and other friends from Vienna, to meet him and his fiancée in Berlin. Kafka expresses his delight at leaving his parents' home in Prague where he was residing then, and coming to spend some time in Berlin.&#160;</span></p>\n",
                    "attachments": [
                     {
-                     "guid": "70E18B04-4DBF-FAFA-6DA1-EABFCF40193C",
+                     "guid": "575330A2-08F1-495C-19B4-7A8886910A32",
                      "AttachmentEntries": {
                       "attachmentEntryID": "DEE243CF-089F-FAC2-B3F5-E7EE3949D238"
                      },
                      "objectID": "8C60FB1C-AAC9-8BD9-A539-639A40EB28A8",
                      "name": "Letter to Lise Weltsch, 1914.tif",
-                     "attachmentType": "2",
-                     "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\Letter to Lise Weltsch, 1914.tif",
+                     "attachmentType": "1",
+                     "location": "8C60FB1C-AAC9-8BD9-A539-639A40EB28A8\\Letter to Lise Weltsch, 1914.tif",
                      "dataLength": "432814",
                      "format": ".tif"
                     },
                     {
-                     "guid": "5DAC57CA-B038-B555-1DC2-AA25F1A435AC",
+                     "guid": "51E373BA-A538-C93A-058A-205107847A8E",
                      "AttachmentEntries": {
                       "attachmentEntryID": "DEE243CF-089F-FAC2-B3F5-E7EE3949D238"
                      },
                      "objectID": "8C60FB1C-AAC9-8BD9-A539-639A40EB28A8",
                      "name": "Letter to Lise Weltsch, 1914, p.2.tif",
-                     "attachmentType": "2",
-                     "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\Letter to Lise Weltsch, 1914, p.2.tif",
+                     "attachmentType": "1",
+                     "location": "8C60FB1C-AAC9-8BD9-A539-639A40EB28A8\\Letter to Lise Weltsch, 1914, p.2.tif",
                      "dataLength": "329898",
                      "format": ".tif"
                     }
@@ -1300,18 +1289,6 @@
                      "format": ""
                     },
                     {
-                     "guid": "D6A741AD-1123-9B16-AD5E-0FE4A902D332",
-                     "AttachmentEntries": {
-                      "attachmentEntryID": "1AB39BD6-40EC-B23B-400D-61CC9BA071E2"
-                     },
-                     "objectID": "E0E8F390-F4AC-5530-4CC7-1E6781681DD3",
-                     "name": "Franz Kafka&apos;s grave in Prague-&#381;i&#382;kov.jpg",
-                     "attachmentType": "2",
-                     "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\Franz Kafka&apos;s grave in Prague-&#381;i&#382;kov.jpg",
-                     "dataLength": "116206",
-                     "format": ".jpg"
-                    },
-                    {
                      "guid": "2EEDC10B-59BC-5097-F885-A2D835E9D677",
                      "AttachmentEntries": {
                       "attachmentEntryID": "1AB39BD6-40EC-B23B-400D-61CC9BA071E2"
@@ -1322,6 +1299,18 @@
                      "location": "http://www.kafka-research.ox.ac.uk/",
                      "dataLength": "0",
                      "format": ""
+                    },
+                    {
+                     "guid": "F2D2A05A-18A4-56DC-9ED5-5A7EB017167C",
+                     "AttachmentEntries": {
+                      "attachmentEntryID": "1AB39BD6-40EC-B23B-400D-61CC9BA071E2"
+                     },
+                     "objectID": "E0E8F390-F4AC-5530-4CC7-1E6781681DD3",
+                     "name": "Franz Kafka&apos;s grave in Prague-&#381;i&#382;kov.jpg",
+                     "attachmentType": "1",
+                     "location": "E0E8F390-F4AC-5530-4CC7-1E6781681DD3\\Franz Kafka&apos;s grave in Prague-&#381;i&#382;kov.jpg",
+                     "dataLength": "116206",
+                     "format": ".jpg"
                     }
                    ],
                    "type": "chronological",
@@ -1350,18 +1339,6 @@
          "data": "<p><span>Although from a Jewish family, Kafka's Jewish education was minimal and amounted to a few visits a year at the Synagogue. Yet, in 1911, having been enchanted by a Yiddish theatre performance, he took up the study of Yiddish language and literature; as a consequence of this his interest in Judaism was aroused. During the early 1920's in Prague Kafka started studying modern <span>Hebrew</span>. Under the influence of his last lover, Dora Diamant, who came from an Orthodox Jewish family, Kafka even showed interest in the <span>Talmud</span>! It was during that time, when they were living in Berlin, that Kafka took classes in Judaism.</span></p>\n",
          "attachments": [
           {
-           "guid": "DA5ACB57-25CB-ED16-89FC-3611B71600A4",
-           "AttachmentEntries": {
-            "attachmentEntryID": "5A341F2D-34AF-6989-03F0-6BEDAF824B88"
-           },
-           "objectID": "DF00CA57-F915-CDD6-7365-1491D0609B78",
-           "name": "Dora  Diamant.jpg",
-           "attachmentType": "2",
-           "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\Dora  Diamant.jpg",
-           "dataLength": "5900",
-           "format": ".jpg"
-          },
-          {
            "guid": "858D9018-FCE4-6665-2C0A-B05EB61CFC1A",
            "AttachmentEntries": {
             "attachmentEntryID": "5A341F2D-34AF-6989-03F0-6BEDAF824B88"
@@ -1371,6 +1348,18 @@
            "attachmentType": "1",
            "location": "DF00CA57-F915-CDD6-7365-1491D0609B78\\Kafka&apos;s Hebrew Booklet, ca. 1917.jpg",
            "dataLength": "98349",
+           "format": ".jpg"
+          },
+          {
+           "guid": "FA12D7D4-4627-6A39-B922-F1BC0673AC8F",
+           "AttachmentEntries": {
+            "attachmentEntryID": "5A341F2D-34AF-6989-03F0-6BEDAF824B88"
+           },
+           "objectID": "DF00CA57-F915-CDD6-7365-1491D0609B78",
+           "name": "Dora  Diamant.jpg",
+           "attachmentType": "1",
+           "location": "DF00CA57-F915-CDD6-7365-1491D0609B78\\Dora  Diamant.jpg",
+           "dataLength": "5900",
            "format": ".jpg"
           }
          ],
@@ -1412,27 +1401,27 @@
              "data": "<p><span>S.H. Bergmann was a philosopher and intellectual. Bergmann and Kafka grew up together in Prague. Although they attended the same schools and were close friends, Bergmann was an avid Zionist and his Jewish origins were central to his self- identity. He immigrated to Palestine in 1920, and was appointed as Head of the National Library, an office he held until 1935. Bergmann was appointed also as Professor of Philosophy at the Hebrew University and served as the University Rector. Together with <span>Martin Buber, Gershom Scholem, </span>and others,<b> </b>Bergmann was a member of <i>Brit Shalom</i>, \"Covenant of Peace\", which supported the Coexistence of Jews and Arabs in one state.</span></p>\n",
              "attachments": [
               {
-               "guid": "2B8593FD-1FE3-5DEA-09A3-4AF285B60D71",
-               "AttachmentEntries": {
-                "attachmentEntryID": "571F70FB-9FA9-EE75-3871-870B5738F1E2"
-               },
-               "objectID": "F8764905-77D6-2F1F-C4A6-0376797AED4A",
-               "name": "Samuel Hugo Bergman.jpg",
-               "attachmentType": "2",
-               "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\Samuel Hugo Bergman.jpg",
-               "dataLength": "23093",
-               "format": ".jpg"
-              },
-              {
-               "guid": "E25ECD73-03E6-4F37-D449-AB192EA50346",
+               "guid": "8D776765-BD4A-AB69-8ECE-191DB6958A3A",
                "AttachmentEntries": {
                 "attachmentEntryID": "571F70FB-9FA9-EE75-3871-870B5738F1E2"
                },
                "objectID": "F8764905-77D6-2F1F-C4A6-0376797AED4A",
                "name": "Bergman and the Czech Presidant Masaryk on their Way to Visit the National Library, Jerusalem, 1927.jpg",
-               "attachmentType": "2",
-               "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1511;&#1508;&#1511;&#1488;\\Bergman and the Czech Presidant Masaryk on their Way to Visit the National Library, Jerusalem, 1927.jpg",
+               "attachmentType": "1",
+               "location": "F8764905-77D6-2F1F-C4A6-0376797AED4A\\Bergman and the Czech Presidant Masaryk on their Way to Visit the National Library, Jerusalem, 1927.jpg",
                "dataLength": "369503",
+               "format": ".jpg"
+              },
+              {
+               "guid": "0F253A21-4100-F25C-F1E8-C9FC29546256",
+               "AttachmentEntries": {
+                "attachmentEntryID": "571F70FB-9FA9-EE75-3871-870B5738F1E2"
+               },
+               "objectID": "F8764905-77D6-2F1F-C4A6-0376797AED4A",
+               "name": "Samuel Hugo Bergman.jpg",
+               "attachmentType": "1",
+               "location": "F8764905-77D6-2F1F-C4A6-0376797AED4A\\Samuel Hugo Bergman.jpg",
+               "dataLength": "23093",
                "format": ".jpg"
               }
              ],
@@ -1467,18 +1456,6 @@
          "location": "EE550BDB-EFDD-6B93-AA1D-B5936F29BAFB\\Walter Benjamin, Portrait.jpg",
          "dataLength": "20913",
          "format": ".jpg"
-        },
-        {
-         "guid": "4065B0D1-0721-3F48-EF2E-A0F8FA0A42E2",
-         "AttachmentEntries": {
-          "attachmentEntryID": "906FD7A5-5D4F-B633-20FD-A20443109E64"
-         },
-         "objectID": "EE550BDB-EFDD-6B93-AA1D-B5936F29BAFB",
-         "name": "Walter Benjamin.jpg",
-         "attachmentType": "1",
-         "location": "EE550BDB-EFDD-6B93-AA1D-B5936F29BAFB/Walter Benjamin.jpg",
-         "dataLength": "8033",
-         "format": ".jpg"
         }
        ],
        "type": "default",
@@ -1494,15 +1471,15 @@
          "data": "",
          "attachments": [
           {
-           "guid": "0AAD2B98-9C78-65E0-EE00-696E32578ADD",
+           "guid": "B59B0B7C-4099-1EE2-6B99-683A13E42C87",
            "AttachmentEntries": {
             "attachmentEntryID": "2AAD3AB2-EFC3-7519-6BC6-D84C95DFF55D"
            },
            "objectID": "063191BF-282F-35D3-AD28-70F721D9DD0C",
-           "name": "Walter Benjamin&#8217;s library card, Biblioth&#232;que Nationale, Paris, 1940.png",
-           "attachmentType": "2",
-           "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\Walter Benjamin&#8217;s library card, Biblioth&#232;que Nationale, Paris, 1940.png",
-           "dataLength": "2952774",
+           "name": "Walter Benjamin&#8217;s library card, Biblioth&#232;que Nationale,  Paris, 1940.png",
+           "attachmentType": "1",
+           "location": "063191BF-282F-35D3-AD28-70F721D9DD0C\\Walter Benjamin&#8217;s library card, Biblioth&#232;que Nationale,  Paris, 1940.png",
+           "dataLength": "450674",
            "format": ".png"
           }
          ],
@@ -1519,16 +1496,29 @@
            "data": "<p><b><span>Walter Benjamin</span></b><span> was born to a prosperous Jewish family in Berlin on July 15, 1892. He received a private education at home until the age of ten, after which he finished high school and studied philosophy at the Humboldt University of Berlin. As WWI broke out, Benjamin was beginning to translate the poetry of Charles Baudelaire. In 1915, at the age of 23, Benjamin moved to Munich where he met Gershom Scholem, the future founder of modern Kabbalah research, with whom he forged a close friendship that would last for many years. In Munich, Benjamin also met the poet Rainer Maria Rilke and authored a paper on the poet Hölderlin.</span></p>\n",
            "attachments": [
             {
-             "guid": "8F162781-F7A7-78CE-819F-E7894A7B90B1",
+             "guid": "E12C7A8F-06BD-0148-A8F9-EB314BE1B74C",
              "AttachmentEntries": {
               "attachmentEntryID": "C3A1514D-1872-3741-9A51-C5060ECEDA17"
              },
              "objectID": "522273B5-4B92-CDD7-9294-9F548B99B963",
-             "name": "Walter Benjamin in his youth.jpg",
-             "attachmentType": "2",
-             "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\Walter Benjamin in his youth.jpg",
+             "name": "Walter Benjamin.jpg",
+             "attachmentType": "1",
+             "location": "522273B5-4B92-CDD7-9294-9F548B99B963\\Walter Benjamin.jpg",
              "dataLength": "35861",
              "format": ".jpg"
+            },
+            {
+             "guid": "851BEB15-1F37-5DC1-DE7F-B653C76F6E35",
+             "AttachmentEntries": {
+              "attachmentEntryID": "C3A1514D-1872-3741-9A51-C5060ECEDA17"
+             },
+             "objectID": "522273B5-4B92-CDD7-9294-9F548B99B963",
+             "name": "",
+             "attachmentType": "0",
+             "location": "",
+             "dataLength": "0",
+             "format": "",
+             "deletedDateTime": "2013-12-19 17:22:00.893 @+0200"
             }
            ],
            "type": "chronological",
@@ -1546,14 +1536,14 @@
              "data": "<p><span>Having managed to avoid being drafted into the German army by feigning lower back pain, Benjamin moved to Bern in Switzerland in 1917. There, in 1919, he received his doctorate on \"The Concept of Art Criticism in German Romanticism\", <em><span>summa cum laude</span></em>. However, failing to find his niche in the academic world, Benjamin struggled to make a living. By this time he was married to Dora Pollack and father to a son named Stefan Raphael. Benjamin wrote an essay entitled: \"A Critique of Violence\", published a translation of Baudelaire and continued to write and research, but the family’s financial situation deteriorated as a result of the crisis in the Weimar Republic.</span></p>\n<p>&#160;</p>\n",
              "attachments": [
               {
-               "guid": "1C63EF06-BBA3-C429-62FC-C2F5570D5121",
+               "guid": "E4DCB3EE-1397-F6B7-3E26-3311615F1A1F",
                "AttachmentEntries": {
                 "attachmentEntryID": "F1072ACA-DC17-A2C6-5827-047AB1A3A026"
                },
                "objectID": "A2C82F85-76FE-26E0-C04C-6C8F88F64926",
                "name": "Bejamin&apos;s dissertation, The Concept of Art Criticism in German Romanticism.jpg",
-               "attachmentType": "2",
-               "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\Bejamin&apos;s dissertation, The Concept of Art Criticism in German Romanticism.jpg",
+               "attachmentType": "1",
+               "location": "A2C82F85-76FE-26E0-C04C-6C8F88F64926\\Bejamin&apos;s dissertation, The Concept of Art Criticism in German Romanticism.jpg",
                "dataLength": "41483",
                "format": ".jpg"
               }
@@ -1571,7 +1561,20 @@
                "guid": "448A68D1-326C-D903-A151-5FE65663F890",
                "name": ":3: Benjamin, Scholem, and Zionism",
                "data": "<p><span>In 1923 Benjamin’s good friend </span><span>Gerschom Scholem</span><span>, influenced by </span><span>Martin Buber</span><span>, decided to immigrate to Palestine (Eretz Yisrael). Scholem invited Benjamin to join him, later even trying to&#160;entice him with a lectureship at the Hebrew University, but to no avail. Benjamin had never been drawn to Zionism, seeing Judaism, like </span><span>Zweig</span><span>, as a spiritual-cultural force in Europe:</span><span> \"My life experience led me to this insight: the Jews represent an elite in the ranks of the spiritually active ... For Judaism is to me in no sense an end in itself, but the most distinguished bearer and representative of the spiritual.\"</span></p>\n",
-               "attachments": [],
+               "attachments": [
+                {
+                 "guid": "2261AEAE-167B-6208-CDA0-8237E5301BE6",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "8DE29127-A0EC-BCAC-32A0-E1133166E68B"
+                 },
+                 "objectID": "448A68D1-326C-D903-A151-5FE65663F890",
+                 "name": "Gershom Scholem, 1925 JBA[1].jpg",
+                 "attachmentType": "1",
+                 "location": "448A68D1-326C-D903-A151-5FE65663F890\\Gershom Scholem, 1925 JBA[1].jpg",
+                 "dataLength": "51145",
+                 "format": ".jpg"
+                }
+               ],
                "type": "chronological",
                "chronologicalId": "3",
                "chronologicalName": "Benjamin, Scholem, and Zionism",
@@ -1587,14 +1590,14 @@
                  "data": "<p><span>Benjamin continued writing in German and gradually won himself recognition in the intellectual community. A study he wrote on a novel by Goethe, a book on the origin of German tragedy and his ongoing research activities were supposed to pave the way to tenure at a German University, but this was not to be. In the 1920's Benjamin translated part of Proust’s&#160;<em><span>À la recherche du temps perdu</span></em>, wrote for the newspapers and lived for a while in Paris. There in&#160;the bustling modern French capital, he began his great work on Parisian life in the 19th century.</span></p>\n",
                  "attachments": [
                   {
-                   "guid": "BE4C68FB-DB57-00F6-BD31-BE5736E9F08F",
+                   "guid": "35C3BBD8-8664-C9F9-E0BB-3677B410FEA3",
                    "AttachmentEntries": {
                     "attachmentEntryID": "D1F7BAFF-FB1D-53EB-4063-9A90782F59EB"
                    },
                    "objectID": "2D87E24D-E771-A01F-7AC8-6424F12BDB73",
                    "name": "The Origin of German Tragic Drama, Walter Benjamin.jpg",
-                   "attachmentType": "2",
-                   "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\The Origin of German Tragic Drama, Walter Benjamin.jpg",
+                   "attachmentType": "1",
+                   "location": "2D87E24D-E771-A01F-7AC8-6424F12BDB73\\The Origin of German Tragic Drama, Walter Benjamin.jpg",
                    "dataLength": "40430",
                    "format": ".jpg"
                   }
@@ -1626,14 +1629,14 @@
                      "format": ""
                     },
                     {
-                     "guid": "B3DDEE51-D889-3414-C693-A797735A0F45",
+                     "guid": "63F6F437-6797-CF99-308E-DD3CFE801AED",
                      "AttachmentEntries": {
                       "attachmentEntryID": "F8B03797-CEC7-C050-40A1-264E1A20E1B3"
                      },
                      "objectID": "97F1239D-149E-FD6A-7BF3-6C48E4B27E43",
                      "name": "Walter Benjamin - Plaque comm&#233;morative 10 rue Dombasle, 75015 Paris.jpg",
-                     "attachmentType": "2",
-                     "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\Walter Benjamin - Plaque comm&#233;morative 10 rue Dombasle, 75015 Paris.jpg",
+                     "attachmentType": "1",
+                     "location": "97F1239D-149E-FD6A-7BF3-6C48E4B27E43\\Walter Benjamin - Plaque comm&#233;morative 10 rue Dombasle, 75015 Paris.jpg",
                      "dataLength": "285639",
                      "format": ".jpg"
                     }
@@ -1653,26 +1656,26 @@
                      "data": "<p><span>In this letter, apparently the last one written by Benjamin to Scholem in Germany, Benjamin has only begun to comprehend the severity of the changes in his homeland. Though he refers to the worsening situation in Germany after the Nazi's takeover in January 1933 as one of his reasons for leaving, he is also occupied with the growing complications involving the publication of his works. Towards the end, he expresses his opinion that Kafka's works are misinterpreted by some of their contemporaries.&#160;</span></p>\n",
                      "attachments": [
                       {
-                       "guid": "637C7BB3-FBC8-78AC-9E1D-BD7BE9069626",
+                       "guid": "78EB3068-229D-C0D0-C067-E9E51DF305B9",
                        "AttachmentEntries": {
                         "attachmentEntryID": "FA74EC51-1134-93CE-E29A-F30895439F2F"
                        },
                        "objectID": "C588E3AE-91EB-2A99-50B8-6520308382D6",
-                       "name": "Letter by Walter Benjamin to Gershom Scholem, Berlin 28.2.1933, p.1.jpg",
-                       "attachmentType": "2",
-                       "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\Letter by Walter Benjamin to Gershom Scholem, Berlin 28.2.1933, p.1.jpg",
-                       "dataLength": "0",
+                       "name": "Letter by Walter Benjamin to Gershom Scholem, Berlin 28.2.1933, p.1.jpeg.jpg",
+                       "attachmentType": "1",
+                       "location": "C588E3AE-91EB-2A99-50B8-6520308382D6\\Letter by Walter Benjamin to Gershom Scholem, Berlin 28.2.1933, p.1.jpeg.jpg",
+                       "dataLength": "195305",
                        "format": ".jpg"
                       },
                       {
-                       "guid": "B33B1074-F97F-16D3-2AEC-9C3748C99ABE",
+                       "guid": "F51BC064-A730-926D-06D1-028F5C1A9B4A",
                        "AttachmentEntries": {
                         "attachmentEntryID": "FA74EC51-1134-93CE-E29A-F30895439F2F"
                        },
                        "objectID": "C588E3AE-91EB-2A99-50B8-6520308382D6",
                        "name": "Letter by Walter Benjamin to Gershom Scholem, 28.2.1933, p.2.jpg",
-                       "attachmentType": "2",
-                       "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\Letter by Walter Benjamin to Gershom Scholem, 28.2.1933, p.2.jpg",
+                       "attachmentType": "1",
+                       "location": "C588E3AE-91EB-2A99-50B8-6520308382D6\\Letter by Walter Benjamin to Gershom Scholem, 28.2.1933, p.2.jpg",
                        "dataLength": "160580",
                        "format": ".jpg"
                       }
@@ -1742,14 +1745,14 @@
                          "format": ".html"
                         },
                         {
-                         "guid": "6C684294-17DC-386B-CBBC-F9FFB7942130",
+                         "guid": "986D0168-75C2-56ED-F33C-BE9523CE26BB",
                          "AttachmentEntries": {
                           "attachmentEntryID": "82CE2E1D-471E-9DA8-E355-AAA764C10389"
                          },
                          "objectID": "5A10788F-2F22-AEC1-F1C1-1D90B2AB0CD0",
                          "name": "Walter Benjamin&apos;s grave in Portbou..jpg",
-                         "attachmentType": "2",
-                         "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\Walter Benjamin&apos;s grave in Portbou..jpg",
+                         "attachmentType": "1",
+                         "location": "5A10788F-2F22-AEC1-F1C1-1D90B2AB0CD0\\Walter Benjamin&apos;s grave in Portbou..jpg",
                          "dataLength": "18889",
                          "format": ".jpg"
                         }
@@ -1783,18 +1786,6 @@
          "name": "Philosopher and Critic of Modern Intellectual Trends",
          "data": "<p><span>Benjamin’s philosophy drew upon several sources:&#160; aesthetics, Marxist theory, the philosophy of Theodore Adorno and the Frankfurt School, and the influence of Jewish mysticism as encountered through the works of </span><span>Gershom Scholem</span><span>. Today, Walter Benjamin is perceived as a seminal critic of twentieth century western intellectual trends, someone who viewed the proletariat as the central force on the historical and cultural stage, understood the significance of the city in modernist perceptions and the new human experience, and dealt intensively with the importance of translation as a cultural act.</span></p>\n",
          "attachments": [
-          {
-           "guid": "4AD698A5-A450-C6DE-F48F-0CF4EE1EDC9E",
-           "AttachmentEntries": {
-            "attachmentEntryID": "AE3D240E-A224-B4D4-0504-35F3AE2BF22D"
-           },
-           "objectID": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02",
-           "name": "Members of the Frankfurt School, Horkheimer (front left), Adorno (front right) and Habermas (background, right), 1964 by J. Shapiro, Heidelberg.png",
-           "attachmentType": "2",
-           "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\Members of the Frankfurt School, Horkheimer (front left), Adorno (front right) and Habermas (background, right), 1964 by J. Shapiro, Heidelberg.png",
-           "dataLength": "547989",
-           "format": ".png"
-          },
           {
            "guid": "64737482-D011-9CC0-D8F7-20B2F85C4171",
            "AttachmentEntries": {
@@ -1854,6 +1845,18 @@
            "location": "http://www.photoquotes.com/showquotes.aspx?id=160",
            "dataLength": "0",
            "format": ".aspx"
+          },
+          {
+           "guid": "88B91824-E1A4-8C61-C6F0-1ADCE0A4B2A6",
+           "AttachmentEntries": {
+            "attachmentEntryID": "AE3D240E-A224-B4D4-0504-35F3AE2BF22D"
+           },
+           "objectID": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02",
+           "name": "Members of the Frankfurt School,  Horkheimer (front left),  Adorno (front right) and Habermas (background, right), 1964 by J. Shapiro, Heidelberg.png",
+           "attachmentType": "1",
+           "location": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02\\Members of the Frankfurt School,  Horkheimer (front left),  Adorno (front right) and Habermas (background, right), 1964 by J. Shapiro, Heidelberg.png",
+           "dataLength": "429327",
+           "format": ".png"
           }
          ],
          "type": "default",
@@ -1869,14 +1872,14 @@
            "data": "<p><span>This is Benjamin's personal copy of his essay commemorating Franz Kafka on the occasion of the tenth year after his death, written in exile in 1934. Benjamin was one of the first who dealt intensively with Kafka's work and its Jewish contexts. In this text he also discusses exhaustively a number of famous works by Kafka, among them <i>The Trial</i>. Like others, this typescript with Benjamin's own handwritten corrections, was sent by him to Scholem, who had already been living in Jerusalem for over a decade.</span></p>\n",
            "attachments": [
             {
-             "guid": "EA2DAE53-45DE-F324-30AA-FFC781B8259A",
+             "guid": "DF2D0A2F-C01D-9D50-E306-69B14CB20474",
              "AttachmentEntries": {
               "attachmentEntryID": "A713A1AB-91A2-F4D6-EAA9-AE2A957930C0"
              },
              "objectID": "1DD1B7AA-B6DC-8BF8-E629-916882ACB92A",
              "name": "Benjamin&apos;s commemorative essay on Franz Kafka.jpg",
-             "attachmentType": "2",
-             "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\Benjamin&apos;s commemorative essay on Franz Kafka.jpg",
+             "attachmentType": "1",
+             "location": "1DD1B7AA-B6DC-8BF8-E629-916882ACB92A\\Benjamin&apos;s commemorative essay on Franz Kafka.jpg",
              "dataLength": "147586",
              "format": ".jpg"
             }
@@ -1947,26 +1950,26 @@
          "data": "<p><span>When Benjamin felt the ground beginning to tremble under his feet he started thinking of the possibility of immigrating to Palestine, as did many other German-Jews at the time. Although he never reached Palestine, he had been sending material to his close friend </span><span>Gershom Scholem</span><span>, who was at first head of The Judaica department at the National Library and since 1925 a University professor at the Hebrew University. In fact, Benjamin wrote to Scholem that these materials are all part of the <i>Beniaminia</i> archive which he was slowly building. Benjamin, like Zweig, understood that if he were to perish, the NLI is the only real safe haven for his intellectual work when all else is lost.</span></p>\n\n\n",
          "attachments": [
           {
-           "guid": "58CB1B70-6EDB-130D-092E-EC88B1C708E1",
+           "guid": "E68AD12C-0630-3CED-1C2D-25D96C12C009",
            "AttachmentEntries": {
             "attachmentEntryID": "CE32BB2C-CD2E-091E-C2E1-0F0B1FF2A937"
            },
            "objectID": "FF8523E3-155F-6F3D-37FB-5E17940C6DAF",
-           "name": "The Manuscript of Walter Benjamin&apos;s Trauerspielbuch, 1925.png",
-           "attachmentType": "2",
-           "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\The Manuscript of Walter Benjamin&apos;s Trauerspielbuch, 1925.png",
-           "dataLength": "775459",
+           "name": "The Manuscript of Walter Benjamin&apos;s Trauerspielbuch, 1925 .png",
+           "attachmentType": "1",
+           "location": "FF8523E3-155F-6F3D-37FB-5E17940C6DAF\\The Manuscript of Walter Benjamin&apos;s Trauerspielbuch, 1925 .png",
+           "dataLength": "509629",
            "format": ".png"
           },
           {
-           "guid": "BF0FE320-56A9-B233-C934-C0B9031ED3E6",
+           "guid": "E81C4FDE-5346-DD71-F3A6-7CF1F2BB3D5E",
            "AttachmentEntries": {
             "attachmentEntryID": "CE32BB2C-CD2E-091E-C2E1-0F0B1FF2A937"
            },
            "objectID": "FF8523E3-155F-6F3D-37FB-5E17940C6DAF",
            "name": "Benjamin&apos;s handwritten notebook, with parchment cover, at the National Library.jpg",
-           "attachmentType": "2",
-           "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\Benjamin&apos;s handwritten notebook, with parchment cover, at the National Library.jpg",
+           "attachmentType": "1",
+           "location": "FF8523E3-155F-6F3D-37FB-5E17940C6DAF\\Benjamin&apos;s handwritten notebook, with parchment cover, at the National Library.jpg",
            "dataLength": "69502",
            "format": ".jpg"
           }
@@ -1984,39 +1987,39 @@
            "data": "<p>In this letter Benjamin mentions to Scholem his intention of staying in Ibiza for a while, a plan which will materialize somewhat later. &#160;He also informs him of a new manuscript he will soon be sending. Benjamin notes that \"<b>this text is especially meant to adorn your archive\", probably because it refers to Hebrew as well</b>. The typescript which bears the title <i>Über die <b>Sprache</b> überhaupt und über die <b>Sprache</b> des Menschen</i>, <i>also hebräisch</i> (<i>About language as such, and about the language of people, as well as about Hebrew</i>) <b>was indeed sent and is found in the Walter Benjamin archives.</b></p>\n",
            "attachments": [
             {
-             "guid": "211B9B31-7AD9-A7F6-D620-4DD92F934493",
+             "guid": "B7B715CA-9ADD-49DA-8A30-476355CACEA4",
              "AttachmentEntries": {
               "attachmentEntryID": "26F9F82B-3390-F890-335B-B116E0C8CC64"
              },
              "objectID": "ECB2D7AF-DF48-0A65-D929-5639449F580C",
-             "name": "Letter by Walter Benjamin to Gershom Scholem, Paris, 20 March 1933, p.1.jpg",
-             "attachmentType": "2",
-             "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\Letter by Walter Benjamin to Gershom Scholem, Paris, 20 March 1933, p.1.jpg",
-             "dataLength": "175052",
-             "format": ".jpg"
-            },
-            {
-             "guid": "447897AB-6D42-24B7-1FC8-F34E7C9CEC48",
-             "AttachmentEntries": {
-              "attachmentEntryID": "26F9F82B-3390-F890-335B-B116E0C8CC64"
-             },
-             "objectID": "ECB2D7AF-DF48-0A65-D929-5639449F580C",
-             "name": "Letter by Walter Benjamin to Gershom Scholem, Paris, 20 March 1933, p.2.jpg",
-             "attachmentType": "2",
-             "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\Letter by Walter Benjamin to Gershom Scholem, Paris, 20 March 1933, p.2.jpg",
+             "name": "Letter by Walter Benjamin to Gershom Scholem, Paris, 20 March 1933, p.1 (2).jpg",
+             "attachmentType": "1",
+             "location": "ECB2D7AF-DF48-0A65-D929-5639449F580C\\Letter by Walter Benjamin to Gershom Scholem, Paris, 20 March 1933, p.1 (2).jpg",
              "dataLength": "224314",
              "format": ".jpg"
             },
             {
-             "guid": "6C99B31A-632E-2EFD-1E07-1B419341CB6B",
+             "guid": "53B28BA9-45F6-C848-C82B-A5A2D7CE7CCA",
              "AttachmentEntries": {
               "attachmentEntryID": "26F9F82B-3390-F890-335B-B116E0C8CC64"
              },
              "objectID": "ECB2D7AF-DF48-0A65-D929-5639449F580C",
              "name": "Letter by Walter Benjamin to Gershom Scholem, Paris, 20 March 1933, p.3.jpg",
-             "attachmentType": "2",
-             "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488; - &#1488;&#1512;&#1499;&#1497;&#1493;&#1504;&#1497;&#1501;\\&#1493;&#1493;&#1500;&#1496;&#1512; &#1489;&#1504;&#1497;&#1502;&#1497;&#1503;\\Letter by Walter Benjamin to Gershom Scholem, Paris, 20 March 1933, p.3.jpg",
+             "attachmentType": "1",
+             "location": "ECB2D7AF-DF48-0A65-D929-5639449F580C\\Letter by Walter Benjamin to Gershom Scholem, Paris, 20 March 1933, p.3.jpg",
              "dataLength": "130978",
+             "format": ".jpg"
+            },
+            {
+             "guid": "DD5A8C4A-17ED-B5E5-2B51-EB4C04BF03C5",
+             "AttachmentEntries": {
+              "attachmentEntryID": "26F9F82B-3390-F890-335B-B116E0C8CC64"
+             },
+             "objectID": "ECB2D7AF-DF48-0A65-D929-5639449F580C",
+             "name": "Letter by Walter Benjamin to Gershom Scholem, Paris, 20 March 1933, p.2.jpg",
+             "attachmentType": "1",
+             "location": "ECB2D7AF-DF48-0A65-D929-5639449F580C\\Letter by Walter Benjamin to Gershom Scholem, Paris, 20 March 1933, p.2.jpg",
+             "dataLength": "224314",
              "format": ".jpg"
             }
            ],
@@ -2143,27 +2146,27 @@
        "data": "<p>The National Library of Israel preserves several other ancient Torah scrolls, among them a scroll from Yemen, dating from around 1050-1150. The scroll contains large fragments of the Book of Numbers.</p>\n<p>Another Torah scroll from Germany dates from the 15th century.</p>\n",
        "attachments": [
         {
-         "guid": "CDACBB29-5655-FD28-DEC7-15B6F0670924",
+         "guid": "45D4825A-6FD2-FCD9-7675-330CC6C1E662",
          "AttachmentEntries": {
           "attachmentEntryID": "9BBEE146-23E9-344B-3DDA-9DF2493C89AA"
          },
          "objectID": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0",
-         "name": "A Torah Scroll from Yemen, 11th-12th centuries.jpg",
+         "name": "A Torah Scroll from Yemen,  11th-12th centuries.jpg",
          "attachmentType": "1",
-         "location": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0\\A Torah Scroll from Yemen, 11th-12th centuries.jpg",
-         "dataLength": "4832937",
+         "location": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0\\A Torah Scroll from Yemen,  11th-12th centuries.jpg",
+         "dataLength": "270323",
          "format": ".jpg"
         },
         {
-         "guid": "8369212A-62A5-3209-BE40-81305A62A4B6",
+         "guid": "7B1A6A44-F43D-3774-D1B8-2C13A94BEDDE",
          "AttachmentEntries": {
           "attachmentEntryID": "9BBEE146-23E9-344B-3DDA-9DF2493C89AA"
          },
          "objectID": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0",
-         "name": "A Torah Scroll, Germany, 15th century.jpg",
+         "name": "A Torah Scroll, Germany,  15th century.jpg",
          "attachmentType": "1",
-         "location": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0\\A Torah Scroll, Germany, 15th century.jpg",
-         "dataLength": "4136686",
+         "location": "775884A8-6C8D-69C1-ACCF-F59C43B5EFF0\\A Torah Scroll, Germany,  15th century.jpg",
+         "dataLength": "448384",
          "format": ".jpg"
         }
        ],
@@ -2244,33 +2247,9 @@
     },
     {
      "guid": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
-     "name": ":_: Torah Introduction",
+     "name": "Torah Introduction",
      "data": "<p><span><b><span>The Torah</span></b></span></p>\n<p><span><span><b><span>The Torah, the first five books of the Old Testament, is the oldest and most sacred text of the Jews.&#160;</span></b></span></span></p>\n<p><span><span><b><span>It is believed traditionally to have been given by God to Moses on Mount Sinai. Modern scholarship maintains that it was written by various authors throughout several centuries, probably from the ninth century BCE onward.</span></b></span></span></p>\n",
      "attachments": [
-      {
-       "guid": "A960B2CB-3725-D881-E06F-0376C25500C5",
-       "AttachmentEntries": {
-        "attachmentEntryID": "F7CAB229-388E-6F7C-E8E2-1AD4B08772F4"
-       },
-       "objectID": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
-       "name": "Receiving the Torah, Prayer book, North Italy, c.1450.jpg",
-       "attachmentType": "1",
-       "location": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1\\Receiving the Torah, Prayer book, North Italy, c.1450.jpg",
-       "dataLength": "544154",
-       "format": ".jpg"
-      },
-      {
-       "guid": "5A8A38AB-9EB9-7AFE-4B47-58F9EEFDF820",
-       "AttachmentEntries": {
-        "attachmentEntryID": "F7CAB229-388E-6F7C-E8E2-1AD4B08772F4"
-       },
-       "objectID": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
-       "name": "The Torah Scroll from Spain, 5.jpg",
-       "attachmentType": "1",
-       "location": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1\\The Torah Scroll from Spain, 5.jpg",
-       "dataLength": "1053432",
-       "format": ".jpg"
-      },
       {
        "guid": "3FA6C0D3-30BC-FA8D-C359-A73CFB982EB9",
        "AttachmentEntries": {
@@ -2294,10 +2273,21 @@
        "location": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1\\Moses, a painting by Jansson.jpg",
        "dataLength": "58841",
        "format": ".jpg"
+      },
+      {
+       "guid": "C13AE99F-02A1-D0D5-9421-A73B87EFC319",
+       "AttachmentEntries": {
+        "attachmentEntryID": "F7CAB229-388E-6F7C-E8E2-1AD4B08772F4"
+       },
+       "objectID": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
+       "name": "Receiving the Torah,  Prayer book, North Italy, c.1450.jpg",
+       "attachmentType": "1",
+       "location": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1\\Receiving the Torah,  Prayer book, North Italy, c.1450.jpg",
+       "dataLength": "399712",
+       "format": ".jpg"
       }
      ],
-     "type": "bastard",
-     "bastardName": "Torah Introduction",
+     "type": "default",
      "parent": {
       "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
       "name": "The Torah Scroll from Spain"
@@ -2383,6 +2373,18 @@
            "location": "4693F853-82C7-E7DA-A02F-5F91D4E39AA1\\Writing a torah.jpg",
            "dataLength": "12344",
            "format": ".jpg"
+          },
+          {
+           "guid": "728C1478-F964-3296-4FA3-9A67336A152C",
+           "AttachmentEntries": {
+            "attachmentEntryID": "61DC61A4-1C9E-76DE-23EB-5020425FEED0"
+           },
+           "objectID": "4693F853-82C7-E7DA-A02F-5F91D4E39AA1",
+           "name": "Thumbs.db",
+           "attachmentType": "1",
+           "location": "4693F853-82C7-E7DA-A02F-5F91D4E39AA1\\Thumbs.db",
+           "dataLength": "25600",
+           "format": ".db"
           }
          ],
          "type": "chronological",
@@ -2535,7 +2537,7 @@
     {
      "guid": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
      "name": ":1: From Spain to Jerusalem",
-     "data": "<p><span><b><span>The NLI houses various such Torah Scrolls. The Scroll we present here, which had belonged to the Kahal Shalom Synagogue in Rhodes, is actually one of the less impressive to look at;&#160;</span></b></span></p>\n<p><span><b><span>it is in fact disintegrating and according to our conservationist - is actually beyond repair.</span></b></span></p>\n<p><span><b><span>Although the NLI possesses finer ones - in a much better state of preservation, we chose to present it because of the fascinating story of its wanderings throughout the Mediterranean and the hardships it had encountered until its arrival at our library in the summer of 1999.</span></b></span></p>\n<p><span><b><span>This story represents the history of the Jewish people through the ages in a nutshell.</span></b></span></p>\n",
+     "data": "<p><span><b><span>The NLI houses various such Torah Scrolls. The Scroll we present here, which had belonged to the Kahal Shalom Synagogue in Rhodes, is actually one of the less impressive to look at;&#160;</span></b></span></p>\n<p><span><b><span>it is in fact disintegrating and according to our conservationist - is actually beyond repair.</span></b></span></p>\n<p><span><b><span>Although the NLI possesses finer ones - in a much better state of preservation, we chose to present it because of the fascinating story of its wanderings throughout the Mediterranean and the hardships it had encountered until its arrival at our library in the summer of 1999.</span></b></span></p>\n<p><span><b><span>This story represents the history of the Jewish people through the ages in a nutshell.</span></b></span></p>\n<p><span><b><span>&#160;</span></b></span></p>\n<p><span><b><span>Photo of Coat: The inscription reads 'Donated in memory of our dear brothers who died in sanctification of the divine name, by Hayyim and Lilly Noterika'.</span></b></span></p>\n",
      "attachments": [
       {
        "guid": "5C66B93A-8EE7-19CB-B22A-A09A17467B27",
@@ -2550,30 +2552,6 @@
        "format": ".jpg"
       },
       {
-       "guid": "76C5F7F2-2DD1-F5E4-9B4E-D419C96B70C7",
-       "AttachmentEntries": {
-        "attachmentEntryID": "610F31FD-D5AF-3418-1186-4F39FCAF7981"
-       },
-       "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
-       "name": "The Torah Scroll from Spain, no.13.jpg",
-       "attachmentType": "1",
-       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah Scroll from Spain, no.13.jpg",
-       "dataLength": "691971",
-       "format": ".jpg"
-      },
-      {
-       "guid": "4FBF4726-EFBC-EE3E-A5A8-C5ACC1578C66",
-       "AttachmentEntries": {
-        "attachmentEntryID": "610F31FD-D5AF-3418-1186-4F39FCAF7981"
-       },
-       "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
-       "name": "The Torah Scroll from Spain, no.10.jpg",
-       "attachmentType": "1",
-       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah Scroll from Spain, no.10.jpg",
-       "dataLength": "639057",
-       "format": ".jpg"
-      },
-      {
        "guid": "A8D54909-C09C-5FB3-DF97-4E7809E55570",
        "AttachmentEntries": {
         "attachmentEntryID": "610F31FD-D5AF-3418-1186-4F39FCAF7981"
@@ -2583,6 +2561,54 @@
        "attachmentType": "1",
        "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah Scroll from Spain, no.11.jpg",
        "dataLength": "509226",
+       "format": ".jpg"
+      },
+      {
+       "guid": "462C1168-F8D4-727A-4AAE-886B88995BF7",
+       "AttachmentEntries": {
+        "attachmentEntryID": "610F31FD-D5AF-3418-1186-4F39FCAF7981"
+       },
+       "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
+       "name": "Coat of the Torah Scroll from Spain.jpg",
+       "attachmentType": "1",
+       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\Coat of the Torah Scroll from Spain.jpg",
+       "dataLength": "218440",
+       "format": ".jpg"
+      },
+      {
+       "guid": "8EBE37FD-DF1F-AD74-7614-C545D94FE023",
+       "AttachmentEntries": {
+        "attachmentEntryID": "610F31FD-D5AF-3418-1186-4F39FCAF7981"
+       },
+       "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
+       "name": "The Torah Scroll from Spain,  no.10.jpg",
+       "attachmentType": "1",
+       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah Scroll from Spain,  no.10.jpg",
+       "dataLength": "311922",
+       "format": ".jpg"
+      },
+      {
+       "guid": "C157FEB8-9CB9-0556-C1DE-CB7D9320FE79",
+       "AttachmentEntries": {
+        "attachmentEntryID": "610F31FD-D5AF-3418-1186-4F39FCAF7981"
+       },
+       "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
+       "name": "Torah Scroll from Spain,  Open Sheet,  2.jpg",
+       "attachmentType": "1",
+       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\Torah Scroll from Spain,  Open Sheet,  2.jpg",
+       "dataLength": "376495",
+       "format": ".jpg"
+      },
+      {
+       "guid": "B9BD51A6-C052-7DEF-FFCB-0913E3EA4771",
+       "AttachmentEntries": {
+        "attachmentEntryID": "610F31FD-D5AF-3418-1186-4F39FCAF7981"
+       },
+       "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
+       "name": "The Torah Scroll from Spain, n no.13.jpg",
+       "attachmentType": "1",
+       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah Scroll from Spain, n no.13.jpg",
+       "dataLength": "310421",
        "format": ".jpg"
       }
      ],
@@ -2775,7 +2801,7 @@
             {
              "guid": "C686E53C-0F9C-5637-78E5-A508AE770632",
              "name": ":5: Final Stop - NLI",
-             "data": "<p>&#160;</p>\n<p>After the war was over the Scroll was returned to the few survivors of the community, and the honorary president of the community, Mr. Moshe Sauriano gave them to the Ben Atar family, to be brought to the NLI, in memory of the Jews from Rhodes who were exterminated.</p>\n<p><br />\n<br />\n&#160;</p>\n",
+             "data": "<p> </p>\n<p>After the war was over the Scroll was returned to the few survivors of the community, and the honorary president of the community, Mr. Moshe Sauriano gave them to the Benatar family, to be brought to the NLI, in memory of the Jews from Rhodes who were exterminated.</p>\n<p><br />\n<br />\n </p>\n\n\n",
              "attachments": [
               {
                "guid": "FA4EFC5D-A6B9-8AC3-2A0C-8592D6509A16",
@@ -2783,7 +2809,7 @@
                 "attachmentEntryID": "BDB0BEF9-00E2-F6AB-C9E8-9E86215CBC44"
                },
                "objectID": "C686E53C-0F9C-5637-78E5-A508AE770632",
-               "name": "Ben atar interview",
+               "name": "Benatar Interview",
                "attachmentType": "3",
                "location": " http://youtu.be/jTa_mqCx54E",
                "dataLength": "0",
@@ -2795,9 +2821,9 @@
                 "attachmentEntryID": "BDB0BEF9-00E2-F6AB-C9E8-9E86215CBC44"
                },
                "objectID": "C686E53C-0F9C-5637-78E5-A508AE770632",
-               "name": "Donation of the Torah scroll by the Ben-Atar family.jpg",
+               "name": "Donation of the Torah scroll by the Benatar family.jpg",
                "attachmentType": "1",
-               "location": "C686E53C-0F9C-5637-78E5-A508AE770632\\Donation of the Torah scroll by the Ben-Atar family.jpg",
+               "location": "C686E53C-0F9C-5637-78E5-A508AE770632\\Donation of the Torah scroll by the Benatar family.jpg",
                "dataLength": "358398",
                "format": ".jpg"
               },
@@ -2807,9 +2833,9 @@
                 "attachmentEntryID": "BDB0BEF9-00E2-F6AB-C9E8-9E86215CBC44"
                },
                "objectID": "C686E53C-0F9C-5637-78E5-A508AE770632",
-               "name": "Donation of the Torah scroll by the Ben-Atar family 2.jpg",
+               "name": "Donation of the Torah scroll by the Benatar family 2.jpg",
                "attachmentType": "1",
-               "location": "C686E53C-0F9C-5637-78E5-A508AE770632\\Donation of the Torah scroll by the Ben-Atar family 2.jpg",
+               "location": "C686E53C-0F9C-5637-78E5-A508AE770632\\Donation of the Torah scroll by the Benatar family 2.jpg",
                "dataLength": "331804",
                "format": ".jpg"
               }
@@ -2925,54 +2951,6 @@
      "data": "<p><span>The Hebrew language is the ancient language which was spoken and written by the people of Israel already in the beginning of the first millennium. It is the language of the Old Testament and other scriptures of the Jewish people. Although from the second temple period onwards Jews started speaking other languages as well (Aramaic, Greek and later other European vernacular languages), it remained the language of the Scriptures and prayer, and was called \"The Holy Tongue\".</span></p>\n<p><span>Jews continued to learn, to read and write Hebrew throughout the last two millennia although it was not their spoken language, since it was their ancient holy language.</span></p>\n<p>&#160;</p>\n<p><span>Photos: The Worms prayer book. &#160;Germany, 13th century.</span></p>\n",
      "attachments": [
       {
-       "guid": "DE489648-95D4-19F2-4B2C-2CAE44B34C21",
-       "AttachmentEntries": {
-        "attachmentEntryID": "1D35AC18-97DE-1F39-4064-95E5C839DCC6"
-       },
-       "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
-       "name": "Mahzor Worms Festival Prayerbook, opening page.jpg",
-       "attachmentType": "1",
-       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Mahzor Worms Festival Prayerbook, opening page.jpg",
-       "dataLength": "2492409",
-       "format": ".jpg"
-      },
-      {
-       "guid": "C7BCCB92-6285-4DBC-CEC8-276FD9202A85",
-       "AttachmentEntries": {
-        "attachmentEntryID": "1D35AC18-97DE-1F39-4064-95E5C839DCC6"
-       },
-       "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
-       "name": "Mahzor Worms Festival Prayerbook, &apos;Va Yohav&apos;.jpg",
-       "attachmentType": "1",
-       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Mahzor Worms Festival Prayerbook, &apos;Va Yohav&apos;.jpg",
-       "dataLength": "2349557",
-       "format": ".jpg"
-      },
-      {
-       "guid": "0B59B04F-367E-F661-F04B-1D91DE8395E6",
-       "AttachmentEntries": {
-        "attachmentEntryID": "1D35AC18-97DE-1F39-4064-95E5C839DCC6"
-       },
-       "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
-       "name": "Mahzor Worms Festival Prayerbook, Purim.jpg",
-       "attachmentType": "1",
-       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Mahzor Worms Festival Prayerbook, Purim.jpg",
-       "dataLength": "2751168",
-       "format": ".jpg"
-      },
-      {
-       "guid": "4C4487BF-2450-C926-01D8-7A4CF01B45D9",
-       "AttachmentEntries": {
-        "attachmentEntryID": "1D35AC18-97DE-1F39-4064-95E5C839DCC6"
-       },
-       "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
-       "name": "Mahzor Worms Festival Prayerbook, Medalions.jpg",
-       "attachmentType": "1",
-       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Mahzor Worms Festival Prayerbook, Medalions.jpg",
-       "dataLength": "2930400",
-       "format": ".jpg"
-      },
-      {
        "guid": "4008E482-D662-0CA9-EB5B-6C0355DDAC0A",
        "AttachmentEntries": {
         "attachmentEntryID": "1D35AC18-97DE-1F39-4064-95E5C839DCC6"
@@ -2995,6 +2973,54 @@
        "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Prayer for Rain, &apos;Tikun Ha-Geshem&apos;, Italy.mp3",
        "dataLength": "990354",
        "format": ".mp3"
+      },
+      {
+       "guid": "FC11D3E4-624A-EF70-22E7-B2735FE036E4",
+       "AttachmentEntries": {
+        "attachmentEntryID": "1D35AC18-97DE-1F39-4064-95E5C839DCC6"
+       },
+       "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
+       "name": "Mahzor Worms Festival Prayerbook,  &apos;Va Yohav&apos;.jpg",
+       "attachmentType": "1",
+       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Mahzor Worms Festival Prayerbook,  &apos;Va Yohav&apos;.jpg",
+       "dataLength": "226246",
+       "format": ".jpg"
+      },
+      {
+       "guid": "171B93A3-7C6C-1881-F054-811A2168C6D0",
+       "AttachmentEntries": {
+        "attachmentEntryID": "1D35AC18-97DE-1F39-4064-95E5C839DCC6"
+       },
+       "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
+       "name": "Mahzor Worms Festival Prayerbook,  Medalions.jpg",
+       "attachmentType": "1",
+       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Mahzor Worms Festival Prayerbook,  Medalions.jpg",
+       "dataLength": "263532",
+       "format": ".jpg"
+      },
+      {
+       "guid": "37E01A50-11D9-69A3-D997-984E5D378177",
+       "AttachmentEntries": {
+        "attachmentEntryID": "1D35AC18-97DE-1F39-4064-95E5C839DCC6"
+       },
+       "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
+       "name": "Mahzor Worms Festival Prayerbook,  opening page.jpg",
+       "attachmentType": "1",
+       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Mahzor Worms Festival Prayerbook,  opening page.jpg",
+       "dataLength": "237138",
+       "format": ".jpg"
+      },
+      {
+       "guid": "2E04324D-9393-6A64-ADEA-E51980B81515",
+       "AttachmentEntries": {
+        "attachmentEntryID": "1D35AC18-97DE-1F39-4064-95E5C839DCC6"
+       },
+       "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
+       "name": "Mahzor Worms Festival Prayerbook,  Purim.jpg",
+       "attachmentType": "1",
+       "location": "016140EA-7FBC-4959-0C2E-4C0F883530AD\\Mahzor Worms Festival Prayerbook,  Purim.jpg",
+       "dataLength": "260641",
+       "format": ".jpg"
       }
      ],
      "type": "bastard",
@@ -3372,15 +3398,15 @@
          "data": "<p><span>Elimelech Basch described in his diary his family's last days. &#160;Until the last moment, after the Germans had already entered the town, the family debated what to do:</span></p>\n<p><span>\"I argued with my wife that she shouldn't clean and paint for (the holiday of) Passover, but she continued her work as usual saying that as long as we live we should hope for the good and God will choose to do as he sees fit. My son Isaac, seeing my great anxiety, said that I should buy a gun and shoot all the members of our family\".</span></p>\n<p><span>…\" I watched my children play and wept, who knows what will happen to them?\" &#160;&#160;</span></p>\n",
          "attachments": [
           {
-           "guid": "572FFD9D-0C02-5E29-2E76-513B2ADC107D",
+           "guid": "842B3FAE-93C9-7C6D-2513-A496F2FA7CFD",
            "AttachmentEntries": {
             "attachmentEntryID": "185429C8-ACE6-855A-2A8D-69DDAF875794"
            },
            "objectID": "5FD1D8F4-0C48-FD76-BEE1-52359E3E38F6",
-           "name": "The Basch Diary - The Last Days.jpg",
+           "name": "The Basch Diary, The Last Days.jpg",
            "attachmentType": "1",
-           "location": "5FD1D8F4-0C48-FD76-BEE1-52359E3E38F6\\The Basch Diary - The Last Days.jpg",
-           "dataLength": "4088948",
+           "location": "5FD1D8F4-0C48-FD76-BEE1-52359E3E38F6\\The Basch Diary, The Last Days.jpg",
+           "dataLength": "431701",
            "format": ".jpg"
           }
          ],
@@ -3450,15 +3476,15 @@
                "format": ".jpg"
               },
               {
-               "guid": "E294A06B-B5B0-06BA-DCBA-BE9D78215F13",
+               "guid": "61AC64ED-31FD-BA6D-9E14-5C21BEF25D28",
                "AttachmentEntries": {
                 "attachmentEntryID": "69C79365-F2D2-41D4-FDB3-E90D454896CE"
                },
                "objectID": "72190B03-074A-B546-1F89-73EFBBE16E0D",
-               "name": "Perhiya and her family, Israel.jpg",
+               "name": "Perhiya and her family,  Israel.jpg",
                "attachmentType": "1",
-               "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\Perhiya and her family, Israel.jpg",
-               "dataLength": "2125456",
+               "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\Perhiya and her family,  Israel.jpg",
+               "dataLength": "240586",
                "format": ".jpg"
               }
              ],
@@ -3565,15 +3591,15 @@
    "data": "<p><span>Moses Maimonides (born Cordoba 1138 – d. Cairo 1204) <span>is considered one of the greatest Jewish scholars and intellectuals of all times.</span></span></p>\n<p>Maimonides was first and foremost a preeminent interpreter of Jewish law (<i>Halakah</i>), producing groundbreaking legal codes, commentaries and wide-ranging legal opinions as leader of numerous Jewish communities. Yet was also a widely influential <a href=\"https://en.wikipedia.org/wiki/Jewish_philosophy\"><span><span>philosopher</span></span></a><span>,&#160;</span> <span>and physician, famous &#160;throughout </span>Jewish, <a href=\"https://en.wikipedia.org/wiki/Middle_Ages\"><span><span>Muslim</span></span></a><span><span> and Christian intellectual circles of his time</span></span><span>. </span><span><span>&#160;</span></span><span>Maimonides constantly strove to reconcile </span><span>his knowledge<span> of philosophy and science with Jewish law and theology.</span><span>&#160;</span></span></p>\n<p>Due both to his impressive intellectual horizons and to his outstanding influence among Jews and non-Jews Maimonides was known in Jewish tradition as <b>The Great Eagle</b>.</p>\n<p><span>Maimonides' personal biography is representative of the fate of Spanish Jews at that time: born in Cordoba, where he absorbed Islamic science and culture, he fled from the intolerant Almohads&#160; to Morocco and then to Fustat (Cairo) in Egypt, where he received the patronage of the Ayyubid court.&#160;</span></p>\n<p>&#160;</p>\n",
    "attachments": [
     {
-     "guid": "E7677E77-E12F-3B38-1661-D774BDF34599",
+     "guid": "0B65D61D-9C04-A5D6-7FDB-4AF9FEB83044",
      "AttachmentEntries": {
       "attachmentEntryID": "C2143396-F1E3-8746-031C-50903327E99C"
      },
      "objectID": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
-     "name": "Maimonides, a marble relief at Capitol hill, Washington, artist - Brenda Putnam.jpg",
+     "name": "Maimonides,  a marble relief at Capitol hill, Washington, artist - Brenda Putnam.jpg",
      "attachmentType": "1",
-     "location": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3\\Maimonides, a marble relief at Capitol hill, Washington, artist - Brenda Putnam.jpg",
-     "dataLength": "2669415",
+     "location": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3\\Maimonides,  a marble relief at Capitol hill, Washington, artist - Brenda Putnam.jpg",
+     "dataLength": "197100",
      "format": ".jpg"
     }
    ],
@@ -3615,15 +3641,15 @@
        "data": "<ul type=\"circle\">\n<li>Born in Cordoba in 1138, Maimonides grew up during &#160;the rule of the Berber dynasty&#160; of the <i>Murabitun</i> (Almoravids). Under their rule the Jewish and the Christian communities&#160; were protected according to Muslim law.</li>\n</ul>\n<p>&#160;</p>\n<p>Born in Cordoba in 1138, Maimonides grew up during &#160;the rule of the Berber dynasty&#160; of the <i>Murabitun</i> (Almoravids). Under their rule the Jewish and the Christian communities&#160;were protected according to Muslim law.</p>\n<p>&#160;</p>\n",
        "attachments": [
         {
-         "guid": "7F1AE560-DB94-9B33-8FE6-A4FCC593400A",
+         "guid": "D70A43C1-B1AF-D93B-2861-8E25AC58F345",
          "AttachmentEntries": {
           "attachmentEntryID": "B36A0EE6-8062-BC35-ABB5-42F4F2F485D0"
          },
          "objectID": "6BCDA941-C0D4-3E08-7823-4101211A63A8",
-         "name": "Maimonides&apos; statue in Cordoba.jpg",
+         "name": "Maimonides, statue in Cordoba.jpg",
          "attachmentType": "1",
-         "location": "6BCDA941-C0D4-3E08-7823-4101211A63A8\\Maimonides&apos; statue in Cordoba.jpg",
-         "dataLength": "53486",
+         "location": "6BCDA941-C0D4-3E08-7823-4101211A63A8\\Maimonides, statue in Cordoba.jpg",
+         "dataLength": "824345",
          "format": ".jpg"
         }
        ],
@@ -4074,15 +4100,15 @@
        "format": ".jpg"
       },
       {
-       "guid": "54881C4A-67CF-3C04-0074-DF77B100CE35",
+       "guid": "837553C0-A7B8-3910-B258-1054FE421B4A",
        "AttachmentEntries": {
         "attachmentEntryID": "55B974F4-42D9-F12E-C072-6A11AB8C97C3"
        },
        "objectID": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
-       "name": "Seder Mo&apos;ed Maimonides, Autograph, Page 72.jpg",
+       "name": "Seder Mo&apos;ed Maimonides,  Autograph, Page 72.jpg",
        "attachmentType": "1",
-       "location": "4504BA63-8A03-E369-3B65-6AA7A2D71392\\Seder Mo&apos;ed Maimonides, Autograph, Page 72.jpg",
-       "dataLength": "3597899",
+       "location": "4504BA63-8A03-E369-3B65-6AA7A2D71392\\Seder Mo&apos;ed Maimonides,  Autograph, Page 72.jpg",
+       "dataLength": "357130",
        "format": ".jpg"
       }
      ],
@@ -4099,15 +4125,15 @@
        "data": "<p>Talmud (literally \"study, learning\"), the central text of rabbinic Judaism, has influenced the lives of Jews no less, and perhaps much more than the Hebrew Bible.</p>\n<p><span>For several hundred years, Jewish rabbis in academies </span><span>in Palestine and in Babylonia</span><span>studied the Mishnah. Their discussions were recorded in the <i>Talmud</i> (6<sup>th</sup> century). These include a wide </span><span>variety of subjects pertaining to </span><span><a href=\"http://en.wikipedia.org/wiki/Halakha\" title=\"Halakha\"><i><span>Halakha</span></i></a></span><i><span>h</span></i><span><span>&#160;</span></span><span>(Jewish law) and&#160;</span><span><a href=\"http://en.wikipedia.org/wiki/Jewish_ethics\" title=\"Jewish ethics\"><span>ethics</span></a></span><span>, philosophy and&#160;</span><span><a href=\"http://en.wikipedia.org/wiki/History\" title=\"History\"><span>history</span></a></span><span>, to mention just a few. </span><span>Jewish scholars thus interpreted the <i>Mishna</i> primarily through the lens of the <i>Talmud</i>.&#160;</span></p>\n<p><span>The most popular and influential version of the Talmud is the Babylonian one, although a Palestinian version exists as well.</span></p>\n<p><span>The Talmud, written in&#160;</span><span><a href=\"http://en.wikipedia.org/wiki/Tannaitic_Hebrew\" title=\"Tannaitic Hebrew\"><span>Hebrew</span></a></span><span><span>&#160;</span></span><span>and&#160;</span><span><a href=\"http://en.wikipedia.org/wiki/Aramaic\" title=\"Aramaic\"><span>Aramaic</span></a></span><span><span> has become the legal authority in rabbinic Judaism and is the basis for Jewish legal discourse.</span></span></p>\n<p>&#160;</p>\n<p><span dir=\"RTL\">לאביעד יש רשימה של תלמודים מיוחדים בספרייה</span></p>\n",
        "attachments": [
         {
-         "guid": "F36E50DD-6550-5B89-5218-8C8258C65094",
+         "guid": "B9D88113-E49A-CDA0-94AD-90401B8E3E72",
          "AttachmentEntries": {
           "attachmentEntryID": "D7E75C98-38E9-9BF3-E02A-44115ABC35EC"
          },
          "objectID": "04742146-4A6C-FCA8-766B-176722205CC9",
-         "name": "Talmud, Venice, Seder Nashim, 1523, Page 1.jpg",
+         "name": "Talmud,  Venice, Seder Nashim, 1523, Page 1.jpg",
          "attachmentType": "1",
-         "location": "04742146-4A6C-FCA8-766B-176722205CC9\\Talmud, Venice, Seder Nashim, 1523, Page 1.jpg",
-         "dataLength": "4033132",
+         "location": "04742146-4A6C-FCA8-766B-176722205CC9\\Talmud,  Venice, Seder Nashim, 1523, Page 1.jpg",
+         "dataLength": "346899",
          "format": ".jpg"
         }
        ],
@@ -4189,15 +4215,15 @@
          "format": ".gif"
         },
         {
-         "guid": "163676F3-CD51-CE90-8770-F6145AEAA24B",
+         "guid": "22AA92E0-C66B-99BA-624D-F5C19C33FE50",
          "AttachmentEntries": {
           "attachmentEntryID": "EDFD56C7-92A6-E406-0B20-9EDE73EA6B66"
          },
          "objectID": "7505D43F-518B-4B46-4495-45B81531F2A9",
-         "name": "10th century Jewish Philosophy tractate, Judeo-Arabic, Sa&#699;adiah ben Yosef Gaon Page 1.jpg",
+         "name": "10th century Jewish Philosophy tractate,  Judeo-Arabic,  Sa&#699;adiah ben Yosef Gaon Page 1.jpg",
          "attachmentType": "1",
-         "location": "7505D43F-518B-4B46-4495-45B81531F2A9\\10th century Jewish Philosophy tractate, Judeo-Arabic, Sa&#699;adiah ben Yosef Gaon Page 1.jpg",
-         "dataLength": "4755687",
+         "location": "7505D43F-518B-4B46-4495-45B81531F2A9\\10th century Jewish Philosophy tractate,  Judeo-Arabic,  Sa&#699;adiah ben Yosef Gaon Page 1.jpg",
+         "dataLength": "356915",
          "format": ".jpg"
         }
        ],
@@ -4283,15 +4309,15 @@
              "data": "<p><span>With the arrival of the Jews who had been expelled from Spain in 1492, interest in Maimonides' writings declined, and the Spanish Jewish tradition of Kabbalah and mysticism started to&#160; flourish. &#160;By the 17<sup>th</sup> century the library’s contents had been dispersed .</span></p>\n<p>&#160;</p>\n<p>photo:Latin translation of a Kabalah text, Gikatilla's <i abp=\"1430\">Shaarei Ora</i></p>\n",
              "attachments": [
               {
-               "guid": "DEFF761A-E807-809F-CBF6-B11D0050D401",
+               "guid": "2289464D-4127-ED30-9B3F-6AB31C3F79CC",
                "AttachmentEntries": {
                 "attachmentEntryID": "AC763A58-3898-E3C5-0056-39C17C8DAF47"
                },
                "objectID": "1E9B1ED7-FC05-8624-14CD-02272D8B60A1",
-               "name": "Latin translation of a Kabalah text, Gikatilla&apos;s Shaarei Ora.jpg",
+               "name": "Latin translation of a Kabalah text,  Gikatilla&apos;s Shaarei Ora.jpg",
                "attachmentType": "1",
-               "location": "1E9B1ED7-FC05-8624-14CD-02272D8B60A1\\Latin translation of a Kabalah text, Gikatilla&apos;s Shaarei Ora.jpg",
-               "dataLength": "1478712",
+               "location": "1E9B1ED7-FC05-8624-14CD-02272D8B60A1\\Latin translation of a Kabalah text,  Gikatilla&apos;s Shaarei Ora.jpg",
+               "dataLength": "430796",
                "format": ".jpg"
               }
              ],
@@ -4360,15 +4386,15 @@
      "data": "",
      "attachments": [
       {
-       "guid": "C4D26DD0-1ABA-C1CE-61C6-8DC47FEFEBD3",
+       "guid": "FF9580E3-0494-5E27-1766-465AABDAAE73",
        "AttachmentEntries": {
         "attachmentEntryID": "46C01329-8E83-C6DD-08B4-B27FC093A087"
        },
        "objectID": "D426D901-F0FB-99E7-6E57-289CFFFBDD64",
-       "name": "Seder Nashim - Maimonides&apos; autograph.jpg",
+       "name": "Seder Nashim, Maimonides&apos; autograph.jpg",
        "attachmentType": "1",
-       "location": "D426D901-F0FB-99E7-6E57-289CFFFBDD64\\Seder Nashim - Maimonides&apos; autograph.jpg",
-       "dataLength": "635810",
+       "location": "D426D901-F0FB-99E7-6E57-289CFFFBDD64\\Seder Nashim, Maimonides&apos; autograph.jpg",
+       "dataLength": "264725",
        "format": ".jpg"
       }
      ],
@@ -4385,18 +4411,6 @@
        "data": "<p>The Guide of the Perplexed, an important philosophical treatise, which was composed between 1185-1191, is set as a letter to a young disciple. The Guide sought to resolve apparent contradictions between rationalist philosophy on the one hand, and Jewish tradition found in Scripture and the Talmud, on the other hand.&#160; Unlike the <i>Mishneh Torah</i>, which was written for broad use, the <i>Guide</i>, written in Judeo-Arabic,&#160; was written for a more limited audience of rationalist yet traditional Jews. A few of Maimonides’ theological positions led to public controversies with rabbinic leaders&#160; outside of Egypt towards the end of his life.</p>\n<p>&#160;</p>\n",
        "attachments": [
         {
-         "guid": "B816C0E7-0C7A-A042-2773-F0436CBCCCD6",
-         "AttachmentEntries": {
-          "attachmentEntryID": "2F455B62-6DDA-141E-71BC-A0A5E4454CC9"
-         },
-         "objectID": "FB6C82E3-22BC-35F8-A367-5AAB2732BB40",
-         "name": "Guide of the Preplexed, 14th century, Yemen, Judeo-Arabic, Page 1.jpg",
-         "attachmentType": "1",
-         "location": "FB6C82E3-22BC-35F8-A367-5AAB2732BB40\\Guide of the Preplexed, 14th century, Yemen, Judeo-Arabic, Page 1.jpg",
-         "dataLength": "4817225",
-         "format": ".jpg"
-        },
-        {
          "guid": "50E5CDFD-C499-3186-9FF9-25666E98BF8B",
          "AttachmentEntries": {
           "attachmentEntryID": "2F455B62-6DDA-141E-71BC-A0A5E4454CC9"
@@ -4407,6 +4421,18 @@
          "location": "FB6C82E3-22BC-35F8-A367-5AAB2732BB40\\Thumbs.db",
          "dataLength": "17408",
          "format": ".db"
+        },
+        {
+         "guid": "5CE643CD-5FEC-06DC-7BB8-F2A117B3790B",
+         "AttachmentEntries": {
+          "attachmentEntryID": "2F455B62-6DDA-141E-71BC-A0A5E4454CC9"
+         },
+         "objectID": "FB6C82E3-22BC-35F8-A367-5AAB2732BB40",
+         "name": "Guide of the Preplexed, 14th century,  Yemen, Judeo-Arabic, Page 1.jpg",
+         "attachmentType": "1",
+         "location": "FB6C82E3-22BC-35F8-A367-5AAB2732BB40\\Guide of the Preplexed, 14th century,  Yemen, Judeo-Arabic, Page 1.jpg",
+         "dataLength": "389334",
+         "format": ".jpg"
         }
        ],
        "type": "default",
@@ -4423,16 +4449,16 @@
        "data": "<p><span>Following this composition, Maimonides wrote his most famous treatise called the <i>Mishneh Torah</i>, a comprehensive code of Jewish Law which is conceived throughout the Jewish world as <span>one of the chief authoritative codifications of Jewish law and ethics, as well as other important writings. In this great composition Maimonides broke from</span></span> one thousand years of legal precedent of writing commentaries to produce a systematic codification of Jewish law by subject. Although most of Maimonides’ treatises were written in Judeo-Arabic, Maimonides composed the Code in Hebrew<span> </span>to ensure its accessibility for Jews all over the world.&#160;</p>\n<p dir=\"LTR\">&#160;</p>\n",
        "attachments": [
         {
-         "guid": "4F80EACB-0AFD-CA2F-F053-6B19AAD0470B",
+         "guid": "9FF12F87-A62B-BFC2-2E16-05978506CEEF",
          "AttachmentEntries": {
           "attachmentEntryID": "A122A81C-AB01-8A37-66F5-385D389387C6"
          },
          "objectID": "D6BBEBDF-00D3-DBD2-7736-78D520E0189C",
-         "name": "Misneh Torah, Maimonides&apos; autograph.jpg",
+         "name": "Maimonides, Mishneh Torah, Spain, 1300-1350, Detail.tif",
          "attachmentType": "1",
-         "location": "D6BBEBDF-00D3-DBD2-7736-78D520E0189C\\Misneh Torah, Maimonides&apos; autograph.jpg",
-         "dataLength": "93790",
-         "format": ".jpg"
+         "location": "D6BBEBDF-00D3-DBD2-7736-78D520E0189C\\Maimonides, Mishneh Torah, Spain, 1300-1350, Detail.tif",
+         "dataLength": "162846",
+         "format": ".tif"
         }
        ],
        "type": "default",
@@ -4472,6 +4498,18 @@
            "format": ".jpg"
           },
           {
+           "guid": "FC4BCD42-7388-2051-F47B-B5963DBA9F53",
+           "AttachmentEntries": {
+            "attachmentEntryID": "7F0C5C93-577B-A79C-EE4D-6009F228FDD4"
+           },
+           "objectID": "1BAF406E-CD39-9925-64F2-EB8CD3520C9E",
+           "name": "Maimonides, Mishneh Torah, Spain, 1300-1350 40%.tif",
+           "attachmentType": "1",
+           "location": "1BAF406E-CD39-9925-64F2-EB8CD3520C9E\\Maimonides, Mishneh Torah, Spain, 1300-1350 40%.tif",
+           "dataLength": "512568",
+           "format": ".tif"
+          },
+          {
            "guid": "1B3487E7-97BC-6D54-EA8F-C5552ED1052D",
            "AttachmentEntries": {
             "attachmentEntryID": "7F0C5C93-577B-A79C-EE4D-6009F228FDD4"
@@ -4504,27 +4542,27 @@
    "data": "<p><span>From ancient times the Holy Land has been the focus of great attraction for both Jews and Christians and Muslims. Throughout the ages Jews and Christians have made pilgrimages to the Holy Land, envisaged scenes and stories from the Scriptures, and dreamt of it from afar. Many of them left behind them descriptions and studies of the Holy Land accompanied by views and drawings.</span></p>\n<p><span>The Eran Laor map collection in the National Library of Israel contains about 1500 maps of Jerusalem and of the Holy Land from the beginning of print up to our days.</span></p>\n<p>&#160;</p>\n<p>&#160;</p>\n",
    "attachments": [
     {
-     "guid": "526A343E-5062-4170-3A2D-9C71CC592BDA",
+     "guid": "F39148DC-77E2-1C79-8E02-B15939D0DC2B",
      "AttachmentEntries": {
       "attachmentEntryID": "29CF7B5E-430E-B835-2D0C-206973C45742"
      },
      "objectID": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-     "name": "Civitas Hierusalem, Bertelli, Donato, Venice, 16th century [156- ].jpg",
+     "name": "Civitas Hierusalem, Bertelli, Donato,  Venice, 16th century [156- ].jpg",
      "attachmentType": "1",
-     "location": "D4C41630-D4E6-107B-C285-E728DB90E00B\\Civitas Hierusalem, Bertelli, Donato, Venice, 16th century [156- ].jpg",
-     "dataLength": "1393896",
+     "location": "D4C41630-D4E6-107B-C285-E728DB90E00B\\Civitas Hierusalem, Bertelli, Donato,  Venice, 16th century [156- ].jpg",
+     "dataLength": "397973",
      "format": ".jpg"
     },
     {
-     "guid": "8714370E-C4E8-9FAE-3C96-98903F396786",
+     "guid": "9895A0BC-A162-D0F7-A76B-3E3348893BB1",
      "AttachmentEntries": {
       "attachmentEntryID": "29CF7B5E-430E-B835-2D0C-206973C45742"
      },
      "objectID": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-     "name": "Hierusalem, Du Perac, Stefano . Roma, c.1570.jpg",
+     "name": "Hierusalem, Du Perac,  Stefano . Roma, c.1570.jpg",
      "attachmentType": "1",
-     "location": "D4C41630-D4E6-107B-C285-E728DB90E00B\\Hierusalem, Du Perac, Stefano . Roma, c.1570.jpg",
-     "dataLength": "1551475",
+     "location": "D4C41630-D4E6-107B-C285-E728DB90E00B\\Hierusalem, Du Perac,  Stefano . Roma, c.1570.jpg",
+     "dataLength": "445736",
      "format": ".jpg"
     }
    ],
@@ -4541,15 +4579,15 @@
      "data": "<p><span>Depictions of the Holy Land and of Jerusalem appeared mostly in Bibles, in pilgrims' itineraries, in travel books, and in histories and geographies of the Holy Land. Naturally the number of such maps in manuscripts is comparatively small. However, with the invention of the printing press it became worthwhile to produce large and detailed drawings which were then printed often in several editions. These drawings are often called maps, although they were rather drawings or views which were often quite naïve and romantic. Our collection is made up mainly of such maps starting from the end of the 15<sup>th</sup> century onwards.</span></p>\n",
      "attachments": [
       {
-       "guid": "2C44A96F-DB8A-6C16-7E47-9B86E7552752",
+       "guid": "E07F3430-B46B-8B3B-FFA7-F8D6B1D2514C",
        "AttachmentEntries": {
         "attachmentEntryID": "F8B07CCA-A3D8-1444-75F1-312E8C2122F2"
        },
        "objectID": "AE0BA84A-88FB-0EC6-25D5-BDD81F99F748",
-       "name": "Palestinae sive totius Terrae Promissionis, Ortelius, Stella and van Diest, 1575.jpg",
+       "name": "Palestinae sive totius Terrae Promissionis, Ortelius,  Stella and van Diest, 1575.jpg",
        "attachmentType": "1",
-       "location": "AE0BA84A-88FB-0EC6-25D5-BDD81F99F748\\Palestinae sive totius Terrae Promissionis, Ortelius, Stella and van Diest, 1575.jpg",
-       "dataLength": "1120579",
+       "location": "AE0BA84A-88FB-0EC6-25D5-BDD81F99F748\\Palestinae sive totius Terrae Promissionis, Ortelius,  Stella and van Diest, 1575.jpg",
+       "dataLength": "216818",
        "format": ".jpg"
       }
      ],
@@ -4566,15 +4604,15 @@
        "data": "<p><span>The most striking element about these maps is that often they do not present contemporary realistic depictions as is usually the case with maps of cities or countries. Instead, they can be mostly imaginary, showing for example the land promised to Abraham, or Jerusalem in the time of Jesus; they can also be diachronic, recording traditions and events from the past and the future on one map, often mixing reality with tradition. In this way they share with their readers the experience of this unique site where momentous events occurred and are yet to occur in the future.</span></p>\n",
        "attachments": [
         {
-         "guid": "81E5ED50-BE5B-2100-CAB8-8239C88A6131",
+         "guid": "BCD7F5D2-5FEE-BABB-55F9-23C91D881954",
          "AttachmentEntries": {
           "attachmentEntryID": "F43EDF3D-2C21-9AAE-E1E0-136CDABD2113"
          },
          "objectID": "AF11075E-6EEC-71E4-6394-9FABE999BD23",
-         "name": "Temple of Solomon, 1585, Heinrich B&#252;nting Gestalt des Tempels Salomonis.jpg",
+         "name": "Temple of Solomon,  1585, Heinrich B&#252;nting Gestalt des Tempels Salomonis.jpg",
          "attachmentType": "1",
-         "location": "AF11075E-6EEC-71E4-6394-9FABE999BD23\\Temple of Solomon, 1585, Heinrich B&#252;nting Gestalt des Tempels Salomonis.jpg",
-         "dataLength": "1446281",
+         "location": "AF11075E-6EEC-71E4-6394-9FABE999BD23\\Temple of Solomon,  1585, Heinrich B&#252;nting Gestalt des Tempels Salomonis.jpg",
+         "dataLength": "83641",
          "format": ".jpg"
         }
        ],
@@ -5079,15 +5117,15 @@
          "data": "<p>Christians throughout the ages were drawn to Jerusalem, captivated by its glorious past: it was the city into which according to Christian tradition Jesus made his Triumphal Entry, the stage upon which the events of the Great Week took place, and the place of his Crucifixion and Resurrection and the Ascension. It was also the city of David and Solomon and the setting of a multitude of biblical events. Although many pilgrims and scholars purported to depict \"modern\" Jerusalem, their maps often followed much earlier maps, and their main aim was to map out the Christian sites, usually ignoring the Muslim presence in the city.</p>\n",
          "attachments": [
           {
-           "guid": "BDA740F3-73B5-19C0-8EB2-88A9AD83C7F8",
+           "guid": "4E2F700B-8345-DAE6-936C-5B6EF40D18D1",
            "AttachmentEntries": {
             "attachmentEntryID": "01E5A738-0E1E-DA1E-4BEA-8366763FD5B7"
            },
            "objectID": "EA722CB1-C926-E708-A0CF-FD4515FA7174",
-           "name": "Hierusalem, Romeyn de Hooghe [167-].jpg",
+           "name": "Hierusalem,  Romeyn de Hooghe  [167-].jpg",
            "attachmentType": "1",
-           "location": "EA722CB1-C926-E708-A0CF-FD4515FA7174\\Hierusalem, Romeyn de Hooghe [167-].jpg",
-           "dataLength": "1792786",
+           "location": "EA722CB1-C926-E708-A0CF-FD4515FA7174\\Hierusalem,  Romeyn de Hooghe  [167-].jpg",
+           "dataLength": "155277",
            "format": ".jpg"
           }
          ],
@@ -5104,15 +5142,15 @@
            "data": "<p>Christian van Adrichom was a Catholic priest and theologian who was a native of Delft, who fled to Cologne due to the religious turmoils of the Reformation. His map of Jerusalem is part of his book on the antiquities and history of the Holy Land which was published in 1584. The map is an imaginary map which is based on the texts he was familiar with, including the Bible, Josephus Flavius, and many other sources and has little relation to the geographical setting of the city. Although it depicts Jerusalem in the time of Jesus, it includes a variety of illustrations from sundry historical periods. Adrichom's map was one of the most popular and influential maps of the period and was copied by many.</p>\n",
            "attachments": [
             {
-             "guid": "AF6F0BED-F574-DE0D-7BCB-F31A0DFD78F5",
+             "guid": "861A7033-E618-F0C5-9E76-38AA3DBED9A0",
              "AttachmentEntries": {
               "attachmentEntryID": "98E8539F-4B4E-D4A6-3F67-E81BCC8CC388"
              },
              "objectID": "34D4BBF6-4BD4-7A1C-03CD-AB701C9D6ADF",
-             "name": "Adrichom&apos;s map.jpg",
+             "name": "Adrichom&apos;s  map.jpg",
              "attachmentType": "1",
-             "location": "34D4BBF6-4BD4-7A1C-03CD-AB701C9D6ADF\\Adrichom&apos;s map.jpg",
-             "dataLength": "2190756",
+             "location": "34D4BBF6-4BD4-7A1C-03CD-AB701C9D6ADF\\Adrichom&apos;s  map.jpg",
+             "dataLength": "404954",
              "format": ".jpg"
             }
            ],
@@ -5360,18 +5398,6 @@
            "data": "<p>This view of Jerusalem was one of three maps of the city included in the famous city atlas compiled by Braun and Hoghenberg in 1575. The city is seen here in the eyes of pilgrims when standing on the Mount of Olives, looking eastwards. Although the round shape of the city is schematic, there are various realistic elements such as the citadel in the background, the bridges over the Kidron valley and the blocked doorway to the church of the Holy Sepulchre. Ezek. 5:5 at the top conveys the idea of Jerusalem as the center of the earth, while the citation from Pliny the Elder on the bottom left lauds <b>\"Jerusalem, the most famous of the cities in the Orient, Metropolis of Judaea\".</b></p>\n",
            "attachments": [
             {
-             "guid": "7FEC1F98-4527-D760-75AB-B7288375966D",
-             "AttachmentEntries": {
-              "attachmentEntryID": "015619AD-DF6E-BDF8-E523-EE8B8A7B12F4"
-             },
-             "objectID": "9EFBCA9C-E69A-0CE6-3F14-63FF4B04AEED",
-             "name": "Jerusalem, Hogenberg, Braun and Jansson, Amsterdam, 1657.jpg",
-             "attachmentType": "1",
-             "location": "9EFBCA9C-E69A-0CE6-3F14-63FF4B04AEED\\Jerusalem, Hogenberg, Braun and Jansson, Amsterdam, 1657.jpg",
-             "dataLength": "1975779",
-             "format": ".jpg"
-            },
-            {
              "guid": "2A99C390-1096-FBC5-9D6F-4F110C7DB7E4",
              "AttachmentEntries": {
               "attachmentEntryID": "015619AD-DF6E-BDF8-E523-EE8B8A7B12F4"
@@ -5382,6 +5408,18 @@
              "location": "9EFBCA9C-E69A-0CE6-3F14-63FF4B04AEED\\Thumbs.db",
              "dataLength": "21504",
              "format": ".db"
+            },
+            {
+             "guid": "E7B5D265-F370-FC2C-63C9-7AF7FD14543B",
+             "AttachmentEntries": {
+              "attachmentEntryID": "015619AD-DF6E-BDF8-E523-EE8B8A7B12F4"
+             },
+             "objectID": "9EFBCA9C-E69A-0CE6-3F14-63FF4B04AEED",
+             "name": "Jerusalem, Hogenberg,  Braun and Jansson, Amsterdam, 1657.jpg",
+             "attachmentType": "1",
+             "location": "9EFBCA9C-E69A-0CE6-3F14-63FF4B04AEED\\Jerusalem, Hogenberg,  Braun and Jansson, Amsterdam, 1657.jpg",
+             "dataLength": "459417",
+             "format": ".jpg"
             }
            ],
            "type": "default",
@@ -5398,15 +5436,15 @@
            "data": "<p>This view made by L. Mondhare in 1770 portrays Ottoman Jerusalem as a city commanded by towering minarets and crescents in a surreal mixture of imagination and reality. Prominently situated towards the left of the map is the Dome of the Rock while in the center the Church of the Holy Sepulcher stands out clearly. At the front of the sketch is the Kidron River, appearing as a broad, rushing, European style river, attesting to the artist's vivid imagination. The inscription at the bottom states that the City of David and Solomon is currently controlled by the Ottomans and notes the existence of a Franciscan monastery within the city.</p>\n",
            "attachments": [
             {
-             "guid": "D56EF12E-BD0C-457C-5EDA-5B3D1E1BD278",
+             "guid": "20AEEFFC-48F2-C657-3FEA-31A526374F91",
              "AttachmentEntries": {
               "attachmentEntryID": "65F96E07-D267-9907-D94A-6AA138B1F57F"
              },
              "objectID": "F1A2E200-3903-B57D-F9ED-561C9A606EB0",
-             "name": "Jerusalem, Mondhare, Paris 1770, &apos;Jerusalem Ville Capitale de la Palestine sous David et Salomon&apos;.jpg",
+             "name": "Jerusalem, Mondhare,  Paris 1770, &apos;Jerusalem Ville Capitale de la Palestine sous David et Salomon&apos;.jpg",
              "attachmentType": "1",
-             "location": "F1A2E200-3903-B57D-F9ED-561C9A606EB0\\Jerusalem, Mondhare, Paris 1770, &apos;Jerusalem Ville Capitale de la Palestine sous David et Salomon&apos;.jpg",
-             "dataLength": "1326165",
+             "location": "F1A2E200-3903-B57D-F9ED-561C9A606EB0\\Jerusalem, Mondhare,  Paris 1770, &apos;Jerusalem Ville Capitale de la Palestine sous David et Salomon&apos;.jpg",
+             "dataLength": "201556",
              "format": ".jpg"
             }
            ],
@@ -5424,7 +5462,7 @@
            "data": "<p>Jean Fran<span>ç</span>ois Daumont made this beautiful map of Jerusalem in 1780, yet it was made after a map originally drawn almost 300 years beforehand,&#160; in 1486, following the pilgrimage of Bernhard of Breydenbach to Jerusalem in 1483.</p>\n<p>Daumont chooses to identify Christian and Muslim monuments by a Cross or Crescent, but does not name the Muslim monuments. Daumont chooses to call the mosques on the Temple Mount in fact by their Crusader name: \"Templum Salomonis\".</p>\n",
            "attachments": [
             {
-             "guid": "20809D0B-06B0-D350-DCB0-3D91F52D3575",
+             "guid": "FF179F13-A7DB-7E80-2AFD-FC9546A497C0",
              "AttachmentEntries": {
               "attachmentEntryID": "DD3722B8-B39C-AA89-317E-147E510D4BB4"
              },
@@ -5432,7 +5470,7 @@
              "name": "Daumont map.jpg",
              "attachmentType": "1",
              "location": "D6539996-DFC9-BC58-BAE5-0CF5F3DC07E3\\Daumont map.jpg",
-             "dataLength": "2106941",
+             "dataLength": "434119",
              "format": ".jpg"
             }
            ],
@@ -5450,15 +5488,15 @@
            "data": "<p>Dapper (1635-1689), who never travelled outside Holland, collected much information about the Holy Land and many other countries. His realistic map (1677) relied on a Bernardino Amico's map who was a Franciscan monk in Jerusalem between 1593-1597. Amico, in his turn, copied a map made by the Franciscan monk Antonio d'Angelis who had served in Jerusalem a few years before; his map continued to be copied by generations of Christian map-makers.</p>\n<p>The map does not identify the religious affiliation of the monuments by a Cross or Crescent, and calls the Mosques on the Temple Mount – \"The Pagan Church\".&#160;</p>\n",
            "attachments": [
             {
-             "guid": "F78683F4-2459-E65A-93A5-54AA5511BE7F",
+             "guid": "BC1C7E85-EEB1-E1EF-5D29-890EE6C34C60",
              "AttachmentEntries": {
               "attachmentEntryID": "5FB9BBD5-7B2E-3133-EBD0-4A3CFDEB3023"
              },
              "objectID": "62CF2583-19FF-9B73-7ED2-2E3C833E1F7F",
-             "name": "Jerusalem, Dapper, Amsterdam 1677 &apos;De Stadt Ierusalem zoot Hedendaeghs Bevonden wordt&apos;.jpg",
+             "name": "Jerusalem,  Dapper, Amsterdam 1677 &apos;De Stadt Ierusalem zoot Hedendaeghs Bevonden wordt&apos;.jpg",
              "attachmentType": "1",
-             "location": "62CF2583-19FF-9B73-7ED2-2E3C833E1F7F\\Jerusalem, Dapper, Amsterdam 1677 &apos;De Stadt Ierusalem zoot Hedendaeghs Bevonden wordt&apos;.jpg",
-             "dataLength": "1561655",
+             "location": "62CF2583-19FF-9B73-7ED2-2E3C833E1F7F\\Jerusalem,  Dapper, Amsterdam 1677 &apos;De Stadt Ierusalem zoot Hedendaeghs Bevonden wordt&apos;.jpg",
+             "dataLength": "297429",
              "format": ".jpg"
             }
            ],
@@ -5482,15 +5520,15 @@
      "data": "<p>Jewish maps, though not very many, represent the centrality of the Land of Israel in the history of the Jewish people and in their hopes. Traditional Jewish maps reflect two distinct trends in cartographic tradition: one group of maps follows&#160; the original maps made by the prominent Bible commentator Rashi, while another follows Christian map models adapted to Jewish notions<span dir=\"RTL\">.</span></p>\n<p><span dir=\"RTL\">&#160;</span></p>\n<p>&#160;</p>\n",
      "attachments": [
       {
-       "guid": "70D3D63F-86FD-E891-71A3-B0F4DE898CAD",
+       "guid": "28898197-4DD7-59D6-6A94-3C5564C4A0F3",
        "AttachmentEntries": {
         "attachmentEntryID": "78749DB6-3736-FD96-C72E-A8EED8B344DF"
        },
        "objectID": "03BA7521-8885-B14D-345A-0440CB69EB04",
-       "name": "Map of The Land Israel, Showing the Wanderings of the Israelites in the Desert and Allotments of the Tribes, Abraham ben Jacob, 17th cent.jpg",
-       "attachmentType": "2",
-       "location": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\&#1514;&#1506;&#1512;&#1493;&#1499;&#1492; &#1511;&#1489;&#1510;&#1497;&#1501; &#1508;&#1506;&#1497;&#1500;&#1497;&#1501;\\&#1504;&#1493;&#1513;&#1488;-&#1502;&#1508;&#1493;&#1514;\\Map of The Land Israel, Showing the Wanderings of the Israelites in the Desert and Allotments of the Tribes, Abraham ben Jacob, 17th cent.jpg",
-       "dataLength": "1870332",
+       "name": "Map of The Land Israel,  Showing the Wanderings of the Israelites in the Desert,  Abraham ben Jacob, 17th cent.jpg",
+       "attachmentType": "1",
+       "location": "03BA7521-8885-B14D-345A-0440CB69EB04\\Map of The Land Israel,  Showing the Wanderings of the Israelites in the Desert,  Abraham ben Jacob, 17th cent.jpg",
+       "dataLength": "364941",
        "format": ".jpg"
       }
      ],
@@ -5507,15 +5545,15 @@
        "data": "<p><span>This lovely hand-drawn map was created in the 19<sup>th</sup> century by an artist who claims that he copied it from the famous Jewish scholar, the Vilna Gaon (1720-1797).</span></p>\n<p><span>The map follows an ancient tradition of mapping the borders of Land of Israel, as described in Numbers 34. This tradition commenced with Rashi, the greatest Jewish commentator of the Bible, who lived in France in the 11<sup>th</sup> century.</span></p>\n<p><span>Later tradition added the allotments of the 12 tribes, and cities and settlements which are represented here as European houses with tiled roofs. Jerusalem is depicted prominently with a tower beside it bearing the inscription \"The Temple\".</span></p>\n",
        "attachments": [
         {
-         "guid": "F10D8FE6-A405-305F-8389-220831D5058E",
+         "guid": "E3F92E33-ED2D-1644-7403-5B4126D5DAD6",
          "AttachmentEntries": {
           "attachmentEntryID": "DF9D9D30-5D39-FC02-4D7E-5E67DDFE543E"
          },
          "objectID": "6D3C4593-7543-E128-8DAC-F2605F00061D",
-         "name": "Palestine, biblical borders and allotments of the tribes of Israel, mid nineteenth century.jpg",
+         "name": "Palestine,  biblical borders and allotments of the tribes of Israel, mid nineteenth century.jpg",
          "attachmentType": "1",
-         "location": "6D3C4593-7543-E128-8DAC-F2605F00061D\\Palestine, biblical borders and allotments of the tribes of Israel, mid nineteenth century.jpg",
-         "dataLength": "1037449",
+         "location": "6D3C4593-7543-E128-8DAC-F2605F00061D\\Palestine,  biblical borders and allotments of the tribes of Israel, mid nineteenth century.jpg",
+         "dataLength": "208674",
          "format": ".jpg"
         }
        ],
@@ -5533,27 +5571,27 @@
        "data": "<p>R. Shlomo of Helm (1717-1781) was a famous Jewish scholar and Rabbi in Poland. Although he was famous for his erudition in Jewish sources and law (<i>Halakha</i>), he chose extraordinarily to emphasize the importance of the study of Philosophy and Sciences alongside Jewish studies.</p>\n<p><span>In the autograph manuscript of his book \"Hug Ha-Aretz\", recently purchased by the NLI, written in beautiful classical <span>Hebrew</span> language and in handsome calligraphic script, R. Shlomo drew a series of maps of the Land of Israel divided among the Tribes. Unlike the tradition following Rashi's maps, the legends in his maps prove that he was clearly inspired by the Christian maps of the Holy Land made by Adrichom and by Seutter.</span></p>\n",
        "attachments": [
         {
-         "guid": "CB4C683D-1C10-8368-BC00-62F555EA5DCB",
+         "guid": "3FADF543-0D9E-3730-60F3-F14E2BA6386B",
          "AttachmentEntries": {
           "attachmentEntryID": "7642D505-E643-9A06-2AF2-097B2F4A2C95"
          },
          "objectID": "A0BA2E88-8A0E-0850-260F-C927F5D43233",
-         "name": "Helm map, 1.jpg",
+         "name": "Helm map,  1.jpg",
          "attachmentType": "1",
-         "location": "A0BA2E88-8A0E-0850-260F-C927F5D43233\\Helm map, 1.jpg",
-         "dataLength": "2657559",
+         "location": "A0BA2E88-8A0E-0850-260F-C927F5D43233\\Helm map,  1.jpg",
+         "dataLength": "208264",
          "format": ".jpg"
         },
         {
-         "guid": "E5FB408A-59F2-D3E4-CF0B-3DEABDEC44A6",
+         "guid": "9EE2957E-1FF3-09D4-6C95-169FC736D98F",
          "AttachmentEntries": {
           "attachmentEntryID": "7642D505-E643-9A06-2AF2-097B2F4A2C95"
          },
          "objectID": "A0BA2E88-8A0E-0850-260F-C927F5D43233",
-         "name": "Helm, map, 2.jpg",
+         "name": "Helm, map,  2.jpg",
          "attachmentType": "1",
-         "location": "A0BA2E88-8A0E-0850-260F-C927F5D43233\\Helm, map, 2.jpg",
-         "dataLength": "2860965",
+         "location": "A0BA2E88-8A0E-0850-260F-C927F5D43233\\Helm, map,  2.jpg",
+         "dataLength": "228778",
          "format": ".jpg"
         }
        ],
@@ -5612,15 +5650,15 @@
        "data": "<p><span>In these notes, written on a letter bearing the remnants of its red seal wax, Newton calculated, based on the Book of Daniel 7:25, that the end of time will arrive in the year <b>2060</b>.&#160; Newton's calculations relied on his belief that the starting point is the year 800, a time when Charlemagne founded the Holy Roman Empire and the Pope's supremacy commenced. Here, Newton believed, &#160;began the period of the \"apostate's\" church deepest corruption which will end in the Apocalyptic events <span>such as plagues and fires, the terrible battle of Armageddon and eternal damnation of the wicked </span>mentioned in the&#160; <span>Book of Revelation.&#160;</span></span></p>\n<p>&#160;</p>\n<p>&#160;</p>\n<p>&#160;</p>\n<p>&#160;</p>\n<p dir=\"RTL\">&#160;</p>\n",
        "attachments": [
         {
-         "guid": "4208B48E-1BDE-070A-4012-288C89F73E23",
+         "guid": "38EBBECE-7F0E-F53C-3BFF-FB7858CD37A9",
          "AttachmentEntries": {
           "attachmentEntryID": "AE74C506-DB1A-98E9-F102-47C6E74309DA"
          },
          "objectID": "6CBFE979-B4EF-E377-DEA7-2F096D47FC66",
-         "name": "Newton, Apocalyptic calculations.jpg",
+         "name": "Newton,  Apocalyptic calculations.jpg",
          "attachmentType": "1",
-         "location": "6CBFE979-B4EF-E377-DEA7-2F096D47FC66\\Newton, Apocalyptic calculations.jpg",
-         "dataLength": "951594",
+         "location": "6CBFE979-B4EF-E377-DEA7-2F096D47FC66\\Newton,  Apocalyptic calculations.jpg",
+         "dataLength": "517660",
          "format": ".jpg"
         }
        ],
@@ -5636,20 +5674,8 @@
         {
          "guid": "05C16366-E98F-8859-A0D8-AA8FE3251A80",
          "name": ":2: Newton the Heretic",
-         "data": "<p>Newton's extensive study of the Christian Doctrine brought him to the conclusion that the doctrine of the Trinity was a corruption of the original biblical doctrine. He believed that the Scriptures taught that God is one person and that this one person is the Father, while Christ is the literal Son of God, having no human father.</p>\n<p>Newton hid his beliefs. Had his contemporaries known of them he would have been considered a heretic. He however, believed that he was the true Orthodox.</p>\n<p>&#160;</p>\n<p>&#160;</p>\n<p dir=\"RTL\">On the Photograph</p>\n<p><span>Par. 1 - The [word] God is no where in the scriptures used to signify more than the three persons at once.</span></p>\n<p><span>Par. 3 – When ever it is said in the scriptures that there is but one God, it is meant of the Father.</span></p>\n<p>&#160;</p>\n",
+         "data": "<p>Newton's extensive study of the Christian Doctrine brought him to the conclusion that the doctrine of the Trinity was a corruption of the original biblical doctrine. He believed that the Scriptures taught that God is one person and that this one person is the Father, while Christ is the literal Son of God, having no human father.</p>\n<p>Newton hid his beliefs. Had his contemporaries known of them he would have been considered a heretic. He however, believed that he was the true Orthodox.</p>\n<p>&#160;</p>\n<p>&#160;</p>\n<p dir=\"RTL\">&#160;Citations from the 'Twelve Statements on God' &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span><span><span>Par. 1 - The [word] God is no where in the scriptures used to signify more han the three persons at once.</span></span></span></p>\n<p><span><span><span><span>Par. 3 – When ever it is said in the scriptures that there is but one God, it is meant of the Father.</span></span></span></span></p>\n<p>&#160;</p>\n",
          "attachments": [
-          {
-           "guid": "7C64D0B6-2B4F-7748-47B9-57FBAE42C79E",
-           "AttachmentEntries": {
-            "attachmentEntryID": "122F50A7-4119-E114-F9C9-3F1EEA716A26"
-           },
-           "objectID": "05C16366-E98F-8859-A0D8-AA8FE3251A80",
-           "name": "Newton heretical ideas.jpg",
-           "attachmentType": "1",
-           "location": "05C16366-E98F-8859-A0D8-AA8FE3251A80\\Newton heretical ideas.jpg",
-           "dataLength": "877142",
-           "format": ".jpg"
-          },
           {
            "guid": "B9E4FBA3-E9AD-AF17-5CBF-B80256CD21EF",
            "AttachmentEntries": {
@@ -5661,6 +5687,18 @@
            "location": "http://www.youtube.com/watch?v=A2DWBjyVfNU",
            "dataLength": "0",
            "format": ""
+          },
+          {
+           "guid": "22B32AED-092C-BA89-F806-4AF3709A56A1",
+           "AttachmentEntries": {
+            "attachmentEntryID": "122F50A7-4119-E114-F9C9-3F1EEA716A26"
+           },
+           "objectID": "05C16366-E98F-8859-A0D8-AA8FE3251A80",
+           "name": "Twelve Statements on God.jpg",
+           "attachmentType": "1",
+           "location": "05C16366-E98F-8859-A0D8-AA8FE3251A80\\Twelve Statements on God.jpg",
+           "dataLength": "372606",
+           "format": ".jpg"
           }
          ],
          "type": "chronological",
@@ -5678,15 +5716,15 @@
            "data": "<p>Newton believed that the temple described in the prophecy of Ezekiel will materialize at the End of Days. He therefore invested much effort in studying matters related to the Jewish Temple and its rituals.</p>\n<p><span>This trilingual manuscript written in Latin, Hebrew and Greek shows that Newton was familiar not only with the work of&#160; scholars of his time but also with the ancient Jewish &#160;&#160;&#160;&#160;&#160;&#160;sources including the <span>Mishna </span>, the <span>Zohar</span>, the <span>Talmud</span>, and many more.</span></p>\n<p>On the third line from the top Newton copied in meticulous Hebrew script the words:</p>\n<p><span dir=\"RTL\">ברוך שם כבוד מלכותו לעולם ועד&#160; - </span>\" - Blessed be the name of His glorious kingdom for all eternity\".</p>\n",
            "attachments": [
             {
-             "guid": "447EEF9F-7D1F-95ED-F718-6E78D13DDDBA",
+             "guid": "B4E08ECF-7A93-CD65-4BAE-7FC70E9B18B2",
              "AttachmentEntries": {
               "attachmentEntryID": "23C258BA-FAEA-A264-0F1A-8A38B6F35047"
              },
              "objectID": "4130AC26-0B7C-306D-58D1-87B4DD7C00BD",
-             "name": "Fragments on the kingdoms of the European tribes, the Temple and the history of Jewish and Christian Churches (sec. 5) 28e002v.jpg",
+             "name": "Fragments  on the kingdoms of the European tribes, the Temple and the history of Jewish and Christian Churches.jpg",
              "attachmentType": "1",
-             "location": "4130AC26-0B7C-306D-58D1-87B4DD7C00BD\\Fragments on the kingdoms of the European tribes, the Temple and the history of Jewish and Christian Churches (sec. 5) 28e002v.jpg",
-             "dataLength": "722441",
+             "location": "4130AC26-0B7C-306D-58D1-87B4DD7C00BD\\Fragments  on the kingdoms of the European tribes, the Temple and the history of Jewish and Christian Churches.jpg",
+             "dataLength": "228176",
              "format": ".jpg"
             }
            ],
@@ -5703,7 +5741,33 @@
              "guid": "7CA511A6-0CBC-F6BA-55F8-D27239D657A5",
              "name": ":_: The Talmud",
              "data": "<p><span>Talmud, the central text of rabbinic Judaism has influenced the lives of Jews no less, and perhaps much more than the Hebrew Bible. The Talmud (literally \"study, learning\") contains the teachings, the discussions and opinions of rabbis on a variety of subjects pertaining to </span><a href=\"http://en.wikipedia.org/wiki/Halakha\" title=\"Halakha\"><i><span>Halakha</span></i></a><i><span>h</span></i><span><span>&#160;</span></span><span>(Jewish law) and&#160;</span><a href=\"http://en.wikipedia.org/wiki/Jewish_ethics\" title=\"Jewish ethics\"><span>ethics</span></a><span>, philosophy and&#160;</span><a href=\"http://en.wikipedia.org/wiki/History\" title=\"History\"><span>history</span></a><span>, to mention just a few.</span></p>\n<p><span>The talmudic text, also known as Gemara (literally: tradition) is based on discussions which took place in Jewish academies between the third and the sixth centuries, in Palestine and in Babylonia. These discussions usually revolve around the </span><a href=\"http://en.wikipedia.org/wiki/Mishnah\" title=\"Mishnah\"><span>Mishnah</span></a><span> which was assembled in the beginning of the third century. The most popular and influential version of the Talmud is the Babylonian one, although a Palestinian version exists as well.</span></p>\n<p><span>The Talmud, written in&#160;</span><a href=\"http://en.wikipedia.org/wiki/Tannaitic_Hebrew\" title=\"Tannaitic Hebrew\"><span>Hebrew</span></a><span><span>&#160;</span></span><span>and&#160;</span><a href=\"http://en.wikipedia.org/wiki/Aramaic\" title=\"Aramaic\"><span>Aramaic</span></a><span><span> has become the legal authority in rabbinic Judaism and is the basis for halakhic discourse.</span></span><span> <span>Maimonides'</span> <i><span>Mishneh Torah</span></i> is a legal code summarizing Jewish law and is based mainly on the Talmud.</span></p>\n",
-             "attachments": [],
+             "attachments": [
+              {
+               "guid": "0567C7F5-EA0E-9C3A-91BD-8310739ABE97",
+               "AttachmentEntries": {
+                "attachmentEntryID": "DBF326F6-9870-9387-13CF-C60A4FD53345"
+               },
+               "objectID": "7CA511A6-0CBC-F6BA-55F8-D27239D657A5",
+               "name": "",
+               "attachmentType": "0",
+               "location": "",
+               "dataLength": "0",
+               "format": "",
+               "deletedDateTime": "2013-12-19 19:29:56.958 @+0200"
+              },
+              {
+               "guid": "CAC3FCD2-9BA9-6FC2-98FB-937A51B9A70D",
+               "AttachmentEntries": {
+                "attachmentEntryID": "DBF326F6-9870-9387-13CF-C60A4FD53345"
+               },
+               "objectID": "7CA511A6-0CBC-F6BA-55F8-D27239D657A5",
+               "name": "Talmud,  Venice, Seder Nashim, 1523, Page 1.jpg",
+               "attachmentType": "1",
+               "location": "7CA511A6-0CBC-F6BA-55F8-D27239D657A5\\Talmud,  Venice, Seder Nashim, 1523, Page 1.jpg",
+               "dataLength": "346899",
+               "format": ".jpg"
+              }
+             ],
              "type": "bastard",
              "bastardName": "The Talmud",
              "parent": {
@@ -5773,15 +5837,15 @@
                  "data": "<p>Newton also took a deep interest in Alchemy. Although most of the Alchemical papers are in Cambridge, the NLI possesses one unique page. It is a part of Newton's copy of an English translation made in 1624 of <i>the Exposition of the Hieroglyphical figures</i> written by the famous French Alchemist Nicholas Flamel. Newton sketched Flamel's symbolic figures, and described in the text above&#160; their Alchemical role.</p>\n<p>&#160;</p>\n",
                  "attachments": [
                   {
-                   "guid": "BF5D8355-D945-023F-0949-608362ACD96B",
+                   "guid": "FB377B98-9790-A83A-F681-64A4B64C0B05",
                    "AttachmentEntries": {
                     "attachmentEntryID": "5D790920-752D-7EBE-5307-E5887894D67C"
                    },
                    "objectID": "63A1DFAA-E53C-BB5B-35AF-0FE5825914EC",
-                   "name": "The Hieroglyphical figures of Nicholas Flammel explained (c. early 1680s), Ms Var.259f.7r.jpg",
+                   "name": "The Hieroglyphical figures of Nicholas Flammel explained  (c. early 1680s), Ms Var.259f.7r.jpg",
                    "attachmentType": "1",
-                   "location": "63A1DFAA-E53C-BB5B-35AF-0FE5825914EC\\The Hieroglyphical figures of Nicholas Flammel explained (c. early 1680s), Ms Var.259f.7r.jpg",
-                   "dataLength": "931099",
+                   "location": "63A1DFAA-E53C-BB5B-35AF-0FE5825914EC\\The Hieroglyphical figures of Nicholas Flammel explained  (c. early 1680s), Ms Var.259f.7r.jpg",
+                   "dataLength": "394996",
                    "format": ".jpg"
                   }
                  ],
@@ -5979,15 +6043,15 @@
                    "format": ".jpg"
                   },
                   {
-                   "guid": "1B6D75D3-C2A2-442C-864C-E602314FEC19",
+                   "guid": "D4242FCD-0AA5-295F-85E0-3F6AFAEF36EF",
                    "AttachmentEntries": {
                     "attachmentEntryID": "5BA0DB60-1D03-B8AC-E514-E861D5BC53CA"
                    },
                    "objectID": "4ADAD622-F4FC-80AF-4CC4-D87C34B2D4AA",
-                   "name": "Qur&apos;an, 883, Yah. Ar. 968.jpg",
+                   "name": "Qur&apos;an, 883,  Yah. Ar. 968.jpg",
                    "attachmentType": "1",
-                   "location": "4ADAD622-F4FC-80AF-4CC4-D87C34B2D4AA\\Qur&apos;an, 883, Yah. Ar. 968.jpg",
-                   "dataLength": "1285938",
+                   "location": "4ADAD622-F4FC-80AF-4CC4-D87C34B2D4AA\\Qur&apos;an, 883,  Yah. Ar. 968.jpg",
+                   "dataLength": "232317",
                    "format": ".jpg"
                   }
                  ],
@@ -6049,9 +6113,9 @@
             "attachmentEntryID": "9965E14D-95F0-108F-E929-F80F13F0F7EC"
            },
            "objectID": "A3CB6E55-1059-5AE7-473A-103D04566C62",
-           "name": "Isaac Newton Wallop, 5th Earl of Portsmouth, Vanity Fair caricature, 1876-07-01.jpg",
+           "name": "Isaac Newton Wallop,  5th Earl of Portsmouth, Vanity Fair caricature, 1876-07-01.jpg",
            "attachmentType": "1",
-           "location": "A3CB6E55-1059-5AE7-473A-103D04566C62\\Isaac Newton Wallop, 5th Earl of Portsmouth, Vanity Fair caricature, 1876-07-01.jpg",
+           "location": "A3CB6E55-1059-5AE7-473A-103D04566C62\\Isaac Newton Wallop,  5th Earl of Portsmouth, Vanity Fair caricature, 1876-07-01.jpg",
            "dataLength": "22179",
            "format": ".jpg"
           },
@@ -6083,15 +6147,15 @@
            "data": "<p>In July 1936 the papers which had been given back to the family were put up for sale by Sotheby's in London. The sale was poorly attended since at the same time, in London, Impressionist paintings were being sold at Christie's! Newton's papers were thus sold to a variety of people for the mere some of 9000 pounds.</p>\n",
            "attachments": [
             {
-             "guid": "A5B07265-19DD-63C7-08CC-958B2261B4FD",
+             "guid": "E2715E98-1C3D-1020-0A11-A4B1A7D00D9A",
              "AttachmentEntries": {
               "attachmentEntryID": "DE47EB72-853E-CD73-9EAC-A48CC10FEFCE"
              },
              "objectID": "6313E407-AF8A-E232-115C-C382A8911B76",
-             "name": "Sotheby&apos;s auction catalogue, front_page.jpg",
+             "name": "Sotheby&apos;s auction catalogue,  front_page.jpg",
              "attachmentType": "1",
-             "location": "6313E407-AF8A-E232-115C-C382A8911B76\\Sotheby&apos;s auction catalogue, front_page.jpg",
-             "dataLength": "7489493",
+             "location": "6313E407-AF8A-E232-115C-C382A8911B76\\Sotheby&apos;s auction catalogue,  front_page.jpg",
+             "dataLength": "513970",
              "format": ".jpg"
             }
            ],
@@ -6185,15 +6249,15 @@
                  "format": ".jpg"
                 },
                 {
-                 "guid": "16760BF1-DC58-CCD4-BC8E-11C4F28E9033",
+                 "guid": "13BC6689-9DA7-3E1E-9D50-AB88850BA7D0",
                  "AttachmentEntries": {
                   "attachmentEntryID": "68DC570C-DA4B-D2CB-0C1A-9F337CBBBBD3"
                  },
                  "objectID": "5B1844AA-E868-D84F-B0F5-5FCFDBEA65DE",
-                 "name": "Qur&apos;an, Kashmir, 18th century, Ms.Yah.Ar.954.jpg",
+                 "name": "Qur&apos;an, Kashmir, 18th century,  Ms.Yah.Ar.954.jpg",
                  "attachmentType": "1",
-                 "location": "5B1844AA-E868-D84F-B0F5-5FCFDBEA65DE\\Qur&apos;an, Kashmir, 18th century, Ms.Yah.Ar.954.jpg",
-                 "dataLength": "2205948",
+                 "location": "5B1844AA-E868-D84F-B0F5-5FCFDBEA65DE\\Qur&apos;an, Kashmir, 18th century,  Ms.Yah.Ar.954.jpg",
+                 "dataLength": "149266",
                  "format": ".jpg"
                 }
                ],
