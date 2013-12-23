@@ -289,7 +289,7 @@ module.exports = function (grunt) {
             //'favicon.ico',
             //'apple-touch*.png'
             'data/**/*',
-            'pages/**/*.{jpg,png,gif,jpeg,webp,tiff,mp3,wav,avi,mp4}'
+            'pages/**/*.{jpg,JPG,PNG,png,gif,jpeg,webp,tiff,mp3,wav,avi,mp4}'
           ],
           dest: '<%= yeoman.dist %>'
         }]
@@ -309,7 +309,7 @@ module.exports = function (grunt) {
           expand: true,
           dot: true,
           cwd: 'brain/files',
-          src: '**/*.{jpg,png,gif,jpeg,webp,tiff,mp3,wav,avi,mp4}',
+          src: '**/*.{jpg,JPG,png,PNG,gif,jpeg,webp,tiff,mp3,wav,avi,mp4}',
           dest: '<%= yeoman.app %>/pages'
         }]
       }
@@ -517,7 +517,7 @@ module.exports = function (grunt) {
      */
     function getFirst(nodes) {
       return _.min(nodes, function(node) {
-        return node.chronologicalId;
+        return parseInt(node.chronologicalId, 10);
       });
     }
 
@@ -557,16 +557,32 @@ module.exports = function (grunt) {
       // Init regex for content.
       regexCleaner = [
         {
-          regex: /class=".*?"+/,
+          regex: / ?class=".*?"+/,
           phrase: ''
         },
         {
-          regex: /style=".*?"+/,
+          regex: / ?style=".*?"+/,
           phrase: ''
         },
         {
-          regex: /"/,
-          phrase: '&quot;'
+          regex: / ?align=".*?"+/,
+          phrase: ''
+        },
+        {
+          regex: /^\n+/,
+          phrase: ''
+        },
+        {
+          regex: /$\n+/,
+          phrase: ''
+        },
+        {
+          regex: /<font .*?>/,
+          phrase: ''
+        },
+        {
+          regex: /<\/font>/,
+          phrase: ''
         }
       ];
 
@@ -595,7 +611,12 @@ module.exports = function (grunt) {
       node.data = '';
       if (nodesEntries[node.guid] && nodesEntries[node.guid].body) {
         // Extract the content from body.
-        node.data = he.decode(nodesEntries[node.guid].body.match(regexContent)[2]);
+        if (regexContent.test(nodesEntries[node.guid].body)) {
+          node.data = he.decode(nodesEntries[node.guid].body.match(regexContent)[2]);
+        }
+        else {
+          node.data = he.decode(nodesEntries[node.guid].body);
+        }
 
         // Clean content.
         regexCleaner.forEach(function(element) {
@@ -625,6 +646,19 @@ module.exports = function (grunt) {
         node.type = 'default';
       }
     }
+
+    // @todo: Function repeted in grunt task CDLPrepare, create one function in a multitask grunt task for
+    // the tasks CDL, generate and CDLPrepare.
+    /**
+     * Helper to select the correct name of the node according its type.
+     *
+     * @param node
+     * @returns {*}
+     */
+    function getName(node) {
+      return (node.type === 'chronological') ? node.chronologicalName : (node.type === 'bastard') ? node.bastardName : node.name;
+    }
+
 
     /**
      * Reorder the childs properties according dir: (Brain direction), type: chronological, bastard and default.
@@ -657,7 +691,8 @@ module.exports = function (grunt) {
         setNodeContent(child.node);
 
         // Set parent guid.
-        child.node.parent = _.pick(parent, 'guid', 'name');
+        child.node.parent = _.pick(parent, 'guid');
+        child.node.parent.name = getName(parent);
         child.node.hasChronologicalChildren = false;
 
         // Look up for more generations of childrens.
@@ -671,7 +706,7 @@ module.exports = function (grunt) {
         childsOrdered.push(child.node);
       });
 
-      // @todo: check formation of chronological nodes, with sibling not chronological. Issue #21
+      // Select chronological nodes from children.
       chronologicalChilds = _.where(childsOrdered, {type: 'chronological'});
 
       if (chronologicalChilds.length) {
@@ -694,6 +729,7 @@ module.exports = function (grunt) {
       var childsOrdered = [],
           childs = [];
 
+      grunt.log.ok('Parsing node: ' + node.guid);
       childs = _.union( _.where(nodesLinks, {idA: node.guid, dir: '1'}), _.where(nodesLinks, {idB: node.guid, dir: '2'}) );
 
       if (childs.length) {
@@ -714,6 +750,7 @@ module.exports = function (grunt) {
     function generateTreeData() {
 
       prepareData();
+      grunt.log.ok('Working object prepared and indexed.');
 
       // Look up the node and position into the array.
       tree = nodesIndexed[firstNode];
@@ -733,8 +770,15 @@ module.exports = function (grunt) {
       grunt.fail.fatal('File ' + src.path + ' does not exist.');
     }
 
-    // Generate data.
-    dest.data = generateTreeData();
+    try {
+      // Generate data.
+      dest.data = generateTreeData();
+      grunt.log.ok('Data parse.');
+    }
+    catch(e) {
+      grunt.fail.fatal('CDL error: ' + e.message);
+    }
+
 
     // Save the JSON into a new file.
     grunt.file.write(dest.path, JSON.stringify(dest.data, null, ' '));
@@ -790,7 +834,7 @@ module.exports = function (grunt) {
      */
     function convertAttachments(attachments) {
       var item;
-      var regexYoutube = /http:\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/)(\w*)(&(amp;)?[\w\?=]*)?/;
+      var regexYoutube = /http:\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/)(.*)(&(amp;)?[\w\?=]*)?/;
       var attachmentsParsed = {
         images: [],
         media: [],
@@ -849,6 +893,9 @@ module.exports = function (grunt) {
         // Pick node selected properties.
         node = _.pick(node, 'guid', 'name', 'data', 'attachments', 'siblings', 'parent', 'children');
 
+        // Capitalize the name of the node.
+        node.name = node.name.toUpperCase();
+
         // Reduce the properties of children.
         if (node.children.length) {
           node.children = _.map(node.children, function(node) {
@@ -865,6 +912,22 @@ module.exports = function (grunt) {
       });
     }
 
+    /**
+     * Helper to select the correct name of the node according its type.
+     *
+     * @param node
+     * @returns {*}
+     */
+    function getName(node) {
+      return (node.type === 'chronological') ? node.chronologicalName : (node.type === 'bastard') ? node.bastardName : node.name;
+    }
+
+    /**
+     * Prepare data in the format of the YAML need to show in the page of the site.
+     *
+     * @param nodes
+     * @returns {*}
+     */
     function prepareData(nodes) {
       // Prepare object to binding with the template system.
       _.each(nodes, function(node, index) {
@@ -874,7 +937,7 @@ module.exports = function (grunt) {
         }
 
         // Set name according node type.
-        nodes[index].name = (node.type === 'chronological') ? node.chronologicalName : (node.type === 'bastard') ? node.bastardName : node.name;
+        nodes[index].name = getName(node);
 
         // Modify definition of the object attachments.
         if (node.attachments) {

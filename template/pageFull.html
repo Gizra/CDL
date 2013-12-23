@@ -13,7 +13,7 @@ layout: page
         <div class=" node-title ">
           <div class="text-title">
             <div class="inner-text-title">
-              {{ page.name | upcase }}
+              {{ page.name }}
             </div>
           </div>
         </div>
@@ -90,21 +90,27 @@ layout: page
         {% endif %}
 
         {% if page.attachments.media != empty %}
-        {% for attachment in page.attachments.media %}
-        <audio  src="{{ BASE_PATH }}/pages/{{ attachment.src }}" controls></audio>
-        {% endfor %}
+          {% for attachment in page.attachments.media %}
+          <div>
+            <audio src="{{ BASE_PATH }}/pages/{{ attachment.src }}" controls></audio>
+          </div>
+          {% endfor %}
         {% endif %}
 
         {% if page.attachments.pages != empty %}
-        {% for attachment in page.attachments.pages %}
-        <a  href="{{ attachment.src }}" target="_blank">{{ attachment.name }}</a>
-        {% endfor %}
+          {% for attachment in page.attachments.pages %}
+          <div>
+            <a href="{{ attachment.src }}" target="_blank">{{ attachment.name }}</a>
+          </div>
+          {% endfor %}
         {% endif %}
 
         {% if page.attachments.youtube != empty %}
-        {% for attachment in page.attachments.youtube %}
-        <iframe  width="560" height="315" src="//www.youtube.com/embed/{{ attachment.id }}" frameborder="0" allowfullscreen></iframe>
-        {% endfor %}
+          {% for attachment in page.attachments.youtube %}
+          <div>
+            <iframe  width="560" height="315" src="//www.youtube.com/embed/{{ attachment.id }}" frameborder="0" allowfullscreen></iframe>
+          </div>
+          {% endfor %}
         {% endif %}
 
         <div class="chronological">
@@ -188,19 +194,25 @@ layout: page
 
               {% if sibling.attachments.media != empty %}
               {% for attachment in sibling.attachments.media %}
-              <audio  src="{{ BASE_PATH }}/pages/{{ attachment.src }}" controls></audio>
+              <div>
+                <audio src="{{ BASE_PATH }}/pages/{{ attachment.src }}" controls></audio>
+              </div>
               {% endfor %}
               {% endif %}
 
               {% if sibling.attachments.pages != empty %}
               {% for attachment in sibling.attachments.pages %}
-              <a  href="{{ attachment.src }}" target="_blank">{{ attachment.name }}</a>
+              <div>
+                <a href="{{ attachment.src }}" target="_blank">{{ attachment.name }}</a>
+              </div>
               {% endfor %}
               {% endif %}
 
               {% if sibling.attachments.youtube != empty %}
               {% for attachment in sibling.attachments.youtube %}
-              <iframe  width="560" height="315" src="//www.youtube.com/embed/{{ attachment.id }}" frameborder="0" allowfullscreen></iframe>
+              <div>
+                <iframe  width="560" height="315" src="//www.youtube.com/embed/{{ attachment.id }}" frameborder="0" allowfullscreen></iframe>
+              </div>
               {% endfor %}
               {% endif %}
 
