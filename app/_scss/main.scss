@@ -358,28 +358,21 @@ div.cdl {
   // titles.
   .area {
     background-color: transparent;
-    font-size: 0;
-    font-family: Arial;
+    font-family: Miso;
 
     .titles {
-      font-size: 6px;
-      color: #ffffff;
+      color: black;
+    }
+    .default {
+      font-size: 14px;
+    }
+    .root-title {
+      font-size: 35px;
+      color: white;
     }
     .no-title {
       font-size: 0px;
       color: transparent;
-    }
-    .bastard-title {
-      font-size: 6px;
-      color: #000000;
-    }
-    .root-title {
-      font-size: 15px;
-      color: red;
-    }
-    .default {
-      font-size: 6px;
-      color: #ffffff;
     }
   }
 }
