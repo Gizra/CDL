@@ -16,8 +16,8 @@
     center,
     background,
     system,
-    width = 960,
-    height = 500,
+    width = window.innerWidth * 0.7,
+    height = window.innerHeight * 0.7,
     delay = 250;
 
 
@@ -36,7 +36,7 @@
 
     var zoomSvg = d3.behavior.zoom()
       .center([window.innerWidth / 2, window.innerHeight / 2])
-      .scaleExtent([0.5, 10])
+      .scaleExtent([1, 10])
       .on('zoom', zoom);
 
     // Canvas.
@@ -94,11 +94,11 @@
         return window.innerHeight/2;
       }
     };
-    
+
     // Define the new root position.
     var rootPosition = {
       x: width/2,
-      y: -height/2
+      y: -height/3
     };
 
     var line,
@@ -198,10 +198,10 @@
     text = function() {
       var nodeType = {
         root: {
-          x:-100,
-          y:-100,
-          width:220,
-          height:220,
+          x:-50,
+          y:-55,
+          width:110,
+          height:110,
           class: 'root-title'
         },
         default: {
@@ -264,7 +264,7 @@
           fill: 'white',
           stroke: 'black',
           r: 5,
-          innerRadio: 2
+          innerRadio: 1.5
         },
         siblings: {
           fill: 'blue',
@@ -284,11 +284,11 @@
         root: {
           fill: 'black',
           stroke: 'black',
-          r: 160
+          r: 80
         },
         inner: {
           fill: 'black',
-          r: 3
+          r: 1.5
         }
       };
 
@@ -572,7 +572,8 @@
       .attr('height', text().height)
       .append('xhtml:body')
       .attr('class', 'area')
-      .html( text().html );
+      .html( text().html )
+      .on('click', clickNode );
 
     // Mask of the node to handle events.
     node.append('circle')
@@ -587,9 +588,9 @@
     return {
       setBackgroud: function() {
         background.style('fill', 'white')
-          .attr('transform', 'translate(30, 450)');
+          .attr('transform', 'translate(50, 300)scale(0.75)');
 
-        system.attr('transform', 'translate(30, 450)');
+        system.attr('transform', 'translate(50, 300)scale(0.75)');
       },
       setCenter: function(color) {
         center.attr('r', 5)
