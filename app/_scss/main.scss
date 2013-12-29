@@ -359,20 +359,28 @@ div.cdl {
   .area {
     background-color: transparent;
     font-family: Miso;
+    font-size: 3px;
 
     .titles {
       color: black;
     }
+
+    .title-splash {
+      color: black;
+    }
+
     .default {
+      color: transparent;
+      font-size: 3px;
+    }
+
+    .focus {
       font-size: 14px;
     }
+
     .root-title {
       font-size: 19px;
       color: white;
-    }
-    .no-title {
-      font-size: 0px;
-      color: transparent;
     }
   }
 }
