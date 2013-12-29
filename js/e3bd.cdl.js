@@ -12,14 +12,14 @@
   var cdl = window.CDL;
 
   var svgContainer,
+    zoomSvg,
     g,
     center,
     background,
     system,
-    width = window.innerWidth * 0.7,
-    height = window.innerHeight * 0.7,
+    width = window.innerWidth * 0.6,
+    height = window.innerHeight * 0.6,
     delay = 250;
-
 
   /**
    * Create the 'Canvas' area, it's possible define the dimensions.
@@ -31,27 +31,43 @@
 
     // Behaviours.
     function zoom() {
-      system.attr('transform', 'translate(' + d3.event.translate + ')scale(' + d3.event.scale + ')');
+      system
+        .attr('transform', 'translate(' + d3.event.translate + ')scale(' + d3.event.scale + ')');
+
+      if (d3.event.scale > 5) {
+        if (!$('.default').first().hasClass('title-splash') ) {
+          $('.default').addClass('title-splash');
+          $('.default').removeClass('default');
+        }
+      }
+      else {
+        if (!$('.title-splash').first().hasClass('default') ) {
+          $('.title-splash').addClass('default');
+          $('.title-splash').removeClass('title-splash');
+        }
+      }
     }
 
-    var zoomSvg = d3.behavior.zoom()
+    zoomSvg = d3.behavior.zoom()
       .center([window.innerWidth / 2, window.innerHeight / 2])
-      .scaleExtent([1, 10])
+      .scaleExtent([1, 60])
       .on('zoom', zoom);
+
 
     // Canvas.
     svgContainer = d3.select('body').append('svg')
       .attr('id', 'chart')
       .attr('width', '100%')
       .attr('height', '100%')
-      .call(zoomSvg)
-      .on('dblclick.zoom', null);
+      .on('dblclick.zoom', null)
+      .call(zoomSvg);
 
     // Background.
     background =  svgContainer.append('rect')
       .attr('id', 'backgroud')
       .attr('width', width)
-      .attr('height', height);
+      .attr('height', height)
+      .on('zoom', zoom);
 
     // System.
     system = svgContainer.append('g')
@@ -85,16 +101,6 @@
    * @param data
    */
   function CDL(data) {
-    // Center point calculation.
-    var centerPoint = {
-      width: function() {
-        return window.innerWidth/2;
-      },
-      height: function() {
-        return window.innerHeight/2;
-      }
-    };
-
     // Define the new root position.
     var rootPosition = {
       x: width/2,
@@ -111,7 +117,8 @@
       trianglePoints,
       text,
       nodeExtend,
-      draw;
+      draw,
+      chart;
 
     // Index of the actual node centered
     nodeCentered = null;
@@ -126,59 +133,10 @@
     function getCoordinateToCenter(node) {
       var coordinate = [];
 
-      coordinate[0] = (centerPoint.width()) - node.x;
-      coordinate[1] = (centerPoint.height()) - node.y;
+      coordinate[0] = (draw().centerPoint().x) - node.x;
+      coordinate[1] = (draw().centerPoint().y) - node.y;
 
       return coordinate;
-    }
-
-    /**
-     * Click node center in the canvas the node.
-     * @param node
-     */
-    function clickNode(node) {
-      var move = [],
-        points = [];
-
-      // Check if it is the first or second click.
-      if (!nodeCentered || nodeCentered !== node.id) {
-        move = getCoordinateToCenter(node);
-
-        // Storage the id of the actual node center.
-        nodeCentered = node.id;
-
-        // Connect siblings.
-        // @todo style line to connect the siblings.
-        points = node.toogleSiblings();
-        draw().connection(points, node.id);
-
-        // Go to the detail page.
-        window.location = window.location.origin + window.location.pathname + '#/' + node.guid;
-      }
-      else if (nodeCentered === node.id) {
-        secondClickNode(node);
-        nodeCentered = false;
-      }
-
-    }
-
-    /**
-     * Second click node open the page related with the node.
-     * @param node
-     */
-    function secondClickNode(node) {
-      // If root element, do not perform any action.
-      if (node.depth === 0) {
-        return;
-      }
-
-      // If it's chronological node, go up until the parent not chronological and set like active node.
-      while (node.type === 'chronological') {
-        node = node.parent;
-      }
-
-      // Go to the detail page.
-      window.location = window.location.origin + window.location.pathname + 'pages/' + node.guid;
     }
 
     // Data Tree Layout.
@@ -196,6 +154,9 @@
      * @returns {{x: *, y: *, width: *, height: *}}
      */
     text = function() {
+      var levelFocus = 1;
+
+
       var nodeType = {
         root: {
           x:-50,
@@ -205,21 +166,50 @@
           class: 'root-title'
         },
         default: {
-          x:0,
-          y:-70,
-          width:120,
+          x: 2,
+          y: 5,
+          width:20,
+          height:10,
+          class: 'default'
+        },
+        focus: {
+          x: 0,
+          y: -70,
+          width:100,
           height:80,
+          class: 'focus'
+        },
+        chronological: {
+          x: 2,
+          y: 5,
+          width:20,
+          height:10,
+          class: 'default'
+        },
+        bastard: {
+          x: 2,
+          y: 5,
+          width:20,
+          height:10,
           class: 'default'
         }
       };
 
       function get(property) {
+
         return function(node) {
-          if (typeof node.type === 'undefined' || node.depth > 1) {
+          var type = node.type;
+
+          if (typeof type === 'undefined') {
             return 0;
           }
 
-          return nodeType[node.type][property];
+          // Focus especific level of the tree.
+          if (node.depth === 1) {
+            type = 'focus';
+          }
+
+          return nodeType[type][property];
         };
       }
 
@@ -229,16 +219,23 @@
         width: get('width'),
         height: get('height'),
         html: function(node) {
+          var type = node.type;
+
+          // Focus especific level of the tree.
+          if (node.depth === 1) {
+            type = 'focus';
+          }
+
           var e = $('<div>');
           // Only show the names in the first level of depth.
-          if (node.depth <= 1 ) {
-            e.append(
-              $('<div class="titles">')
-              .addClass(nodeType[node.type].class)
-              .html(node.name)
-            );
-            return e.html();
-          }
+          e.append(
+            $('<div class="titles">')
+            .addClass(nodeType[type].class)
+            .html(node.name)
+          );
+          return e.html();
+
+
         }
       };
     };
@@ -249,6 +246,7 @@
      * @returns {*}
      */
     nodeExtend = function() {
+
       var nodeType = {
         default: {
           fill: 'black',
@@ -308,11 +306,64 @@
           }
 
           return 0;
+        },
+        click: function(node) {
+
+          var move = [],
+            points = [];
+
+          // Check if it is the first or second click.
+          if (!nodeCentered || nodeCentered !== node.id) {
+            move = getCoordinateToCenter(node);
+
+            // Storage the id of the actual node center.
+            nodeCentered = node.id;
+
+            // Connect siblings.
+            // @todo style line to connect the siblings.
+            points = node.toogleSiblings();
+            draw().connection(points, node.id);
+
+            // Go to the detail page.
+            window.location = window.location.origin + window.location.pathname + '#/' + node.guid;
+          }
+          else if (nodeCentered === node.id) {
+            nodeExtend().secondClick(node);
+            nodeCentered = false;
+          }
+        },
+        /**
+         * Second click node open the page related with the node.
+         * @param node
+         */
+        secondClick: function(node) {
+          // If root element, do not perform any action.
+          if (node.depth === 0) {
+            return;
+          }
+
+          // If it's chronological node, go up until the parent not chronological and set like active node.
+          while (node.type === 'chronological') {
+            node = node.parent;
+          }
+
+          // Go to the detail page.
+          window.location = window.location.origin + window.location.pathname + 'pages/' + node.guid;
         }
+
       };
     };
 
     draw = function() {
+      // Handle the referencen information of the general chart g#system.
+      var chartReference = {};
+
+      // Define center point.
+      chartReference.centerPoint = {
+        x: window.innerWidth / 2,
+        y: window.innerHeight / 2
+      };
+
       return {
         all: function() {
           var selection,
@@ -357,6 +408,35 @@
             .style('stroke', 'red' )
             .style('stroke-width', 2);
 
+        },
+        /**
+         * Move a node to the center of the screen.
+         *
+         * @param index
+         * @param move
+         */
+        setFocus: function(id, move) {
+
+          // Validate
+          system.transition()
+            .duration(delay)
+            .attr('transform', 'translate(' + move.toString() + ')scale(' + zoomSvg.scale() + ')');
+
+        },
+        scale: function() {
+          // Validate
+          system.transition()
+            .duration(1000)
+            .attr('transform', 'scale(2)');
+        },
+        centerPoint: function() {
+          return chartReference.centerPoint;
+        },
+        setInitialPoint: function(x, y) {
+          chartReference.initialPoint = {x: x, y: y};
+        },
+        initialPoint: function() {
+          return chartReference.initialPoint;
         }
       };
     };
@@ -432,6 +512,7 @@
           y: this.y
         };
       };
+
     });
 
     // Data modification.
@@ -455,8 +536,8 @@
       .attr('class', 'center')
       .style('fill', 'transparent')
       .attr('r', 0)
-      .attr('cx', function() { return centerPoint.width(); })
-      .attr('cy', function() { return centerPoint.height(); });
+      .attr('cx', function() { return draw().centerPoint().x; })
+      .attr('cy', function() { return draw().centerPoint().y; });
 
     // Line path generator.
     line = d3.svg.line()
@@ -573,30 +654,35 @@
       .append('xhtml:body')
       .attr('class', 'area')
       .html( text().html )
-      .on('click', clickNode );
+      .on('click', nodeExtend().click );
 
     // Mask of the node to handle events.
     node.append('circle')
       .attr('r', nodeExtend().r )
       .style('fill', 'transparent' )
       .style('stroke', 'node' )
-      .on('click', clickNode )
-      .on('touchstart', clickNode);
+      .on('click', nodeExtend().click )
+      .on('touchstart', nodeExtend().click );
 
 
     // Public CDL API.
     return {
       setBackgroud: function() {
-        background.style('fill', 'white')
-          .attr('transform', 'translate(50, 300)scale(0.75)');
+        chart = draw();
+        chart.setInitialPoint(50,300);
 
-        system.attr('transform', 'translate(50, 300)scale(0.75)');
+        background.style('fill', 'white')
+          .attr('transform', 'translate(' + chart.initialPoint().x + ', ' + chart.initialPoint().y + ')');
+        system.attr('transform', 'translate(' + chart.initialPoint().x + ', ' + chart.initialPoint().y + ')');
+
+        zoomSvg.translate([chart.initialPoint().x, chart.initialPoint().y]);
+        zoomSvg.scale(1);
       },
       setCenter: function(color) {
         center.attr('r', 5)
           .style('fill', color)
-          .attr('cx', function() { return centerPoint.width(); })
-          .attr('cy', function() { return centerPoint.height(); });
+          .attr('cx', function() { return draw().centerPoint().x; })
+          .attr('cy', function() { return draw().centerPoint().y; });
       },
       setRootStyle: function() {
         // Update data.
@@ -605,12 +691,6 @@
       },
       selectNodeById: function(id) {
         return d3.select( '#n' + id );
-      },
-      setFocus: function(index, move) {
-        // Validate
-        system.transition()
-          .duration(delay)
-          .attr('transform', 'translate(' + move.toString() + ')');
       },
       repositionRoot: function() {
         // Update data.
@@ -624,6 +704,9 @@
       },
       redraw: function() {
         draw().all();
+      },
+      getChart: function() {
+        return system;
       }
     };
   }
