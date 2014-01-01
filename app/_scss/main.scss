@@ -361,15 +361,13 @@ div.cdl {
     font-family: Miso;
     font-size: 3px;
 
-    .titles {
-      color: black;
-    }
-
     .title-splash {
+      transition: 2s;
       color: black;
     }
 
-    .default {
+    .default, .bastard, .chronological {
+      transition: 0.5s;
       color: transparent;
       font-size: 3px;
     }
@@ -381,6 +379,18 @@ div.cdl {
     .root-title {
       font-size: 19px;
       color: white;
+    }
+
+    .selected {
+      transition: 0.2s;
+      color: white;
+      font-size: 3px;
+    }
+
+    .activated {
+      transition: 0.2s;
+      color: red;
+      font-size: 3px;
     }
   }
 }
