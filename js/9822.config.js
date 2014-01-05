@@ -69,8 +69,8 @@
       chronological: {
         fill: 'white',
         stroke: 'black',
-        r: 5,
-        innerRadio: 1.5
+        r: 1.5,
+        innerRadio: 0
       },
       selected: {
         fill: 'red',
