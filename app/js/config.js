@@ -40,7 +40,7 @@
         strokeWidth: 1
       },
       nodesSeparation: {
-        horizontal: 1.5
+        horizontal: 2.5
       }
     };
 
