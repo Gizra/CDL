@@ -18,9 +18,9 @@
     center,
     background,
     system,
-    chart,
-    width = window.innerWidth * 0.6,
-    height = window.innerHeight * 0.6,
+    draw,
+    width = window.innerWidth,
+    height = window.innerHeight,
     delay = 250;
 
   /**
@@ -33,26 +33,35 @@
 
     // Behaviours.
     function zoom() {
+      var nodeSelected;
+
       system
         .attr('transform', 'translate(' + d3.event.translate + ')scale(' + d3.event.scale + ')');
 
-      // Update behavior of the titles.
-      chart.updateTitle();
+      // Remove connection if zoom out/in.
+      nodeSelected = draw.getSelectedNode();
+      if (typeof nodeSelected !== 'undefined') {
+        // Deactivate title.
+        draw.toggleTitles(draw.getSelectedNode(), {activate: false, default: true});
+        nodeSelected.toggleSiblings();
+        draw.hideConnection();
+        draw.setSelectedNode(undefined);
+      }
 
       // Store current position and zoom ratio.
-      chart.setPositionByTransform(system.attr('transform'));
-      chart.setScale(d3.event.scale);
+      draw.setPositionByTransform(system.attr('transform'));
+      draw.setScale(d3.event.scale);
 
-      console.log(d3.event.scale);
-      // Test with th aspect of the line.
-      system.selectAll('.link')
-        .style('stroke-width', 1/d3.event.scale);
+      // Update behavior of the titles.
+      draw.updateTitle();
 
+      // Keep object size during the zoom.
+      draw.all(d3.event.scale);
     }
 
     zoomSvg = d3.behavior.zoom()
       .center([window.innerWidth / 2, window.innerHeight / 2])
-      .scaleExtent([1, 60])
+      .scaleExtent([1, config.chart.initial.maxZoom])
       .on('zoom', zoom);
 
     // Canvas.
@@ -105,7 +114,7 @@
     // Define the new root position.
     var rootPosition = {
       x: width/2,
-      y: -height/3
+      y: -height/4
     };
 
     var line,
@@ -118,7 +127,7 @@
       trianglePoints,
       text,
       nodeExtend,
-      draw;
+      drawModule;
 
     // Index of the actual node centered
     nodeCentered = null;
@@ -133,7 +142,8 @@
     links = tree.links(nodes);
 
     /**
-     * Return an with the properties of the according the type of the node.
+     * Return an with the properties of the according the type of the node. From the
+     * configuration file config.js
      *
      * @returns {{x: *, y: *, width: *, height: *}}
      */
@@ -165,8 +175,8 @@
         width: get('width'),
         height: get('height'),
         class: get('class'),
-        classSelector: function() {
-          return '.' + get('class');
+        transform: function(node) {
+          return 'scale(' + nodeType[node.styleNode].scale + ')';
         },
         html: function(node) {
           var type = node.styleNode;
@@ -190,7 +200,7 @@
     };
 
     /**
-     * Helper to add style the nodes according to its type.
+     * Helper to get style and behaviour of the nodes according to its type.
      *
      * @returns {*}
      */
@@ -199,6 +209,10 @@
 
       function get(property) {
         return function(node) {
+          if (typeof nodeType[node.styleNode][property] === 'number') {
+            return nodeType[node.styleNode][property] / draw.getScale();
+          }
+
           return nodeType[node.styleNode][property];
         };
       }
@@ -207,19 +221,24 @@
         fill: get('fill'),
         stroke: get('stroke'),
         r: get('r'),
+        strokeWidth: get('strokeWidth'),
         inner: function(node) {
           var r = 0;
           if (node.styleNode === 'chronological') {
-            r = nodeType[node.styleNode].innerRadio;
+            r = nodeType[node.styleNode].innerRadio / draw.getScale();
           }
 
           return r;
         },
+        /**
+         * Implementation of click actions, first click enter in "focus view", second click
+         * enter to the page related.
+         *
+         * @param node
+         */
         click: function(node) {
 
-          var move = [],
-            points = [],
-            nodeSelected;
+          var nodeSelected;
 
           // Check if it is the first or second click.
           if (!nodeCentered || nodeCentered !== node.id) {
@@ -227,30 +246,16 @@
             nodeCentered = node.id;
 
             // Back to default style of the nodes previous activated and selected node.
-            nodeSelected = chart.getSelectedNode();
+            nodeSelected = draw.getSelectedNode();
             if (typeof nodeSelected !== 'undefined' && nodeSelected.id !== node.id ) {
               // Deactivate title.
-              chart.toogleTitles(nodeSelected, {activate: false, default: true});
-              nodeSelected.toogleSiblings();
+              draw.toggleTitles(nodeSelected, {activate: false, default: true});
+              nodeSelected.toggleSiblings();
             }
-            chart.hideConnection();
+            draw.hideConnection();
 
             // "Focus view" translate and scale.
-            // @todo: Scaling, it's need input from the team issue #119.
-            move = node.getCoordinateToCenter();
-            chart.setFocus(node.id, move, 30);
-
-            // Storage the selected node in the chart object.
-            chart.setSelectedNode(node);
-
-            // Update nodes data, active and selected according the node clicked.
-            points = node.toogleSiblings();
-
-            // Draw the connection.
-            chart.showConnection(points);
-
-            chart.toogleTitles(node, {activate: true, default: false});
-            chart.all();
+            draw.setFocus(node, config.chart.initial.maxZoom);
 
             // Go to the detail page.
             window.location = window.location.origin + window.location.pathname + '#/' + node.guid;
@@ -261,7 +266,8 @@
           }
         },
         /**
-         * Second click node open the page related with the node.
+         * Second click node open the page related with the detailed information.
+         *
          * @param node
          */
         secondClick: function(node) {
@@ -282,45 +288,49 @@
       };
     };
 
-    draw = function() {
-      // Handle the referencen information of the general chart g#system.
-      var chartReference = {};
+    /**
+     * Module of drawing function and general properties of the draw.
+     *
+     * @returns {*}
+     *  Drawing function.
+     */
+    drawModule = function() {
+      // Handle the referencen information of the general draw g#system.
+      var drawReference = {};
 
       // Define center point.
-      chartReference.centerPoint = {
+      drawReference.centerPoint = {
         x: window.innerWidth / 2,
         y: window.innerHeight / 2
       };
 
       return {
-        all: function() {
+        /**
+         * Refresh all the elements in the draw according the node type.
+         *
+         * @param ratio
+         *   Specific zoom scale that affect the sizes of the elements.
+         */
+        all: function(ratio) {
           var selection,
             circles,
             titles,
-            internal,
             textbox;
 
           // Selection of the objects.
           selection = g.selectAll('.node');
 
-          circles = selection.select('circle');
-          internal = selection.select('.circle-internal');
+          circles = selection.selectAll('circle');
           textbox = selection.select('.textbox');
           titles = selection.select('.titles');
-
 
           // Refresh properties of the circles.
           circles.transition()
             .delay(function(d, i) {return i * 3;})
             .attr('r', nodeExtend().r)
-            .style('fill', nodeExtend().fill )
-            .style('stroke', nodeExtend().stroke )
-            .style('stroke-width', 1 );
-
-          // Toogle the internal circle for the chronological nodes.
-          internal.transition()
-            .delay(function(d, i) {return i * 3;})
-            .attr('r', nodeExtend().inner );
+            .style('fill', nodeExtend().fill)
+            .style('stroke', nodeExtend().stroke)
+            .style('stroke-width', nodeExtend().strokeWidth);
 
           // Update the position of the selected node.
           textbox
@@ -329,8 +339,16 @@
             .attr('x', text().x)
             .attr('y', text().y)
             .attr('width', text().width)
-            .attr('height', text().height);
+            .attr('height', text().height)
+            .attr('transform', text().transform);
 
+          system.selectAll('.link')
+            .transition()
+            .style('stroke-width', 3/ratio);
+
+          system.selectAll('.dashed')
+            .transition()
+            .style('stroke-width', config.chart.dashedLine.strokeWidth/ratio);
         },
         /**
          * Render a line between the siblings nodes of the clicked circle.
@@ -354,13 +372,25 @@
             .attr('d', line)
             .style('fill', 'none' )
             .style('stroke', 'red' )
-            .style('stroke-width', 1);
+            .style('stroke-width', 1/this.getScale());
         },
+        /**
+         * Hide the line between the siblings nodes.
+         */
         hideConnection: function() {
           // Clean actual active path if exist.
           system.select('#line-active').data([]).exit().remove();
         },
-        toogleTitles: function(node, options) {
+        /**
+         * Toggle the class to activated of default for the title of the nodes.
+         *
+         * @param node
+         *   Node object.
+         * @param options
+         *   Indicate the class (by key of the object) and to add or remove, according
+         *   the value. (true or false).
+         */
+        toggleTitles: function(node, options) {
           var nodes,
             self = this;
 
@@ -380,83 +410,95 @@
             title.classed(node.styleNode, options.activate)
               .transition()
               .delay(function(d, i) {return i * 3;})
-              .duration(3000);
+              .duration(config.chart.transitions.titles);
 
             title.classed(node.type, options.default)
               .transition()
               .delay(function(d, i) {return i * 3;})
-              .duration(3000);
+              .duration(config.chart.transitions.titles);
           });
         },
         /**
          * Move a node to the center of the screen.
          *
-         * @param index
-         * @param move
+         * @param node
+         *   Selected node object.
+         * @param ratio
+         *   Scale of zoom requested. Actually maximun zoom scale.
          */
-        setFocus: function(id, move, gain) {
-          var focusing,
-            zooming,
+        setFocus: function(node, ratio) {
+          var zooming,
+            points,
             self = this;
 
           zooming = system.transition()
             .duration(delay)
-            .attr('transform', 'translate(' + zoomSvg.translate() + ')scale(' + gain + ')');
-
-          zooming.each('end', function() {
-            self.setPositionByTransform(system.attr('transform'));
-
-            // Set last scale and translate info to the zoom behaviour.
-            zoomSvg.translate(self.getPosition());
-            zoomSvg.scale(self.getScale());
-          });
+            .attr('transform', 'translate(' + node.getCoordinateToCenter(ratio) + ')scale(' + ratio + ')');
 
           // Move to the center.
-          focusing = system.transition()
-            .duration(delay)
-            .attr('transform', 'translate(' + move.toString() + ')scale(' + zoomSvg.scale() + ')');
-
-          // Set zoom scale and translation to the final state of the focus chart.
-          focusing.each('end', function() {
+          zooming.each('end', function() {
             self.setPositionByTransform(system.attr('transform'));
+            self.setScale(ratio);
 
             // Set last scale and translate info to the zoom behaviour.
             zoomSvg.translate(self.getPosition());
             zoomSvg.scale(self.getScale());
+
+
+            // Store the selected node in the draw object.
+            draw.setSelectedNode(node);
+
+            // Update nodes data, active and selected according the node clicked.
+            points = node.toggleSiblings();
+
+            // Draw the connection.
+            draw.showConnection(points);
+
+            draw.toggleTitles(node, {activate: true, default: false});
+            draw.all(ratio);
           });
         },
-        scale: function() {
-          var zooming,
-            self = this;
-
-          // Validate
-          zooming = system.transition()
-            .duration(delay)
-            .attr('transform', 'translate(' + d3.event.translate + ')scale(2)');
-
-          // Set zoom scale and translation to the final state of the focus chart.
-          zooming.each('end', function() {
-            self.setPositionByTransform(system.attr('transform'));
-
-            // Set last scale and translate info to the zoom behaviour.
-            zoomSvg.translate(self.getPosition());
-            zoomSvg.scale(2);
-          });
-        },
+        /**
+         * Return the points of the center of the screen.
+         *
+         * @returns {{x: number, y: number}}
+         */
         centerPoint: function() {
-          return chartReference.centerPoint;
+          return drawReference.centerPoint;
         },
+        /**
+         * Store initial point of the draw, by default is 0,0 regarding to the top left corner.
+         * {x,y} format
+         *
+         * @param x
+         * @param y
+         */
         setInitialPoint: function(x, y) {
-          chartReference.initialPoint = {x: x, y: y};
+          drawReference.initialPoint = {x: x, y: y};
         },
+        /**
+         * Return the points of the initial point of the draw.
+         *
+         * @returns {{x: *, y: *}}
+         */
         initialPoint: function() {
-          return chartReference.initialPoint;
+          return drawReference.initialPoint;
         },
+        /**
+         * Store the scale of zoom of the drawing.
+         *
+         * @param scale
+         */
         setScale: function(scale) {
-          chartReference.actualScale = scale;
+          drawReference.actualScale = scale;
         },
+        /**
+         * Return the zoom scale  of the drawing.
+         *
+         * @returns {number}
+         */
         getScale: function() {
-          return (typeof chartReference.actualScale === 'undefined') ? chartReference.actualScale = 1 : chartReference.actualScale;
+          return (typeof drawReference.actualScale === 'undefined') ? drawReference.actualScale = 1 : drawReference.actualScale;
         },
         /**
          * Store an array of the translation coordinates {x, y} of the actual position
@@ -475,32 +517,44 @@
           var position =  transform.match(/translate\((-?\d*\.\d*),(-?\d*\.\d*)\)/);
 
           if (position) {
-            chartReference.actualPosition = [parseInt(position[1], 10), parseInt(position[2], 10)];
+            drawReference.actualPosition = [parseInt(position[1], 10), parseInt(position[2], 10)];
           }
         },
         /**
-         * Return array of the actual position of the chart in the format [x,y].
+         * Return array of the actual position of the draw in the format [x,y].
          *
          * @returns {Array}
          */
         getPosition: function() {
-          if (typeof chartReference.actualPosition === 'undefined') {
-            chartReference.actualPosition = [chart.initialPoint().x, chart.initialPoint().y];
+          if (typeof drawReference.actualPosition === 'undefined') {
+            drawReference.actualPosition = [draw.initialPoint().x, draw.initialPoint().y];
           }
-          return chartReference.actualPosition;
+          return drawReference.actualPosition;
         },
+        /**
+         * Store the node object after the first click "selected".
+         *
+         * @param node
+         */
         setSelectedNode: function(node) {
-          chartReference.selected = node;
+          drawReference.selected = node;
         },
+        /**
+         * Return the node object selected.
+         *
+         * @returns {*}
+         */
         getSelectedNode: function() {
-          return chartReference.selected;
+          return drawReference.selected;
         },
+        /**
+         * Update classes for the titles.
+         */
         updateTitle: function() {
           var nodes;
 
           nodes = system.selectAll('.node');
           if (d3.event.scale > config.chart.zoom.showTextScale) {
-
 
             system.selectAll('.default').classed('title-splash', true);
             // Remove the standard states.
@@ -520,39 +574,85 @@
         }
       };
     };
+    // Initialize draw object.
+    draw = drawModule();
 
     // Node properties and methods - Data modification.
     nodes.forEach(function(node, index) {
-      // Add root type.
+      // Add root and focus type.
       if (node.depth === 0) {
         node.type = 'root';
       }
+      if (node.depth === 1) {
+        node.type = 'focus';
+      }
+
+      // Add id and default values.
       node.id = index;
       node.active = 0;
       node.selected = false;
+      // Store the initial position define for the nodes by the tree layout.
+      node.x0 = node.x;
+      node.y0 = node.y;
       // Multiply the x and y values to add the correct separation between the nodes.
       // This values are related with the node size.
       node.x = node.x * config.chart.nodesSeparation.horizontal;
-      node.y = node.y;
-      // Add new behaviours
-      node.getTitle = function() {
-        return (this.type === 'chronological') ? this.chronologicalName : (this.type === 'bastard') ? this.bastardName : this.name;
+
+      if (node.type === 'chronological') {
+        if (node.chronologicalId > 1) {
+          node.y = node.y;
+        }
+      }
+
+      /**
+       * Return the title of the node according the type
+       *
+       * @param style
+       *   String, to indicate the style, example 'uppercase' return the
+       *   text capitalized.
+       * @returns string
+       */
+      node.getTitle = function(style) {
+        var title = (this.type === 'chronological') ? this.chronologicalName : (this.type === 'bastard') ? this.bastardName : this.name;
+
+        if (style && style === 'uppercase') {
+          title = title.toUpperCase();
+        }
+
+        return title;
       };
 
-      node.name = node.getTitle();
+      node.name = node.getTitle('uppercase');
 
+      /**
+       * Change the node from activated to deactivated and vice versa.
+       */
       node.toogleActive = function() {
         this.active = (!this.active) ? 1 : 0;
       };
 
+      /**
+       * Return the siblings and the node it self into an array.
+       *
+       * @returns {*}
+       */
       node.getSiblings = function() {
         return this.parent.children;
       };
 
-      node.toogleSelection = function() {
+      /**
+       * Change the node from selected to unselected and vice versa.
+       */
+      node.toggleSelection = function() {
         this.selected = !this.selected;
       };
 
+      /**
+       * Get a chunk of info of the node that could be use to indicate
+       * the state.
+       *
+       * @returns {*}
+       */
       node.getState = function() {
         return {
           id: this.id,
@@ -564,12 +664,19 @@
         };
       };
 
-      node.toogleSiblings = function() {
+      /**
+       * Select current node and activated siblings, and vice versa.
+       *
+       * @returns {Array}
+       *   Array of the positions of the points [{x,y}, ...] of the node
+       *   and siblings.
+       */
+      node.toggleSiblings = function() {
         var siblings,
           points = [];
 
         // Activate an select this node
-        this.toogleSelection();
+        this.toggleSelection();
 
         // Activate siblings.
         if (node.depth > 1) {
@@ -597,6 +704,9 @@
         return points;
       };
 
+      /**
+       * Update the node style according data.
+       */
       node.setStyleNode = function() {
 
         if (this.selected) {
@@ -610,25 +720,35 @@
         }
       };
 
-      node.getPoints = function() {
-        return {
+      node.getPoints = function(state) {
+        var position = {
           x: this.x,
           y: this.y
         };
+
+        if (state === 'y-fixed') {
+          position = {
+            x: this.x,
+            y: this.y0
+          };
+        }
+
+        return position;
       };
 
 
       /**
        * Return the x,y translation to the center of the canvas in an array [x,y].
        *
-       * @param node
+       * @param gain
+       *   Scale of actual zoom.
        * @returns {Array}
        */
-      node.getCoordinateToCenter = function() {
+      node.getCoordinateToCenter = function(gain) {
         var coordinate = [];
 
-        coordinate[0] = (draw().centerPoint().x) - this.x * chart.getScale();
-        coordinate[1] = (draw().centerPoint().y) - this.y * chart.getScale();
+        coordinate[0] = (drawModule().centerPoint().x) - this.x * gain;
+        coordinate[1] = (drawModule().centerPoint().y) - this.y * gain;
 
         return coordinate;
       };
@@ -659,8 +779,8 @@
       .attr('class', 'center')
       .style('fill', 'transparent')
       .attr('r', 0)
-      .attr('cx', function() { return draw().centerPoint().x; })
-      .attr('cy', function() { return draw().centerPoint().y; });
+      .attr('cx', function() { return drawModule().centerPoint().x; })
+      .attr('cy', function() { return drawModule().centerPoint().y; });
 
     // Line path generator.
     line = d3.svg.line()
@@ -681,7 +801,7 @@
 
         return 'M' + x(d.source) + ',' + y(d.source) + 'L' + x(d.target) + ',' + y(d.target);
       })
-      .style('stroke-width', 1)
+      .style('stroke-width', 3)
       .style('stroke', function(d) {
         return d.source.lineColor;
       });
@@ -704,6 +824,7 @@
           .enter()
           .append('path')
           .attr('id', 'dashed-' + index)
+          .attr('class', 'dashed')
           .attr('d', line)
           .style('fill', 'none')
           .style('stroke', config.chart.dashedLine.stroke)
@@ -758,20 +879,14 @@
 
     // Nodes.
     node.append('circle')
+      .on('click', nodeExtend().click)
       .transition()
       .delay(function(d, i) {return i * 3;})
       .attr('id', function(node, index) { return 'n' + index + '-circle'; })
-      .attr('r', nodeExtend().r )
-      .style('fill', nodeExtend().fill )
-      .style('stroke', nodeExtend().stroke )
-      .style('stroke-width', 1);
-
-    // Chronological internal circle.
-    node.append('circle')
-      .attr('id', function(node, index) { return 'n' + index + '-circle-internal'; })
-      .attr('class', 'circle-internal')
-      .attr('r', nodeExtend().inner )
-      .attr('fill', 'black' );
+      .attr('r', nodeExtend().r)
+      .style('fill', nodeExtend().fill)
+      .style('stroke', nodeExtend().stroke)
+      .style('stroke-width', nodeExtend().strokeWidth);
 
     // Node titles.
     node.append('foreignObject')
@@ -780,50 +895,41 @@
       .attr('y', text().y)
       .attr('width', text().width)
       .attr('height', text().height)
+      .attr('transform', text().transform)
       .append('xhtml:body')
       .attr('class', 'area')
-      .html( text().html )
-      .on('click', nodeExtend().click );
-
-    // Mask of the node to handle events.
-    node.append('circle')
-      .attr('r', nodeExtend().r )
-      .style('fill', 'transparent' )
-      .style('stroke', 'none' )
-      .on('click', nodeExtend().click )
-      .on('touchstart', nodeExtend().click );
-
+      .html(text().html)
+      .on('click', nodeExtend().click);
 
     // Public CDL API.
     return {
       setBackgroud: function() {
-        chart = draw();
-        chart.setInitialPoint(config.chart.initial.x, config.chart.initial.y);
+        draw.setInitialPoint(config.chart.initial.x, config.chart.initial.y);
 
         background.style('fill', 'white')
-          .attr('transform', 'translate(' + chart.initialPoint().x + ', ' + chart.initialPoint().y + ')');
-        system.attr('transform', 'translate(' + chart.initialPoint().x + ', ' + chart.initialPoint().y + ')');
+          .attr('transform', 'translate(' + draw.initialPoint().x + ', ' + draw.initialPoint().y + ')');
+        system.attr('transform', 'translate(' + draw.initialPoint().x + ', ' + draw.initialPoint().y + ')');
 
-        zoomSvg.translate([chart.initialPoint().x, chart.initialPoint().y]);
-        zoomSvg.scale(config.chart.initial.zoom);
+        zoomSvg.translate([draw.initialPoint().x, draw.initialPoint().y]);
+        zoomSvg.scale(config.draw.initial.minZoom);
       },
       setCenter: function(color, size) {
         center.attr('r', size)
           .style('fill', color)
-          .attr('cx', function() { return draw().centerPoint().x; })
-          .attr('cy', function() { return draw().centerPoint().y; });
+          .attr('cx', function() { return drawModule().centerPoint().x; })
+          .attr('cy', function() { return drawModule().centerPoint().y; });
       },
       selectNodeById: function(id) {
-        return chart.getElementById(id);
+        return draw.getElementById(id);
       },
       redraw: function() {
-        chart.all();
+        draw.all();
       },
-      getChart: function() {
+      getDraw: function() {
         return system;
       },
       getInfo: function() {
-        return chart;
+        return draw;
       }
     };
   }
@@ -836,7 +942,7 @@
     // Radial tree layout render.
     cdl.chart = new CDL(data);
     cdl.chart.setBackgroud();
-    cdl.chart.repositionRoot();
+
     cdl.chart.setCenter(config.chart.center.color, config.chart.center.r);
 
     // Add window Event Listeners.

@@ -359,7 +359,7 @@ div.cdl {
   .area {
     background-color: transparent;
     font-family: Miso;
-    font-size: 3px;
+    font-size: 14px;
 
     .title-splash {
       transition: 2s;
@@ -369,7 +369,6 @@ div.cdl {
     .default, .bastard, .chronological {
       transition: 0.5s;
       color: transparent;
-      font-size: 3px;
     }
 
     .focus {
@@ -384,13 +383,11 @@ div.cdl {
     .selected {
       transition: 0.2s;
       color: white;
-      font-size: 3px;
     }
 
     .activated {
       transition: 0.2s;
       color: red;
-      font-size: 3px;
     }
   }
 }

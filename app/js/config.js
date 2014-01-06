@@ -20,13 +20,19 @@
       initial: {
         x: 50,
         y: 300,
-        zoom: 1
+        minZoom: 1,
+        maxZoom: 10,
+        rootPosition: {
+          x: 50,
+          y: 100
+        }
       },
       zoom: {
-        showTextScale: 5
+        showTextScale: 1,
+        hideDashedLines: 1.5
       },
       center: {
-        color: 'transparent',
+        color: 'green',
         r: 0
       },
       triangle: {
@@ -41,6 +47,9 @@
       },
       nodesSeparation: {
         horizontal: 2.5
+      },
+      transitions: {
+        titles: 3000
       }
     };
 
@@ -59,37 +68,45 @@
       default: {
         fill: 'black',
         stroke: 'black',
-        r: 5
+        strokeWidth: 1,
+        r: 12.5
       },
       bastard: {
         fill: 'white',
         stroke: 'black',
-        r: 5
+        strokeWidth: 1,
+        r: 12.5
       },
       chronological: {
-        fill: 'white',
+        fill: 'black',
         stroke: 'black',
-        r: 5,
+        strokeWidth: 1,
+        r: 6.5,
         innerRadio: 1.5
       },
       selected: {
         fill: 'red',
         stroke: 'red',
-        r: 10
+        strokeWidth: 1,
+        r: 110
       },
       activated: {
         fill: 'red',
         stroke: 'red',
-        r: 5
+        strokeWidth: 1,
+        r: 12.5
       },
       root: {
         fill: 'red',
         stroke: 'red',
+        strokeWidth: 1,
         r: 80
       },
-      inner: {
+      focus: {
         fill: 'black',
-        r: 1.5
+        stroke: 'black',
+        strokeWidth: 1,
+        r: 12.5
       }
     };
 
@@ -142,55 +159,61 @@
      */
     this.text = {
       root: {
-        x:-50,
-        y:-55,
-        width:110,
-        height:110,
+        x: -50,
+        y: -55,
+        width: 110,
+        height: 110,
+        scale: 1,
         class: 'root-title'
       },
       default: {
         x: 2,
         y: 5,
-        width:20,
-        height:10,
+        width: 200,
+        height: 100,
+        scale: 0.2,
         class: 'default'
       },
       focus: {
         x: 0,
         y: -70,
-        width:100,
-        height:80,
+        width: 130,
+        height: 60,
+        scale: 1,
         class: 'focus'
       },
       chronological: {
         x: 2,
         y: 5,
-        width:20,
-        height:10,
+        width: 20,
+        height: 10,
+        scale: 0.2,
         class: 'chronological'
       },
       bastard: {
         x: 2,
         y: 5,
-        width:20,
-        height:10,
+        width: 20,
+        height: 10,
+        scale: 0.2,
         class: 'bastard'
       },
       selected: {
-        x: -7,
-        y: -7,
-        width: 14,
-        height: 14,
+        x: -40,
+        y: -40,
+        width: 80,
+        height: 80,
+        scale: 0.2,
         class: 'selected'
       },
       activated: {
-        x: 2,
-        y: 5,
-        width:20,
-        height:10,
+        x: -12,
+        y: 15,
+        width: 80,
+        height: 60,
+        scale: 0.12,
         class: 'activated'
       }
-
     };
   }
 
