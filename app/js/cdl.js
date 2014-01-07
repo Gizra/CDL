@@ -59,6 +59,14 @@
       draw.all(d3.event.scale);
     }
 
+    /**
+     * Pass to the zoom event instantiation the last position and scale.
+     */
+    function touch() {
+      zoomSvg.translate(draw.getPosition());
+      zoomSvg.scale(draw.getScale());
+    }
+
     zoomSvg = d3.behavior.zoom()
       .center([window.innerWidth / 2, window.innerHeight / 2])
       .scaleExtent([1, config.chart.initial.maxZoom])
@@ -70,6 +78,7 @@
       .attr('width', '100%')
       .attr('height', '100%')
       .on('dblclick.zoom', null)
+      .on('touchmove', touch)
       .call(zoomSvg);
 
     // Background.
@@ -326,7 +335,8 @@
 
           // Refresh properties of the circles.
           circles.transition()
-            .delay(function(d, i) {return i * 3;})
+            .duration(function(d, i) {return i * 1;})
+            .delay(0)
             .attr('r', nodeExtend().r)
             .style('fill', nodeExtend().fill)
             .style('stroke', nodeExtend().stroke)
@@ -335,20 +345,37 @@
           // Update the position of the selected node.
           textbox
             .transition()
-            .delay(function(d, i) {return i * 2;})
+            .delay(0)
             .attr('x', text().x)
             .attr('y', text().y)
             .attr('width', text().width)
             .attr('height', text().height)
             .attr('transform', text().transform);
 
+          // Update connections.
           system.selectAll('.link')
             .transition()
-            .style('stroke-width', 3/ratio);
+            .delay(0)            
+            .style('stroke-width', config.chart.link.strokeWidth/ratio);
 
           system.selectAll('.dashed')
             .transition()
+            .delay(0)
             .style('stroke-width', config.chart.dashedLine.strokeWidth/ratio);
+          
+          // Update the dashed lines
+          if (ratio < config.chart.zoom.hideDashedLines) {
+            system.selectAll('.dashed')
+              .transition()
+              .style('stroke-width', config.chart.dashedLine.strokeWidth/ratio);
+          }
+          else {
+            system.selectAll('.dashed')
+              .transition()
+              .style('stroke-width', 0);
+          }
+
+
         },
         /**
          * Render a line between the siblings nodes of the clicked circle.
@@ -431,14 +458,17 @@
             points,
             self = this;
 
+          self.translate = node.getCoordinateToCenter(ratio);
+          self.scale = ratio;
+
           zooming = system.transition()
             .duration(delay)
-            .attr('transform', 'translate(' + node.getCoordinateToCenter(ratio) + ')scale(' + ratio + ')');
+            .attr('transform', 'translate(' + self.translate + ')scale(' + self.scale + ')');
 
           // Move to the center.
           zooming.each('end', function() {
-            self.setPositionByTransform(system.attr('transform'));
-            self.setScale(ratio);
+            self.setPosition(self.translate);
+            self.setScale(self.scale);
 
             // Set last scale and translate info to the zoom behaviour.
             zoomSvg.translate(self.getPosition());
@@ -519,6 +549,9 @@
           if (position) {
             drawReference.actualPosition = [parseInt(position[1], 10), parseInt(position[2], 10)];
           }
+        },
+        setPosition: function(position) {
+          drawReference.actualPosition = position;
         },
         /**
          * Return array of the actual position of the draw in the format [x,y].
