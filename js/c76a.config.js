@@ -23,8 +23,8 @@
         minZoom: 1,
         maxZoom: 10,
         rootPosition: {
-          x: 50,
-          y: 100
+          x: 150,
+          y: 70
         }
       },
       zoom: {
@@ -45,8 +45,11 @@
         style: '2,2',
         strokeWidth: 1
       },
+      link: {
+        strokeWidth: 3
+      },
       nodesSeparation: {
-        horizontal: 2.5
+        horizontal: 2
       },
       transitions: {
         titles: 3000
@@ -54,7 +57,7 @@
     };
 
     /**
-     * Configuration of the nodes fill color, stroke and size (ratio).
+     * Configuration of the nodes fill color, stroke and size (zoom ratio).
      *
      * @type {*}
      *    default: solid black,
@@ -69,19 +72,19 @@
         fill: 'black',
         stroke: 'black',
         strokeWidth: 1,
-        r: 12.5
+        r: 8
       },
       bastard: {
         fill: 'white',
         stroke: 'black',
         strokeWidth: 1,
-        r: 12.5
+        r: 8
       },
       chronological: {
         fill: 'black',
         stroke: 'black',
         strokeWidth: 1,
-        r: 6.5,
+        r: 4,
         innerRadio: 1.5
       },
       selected: {
@@ -94,7 +97,7 @@
         fill: 'red',
         stroke: 'red',
         strokeWidth: 1,
-        r: 12.5
+        r: 8
       },
       root: {
         fill: 'red',
@@ -106,7 +109,7 @@
         fill: 'black',
         stroke: 'black',
         strokeWidth: 1,
-        r: 12.5
+        r: 8
       }
     };
 
@@ -114,39 +117,9 @@
      * Configuration of the titles of each node, by type.
      *   - position: Position from the center of the circle {x,y}.
      *   - width, height textbox.
+     *   - scale: of the default font-size . actually 14px
      *   - css class.
      *
-     *   .title-splash {
-     *      transition: 2s;
-     *      color: black;
-     *    }
-     *
-     *   .default, .bastard, .chronological {
-     *      transition: 0.5s;
-     *      color: transparent;
-     *      font-size: 3px;
-     *    }
-     *
-     *   .focus {
-     *      font-size: 14px;
-     *    }
-     *
-     *   .root-title {
-     *      font-size: 19px;
-     *      color: white;
-     *    }
-     *
-     *   .selected {
-     *      transition: 0.2s;
-     *      color: white;
-     *      font-size: 3px;
-     *    }
-     *
-     *   .activated {
-     *      transition: 0.2s;
-     *      color: red;
-     *      font-size: 3px;
-     *    }
      *
      * @type {*}
      *    focus: sons of the root node.
@@ -167,19 +140,19 @@
         class: 'root-title'
       },
       default: {
-        x: 2,
-        y: 5,
-        width: 200,
-        height: 100,
+        x: 5,
+        y: 12,
+        width: 80,
+        height: 60,
         scale: 0.2,
         class: 'default'
       },
       focus: {
         x: 0,
         y: -70,
-        width: 130,
+        width: 100,
         height: 60,
-        scale: 1,
+        scale: 0.9,
         class: 'focus'
       },
       chronological: {
