@@ -21,7 +21,7 @@
         x: 50,
         y: 300,
         minZoom: 1,
-        maxZoom: 10,
+        maxZoom: 5,
         rootPosition: {
           x: 150,
           y: 70
