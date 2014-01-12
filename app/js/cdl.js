@@ -1,6 +1,6 @@
 'use strict';
 
-(function( window ) {
+(function(window) {
   // Define object.
   var d3 = window.d3,
     Q = window.Q,
@@ -19,9 +19,8 @@
     background,
     system,
     draw,
-    width = window.innerWidth,
-    height = window.innerHeight,
-    delay = 250;
+    width = 900,
+    height = 600;
 
   /**
    * Create the 'Canvas' area, it's possible define the dimensions.
@@ -31,32 +30,21 @@
    */
   function prepareScenario() {
 
-    // Behaviours.
+    // Zoom Behaviours.
     function zoom() {
-      var nodeSelected;
-
       system
         .attr('transform', 'translate(' + d3.event.translate + ')scale(' + d3.event.scale + ')');
-
-      // Remove connection if zoom out/in.
-      nodeSelected = draw.getSelectedNode();
-      if (typeof nodeSelected !== 'undefined') {
-        // Deactivate title.
-        draw.toggleTitles(draw.getSelectedNode(), {activate: false, default: true});
-        nodeSelected.toggleSiblings();
-        draw.hideConnection();
-        draw.setSelectedNode(undefined);
-      }
 
       // Store current position and zoom ratio.
       draw.setPositionByTransform(system.attr('transform'));
       draw.setScale(d3.event.scale);
 
-      // Update behavior of the titles.
-      draw.updateTitle();
+    }
 
-      // Keep object size during the zoom.
-      draw.all(d3.event.scale);
+    function zoomend() {
+      // Redraw the chart.
+      draw.all(draw.getScale());
+
     }
 
     /**
@@ -70,7 +58,8 @@
     zoomSvg = d3.behavior.zoom()
       .center([window.innerWidth / 2, window.innerHeight / 2])
       .scaleExtent([1, config.chart.initial.maxZoom])
-      .on('zoom', zoom);
+      .on('zoom', zoom)
+      .on('zoomend', zoomend);
 
     // Canvas.
     svgContainer = d3.select('body').append('svg')
@@ -122,8 +111,8 @@
   function CDL(data) {
     // Define the new root position.
     var rootPosition = {
-      x: width/2,
-      y: -height/4
+      x: config.chart.initial.rootPosition.x(width),
+      y: config.chart.initial.rootPosition.y(height)
     };
 
     var line,
@@ -136,7 +125,8 @@
       trianglePoints,
       text,
       nodeExtend,
-      drawModule;
+      drawModule,
+      titlesColor;
 
     // Index of the actual node centered
     nodeCentered = null;
@@ -183,6 +173,9 @@
         y: get('y'),
         width: get('width'),
         height: get('height'),
+        heightCss: function(node) {
+          return nodeType[node.styleNode].height + 'px';
+        },
         class: get('class'),
         transform: function(node) {
           return 'scale(' + nodeType[node.styleNode].scale + ')';
@@ -190,7 +183,7 @@
         html: function(node) {
           var type = node.styleNode;
 
-          // Focus especific level of the tree.
+          // Focus in specific level of the tree.
           if (node.depth === 1) {
             type = 'focus';
           }
@@ -218,11 +211,37 @@
 
       function get(property) {
         return function(node) {
+          var scale;
+
           if (typeof nodeType[node.styleNode][property] === 'number') {
+            // Keep the radius of the selected nodes, in the zoom in/out behavior.
+            if (node.styleNode === 'selected' && property === 'r') {
+              scale = d3.scale.linear()
+                .domain([nodeType[node.styleNode][property], nodeType[node.styleNode][property] / draw.getScale()])
+                .range([nodeType.activated.r * 2, nodeType[node.styleNode][property]]);
+
+              return scale(nodeType[node.styleNode][property]);
+            }
+
+            // Scale the number values, like circle radius.
             return nodeType[node.styleNode][property] / draw.getScale();
           }
 
+
+
           return nodeType[node.styleNode][property];
+        };
+      }
+
+      /**
+       * Return target size but hold the minimun for every king of finger.
+       *
+       * @param property
+       * @returns {Function}
+       */
+      function getTargetSize(property) {
+        return function(node) {
+          return (nodeType[node.styleNode][property] / draw.getScale() < 5) ? 5 : nodeType[node.styleNode][property] / draw.getScale();
         };
       }
 
@@ -230,11 +249,13 @@
         fill: get('fill'),
         stroke: get('stroke'),
         r: get('r'),
+        targetTouch: getTargetSize('targetTouch'),
         strokeWidth: get('strokeWidth'),
+        r2: get('r2'),
         inner: function(node) {
           var r = 0;
           if (node.styleNode === 'chronological') {
-            r = nodeType[node.styleNode].innerRadio / draw.getScale();
+            r = nodeType[node.styleNode].r2 / draw.getScale();
           }
 
           return r;
@@ -246,11 +267,16 @@
          * @param node
          */
         click: function(node) {
-
           var nodeSelected;
+
+          if (draw.animation()) {
+            return;
+          }
 
           // Check if it is the first or second click.
           if (!nodeCentered || nodeCentered !== node.id) {
+            draw.animationStart();
+
             // With this click type.
             nodeCentered = node.id;
 
@@ -323,58 +349,119 @@
         all: function(ratio) {
           var selection,
             circles,
+            circleTarget,
+            circlesChronological,
             titles,
-            textbox;
+            titlesNodes,
+            textbox,
+            triangle;
 
           // Selection of the objects.
           selection = g.selectAll('.node');
 
-          circles = selection.selectAll('circle');
+          circles = selection.selectAll('.circle-node');
+          circlesChronological = selection.selectAll('.circle-chronological');
+          circleTarget = selection.selectAll('.circle-target');
           textbox = selection.select('.textbox');
           titles = selection.select('.titles');
+          triangle = system.select('#triangle');
+
+          titlesNodes = selection
+            .filter(function(node) { return node.styleNode === 'default' || node.styleNode === 'chronological' || node.styleNode === 'bastard'; })
+            .select('.titles');
+
+          // Update the dashed lines
+          if (ratio < config.chart.zoom.dashedLine.hideInScale) {
+            system.selectAll('.dashed')
+              .transition()
+              .delay(0)
+              .duration(config.chart.transitions.lines)
+              .style('stroke-width', config.chart.dashedLine.strokeWidth/ratio);
+          }
+          else {
+            system.selectAll('.dashed')
+              .transition()
+              .delay(0)
+              .duration(config.chart.transitions.lines)
+              .style('stroke-width', 0);
+          }
+
+          // Hide/Show Triangle.
+          if (ratio < config.chart.zoom.hideTriangle) {
+            triangle.transition()
+              .delay(0)
+              .duration(config.chart.transitions.lines)
+              .style('fill', config.chart.triangle.fill)
+              .style('stroke', config.chart.triangle.fill);
+          }
+          else {
+            triangle.transition()
+              .delay(0)
+              .duration(config.chart.transitions.lines)
+              .style('fill', 'white')
+              .style('stroke', 'white');
+          }
 
           // Refresh properties of the circles.
           circles.transition()
-            .duration(function(d, i) {return i * 1;})
             .delay(0)
+            .duration(config.chart.transitions.circles)
+            .ease('linear')
             .attr('r', nodeExtend().r)
             .style('fill', nodeExtend().fill)
             .style('stroke', nodeExtend().stroke)
             .style('stroke-width', nodeExtend().strokeWidth);
 
-          // Update the position of the selected node.
-          textbox
-            .transition()
+          circlesChronological.transition()
             .delay(0)
+            .duration(config.chart.transitions.circles)
+            .ease('linear')
+            .attr('r', nodeExtend().r2)
+            .style('stroke', nodeExtend().stroke)
+            .style('stroke-width', nodeExtend().strokeWidth);
+
+          // Resize target touch size.
+          circleTarget.transition()
+            .delay(0)
+            .duration(config.chart.transitions.circles)
+            .attr('r', nodeExtend().targetTouch);
+
+          // Update the position of the selected node.
+          textbox.transition()
+            .delay(0)
+            .duration(config.chart.transitions.titles)
             .attr('x', text().x)
             .attr('y', text().y)
             .attr('width', text().width)
             .attr('height', text().height)
             .attr('transform', text().transform);
 
+          // Refresh height.
+          titles.style('height', function() { return text().heightCss(draw.searchNode(this)); });
+
+          titlesNodes.transition()
+            .delay(0)
+            .duration(config.chart.transitions.titles)
+            .style('color', function(){ return (draw.getScale() < config.chart.zoom.titles.showTextScale) ? 'transparent' : titlesColor(draw.getScale()); });
+
           // Update connections.
           system.selectAll('.link')
             .transition()
-            .delay(0)            
+            .delay(0)
+            .duration(config.chart.transitions.lines)
             .style('stroke-width', config.chart.link.strokeWidth/ratio);
 
           system.selectAll('.dashed')
             .transition()
             .delay(0)
-            .style('stroke-width', config.chart.dashedLine.strokeWidth/ratio);
-          
-          // Update the dashed lines
-          if (ratio < config.chart.zoom.hideDashedLines) {
-            system.selectAll('.dashed')
-              .transition()
-              .style('stroke-width', config.chart.dashedLine.strokeWidth/ratio);
-          }
-          else {
-            system.selectAll('.dashed')
-              .transition()
-              .style('stroke-width', 0);
-          }
+            .duration(config.chart.transitions.lines)
+            .style('stroke-width', function() { return (ratio > config.chart.zoom.dashedLine.hideInScale) ? 0 : config.chart.dashedLine.strokeWidth/ratio;});
 
+          system.select('#line-active')
+            .transition()
+            .delay(0)
+            .duration(config.chart.transitions.lines)
+            .style('stroke-width', config.chart.link.strokeWidth/ratio);
 
         },
         /**
@@ -397,8 +484,8 @@
             .attr('id', 'line-active')
             .attr('class', 'focus')
             .attr('d', line)
-            .style('fill', 'none' )
-            .style('stroke', 'red' )
+            .style('fill', 'none')
+            .style('stroke', 'red')
             .style('stroke-width', 1/this.getScale());
         },
         /**
@@ -406,7 +493,11 @@
          */
         hideConnection: function() {
           // Clean actual active path if exist.
-          system.select('#line-active').data([]).exit().remove();
+          system.select('#line-active')
+            .data([]).exit().remove()
+            .transition()
+            .delay(0)
+            .duration(config.chart.transitions.lines);
         },
         /**
          * Toggle the class to activated of default for the title of the nodes.
@@ -436,12 +527,12 @@
 
             title.classed(node.styleNode, options.activate)
               .transition()
-              .delay(function(d, i) {return i * 3;})
+              .delay(0)
               .duration(config.chart.transitions.titles);
 
             title.classed(node.type, options.default)
               .transition()
-              .delay(function(d, i) {return i * 3;})
+              .delay(0)
               .duration(config.chart.transitions.titles);
           });
         },
@@ -462,7 +553,8 @@
           self.scale = ratio;
 
           zooming = system.transition()
-            .duration(delay)
+            .delay(0)
+            .duration(config.chart.zoom.transition)
             .attr('transform', 'translate(' + self.translate + ')scale(' + self.scale + ')');
 
           // Move to the center.
@@ -473,7 +565,6 @@
             // Set last scale and translate info to the zoom behaviour.
             zoomSvg.translate(self.getPosition());
             zoomSvg.scale(self.getScale());
-
 
             // Store the selected node in the draw object.
             draw.setSelectedNode(node);
@@ -486,6 +577,9 @@
 
             draw.toggleTitles(node, {activate: true, default: false});
             draw.all(ratio);
+
+            // End render initialize in the click method.
+            draw.animationEnd();
           });
         },
         /**
@@ -580,30 +674,41 @@
         getSelectedNode: function() {
           return drawReference.selected;
         },
-        /**
-         * Update classes for the titles.
-         */
-        updateTitle: function() {
-          var nodes;
-
-          nodes = system.selectAll('.node');
-          if (d3.event.scale > config.chart.zoom.showTextScale) {
-
-            system.selectAll('.default').classed('title-splash', true);
-            // Remove the standard states.
-            system.selectAll('.default').classed('default', false);
-          }
-          else {
-            system.selectAll('.title-splash').classed('default', true);
-            // Add the standard states.
-            system.selectAll('.title-splash').classed('title-splash', false);
-          }
-        },
         getElementById: function(id) {
           return system.select( '#n' + id );
         },
+        /**
+         * Look for the correspond node.
+         *
+         * @param element
+         *  Return
+         * @returns {*}
+         */
+        searchNode: function(element) {
+          var node;
+
+          node = d3.select(element).datum();
+          if (typeof node === 'undefined') {
+            node = d3.select(element.parentNode).datum();
+          }
+
+          return node;
+        },
         getElementSelected: function() {
           return this.getElementById(this.getSelectedNode().id);
+        },
+        animation: function() {
+          if (typeof drawReference === 'undefined') {
+            drawReference.render = null;
+          }
+
+          return drawReference.render;
+        },
+        animationEnd: function() {
+          drawReference.render = false;
+        },
+        animationStart: function() {
+          drawReference.render = true;
         }
       };
     };
@@ -822,11 +927,11 @@
       .interpolate('linear');
 
     //Links.
-    g.selectAll('.link')
+    g.append('g')
+      .attr('id', 'links')
+      .selectAll('.link')
       .data(links)
       .enter().append('path')
-      .transition()
-      .delay(function(d, i) {return i * 3;})
       .attr('class', 'link')
       .attr('d', function(d) {
         function x(d) { return d.x; }
@@ -834,10 +939,11 @@
 
         return 'M' + x(d.source) + ',' + y(d.source) + 'L' + x(d.target) + ',' + y(d.target);
       })
-      .style('stroke-width', 3)
+      .style('stroke-width', 1.5)
       .style('stroke', function(d) {
         return d.source.lineColor;
       });
+
 
     // Dashed Lines.
     pointsByDepth = _.groupBy(nodes, function(node){ return node.depth; });
@@ -846,23 +952,26 @@
 
       // Filter tree depth with more that 1 node.
       if (points.length > 1) {
+
         // Filter coordinates of the point.
         _.each(points, function(node) {
           coordinates.push(node.getPoints());
         });
 
-        // Render the line.
-        g.selectAll('.points')
-          .data([coordinates])
-          .enter()
-          .append('path')
-          .attr('id', 'dashed-' + index)
-          .attr('class', 'dashed')
-          .attr('d', line)
-          .style('fill', 'none')
-          .style('stroke', config.chart.dashedLine.stroke)
-          .style('stroke-dasharray', (config.chart.dashedLine.style))
-          .style('stroke-width', config.chart.dashedLine.strokeWidth);
+        // Generate the dashed line.
+        if (config.chart.zoom.dashedLine.show) {
+          g.selectAll('.points')
+            .data([coordinates])
+            .enter()
+            .append('path')
+            .attr('id', 'dashed-' + index)
+            .attr('class', 'dashed')
+            .attr('d', line)
+            .style('fill', 'none')
+            .style('stroke', config.chart.dashedLine.stroke)
+            .style('stroke-dasharray', (config.chart.dashedLine.style))
+            .style('stroke-width', config.chart.dashedLine.strokeWidth);
+        }
       }
     });
 
@@ -900,8 +1009,7 @@
       .style('stroke', config.chart.triangle.stroke)
       .style('stroke-width', config.chart.triangle.strokeWidth);
 
-
-    // Circles.
+    // Nodes.
     node = g.selectAll('.node')
       .data(nodes)
       .enter().append('g')
@@ -910,18 +1018,25 @@
       .attr('class', 'node')
       .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; });
 
-    // Nodes.
+    // Circles.
     node.append('circle')
-      .on('click', nodeExtend().click)
-      .transition()
-      .delay(function(d, i) {return i * 3;})
       .attr('id', function(node, index) { return 'n' + index + '-circle'; })
+      .attr('class', 'circle-node')
       .attr('r', nodeExtend().r)
       .style('fill', nodeExtend().fill)
       .style('stroke', nodeExtend().stroke)
       .style('stroke-width', nodeExtend().strokeWidth);
 
-    // Node titles.
+    // Chronological circles.
+    node.filter(function(node) { return node.type === 'chronological';})
+      .insert('circle', '.circle-node')
+      .attr('r', nodeExtend().r2)
+      .attr('class', 'circle-chronological')
+      .style('fill', 'white')
+      .style('stroke', nodeExtend().stroke)
+      .style('stroke-width', nodeExtend().strokeWidth);
+
+    // Titles.
     node.append('foreignObject')
       .attr('class', 'textbox')
       .attr('x', text().x)
@@ -934,17 +1049,40 @@
       .html(text().html)
       .on('click', nodeExtend().click);
 
+    // Target touch.
+    node.append('circle')
+      .on('click', nodeExtend().click)
+      .attr('class', 'circle-target')
+      .attr('r', nodeExtend().targetTouch)
+      .style('fill', function() { return (config.chart.initial.targetTouch.show) ? config.chart.initial.targetTouch.color : 'tranparent'; })
+      .style('stroke', config.chart.initial.targetTouch.color)
+      .style('stroke-width', 1);
+
+    // Define a color scale for the show/hide titles, according the zoom scale.
+    titlesColor = d3.scale.linear()
+      .domain([config.chart.zoom.titles.scaleDomain])
+      .range(['white', 'black']);
+
+    // Add height for the titles style.
+    node.selectAll('.titles')
+      .style('height', function() { return text().heightCss(draw.searchNode(this)); });
+
+    // Basic configuration of the fonts.
+    node.filter(function(node) { return node.styleNode === 'default' || node.styleNode === 'chronological' || node.styleNode === 'bastard'; })
+      .selectAll('.titles')
+      .style('color', 'transparent');
+
     // Public CDL API.
     return {
       setBackgroud: function() {
-        draw.setInitialPoint(config.chart.initial.x, config.chart.initial.y);
+        draw.setInitialPoint(config.chart.initial.x(width), config.chart.initial.y(height));
 
         background.style('fill', 'white')
           .attr('transform', 'translate(' + draw.initialPoint().x + ', ' + draw.initialPoint().y + ')');
         system.attr('transform', 'translate(' + draw.initialPoint().x + ', ' + draw.initialPoint().y + ')');
 
         zoomSvg.translate([draw.initialPoint().x, draw.initialPoint().y]);
-        zoomSvg.scale(config.draw.initial.minZoom);
+        zoomSvg.scale(config.chart.initial.minZoom);
       },
       setCenter: function(color, size) {
         center.attr('r', size)

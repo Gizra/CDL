@@ -18,18 +18,30 @@
      */
     this.chart = {
       initial: {
-        x: 50,
-        y: 300,
+        x: function(width) { return -width * 0.20;},
+        y: function(height) { return height * 0.45;},
         minZoom: 1,
         maxZoom: 5,
         rootPosition: {
-          x: 150,
-          y: 70
+          x: function(width) { return width/3;},
+          y: function(height) { return -height/4;}
+        },
+        targetTouch: {
+          show: true,
+          color: 'transparent'
         }
       },
       zoom: {
-        showTextScale: 1,
-        hideDashedLines: 1.5
+        titles: {
+          showTextScale: 2,
+          scaleDomain: [1,1.1]
+        },
+        dashedLine: {
+          hideInScale: 2,
+          show: false
+        },
+        transition: 1000,
+        hideTriangle: 10
       },
       center: {
         color: 'green',
@@ -46,13 +58,15 @@
         strokeWidth: 1
       },
       link: {
-        strokeWidth: 3
+        strokeWidth: 1.5
       },
       nodesSeparation: {
         horizontal: 2
       },
       transitions: {
-        titles: 3000
+        titles: 250,
+        circles: 250,
+        lines: 250
       }
     };
 
@@ -72,44 +86,51 @@
         fill: 'black',
         stroke: 'black',
         strokeWidth: 1,
-        r: 8
+        r: 5,
+        targetTouch: 10
       },
       bastard: {
         fill: 'white',
         stroke: 'black',
         strokeWidth: 1,
-        r: 8
+        r: 5,
+        targetTouch: 10
       },
       chronological: {
         fill: 'black',
         stroke: 'black',
         strokeWidth: 1,
-        r: 4,
-        innerRadio: 1.5
+        r: 1.5,
+        targetTouch: 10,
+        r2: 5
       },
       selected: {
         fill: 'red',
         stroke: 'red',
         strokeWidth: 1,
-        r: 110
+        r: 50,
+        targetTouch: 110
       },
       activated: {
         fill: 'red',
         stroke: 'red',
         strokeWidth: 1,
-        r: 8
+        r: 5,
+        targetTouch: 10
       },
       root: {
         fill: 'red',
         stroke: 'red',
         strokeWidth: 1,
-        r: 80
+        r: 80,
+        targetTouch: 80
       },
       focus: {
         fill: 'black',
         stroke: 'black',
         strokeWidth: 1,
-        r: 8
+        r: 5,
+        targetTouch: 10
       }
     };
 
@@ -140,8 +161,8 @@
         class: 'root-title'
       },
       default: {
-        x: 5,
-        y: 12,
+        x: 20,
+        y: -10,
         width: 80,
         height: 60,
         scale: 0.2,
@@ -152,39 +173,39 @@
         y: -70,
         width: 100,
         height: 60,
-        scale: 0.9,
+        scale: 1.2,
         class: 'focus'
       },
       chronological: {
-        x: 2,
-        y: 5,
-        width: 20,
-        height: 10,
+        x: 20,
+        y: -10,
+        width: 80,
+        height: 60,
         scale: 0.2,
         class: 'chronological'
       },
       bastard: {
-        x: 2,
-        y: 5,
-        width: 20,
-        height: 10,
+        x: 20,
+        y: -10,
+        width: 80,
+        height: 60,
         scale: 0.2,
         class: 'bastard'
       },
       selected: {
-        x: -40,
-        y: -40,
+        x: -30,
+        y: -30,
         width: 80,
         height: 80,
         scale: 0.2,
         class: 'selected'
       },
       activated: {
-        x: -12,
-        y: 15,
+        x: 12,
+        y: 12,
         width: 80,
         height: 60,
-        scale: 0.12,
+        scale: 0.2,
         class: 'activated'
       }
     };

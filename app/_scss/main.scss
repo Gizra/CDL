@@ -360,6 +360,11 @@ div.cdl {
     background-color: transparent;
     font-family: Miso;
     font-size: 14px;
+    line-height: 1.2em;
+
+    .titles {
+      display: table-cell;
+    }
 
     .title-splash {
       transition: 2s;
@@ -368,11 +373,12 @@ div.cdl {
 
     .default, .bastard, .chronological {
       transition: 0.5s;
-      color: transparent;
+      color: black;
     }
 
     .focus {
       font-size: 14px;
+      vertical-align: bottom;
     }
 
     .root-title {
@@ -388,6 +394,7 @@ div.cdl {
     .activated {
       transition: 0.2s;
       color: red;
+      background-color: rgba(255,255,255,0.87);
     }
   }
 }
