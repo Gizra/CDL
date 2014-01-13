@@ -34,7 +34,7 @@
       zoom: {
         titles: {
           showTextScale: 2,
-          scaleDomain: [1,1.1]
+          scaleDomain: [2,4]
         },
         dashedLine: {
           hideInScale: 2,
@@ -57,8 +57,14 @@
         style: '2,2',
         strokeWidth: 1
       },
+      titles: {
+        backgroundAlfa: 0.60
+      },
       link: {
-        strokeWidth: 1.5
+        strokeWidth: {
+          normal: 1.5,
+          focus: 2.5
+        }
       },
       nodesSeparation: {
         horizontal: 2
@@ -87,42 +93,49 @@
         stroke: 'black',
         strokeWidth: 1,
         r: 5,
-        targetTouch: 10
+        rFocus: 12,
+        targetTouch: 15
       },
       bastard: {
         fill: 'white',
         stroke: 'black',
         strokeWidth: 1,
         r: 5,
-        targetTouch: 10
+        rFocus: 12,
+        targetTouch: 15
       },
       chronological: {
         fill: 'black',
         stroke: 'black',
         strokeWidth: 1,
         r: 1.5,
-        targetTouch: 10,
-        r2: 5
+        rFocus: 4,
+        targetTouch: 15,
+        r2: 5,
+        r2Focus: 12
       },
       selected: {
         fill: 'red',
         stroke: 'red',
         strokeWidth: 1,
-        r: 50,
-        targetTouch: 110
+        r: 15,
+        rFocus: 80,
+        targetTouch: 50
       },
       activated: {
         fill: 'red',
         stroke: 'red',
         strokeWidth: 1,
         r: 5,
-        targetTouch: 10
+        rFocus: 12,
+        targetTouch: 15
       },
       root: {
         fill: 'red',
         stroke: 'red',
         strokeWidth: 1,
         r: 80,
+        rFocus: 80,
         targetTouch: 80
       },
       focus: {
@@ -130,7 +143,8 @@
         stroke: 'black',
         strokeWidth: 1,
         r: 5,
-        targetTouch: 10
+        rFocus: 12,
+        targetTouch: 15
       }
     };
 
@@ -153,11 +167,11 @@
      */
     this.text = {
       root: {
-        x: -50,
-        y: -55,
-        width: 110,
-        height: 110,
-        scale: 1,
+        x: -30,
+        y: -30,
+        width: 60,
+        height: 60,
+        scale: 2,
         class: 'root-title'
       },
       default: {
@@ -193,11 +207,11 @@
         class: 'bastard'
       },
       selected: {
-        x: -30,
-        y: -30,
-        width: 80,
-        height: 80,
-        scale: 0.2,
+        x: -35,
+        y: -35,
+        width: 70,
+        height: 70,
+        scale: 0.3,
         class: 'selected'
       },
       activated: {
