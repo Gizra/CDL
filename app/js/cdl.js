@@ -5,7 +5,6 @@
   var d3 = window.d3,
     Q = window.Q,
     _ = window._,
-    $ = window.$,
    config = window.CDLConfig;
 
   // Create the chart object.
@@ -126,9 +125,11 @@
       text,
       nodeExtend,
       drawModule,
-      titlesColor;
+      titlesColor,
+      titlesColorActivated,
+      textbox;
 
-    // Index of the actual node centered
+    // Index of the actual node centered.
     nodeCentered = null;
 
     // Data Tree Layout.
@@ -181,22 +182,20 @@
           return 'scale(' + nodeType[node.styleNode].scale + ')';
         },
         html: function(node) {
-          var type = node.styleNode;
+          var type = node.styleNode,
+            e;
 
           // Focus in specific level of the tree.
           if (node.depth === 1) {
             type = 'focus';
           }
 
-          var e = $('<div>');
-          // Only show the names in the first level of depth.
-          e.append(
-            $('<div class="titles">')
-            .addClass(nodeType[type].class)
-            .html(node.name)
-          );
-          return e.html();
+          e = document.createElement('div');
+          d3.select(e)
+            .attr('class', 'titles ' + nodeType[type].class)
+            .text(node.name);
 
+          return e.outerHTML;
         }
       };
     };
@@ -227,8 +226,6 @@
             return nodeType[node.styleNode][property] / draw.getScale();
           }
 
-
-
           return nodeType[node.styleNode][property];
         };
       }
@@ -249,6 +246,7 @@
         fill: get('fill'),
         stroke: get('stroke'),
         r: get('r'),
+        rFocus: get('rFocus'),
         targetTouch: getTargetSize('targetTouch'),
         strokeWidth: get('strokeWidth'),
         r2: get('r2'),
@@ -318,8 +316,32 @@
 
           // Go to the detail page.
           window.location = window.location.origin + window.location.pathname + 'pages/' + node.guid;
-        }
+        },
+        /**
+         * Return the radius of the circles for each node.
+         *
+         * @param type
+         * @returns {number}
+         */
+        getRadius: function(node) {
+          var rScale = draw.rScale();
 
+          rScale.range([nodeType[node.styleNode].r, nodeType[node.styleNode].rFocus]);
+
+          return rScale(draw.getScale())/draw.getScale();
+        },
+        getRadiusInternal: function(node) {
+          var rScale = draw.rScale();
+
+          // Not necessary get the scale for the chronological selected node.
+          if (node.styleNode !== 'chronological') {
+            return;
+          }
+
+          rScale.range([nodeType[node.styleNode].r2, nodeType[node.styleNode].r2Focus]);
+
+          return rScale(draw.getScale())/draw.getScale();
+        }
       };
     };
 
@@ -351,9 +373,6 @@
             circles,
             circleTarget,
             circlesChronological,
-            titles,
-            titlesNodes,
-            textbox,
             triangle;
 
           // Selection of the objects.
@@ -362,13 +381,7 @@
           circles = selection.selectAll('.circle-node');
           circlesChronological = selection.selectAll('.circle-chronological');
           circleTarget = selection.selectAll('.circle-target');
-          textbox = selection.select('.textbox');
-          titles = selection.select('.titles');
           triangle = system.select('#triangle');
-
-          titlesNodes = selection
-            .filter(function(node) { return node.styleNode === 'default' || node.styleNode === 'chronological' || node.styleNode === 'bastard'; })
-            .select('.titles');
 
           // Update the dashed lines
           if (ratio < config.chart.zoom.dashedLine.hideInScale) {
@@ -389,80 +402,123 @@
           // Hide/Show Triangle.
           if (ratio < config.chart.zoom.hideTriangle) {
             triangle.transition()
-              .delay(0)
               .duration(config.chart.transitions.lines)
               .style('fill', config.chart.triangle.fill)
               .style('stroke', config.chart.triangle.fill);
           }
           else {
             triangle.transition()
-              .delay(0)
               .duration(config.chart.transitions.lines)
               .style('fill', 'white')
               .style('stroke', 'white');
           }
 
+          // Refresh Text.
+          this.updateText(selection);
+
           // Refresh properties of the circles.
           circles.transition()
-            .delay(0)
             .duration(config.chart.transitions.circles)
             .ease('linear')
-            .attr('r', nodeExtend().r)
+            .attr('r', nodeExtend().getRadius)
             .style('fill', nodeExtend().fill)
             .style('stroke', nodeExtend().stroke)
             .style('stroke-width', nodeExtend().strokeWidth);
 
           circlesChronological.transition()
-            .delay(0)
             .duration(config.chart.transitions.circles)
             .ease('linear')
-            .attr('r', nodeExtend().r2)
+            .attr('r', nodeExtend().getRadiusInternal)
             .style('stroke', nodeExtend().stroke)
             .style('stroke-width', nodeExtend().strokeWidth);
 
-          // Resize target touch size.
+          // Target Touch: Resize target touch area.
           circleTarget.transition()
-            .delay(0)
             .duration(config.chart.transitions.circles)
             .attr('r', nodeExtend().targetTouch);
-
-          // Update the position of the selected node.
-          textbox.transition()
-            .delay(0)
-            .duration(config.chart.transitions.titles)
-            .attr('x', text().x)
-            .attr('y', text().y)
-            .attr('width', text().width)
-            .attr('height', text().height)
-            .attr('transform', text().transform);
-
-          // Refresh height.
-          titles.style('height', function() { return text().heightCss(draw.searchNode(this)); });
-
-          titlesNodes.transition()
-            .delay(0)
-            .duration(config.chart.transitions.titles)
-            .style('color', function(){ return (draw.getScale() < config.chart.zoom.titles.showTextScale) ? 'transparent' : titlesColor(draw.getScale()); });
 
           // Update connections.
           system.selectAll('.link')
             .transition()
-            .delay(0)
             .duration(config.chart.transitions.lines)
-            .style('stroke-width', config.chart.link.strokeWidth/ratio);
+            .style('stroke-width', draw.getLinkWidth());
 
           system.selectAll('.dashed')
             .transition()
-            .delay(0)
             .duration(config.chart.transitions.lines)
             .style('stroke-width', function() { return (ratio > config.chart.zoom.dashedLine.hideInScale) ? 0 : config.chart.dashedLine.strokeWidth/ratio;});
 
           system.select('#line-active')
             .transition()
-            .delay(0)
             .duration(config.chart.transitions.lines)
-            .style('stroke-width', config.chart.link.strokeWidth/ratio);
+            .style('stroke-width', draw.getLinkWidth());
 
+        },
+        updateText: function(selection) {
+          var titles,
+            textbox;
+
+          // Get a default selection if is undefined.
+          if (typeof selection === 'undefined') {
+            selection = g.selectAll('.node');
+          }
+
+          // Selection of the objects.
+          textbox = selection.select('.textbox');
+          titles = selection.select('.titles');
+
+          // Set position and dimension of the textbox, according the styleNode.
+          textbox.attr('width', text().width)
+            .attr('height', text().height)
+            .attr('x', text().x)
+            .attr('y', text().y)
+            .attr('transform', text().transform);
+
+          // Apply the opacity to the titles hide/show.
+          textbox.filter(function(d) { return d.styleNode === 'default' || d.styleNode === 'chronological' || d.styleNode === 'bastard' || d.styleNode === 'activated' || d.styleNode === 'selected'; })
+            .transition()
+            .duration(config.chart.transitions.titles)
+            .style('opacity', this.redrawTitles());
+
+          // For each node title refresh height to apply styles.
+          titles.style('height', function() { return text().heightCss(draw.searchNode(this)); });
+
+          // Apply background alfa and specific node style.
+          titles.filter(function(node) { return node.styleNode === 'root'; })
+            .style('color', 'white')
+            .style('display', 'table-cell')
+            .style('vertical-align', 'middle');
+          titles.filter(function(node) { return node.styleNode === 'focus'; })
+            .style('color', 'black');
+          titles.filter(function(node) { return node.styleNode === 'selected'; })
+            .style('color', 'white')
+            .style('background-color', 'transparent')
+            .style('display', 'table-cell')
+            .style('vertical-align', 'middle')
+            .style('font-size', '1em');
+          titles.filter(function(node) { return node.styleNode === 'activated'; })
+            .style('color', 'red');
+          titles.filter(function(node) { return node.styleNode === 'default' || node.styleNode === 'chronological' || node.styleNode === 'bastard'; })
+            .style('color', 'black');
+          titles.filter(function(node) { return node.styleNode === 'default' || node.styleNode === 'chronological' || node.styleNode === 'bastard' || node.styleNode === 'activated'; })
+            .style('background-color', 'rgba(255,255,255,' + config.chart.titles.backgroundAlfa + ')')
+            .style('font-size', '1em');
+
+        },
+        /**
+         * Return the stroke-width from a d3 scale according the zoom scale.
+         *
+         * @returns {number}
+         */
+        getLinkWidth: function() {
+          if (typeof drawReference.scaleLinkWidth === 'undefined') {
+            // Defined scale first time.
+            drawReference.scaleLinkWidth = d3.scale.linear()
+              .domain([config.chart.initial.minZoom, config.chart.initial.maxZoom])
+              .range([config.chart.link.strokeWidth.normal, config.chart.link.strokeWidth.focus]);
+          }
+
+          return drawReference.scaleLinkWidth(this.getScale())/this.getScale();
         },
         /**
          * Render a line between the siblings nodes of the clicked circle.
@@ -498,6 +554,7 @@
             .transition()
             .delay(0)
             .duration(config.chart.transitions.lines);
+
         },
         /**
          * Toggle the class to activated of default for the title of the nodes.
@@ -527,12 +584,12 @@
 
             title.classed(node.styleNode, options.activate)
               .transition()
-              .delay(0)
+              .delay(150)
               .duration(config.chart.transitions.titles);
 
             title.classed(node.type, options.default)
               .transition()
-              .delay(0)
+              .delay(150)
               .duration(config.chart.transitions.titles);
           });
         },
@@ -552,8 +609,13 @@
           self.translate = node.getCoordinateToCenter(ratio);
           self.scale = ratio;
 
+          // Store the selected node in the draw object.
+          draw.setSelectedNode(node);
+
+          // Highligth the node selected first.
+          draw.highlightNode();
+
           zooming = system.transition()
-            .delay(0)
             .duration(config.chart.zoom.transition)
             .attr('transform', 'translate(' + self.translate + ')scale(' + self.scale + ')');
 
@@ -565,9 +627,6 @@
             // Set last scale and translate info to the zoom behaviour.
             zoomSvg.translate(self.getPosition());
             zoomSvg.scale(self.getScale());
-
-            // Store the selected node in the draw object.
-            draw.setSelectedNode(node);
 
             // Update nodes data, active and selected according the node clicked.
             points = node.toggleSiblings();
@@ -709,6 +768,40 @@
         },
         animationStart: function() {
           drawReference.render = true;
+        },
+        /**
+         * Return the function to apply the opacity value to each node.
+         *
+         * @returns {Function}
+         */
+        redrawTitles: function() {
+          return function() {
+            if (draw.getScale() < config.chart.zoom.titles.showTextScale) {
+              return 0;
+            }
+
+            return 1;
+          };
+        },
+        highlightNode: function() {
+          draw.getElementSelected()
+            .selectAll('.circle-node')
+            .transition()
+            .style('stroke', 'red')
+            .style('fill', 'red');
+
+          draw.getElementSelected()
+            .selectAll('.circle-chronological')
+            .transition()
+            .style('stroke', 'red');
+        },
+        rScale: function() {
+          if (typeof drawReference.rScale === 'undefined') {
+            drawReference.rScale = d3.scale.linear()
+              .domain([config.chart.initial.minZoom, config.chart.initial.maxZoom]);
+          }
+
+          return drawReference.rScale;
         }
       };
     };
@@ -906,6 +999,7 @@
     });
 
     // Nodes.
+    // @todo: Add Initial draw instructions in the draw module.
     g = system.append('g')
       .attr('id', 'nodes')
       .style('stroke', 'black')
@@ -944,7 +1038,6 @@
         return d.source.lineColor;
       });
 
-
     // Dashed Lines.
     pointsByDepth = _.groupBy(nodes, function(node){ return node.depth; });
     _.each(pointsByDepth, function(points, index) {
@@ -952,7 +1045,6 @@
 
       // Filter tree depth with more that 1 node.
       if (points.length > 1) {
-
         // Filter coordinates of the point.
         _.each(points, function(node) {
           coordinates.push(node.getPoints());
@@ -1022,7 +1114,7 @@
     node.append('circle')
       .attr('id', function(node, index) { return 'n' + index + '-circle'; })
       .attr('class', 'circle-node')
-      .attr('r', nodeExtend().r)
+      .attr('r', nodeExtend().getRadius)
       .style('fill', nodeExtend().fill)
       .style('stroke', nodeExtend().stroke)
       .style('stroke-width', nodeExtend().strokeWidth);
@@ -1030,16 +1122,20 @@
     // Chronological circles.
     node.filter(function(node) { return node.type === 'chronological';})
       .insert('circle', '.circle-node')
-      .attr('r', nodeExtend().r2)
+      .attr('r', nodeExtend().getRadiusInternal)
       .attr('class', 'circle-chronological')
       .style('fill', 'white')
       .style('stroke', nodeExtend().stroke)
       .style('stroke-width', nodeExtend().strokeWidth);
 
     // Titles.
-    node.append('foreignObject')
-      .attr('class', 'textbox')
-      .attr('x', text().x)
+    textbox = node.append('foreignObject')
+      .attr('class', 'textbox');
+
+    textbox.filter(function(d) { return d.styleNode === 'default' || d.styleNode === 'chronological' || d.styleNode === 'bastard' || d.styleNode === 'activated' || d.styleNode === 'selected'; })
+      .style('opacity', 0);
+
+    textbox.attr('x', text().x)
       .attr('y', text().y)
       .attr('width', text().width)
       .attr('height', text().height)
@@ -1063,14 +1159,15 @@
       .domain([config.chart.zoom.titles.scaleDomain])
       .range(['white', 'black']);
 
+    titlesColorActivated = d3.scale.linear()
+      .domain([config.chart.zoom.titles.scaleDomain])
+      .range(['white', 'red']);
+
     // Add height for the titles style.
     node.selectAll('.titles')
       .style('height', function() { return text().heightCss(draw.searchNode(this)); });
 
-    // Basic configuration of the fonts.
-    node.filter(function(node) { return node.styleNode === 'default' || node.styleNode === 'chronological' || node.styleNode === 'bastard'; })
-      .selectAll('.titles')
-      .style('color', 'transparent');
+    draw.updateText();
 
     // Public CDL API.
     return {

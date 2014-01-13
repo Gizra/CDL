@@ -366,35 +366,9 @@ div.cdl {
       display: table-cell;
     }
 
-    .title-splash {
-      transition: 2s;
-      color: black;
-    }
-
-    .default, .bastard, .chronological {
-      transition: 0.5s;
-      color: black;
-    }
-
     .focus {
-      font-size: 14px;
       vertical-align: bottom;
     }
 
-    .root-title {
-      font-size: 19px;
-      color: white;
-    }
-
-    .selected {
-      transition: 0.2s;
-      color: white;
-    }
-
-    .activated {
-      transition: 0.2s;
-      color: red;
-      background-color: rgba(255,255,255,0.87);
-    }
   }
 }
