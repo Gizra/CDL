@@ -28,23 +28,13 @@ div.cdl {
   padding-right: 0;
 
   #content {
+    padding-left: 70px;
     float:left;
   }
 
   #menu {
     width: 340px;
     float: right;
-
-    #menu-nodes {
-
-      .navigation {
-        bottom: 0px;
-      }
-
-      .navigation-parent {
-        margin-bottom: 40px;
-      }
-    }
   }
 
 
@@ -171,7 +161,6 @@ div.cdl {
   }
 
   div.node {
-    padding-left: 70px;
     float: left;
     max-width: 750px;
 
@@ -229,11 +218,7 @@ div.cdl {
     }
   }
 
-  div.navigation {
-    width: 270px;
-    padding-top: 66px;
-    padding-left: 70px;
-    position: fixed;
+  div.navigation, div.navigation-node {
 
     div.navigation-title {
       font-family: 'Miso';
@@ -298,10 +283,34 @@ div.cdl {
       }
     }
 
-    div.navigation-map {
-      margin-top: 78px;
+  }
+
+  div.navigation {
+    width: 270px;
+    padding-top: 66px;
+    padding-left: 70px;
+    position: fixed;
+  }
+
+  div.navigation-node {
+    margin-top: 3em;
+
+    div.navigation-parent {
+
+      div.navigation-list {
+
+        ul {
+
+          li {
+            border-top: 1px solid black;
+          }
+        }
+      }
     }
 
+    a.node-link {
+      margin-left: auto;
+    }
   }
 
   div.footer-line {
