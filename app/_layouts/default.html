@@ -13,7 +13,6 @@
       <link rel="stylesheet" href="/css/main.css">
       <!-- endbuild -->
 
-
       <!-- build:js(app) js/libs.js -->
       <script src="/_bower_components/q/q.js"></script>
       <script src="/_bower_components/d3/d3.js"></script>
@@ -23,7 +22,14 @@
       <script src="/_bower_components/bootstrap-sass/dist/js/bootstrap.min.js"></script>
       <script src="/_bower_components/blueimp-gallery/js/jquery.blueimp-gallery.min.js"></script>
       <script src="/_bower_components/blueimp-bootstrap-image-gallery/js/bootstrap-image-gallery.min.js"></script>
+      <script src="/_bower_components/fastclick/lib/fastclick.js"></script>
       <!-- endbuild -->
+
+      <script type="application/javascript">
+        window.addEventListener('load', function() {
+          FastClick.attach(document.body);
+        }, false);
+      </script>
 
     </head>
     <body data-spy="scroll" data-target=".navigation-list">

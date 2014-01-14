@@ -40,7 +40,7 @@
           hideInScale: 2,
           show: false
         },
-        transition: 1000,
+        transition: 750,
         hideTriangle: 10
       },
       center: {
@@ -70,9 +70,9 @@
         horizontal: 2
       },
       transitions: {
-        titles: 250,
-        circles: 250,
-        lines: 250
+        titles: 40,
+        circles: 40,
+        lines: 40
       }
     };
 
@@ -167,11 +167,11 @@
      */
     this.text = {
       root: {
-        x: -30,
-        y: -30,
-        width: 60,
-        height: 60,
-        scale: 2,
+        x: -55,
+        y: -55,
+        width: 110,
+        height: 110,
+        scale: 1.2,
         class: 'root-title'
       },
       default: {

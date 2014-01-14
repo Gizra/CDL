@@ -28,6 +28,11 @@
    * @param height
    */
   function prepareScenario() {
+    var initialScaleOnZoom;
+
+    function zoomstart() {
+      initialScaleOnZoom = draw.getScale();
+    }
 
     // Zoom Behaviours.
     function zoom() {
@@ -37,26 +42,20 @@
       // Store current position and zoom ratio.
       draw.setPositionByTransform(system.attr('transform'));
       draw.setScale(d3.event.scale);
-
     }
 
     function zoomend() {
+      if (typeof draw.getScale() === 'undefined' || initialScaleOnZoom === draw.getScale()) {
+        return;
+      }
       // Redraw the chart.
       draw.all(draw.getScale());
-
-    }
-
-    /**
-     * Pass to the zoom event instantiation the last position and scale.
-     */
-    function touch() {
-      zoomSvg.translate(draw.getPosition());
-      zoomSvg.scale(draw.getScale());
     }
 
     zoomSvg = d3.behavior.zoom()
       .center([window.innerWidth / 2, window.innerHeight / 2])
       .scaleExtent([1, config.chart.initial.maxZoom])
+      .on('zoomstart', zoomstart)
       .on('zoom', zoom)
       .on('zoomend', zoomend);
 
@@ -66,7 +65,10 @@
       .attr('width', '100%')
       .attr('height', '100%')
       .on('dblclick.zoom', null)
-      .on('touchmove', touch)
+      .on('touch', null)
+      .on('touchstart', null)
+      .on('touchmove', null)
+      .on('touchend', null)
       .call(zoomSvg);
 
     // Background.
@@ -125,8 +127,6 @@
       text,
       nodeExtend,
       drawModule,
-      titlesColor,
-      titlesColorActivated,
       textbox;
 
     // Index of the actual node centered.
@@ -387,14 +387,12 @@
           if (ratio < config.chart.zoom.dashedLine.hideInScale) {
             system.selectAll('.dashed')
               .transition()
-              .delay(0)
               .duration(config.chart.transitions.lines)
               .style('stroke-width', config.chart.dashedLine.strokeWidth/ratio);
           }
           else {
             system.selectAll('.dashed')
               .transition()
-              .delay(0)
               .duration(config.chart.transitions.lines)
               .style('stroke-width', 0);
           }
@@ -1153,15 +1151,6 @@
       .style('fill', function() { return (config.chart.initial.targetTouch.show) ? config.chart.initial.targetTouch.color : 'tranparent'; })
       .style('stroke', config.chart.initial.targetTouch.color)
       .style('stroke-width', 1);
-
-    // Define a color scale for the show/hide titles, according the zoom scale.
-    titlesColor = d3.scale.linear()
-      .domain([config.chart.zoom.titles.scaleDomain])
-      .range(['white', 'black']);
-
-    titlesColorActivated = d3.scale.linear()
-      .domain([config.chart.zoom.titles.scaleDomain])
-      .range(['white', 'red']);
 
     // Add height for the titles style.
     node.selectAll('.titles')
