@@ -2,13 +2,13 @@
   "BrainData": {
     "Source": {
       "guid": "8A74F258-DE15-9E9B-5F86-3FC1B119F5E3",
-      "name": "NLI-CDL",
+      "name": "NLI-CDL 2",
       "personalBrainVersion": "7045",
       "telepathyVersion": "10",
-      "fileRoot": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\NLI-CDL_brain\\Files",
-      "generatedDateTime": "2014-01-14 16:19:49.516 @+0200",
+      "fileRoot": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\NLI-CDL 2_brain\\Files",
+      "generatedDateTime": "2014-01-14 19:18:42.174 @+0200",
       "homeThoughtGuid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-      "modificationDateTime": "2014-01-07 18:34:14.589 @+0200"
+      "modificationDateTime": "2014-01-14 16:43:28.198 @+0200"
     },
     "Attributes": {
       "Attribute": [
@@ -249,9 +249,9 @@
           "name": "Maimonides&apos; Commentary on the Mishnah",
           "label": "",
           "creationDateTime": "2014-01-07 11:37:58.000 @+0200",
-          "realModificationDateTime": "2014-01-08 15:44:25.000 @+0200",
-          "displayModificationDateTime": "2014-01-12 09:49:14.000 @+0200",
-          "activationDateTime": "2014-01-14 12:44:44.209 @+0200",
+          "realModificationDateTime": "2014-01-14 17:36:59.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 17:36:59.000 @+0200",
+          "activationDateTime": "2014-01-14 12:44:44.000 @+0200",
           "linksModificationDateTime": "2014-01-07 11:38:09.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -587,8 +587,8 @@
           "name": ":1: The  Mishneh Torah",
           "label": "",
           "creationDateTime": "2014-01-07 11:37:54.000 @+0200",
-          "realModificationDateTime": "2014-01-08 15:44:25.000 @+0200",
-          "displayModificationDateTime": "2014-01-08 15:44:25.000 @+0200",
+          "realModificationDateTime": "2014-01-14 18:58:21.315 @+0200",
+          "displayModificationDateTime": "2014-01-14 18:58:21.316 @+0200",
           "activationDateTime": "2014-01-07 17:54:13.000 @+0200",
           "linksModificationDateTime": "2013-11-13 16:05:32.000 @+0200",
           "isType": "0",
@@ -627,8 +627,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:32:38.000 @+0200",
           "realModificationDateTime": "2014-01-08 17:11:21.000 @+0200",
-          "displayModificationDateTime": "2014-01-09 13:02:06.344 @+0200",
-          "activationDateTime": "2014-01-09 13:01:19.285 @+0200",
+          "displayModificationDateTime": "2014-01-14 17:44:48.950 @+0200",
+          "activationDateTime": "2014-01-14 17:44:21.847 @+0200",
           "linksModificationDateTime": "2013-11-03 17:01:43.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -653,8 +653,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:32:38.000 @+0200",
           "realModificationDateTime": "2014-01-09 14:19:55.692 @+0200",
-          "displayModificationDateTime": "2014-01-09 14:22:06.198 @+0200",
-          "activationDateTime": "2014-01-09 15:14:41.055 @+0200",
+          "displayModificationDateTime": "2014-01-14 17:43:39.928 @+0200",
+          "activationDateTime": "2014-01-14 17:42:47.288 @+0200",
           "linksModificationDateTime": "2013-11-03 17:01:22.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1042,9 +1042,9 @@
           "name": ":2: Dark Times",
           "label": "",
           "creationDateTime": "2014-01-07 11:32:35.000 @+0200",
-          "realModificationDateTime": "2014-01-08 15:44:24.000 @+0200",
-          "displayModificationDateTime": "2014-01-08 17:06:07.000 @+0200",
-          "activationDateTime": "2014-01-08 17:05:47.000 @+0200",
+          "realModificationDateTime": "2014-01-14 17:40:33.001 @+0200",
+          "displayModificationDateTime": "2014-01-14 17:41:44.936 @+0200",
+          "activationDateTime": "2014-01-14 17:50:18.251 @+0200",
           "linksModificationDateTime": "2013-11-03 17:00:29.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1068,9 +1068,9 @@
           "name": ":5: Surviving Daughter in Israel",
           "label": "",
           "creationDateTime": "2014-01-07 11:32:31.000 @+0200",
-          "realModificationDateTime": "2014-01-08 15:44:24.000 @+0200",
-          "displayModificationDateTime": "2014-01-08 15:44:24.000 @+0200",
-          "activationDateTime": "2014-01-06 15:31:28.000 @+0200",
+          "realModificationDateTime": "2014-01-14 17:40:33.410 @+0200",
+          "displayModificationDateTime": "2014-01-14 17:46:28.932 @+0200",
+          "activationDateTime": "2014-01-14 17:46:07.919 @+0200",
           "linksModificationDateTime": "2013-11-03 17:02:16.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1094,9 +1094,9 @@
           "name": "Elimelech Basch&apos;s Diary",
           "label": "",
           "creationDateTime": "2014-01-07 11:32:31.000 @+0200",
-          "realModificationDateTime": "2014-01-09 15:14:27.591 @+0200",
-          "displayModificationDateTime": "2014-01-14 14:41:06.628 @+0200",
-          "activationDateTime": "2014-01-14 15:43:02.596 @+0200",
+          "realModificationDateTime": "2014-01-14 17:36:59.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 17:36:59.000 @+0200",
+          "activationDateTime": "2014-01-14 15:43:02.000 @+0200",
           "linksModificationDateTime": "2014-01-07 11:32:42.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1118,11 +1118,11 @@
         {
           "guid": "5F686845-0FE0-05B2-DA4E-F175EF995458",
           "name": ":_: The Holocaust",
-          "label": "&#1496;&#1511;&#1505;&#1496; &#1506;&#1500; &#1512;&#1511;&#1506; &#1514;&#1502;&#1493;&#1504;&#1493;&#1514; &#1502;&#1514;&#1495;&#1500;&#1508;&#1493;&#1514;, &#1505;&#1512;&#1496;&#1497;&#1501; &#1499;&#1511;&#1497;&#1513;&#1493;&#1512;&#1497;&#1501; &#1488;&#1493;&#1508;&#1510;&#1497;&#1493;&#1504;&#1488;&#1500;&#1497;&#1497;&#1501; &#1488;&#1493; &#1500;&#1488;&#1495;&#1512; &#1492;&#1496;&#1511;&#1505;&#1496;.  &#1492;&#1508;&#1504;&#1497;&#1492; &#1500;&#1505;&#1511;&#1497;&#1512;&#1492; &#1504;&#1512;&#1495;&#1489;&#1514; &#1489;&#1488;&#1514;&#1512; &#1497;&#1491; &#1493;&#1513;&#1501;",
+          "label": "",
           "creationDateTime": "2014-01-07 11:32:32.000 @+0200",
-          "realModificationDateTime": "2014-01-08 17:08:30.000 @+0200",
-          "displayModificationDateTime": "2014-01-08 17:08:30.000 @+0200",
-          "activationDateTime": "2014-01-08 17:08:25.000 @+0200",
+          "realModificationDateTime": "2014-01-14 17:48:02.113 @+0200",
+          "displayModificationDateTime": "2014-01-14 17:48:28.936 @+0200",
+          "activationDateTime": "2014-01-14 17:47:51.935 @+0200",
           "linksModificationDateTime": "2013-11-03 17:00:29.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1446,9 +1446,9 @@
           "name": "An Exquisite Manuscript Collection",
           "label": "",
           "creationDateTime": "2014-01-07 11:47:44.000 @+0200",
-          "realModificationDateTime": "2014-01-13 15:50:24.793 @+0200",
-          "displayModificationDateTime": "2014-01-14 14:24:18.592 @+0200",
-          "activationDateTime": "2014-01-14 14:20:51.768 @+0200",
+          "realModificationDateTime": "2014-01-14 18:58:21.708 @+0200",
+          "displayModificationDateTime": "2014-01-14 18:58:21.709 @+0200",
+          "activationDateTime": "2014-01-14 14:20:51.000 @+0200",
           "linksModificationDateTime": "2014-01-12 11:32:12.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1719,8 +1719,8 @@
           "name": "Maps of The Holy Land in the Eran Laor collection",
           "label": "",
           "creationDateTime": "2014-01-07 12:00:27.000 @+0200",
-          "realModificationDateTime": "2014-01-13 16:16:56.216 @+0200",
-          "displayModificationDateTime": "2014-01-13 16:16:56.218 @+0200",
+          "realModificationDateTime": "2014-01-14 17:37:05.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 17:37:05.000 @+0200",
           "activationDateTime": "2014-01-13 15:27:28.000 @+0200",
           "linksModificationDateTime": "2014-01-07 12:00:37.000 @+0200",
           "isType": "0",
@@ -1759,8 +1759,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:42:55.000 @+0200",
           "realModificationDateTime": "2014-01-09 15:08:57.839 @+0200",
-          "displayModificationDateTime": "2014-01-09 15:08:57.839 @+0200",
-          "activationDateTime": "2014-01-09 15:08:51.033 @+0200",
+          "displayModificationDateTime": "2014-01-14 18:15:01.950 @+0200",
+          "activationDateTime": "2014-01-14 18:14:12.392 @+0200",
           "linksModificationDateTime": "2014-01-09 15:09:39.331 @+0200",
           "isType": "0",
           "color": "ffffff",
@@ -1772,8 +1772,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:42:53.000 @+0200",
           "realModificationDateTime": "2014-01-09 15:08:17.412 @+0200",
-          "displayModificationDateTime": "2014-01-09 15:08:17.412 @+0200",
-          "activationDateTime": "2014-01-14 16:16:36.775 @+0200",
+          "displayModificationDateTime": "2014-01-14 17:58:26.283 @+0200",
+          "activationDateTime": "2014-01-14 18:19:51.252 @+0200",
           "linksModificationDateTime": "2014-01-09 15:09:47.608 @+0200",
           "isType": "0",
           "color": "ffffff",
@@ -1785,8 +1785,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:42:53.000 @+0200",
           "realModificationDateTime": "2014-01-12 12:59:19.000 @+0200",
-          "displayModificationDateTime": "2014-01-12 12:59:19.000 @+0200",
-          "activationDateTime": "2014-01-12 12:59:06.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 17:56:45.940 @+0200",
+          "activationDateTime": "2014-01-14 17:55:37.077 @+0200",
           "linksModificationDateTime": "2014-01-12 12:58:49.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1836,8 +1836,8 @@
           "name": ":7: Despair and Suicide",
           "label": "",
           "creationDateTime": "2014-01-07 12:09:08.000 @+0200",
-          "realModificationDateTime": "2014-01-08 15:44:31.000 @+0200",
-          "displayModificationDateTime": "2014-01-08 15:44:31.000 @+0200",
+          "realModificationDateTime": "2014-01-14 18:58:21.526 @+0200",
+          "displayModificationDateTime": "2014-01-14 18:58:21.527 @+0200",
           "activationDateTime": "2013-12-19 17:36:10.000 @+0200",
           "linksModificationDateTime": "2013-12-03 14:13:40.000 @+0200",
           "isType": "0",
@@ -1898,12 +1898,12 @@
         },
         {
           "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
-          "name": "The Torah Scroll from Spain",
+          "name": "The Spanish Torah Scroll",
           "label": "",
           "creationDateTime": "2014-01-07 11:42:47.000 @+0200",
-          "realModificationDateTime": "2014-01-08 15:44:27.000 @+0200",
-          "displayModificationDateTime": "2014-01-09 11:48:52.000 @+0200",
-          "activationDateTime": "2014-01-14 15:43:07.878 @+0200",
+          "realModificationDateTime": "2014-01-14 17:59:56.769 @+0200",
+          "displayModificationDateTime": "2014-01-14 18:03:44.938 @+0200",
+          "activationDateTime": "2014-01-14 18:36:07.084 @+0200",
           "linksModificationDateTime": "2014-01-07 11:43:02.000 @+0200",
           "isType": "0",
           "color": "ffffff",
@@ -1954,8 +1954,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:42:42.000 @+0200",
           "realModificationDateTime": "2014-01-09 15:08:35.239 @+0200",
-          "displayModificationDateTime": "2014-01-09 15:08:35.239 @+0200",
-          "activationDateTime": "2014-01-09 15:08:23.653 @+0200",
+          "displayModificationDateTime": "2014-01-14 18:10:53.946 @+0200",
+          "activationDateTime": "2014-01-14 18:06:35.829 @+0200",
           "linksModificationDateTime": "2014-01-09 15:09:18.910 @+0200",
           "isType": "0",
           "color": "ffffff",
@@ -1979,8 +1979,8 @@
           "name": "Philosopher and Critic of Modern Intellectual Trends",
           "label": "",
           "creationDateTime": "2014-01-07 12:09:08.000 @+0200",
-          "realModificationDateTime": "2014-01-08 15:44:32.000 @+0200",
-          "displayModificationDateTime": "2014-01-08 15:44:32.000 @+0200",
+          "realModificationDateTime": "2014-01-14 18:58:21.400 @+0200",
+          "displayModificationDateTime": "2014-01-14 18:58:21.402 @+0200",
           "activationDateTime": "2014-01-07 12:12:01.000 @+0200",
           "linksModificationDateTime": "2013-12-03 17:13:21.000 @+0200",
           "isType": "0",
@@ -2148,9 +2148,9 @@
           "name": "A.S.  Yahuda,  Madrid- New-Haven - Jerusalem",
           "label": "",
           "creationDateTime": "2014-01-07 11:47:39.000 @+0200",
-          "realModificationDateTime": "2014-01-09 19:05:49.000 @+0200",
-          "displayModificationDateTime": "2014-01-09 19:05:49.000 @+0200",
-          "activationDateTime": "2014-01-14 14:26:09.484 @+0200",
+          "realModificationDateTime": "2014-01-14 18:58:21.595 @+0200",
+          "displayModificationDateTime": "2014-01-14 18:58:21.596 @+0200",
+          "activationDateTime": "2014-01-14 14:26:09.000 @+0200",
           "linksModificationDateTime": "2014-01-12 11:32:12.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2266,8 +2266,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:42:36.554 @+0200",
           "realModificationDateTime": "2014-01-07 11:42:36.554 @+0200",
-          "displayModificationDateTime": "2014-01-07 11:42:36.554 @+0200",
-          "activationDateTime": "2013-12-25 12:56:31.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 18:20:10.944 @+0200",
+          "activationDateTime": "2014-01-14 18:19:58.790 @+0200",
           "linksModificationDateTime": "2013-11-03 17:07:08.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2280,7 +2280,7 @@
           "creationDateTime": "2014-01-07 11:42:36.428 @+0200",
           "realModificationDateTime": "2014-01-07 11:42:36.427 @+0200",
           "displayModificationDateTime": "2014-01-07 11:42:36.427 @+0200",
-          "activationDateTime": "2014-01-07 11:43:42.117 @+0200",
+          "activationDateTime": "2014-01-14 18:36:03.143 @+0200",
           "linksModificationDateTime": "2013-12-26 13:36:12.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2395,9 +2395,9 @@
           "name": "Zweig, Benjamin, Kafka: Comets in the Sky of German Culture",
           "label": "",
           "creationDateTime": "2014-01-07 12:09:12.000 @+0200",
-          "realModificationDateTime": "2014-01-08 15:44:32.000 @+0200",
-          "displayModificationDateTime": "2014-01-08 15:44:32.000 @+0200",
-          "activationDateTime": "2014-01-13 15:53:41.572 @+0200",
+          "realModificationDateTime": "2014-01-14 17:36:59.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 17:36:59.000 @+0200",
+          "activationDateTime": "2014-01-13 15:53:41.000 @+0200",
           "linksModificationDateTime": "2014-01-07 18:03:23.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2549,12 +2549,12 @@
         },
         {
           "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
-          "name": "The Unique de L",
+          "name": "The Unique de Lonzano Manuscript",
           "label": "",
           "creationDateTime": "2014-01-07 12:23:09.000 @+0200",
-          "realModificationDateTime": "2014-01-12 10:26:35.000 @+0200",
-          "displayModificationDateTime": "2014-01-12 16:06:13.321 @+0200",
-          "activationDateTime": "2014-01-12 16:28:06.600 @+0200",
+          "realModificationDateTime": "2014-01-14 18:40:45.418 @+0200",
+          "displayModificationDateTime": "2014-01-14 18:40:45.418 @+0200",
+          "activationDateTime": "2014-01-14 18:36:10.809 @+0200",
           "linksModificationDateTime": "2014-01-07 12:23:16.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2566,8 +2566,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:42:36.000 @+0200",
           "realModificationDateTime": "2014-01-12 12:56:34.000 @+0200",
-          "displayModificationDateTime": "2014-01-12 12:56:34.000 @+0200",
-          "activationDateTime": "2014-01-12 12:56:18.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 17:53:05.934 @+0200",
+          "activationDateTime": "2014-01-14 17:51:22.462 @+0200",
           "linksModificationDateTime": "2014-01-12 12:55:29.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2618,8 +2618,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:42:39.000 @+0200",
           "realModificationDateTime": "2014-01-09 15:08:47.423 @+0200",
-          "displayModificationDateTime": "2014-01-14 15:59:11.363 @+0200",
-          "activationDateTime": "2014-01-14 16:17:42.056 @+0200",
+          "displayModificationDateTime": "2014-01-14 18:13:18.945 @+0200",
+          "activationDateTime": "2014-01-14 18:12:16.065 @+0200",
           "linksModificationDateTime": "2014-01-09 15:09:29.881 @+0200",
           "isType": "0",
           "color": "ffffff",
@@ -2631,8 +2631,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:42:39.000 @+0200",
           "realModificationDateTime": "2014-01-12 12:57:56.000 @+0200",
-          "displayModificationDateTime": "2014-01-14 15:57:25.401 @+0200",
-          "activationDateTime": "2014-01-12 12:57:42.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 17:54:29.827 @+0200",
+          "activationDateTime": "2014-01-14 17:53:17.036 @+0200",
           "linksModificationDateTime": "2014-01-12 12:56:54.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2657,8 +2657,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:42:42.026 @+0200",
           "realModificationDateTime": "2014-01-07 11:42:42.026 @+0200",
-          "displayModificationDateTime": "2014-01-07 11:42:42.026 @+0200",
-          "activationDateTime": "2014-01-07 18:09:44.262 @+0200",
+          "displayModificationDateTime": "2014-01-14 17:51:19.147 @+0200",
+          "activationDateTime": "2014-01-14 17:50:34.595 @+0200",
           "linksModificationDateTime": "2013-10-23 14:51:40.762 @+0200",
           "isType": "0",
           "color": "0",
@@ -2695,9 +2695,9 @@
           "name": "Torah Introduction",
           "label": "",
           "creationDateTime": "2014-01-07 11:42:38.000 @+0200",
-          "realModificationDateTime": "2014-01-08 15:44:27.000 @+0200",
-          "displayModificationDateTime": "2014-01-08 15:44:27.000 @+0200",
-          "activationDateTime": "2014-01-12 16:09:56.925 @+0200",
+          "realModificationDateTime": "2014-01-14 17:37:05.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 17:37:05.000 @+0200",
+          "activationDateTime": "2014-01-12 16:09:56.000 @+0200",
           "linksModificationDateTime": "2014-01-12 12:58:49.000 @+0200",
           "isType": "0",
           "color": "ffffff",
@@ -2774,8 +2774,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:42:39.000 @+0200",
           "realModificationDateTime": "2014-01-12 12:58:36.000 @+0200",
-          "displayModificationDateTime": "2014-01-12 12:58:36.000 @+0200",
-          "activationDateTime": "2014-01-12 12:58:22.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 17:55:36.739 @+0200",
+          "activationDateTime": "2014-01-14 17:54:31.536 @+0200",
           "linksModificationDateTime": "2014-01-12 12:58:11.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2838,8 +2838,8 @@
           "name": ":1: German-speaking Jews in the NLI Archives",
           "label": "",
           "creationDateTime": "2014-01-07 12:09:20.000 @+0200",
-          "realModificationDateTime": "2014-01-08 15:44:33.000 @+0200",
-          "displayModificationDateTime": "2014-01-08 15:44:33.000 @+0200",
+          "realModificationDateTime": "2014-01-14 18:58:21.563 @+0200",
+          "displayModificationDateTime": "2014-01-14 18:58:21.565 @+0200",
           "activationDateTime": "2014-01-07 18:02:38.000 @+0200",
           "linksModificationDateTime": "2013-12-09 15:11:42.000 @+0200",
           "isType": "0",
@@ -2848,12 +2848,12 @@
         },
         {
           "guid": "C686E53C-0F9C-5637-78E5-A508AE770632",
-          "name": ":4: Final Stop - NLI",
+          "name": ":4: Final Stop - the National Library",
           "label": "",
           "creationDateTime": "2014-01-07 11:42:37.000 @+0200",
-          "realModificationDateTime": "2014-01-09 15:09:10.161 @+0200",
-          "displayModificationDateTime": "2014-01-09 15:09:10.161 @+0200",
-          "activationDateTime": "2014-01-09 15:09:00.523 @+0200",
+          "realModificationDateTime": "2014-01-14 18:16:40.622 @+0200",
+          "displayModificationDateTime": "2014-01-14 18:17:05.941 @+0200",
+          "activationDateTime": "2014-01-14 18:15:04.277 @+0200",
           "linksModificationDateTime": "2014-01-09 15:09:47.609 @+0200",
           "isType": "0",
           "color": "ffffff",
@@ -2864,8 +2864,8 @@
           "name": "Harbinger of the 21st Century",
           "label": "",
           "creationDateTime": "2014-01-07 12:09:20.000 @+0200",
-          "realModificationDateTime": "2014-01-08 15:44:33.000 @+0200",
-          "displayModificationDateTime": "2014-01-08 15:44:33.000 @+0200",
+          "realModificationDateTime": "2014-01-14 18:58:21.634 @+0200",
+          "displayModificationDateTime": "2014-01-14 18:58:21.636 @+0200",
           "activationDateTime": "2014-01-07 12:11:55.000 @+0200",
           "linksModificationDateTime": "2013-12-03 15:11:46.000 @+0200",
           "isType": "0",
@@ -7075,10 +7075,10 @@
               "objectID": "93AE1102-D348-2B9E-B61C-C98672633826"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Elimelech Basch, his wife Miriam and their eight children were deported to Auschwitz during the 22nd-26th of May, 1944. Elimelech (46), Miriam (40), Isac (18), Mordechai (14), Hershl (12), Yisrael (10), Moshe (8), Shlomo (6) and little Esther, aged 4, were all murdered in the death camp. &amp;#160; Bluma (Perhiya), the eldest daughter, aged about 20 at the time, was the only one who survived the hell of Auschwitz. &amp;#160;Until this day she is not willing to tell what happened to her in Auschwitz during the war, not even to her closest family.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=&quot; margin: 0cm 0cm 0pt;&quot;&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Movie: The May 1944 deportations,&amp;#160;on which the Basch family was sent to the death camps.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=&quot; margin: 0cm 0cm 0pt;&quot;&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;The photographs in this album were taken on May-June 1944 by two SS men whose task was to take ID photos and fingerprints from the inmates of the Camp.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Elimelech Basch, his wife Miriam, and their eight children were deported to Auschwitz during the 22nd-26th of May, 1944. Elimelech (46), Miriam (40), Isaac (18), Mordechai (14), Hershl (12), Yisrael (10), Moshe (8), Shlomo (6) and little Esther, aged 4, were all murdered in the death camp. &amp;#160; Bluma (Perhiya), the eldest daughter, aged about 20 at the time, was the only family member who survived the hell of Auschwitz. &amp;#160;Until this day she is not willing to speak about her experiences during the war, not even to her closest family.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; margin-bottom: .0001pt; text-align: left; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Movie: The May 1944 deportations,&amp;#160;on which the Basch family was sent to the death camps.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; margin-bottom: .0001pt; text-align: left; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The photographs were taken on May-June, 1944 by two SS servicemen whose task it was to take ID photos and fingerprints of the inmates of the camp.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:32:40.251 @+0200",
-          "modificationDateTime": "2014-01-07 11:32:40.251 @+0200"
+          "modificationDateTime": "2014-01-14 17:44:48.929 @+0200"
         },
         {
           "guid": "551974BD-4782-54D6-8F8E-FE10CAA53985",
@@ -7101,10 +7101,10 @@
               "objectID": "5FD1D8F4-0C48-FD76-BEE1-52359E3E38F6"
             }
           },
-          "body": "\n\n\n\n\n\n\n\n&lt;p&gt;&lt;span style=&quot;font-family:;&quot; pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;Elimelech Basch described in his diary his family&apos;s last days. &#160;Until the last moment, after the Germans had already entered the town, the family debated what to do:&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoSubtitle&quot; style=&quot;text-align: left; unicode-bidi: embed; direction: ltr;&quot;&gt;&lt;span style=&quot;color: windowtext;&quot;&gt;&quot;I argued with my wife that she shouldn&apos;t clean and paint for (the holiday of) Passover, but she continued her work as usual saying that as long as we live we should hope for the good and God will choose to do as he sees fit. My son Isaac, seeing my great anxiety, said that I should buy a gun and shoot all the members of our family&quot;.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoSubtitle&quot; style=&quot;text-align: left; unicode-bidi: embed; direction: ltr;&quot;&gt;&lt;span style=&quot;color: windowtext;&quot;&gt;&#8230;&quot; I watched my children play and wept, who knows what will happen to them?&quot; &#160;&#160;&lt;/span&gt;&lt;/p&gt;\n\n\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\np.msonormal {\nmargin-top: 0cm;  margin-right: 0cm;  margin-bottom: 10.0pt;  margin-left: 0cm;  text-align: right;  line-height: 115%;  direction: rtl;  unicode-bidi: embed;  font-size: 11.0pt;  font-family: Calibri, sans-serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;In his diary, Elimelech Basch described his family&apos;s last days. The family debated what to do until the last moment, after the Germans had already entered the town:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&quot;I argued with my wife that she shouldn&apos;t clean and paint for (the holiday of) Passover, but she continued her work as usual saying that as long as we live we should hope for the good and God will choose to do as he sees fit. My son Isaac, seeing my great anxiety, said that I should buy a gun and shoot all the members of our family&quot;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&#8230;&quot; I watched my children play and wept, who knows what will happen to them?&quot; &amp;#160;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:32:40.271 @+0200",
-          "modificationDateTime": "2014-01-07 11:32:40.271 @+0200"
+          "modificationDateTime": "2014-01-14 17:43:39.927 @+0200"
         },
         {
           "guid": "551E24FD-B306-A926-DFF1-B8136897476A",
@@ -7439,10 +7439,10 @@
               "objectID": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293"
             }
           },
-          "body": "\n\n\n\n\n\n\n\n&lt;p class=&quot;MsoNormal&quot; style=&quot;text-align: justify; line-height: normal; unicode-bidi: embed; direction: ltr;&quot;&gt;&lt;span style=&quot;font-family:;&quot; pt=&quot;pt&quot; font-size=&quot;font-size&quot; serif=&quot;serif&quot; roman=&quot;Roman&quot; new=&quot;New&quot; times=&quot;Times&quot;&gt;In March 1939 Tiachiv came under Hungarian sovereignty and the Jews suffered from oppressive legislation. The synagogue was sacked, and beatings and harassment became part of the Jews&apos; everyday life.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot;text-align: justify; line-height: normal; unicode-bidi: embed; direction: ltr;&quot;&gt;&lt;span style=&quot;font-family:;&quot; pt=&quot;pt&quot; font-size=&quot;font-size&quot; serif=&quot;serif&quot; roman=&quot;Roman&quot; new=&quot;New&quot; times=&quot;Times&quot;&gt;The German army conquered Hungary on the 19.3.1944.&#160; A ghetto was established in April, and about 10,000 Jews from the region were deported into the ghetto. Each apartment contained 10-15 persons, no food was supplied and the population began to starve.&#160;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot;text-align: justify; line-height: normal; unicode-bidi: embed; direction: ltr;&quot;&gt;&lt;span style=&quot;font-family:;&quot; pt=&quot;pt&quot; font-size=&quot;font-size&quot; serif=&quot;serif&quot; roman=&quot;Roman&quot; new=&quot;New&quot; times=&quot;Times&quot;&gt;Those who tried to escape were turned over to the Hungarian police who cooperated with the Nazis.The Jews of the Tiachiv ghetto were deported to the extermination camp in Auschwitz between the 22&lt;sup&gt;nd&lt;/sup&gt;-26&lt;sup&gt;th&lt;/sup&gt; of May, 1944.&lt;/span&gt;&lt;/p&gt;\n\n\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: justify; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;In March, 1939 Tiachiv came under Hungarian sovereignty and the Jews began to suffer from oppressive legislation. The local synagogue was sacked, and beatings and harassment became part of everyday life.&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: justify; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The German army conquered Hungary on the 19th of March, 1944.&amp;#160; A ghetto was established in April, into which about 10,000 Jews from the region were deported. Each apartment in the ghetto housed 10-15 persons, no food was supplied and the population began to starve.&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: justify; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Those who tried to escape were turned over to the Hungarian police who worked in cooperation with the Nazis. The Jews of the Tiachiv Ghetto were deported to Auschwitz between the 22th-26th of May, 194&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;4.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:32:40.221 @+0200",
-          "modificationDateTime": "2014-01-07 11:32:40.221 @+0200"
+          "modificationDateTime": "2014-01-14 17:41:44.935 @+0200"
         },
         {
           "guid": "B2471148-46EE-0CC0-0FCE-3CC98BEFB253",
@@ -7465,10 +7465,10 @@
               "objectID": "72190B03-074A-B546-1F89-73EFBBE16E0D"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;Elimelech Basch&apos;s eldest daughter, Bluma (Perhiya), was the only one of the Basch family who survived. &amp;#160;Bluma emigrated to Israel, changed her name to Perhiya and built a new family. &amp;#160;Perhiya has three children, many grandchildren and a newborn great granddaughter. &amp;#160;She is now 87 years old. She is still an active volounteer in her hometown Lydda (Lod). &amp;#160;&lt;/p&gt;\n&lt;p&gt;&amp;#160;&lt;/p&gt;\n&lt;p&gt;Photograph: In the center Perhiya receiving a token of gratitude from the city of Lydda for her long years as a volunteer.&lt;/p&gt;\n&lt;p&gt;&amp;#160;&lt;/p&gt;\n&lt;p&gt;Photograph: Perhiya&apos;s testimony, given in January 1956, regarding the murder of her family. &amp;#160;The testimony was given to the Yad Vashem museum for the memory of the Holocaust in Jerusalem, Israel.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Elimelech Basch&apos;s eldest daughter, Bluma (Perhiya), was the only member of the Basch family to survive the Holocaust. &amp;#160;&amp;#160;Bluma immigrated to Israel, changed her name to Perhiya and built a new family. &amp;#160;Perhiya has three children, many grandchildren and a newborn great granddaughter. &amp;#160;She is now 87 years old and is still an active volunteer in her hometown, Lydda (Lod). &amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Photograph: Perhiya (center) receiving a token of gratitude from the city of Lydda in honor of her long years as a volunteer.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Photograph: Perhiya&apos;s testimony, given in January, 1956, regarding the murder of her family. &amp;#160;The testimony was given to the Yad Vashem Holocaust History Museum in Jerusalem, Israel.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:32:40.141 @+0200",
-          "modificationDateTime": "2014-01-07 11:32:40.141 @+0200"
+          "modificationDateTime": "2014-01-14 17:46:28.931 @+0200"
         },
         {
           "guid": "D8B7A9D3-410D-E6ED-36CC-F25C12F890B9",
@@ -7517,10 +7517,10 @@
               "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;One of the most distinct characteristics of the Nazi regime was its ideology of the&amp;#160; supremacy of the Aryan race and its detestation of the Jews and other groups. In 1942, in the Wannsee conference, the Nazis decided to implement a plan called the &#8220;Final Solution of the Jewish Question&#8221;. After that the Jews of Europe were systematically murdered in the extermination camps as part of the Final Solution. In some of the camps permanent gas chambers were erected.&lt;/p&gt;\n&lt;p&gt;By 1945 6,000,000 Jews, the majority of the Jews in Europe, were dead.&lt;/p&gt;\n&lt;p&gt;For more on the Holocaust follow the link to Yad Vashem&apos;s website.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;One of the most distinct characteristics of the Nazi regime was its belief in the supremacy of the Aryan race and its hatred of Jews and other groups. At the Wannsee Conference in 1942, the Nazi party decided to implement a plan called the &#8220;Final Solution of the Jewish Question&#8221;. Following the Wannsee Conference, the Jews of Europe were systematically murdered in the extermination camps as part of the Final Solution. In some of the camps permanent gas chambers were erected.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;By 1945, 6,000,000 Jews,-the majority of European Jewry- were dead.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;For more on the Holocaust, follow the link to Yad Vashem&apos;s website.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:32:40.171 @+0200",
-          "modificationDateTime": "2014-01-07 11:32:40.171 @+0200"
+          "modificationDateTime": "2014-01-14 17:48:28.935 @+0200"
         },
         {
           "guid": "099706CA-BBA2-8F53-CAD5-5EFE46F071CB",
@@ -8141,10 +8141,10 @@
               "objectID": "DC714013-3F75-D6D6-147E-175C6A4DE4B7"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p align=&quot;justify&quot; style=&quot; margin-top: 0.07in; margin-bottom: 0.02in; margin-left: 0.12in;&quot;&gt;&lt;span style=&quot; color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;The Scroll served the community of Kahal-Shalom for over 400 years, until the island was occupied by the Nazis, and most of its Jews were transported to Auschwitz and were exterminated. From the 2000 members of the Island&apos;s Jewish community, 1673 were deported. Of these, only 151 survived.&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p align=&quot;justify&quot; style=&quot; margin-top: 0.07in; margin-bottom: 0.02in; margin-left: 0.12in;&quot;&gt;&lt;span style=&quot; color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;The Torah Scroll was saved through the good relations of the Jewish and Muslim communities, as well as through an intriguing family connection: the Scroll was deposited with the Mufti of Rhodes, Suleyman Kasiloglou, just a few days before the deportation on July 25th 1944. &amp;#160;Kasiloglu&apos;s father in law was Jewish, what may explain why the Jewish community trusted him with its most valuable possession. &amp;#160;Kasiloglou hid the Torah under the pulpit of the Morad Reis mosque. .&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p align=&quot;justify&quot; style=&quot; margin-top: 0.07in; margin-bottom: 0.02in; margin-left: 0.12in;&quot;&gt;&lt;span style=&quot; color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;The Scroll remained rolled on the last portion which was read in the Synagogue, &quot;Parashat Pinhas&quot;,on the Sabbath of July 15th 1944. This same part in the scroll was heavily damaged by mildew due to the conditions in the hiding place.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;  margin-right: 0cm;  margin-left: 0cm;  font-size: 12.0pt;  font-family: &quot;Times New Roman&quot;, serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p style=&quot; margin-top: 5.05pt; margin-right: 0cm; margin-bottom: 1.45pt; margin-left: 8.65pt;&quot;&gt;&lt;span style=&quot; color: #3F3F3F;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The Torah served the community of Kahal-Shalom for over 400 years, until the island was occupied by the Nazis. Most of the island&apos;s Jews were transported to Auschwitz and killed. From among 2000 members of the island&apos;s Jewish community, 1,673 were deported. Of these, only 151 survived.&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=&quot; margin-top: 5.05pt; margin-right: 0cm; margin-bottom: 1.45pt; margin-left: 8.65pt;&quot;&gt;&lt;span style=&quot; color: #3F3F3F;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The Torah scroll was saved by the good relationship between the Jewish and Muslim communities, as well as through an intriguing family connection: the Torah was deposited with the Mufti of Rhodes, Suleyman Kasiloglou, just a few days before the deportation of the Jews on July 25th, 1944. &amp;#160;Kasiloglu&apos;s father-in-law was Jewish, which may explain why the Jewish community trusted him with its most valuable possession. &amp;#160;Kasiloglou hid the Torah under the pulpit of the Morad Reis mosque.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=&quot; margin-top: 5.05pt; margin-right: 0cm; margin-bottom: 1.45pt; margin-left: 8.65pt;&quot;&gt;&lt;span style=&quot; color: #3F3F3F;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The Scroll remained rolled to the last portion which was read in the synagogue, &quot;Parashat Pinhas&quot;, on the Sabbath of July 15th, 1944. This same part in the scroll was heavily damaged by mildew due to the conditions under the pulpit.&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:43:00.209 @+0200",
-          "modificationDateTime": "2014-01-07 11:43:00.209 @+0200"
+          "modificationDateTime": "2014-01-14 18:15:01.949 @+0200"
         },
         {
           "guid": "0468B19A-2E6C-900E-791D-1F8F706DA3EE",
@@ -8154,10 +8154,10 @@
               "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;&lt;span style=&quot; color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;The NLI houses various such Torah Scrolls. The Scroll we present here, which had belonged to the Kahal Shalom Synagogue in Rhodes, is actually one of the less impressive to look at;&amp;#160;it is in fact disintegrating and according to our conservationist - is actually beyond repair.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Although the NLI possesses finer ones - in a much better state of preservation, we chose to present it because of the fascinating story of its wanderings throughout the Mediterranean and the hardships it had encountered until its arrival at our library in the summer of 1999.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;This story represents the history of the Jewish people through the ages in a nutshell.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&amp;#160;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Photograph of Coat: The inscription reads &apos;Donated in memory of our dear brothers who died in sanctification of the divine name, by Hayyim and Lilly Noterika&apos;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;  margin-right: 0cm;  margin-left: 0cm;  font-size: 12.0pt;  font-family: &quot;Times New Roman&quot;, serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;&lt;span style=&quot; color: #3F3F3F;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The National Library of Israel houses various Torah scrolls. The Torah we present here, which belonged to the Kahal Shalom Synagogue in Rhodes, is actually one of the less impressive to look at; it is, in fact, disintegrating and according to our conservationist - is actually beyond repair.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; color: #3F3F3F;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Although the National Library of Israel possesses finer ones - in a much better state of preservation, we chose to present this one because of the fascinating story of its wanderings throughout the Mediterranean and the hardships it encountered until its arrival at our library in the summer of 1999.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; color: #3F3F3F;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;This story represents the history of the Jewish people throughout the ages&lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Photograph of Coat: The inscription reads &apos;Donated in memory of our dear brothers who died in sanctification of the divine name, by Hayyim and Lilly Noterika&apos;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:43:00.000 @+0200",
-          "modificationDateTime": "2014-01-09 14:57:38.000 @+0200"
+          "modificationDateTime": "2014-01-14 17:58:26.281 @+0200"
         },
         {
           "guid": "CABB951D-2819-7D95-3630-AD62374486DF",
@@ -8167,10 +8167,10 @@
               "objectID": "BF366466-33A0-0CF9-2CE5-6C69BAFCF1AE"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;The crown or finials which embellish it&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;The crown or finials which adorn the Torah.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:43:00.179 @+0200",
-          "modificationDateTime": "2014-01-07 11:43:00.179 @+0200"
+          "modificationDateTime": "2014-01-14 17:56:45.938 @+0200"
         },
         {
           "guid": "E82F185D-3F54-D71C-715C-069C01D34DB7",
@@ -8258,10 +8258,10 @@
               "objectID": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;&lt;span style=&quot; font-size: small;&quot;&gt;This is the story of the fascinating journey of a Torah scroll which was&amp;#160;made in Spain in &lt;/span&gt;&lt;span style=&quot; color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;the 14th or 15th century, &amp;#160;travelled to Rhodes with the Jewish exiles from Spain, was hidden during the Nazi occupation in a Muslim mosque, and was brought to the National Library of Israel by descendants of the community of Rhodes in 1999. &amp;#160;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;&lt;span style=&quot; font-size: small;&quot;&gt;This is the story of the fascinating journey of a Torah scroll. The scroll was written in Spain in &lt;/span&gt;&lt;span style=&quot; color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;the 14th or 15th century. It&amp;#160;travelled to Rhodes with the Jewish exiles from Spain, was hidden during the Nazi occupation in a Muslim mosque, and was finally brought to the National Library in Jerusalem by descendants of the community of Rhodes in 1999. &amp;#160;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:43:00.159 @+0200",
-          "modificationDateTime": "2014-01-07 11:43:00.159 @+0200"
+          "modificationDateTime": "2014-01-14 18:03:44.937 @+0200"
         },
         {
           "guid": "6F4DF2B3-7D80-4877-BC47-803D162AE9BB",
@@ -8310,10 +8310,10 @@
               "objectID": "9DE4306F-1BA6-883F-87D0-E57A0AC68CD9"
             }
           },
-          "body": "\n\n\n\n\n\n\n\n&lt;p align=&quot;justify&quot; style=&quot; padding: 0in; border: currentColor; border-image: none; margin-top: 0.07in; margin-bottom: 0.02in; margin-left: 0.12in;&quot;&gt;&lt;span style=&quot; color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Our Torah Scroll dates to the 14th or 15th century. &#160;It is written upon brown colored vellum made up of 81 sheets which altogether are 45.5 meters long. It was almost certainly made in Spain for one of the Jewish communities there, as the paleographic style is that of the Spanish Jewish tradition. Additionally, on one of the rollers appears the name of the owner &#8211; Yaakov ben Abraham Mar Hayyim, a member of a well-known Jewish family in Spain before the expulsion of the Jews in 1492.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p align=&quot;justify&quot; style=&quot; padding: 0in; border: currentColor; border-image: none; margin-top: 0.07in; margin-bottom: 0.02in; margin-left: 0.12in;&quot;&gt;&lt;span style=&quot; color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;The attached songs are representative of the rich culture of the Sepharadic jews, which were exiled in 1492 and spread all around Europe.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p align=&quot;justify&quot; style=&quot; padding: 0in; border: currentColor; border-image: none; margin-top: 0.07in; margin-bottom: 0.02in; margin-left: 0.12in;&quot;&gt;&#160;&lt;/p&gt;\n\n\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p align=&quot;justify&quot; style=&quot; padding: 0in; border: currentColor; border-image: none; margin-top: 0.07in; margin-bottom: 0.02in; margin-left: 0.12in;&quot;&gt;&lt;span style=&quot; color: #3F3F3F;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Our Torah scroll dates to the 14th or 15th century. &amp;#160;It is written on brown vellum made up of 81 sheets bound together to make a scroll that is 45.5 meters long. The scroll was almost certainly written in Spain for one of the Jewish communities there, as the paleographic style is that of the Spanish Jewish tradition. Additionally, Yaakov ben Abraham Mar Hayyim, the owner, appears on one of the rollers. Yaakov was a member of a well-known Spanish Jewish family.&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p align=&quot;justify&quot; style=&quot; padding: 0in; border: currentColor; border-image: none; margin-top: 0.07in; margin-bottom: 0.02in; margin-left: 0.12in;&quot;&gt;&lt;span style=&quot; color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p align=&quot;justify&quot; style=&quot; padding: 0in; border: currentColor; border-image: none; margin-top: 0.07in; margin-bottom: 0.02in; margin-left: 0.12in;&quot;&gt;&lt;span style=&quot; color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;The attached songs are representative of the rich culture of the Sepharadic jews, who were exiled in 1492 and spread all around Europe.&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p align=&quot;justify&quot; style=&quot; padding: 0in; border: currentColor; border-image: none; margin-top: 0.07in; margin-bottom: 0.02in; margin-left: 0.12in;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:43:00.000 @+0200",
-          "modificationDateTime": "2014-01-08 15:24:23.000 @+0200"
+          "modificationDateTime": "2014-01-14 18:10:53.944 @+0200"
         },
         {
           "guid": "019767A6-FEDC-C40A-D305-C2EA60CAE23A",
@@ -8609,10 +8609,10 @@
               "objectID": "EB4FD149-5DEF-8C54-818E-9F93C286A13E"
             }
           },
-          "body": "\n\n\n\n\n\n\n\n&lt;p&gt;The Scroll seen here was donated to the NLI by the Adini-Edel family.&lt;/p&gt;\n&lt;p&gt;Unlike the Torah scrolls usually used in Synagogues, this is a miniature scroll,&lt;/p&gt;\n&lt;p&gt;written in micrographic script.&lt;/p&gt;\n&lt;p&gt;It was either written or owned by a well-known Jewish scholar from eastern&lt;/p&gt;\n&lt;p&gt;Europe by the name of Rabbai Judah Edel (1757 &#8211; 1828), who in his capacity as a&lt;/p&gt;\n&lt;p&gt;preacher travelled much and needed a compact version of the Torah to take with&lt;/p&gt;\n&lt;p&gt;him. After it was donated to the library it turned out that one of the library&apos;s most&lt;/p&gt;\n&lt;p&gt;experienced manuscript experts was a descendent of Rabbai Edel.&lt;/p&gt;\n\n\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\np.msonormal {\nmargin-top: 0cm;  margin-right: 0cm;  margin-bottom: 10.0pt;  margin-left: 0cm;  text-align: right;  line-height: 115%;  direction: rtl;  unicode-bidi: embed;  font-size: 11.0pt;  font-family: Calibri, sans-serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; direction: ltr; unicode-bidi: embed;&quot;&gt;The Scroll presented here was donated to the NLI by the Adini-Edel family.&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; direction: ltr; unicode-bidi: embed;&quot;&gt;Unlike the Torah scrolls usually used in synagogues, this is a miniature scroll, written in micrographic script.&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; direction: ltr; unicode-bidi: embed;&quot;&gt;The scroll was either written or owned by a well-known Jewish scholar from eastern Europe, by the name of Rabbi Judah Edel (1757 &#8211; 1828). In his capacity as a&amp;#160;preacher, Rabbi Edel travelled a lot and needed a compact version of the Torah to carry with him . After it was donated to the library, it was discovered that one of the library&apos;s most&amp;#160;experienced manuscript experts was a descendent of the same Rabbi Edel.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:42:59.979 @+0200",
-          "modificationDateTime": "2014-01-07 11:42:59.979 @+0200"
+          "modificationDateTime": "2014-01-14 18:20:10.942 @+0200"
         },
         {
           "guid": "510B6063-E111-9E9E-5F9B-E65F5AB27E7E",
@@ -8882,10 +8882,10 @@
               "objectID": "21AAC80C-2A17-ADE5-7F1E-AC4FEC3475EE"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;\n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;The girdle that binds it, and an embroidered mantle&lt;/p&gt;\n&lt;p&gt;or alternatively, a case that covers it&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;An embroidered mantle or alternatively, a case to cover it.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:42:59.989 @+0200",
-          "modificationDateTime": "2014-01-07 11:42:59.989 @+0200"
+          "modificationDateTime": "2014-01-14 17:53:05.933 @+0200"
         },
         {
           "guid": "FC5CEDDC-5EDA-783E-1292-526C7B9C0E77",
@@ -8934,10 +8934,10 @@
               "objectID": "F8D25BDD-4C45-9623-9A0D-6A7188E4C10A"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p align=&quot;justify&quot; style=&quot; padding: 0in; border: currentColor; border-image: none; margin-bottom: 0in; margin-left: 0.12in;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; color: #000000;&quot;&gt;The cherished Torah Scroll was taken by its owners from Spain upon their expulsion, when Jews from Spain wandered throughout the Mediterranean basin in search for a new home. The owners of this Scroll, a family or perhaps a congregation, finally settled down on the island of Rhodes, and the Scroll found its way to the Kahal-Shalom Synagogue. The synagogue was founded in 1577 in the city of &lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;brain://31C8CCB9-803F-3EB3-F118-E2A3AA3EF0DF/F34305BD-F0F4-FA40-FA61-8D8812A642DB&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; color: #000000;&quot;&gt;Rhodes&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; color: #000000;&quot;&gt;, which like the rest of the island had been under the rule of the Ottoman Turks since 1522. The Kahal Shalom synagogue was one of six synagogues which existed in the city of Rhodes, where a vital Jewish community lived in its own quarter &#8211; the Juderia&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p align=&quot;justify&quot; style=&quot; padding: 0in; border: currentColor; border-image: none; margin-top: 0.07in; margin-bottom: 0.02in; margin-left: 0.12in;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; color: #000000;&quot;&gt;Like the other Spanish Jewish communities which settled in the Mediterranean, the Jewish community of Rhodes spoke Ladino &#8211; a special dialect of Castilian Spanish mixed with Hebrew, and then also Turkish and Greek.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;  margin-right: 0cm;  margin-left: 0cm;  font-size: 12.0pt;  font-family: &quot;Times New Roman&quot;, serif;\n}\na:link {\ncolor: blue;  text-decoration: underline;\n}\na:visited {\ncolor: purple;  text-decoration: underline;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p style=&quot; margin-top: 5.0pt; margin-right: 0cm; margin-bottom: .0001pt; margin-left: 8.65pt;&quot;&gt;&lt;span style=&quot; color: #3F3F3F;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The cherished Torah scroll was taken by its owners from Spain upon their expulsion, when Jews from Spain wandered through the Mediterranean basin in search of a new home. The owners of this scroll, a family, or perhaps a congregation, finally settled down on the island of Rhodes, and the scroll found its way to the Kahal-Shalom Synagogue. The synagogue was founded in 1577 in the city of &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;brain://31C8CCB9-803F-3EB3-F118-E2A3AA3EF0DF/F34305BD-F0F4-FA40-FA61-8D8812A642DB&quot;&gt;&lt;span style=&quot; color: #3F3F3F; text-decoration: none;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Rhodes&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; color: #3F3F3F;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;, which like the rest of the island, had been under the rule of the Ottoman Turks since 1522. The Kahal Shalom synagogue was one of six synagogues in the city of Rhodes, where a thriving Jewish community lived in its own quarter &#8211; the Juderia.&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=&quot; margin-top: 5.0pt; margin-right: 0cm; margin-bottom: .0001pt; margin-left: 8.65pt;&quot;&gt;&lt;span style=&quot; color: #3F3F3F;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Like the other Spanish Jewish communities that settled in the Mediterranean, the Jewish community of Rhodes spoke Ladino &#8211; a special dialect of Castilian Spanish mixed with Hebrew. Later, the Jews of Rhodes also spoke Turkish and Greek.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:43:00.099 @+0200",
-          "modificationDateTime": "2014-01-14 15:59:11.347 @+0200"
+          "modificationDateTime": "2014-01-14 18:13:18.944 @+0200"
         },
         {
           "guid": "84E1D347-D418-4B77-9B47-86F140D0D7E0",
@@ -8947,10 +8947,10 @@
               "objectID": "D7DD61A0-2E58-85AB-0653-C98D58FC2ABD"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;An ornate silver and gold breastplate with the image of the Ten Commandments, often with medallions containing the names of the donors attached.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;An ornate silver and gold breastplate with the image of the Ten Commandments. Breastplates such as these often have medallions attached. The medallions are inscribed with the names of the donors.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:43:00.079 @+0200",
-          "modificationDateTime": "2014-01-07 11:43:00.079 @+0200"
+          "modificationDateTime": "2014-01-14 17:54:29.825 @+0200"
         },
         {
           "guid": "F965DBC5-980D-17D0-2388-82A868F57F6F",
@@ -8973,10 +8973,10 @@
               "objectID": "40BCD461-02F1-B477-4FEB-22F466AC828B"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;&lt;span style=&quot; color: #000000;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;There are special accessories such as:&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Special accessories include:&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:43:00.119 @+0200",
-          "modificationDateTime": "2014-01-07 11:43:00.119 @+0200"
+          "modificationDateTime": "2014-01-14 17:51:19.144 @+0200"
         },
         {
           "guid": "62FD45EF-BB93-3FA1-546C-905DCB0481C1",
@@ -9090,10 +9090,10 @@
               "objectID": "EB0BE33B-5FF2-8FDB-5D5E-730404D3DFB6"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;The silver hand which serves as a reading pointer&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;The silver hand that serves as a reading pointer.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:43:00.059 @+0200",
-          "modificationDateTime": "2014-01-07 11:43:00.059 @+0200"
+          "modificationDateTime": "2014-01-14 17:55:36.718 @+0200"
         },
         {
           "guid": "4F1D1F72-544E-DD28-086F-C2E14CBCE435",
@@ -9168,10 +9168,10 @@
               "objectID": "C686E53C-0F9C-5637-78E5-A508AE770632"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p align=&quot;justify&quot; style=&quot; margin-top: 0.07in; margin-bottom: 0.02in; margin-left: 0.12in;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;After the war was over the Scroll was returned to the few survivors of the community, and the honorary president of the community, Mr. Moshe Sauriano gave them to the Benatar family, to be brought to the NLI, in memory of the Jews from Rhodes who were exterminated.&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p style=&quot; margin-top: 5.05pt; margin-right: 0cm; margin-bottom: 1.45pt; margin-left: 8.65pt;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;After the war, the scroll was returned to the few survivors of the community. The honorary president of the community, Mr. Moshe Sauriano gave it to the Benatar family, to be brought to the National Library, in memory of the Jews of Rhodes who were killed.&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:43:00.009 @+0200",
-          "modificationDateTime": "2014-01-07 11:43:00.009 @+0200"
+          "modificationDateTime": "2014-01-14 18:17:05.940 @+0200"
         },
         {
           "guid": "215498D8-DCFD-7EC3-B0D4-B2F138DC7282",
