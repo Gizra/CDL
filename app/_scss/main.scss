@@ -244,11 +244,13 @@ div.cdl {
         li {
           @include display-box;
           @include box-align(center);
+          @include box-pack(justify);
           border-bottom: black solid 1px;
           float: none;
           margin-bottom: 0;
           padding-top: 8px;
           padding-bottom: 8px;
+          display: -webkit-box;
 
           a {
             padding: 0;
@@ -306,10 +308,6 @@ div.cdl {
           }
         }
       }
-    }
-
-    a.node-link {
-      margin-left: auto;
     }
   }
 
