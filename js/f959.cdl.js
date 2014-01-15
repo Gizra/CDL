@@ -800,6 +800,27 @@
           }
 
           return drawReference.rScale;
+        },
+        /**
+         * Refocus the node if this put in the url.
+         *
+         * @param nodes
+         *   collection of nodes.
+         */
+        refocusNode: function(nodes) {
+          var hash = window.location.hash.match(/[A-Z0-9-]+/);
+
+          // Check if the hash exist on the URL.
+          if (!hash) {
+            return;
+          }
+
+          nodes.filter(function(d){
+            // Get location, check if have an specifc node selected and filter it.
+            return d.guid === hash[0];
+          }).call(function() {
+              nodeExtend().click(this.data().pop());
+            });
         }
       };
     };
@@ -1156,7 +1177,12 @@
     node.selectAll('.titles')
       .style('height', function() { return text().heightCss(draw.searchNode(this)); });
 
+    // Update the text.
     draw.updateText();
+
+    // Refocus the last node checked in the content pages.
+    draw.refocusNode(node);
+
 
     // Public CDL API.
     return {

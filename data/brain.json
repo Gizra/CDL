@@ -1,12 +1,12 @@
 {
   "BrainData": {
     "Source": {
-      "guid": "B4A5A397-75D7-ECF7-C7F2-2F98C59D00DC",
+      "guid": "8A74F258-DE15-9E9B-5F86-3FC1B119F5E3",
       "name": "NLI-CDL",
       "personalBrainVersion": "7045",
       "telepathyVersion": "10",
       "fileRoot": "\\\\nlinetapp1\\homedir\\shaye\\My Documents\\spanish exhibition\\NLI-CDL_brain\\Files",
-      "generatedDateTime": "2014-01-13 17:09:26.685 @+0200",
+      "generatedDateTime": "2014-01-14 16:19:49.516 @+0200",
       "homeThoughtGuid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
       "modificationDateTime": "2014-01-07 18:34:14.589 @+0200"
     },
@@ -251,7 +251,7 @@
           "creationDateTime": "2014-01-07 11:37:58.000 @+0200",
           "realModificationDateTime": "2014-01-08 15:44:25.000 @+0200",
           "displayModificationDateTime": "2014-01-12 09:49:14.000 @+0200",
-          "activationDateTime": "2014-01-12 09:51:32.000 @+0200",
+          "activationDateTime": "2014-01-14 12:44:44.209 @+0200",
           "linksModificationDateTime": "2014-01-07 11:38:09.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -445,7 +445,7 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:37:55.000 @+0200",
           "realModificationDateTime": "2014-01-09 10:58:26.000 @+0200",
-          "displayModificationDateTime": "2014-01-12 09:50:12.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 15:57:24.419 @+0200",
           "activationDateTime": "2014-01-12 09:50:05.000 @+0200",
           "linksModificationDateTime": "2013-11-06 13:08:18.000 @+0200",
           "isType": "0",
@@ -965,8 +965,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:32:34.000 @+0200",
           "realModificationDateTime": "2014-01-07 11:32:34.000 @+0200",
-          "displayModificationDateTime": "2014-01-08 17:12:11.000 @+0200",
-          "activationDateTime": "2014-01-08 17:04:29.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 14:43:44.583 @+0200",
+          "activationDateTime": "2014-01-14 14:43:22.503 @+0200",
           "linksModificationDateTime": "2013-10-27 13:48:07.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -987,12 +987,12 @@
         },
         {
           "guid": "4949F0C7-D64A-9EF5-5CCD-941E827509DB",
-          "name": ":6: The Diary at The National Library of Israel",
+          "name": ":6: The Diary at The National Library, Jerusalem",
           "label": "",
           "creationDateTime": "2014-01-07 11:32:33.894 @+0200",
-          "realModificationDateTime": "2014-01-09 14:25:21.364 @+0200",
-          "displayModificationDateTime": "2014-01-09 14:25:51.222 @+0200",
-          "activationDateTime": "2014-01-09 14:31:23.140 @+0200",
+          "realModificationDateTime": "2014-01-14 14:30:51.146 @+0200",
+          "displayModificationDateTime": "2014-01-14 14:32:08.583 @+0200",
+          "activationDateTime": "2014-01-14 14:30:37.317 @+0200",
           "linksModificationDateTime": "2013-11-03 17:02:49.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1017,8 +1017,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:32:36.000 @+0200",
           "realModificationDateTime": "2014-01-07 11:32:36.000 @+0200",
-          "displayModificationDateTime": "2014-01-08 17:12:09.000 @+0200",
-          "activationDateTime": "2014-01-08 17:04:24.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 14:42:19.591 @+0200",
+          "activationDateTime": "2014-01-14 15:42:54.384 @+0200",
           "linksModificationDateTime": "2013-11-27 13:39:18.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1095,8 +1095,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:32:31.000 @+0200",
           "realModificationDateTime": "2014-01-09 15:14:27.591 @+0200",
-          "displayModificationDateTime": "2014-01-09 15:14:27.593 @+0200",
-          "activationDateTime": "2014-01-09 15:15:23.420 @+0200",
+          "displayModificationDateTime": "2014-01-14 14:41:06.628 @+0200",
+          "activationDateTime": "2014-01-14 15:43:02.596 @+0200",
           "linksModificationDateTime": "2014-01-07 11:32:42.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1147,8 +1147,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:32:32.000 @+0200",
           "realModificationDateTime": "2014-01-07 11:32:32.000 @+0200",
-          "displayModificationDateTime": "2014-01-08 17:04:50.000 @+0200",
-          "activationDateTime": "2014-01-08 17:04:38.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 14:27:50.582 @+0200",
+          "activationDateTime": "2014-01-14 14:26:24.083 @+0200",
           "linksModificationDateTime": "2013-10-17 15:10:08.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1161,7 +1161,7 @@
           "creationDateTime": "2014-01-07 11:32:19.028 @+0200",
           "realModificationDateTime": "2014-01-07 19:42:18.857 @+0200",
           "displayModificationDateTime": "2014-01-07 19:42:18.857 @+0200",
-          "activationDateTime": "2014-01-09 15:16:47.973 @+0200",
+          "activationDateTime": "2014-01-14 14:36:12.167 @+0200",
           "linksModificationDateTime": "2014-01-07 12:23:16.157 @+0200",
           "isType": "0",
           "color": "0",
@@ -1329,8 +1329,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:47:43.000 @+0200",
           "realModificationDateTime": "2014-01-07 11:47:43.000 @+0200",
-          "displayModificationDateTime": "2014-01-09 13:07:57.000 @+0200",
-          "activationDateTime": "2014-01-09 13:11:09.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 14:14:29.521 @+0200",
+          "activationDateTime": "2014-01-14 14:13:39.764 @+0200",
           "linksModificationDateTime": "2013-11-06 16:07:07.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1342,8 +1342,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:47:43.000 @+0200",
           "realModificationDateTime": "2014-01-09 13:12:35.000 @+0200",
-          "displayModificationDateTime": "2014-01-09 13:12:35.000 @+0200",
-          "activationDateTime": "2014-01-09 13:12:01.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 14:09:25.810 @+0200",
+          "activationDateTime": "2014-01-14 14:08:49.791 @+0200",
           "linksModificationDateTime": "2013-11-06 16:16:20.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1355,8 +1355,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:47:42.000 @+0200",
           "realModificationDateTime": "2014-01-07 11:47:42.000 @+0200",
-          "displayModificationDateTime": "2014-01-08 17:13:39.000 @+0200",
-          "activationDateTime": "2014-01-13 16:06:35.704 @+0200",
+          "displayModificationDateTime": "2014-01-14 13:38:38.497 @+0200",
+          "activationDateTime": "2014-01-14 14:26:14.057 @+0200",
           "linksModificationDateTime": "2014-01-07 11:47:51.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1368,8 +1368,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:47:42.000 @+0200",
           "realModificationDateTime": "2014-01-07 11:47:42.000 @+0200",
-          "displayModificationDateTime": "2014-01-09 13:13:29.000 @+0200",
-          "activationDateTime": "2014-01-09 13:12:58.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 14:07:39.491 @+0200",
+          "activationDateTime": "2014-01-14 14:08:47.435 @+0200",
           "linksModificationDateTime": "2013-11-06 16:10:11.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1381,8 +1381,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:47:42.442 @+0200",
           "realModificationDateTime": "2014-01-07 11:47:42.442 @+0200",
-          "displayModificationDateTime": "2014-01-13 16:15:54.242 @+0200",
-          "activationDateTime": "2014-01-13 16:06:45.620 @+0200",
+          "displayModificationDateTime": "2014-01-14 14:19:38.505 @+0200",
+          "activationDateTime": "2014-01-14 14:19:08.109 @+0200",
           "linksModificationDateTime": "2013-11-06 16:22:50.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1434,8 +1434,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:47:43.000 @+0200",
           "realModificationDateTime": "2014-01-07 11:47:43.000 @+0200",
-          "displayModificationDateTime": "2014-01-09 13:11:03.000 @+0200",
-          "activationDateTime": "2014-01-09 13:13:40.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 13:56:33.489 @+0200",
+          "activationDateTime": "2014-01-14 13:55:10.798 @+0200",
           "linksModificationDateTime": "2013-11-06 16:07:04.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1447,8 +1447,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:47:44.000 @+0200",
           "realModificationDateTime": "2014-01-13 15:50:24.793 @+0200",
-          "displayModificationDateTime": "2014-01-13 15:50:53.545 @+0200",
-          "activationDateTime": "2014-01-13 15:50:02.810 @+0200",
+          "displayModificationDateTime": "2014-01-14 14:24:18.592 @+0200",
+          "activationDateTime": "2014-01-14 14:20:51.768 @+0200",
           "linksModificationDateTime": "2014-01-12 11:32:12.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1733,8 +1733,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:47:38.000 @+0200",
           "realModificationDateTime": "2014-01-07 11:47:38.000 @+0200",
-          "displayModificationDateTime": "2014-01-09 14:15:11.000 @+0200",
-          "activationDateTime": "2014-01-09 14:14:48.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 14:18:52.505 @+0200",
+          "activationDateTime": "2014-01-14 14:18:01.247 @+0200",
           "linksModificationDateTime": "2013-11-06 16:21:41.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1773,7 +1773,7 @@
           "creationDateTime": "2014-01-07 11:42:53.000 @+0200",
           "realModificationDateTime": "2014-01-09 15:08:17.412 @+0200",
           "displayModificationDateTime": "2014-01-09 15:08:17.412 @+0200",
-          "activationDateTime": "2014-01-12 15:55:29.346 @+0200",
+          "activationDateTime": "2014-01-14 16:16:36.775 @+0200",
           "linksModificationDateTime": "2014-01-09 15:09:47.608 @+0200",
           "isType": "0",
           "color": "ffffff",
@@ -1799,7 +1799,7 @@
           "creationDateTime": "2014-01-07 11:47:38.775 @+0200",
           "realModificationDateTime": "2014-01-07 11:47:38.774 @+0200",
           "displayModificationDateTime": "2014-01-07 11:47:38.774 @+0200",
-          "activationDateTime": "2014-01-13 16:06:38.929 @+0200",
+          "activationDateTime": "2014-01-14 14:26:11.917 @+0200",
           "linksModificationDateTime": "2013-12-01 16:43:16.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1811,8 +1811,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:47:38.450 @+0200",
           "realModificationDateTime": "2014-01-07 11:47:38.450 @+0200",
-          "displayModificationDateTime": "2014-01-07 11:47:38.450 @+0200",
-          "activationDateTime": "2014-01-06 15:12:47.601 @+0200",
+          "displayModificationDateTime": "2014-01-14 14:08:18.494 @+0200",
+          "activationDateTime": "2014-01-14 14:07:55.725 @+0200",
           "linksModificationDateTime": "2013-11-06 16:10:11.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1825,7 +1825,7 @@
           "creationDateTime": "2014-01-07 11:47:38.248 @+0200",
           "realModificationDateTime": "2014-01-07 11:47:38.247 @+0200",
           "displayModificationDateTime": "2014-01-07 11:47:38.247 @+0200",
-          "activationDateTime": "2014-01-09 16:30:06.412 @+0200",
+          "activationDateTime": "2014-01-14 14:15:11.084 @+0200",
           "linksModificationDateTime": "2013-11-06 16:18:39.295 @+0200",
           "isType": "0",
           "color": "0",
@@ -1903,7 +1903,7 @@
           "creationDateTime": "2014-01-07 11:42:47.000 @+0200",
           "realModificationDateTime": "2014-01-08 15:44:27.000 @+0200",
           "displayModificationDateTime": "2014-01-09 11:48:52.000 @+0200",
-          "activationDateTime": "2014-01-12 16:10:15.555 @+0200",
+          "activationDateTime": "2014-01-14 15:43:07.878 @+0200",
           "linksModificationDateTime": "2014-01-07 11:43:02.000 @+0200",
           "isType": "0",
           "color": "ffffff",
@@ -1993,8 +1993,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:47:40.903 @+0200",
           "realModificationDateTime": "2014-01-07 11:47:40.903 @+0200",
-          "displayModificationDateTime": "2014-01-07 11:47:40.903 @+0200",
-          "activationDateTime": "2014-01-06 12:34:49.353 @+0200",
+          "displayModificationDateTime": "2014-01-14 14:12:50.506 @+0200",
+          "activationDateTime": "2014-01-14 14:14:40.714 @+0200",
           "linksModificationDateTime": "2013-11-06 16:18:39.295 @+0200",
           "isType": "0",
           "color": "0",
@@ -2002,12 +2002,12 @@
         },
         {
           "guid": "5B1844AA-E868-D84F-B0F5-5FCFDBEA65DE",
-          "name": ":5: 1951 &#8211;Bequest of the Papers, 9.7.1799",
+          "name": ":5: 1951 - Bequest of the Papers",
           "label": "",
           "creationDateTime": "2014-01-07 11:47:40.000 @+0200",
-          "realModificationDateTime": "2014-01-09 18:35:54.000 @+0200",
-          "displayModificationDateTime": "2014-01-13 15:49:46.414 @+0200",
-          "activationDateTime": "2014-01-13 15:49:34.937 @+0200",
+          "realModificationDateTime": "2014-01-14 13:54:12.381 @+0200",
+          "displayModificationDateTime": "2014-01-14 13:54:12.381 @+0200",
+          "activationDateTime": "2014-01-14 13:53:49.535 @+0200",
           "linksModificationDateTime": "2013-11-06 16:02:17.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2032,8 +2032,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:47:41.552 @+0200",
           "realModificationDateTime": "2014-01-07 11:47:41.552 @+0200",
-          "displayModificationDateTime": "2014-01-07 11:47:41.552 @+0200",
-          "activationDateTime": "2014-01-06 13:25:28.806 @+0200",
+          "displayModificationDateTime": "2014-01-14 14:20:48.582 @+0200",
+          "activationDateTime": "2014-01-14 14:19:52.001 @+0200",
           "linksModificationDateTime": "2013-11-06 16:23:38.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2054,12 +2054,12 @@
         },
         {
           "guid": "A3CB6E55-1059-5AE7-473A-103D04566C62",
-          "name": ":2: Donation to Cambridge, 1872 &#8211; 1936",
+          "name": ":2: Donation to Cambridge, 1872-1936",
           "label": "",
           "creationDateTime": "2014-01-07 11:47:41.000 @+0200",
-          "realModificationDateTime": "2014-01-09 14:00:24.000 @+0200",
-          "displayModificationDateTime": "2014-01-09 14:02:45.000 @+0200",
-          "activationDateTime": "2014-01-09 14:10:42.000 @+0200",
+          "realModificationDateTime": "2014-01-14 13:45:05.267 @+0200",
+          "displayModificationDateTime": "2014-01-14 13:45:05.267 @+0200",
+          "activationDateTime": "2014-01-14 13:44:46.683 @+0200",
           "linksModificationDateTime": "2013-11-06 15:55:56.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2067,12 +2067,12 @@
         },
         {
           "guid": "0A03EA07-2321-29CC-8455-B7C8B5DB90F6",
-          "name": ":1: Newton&apos;s Papers  -  1727 to 1872",
+          "name": ":1: Newton&apos;s Papers, 1727-1872",
           "label": "",
           "creationDateTime": "2014-01-07 11:47:42.000 @+0200",
-          "realModificationDateTime": "2014-01-09 13:59:48.000 @+0200",
-          "displayModificationDateTime": "2014-01-09 13:59:48.000 @+0200",
-          "activationDateTime": "2014-01-09 13:59:33.000 @+0200",
+          "realModificationDateTime": "2014-01-14 13:40:47.637 @+0200",
+          "displayModificationDateTime": "2014-01-14 13:43:52.856 @+0200",
+          "activationDateTime": "2014-01-14 13:40:23.184 @+0200",
           "linksModificationDateTime": "2013-11-06 15:53:56.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2080,12 +2080,12 @@
         },
         {
           "guid": "364DED05-C7AF-5CE4-0EA2-15F442DC7192",
-          "name": ":4: 1936 &#8211; 1951,  Chase After the Papers",
+          "name": ":4: 1936-1951,  The Chase",
           "label": "",
           "creationDateTime": "2014-01-07 11:47:41.000 @+0200",
-          "realModificationDateTime": "2014-01-09 14:12:53.000 @+0200",
-          "displayModificationDateTime": "2014-01-09 14:13:20.000 @+0200",
-          "activationDateTime": "2014-01-09 14:13:12.000 @+0200",
+          "realModificationDateTime": "2014-01-14 13:49:20.604 @+0200",
+          "displayModificationDateTime": "2014-01-14 13:52:23.217 @+0200",
+          "activationDateTime": "2014-01-14 13:53:21.777 @+0200",
           "linksModificationDateTime": "2013-11-06 16:01:15.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2150,7 +2150,7 @@
           "creationDateTime": "2014-01-07 11:47:39.000 @+0200",
           "realModificationDateTime": "2014-01-09 19:05:49.000 @+0200",
           "displayModificationDateTime": "2014-01-09 19:05:49.000 @+0200",
-          "activationDateTime": "2014-01-13 16:06:41.864 @+0200",
+          "activationDateTime": "2014-01-14 14:26:09.484 @+0200",
           "linksModificationDateTime": "2014-01-12 11:32:12.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2162,7 +2162,7 @@
           "label": "",
           "creationDateTime": "2014-01-07 12:09:10.000 @+0200",
           "realModificationDateTime": "2014-01-07 12:09:10.000 @+0200",
-          "displayModificationDateTime": "2014-01-09 17:37:46.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 15:57:27.734 @+0200",
           "activationDateTime": "2014-01-08 14:16:30.000 @+0200",
           "linksModificationDateTime": "2013-12-05 11:33:16.000 @+0200",
           "isType": "0",
@@ -2175,8 +2175,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:47:38.000 @+0200",
           "realModificationDateTime": "2014-01-09 13:29:51.000 @+0200",
-          "displayModificationDateTime": "2014-01-09 13:57:44.000 @+0200",
-          "activationDateTime": "2014-01-09 13:58:16.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 14:10:08.512 @+0200",
+          "activationDateTime": "2014-01-14 14:14:38.832 @+0200",
           "linksModificationDateTime": "2013-11-06 16:17:28.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2197,12 +2197,12 @@
         },
         {
           "guid": "6313E407-AF8A-E232-115C-C382A8911B76",
-          "name": ":3: July 13th 1936 &#8211; The Sale",
+          "name": ":3: July 13th 1936 &#8211; The Auction",
           "label": "",
           "creationDateTime": "2014-01-07 11:47:39.000 @+0200",
-          "realModificationDateTime": "2014-01-09 14:04:17.000 @+0200",
-          "displayModificationDateTime": "2014-01-09 16:05:03.000 @+0200",
-          "activationDateTime": "2014-01-09 14:03:11.000 @+0200",
+          "realModificationDateTime": "2014-01-14 13:49:58.766 @+0200",
+          "displayModificationDateTime": "2014-01-14 13:51:24.490 @+0200",
+          "activationDateTime": "2014-01-14 13:49:27.573 @+0200",
           "linksModificationDateTime": "2013-11-06 16:00:53.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2227,8 +2227,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:47:39.000 @+0200",
           "realModificationDateTime": "2014-01-12 11:31:34.000 @+0200",
-          "displayModificationDateTime": "2014-01-12 11:31:34.000 @+0200",
-          "activationDateTime": "2014-01-12 11:31:23.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 14:18:00.656 @+0200",
+          "activationDateTime": "2014-01-14 14:15:20.245 @+0200",
           "linksModificationDateTime": "2013-11-06 16:20:35.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2332,7 +2332,7 @@
           "creationDateTime": "2014-01-07 11:38:02.000 @+0200",
           "realModificationDateTime": "2014-01-07 11:38:02.000 @+0200",
           "displayModificationDateTime": "2014-01-08 17:22:34.000 @+0200",
-          "activationDateTime": "2014-01-09 13:06:15.761 @+0200",
+          "activationDateTime": "2014-01-14 12:44:42.237 @+0200",
           "linksModificationDateTime": "2013-12-01 16:37:06.000 @+0200",
           "isType": "0",
           "color": "ffffffff",
@@ -2384,7 +2384,7 @@
           "creationDateTime": "2014-01-07 11:38:01.000 @+0200",
           "realModificationDateTime": "2014-01-09 10:52:54.000 @+0200",
           "displayModificationDateTime": "2014-01-09 12:59:55.786 @+0200",
-          "activationDateTime": "2014-01-09 12:59:42.890 @+0200",
+          "activationDateTime": "2014-01-14 12:39:46.747 @+0200",
           "linksModificationDateTime": "2013-11-06 13:06:34.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2618,8 +2618,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:42:39.000 @+0200",
           "realModificationDateTime": "2014-01-09 15:08:47.423 @+0200",
-          "displayModificationDateTime": "2014-01-12 15:55:01.734 @+0200",
-          "activationDateTime": "2014-01-12 15:54:47.533 @+0200",
+          "displayModificationDateTime": "2014-01-14 15:59:11.363 @+0200",
+          "activationDateTime": "2014-01-14 16:17:42.056 @+0200",
           "linksModificationDateTime": "2014-01-09 15:09:29.881 @+0200",
           "isType": "0",
           "color": "ffffff",
@@ -2631,7 +2631,7 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:42:39.000 @+0200",
           "realModificationDateTime": "2014-01-12 12:57:56.000 @+0200",
-          "displayModificationDateTime": "2014-01-12 12:57:56.000 @+0200",
+          "displayModificationDateTime": "2014-01-14 15:57:25.401 @+0200",
           "activationDateTime": "2014-01-12 12:57:42.000 @+0200",
           "linksModificationDateTime": "2014-01-12 12:56:54.000 @+0200",
           "isType": "0",
@@ -7374,10 +7374,10 @@
               "objectID": "F8A8EC39-68D8-ECCF-6F51-12C17F60061D"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;During the second half of the 19&lt;/span&gt;&lt;/span&gt;&lt;sup&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;th&lt;/span&gt;&lt;/span&gt;&lt;/sup&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; century, when National movements in Europe arose, the Jewish Zionist movement was one of them. The revival of the ancient Hebrew language was one of the important goals of the Zionist movement. This explains why Elimelech Bash chose to write his diary in Hebrew.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Today, Hebrew is the official language of Israel and is the main spoken language in the country.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Photograph: &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;i&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Hatikva&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/i&gt;&lt;span dir=&quot;RTL&quot; style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;, &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Hymn&lt;/span&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;of the state of Israel, written by Naphtali Herz Imber, autograph, 1907-8, The National Library of Israel&lt;/span&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\np.msonormal {\nmargin-top: 0cm;  margin-right: 0cm;  margin-bottom: 10.0pt;  margin-left: 0cm;  text-align: right;  line-height: 115%;  direction: rtl;  unicode-bidi: embed;  font-size: 11.0pt;  font-family: Calibri, sans-serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot; dir=&quot;LTR&quot; style=&quot; text-align: left; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The Jewish Zionist movement came into being during the last quarter of the 19th century together with the rise of the Nationalist Movements in Europe. The revival of Hebrew as a spoken language was one of the important goals of the Zionist movement. Today, Hebrew is the official language of the State of Israel and is the primary spoken language in the country.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Photograph: &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;i&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Hatikva&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/i&gt;&lt;span dir=&quot;RTL&quot; style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;, &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Hymn&lt;/span&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;of the state of Israel, written by Naphtali Herz Imber, autograph, 1907-8, The National Library of Israel&lt;/span&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:32:40.201 @+0200",
-          "modificationDateTime": "2014-01-07 11:32:40.201 @+0200"
+          "modificationDateTime": "2014-01-14 14:43:44.582 @+0200"
         },
         {
           "guid": "9F6491A2-1826-0D2D-B415-A8B87719378B",
@@ -7387,10 +7387,10 @@
               "objectID": "4949F0C7-D64A-9EF5-5CCD-941E827509DB"
             }
           },
-          "body": "\n\n\n\n\n\n\n\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span style=&quot;font-family: &quot;Gentium Plus&quot;; font-size: 13.5pt;&quot;&gt;After the war Elimelech Basch&apos;s brother Jacob, who survived the Holocaust, came back and found the diary. He later gave it to Basch&apos;s only remaining daughter - Perhiya - &#160;who lives in Israel. She, in turn, decided to donate the diary for safekeeping to the National library of Israel for the generations to come.&lt;/span&gt;&lt;/p&gt;\n\n\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;After the war Elimelech Basch&apos;s brother, Jacob, who survived the Holocaust, returned and found the diary. He later gave it to Basch&apos;s only remaining daughter - Perhiya - who lives in Israel. She, in turn, donated the diary to the National Library in Jerusalem for safekeeping.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:32:40.181 @+0200",
-          "modificationDateTime": "2014-01-07 11:32:40.181 @+0200"
+          "modificationDateTime": "2014-01-14 14:32:08.581 @+0200"
         },
         {
           "guid": "64BBDE6C-E5EE-00BB-A7A2-D39B06D2F9C3",
@@ -7413,10 +7413,10 @@
               "objectID": "016140EA-7FBC-4959-0C2E-4C0F883530AD"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The Hebrew language is the ancient language which was spoken and written by the people of Israel already in the beginning of the first millennium. It is the language of the Old Testament and other scriptures of the Jewish people. Although from the second temple period onwards Jews started speaking other languages as well (Aramaic, Greek and later other European vernacular languages), it remained the language of the Scriptures and prayer, and was called &quot;The Holy Tongue&quot;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Jews continued to learn, to read and write Hebrew throughout the last two millennia although it was not their spoken language, since it was their ancient holy language.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Photographs: &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; line-height: 115%; color: black; background: white;&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The Worms Mahzor (festival prayerbook),&amp;#160;Germany, 13th century, NLI.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; The prayerbook was used by the Worms community until the synagogue&apos;s destruction on Kristallnacht, November 1938. It was rescued by the city archivist who hid it in the cathedral, and was transferred in 1957 to the NLI.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\np.msonormal {\nmargin: 0cm;  margin-bottom: .0001pt;  font-size: 11.0pt;  font-family: Calibri, sans-serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The Hebrew language is an ancient language, spoken and written by the people of Israel as early as the beginning of the first millennium. It is the language of the Old Testament and Jewish scripture. Though Jews started speaking other languages as well from the end of the First Temple Period onwards (Aramaic, Greek and as well as other European vernacular languages in later eras), Hebrew remained the language of the Scriptures and prayer, and was called &quot;The Holy Tongue&quot;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Jews continued to learn, to read and write in Hebrew throughout the last two millennia even though it was not their spoken language, specifically because it was their ancient holy language.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Photographs: &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; line-height: 115%; color: black; background: white;&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The Worms Mahzor (festival prayerbook),&amp;#160;Germany, 13th century, NLI.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; The prayerbook was used by the Worms community until the synagogue&apos;s destruction on Kristallnacht, November 1938. It was rescued by the city archivist who hid it in the cathedral, and was transferred in 1957 to the NLI.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:32:40.241 @+0200",
-          "modificationDateTime": "2014-01-07 11:32:40.241 @+0200"
+          "modificationDateTime": "2014-01-14 14:42:19.589 @+0200"
         },
         {
           "guid": "A782DBA7-5B84-6B4D-7339-1CD7AA42B4B2",
@@ -7491,10 +7491,10 @@
               "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Elimelech Basch was a member of the Jewish community of Tiachiv in eastern Hungary (today western Ukraine), invaded by the Nazis in March 1944. Between the years 1942-1944 Basch kept a diary, written in fine Hebrew&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;, &lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;which describes the situation of the Jewish community there. During this period the Jews suffered from the oppressive Hungarian and Nazi regimes and moved between despair and hope.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;During the Jewish festival of Shavuot, May 1944, the Jews of Tiachiv were all deported to Auschwitz.&amp;#160; Of the Basch family - parents and their eight children &#8211; only one survived.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; style=&quot; margin: 0cm 0cm 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Photograph: The Basch family at the beginning of the 1930&apos;s. &amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Highlighted is the only surviving member of the family, Mrs. Perhiya Senderovich (formerly Bluma Blanka Basch), who now lives in Israel.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Elimelech Basch lived in Tiachiv in eastern Hungary (today western Ukraine).Tiachiv was invaded by the Nazis in March, 1944. Between the years 1942-1944 Basch kept a diary, written in fine Hebrew&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;, &lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;describing the situation of the Jewish community there. During this period the Jews suffered from the oppressive Hungarian and Nazi regimes and moved between despair and hope.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;During the Jewish festival of Shavuot, May, 1944, the Jews of Tiachiv were all deported to Auschwitz.&amp;#160; Of the Basch family - the parents and their eight children &#8211; only one survived.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; style=&quot; margin: 0cm 0cm 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Photograph: The Basch family at the beginning of the 1930&apos;s.&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; style=&quot; margin: 0cm 0cm 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The only surviving member of the family, Mrs. Perhiya Senderovich (formerly Bluma Blanka Basch), is highlighted. &amp;#160;She now lives in Israel.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:32:40.131 @+0200",
-          "modificationDateTime": "2014-01-07 11:32:40.131 @+0200"
+          "modificationDateTime": "2014-01-14 14:41:06.627 @+0200"
         },
         {
           "guid": "3E5CC5A8-2D60-132F-3342-D236B99FC611",
@@ -7543,10 +7543,10 @@
               "objectID": "CB8A2990-88AF-CFC3-80F0-4AAB42999E55"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: justify; unicode-bidi: embed; direction: ltr;&quot;&gt;The last census before the German occupation, held in January 1941, reported 2,150 Jewish residents in Tiachiv. They were 20% of the total population of the town.&amp;#160; Many of the Jews were merchants; others were craftsmen and agricultural workers and farmers.&amp;#160; The Jewish community was, as were most communities in Eastern Europe, a religious observant Orthodox community.&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: justify; unicode-bidi: embed; direction: ltr;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: justify; line-height: normal; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The last census before the German occupation, held in January 1941, reported that there were 2,150 Jewish residents in Tiachiv. They made up 20% of the total population of the town.&amp;#160; Many of the Jews were merchants; others were craftsmen, agricultural workers and farmers.&amp;#160; The Jewish community was, like most Jewish communities in Eastern Europe, a religiously observant, Orthodox community.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:32:40.151 @+0200",
-          "modificationDateTime": "2014-01-07 11:35:17.370 @+0200"
+          "modificationDateTime": "2014-01-14 14:27:50.581 @+0200"
         },
         {
           "guid": "52AAA1B0-9AA1-6954-CFAC-D6B08627DE6A",
@@ -7712,10 +7712,10 @@
               "objectID": "05C16366-E98F-8859-A0D8-AA8FE3251A80"
             }
           },
-          "body": "\n\n\n\n\n\n\n\n&lt;p class=&quot;DefaultStyle&quot; style=&quot;text-align: justify; text-indent: 3.1pt;&quot;&gt;Newton&apos;s extensive study of the Christian Doctrine brought him to the conclusion that the doctrine of the Trinity was a corruption of the original biblical doctrine. He believed that the Scriptures taught that God is one person and that this one person is the Father, while Christ is the literal Son of God, having no human father.&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot;text-align: justify;&quot;&gt;Newton hid his beliefs. Had his contemporaries known of them he would have been considered a heretic. He however, believed that he was the true Orthodox.&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot;text-align: justify;&quot;&gt;&#160;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-size: small;&quot;&gt;Citations from the &apos;Twelve Statements on God&apos;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span style=&quot;background: white; color: black;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-size: small;&quot;&gt;Par. 1 - The [word] God is nowhere in the scriptures used to signify more han the three persons at once&lt;/span&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-size: small;&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-size: small;&quot; /&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background: white; color: black;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-size: small;&quot;&gt;Par. 3 &#8211; Whenever it is said in the scriptures that there is but one God, it is meant of the Father.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n\n\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Newton&apos;s extensive study of Christian doctrine brought him to the conclusion that the doctrine of the Trinity was a corruption of the original Biblical doctrine. He believed that the Scriptures taught that God is one divine person and that this one divine person is the Father, while Christ is the literal Son of God, having no human father.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify;&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Newton hid his beliefs. Had his contemporaries known of them he would have been considered a heretic. He however, believed that he held the true belief.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Citations from the &apos;Twelve Statements on God&apos;, in the attached photograph&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span style=&quot; background: white; color: black;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Par. 1 - &quot;The [word] God is no where in the scriptures used to signify more han the three persons at once&lt;/span&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;.&quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; style=&quot; text-align: justify;&quot;&gt;&lt;span style=&quot; background: white; color: black;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Par. 3 - &quot;When ever it is said in the scriptures that there is but one God, it is meant of th&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;e Father.&quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.927 @+0200",
-          "modificationDateTime": "2014-01-07 11:47:48.927 @+0200"
+          "modificationDateTime": "2014-01-14 14:14:29.519 @+0200"
         },
         {
           "guid": "E206FEC5-93F5-35E8-132B-BFE0BD5A9161",
@@ -7725,10 +7725,10 @@
               "objectID": "BB7FB86D-54E0-57DD-EA6F-71CD5EFAE26B"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;Newton&apos;s preoccupation with the Apocalypse of John elicited this realistic map of the Near East which illustrates the geography of the region in which the Apocalyptic events will occur. According to Revelation 9 four angels will be released on the Euphrates river and will punish the sinners. Newton believed that the Fifth Trumpet is Islam, and the Sixth &#8211; the Ottoman Empire and identified as these four angels in the Sultanates marked out on the map&lt;b&gt;: Iconium, Damascus, Mosul and Miapharekin&lt;/b&gt;.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Newton&apos;s preoccupation with the Apocalypse of John elicited this realistic map of the Near East which illustrates the geography of the region in which the Apocalyptic events will occur. According to Revelations 9, four angels will be released on the Euphrates River and will punish the sinners. Newton believed that the Fifth Trumpet is Islam, and the Sixth &#8211; the Ottoman Empire. He also identified the four angels as the Sultanates marked out on the map&lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;: Iconium, Damascus, Mosul and Miapharekin&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.939 @+0200",
-          "modificationDateTime": "2014-01-07 11:47:48.939 @+0200"
+          "modificationDateTime": "2014-01-14 14:09:25.808 @+0200"
         },
         {
           "guid": "FE643596-A527-CBBE-2EBD-E78808E9C5B5",
@@ -7738,10 +7738,10 @@
               "objectID": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7"
             }
           },
-          "body": "\n\n\n\n\n\n\n\n&lt;p class=&quot;DefaultStyle&quot; style=&quot;text-align: justify;&quot;&gt;Isaac Newton (1642-1727), the world-famous physicist&lt;span&gt;&lt;span style=&quot;background: white;&quot;&gt;&#160;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background: white;&quot;&gt;and&#160;mathematician&lt;/span&gt;, was a central &lt;span&gt;&lt;span style=&quot;background: white; color: black;&quot;&gt;figure in the scientific revolution&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot;text-align: justify;&quot;&gt;7500 papers, written in Newton&apos;s own hand, are preserved in the collections of the National Library of Israel. These divulge an unknown side of Newton&apos;s personality. Besides being a scientist, Newton was an avid (though unusual) Christian believer, who took &#160;a special interest in the Scriptures, believing that a deep understanding of the text will allow him to unravel the secrets of the end of days and to compute the date of&#160; Christ&apos;s Second Coming and the Apocalypse. Of special importance is Newton&apos;s deep interest in &#160;the Jewish sources, and his view regarding the role they of the Jews &#160;in the process of salvation.&lt;/p&gt;\n\n\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\na:link {\ncolor: blue;  text-decoration: underline;\n}\na:visited {\ncolor: purple;  text-decoration: underline;\n}\np.defaultstyle {\nmargin: 0cm;  margin-bottom: .0001pt;  line-height: 115%;  font-size: 11.0pt;  font-family: Calibri, sans-serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Isaac Newton (1642-1727), the world-famous &lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Physics&quot; title=&quot;Physics&quot;&gt;&lt;span style=&quot; color: windowtext; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;physicist&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span&gt;&lt;span style=&quot; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;and&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Methematics&quot; title=&quot;Methematics&quot;&gt;&lt;span style=&quot; color: windowtext; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;mathematician&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;, was a central &lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;figure in the scientific revolution&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;7,500 papers, written in Newton&apos;s own hand, are preserved in the collections of the National Library of Israel. These reveal an unknown side of Newton&apos;s personality. Besides being a scientist, Newton was an avid (though unusual) Christian believer, who took &amp;#160;a special interest in the Scriptures, believing that a deep understanding of the text would allow him to unravel the secrets of the End of Days and to compute the date of&amp;#160; Christ&apos;s Second Coming and the Apocalypse. Of special importance is Newton&apos;s deep interest in Jewish sources, and his view regarding the role of the Jews in the process of salvation.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.894 @+0200",
-          "modificationDateTime": "2014-01-07 11:47:48.894 @+0200"
+          "modificationDateTime": "2014-01-14 13:38:38.495 @+0200"
         },
         {
           "guid": "8D20D326-C161-1005-92C1-2F4214B32C38",
@@ -7751,10 +7751,10 @@
               "objectID": "4130AC26-0B7C-306D-58D1-87B4DD7C00BD"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify;&quot;&gt;Newton believed that the temple described in the prophecy of Ezekiel will materialize at the End of Days. He therefore invested much effort in studying matters related to the Jewish Temple and its rituals.&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify;&quot;&gt;&lt;span&gt;This trilingual manuscript written in Latin, Hebrew and Greek shows that Newton was familiar not only with the work of&amp;#160; scholars of his time but also with the ancient Jewish sources including the Mishna, the Zohar, the Talmud and many more.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify;&quot;&gt;On the third line from the top Newton copied in meticulous Hebrew script the words:&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; text-align: justify;&quot;&gt;&lt;span dir=&quot;RTL&quot; serif=&quot;serif&quot; roman=&quot;Roman&quot; new=&quot;New&quot; times=&quot;Times&quot; style=&quot; font-family: ;&quot;&gt;&#1489;&#1512;&#1493;&#1498; &#1513;&#1501; &#1499;&#1489;&#1493;&#1491; &#1502;&#1500;&#1499;&#1493;&#1514;&#1493; &#1500;&#1506;&#1493;&#1500;&#1501; &#1493;&#1506;&#1491;&amp;#160; - &lt;/span&gt;&quot; - Blessed be the name of His glorious kingdom for all eternity&quot;.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Newton believed that the temple described in the prophecy of Ezekiel would materialize at the End of Days. He therefore invested much effort in studying matters related to the Jewish Temple and its rituals.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;This trilingual manuscript- written in Latin, Hebrew and Greek- shows that Newton was familiar not only with the work of&amp;#160; scholars of his time but also with the ancient Jewish sources including the Mishna , the Zohar, the Talmud, and many more.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;On the third line from the top Newton copied, in meticulous Hebrew script, the words:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span dir=&quot;RTL&quot; style=&quot; line-height: 115%;&quot;&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&#1489;&#1512;&#1493;&#1498; &#1513;&#1501; &#1499;&#1489;&#1493;&#1491; &#1502;&#1500;&#1499;&#1493;&#1514;&#1493; &#1500;&#1506;&#1493;&#1500;&#1501; &#1493;&#1506;&#1491;&amp;#160; - &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&quot;Blessed be the name of His glorious kingdom for a&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;ll eternity&quot;.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.913 @+0200",
-          "modificationDateTime": "2014-01-07 11:47:48.913 @+0200"
+          "modificationDateTime": "2014-01-14 14:07:39.490 @+0200"
         },
         {
           "guid": "F8D07034-6F7F-AA4E-192D-1F2818C295AE",
@@ -7764,10 +7764,10 @@
               "objectID": "5FD992A0-7CB8-7FF3-6781-E88D05FBF272"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p dir=&quot;LTR&quot;&gt;Between&amp;#160;1914-1922 Yahuda served as professor in Madrid. (In later years Yahuda wrote memoirs in Hebrew describing&amp;#160; his sojourn in Spain.) He then left Spain, and spent the years between 1922 and 1942 travelling all over Europe and the East. During these years Yahuda acquired many rare manuscripts and traded in them. Yahuda&apos;s great erudition in many fields, and especially in Islam, explains the superior manuscripts that he chose to acquire during his travels.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\np.defaultstyle {\nmargin: 0cm;  margin-bottom: .0001pt;  line-height: 115%;  font-size: 11.0pt;  font-family: Calibri, sans-serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Between the years 1914-1922 Yahuda served as a professor in Madrid. (In later years, Yahuda wrote memoirs in Hebrew describing his sojourn in Spain.) He then left Spain, and spent the years between 1922 and 1942 travelling all over Europe and the East. During those years, Yahuda acquired many rare manuscripts and traded in them. Yahuda&apos;s great erudition in many fields- especially in Islam-explains his ability to acquire superior manuscripts &amp;#160;during his travels.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.879 @+0200",
-          "modificationDateTime": "2014-01-07 11:47:48.879 @+0200"
+          "modificationDateTime": "2014-01-14 14:19:38.503 @+0200"
         },
         {
           "guid": "D9BB8DA3-2305-EBA8-D09B-521F8F9987FC",
@@ -7816,10 +7816,10 @@
               "objectID": "6CBFE979-B4EF-E377-DEA7-2F096D47FC66"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p style=&quot; background: white; margin: 0cm 0cm 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;In these notes, written on a letter bearing the remnants of its red seal wax, Newton calculated, based on the Book of Daniel 7:25, that the end of time will arrive in the year &lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;2060&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;.&amp;#160; Newton&apos;s calculations relied on his belief that the starting point is the year 800, a time when Charlemagne founded the Holy Roman Empire and the Pope&apos;s supremacy commenced. Here, Newton believed, &amp;#160;began the period of the &quot;apostate&apos;s&quot; church deepest corruption which will end in the Apocalyptic events &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; color: black;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;such as plagues and fires, the terrible battle of Armageddon and eternal damnation of the wicked &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;mentioned in the&amp;#160; &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; color: black;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Book of Revelation.&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p style=&quot; margin: 0cm; margin-bottom: .0001pt; background: white;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;In these notes, written on a letter bearing the remnants of its red seal wax, Newton calculated- based on the Book of Daniel 7:25- that the End of Days will arrive in the year &lt;/span&gt;&lt;b&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;2060&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;.&amp;#160; Newton&apos;s calculations relied on his belief that the starting point for his calculations was the year 800 c.e, when Charlemagne founded the Holy Roman Empire and the Pope&apos;s supremacy commenced. Here, Newton believed, began the period of the &quot;Apostate&quot; Church&apos;s deepest corruption which will end in apocalyptic events such as plagues and fires, the terrible battle of Armageddon and eternal damnation of the wicked mentioned in the Book of Revelation.&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.951 @+0200",
-          "modificationDateTime": "2014-01-07 11:47:48.951 @+0200"
+          "modificationDateTime": "2014-01-14 13:56:33.487 @+0200"
         },
         {
           "guid": "C99F6577-15CF-BFD8-85FA-1AF0A437AEB5",
@@ -7829,10 +7829,10 @@
               "objectID": "4ADAD622-F4FC-80AF-4CC4-D87C34B2D4AA"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;defaultstyle&quot; dir=&quot;LTR&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;b&gt;Eastern Manuscripts&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; dir=&quot;LTR&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;The Yahuda&apos;s manuscript collection comprises 1184 exquisite eastern manuscripts in the field of Islamic religion, sciences, Arabic literature and Persian poetry. These include a unique collection of &amp;#160;over 100 rare manuscripts of the Qur&apos;an, some very early ones (8th-10th centuries), and others which are beautifully illustrated.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; dir=&quot;LTR&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; dir=&quot;LTR&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Jewish manuscripts&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;\n&lt;p dir=&quot;LTR&quot;&gt;&lt;span style=&quot; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Yahuda&apos;s &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;collection of Jewish manuscripts includes the most beautiful &lt;/span&gt;&lt;span style=&quot; color: black;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;existing&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt; manuscript of &lt;/span&gt;&lt;span style=&quot; color: black; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&amp;#160;Maimonides&apos; Mishneh Torah&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p dir=&quot;LTR&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;and documents of the Jewish Community in Aragon, including a Privilege granted by King Alfonso V of Aragon&amp;#160; (1416-1438) to the nobleman Berenguer de Bardaxi , granting him permission to settle 30-40 Jewish families on his lands in Oliete, south of Zaragossa.&lt;/span&gt;&lt;/p&gt;\n&lt;p dir=&quot;LTR&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p dir=&quot;LTR&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Other Manuscripts&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;\n&lt;p dir=&quot;LTR&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Besides Newton&apos;s theological papers, the collection includes beautiful Books of Hours, letters of Napoleon Bonaparte, and many more.&amp;#160;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\np.defaultstyle {\nmargin: 0cm;  margin-bottom: .0001pt;  line-height: 115%;  font-size: 11.0pt;  font-family: Calibri, sans-serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;defaultstyle&quot; dir=&quot;LTR&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Eastern Manuscripts&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; dir=&quot;LTR&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Yahuda bequeathed the National Library of Israel with 1,184 exquisite eastern manuscripts in the field of Islamic religion, sciences, Arabic literature and Persian poetry. These include a unique collection of over 100 rare manuscripts of the Qur&apos;an- some of them very early (8th-10th centuries), and others which are beautifully illustrated.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; dir=&quot;LTR&quot;&gt;&lt;b&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Jewish manuscripts&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Yahuda&apos;s collection of Jewish manuscripts includes the most beautiful existing manuscript of Maimonides&apos; &lt;/span&gt;&lt;/span&gt;&lt;i&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Mishneh Torah&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/i&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; Documents from the Jewish Community in Aragon, including a privilege granted by King Alfonso V of Aragon (1416-1438) to the nobleman Berenguer de Bardaxi , granting him permission to settle 30-40 Jewish families on his lands in Oliete, south of Zaragossa.&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p dir=&quot;LTR&quot;&gt;&lt;b&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Other Manuscripts&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Besides Newton&apos;s theological papers, the collection includes beautiful Books of Hours, letters from Napoleon Bonaparte, and many more important manuscripts.&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.000 @+0200",
-          "modificationDateTime": "2014-01-13 15:50:53.543 @+0200"
+          "modificationDateTime": "2014-01-14 14:24:18.590 @+0200"
         },
         {
           "guid": "11FF8AE4-DC46-E113-C789-40D75BEC5C2B",
@@ -8115,10 +8115,10 @@
               "objectID": "90F7942D-189C-1C8B-5601-5E0191DA085B"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\np.defaultstyle {\nmargin-right: 0cm;  margin-left: 0cm;  font-size: 12.0pt;  font-family: &quot;Times New Roman&quot;, serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;defaultstyle&quot; dir=&quot;LTR&quot;&gt;From a very young age Yahuda mastered both Jewish studies as well as the Arabic language and other European languages. He specialized in classical Arabic literature and at the age of 17 he already published a book on the subject. He then continued his studies in Germany with important scholars in the field of Arabic and Islamic history.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;defaultstyle&quot; dir=&quot;LTR&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;From a very young age Yahuda mastered Jewish studies as well as&amp;#160; Arabic&amp;#160; and other European languages. He specialized in classical Arabic literature and at the age of 17, he already published a book on the subject. He then continued his studies in Germany with important scholars in the field of Arabic and Islamic History.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.655 @+0200",
-          "modificationDateTime": "2014-01-07 11:47:48.655 @+0200"
+          "modificationDateTime": "2014-01-14 14:18:52.503 @+0200"
         },
         {
           "guid": "EBD19548-0168-7FCE-4509-5D64AA03193C",
@@ -8180,10 +8180,10 @@
               "objectID": "7CA511A6-0CBC-F6BA-55F8-D27239D657A5"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p style=&quot; background: white; margin: 0cm 0cm 0pt; text-align: justify; line-height: 14.4pt;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Talmud, the central text of rabbinic Judaism has influenced the lives of Jews no less, and perhaps much more than the Hebrew Bible. The Talmud (literally &quot;study, learning&quot;) contains the teachings, the discussions and opinions of rabbis on a variety of subjects pertaining to Halakhah&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;(Jewish law) and ethics, philosophy and history, to mention just a few.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=&quot; background: white; margin: 0cm 0cm 0pt; text-align: justify; line-height: 14.4pt;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The talmudic text, also known as Gemara (literally: tradition) is based on discussions which took place in Jewish academies between the third and the sixth centuries, in Palestine and in Babylonia. These discussions usually revolve around the Mishnah which was assembled in the beginning of the third century. The most popular and influential version of the Talmud is the Babylonian one, although a Palestinian version exists as well.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=&quot; background: white; margin: 0cm 0cm 0pt; text-align: justify; line-height: 14.4pt;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The Talmud, written in Hebrew and Aramaic&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;MsoHyperlink&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; has become the legal authority in rabbinic Judaism and is the basis for halakhic discourse. Maimonides&apos; &lt;/span&gt;&lt;/span&gt;&lt;em&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Mishneh Torah&lt;/span&gt;&lt;/span&gt;&lt;/em&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; is a legal code summarizing Jewish law and is based mainly on the Talmud.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p style=&quot; margin: 0cm; margin-bottom: .0001pt; line-height: 14.4pt; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Talmud, the central text of rabbinic Judaism has influenced the lives of Jews no less, and perhaps much more than the Hebrew Bible. The Talmud (literally &quot;study, learning&quot;) contains the teachings, the discussions and opinions of rabbis on a variety of subjects pertaining to &lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Halakha&quot; title=&quot;Halakha&quot;&gt;&lt;i&gt;&lt;span style=&quot; color: windowtext;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Halakha&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;h&lt;/span&gt;&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&amp;#160;(Jewish law) and&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Jewish_ethics&quot; title=&quot;Jewish ethics&quot;&gt;&lt;span style=&quot; color: windowtext;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;ethics&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;, philosophy and&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/History&quot; title=&quot;History&quot;&gt;&lt;span style=&quot; color: windowtext;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;history&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;, to mention just a few.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p style=&quot; margin: 0cm; margin-bottom: .0001pt; line-height: 14.4pt; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The Talmudic text, also known as Gemara (literally: tradition) is based on discussions which took place in Jewish academies between the third and the sixth centuries, in Palestine and in Babylonia. These discussions usually revolve around the &lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Mishnah&quot; title=&quot;Mishnah&quot;&gt;&lt;span style=&quot; color: windowtext;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Mishnah&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; which was assembled in the beginning of the third century. The most popular and influential version of the Talmud is the Babylonian one, although a Palestinian version exists as well.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The Talmud, written in&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Tannaitic_Hebrew&quot; title=&quot;Tannaitic Hebrew&quot;&gt;&lt;span style=&quot; color: windowtext;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Hebrew&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&amp;#160;and&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Aramaic&quot; title=&quot;Aramaic&quot;&gt;&lt;span style=&quot; color: windowtext;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Aramaic&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span class=&quot;MsoHyperlink&quot;&gt;&lt;span style=&quot; color: windowtext;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; has become the legal authority in rabbinic Judaism and is the basis for &lt;/span&gt;&lt;/span&gt;&lt;i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Halakhic&lt;/span&gt;&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; discourse.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; Maimonides&apos; &lt;/span&gt;&lt;/span&gt;&lt;i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Mishneh Torah&lt;/span&gt;&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; is a legal code summarizing Jewish law and is based mainly on the Talmud.&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.695 @+0200",
-          "modificationDateTime": "2014-01-07 11:47:48.695 @+0200"
+          "modificationDateTime": "2014-01-14 14:08:18.493 @+0200"
         },
         {
           "guid": "1D71BA3D-F811-F4BB-EFBB-5A15ACB2B0C1",
@@ -8349,10 +8349,10 @@
               "objectID": "63A1DFAA-E53C-BB5B-35AF-0FE5825914EC"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\np.defaultstyle {\nmargin-right: 0cm;  margin-left: 0cm;  font-size: 12.0pt;  font-family: &quot;Times New Roman&quot;, serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;Newton also took a deep interest in Alchemy. Although most of the Alchemical papers are in Cambridge, the NLI possesses one unique page. It is a part of Newton&apos;s copy of an English translation made in 1624 of &lt;i&gt;the Exposition of the Hieroglyphical figures&lt;/i&gt; written by the famous French Alchemist Nicholas Flamel. Newton sketched Flamel&apos;s symbolic figures, and described in the text above&amp;#160;their Alchemical role.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Newton also took a deep interest in alchemy. Although most of the alchemical papers are in Cambridge, the NLI possesses one unique page. It is a part of Newton&apos;s copy of an English translation made in 1624 of &lt;/span&gt;&lt;/span&gt;&lt;i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The Exposition of the Hieroglyphical Figures&lt;/span&gt;&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;, by the famous French Alchemist Nicholas Flamel. Newton sketched Flamel&apos;s symbolic figures, and described their alchemical role in the text below .&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot; style=&quot; margin-left: 54.2pt;&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;photograph:&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&quot;She is now like a Lion devouring all metallic nature and turning it to pure gold&#8230;&quot;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.795 @+0200",
-          "modificationDateTime": "2014-01-07 11:47:48.795 @+0200"
+          "modificationDateTime": "2014-01-14 14:12:50.505 @+0200"
         },
         {
           "guid": "BEB8F5D6-A0CA-D08D-8EB0-0FBD84E33A2E",
@@ -8388,10 +8388,10 @@
               "objectID": "11686729-4EF4-0990-6344-B712E8A4643D"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\np.defaultstyle {\nmargin-right: 0cm;  margin-left: 0cm;  font-size: 12.0pt;  font-family: &quot;Times New Roman&quot;, serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;defaultstyle&quot; dir=&quot;LTR&quot;&gt;In 1942 Yahuda received a position in the New School of Social Research in New-York, and from then on, until his death in 1951, spent most of his time on his research.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\np.defaultstyle {\nmargin: 0cm;  margin-bottom: .0001pt;  line-height: 115%;  font-size: 11.0pt;  font-family: Calibri, sans-serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;In 1942 Yahuda received a position in the New School of Social Research in New York. From then on, until his death in 1951, he spent most of his time on his research.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.836 @+0200",
-          "modificationDateTime": "2014-01-07 11:47:48.836 @+0200"
+          "modificationDateTime": "2014-01-14 14:20:48.580 @+0200"
         },
         {
           "guid": "3395D85F-4077-7211-CF68-617E8C5EC9EC",
@@ -8414,10 +8414,10 @@
               "objectID": "A3CB6E55-1059-5AE7-473A-103D04566C62"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\np.defaultstyle {\nmargin-right: 0cm;  margin-left: 0cm;  font-size: 12.0pt;  font-family: &quot;Times New Roman&quot;, serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;defaultstyle&quot; dir=&quot;LTR&quot; style=&quot; text-align: justify;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;In 1872, one of Newton&apos;s descendants, the 5th Earl of Portsmouth, donated the papers to the University of Cambridge, in which Newton had studied and taught. The committee appointed by the University to review the papers, selected only Newton&apos;s scientific papers, not wanting to blemish his reputation as an enlightened intellectual and scientist.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; dir=&quot;LTR&quot; style=&quot; text-align: justify;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;The theological papers, as well as the alchemical and the historical papers were returned to the family.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\np.defaultstyle {\nmargin: 0cm;  margin-bottom: .0001pt;  line-height: 115%;  font-size: 11.0pt;  font-family: Calibri, sans-serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;In 1872, one of Newton&apos;s descendants, the 5th Earl of Portsmouth, donated the papers to the University of Cambridge, where Newton had studied and taught. The committee appointed by the University to review the papers, selected only Newton&apos;s scientific papers, not wanting to blemish his reputation as an enlightened intellectual and scientist.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;His theological papers, as well as the alchemical and the historical papers were returned to the family.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.825 @+0200",
-          "modificationDateTime": "2014-01-07 11:47:48.825 @+0200"
+          "modificationDateTime": "2014-01-14 13:44:38.487 @+0200"
         },
         {
           "guid": "677DC857-3FBD-E744-C6BC-802C9727C28C",
@@ -8427,10 +8427,10 @@
               "objectID": "0A03EA07-2321-29CC-8455-B7C8B5DB90F6"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p dir=&quot;LTR&quot;&gt;Upon Newton&apos;s death in Cambridge in 1727, his relatives, the Conduitts, claimed his papers. Newton&apos;s papers reflected an array of various interests and occupations: papers in Mathematics and Physics, documents written as part of his function as head of the Royal Mint and President of the Royal Society, and&amp;#160;the less known and more intriguing papers on Theology, History and Alchemy.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\np.defaultstyle {\nmargin: 0cm;  margin-bottom: .0001pt;  line-height: 115%;  font-size: 11.0pt;  font-family: Calibri, sans-serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;Upon Newton&apos;s death in Cambridge in 1727, his relatives, the Conduitts, took possession of his papers. Newton&apos;s papers reflected an array of various interests and occupations: papers in mathematics and physics, documents written as part of his function as head of the Royal Mint and President of the Royal Society, more obscure and intriguing papers on theology, history and alchemy.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.866 @+0200",
-          "modificationDateTime": "2014-01-07 11:47:48.866 @+0200"
+          "modificationDateTime": "2014-01-14 13:43:52.853 @+0200"
         },
         {
           "guid": "3990B4BB-04B6-BB5D-11E7-ADBEF8A34D6F",
@@ -8440,10 +8440,10 @@
               "objectID": "364DED05-C7AF-5CE4-0EA2-15F442DC7192"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Having found out belatedly about the sale, two important scholars were resolved to purchase the papers. The first was the famous British economist, John Maynard Keynes, who strove to buy all the alchemical papers; the second was the Jerusalem born well-known Orientalist, &lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Abraham Shalom Yahuda&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;. At some point, they even exchanged some of the papers between them!&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Having found out belatedly about the sale, two important scholars were resolved to purchase the papers. The first was the famous British economist, John Maynard Keynes, who strove to buy all the alchemical papers; the second was the Jerusalem born well-known Orientalist, &lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Abraham Shalom Yahuda&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;. At some point, they even exchanged some of the papers between them.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.850 @+0200",
-          "modificationDateTime": "2014-01-09 14:13:20.153 @+0200"
+          "modificationDateTime": "2014-01-14 13:52:23.216 @+0200"
         },
         {
           "guid": "FD3D2A01-9578-6F07-B311-A03D12C6DE52",
@@ -8518,10 +8518,10 @@
               "objectID": "A57F02ED-9DB6-892F-DB09-767958D3DFC7"
             }
           },
-          "body": "\n\n\n\n\n\n\n\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;b&gt;&#160;&lt;/b&gt;Besides being a brilliant scientist and theologian, Newton was also displayed adroit skills as an administrator. In 1696 He was appointed Warden of the Royal Mint in London. In this capacity Newton wrote this letter to the tin mine owners, explaining to them through meticulous calculations that Her Majesty, Queen Anne, has already purchased from them much more tin than she can sell, leaving her with &quot;dead stock&quot; (surplus), which can only be sold at a loss.&lt;/p&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;He therefore announces his decision to end the contract with them.&lt;/p&gt;\n&lt;p&gt;&#160;&lt;/p&gt;\n\n\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\np.defaultstyle {\nmargin: 0cm;  margin-bottom: .0001pt;  line-height: 115%;  font-size: 11.0pt;  font-family: Calibri, sans-serif;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Besides being a brilliant scientist and theologian, Newton also displayed adroit skills as an administrator. In 1696, he was appointed Warden of the Royal Mint in London. In this capacity Newton wrote this letter to the tin mine owners, explaining to them through meticulous calculations that Her Majesty, Queen Anne, has already purchased from them much more tin than she can sell, leaving her with &quot;dead stock&quot; (surplus), which can only be sold at a loss.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;He therefore announces his decision to end the contract with them.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.715 @+0200",
-          "modificationDateTime": "2014-01-07 11:47:48.715 @+0200"
+          "modificationDateTime": "2014-01-14 14:10:08.509 @+0200"
         },
         {
           "guid": "A941C213-7A60-BD78-EB52-6B813820900C",
@@ -8544,10 +8544,10 @@
               "objectID": "6313E407-AF8A-E232-115C-C382A8911B76"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p dir=&quot;LTR&quot;&gt;In July 1936 the papers which had been given back to the family were put up for sale by Sotheby&apos;s in London. The sale was poorly attended since at the same time, in London, Impressionist paintings were being sold at Christie&apos;s! Newton&apos;s papers were thus sold to a variety of people for the mere some of 9000 pounds.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;DefaultStyle&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;In July 1936 the papers which had been given back to the family were put up for sale by Sotheby&apos;s in London. The auction was poorly attended since at the same time in London Impressionist paintings were being sold at Christie&apos;s. Newton&apos;s papers were thus sold to a variety of people for the mere sum of 9,000 pounds.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.765 @+0200",
-          "modificationDateTime": "2014-01-09 16:05:03.797 @+0200"
+          "modificationDateTime": "2014-01-14 13:51:24.489 @+0200"
         },
         {
           "guid": "29A05476-4756-F8B8-5FA4-104585450FF4",
@@ -8570,10 +8570,10 @@
               "objectID": "B7AB3DD3-8916-81A4-AC76-0447A96A728F"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;defaultstyle&quot; dir=&quot;LTR&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Abraham&lt;/span&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt; Shalom Yahuda (1877 &#8211; 1951) was born in Jerusalem to a respectable family. His father&apos;s family, which had arrived in Jerusalem from Baghdad, descended from the famous Yosef ben Shushan, a Jewish minister at the court of Alfonso VIII (1155-1214) king of Castile, while his mother came from a &amp;#160;well-known German Jewish family.&amp;#160;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; dir=&quot;LTR&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;photograph: The Tolledo synagogue built by Yosef Ben-Shushan&apos;s son, one of A.S. Yahuda&apos;s forefathers. The Synagogue was later converted into a church by the name of Santa Maria la Blanca.&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;defaultstyle&quot; dir=&quot;LTR&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Abraham Shalom Yahuda (1877 &#8211; 1951) was born in Jerusalem to a respectable family. His father&apos;s family, which had arrived in Jerusalem from Baghdad, descended from the famous Yosef ben Shushan, a Jewish minister at the court of Alfonso VIII (1155-1214), king of Castile, while his mother came from a well-known German Jewish family.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; dir=&quot;LTR&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; dir=&quot;LTR&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;photograph: The Tolledo synagogue built by Yosef Ben-Shushan&apos;s son, one of A.S. Yahuda&apos;s forefathers. The Synagogue was later converted into a church by the name of Santa Maria la Blanca.&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:47:48.745 @+0200",
-          "modificationDateTime": "2014-01-09 16:23:10.609 @+0200"
+          "modificationDateTime": "2014-01-14 14:18:00.654 @+0200"
         },
         {
           "guid": "3DD3331C-9CFF-706C-D2C0-1D91C010BC75",
@@ -8934,10 +8934,10 @@
               "objectID": "F8D25BDD-4C45-9623-9A0D-6A7188E4C10A"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p align=&quot;justify&quot; style=&quot; padding: 0in; border: currentColor; border-image: none; margin-bottom: 0in; margin-left: 0.12in;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; color: #000000;&quot;&gt;The cherished Torah Scroll was taken by its owners from Spain upon their expulsion, when Jews from Spain wandered throughout the Mediterranean basin in search for a new home. The owners of this Scroll, a family or perhaps a congregation, finally settled down on the island of Rhodes, and the Scroll found its way to the Kahal-Shalom Synagogue. The synagogue was founded in 1577 in the city of &lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;brain://31C8CCB9-803F-3EB3-F118-E2A3AA3EF0DF/F34305BD-F0F4-FA40-FA61-8D8812A642DB&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; color: #000000;&quot;&gt;Rhodes&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; color: #000000;&quot;&gt;, which like the rest of the island had been under the rule of the Ottoman Turks since 1522. The Kahal Shalom synagogue was one of six synagogues which existed in the city of Rhodes, where a vital Jewish community lived in its own quarter &#8211; the Juderia&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; color: #000000;&quot;&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p align=&quot;justify&quot; style=&quot; padding: 0in; border: currentColor; border-image: none; margin-top: 0.07in; margin-bottom: 0.02in; margin-left: 0.12in;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; color: #000000;&quot;&gt;Like the other Spanish Jewish communities which settled in the Mediterranean, the Jewish community of Rhodes spoke Ladino &#8211; a special dialect of Castilian Spanish mixed with Hebrew, and then also Turkish and Greek.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p align=&quot;justify&quot; style=&quot; padding: 0in; border: currentColor; border-image: none; margin-bottom: 0in; margin-left: 0.12in;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; color: #000000;&quot;&gt;The cherished Torah Scroll was taken by its owners from Spain upon their expulsion, when Jews from Spain wandered throughout the Mediterranean basin in search for a new home. The owners of this Scroll, a family or perhaps a congregation, finally settled down on the island of Rhodes, and the Scroll found its way to the Kahal-Shalom Synagogue. The synagogue was founded in 1577 in the city of &lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;brain://31C8CCB9-803F-3EB3-F118-E2A3AA3EF0DF/F34305BD-F0F4-FA40-FA61-8D8812A642DB&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; color: #000000;&quot;&gt;Rhodes&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; color: #000000;&quot;&gt;, which like the rest of the island had been under the rule of the Ottoman Turks since 1522. The Kahal Shalom synagogue was one of six synagogues which existed in the city of Rhodes, where a vital Jewish community lived in its own quarter &#8211; the Juderia&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p align=&quot;justify&quot; style=&quot; padding: 0in; border: currentColor; border-image: none; margin-top: 0.07in; margin-bottom: 0.02in; margin-left: 0.12in;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; color: #000000;&quot;&gt;Like the other Spanish Jewish communities which settled in the Mediterranean, the Jewish community of Rhodes spoke Ladino &#8211; a special dialect of Castilian Spanish mixed with Hebrew, and then also Turkish and Greek.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:43:00.099 @+0200",
-          "modificationDateTime": "2014-01-12 15:55:01.732 @+0200"
+          "modificationDateTime": "2014-01-14 15:59:11.347 @+0200"
         },
         {
           "guid": "84E1D347-D418-4B77-9B47-86F140D0D7E0",
@@ -9623,20 +9623,6 @@
           "format": ".png",
           "creationDateTime": "2014-01-09 11:00:56.000 @+0200",
           "modificationDateTime": "2014-01-09 11:04:31.000 @+0200"
-        },
-        {
-          "guid": "FBDEE49F-B231-F0DE-2834-700B5784BA7C",
-          "AttachmentEntries": {
-            "attachmentEntryID": "21F17F20-4DA4-D098-A6D6-46F6167F7267"
-          },
-          "objectID": "6822BDD0-145C-CE84-8515-80CF50AB53C6",
-          "name": "Coin of Muwahidun ruler abd al-Mu&apos;min (1094&#8211;1163).jpg",
-          "attachmentType": "1",
-          "location": "6822BDD0-145C-CE84-8515-80CF50AB53C6\\Coin of Muwahidun ruler abd al-Mu&apos;min (1094&#8211;1163).jpg",
-          "dataLength": "44191",
-          "format": ".jpg",
-          "creationDateTime": "2014-01-12 09:49:54.000 @+0200",
-          "modificationDateTime": "2014-01-12 09:50:12.000 @+0200"
         },
         {
           "guid": "E0D8846A-55CE-5543-8FB7-1E831F5B1F74",
@@ -11375,18 +11361,18 @@
           "modificationDateTime": "2014-01-08 17:13:39.000 @+0200"
         },
         {
-          "guid": "26C8CB6D-83A2-4F9C-95EB-19DDD52C445B",
+          "guid": "4F5BC558-A709-FEC0-D91F-CB023E7A8DDA",
           "AttachmentEntries": {
             "attachmentEntryID": "8D20D326-C161-1005-92C1-2F4214B32C38"
           },
           "objectID": "4130AC26-0B7C-306D-58D1-87B4DD7C00BD",
-          "name": "Newton, Fragments on the Kingdoms of the European tribes, the Temple and the Jewish and Christian Churches, NLI.jpg",
+          "name": "Newton, Fragments on the Kingdoms of the European tribes,  the Temple and the Jewish and Christian Churches,  NLI.jpg",
           "attachmentType": "1",
-          "location": "4130AC26-0B7C-306D-58D1-87B4DD7C00BD\\Newton, Fragments on the Kingdoms of the European tribes, the Temple and the Jewish and Christian Churches, NLI.jpg",
-          "dataLength": "228176",
+          "location": "4130AC26-0B7C-306D-58D1-87B4DD7C00BD\\Newton, Fragments on the Kingdoms of the European tribes,  the Temple and the Jewish and Christian Churches,  NLI.jpg",
+          "dataLength": "472602",
           "format": ".jpg",
-          "creationDateTime": "2014-01-09 13:11:52.000 @+0200",
-          "modificationDateTime": "2014-01-09 13:13:29.000 @+0200"
+          "creationDateTime": "2014-01-14 12:54:25.066 @+0200",
+          "modificationDateTime": "2014-01-14 12:54:41.614 @+0200"
         },
         {
           "guid": "61D2AF05-77C5-57A2-740A-384ACFEA435E",
@@ -12817,20 +12803,6 @@
           "modificationDateTime": "2014-01-09 17:37:46.000 @+0200"
         },
         {
-          "guid": "03A8E45A-A8A1-2AF4-3338-F3F39E444D57",
-          "AttachmentEntries": {
-            "attachmentEntryID": "83567A2D-B82E-438D-6533-963E1838DFAB"
-          },
-          "objectID": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
-          "name": "Zweig&apos;s letter to Martin Buber,  24.1.1917, p.1, NLI.jpg",
-          "attachmentType": "1",
-          "location": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB\\Zweig&apos;s letter to Martin Buber,  24.1.1917, p.1, NLI.jpg",
-          "dataLength": "116091",
-          "format": ".jpg",
-          "creationDateTime": "2014-01-09 17:37:46.000 @+0200",
-          "modificationDateTime": "2014-01-09 17:37:46.000 @+0200"
-        },
-        {
           "guid": "73435EDB-07A0-F586-FA87-3CF750CF4505",
           "AttachmentEntries": {
             "attachmentEntryID": "83567A2D-B82E-438D-6533-963E1838DFAB"
@@ -13725,20 +13697,6 @@
           "format": ".mp3",
           "creationDateTime": "2014-01-07 11:43:00.000 @+0200",
           "modificationDateTime": "2014-01-08 16:01:40.000 @+0200"
-        },
-        {
-          "guid": "2A4E4B8D-212D-E1DA-2B78-0ECDFD2A1042",
-          "AttachmentEntries": {
-            "attachmentEntryID": "84E1D347-D418-4B77-9B47-86F140D0D7E0"
-          },
-          "objectID": "D7DD61A0-2E58-85AB-0653-C98D58FC2ABD",
-          "name": "Torah Breastplate.jpg",
-          "attachmentType": "1",
-          "location": "D7DD61A0-2E58-85AB-0653-C98D58FC2ABD\\Torah Breastplate.jpg",
-          "dataLength": "58599",
-          "format": ".jpg",
-          "creationDateTime": "2014-01-12 12:53:29.000 @+0200",
-          "modificationDateTime": "2014-01-12 12:53:29.000 @+0200"
         },
         {
           "guid": "CDE0B3CB-99A1-4A41-493A-647E3D01FBDC",
