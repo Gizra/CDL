@@ -468,12 +468,64 @@ module.exports = function (grunt) {
      * Prepare collection of nodes indexed, that will use to parse and generate the tree.
      */
     function prepareData() {
+      var nodesSrc,
+        nodesForgotten;
+
       // Prepare raw data in thoughts, and "guid" of the root node.
       firstNode =  src.data.BrainData.Source.homeThoughtGuid;
-      nodes = src.data.BrainData.Thoughts.Thought;
+      nodesSrc = src.data.BrainData.Thoughts.Thought;
+
+      // Constructor
+      function Data() {
+
+        return {
+          filterNodesForgotten: function(nodeSrc) {
+            return _.filter(nodesSrc, function(node){ return typeof node.forgottenDateTime !== 'undefined'; });
+          },
+          filterLinks: function(nodeLinks, guid) {
+            return _.filter(nodesLinks, function(link) { return link.idB === guid });
+          }
+        };
+      }
+
+
+      var brain = new Data();
+      var forgotten = brain.filterNodesForgotten(nodesSrc);
+
+      var nodesLinksFiltered = nodesLinks;
+      _.each(forgotten, function(node) {
+        console.log(node.guid);
+        brain.filterLinks(nodesLinksFiltered, node.guid);
+      });
+
+
+
+      // Valid nodes.
+      nodes = _.filter(nodesSrc, function(node){ return typeof node.forgottenDateTime === 'undefined'; });
+      grunt.file.write('nodes.json', JSON.stringify(nodes, null, ' '));
+
+      /*
+      _.each(nodesForgotten, function(node, index) {
+        nodesForgotten[index] = _.pick(node, 'guid');
+      });
+      */
+
+      // Remove links of forgotten nodes.
       nodesLinks = src.data.BrainData.Links.Link;
+
+      // _.where(nodesLinks, {idB: nodesForgotten[0].guid});
+      grunt.file.write('nodesLinks.json', JSON.stringify(nodesLinks, null, ' '));
+
+
+
+
+
+
       nodesEntries = src.data.BrainData.Entries.Entry;
+      grunt.file.write('nodesEntries.json', JSON.stringify(nodesEntries, null, ' '));
+
       nodesAttachments = src.data.BrainData.Attachments.Attachment;
+      grunt.file.write('nodesAttachments.json', JSON.stringify(nodesAttachments, null, ' '));
 
       // Remove properties not necessary data from Node and links.
       _.each(nodes, function(thought, index) {
@@ -585,6 +637,8 @@ module.exports = function (grunt) {
           phrase: ''
         }
       ];
+
+
 
        /**
         * Clean the content extracted with an array of regular expressions and phrases.
