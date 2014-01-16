@@ -21,7 +21,7 @@
         x: function(width) { return -width * 0.20;},
         y: function(height) { return height * 0.45;},
         minZoom: 1,
-        maxZoom: 10,
+        maxZoom: 5,
         rootPosition: {
           x: function(width) { return width/3;},
           y: function(height) { return -height/4;}

@@ -17,7 +17,7 @@
     center,
     background,
     system,
-    draw,
+    draw = {},
     width = 900,
     height = 600;
 
@@ -127,7 +127,8 @@
       text,
       nodeExtend,
       drawModule,
-      textbox;
+      textbox,
+      cdlEvents;
 
     // Index of the actual node centered.
     nodeCentered = null;
@@ -140,6 +141,12 @@
     // Data binding.
     nodes = tree.nodes(data);
     links = tree.links(nodes);
+
+    //Register customs event.
+    cdlEvents = {
+      onClickNodeStart: new CustomEvent('onclicknodestart'),
+      onClickNodeEnd: new CustomEvent('onclicknodeend')
+    };
 
     /**
      * Return an with the properties of the according the type of the node. From the
@@ -267,6 +274,10 @@
         click: function(node) {
           var nodeSelected;
 
+          // Start click node event.
+          window.dispatchEvent(cdlEvents.onClickNodeStart);
+
+          // @todo: Related to the event.
           if (draw.animation()) {
             return;
           }
@@ -292,6 +303,10 @@
 
             // Go to the detail page.
             window.location = window.location.origin + window.location.pathname + '#/' + node.guid;
+
+            // End click node event.
+            window.dispatchEvent(cdlEvents.onClickNodeEnd);
+
           }
           else if (nodeCentered === node.id) {
             nodeExtend().secondClick(node);
@@ -360,6 +375,8 @@
         x: window.innerWidth / 2,
         y: window.innerHeight / 2
       };
+
+      drawReference.nodeClicked = false;
 
       return {
         /**
@@ -815,17 +832,32 @@
             return;
           }
 
-          nodes.filter(function(d){
+          // Filter to get only the node indicated by the GUID in the hash.
+          nodes.filter(function(d) {
             // Get location, check if have an specifc node selected and filter it.
             return d.guid === hash[0];
           }).call(function() {
               nodeExtend().click(this.data().pop());
             });
+        },
+        eventHandler: function(e) {
+          if (e.type === 'onclicknodestart' || e.type === 'onclicknodestart') {
+            drawReference.nodeClicked = !drawReference.nodeClicked;
+          }
+          else if (e.type === 'hashchange' && !d3.event) {
+            draw.refocusNode(g.selectAll('.node'));
+            //@todo: zoom out if the all tree node.
+          }
         }
       };
     };
     // Initialize draw object.
     draw = drawModule();
+
+     // Register listeners.
+    window.addEventListener('hashchange', draw.eventHandler, false);
+    window.addEventListener('onclicknodestart', draw.eventHandler, false);
+    window.addEventListener('onclicknodeend', draw.eventHandler, false);
 
     // Node properties and methods - Data modification.
     nodes.forEach(function(node, index) {
@@ -1182,7 +1214,6 @@
 
     // Refocus the last node checked in the content pages.
     draw.refocusNode(node);
-
 
     // Public CDL API.
     return {
