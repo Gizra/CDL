@@ -698,6 +698,13 @@ module.exports = function (grunt) {
         // Look up for more generations of childrens.
         child.node.children = getChilds(child.node);
 
+        // If a chronological node have grandchildSet the granchild.parent like the father parent.
+        if (child.node.type === 'chronological' && child.node.children.length > 0) {
+          _.each(child.node.children, function(grandchild){
+            grandchild.parent = child.node.parent;
+          });
+        }
+
         // Check if have chronological children if the node is not chronological, and set it.
         if (child.node.type !== 'chronological' && _.where(child.node.children, {type: 'chronological'}).length) {
           child.node.hasChronologicalChildren = true;
@@ -1055,6 +1062,11 @@ module.exports = function (grunt) {
   grunt.registerTask('serve', function (target) {
     if (target === 'dist') {
       return grunt.task.run(['build', 'connect:dist:keepalive']);
+    }
+
+    // Request temporally to load the server with an specific IP adress..
+    if (target === 'ip') {
+      grunt.config('connect.options.hostname', '10.0.0.200');
     }
 
     grunt.task.run([
