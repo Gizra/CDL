@@ -1828,8 +1828,8 @@
          "type": "bastard",
          "bastardName": "The Holocaust",
          "parent": {
-          "guid": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
-          "name": "Dark Times"
+          "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
+          "name": "Elimelech Basch's Diary"
          },
          "hasChronologicalChildren": false,
          "children": []
@@ -2254,19 +2254,6 @@
          "hasChronologicalChildren": false,
          "children": [
           {
-           "guid": "2BC7ABDD-E3FD-23FD-BD65-13F34173305D",
-           "name": "וועדה מלווה",
-           "data": "",
-           "attachments": [],
-           "type": "default",
-           "parent": {
-            "guid": "F8D25BDD-4C45-9623-9A0D-6A7188E4C10A",
-            "name": "Kahal Shalom Synagogue - Rhodes"
-           },
-           "hasChronologicalChildren": false,
-           "children": []
-          },
-          {
            "guid": "DC714013-3F75-D6D6-147E-175C6A4DE4B7",
            "name": ":3: The Nazi Occupation",
            "data": "<p><span><span><span>The Torah served the community of Kahal-Shalom for over 400 years, until the island was occupied by the Nazis. Most of the island's Jews were transported to Auschwitz and killed. From among 2000 members of the island's Jewish community, 1,673 were deported. Of these, only 151 survived.&#160;</span></span></span><span><span></span></span></p>\n<p><span><span><span>The Torah scroll was saved by the good relationship between the Jewish and Muslim communities, as well as through an intriguing family connection: the Torah was deposited with the Mufti of Rhodes, Suleyman Kasiloglou, just a few days before the deportation of the Jews on July 25th, 1944. &#160;Kasiloglu's father-in-law was Jewish, which may explain why the Jewish community trusted him with its most valuable possession. &#160;Kasiloglou hid the Torah under the pulpit of the Morad Reis mosque.</span></span></span><span><span></span></span></p>\n<p><span><span><span>The Scroll remained rolled to the last portion which was read in the synagogue, \"Parashat Pinhas\", on the Sabbath of July 15th, 1944. This same part in the scroll was heavily damaged by mildew due to the conditions under the pulpit.&#160;</span></span></span></p>\n",
@@ -2511,8 +2498,8 @@
            "attachments": [],
            "type": "default",
            "parent": {
-            "guid": "277C7CA7-F6EA-FFD0-D111-E975E0D01409",
-            "name": "The Damascus Crown (Keter) from Spain"
+            "guid": "7F13F425-9474-7539-509D-FEDE3A2F8619",
+            "name": "Other Torah manuscripts at the NLI"
            },
            "hasChronologicalChildren": false,
            "children": []
@@ -2967,8 +2954,8 @@
              "type": "bastard",
              "bastardName": "What is The Talmud",
              "parent": {
-              "guid": "4130AC26-0B7C-306D-58D1-87B4DD7C00BD",
-              "name": "Newton and the Jewish Temple"
+              "guid": "505C629C-1C39-D352-683D-7C205AC724C8",
+              "name": "Newton's Papers"
              },
              "hasChronologicalChildren": false,
              "children": []
@@ -4163,21 +4150,6 @@
          "hasChronologicalChildren": false,
          "children": [
           {
-           "guid": "723DF418-A329-4636-45E0-B0357D423F7B",
-           "name": ":1: The Wanderings of the Children of Israel in the desert",
-           "data": "<p><span>The story of Moses and the Wanderings of the Children of Israel in the desert is shown here in miniature drawings: on the left the Children of Israel are seen crossing the parted Red Sea, their following route through the desert being marked by a yellow trail. On the right the revelation at Mount Sinai, as well as the Tabernacle and the various camps of the Israelites are depicted.</span></p>\n",
-           "attachments": [],
-           "type": "chronological",
-           "chronologicalId": "1",
-           "chronologicalName": "The Wanderings of the Children of Israel in the desert",
-           "parent": {
-            "guid": "7A22DA9A-DE90-ABED-F4F5-300AD3B57259",
-            "name": "Blaeu's Map"
-           },
-           "hasChronologicalChildren": false,
-           "children": []
-          },
-          {
            "guid": "59F52661-704F-4019-E3DC-0E8699299647",
            "name": ":2: Seutter's Map",
            "data": "<p>Matthaeus Seutter's map of Palestine was part of his atlas, which was popular in Europe in the 18<sup>th</sup> century. The map, based on a prototype made a century earlier by Sanson, aims to depict the Holy Land to the Christian European audience from the First Temple until the Roman period, covering the period of the events told in the Old and New Testament. Equally important, is the scene on the top left, showing Jesus exorcising a demon, watched from above by God and the Holy Spirit, with the Crucifixion in the background. On the bottom right the route of the Exodus from Egypt is depicted separately.</p>\n",
@@ -5273,8 +5245,8 @@
                ],
                "type": "default",
                "parent": {
-                "guid": "A511D2A0-4CF8-6EAA-4E6E-FC7CD0EDBCE9",
-                "name": "Hosting Kafka at Bergmann's Home"
+                "guid": "DF00CA57-F915-CDD6-7365-1491D0609B78",
+                "name": "Kafka and Judaism"
                },
                "hasChronologicalChildren": false,
                "children": []
