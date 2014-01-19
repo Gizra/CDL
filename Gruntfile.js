@@ -492,7 +492,6 @@ module.exports = function (grunt) {
        *  </Thought>
        *
        *
-       *
        * @constructor
        * @parem {*}
        *  Json object with the contain brain data, exporter from the brain xml file.
@@ -517,7 +516,7 @@ module.exports = function (grunt) {
         this.entries = {};
         this.attachments = {};
 
-        // Filter forgotten nodes.
+        // Filter forgotten nodes. (Definition in the beginning of the function)
         this.filterNodes = function() {
           self.nodes.valid = _.filter(self.data.Thoughts.Thought, function(node){
             return typeof node.forgottenDateTime === 'undefined';
