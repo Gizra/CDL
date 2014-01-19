@@ -39,23 +39,20 @@
 
   // Get the gallery element.
   gallery = $('#blueimp-gallery');
-  /**
-   * On the event
-   *
-   *   open: Remove from the title the extension of the file name.
-   */
+
+  // On the event.
+  // open: Remove from the title the extension of the file name.
   gallery
     .on('open', function(event) {
       var images = gallery.data('gallery').list;
+      var regexTitle = /(.*)[\..{3}$|\..{4}$]/;
 
-      for (var i = 0; i<gallery.data('gallery').num;i++) {
-        console.log(images[i].title);
-        if (/(.*)[\..{3}$|\..{4}$]/.test(images[i].title)) {
-          images[i].title = images[i].title.match(/(.*)[\..{3}$|\..{4}$]/)[1];
+      for (var i = 0; i<gallery.data('gallery').num; i++) {
+        if (regexTitle.exec(images[i].title)) {
+          images[i].title = images[i].title.match(regexTitle).pop();
         }
       }
 
     });
-
 
 })(window.jQuery, window.blueimp);
