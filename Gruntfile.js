@@ -459,7 +459,8 @@ module.exports = function (grunt) {
       nodesEntries = [],
       nodesAttachments = [],
       firstNode,
-      tree = {};
+      tree = {},
+      brain;
 
     src.path = grunt.config.get('CDL.src');
     dest.path = grunt.config.get('CDL.dest');
@@ -468,64 +469,91 @@ module.exports = function (grunt) {
      * Prepare collection of nodes indexed, that will use to parse and generate the tree.
      */
     function prepareData() {
-      var nodesSrc,
-        nodesForgotten;
+      /**
+       * Create an object to filter the data from brain.json file and store in a work
+       * variables.
+       *
+       * @constructor
+       */
+      function Data(brainData) {
+        var self = this;
 
-      // Prepare raw data in thoughts, and "guid" of the root node.
-      firstNode =  src.data.BrainData.Source.homeThoughtGuid;
-      nodesSrc = src.data.BrainData.Thoughts.Thought;
+        this.data = brainData;
+        this.filter =
+          this.nodes = {};
+        this.links = {};
+        this.entries = {};
+        this.attachments = {};
 
-      // Constructor
-      function Data() {
+        this.filterNodes = function() {
+          self.nodes.valid = _.filter(self.data.Thoughts.Thought, function(node){ return typeof node.forgottenDateTime === 'undefined'; });
+          self.nodes.forgotten = _.filter(self.data.Thoughts.Thought, function(node){ return typeof node.forgottenDateTime !== 'undefined'; });
+        };
+
+        this.filterLinks = function(result) {
+          var properties = ['idB', 'idA'];
+          _.each(self.nodes.forgotten, function(node) {
+            properties.forEach(function(property) {
+              result = _.filter(result, function(link) { return link[property] !== node.guid; });
+            });
+          });
+          return result;
+        };
+
+        this.filterEntries = function(result) {
+          _.each(self.nodes.forgotten, function(node) {
+            result = _.filter(result, function(entry) { return entry.EntryObjects.EntryObject.objectID !== node.guid; });
+          });
+          return result;
+        };
+
+        this.filterAttachments = function(result) {
+          _.each(self.nodes.forgotten, function(node) {
+            result = _.filter(result, function(attachment) { return attachment.objectID !== node.guid; });
+            console.log(node.guid);
+          });
+          return result;
+        };
+
 
         return {
-          filterNodesForgotten: function(nodeSrc) {
-            return _.filter(nodesSrc, function(node){ return typeof node.forgottenDateTime !== 'undefined'; });
+          getFirstNode: function() {
+            return self.data.Source.homeThoughtGuid;
           },
-          filterLinks: function(nodeLinks, guid) {
-            return _.filter(nodesLinks, function(link) { return link.idB === guid });
+          getValidNodes: function(){
+            // Filter nodes store into properties.
+            self.filterNodes();
+
+            return self.nodes.valid;
+          },
+          getLinks: function(){
+            // Filter nodes store into properties.
+            self.links = self.filterLinks(self.data.Links.Link);
+
+            return self.links;
+          },
+          getEntries: function() {
+            self.entries = self.filterEntries(self.data.Entries.Entry);
+
+            return self.entries;
+          },
+          getAttachments: function() {
+            self.attachments = self.filterAttachments(self.data.Attachments.Attachment);
+
+            return self.attachments;
           }
         };
       }
 
+      // Create object to do pre-filtering with the data.
+      brain = new Data(src.data.BrainData);
+      firstNode = brain.getFirstNode();
 
-      var brain = new Data();
-      var forgotten = brain.filterNodesForgotten(nodesSrc);
-
-      var nodesLinksFiltered = nodesLinks;
-      _.each(forgotten, function(node) {
-        console.log(node.guid);
-        brain.filterLinks(nodesLinksFiltered, node.guid);
-      });
-
-
-
-      // Valid nodes.
-      nodes = _.filter(nodesSrc, function(node){ return typeof node.forgottenDateTime === 'undefined'; });
-      grunt.file.write('nodes.json', JSON.stringify(nodes, null, ' '));
-
-      /*
-      _.each(nodesForgotten, function(node, index) {
-        nodesForgotten[index] = _.pick(node, 'guid');
-      });
-      */
-
-      // Remove links of forgotten nodes.
-      nodesLinks = src.data.BrainData.Links.Link;
-
-      // _.where(nodesLinks, {idB: nodesForgotten[0].guid});
-      grunt.file.write('nodesLinks.json', JSON.stringify(nodesLinks, null, ' '));
-
-
-
-
-
-
-      nodesEntries = src.data.BrainData.Entries.Entry;
-      grunt.file.write('nodesEntries.json', JSON.stringify(nodesEntries, null, ' '));
-
-      nodesAttachments = src.data.BrainData.Attachments.Attachment;
-      grunt.file.write('nodesAttachments.json', JSON.stringify(nodesAttachments, null, ' '));
+      // Prepare raw data in thoughts, links, entries and attachments and "guid" of the root node.
+      nodes = brain.getValidNodes();
+      nodesLinks = brain.getLinks();
+      nodesEntries = brain.getEntries();
+      nodesAttachments = brain.getAttachments();
 
       // Remove properties not necessary data from Node and links.
       _.each(nodes, function(thought, index) {
