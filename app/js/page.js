@@ -1,5 +1,9 @@
 'use strict';
+
+
 (function( $, blueimp ) {
+  var gallery;
+
   // Extent jquery object properties.
   $.fn.cdlFonts = function(fontRatio) {
     var maxFontRatio = fontRatio;
@@ -33,4 +37,20 @@
     });
   });
 
-})(jQuery, blueimp);
+  gallery = $('#blueimp-gallery');
+
+  gallery
+    .on('open', function(event) {
+      var images = gallery.data('gallery').list;
+
+      for (var i = 0; i<gallery.data('gallery').num;i++) {
+        console.log(images[i].title);
+        if (/(.*)[\..{3}$|\..{4}$]/.test(images[i].title)) {
+          images[i].title = images[i].title.match(/(.*)[\..{3}$|\..{4}$]/)[1];
+        }
+      }
+
+    });
+
+
+})(window.jQuery, window.blueimp);
