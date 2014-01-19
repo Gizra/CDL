@@ -27,7 +27,7 @@
   // Apply resize to the circle titles.
   $('.inner-text-title').cdlFonts(50);
 
-  // Add listener to button more to load the gallery and open in the image #5
+  // Add listener to button more to load the gallery and open in the image #5.
   $('.button-more').each( function() {
     $(this).bind('click', function() {
       var selector = '.data-gallery-' + $(this).data('id');
@@ -37,8 +37,13 @@
     });
   });
 
+  // Get the gallery element.
   gallery = $('#blueimp-gallery');
-
+  /**
+   * On the event
+   *
+   *   open: Remove from the title the extension of the file name.
+   */
   gallery
     .on('open', function(event) {
       var images = gallery.data('gallery').list;
