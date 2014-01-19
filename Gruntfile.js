@@ -479,17 +479,18 @@ module.exports = function (grunt) {
         var self = this;
 
         this.data = brainData;
-        this.filter =
-          this.nodes = {};
+        this.nodes = {};
         this.links = {};
         this.entries = {};
         this.attachments = {};
 
+        // Filter forgotten nodes.
         this.filterNodes = function() {
           self.nodes.valid = _.filter(self.data.Thoughts.Thought, function(node){ return typeof node.forgottenDateTime === 'undefined'; });
           self.nodes.forgotten = _.filter(self.data.Thoughts.Thought, function(node){ return typeof node.forgottenDateTime !== 'undefined'; });
         };
 
+        // Filter links of forgotten nodes.
         this.filterLinks = function(result) {
           var properties = ['idB', 'idA'];
           _.each(self.nodes.forgotten, function(node) {
@@ -500,6 +501,7 @@ module.exports = function (grunt) {
           return result;
         };
 
+        // Filter entries of forgotten nodes.
         this.filterEntries = function(result) {
           _.each(self.nodes.forgotten, function(node) {
             result = _.filter(result, function(entry) { return entry.EntryObjects.EntryObject.objectID !== node.guid; });
@@ -507,6 +509,7 @@ module.exports = function (grunt) {
           return result;
         };
 
+        // Filter Attachments of forgotten nodes.
         this.filterAttachments = function(result) {
           _.each(self.nodes.forgotten, function(node) {
             result = _.filter(result, function(attachment) { return attachment.objectID !== node.guid; });
@@ -517,26 +520,51 @@ module.exports = function (grunt) {
 
 
         return {
+          /**
+           * Return the guid of the root node.
+           *
+           * @returns {*}
+           */
           getFirstNode: function() {
             return self.data.Source.homeThoughtGuid;
           },
+          /**
+           * Return and array of node objects "valid", without the forgotten nodes.
+           *
+           * @returns [{*}]
+           *  Array of node objects.
+           */
           getValidNodes: function(){
             // Filter nodes store into properties.
             self.filterNodes();
 
             return self.nodes.valid;
           },
+          /**
+           * Return and array of a links objects.
+           *
+           * @returns {*}
+           */
           getLinks: function(){
-            // Filter nodes store into properties.
             self.links = self.filterLinks(self.data.Links.Link);
 
             return self.links;
           },
+          /**
+           * Return and array of a entries objects.
+           *
+           * @returns {*}
+           */
           getEntries: function() {
             self.entries = self.filterEntries(self.data.Entries.Entry);
 
             return self.entries;
           },
+          /**
+           * Return and array of attachments objects.
+           *
+           * @returns {*}
+           */
           getAttachments: function() {
             self.attachments = self.filterAttachments(self.data.Attachments.Attachment);
 
@@ -665,8 +693,6 @@ module.exports = function (grunt) {
           phrase: ''
         }
       ];
-
-
 
        /**
         * Clean the content extracted with an array of regular expressions and phrases.
