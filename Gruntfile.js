@@ -493,7 +493,7 @@ module.exports = function (grunt) {
        *
        *
        * @constructor
-       * @parem {*}
+       * @param brainData
        *  Json object with the contain brain data, exporter from the brain xml file.
        *
        *  brainData {
