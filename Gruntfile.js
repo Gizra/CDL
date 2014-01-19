@@ -473,7 +473,40 @@ module.exports = function (grunt) {
        * Create an object to filter the data from brain.json file and store in a work
        * variables.
        *
+       * The filtering of the nodes it does by identify the "forgotten nodes" and separete this
+       * separate from the rest "valid nodes". Example of a Thought tag element:
+       *
+       *  <Thought>
+       *    <guid>723DF418-A329-4636-45E0-B0357D423F7B</guid>
+       *    <name>:1: The Wanderings of the Children of Israel in the desert</name>
+       *    <label></label>
+       *    <creationDateTime>2014-01-07 12:00:05.264 @+0200</creationDateTime>
+       *    <realModificationDateTime>2014-01-09 12:49:19.623 @+0200</realModificationDateTime>
+       *    <displayModificationDateTime>2014-01-09 12:48:51.711 @+0200</displayModificationDateTime>
+       *    <forgottenDateTime>2014-01-09 12:49:19.623 @+0200</forgottenDateTime>
+       *    <activationDateTime>2014-01-09 12:49:14.493 @+0200</activationDateTime>
+       *    <linksModificationDateTime>2013-11-19 13:28:32.242 @+0200</linksModificationDateTime>
+       *    <isType>0</isType>
+       *    <color>0</color>
+       *    <accessControlType>0</accessControlType>
+       *  </Thought>
+       *
+       *
+       *
        * @constructor
+       * @parem {*}
+       *  Json object with the contain brain data, exporter from the brain xml file.
+       *
+       *  brainData {
+       *    Attachments: {*},
+       *    AttributesDatas: '',
+       *    Attributes: {*},
+       *    Entries: {*},
+       *    Links: {*},
+       *    Source: {*},
+       *    Thoughts: {*}
+       *  }
+       *
        */
       function Data(brainData) {
         var self = this;
@@ -486,8 +519,12 @@ module.exports = function (grunt) {
 
         // Filter forgotten nodes.
         this.filterNodes = function() {
-          self.nodes.valid = _.filter(self.data.Thoughts.Thought, function(node){ return typeof node.forgottenDateTime === 'undefined'; });
-          self.nodes.forgotten = _.filter(self.data.Thoughts.Thought, function(node){ return typeof node.forgottenDateTime !== 'undefined'; });
+          self.nodes.valid = _.filter(self.data.Thoughts.Thought, function(node){
+            return typeof node.forgottenDateTime === 'undefined';
+          });
+          self.nodes.forgotten = _.filter(self.data.Thoughts.Thought, function(node){
+            return typeof node.forgottenDateTime !== 'undefined';
+          });
         };
 
         // Filter links of forgotten nodes.
@@ -495,7 +532,9 @@ module.exports = function (grunt) {
           var properties = ['idB', 'idA'];
           _.each(self.nodes.forgotten, function(node) {
             properties.forEach(function(property) {
-              result = _.filter(result, function(link) { return link[property] !== node.guid; });
+              result = _.filter(result, function(link) {
+                return link[property] !== node.guid;
+              });
             });
           });
           return result;
@@ -504,7 +543,9 @@ module.exports = function (grunt) {
         // Filter entries of forgotten nodes.
         this.filterEntries = function(result) {
           _.each(self.nodes.forgotten, function(node) {
-            result = _.filter(result, function(entry) { return entry.EntryObjects.EntryObject.objectID !== node.guid; });
+            result = _.filter(result, function(entry) {
+              return entry.EntryObjects.EntryObject.objectID !== node.guid;
+            });
           });
           return result;
         };
@@ -512,7 +553,9 @@ module.exports = function (grunt) {
         // Filter Attachments of forgotten nodes.
         this.filterAttachments = function(result) {
           _.each(self.nodes.forgotten, function(node) {
-            result = _.filter(result, function(attachment) { return attachment.objectID !== node.guid; });
+            result = _.filter(result, function(attachment) {
+              return attachment.objectID !== node.guid;
+            });
             console.log(node.guid);
           });
           return result;
@@ -1172,7 +1215,8 @@ module.exports = function (grunt) {
       return grunt.task.run(['build', 'connect:dist:keepalive']);
     }
 
-    // Request temporally to load the server with an specific IP adress..
+    // Request temporally to load the server with an specific IP address. To load the site in
+    // the mobile devices.
     if (target === 'ip') {
       grunt.config('connect.options.hostname', '10.0.0.200');
     }
