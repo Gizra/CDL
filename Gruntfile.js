@@ -992,11 +992,13 @@ module.exports = function (grunt) {
     function convertAttachments(attachments) {
       var item;
       var regexYoutube = /http:\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/)(.*)(&(amp;)?[\w\?=]*)?/;
+      var regexSoundcloud = /[[http|https]*:]?\/\/?soundcloud\.com\/(.*)/;
       var attachmentsParsed = {
         images: [],
         media: [],
         pages: [],
-        youtube: []
+        youtube: [],
+        soundcloud: []
       };
 
       _.each(attachments, function(attachment) {
@@ -1016,12 +1018,17 @@ module.exports = function (grunt) {
             attachmentsParsed.media.push(item);
           }
         }
-        // Attachments type url (regular links or youtube links).
+        // Attachments type url (regular links, youtube or soundcloud links).
         else if (attachment.attachmentType === '3' ) {
           // Check if the link is a youtube's link and prepare properties with video id.
           if (regexYoutube.test(attachment.location)) {
             item.id = attachment.location.match(regexYoutube)[1];
             attachmentsParsed.youtube.push(item);
+          }
+          // Check if the link is a soundcloud's link and prepare properties with sound hash of the url.
+          else if (regexSoundcloud.test(attachment.location)) {
+            item.id = attachment.location.match(regexSoundcloud).pop();
+            attachmentsParsed.soundcloud.push(item);
           }
           // A regular link.
           else {

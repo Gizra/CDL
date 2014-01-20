@@ -113,6 +113,14 @@ layout: page
           {% endfor %}
         {% endif %}
 
+        {% if page.attachments.soundcloud != empty %}
+          {% for attachment in page.attachments.soundcloud %}
+          <div>
+            <iframe class="iframe" width="100%" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http://api.soundcloud.com/{{ attachment.id }}&amp;auto_play=true&amp;auto_advance=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=false&amp;show_artwork=false&amp;show_comments=false&amp;show_playcount=false&amp;show_user=false&amp;hide_related=false&amp;start_track=0&amp;callback=true"></iframe>
+          </div>
+          {% endfor %}
+        {% endif %}
+
         <div class="chronological">
           {% if page.siblings != empty %}
 
@@ -214,6 +222,14 @@ layout: page
                 <iframe  width="560" height="315" src="//www.youtube.com/embed/{{ attachment.id }}" frameborder="0" allowfullscreen></iframe>
               </div>
               {% endfor %}
+              {% endif %}
+
+              {% if sibling.attachments.soundcloud != empty %}
+                {% for attachment in page.attachments.soundcloud %}
+                <div>
+                  <iframe class="iframe" width="100%" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http://api.soundcloud.com/{{ attachment.id }}&amp;auto_play=true&amp;auto_advance=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=false&amp;show_artwork=false&amp;show_comments=false&amp;show_playcount=false&amp;show_user=false&amp;hide_related=false&amp;start_track=0&amp;callback=true"></iframe>
+                </div>
+                {% endfor %}
               {% endif %}
 
               </div>
