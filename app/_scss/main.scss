@@ -348,6 +348,59 @@ div.cdl {
   }
 }
 
+/*****************************************************************************/
+/*
+/* Modal window
+/*
+/*****************************************************************************/
+
+#blueimp-gallery {
+  color: white;
+
+  .modal-content {
+    background-color: transparent;
+
+    .modal-header, .modal-footer {
+      border: none;
+    }
+
+    .modal-indicator, .modal-counter {
+      display: inline-block;
+      width: 50%;
+      height: 3em;
+    }
+
+    .modal-indicator {
+      float: left;
+    }
+
+    .modal-counter {
+      float: right;
+    }
+
+  }
+
+  .play-pause {
+    display: none;
+  }
+
+  a.close {
+    border: 2px solid white;
+    border-radius: 28px;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    padding-top: 0px;
+    padding-left: 9px;
+  }
+
+  a.prev, a.next {
+    border: none;
+    font-size: 120px;
+  }
+
+}
+
 
 /*****************************************************************************/
 /*
