@@ -1026,7 +1026,7 @@ module.exports = function (grunt) {
             attachmentsParsed.youtube.push(item);
           }
           // Check if the link is a soundcloud's link and prepare properties with sound hash of the url.
-          else if (regexSoundcloud.test(attachment.location)) {
+          else if (attachment.location.match(regexSoundcloud)) {
             item.id = attachment.location.match(regexSoundcloud).pop();
             attachmentsParsed.soundcloud.push(item);
           }
