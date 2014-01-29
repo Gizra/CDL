@@ -64,6 +64,7 @@
       .attr('id', 'chart')
       .attr('width', '100%')
       .attr('height', '100%')
+      .style('fill', 'transparent')
       .on('dblclick.zoom', null)
       .on('touch', null)
       .on('touchstart', null)
@@ -76,6 +77,7 @@
       .attr('id', 'backgroud')
       .attr('width', width)
       .attr('height', height)
+      .style('fill', 'transparent')
       .on('zoom', zoom);
 
     // System.
