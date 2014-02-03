@@ -555,7 +555,6 @@ module.exports = function (grunt) {
             result = _.filter(result, function(attachment) {
               return attachment.objectID !== node.guid;
             });
-            console.log(node.guid);
           });
           return result;
         };
@@ -840,9 +839,13 @@ module.exports = function (grunt) {
         // Parse the content and set the classification of the node.
         setNodeContent(child.node);
 
+        // Add parent information
+        if (parent.guid !== firstNode) {
+          child.node.parent = _.pick(parent, 'guid');
+          child.node.parent.name = getName(parent);
+        }
+
         // Set parent guid.
-        child.node.parent = _.pick(parent, 'guid');
-        child.node.parent.name = getName(parent);
         child.node.hasChronologicalChildren = false;
 
         // Look up for more generations of childrens.
