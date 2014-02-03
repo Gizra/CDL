@@ -4,6 +4,13 @@
 @include font-face('Calluna', font-files('CallunaSansRegular-webfont.ttf', 'CallunaSansRegular-webfont.eot', 'CallunaSansRegular-webfont.svg', 'CallunaSansRegular-webfont.woff'));
 @include font-face('Miso', font-files('miso-regular-webfont.ttf', 'miso-regular-webfont.eot', 'miso-regular-webfont.svg', 'miso-regular-webfont.woff'));
 
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
