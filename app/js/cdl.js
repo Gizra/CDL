@@ -74,7 +74,7 @@
 
     // Background.
     background =  svgContainer.append('rect')
-      .attr('id', 'backgroud')
+      .attr('id', 'background')
       .attr('width', width)
       .attr('height', height)
       .style('fill', 'transparent')
@@ -274,6 +274,11 @@
          * @param node
          */
         click: function(node) {
+          // If root element, do not perform any action.
+          if (node.depth === 0) {
+            return;
+          }
+
           var nodeSelected;
 
           // Start click node event.
@@ -321,11 +326,6 @@
          * @param node
          */
         secondClick: function(node) {
-          // If root element, do not perform any action.
-          if (node.depth === 0) {
-            return;
-          }
-
           // If it's chronological node, go up until the parent not chronological and set like active node.
           while (node.type === 'chronological') {
             node = node.parent;
