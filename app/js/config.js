@@ -18,9 +18,9 @@
      */
     this.chart = {
       initial: {
-        x: function(width) { return -width * 0.20;},
-        y: function(height) { return height * 0.45;},
-        minZoom: 1,
+        x: function(width) { return -width * 0.03;},
+        y: function(height) { return height * 0.35;},
+        minZoom: 0.60,
         maxZoom: 5,
         rootPosition: {
           x: function(width) { return width/3;},
@@ -41,7 +41,8 @@
           show: false
         },
         transition: 750,
-        hideTriangle: 10
+        hideTriangle: 10,
+        hideGrandChildren: 0.61
       },
       center: {
         color: 'green',
