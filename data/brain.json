@@ -6,7 +6,7 @@
       "personalBrainVersion": "7045",
       "telepathyVersion": "10",
       "fileRoot": "\\\\nlinetapp1\\homedir\\shaye\\Desktop\\NLI-CDL 3 pict.modified_brain\\Files",
-      "generatedDateTime": "2014-01-28 17:41:44.764 @+0200",
+      "generatedDateTime": "2014-02-03 14:03:16.899 @+0200",
       "homeThoughtGuid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
       "modificationDateTime": "2014-01-23 15:30:27.635 @+0200"
     },
@@ -198,8 +198,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 12:19:18.833 @+0200",
           "realModificationDateTime": "2014-01-07 12:19:18.833 @+0200",
-          "displayModificationDateTime": "2014-01-13 14:49:36.854 @+0200",
-          "activationDateTime": "2014-01-28 17:03:19.811 @+0200",
+          "displayModificationDateTime": "2014-01-31 10:36:14.203 @+0200",
+          "activationDateTime": "2014-01-31 10:34:28.810 @+0200",
           "linksModificationDateTime": "2013-12-26 14:41:13.772 @+0200",
           "isType": "0",
           "color": "0",
@@ -212,7 +212,7 @@
           "creationDateTime": "2014-01-07 12:19:18.166 @+0200",
           "realModificationDateTime": "2014-01-07 12:19:18.165 @+0200",
           "displayModificationDateTime": "2014-01-23 12:47:00.000 @+0200",
-          "activationDateTime": "2014-01-13 15:43:30.068 @+0200",
+          "activationDateTime": "2014-01-31 10:34:24.510 @+0200",
           "linksModificationDateTime": "2013-12-24 18:33:19.769 @+0200",
           "isType": "0",
           "color": "0",
@@ -251,7 +251,7 @@
           "creationDateTime": "2014-01-07 11:37:58.000 @+0200",
           "realModificationDateTime": "2014-01-28 16:10:09.421 @+0200",
           "displayModificationDateTime": "2014-01-28 16:10:09.421 @+0200",
-          "activationDateTime": "2014-01-28 16:57:50.822 @+0200",
+          "activationDateTime": "2014-02-03 12:27:30.709 @+0200",
           "linksModificationDateTime": "2014-01-07 11:38:09.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -389,12 +389,12 @@
         },
         {
           "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
-          "name": "Commentary on the Mishnah",
+          "name": "The Commentary",
           "label": "",
           "creationDateTime": "2014-01-07 11:37:56.000 @+0200",
-          "realModificationDateTime": "2014-01-07 11:37:56.000 @+0200",
-          "displayModificationDateTime": "2014-01-23 15:19:19.787 @+0200",
-          "activationDateTime": "2014-01-28 16:57:32.057 @+0200",
+          "realModificationDateTime": "2014-02-03 12:27:06.544 @+0200",
+          "displayModificationDateTime": "2014-02-03 12:27:06.544 @+0200",
+          "activationDateTime": "2014-02-03 12:26:53.574 @+0200",
           "linksModificationDateTime": "2013-11-25 14:38:09.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -810,7 +810,7 @@
           "creationDateTime": "2014-01-07 12:19:22.000 @+0200",
           "realModificationDateTime": "2014-01-07 12:19:22.000 @+0200",
           "displayModificationDateTime": "2014-01-28 16:59:56.539 @+0200",
-          "activationDateTime": "2014-01-28 17:03:48.104 @+0200",
+          "activationDateTime": "2014-02-02 12:26:11.013 @+0200",
           "linksModificationDateTime": "2014-01-21 15:20:05.802 @+0200",
           "isType": "0",
           "color": "0",
@@ -1005,7 +1005,7 @@
           "creationDateTime": "2014-01-07 12:23:05.930 @+0200",
           "realModificationDateTime": "2014-01-07 12:23:05.930 @+0200",
           "displayModificationDateTime": "2014-01-28 14:29:45.364 @+0200",
-          "activationDateTime": "2014-01-28 15:31:54.604 @+0200",
+          "activationDateTime": "2014-02-03 14:02:35.338 @+0200",
           "linksModificationDateTime": "2013-12-23 17:35:32.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1043,8 +1043,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:32:35.000 @+0200",
           "realModificationDateTime": "2014-01-28 16:36:44.335 @+0200",
-          "displayModificationDateTime": "2014-01-28 16:36:44.335 @+0200",
-          "activationDateTime": "2014-01-14 17:50:18.000 @+0200",
+          "displayModificationDateTime": "2014-02-03 14:01:39.217 @+0200",
+          "activationDateTime": "2014-02-03 14:01:14.886 @+0200",
           "linksModificationDateTime": "2013-11-03 17:00:29.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1055,8 +1055,8 @@
           "name": "What is the Kabbalah?",
           "label": "",
           "creationDateTime": "2014-01-07 12:23:08.000 @+0200",
-          "realModificationDateTime": "2014-01-28 15:25:13.101 @+0200",
-          "displayModificationDateTime": "2014-01-28 15:25:13.101 @+0200",
+          "realModificationDateTime": "2014-01-29 12:56:30.503 @+0200",
+          "displayModificationDateTime": "2014-01-29 12:56:30.504 @+0200",
           "activationDateTime": "2014-01-28 15:31:47.009 @+0200",
           "linksModificationDateTime": "2013-12-23 17:40:25.000 @+0200",
           "isType": "0",
@@ -1095,8 +1095,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:32:31.000 @+0200",
           "realModificationDateTime": "2014-01-28 16:15:41.320 @+0200",
-          "displayModificationDateTime": "2014-01-28 16:15:41.320 @+0200",
-          "activationDateTime": "2014-01-28 16:37:26.832 @+0200",
+          "displayModificationDateTime": "2014-01-29 12:43:03.884 @+0200",
+          "activationDateTime": "2014-02-03 14:02:11.543 @+0200",
           "linksModificationDateTime": "2014-01-07 11:32:42.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1156,12 +1156,12 @@
         },
         {
           "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-          "name": "The National Library of Israel as a Memory Deposit",
+          "name": "The National Library of Israel: A Memory Deposit",
           "label": "",
           "creationDateTime": "2014-01-07 11:32:19.028 @+0200",
-          "realModificationDateTime": "2014-01-07 19:42:18.857 @+0200",
-          "displayModificationDateTime": "2014-01-07 19:42:18.857 @+0200",
-          "activationDateTime": "2014-01-20 11:23:43.000 @+0200",
+          "realModificationDateTime": "2014-02-03 12:27:39.297 @+0200",
+          "displayModificationDateTime": "2014-02-03 12:40:46.173 @+0200",
+          "activationDateTime": "2014-02-03 12:27:31.664 @+0200",
           "linksModificationDateTime": "2014-01-07 12:23:16.157 @+0200",
           "isType": "0",
           "color": "0",
@@ -1356,7 +1356,7 @@
           "creationDateTime": "2014-01-07 11:47:42.000 @+0200",
           "realModificationDateTime": "2014-01-07 11:47:42.000 @+0200",
           "displayModificationDateTime": "2014-01-21 14:30:24.000 @+0200",
-          "activationDateTime": "2014-01-28 17:08:15.220 @+0200",
+          "activationDateTime": "2014-01-29 13:18:52.096 @+0200",
           "linksModificationDateTime": "2014-01-28 17:07:27.927 @+0200",
           "isType": "0",
           "color": "0",
@@ -1576,7 +1576,7 @@
           "label": "",
           "creationDateTime": "2014-01-07 12:00:25.832 @+0200",
           "realModificationDateTime": "2014-01-07 12:00:25.832 @+0200",
-          "displayModificationDateTime": "2014-01-13 14:37:05.932 @+0200",
+          "displayModificationDateTime": "2014-01-23 12:45:12.000 @+0200",
           "activationDateTime": "2014-01-21 16:47:36.278 @+0200",
           "linksModificationDateTime": "2013-11-19 13:09:35.241 @+0200",
           "isType": "0",
@@ -1784,8 +1784,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 12:00:27.000 @+0200",
           "realModificationDateTime": "2014-01-28 16:15:41.476 @+0200",
-          "displayModificationDateTime": "2014-01-28 16:15:41.491 @+0200",
-          "activationDateTime": "2014-01-28 16:54:24.376 @+0200",
+          "displayModificationDateTime": "2014-01-29 14:00:06.047 @+0200",
+          "activationDateTime": "2014-01-29 13:58:00.370 @+0200",
           "linksModificationDateTime": "2014-01-07 12:00:37.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1936,12 +1936,12 @@
         },
         {
           "guid": "CC6A7FD0-DD1F-B725-6AE4-F6E52977F471",
-          "name": ":_: Theodore Herzl (1860 &#8211; 1904)t",
+          "name": ":_: Theodore Herzl (1860 &#8211; 1904)",
           "label": "",
           "creationDateTime": "2014-01-07 12:09:07.697 @+0200",
-          "realModificationDateTime": "2014-01-08 14:25:19.386 @+0200",
-          "displayModificationDateTime": "2014-01-16 15:48:50.883 @+0200",
-          "activationDateTime": "2014-01-16 15:48:34.557 @+0200",
+          "realModificationDateTime": "2014-02-02 15:52:27.537 @+0200",
+          "displayModificationDateTime": "2014-02-02 15:52:27.537 @+0200",
+          "activationDateTime": "2014-02-02 15:52:21.373 @+0200",
           "linksModificationDateTime": "2013-11-26 14:46:04.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1978,9 +1978,9 @@
           "name": "The Torah Scroll From Spain",
           "label": "",
           "creationDateTime": "2014-01-07 11:42:47.000 @+0200",
-          "realModificationDateTime": "2014-01-28 16:15:42.521 @+0200",
-          "displayModificationDateTime": "2014-01-28 16:15:42.521 @+0200",
-          "activationDateTime": "2014-01-28 16:35:32.795 @+0200",
+          "realModificationDateTime": "2014-01-29 12:29:32.924 @+0200",
+          "displayModificationDateTime": "2014-01-29 12:30:10.462 @+0200",
+          "activationDateTime": "2014-01-29 12:33:33.984 @+0200",
           "linksModificationDateTime": "2014-01-22 15:31:04.000 @+0200",
           "isType": "0",
           "color": "ffffff",
@@ -2136,7 +2136,7 @@
           "creationDateTime": "2014-01-07 12:09:09.000 @+0200",
           "realModificationDateTime": "2014-01-07 12:09:09.000 @+0200",
           "displayModificationDateTime": "2014-01-28 15:46:47.994 @+0200",
-          "activationDateTime": "2014-01-28 17:09:03.820 @+0200",
+          "activationDateTime": "2014-02-03 12:26:07.093 @+0200",
           "linksModificationDateTime": "2013-11-26 14:59:00.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2266,7 +2266,7 @@
           "creationDateTime": "2014-01-07 12:09:11.638 @+0200",
           "realModificationDateTime": "2014-01-07 12:09:11.638 @+0200",
           "displayModificationDateTime": "2014-01-21 13:15:38.028 @+0200",
-          "activationDateTime": "2014-01-28 16:15:37.871 @+0200",
+          "activationDateTime": "2014-02-02 15:52:06.389 @+0200",
           "linksModificationDateTime": "2013-11-28 16:19:33.197 @+0200",
           "isType": "0",
           "color": "0",
@@ -2292,7 +2292,7 @@
           "creationDateTime": "2014-01-07 12:09:11.000 @+0200",
           "realModificationDateTime": "2014-01-07 12:09:11.000 @+0200",
           "displayModificationDateTime": "2014-01-23 15:17:19.688 @+0200",
-          "activationDateTime": "2014-01-28 17:09:23.232 @+0200",
+          "activationDateTime": "2014-02-03 12:26:08.383 @+0200",
           "linksModificationDateTime": "2014-01-07 18:03:17.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2383,7 +2383,7 @@
           "creationDateTime": "2014-01-07 12:09:15.000 @+0200",
           "realModificationDateTime": "2014-01-09 12:54:33.000 @+0200",
           "displayModificationDateTime": "2014-01-28 15:36:01.280 @+0200",
-          "activationDateTime": "2014-01-28 17:09:48.078 @+0200",
+          "activationDateTime": "2014-02-02 15:51:57.234 @+0200",
           "linksModificationDateTime": "2014-01-07 18:03:23.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2395,8 +2395,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:38:02.000 @+0200",
           "realModificationDateTime": "2014-01-22 13:30:14.831 @+0200",
-          "displayModificationDateTime": "2014-01-22 13:30:14.831 @+0200",
-          "activationDateTime": "2014-01-28 16:56:15.022 @+0200",
+          "displayModificationDateTime": "2014-01-30 14:04:23.715 @+0200",
+          "activationDateTime": "2014-01-30 14:01:17.361 @+0200",
           "linksModificationDateTime": "2013-12-01 16:37:06.000 @+0200",
           "isType": "0",
           "color": "ffffffff",
@@ -2435,7 +2435,7 @@
           "creationDateTime": "2014-01-07 12:09:13.000 @+0200",
           "realModificationDateTime": "2014-01-07 12:09:13.000 @+0200",
           "displayModificationDateTime": "2014-01-22 15:12:55.419 @+0200",
-          "activationDateTime": "2014-01-28 17:10:13.318 @+0200",
+          "activationDateTime": "2014-02-02 12:26:22.469 @+0200",
           "linksModificationDateTime": "2013-12-03 14:13:40.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2456,12 +2456,12 @@
         },
         {
           "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-          "name": "Zweig, Benjamin and Kafka in German Culture",
+          "name": "Zweig, Benjamin and Kafka",
           "label": "",
           "creationDateTime": "2014-01-07 12:09:12.000 @+0200",
-          "realModificationDateTime": "2014-01-28 16:15:39.103 @+0200",
-          "displayModificationDateTime": "2014-01-28 16:15:39.103 @+0200",
-          "activationDateTime": "2014-01-28 17:08:52.448 @+0200",
+          "realModificationDateTime": "2014-02-03 12:26:18.418 @+0200",
+          "displayModificationDateTime": "2014-02-03 12:26:18.418 @+0200",
+          "activationDateTime": "2014-02-03 12:26:09.860 @+0200",
           "linksModificationDateTime": "2014-01-07 18:03:23.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2486,8 +2486,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 12:09:16.000 @+0200",
           "realModificationDateTime": "2014-01-21 12:34:52.000 @+0200",
-          "displayModificationDateTime": "2014-01-28 16:10:39.184 @+0200",
-          "activationDateTime": "2014-01-28 16:10:45.736 @+0200",
+          "displayModificationDateTime": "2014-01-31 10:03:48.276 @+0200",
+          "activationDateTime": "2014-01-31 09:59:44.294 @+0200",
           "linksModificationDateTime": "2013-11-26 15:05:09.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2551,8 +2551,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 12:09:16.000 @+0200",
           "realModificationDateTime": "2014-01-07 12:09:16.000 @+0200",
-          "displayModificationDateTime": "2014-01-28 17:10:23.085 @+0200",
-          "activationDateTime": "2014-01-28 17:10:24.435 @+0200",
+          "displayModificationDateTime": "2014-02-02 12:26:54.120 @+0200",
+          "activationDateTime": "2014-02-02 12:26:28.063 @+0200",
           "linksModificationDateTime": "2014-01-07 18:46:52.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2617,7 +2617,7 @@
           "creationDateTime": "2014-01-07 12:23:09.000 @+0200",
           "realModificationDateTime": "2014-01-28 16:15:43.817 @+0200",
           "displayModificationDateTime": "2014-01-28 16:15:43.817 @+0200",
-          "activationDateTime": "2014-01-28 15:34:06.512 @+0200",
+          "activationDateTime": "2014-02-03 14:02:29.703 @+0200",
           "linksModificationDateTime": "2014-01-07 12:23:16.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2669,7 +2669,7 @@
           "creationDateTime": "2014-01-07 18:40:50.000 @+0200",
           "realModificationDateTime": "2014-01-07 18:41:08.000 @+0200",
           "displayModificationDateTime": "2014-01-21 14:10:50.000 @+0200",
-          "activationDateTime": "2014-01-21 14:10:35.000 @+0200",
+          "activationDateTime": "2014-01-31 10:04:38.936 @+0200",
           "linksModificationDateTime": "2014-01-07 18:40:50.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2759,8 +2759,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 12:09:17.000 @+0200",
           "realModificationDateTime": "2014-01-07 18:36:49.000 @+0200",
-          "displayModificationDateTime": "2014-01-28 17:19:47.085 @+0200",
-          "activationDateTime": "2014-01-28 17:11:04.140 @+0200",
+          "displayModificationDateTime": "2014-01-31 10:10:50.252 @+0200",
+          "activationDateTime": "2014-01-31 10:15:10.131 @+0200",
           "linksModificationDateTime": "2014-01-07 18:34:58.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2786,7 +2786,7 @@
           "creationDateTime": "2014-01-07 12:09:19.109 @+0200",
           "realModificationDateTime": "2014-01-07 18:37:27.083 @+0200",
           "displayModificationDateTime": "2014-01-23 12:47:04.000 @+0200",
-          "activationDateTime": "2014-01-28 17:20:50.812 @+0200",
+          "activationDateTime": "2014-01-31 10:11:09.978 @+0200",
           "linksModificationDateTime": "2014-01-07 18:34:58.288 @+0200",
           "isType": "0",
           "color": "0",
@@ -2812,7 +2812,7 @@
           "creationDateTime": "2014-01-07 12:09:18.000 @+0200",
           "realModificationDateTime": "2014-01-07 12:09:18.000 @+0200",
           "displayModificationDateTime": "2014-01-28 17:09:11.060 @+0200",
-          "activationDateTime": "2014-01-16 15:49:46.000 @+0200",
+          "activationDateTime": "2014-02-03 12:26:06.025 @+0200",
           "linksModificationDateTime": "2013-11-26 14:47:23.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2837,8 +2837,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 12:09:19.000 @+0200",
           "realModificationDateTime": "2014-01-07 12:09:19.000 @+0200",
-          "displayModificationDateTime": "2014-01-28 15:58:23.376 @+0200",
-          "activationDateTime": "2014-01-28 16:00:04.261 @+0200",
+          "displayModificationDateTime": "2014-01-31 09:59:25.278 @+0200",
+          "activationDateTime": "2014-01-31 09:57:46.142 @+0200",
           "linksModificationDateTime": "2013-11-26 15:04:23.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2851,7 +2851,7 @@
           "creationDateTime": "2014-01-07 12:09:19.000 @+0200",
           "realModificationDateTime": "2014-01-07 18:47:13.000 @+0200",
           "displayModificationDateTime": "2014-01-23 15:38:03.046 @+0200",
-          "activationDateTime": "2014-01-21 15:18:22.491 @+0200",
+          "activationDateTime": "2014-01-31 10:09:52.864 @+0200",
           "linksModificationDateTime": "2014-01-07 18:35:46.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -6781,10 +6781,10 @@
               "objectID": "B996E13B-ADA2-C7E2-8DAF-5BFC40D2738A"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoListParagraph&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;This is a Qur&#8217;an section from 12th century Andalusia. It is the 29th section (of 30), written on parchment, which was mostly likely copied in 12th century Seville. The Arabic Andalusian script developed out of Kufic script. Although the script uses conventional vowels and punctuation, it references the early Kufic script by using a distinct yellow dot for the hamza instead of a letter. Displayed here is the end of Chapter 77, Surat al-Mursalat, and the end of the section.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "",
           "format": "HTML",
           "creationDateTime": "2014-01-07 12:19:24.278 @+0200",
-          "modificationDateTime": "2014-01-13 14:49:36.852 @+0200"
+          "modificationDateTime": "2014-01-31 10:36:14.200 @+0200"
         },
         {
           "guid": "9ACDFE61-0A85-8F47-8589-15D4427FFB8D",
@@ -7613,10 +7613,10 @@
               "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Elimelech Basch lived in Tiachiv in eastern Hungary (today western Ukraine).Tiachiv was invaded by the Nazis in March, 1944. Between the years 1942-1944 Basch kept a diary, written in fine Hebrew&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;, &lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;describing the situation of the Jewish community there. During this period the Jews suffered from the oppressive Hungarian and Nazi regimes and moved between despair and hope.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;During the Jewish festival of Shavuot, May, 1944, the Jews of Tiachiv were all deported to Auschwitz.&amp;#160; Of the Basch family - the parents and their eight children &#8211; only one survived.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; style=&quot; margin: 0cm 0cm 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Photograph: The Basch family at the beginning of the 1930&apos;s.&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; style=&quot; margin: 0cm 0cm 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The only surviving member of the family, Mrs. Perhiya Senderovich (formerly Bluma Blanka Basch), is highlighted. &amp;#160;She now lives in Israel.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Elimelech Basch lived in Tiachiv in eastern Hungary (today western Ukraine).Tiachiv was invaded by the Nazis in March, 1944. Between the years 1942-1944 Basch kept a diary, written in fine Hebrew&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;, &lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;describing the situation of the Jewish community there. During this period the Jews suffered from the oppressive Hungarian and Nazi regimes and moved between despair and hope.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&lt;span pt=&quot;pt&quot; font-size=&quot;font-size&quot; plus=&quot;Plus&quot; gentium=&quot;Gentium&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;During the Jewish festival of Shavuot, May, 1944, the Jews of Tiachiv were all deported to Auschwitz.&amp;#160; Of the Basch family - the parents and their eight children &#8211; only one survived.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; style=&quot; margin: 0cm 0cm 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Photograph: The Basch family at the beginning of the 1930&apos;s.&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;defaultstyle&quot; style=&quot; margin: 0cm 0cm 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;The only surviving member of the family, Mrs. Perhiya Senderovich (formerly Bluma Blanka Basch), is highlighted. &amp;#160;She now lives in Israel.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:32:40.131 @+0200",
-          "modificationDateTime": "2014-01-14 14:41:06.627 @+0200"
+          "modificationDateTime": "2014-01-29 12:43:03.863 @+0200"
         },
         {
           "guid": "3E5CC5A8-2D60-132F-3342-D236B99FC611",
@@ -7681,7 +7681,7 @@
           "body": "",
           "format": "HTML",
           "creationDateTime": "2014-01-07 11:41:04.891 @+0200",
-          "modificationDateTime": "2014-01-07 12:13:03.292 @+0200"
+          "modificationDateTime": "2014-02-03 12:40:46.148 @+0200"
         },
         {
           "guid": "F713C96E-0435-60D4-F04B-82C4E3D54B05",
@@ -8276,10 +8276,10 @@
               "objectID": "D4C41630-D4E6-107B-C285-E728DB90E00B"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; margin-top: 0cm; margin-right: 25.45pt; margin-bottom: .0001pt; margin-left: 0cm; text-align: justify;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;From ancient times the Holy Land has been the focus of great attraction for both Jews and Christians and Muslims. Throughout the ages Jews and Christians have made pilgrimages to the Holy Land, envisaged scenes and stories from the Scriptures, and dreamt of it from afar. Many of them left behind them descriptions and studies of the Holy Land accompanied by views and drawings.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; margin-top: 0cm; margin-right: 25.45pt; margin-bottom: .0001pt; margin-left: 0cm; text-align: justify;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;The Eran Laor map collection in the National Library of Israel contains about 1500 maps of Jerusalem and of the Holy Land from the beginning of print up to our days.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&amp;#160;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&amp;#160;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; margin-top: 0cm; margin-right: 25.45pt; margin-bottom: .0001pt; margin-left: 0cm; text-align: justify;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;From ancient times the Holy Land has been the focus of great attraction for both Jews and Christians and Muslims. Throughout the ages Jews and Christians have made pilgrimages to the Holy Land, envisaged scenes and stories from the Scriptures, and dreamt of it from afar. Many of them left behind them descriptions and studies of the Holy Land accompanied by views and drawings.&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; margin-top: 0cm; margin-right: 25.45pt; margin-bottom: .0001pt; margin-left: 0cm; text-align: justify;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;The Eran Laor map collection in the National Library of Israel contains about 1500 maps of Jerusalem and of the Holy Land from the beginning of print up to our days.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&amp;#160;&lt;/p&gt;\n&lt;p&gt;&amp;#160;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 12:00:33.327 @+0200",
-          "modificationDateTime": "2014-01-12 16:33:13.730 @+0200"
+          "modificationDateTime": "2014-01-29 14:00:06.019 @+0200"
         },
         {
           "guid": "EBD19548-0168-7FCE-4509-5D64AA03193C",
@@ -8939,10 +8939,10 @@
               "objectID": "BF444223-70EA-6FA3-A859-2978BACB205C"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p style=&quot; margin-top: 4.8pt; margin-right: 0cm; margin-bottom: 6.0pt; margin-left: 0cm; line-height: 115%; background: white;&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;In 1920, Zweig married Friderike Maria von Winternitz (whom he divorced in 1938), and moved into a grand house in Salzburg. In the following years he wrote a series of novellas and biographical works, which were full of emotional tension and situations of social and psychological crises revolving around issues such as gambling, prostitution, adultery, and suicide. Zweig&apos;s works became extremely popular, and were criticized by some of his colleagues as &quot;railway carriage reading&quot;. Among these novellas were &lt;/span&gt;&lt;/span&gt;&lt;i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Amok, Fear, Compulsion&lt;/span&gt;&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; and &lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Twenty-Four_Hours_in_the_Life_of_a_Woman&quot; title=&quot;Twenty-Four Hours in the Life of a Woman&quot;&gt;&lt;i&gt;&lt;span style=&quot; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Twenty-Four Hours in the Life of a Woman&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/i&gt;&lt;/a&gt;&lt;span style=&quot; background: white;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; while his biographical subjects included Marie-Antoinette, Joseph Fouch&#233; and Magellan.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p style=&quot; margin-top: 4.8pt; margin-right: 0cm; margin-bottom: 6.0pt; margin-left: 0cm; line-height: 115%; background: white;&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;In 1920, Zweig married Friderike Maria von Winternitz (whom he divorced in 1938), and moved into a grand house in Salzburg. In the following years he wrote a series of novellas and biographical works, which were full of emotional tension and situations of social and psychological crises revolving around issues such as gambling, prostitution, adultery, and suicide. Zweig&apos;s works became extremely popular, and were criticized by some of his colleagues as &quot;railway carriage reading&quot;. Among these novellas were &lt;/span&gt;&lt;/span&gt;&lt;i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Amok, Fear, Compulsion &lt;/span&gt;&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;and&lt;/span&gt;&lt;/span&gt;&lt;i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; Twenty-Four Hours in the Life of a Woman&lt;/span&gt;&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt; w&lt;/span&gt;&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;hile his biographical subjects included Marie-Antoinette, Joseph Fouch&#233; and Magellan.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 12:09:32.306 @+0200",
-          "modificationDateTime": "2014-01-16 12:22:59.378 @+0200"
+          "modificationDateTime": "2014-01-31 10:03:48.274 @+0200"
         },
         {
           "guid": "1683E5F1-56FE-EAA2-C2CC-0CE35B2647D8",
@@ -9277,10 +9277,10 @@
               "objectID": "50F6B590-8A6C-A11A-E704-EB7A6C61EF9A"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;When WWI broke out, Zweig, a patriotic Austrian, at first came out in favor of the war. Zweig was conscripted and assigned to serve in the Austrian Archives of the Ministry of War. Having been exposed to the horrors of the war, Zweig underwent a significant change, and wrote a fervent anti-war drama called &quot;Jeremiah&quot; which won the acclaim of his friend, the famous author Thomas Mann. It was at that time, that Zweig adopted an extreme pacifist position, as did his friend the French novelist &lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Romain_Rolland&quot; title=&quot;Romain Rolland&quot;&gt;&lt;span style=&quot; color: windowtext; text-decoration: none;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Romain Rolland&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;. He then moved to&amp;#160;&lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Switzerland&quot; title=&quot;Switzerland&quot;&gt;&lt;span style=&quot; color: windowtext; text-decoration: none;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Switzerland&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&amp;#160;until the end of the war. Zweig remained a pacifist all of his life and advocated for the unification of Europe.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot; style=&quot; text-align: left; direction: ltr; unicode-bidi: embed;&quot;&gt;&lt;span style=&quot; line-height: 115%;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;When WWI broke out, Zweig, a patriotic Austrian, at first came out in favor of the war. Zweig was conscripted and assigned to serve in the Austrian Archives of the Ministry of War. Having been exposed to the horrors of the war, Zweig underwent a significant change, and wrote a fervent anti-war drama called &quot;Jeremiah&quot; which won the acclaim of his friend, the famous author Thomas Mann. It was at that time, that Zweig adopted an extreme pacifist position, as did his friend the French novelist Romain Rolland. He then moved to Switzerland until the end of the war. Zweig remained a pacifist all of his life and advocated for the unification of Europe.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-01-07 12:09:32.426 @+0200",
-          "modificationDateTime": "2014-01-16 12:20:05.363 @+0200"
+          "modificationDateTime": "2014-01-31 09:59:25.276 @+0200"
         },
         {
           "guid": "66E3C86C-B6CD-E60C-4737-AFB9F77681B3",
@@ -10854,13 +10854,13 @@
             "attachmentEntryID": "61FDBEE7-4C1E-D13B-502B-15680CFCC0D3"
           },
           "objectID": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
-          "name": "The Lo&#9568;&#1489;dz Ghetto.jpg",
+          "name": "The Lodz Ghetto.jpg",
           "attachmentType": "1",
-          "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\The Lo&#9568;&#1489;dz Ghetto.jpg",
+          "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\The Lodz Ghetto.jpg",
           "dataLength": "52046",
           "format": ".jpg",
           "creationDateTime": "2014-01-28 16:36:44.179 @+0200",
-          "modificationDateTime": "2014-01-28 16:36:44.179 @+0200"
+          "modificationDateTime": "2014-02-03 14:01:39.216 @+0200"
         },
         {
           "guid": "116D57AE-906B-A40B-D50A-2285622A6D49",
@@ -11557,10 +11557,10 @@
           "name": "Ortelius, Covenant of the Parts.jpg",
           "attachmentType": "1",
           "location": "4EF3CC70-DB9E-94F9-F02C-E59FA90A2BC5\\Ortelius, Covenant of the Parts.jpg",
-          "dataLength": "118685",
+          "dataLength": "99944",
           "format": ".jpg",
           "creationDateTime": "2014-01-07 12:00:34.199 @+0200",
-          "modificationDateTime": "2014-01-13 14:37:05.931 @+0200"
+          "modificationDateTime": "2014-01-30 14:04:11.043 @+0200"
         },
         {
           "guid": "DE4AC364-A163-6C21-1E79-6AC45F3756CE",
@@ -12207,6 +12207,34 @@
           "modificationDateTime": "2014-01-07 12:09:32.949 @+0200"
         },
         {
+          "guid": "3B0A5110-B4A3-5534-01CE-60F2ACD0FB3F",
+          "AttachmentEntries": {
+            "attachmentEntryID": "3C99E366-CD6E-9EB7-5E5C-6500F3D6590E"
+          },
+          "objectID": "CC6A7FD0-DD1F-B725-6AE4-F6E52977F471",
+          "name": "Der Judenstaat, 1896.jpg",
+          "attachmentType": "1",
+          "location": "CC6A7FD0-DD1F-B725-6AE4-F6E52977F471\\Der Judenstaat, 1896.jpg",
+          "dataLength": "23754",
+          "format": ".jpg",
+          "creationDateTime": "2014-02-02 15:52:19.983 @+0200",
+          "modificationDateTime": "2014-02-02 15:52:19.983 @+0200"
+        },
+        {
+          "guid": "42B4765D-2402-86BE-A8EF-6E23342DEC35",
+          "AttachmentEntries": {
+            "attachmentEntryID": "3C99E366-CD6E-9EB7-5E5C-6500F3D6590E"
+          },
+          "objectID": "CC6A7FD0-DD1F-B725-6AE4-F6E52977F471",
+          "name": "Herzl, First Zionist Congress at Basel, 1897.jpg",
+          "attachmentType": "1",
+          "location": "CC6A7FD0-DD1F-B725-6AE4-F6E52977F471\\Herzl, First Zionist Congress at Basel, 1897.jpg",
+          "dataLength": "101981",
+          "format": ".jpg",
+          "creationDateTime": "2014-02-02 15:52:20.033 @+0200",
+          "modificationDateTime": "2014-02-02 15:52:20.033 @+0200"
+        },
+        {
           "guid": "AE53E0DD-7919-A281-916B-7494DF6B3749",
           "AttachmentEntries": {
             "attachmentEntryID": "0643A74A-C1B6-B1AD-619C-F8CC992B4AB9"
@@ -12303,6 +12331,20 @@
           "format": "",
           "creationDateTime": "2014-01-19 17:21:46.194 @+0200",
           "modificationDateTime": "2014-01-19 17:30:37.489 @+0200"
+        },
+        {
+          "guid": "FA7215CA-8A70-250E-34C8-4F3788083E16",
+          "AttachmentEntries": {
+            "attachmentEntryID": "979A36D4-1661-4FCE-ADFA-CC53437A66B8"
+          },
+          "objectID": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
+          "name": "The Torah Scroll from Spain.jpg",
+          "attachmentType": "1",
+          "location": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3\\The Torah Scroll from Spain.jpg",
+          "dataLength": "145775",
+          "format": ".jpg",
+          "creationDateTime": "2014-01-29 12:29:07.091 @+0200",
+          "modificationDateTime": "2014-01-29 12:30:10.670 @+0200"
         },
         {
           "guid": "F69B2E8C-6BD4-211F-7313-BB96CC47B4C7",
@@ -13089,6 +13131,20 @@
           "modificationDateTime": "2014-01-28 15:36:01.218 @+0200"
         },
         {
+          "guid": "BCD3229B-2167-058D-4CF6-F8FFB9B3AC83",
+          "AttachmentEntries": {
+            "attachmentEntryID": "537AAD75-A095-ECEC-4176-374BFFFB1BD7"
+          },
+          "objectID": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+          "name": "Official medal of the state of Israel honouring Maimonides&apos; 800th anniversary, Israel Coins and Medals Corporation.jpg",
+          "attachmentType": "1",
+          "location": "B45441E4-0097-0317-6BDB-FD5F59E44DDA\\Official medal of the state of Israel honouring Maimonides&apos; 800th anniversary, Israel Coins and Medals Corporation.jpg",
+          "dataLength": "146802",
+          "format": ".jpg",
+          "creationDateTime": "2014-01-30 14:04:23.662 @+0200",
+          "modificationDateTime": "2014-01-30 14:04:23.662 @+0200"
+        },
+        {
           "guid": "CAEAD0E9-8983-3A73-BF15-78E8B8BF7FED",
           "AttachmentEntries": {
             "attachmentEntryID": "FA74FE2C-DA64-7080-8ED5-047ED2B9B6E6"
@@ -13397,18 +13453,18 @@
           "modificationDateTime": "2014-01-21 13:57:57.000 @+0200"
         },
         {
-          "guid": "3B9644C5-63BD-F8C1-D923-3E56B2D9F8E9",
+          "guid": "2DB2C1F3-6190-A4A2-A68C-3CA4E6E63E5B",
           "AttachmentEntries": {
             "attachmentEntryID": "D2180E5B-B2A5-FE50-BBBB-1D4456BAE3AA"
           },
           "objectID": "FF8523E3-155F-6F3D-37FB-5E17940C6DAF",
-          "name": "Benjamin&apos;s handwritten notebook, with parchment cover, NLI.jpg",
+          "name": "Benjamin&apos;s handwritten notebook with parchment cover, NLI.jpg",
           "attachmentType": "1",
-          "location": "FF8523E3-155F-6F3D-37FB-5E17940C6DAF\\Benjamin&apos;s handwritten notebook, with parchment cover, NLI.jpg",
-          "dataLength": "60145",
+          "location": "FF8523E3-155F-6F3D-37FB-5E17940C6DAF\\Benjamin&apos;s handwritten notebook with parchment cover, NLI.jpg",
+          "dataLength": "515055",
           "format": ".jpg",
-          "creationDateTime": "2014-01-28 17:10:23.085 @+0200",
-          "modificationDateTime": "2014-01-28 17:10:23.085 @+0200"
+          "creationDateTime": "2014-02-02 12:26:36.091 @+0200",
+          "modificationDateTime": "2014-02-02 12:26:36.091 @+0200"
         },
         {
           "guid": "4662807D-E14A-07E5-41F1-8BD110FB2101",
@@ -13808,13 +13864,13 @@
             "attachmentEntryID": "7298E5FE-4D9B-B5DC-2255-DE09E22CD465"
           },
           "objectID": "C588E3AE-91EB-2A99-50B8-6520308382D6",
-          "name": "Letter by Walter Benjamin to Gershom Scholem, Berlin 28.2.1933, p.2.jpg",
+          "name": "Letter by Walter Benjamin to Gershom Scholem, Berlin 28.2.1933, p.2, NLI.jpg",
           "attachmentType": "1",
-          "location": "C588E3AE-91EB-2A99-50B8-6520308382D6\\Letter by Walter Benjamin to Gershom Scholem, Berlin 28.2.1933, p.2.jpg",
+          "location": "C588E3AE-91EB-2A99-50B8-6520308382D6\\Letter by Walter Benjamin to Gershom Scholem, Berlin 28.2.1933, p.2, NLI.jpg",
           "dataLength": "157979",
           "format": ".jpg",
           "creationDateTime": "2014-01-28 17:16:28.002 @+0200",
-          "modificationDateTime": "2014-01-28 17:18:44.213 @+0200"
+          "modificationDateTime": "2014-01-31 10:10:50.251 @+0200"
         },
         {
           "guid": "A472F7BD-51C5-4488-B4EA-B4E5327296CF",
@@ -13822,13 +13878,13 @@
             "attachmentEntryID": "7298E5FE-4D9B-B5DC-2255-DE09E22CD465"
           },
           "objectID": "C588E3AE-91EB-2A99-50B8-6520308382D6",
-          "name": "Letter by Walter Benjamin to Gershom Scholem, Berlin, 28.2.1933, p.1.jpg",
+          "name": "Letter by Walter Benjamin to Gershom Scholem, Berlin, 28.2.1933, p.1, NLI.jpg",
           "attachmentType": "1",
-          "location": "C588E3AE-91EB-2A99-50B8-6520308382D6\\Letter by Walter Benjamin to Gershom Scholem, Berlin, 28.2.1933, p.1.jpg",
+          "location": "C588E3AE-91EB-2A99-50B8-6520308382D6\\Letter by Walter Benjamin to Gershom Scholem, Berlin, 28.2.1933, p.1, NLI.jpg",
           "dataLength": "195305",
           "format": ".jpg",
           "creationDateTime": "2014-01-28 17:15:00.248 @+0200",
-          "modificationDateTime": "2014-01-28 17:17:29.988 @+0200"
+          "modificationDateTime": "2014-01-31 10:10:35.238 @+0200"
         },
         {
           "guid": "8E3D0FE2-B701-076E-C9B2-D340528D0B5E",

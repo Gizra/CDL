@@ -1,6 +1,6 @@
 {
  "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
- "name": "The National Library of Israel as a Memory Deposit",
+ "name": "The National Library of Israel: A Memory Deposit",
  "children": [
   {
    "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
@@ -23,13 +23,13 @@
    "type": "default",
    "parent": {
     "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-    "name": "The National Library of Israel as a Memory Deposit"
+    "name": "The National Library of Israel: A Memory Deposit"
    },
    "hasChronologicalChildren": false,
    "children": [
     {
      "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
-     "name": "Commentary on the Mishnah",
+     "name": "The Commentary",
      "data": "<p><span><span><span>As in other scholarly fields, Maimonides broke new ground by writing a commentary directly on the </span></span><i><span><span>Mishnah</span></span></i><span><span>. &#160;Maimonides began composing his commentary in 1161, while living in in Morocco, and completed it in Egypt in 1168. The National Library of Israel owns an autograph copy of two parts of the work-</span></span><i><span><span>Nashim</span></span></i><span><span> and </span></span><i><span><span>Mo'ed</span></span></i><span><span>. This &#160;is one of the singular manuscripts written in Maimonides' own hand</span></span></span><span><span><span><span>.</span></span></span></span><span><span></span></span></p>\n<p><span><span>&#160;</span></span></p>\n<p><span><span><span>This page below is from </span></span><i><span><span>Seder Mo'ed</span></span></i><span><span> – \"Festival\". &#160;Although this is a \"clean\" copy, changes can still be seen. The large number of notes and corrections in the autograph are evidence of Maimonides' dynamic thinking and constant development. &#160;Maimonides was an original philosopher and thinker who never ceased to question and improve his works.</span></span></span><span><span></span></span></p>\n<p><span><span>&#160;</span></span></p>\n<p><span><span><span>The Commentary remained in the use of Maimonides' family. In the manuscripts kept at the National Library of Israel there are notes made by Maimonides' son Abraham, and his grandson David, both of whom were </span></span></span><span>scholars and leaders of the community.</span></p>\n",
      "attachments": [
       {
@@ -109,7 +109,7 @@
        "type": "default",
        "parent": {
         "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
-        "name": "Commentary on the Mishnah"
+        "name": "The Commentary"
        },
        "hasChronologicalChildren": false,
        "children": []
@@ -161,7 +161,7 @@
        "bastardName": "What is the Mishnah?",
        "parent": {
         "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
-        "name": "Commentary on the Mishnah"
+        "name": "The Commentary"
        },
        "hasChronologicalChildren": false,
        "children": []
@@ -188,7 +188,7 @@
        "bastardName": "What is the Talmud?",
        "parent": {
         "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
-        "name": "Commentary on the Mishnah"
+        "name": "The Commentary"
        },
        "hasChronologicalChildren": false,
        "children": []
@@ -201,7 +201,7 @@
        "type": "default",
        "parent": {
         "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
-        "name": "Commentary on the Mishnah"
+        "name": "The Commentary"
        },
        "hasChronologicalChildren": true,
        "children": [
@@ -340,7 +340,20 @@
      "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
      "name": "A Remarkable Life Story",
      "data": "<p><span>Maimonides' amazing life story starts in the multicultural world of Cordoba and ends in the King's court in Cairo.&#160;</span></p>\n<p>Photograph: an official medal of the state of Israel, honouring Maimonides' 800th anniversary, showing the various stations of Maimonides life across the Mediterranean.</p>\n",
-     "attachments": [],
+     "attachments": [
+      {
+       "guid": "BCD3229B-2167-058D-4CF6-F8FFB9B3AC83",
+       "AttachmentEntries": {
+        "attachmentEntryID": "537AAD75-A095-ECEC-4176-374BFFFB1BD7"
+       },
+       "objectID": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
+       "name": "Official medal of the state of Israel honouring Maimonides&apos; 800th anniversary, Israel Coins and Medals Corporation.jpg",
+       "attachmentType": "1",
+       "location": "B45441E4-0097-0317-6BDB-FD5F59E44DDA\\Official medal of the state of Israel honouring Maimonides&apos; 800th anniversary, Israel Coins and Medals Corporation.jpg",
+       "dataLength": "146802",
+       "format": ".jpg"
+      }
+     ],
      "type": "default",
      "parent": {
       "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
@@ -931,14 +944,14 @@
    "type": "default",
    "parent": {
     "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-    "name": "The National Library of Israel as a Memory Deposit"
+    "name": "The National Library of Israel: A Memory Deposit"
    },
    "hasChronologicalChildren": false,
    "children": [
     {
      "guid": "B996E13B-ADA2-C7E2-8DAF-5BFC40D2738A",
      "name": "Qur'an Manuscripts at NLI",
-     "data": "<p><span><span>This is a Qur’an section from 12th century Andalusia. It is the 29th section (of 30), written on parchment, which was mostly likely copied in 12th century Seville. The Arabic Andalusian script developed out of Kufic script. Although the script uses conventional vowels and punctuation, it references the early Kufic script by using a distinct yellow dot for the hamza instead of a letter. Displayed here is the end of Chapter 77, Surat al-Mursalat, and the end of the section.</span></span></p>\n",
+     "data": "",
      "attachments": [],
      "type": "default",
      "parent": {
@@ -1506,7 +1519,7 @@
   {
    "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
    "name": "Elimelech Basch's Diary",
-   "data": "<p><span pt=\"pt\" font-size=\"font-size\" plus=\"Plus\" gentium=\"Gentium\"><span><span>Elimelech Basch lived in Tiachiv in eastern Hungary (today western Ukraine).Tiachiv was invaded by the Nazis in March, 1944. Between the years 1942-1944 Basch kept a diary, written in fine Hebrew</span></span></span><b><span><span>, </span></span></b><span pt=\"pt\" font-size=\"font-size\" plus=\"Plus\" gentium=\"Gentium\"><span><span>describing the situation of the Jewish community there. During this period the Jews suffered from the oppressive Hungarian and Nazi regimes and moved between despair and hope.</span></span></span><span><span></span></span></p>\n<p><span pt=\"pt\" font-size=\"font-size\" plus=\"Plus\" gentium=\"Gentium\"><span><span>During the Jewish festival of Shavuot, May, 1944, the Jews of Tiachiv were all deported to Auschwitz.&#160; Of the Basch family - the parents and their eight children – only one survived.</span></span></span><span><span></span></span></p>\n<p><span><span>&#160;</span></span></p>\n<p><span><span>Photograph: The Basch family at the beginning of the 1930's.&#160;</span></span></p>\n<p><span><span>The only surviving member of the family, Mrs. Perhiya Senderovich (formerly Bluma Blanka Basch), is highlighted. &#160;She now lives in Israel.</span></span></p>\n",
+   "data": "<p><span pt=\"pt\" font-size=\"font-size\" plus=\"Plus\" gentium=\"Gentium\"><span><span>Elimelech Basch lived in Tiachiv in eastern Hungary (today western Ukraine).Tiachiv was invaded by the Nazis in March, 1944. Between the years 1942-1944 Basch kept a diary, written in fine Hebrew</span></span></span><b><span><span>, </span></span></b><span pt=\"pt\" font-size=\"font-size\" plus=\"Plus\" gentium=\"Gentium\"><span><span>describing the situation of the Jewish community there. During this period the Jews suffered from the oppressive Hungarian and Nazi regimes and moved between despair and hope.</span></span></span></p>\n<p><span pt=\"pt\" font-size=\"font-size\" plus=\"Plus\" gentium=\"Gentium\"><span><span>During the Jewish festival of Shavuot, May, 1944, the Jews of Tiachiv were all deported to Auschwitz.&#160; Of the Basch family - the parents and their eight children – only one survived.</span></span></span></p>\n<p>&#160;</p>\n<p><span><span>Photograph: The Basch family at the beginning of the 1930's.&#160;</span></span></p>\n<p><span><span>The only surviving member of the family, Mrs. Perhiya Senderovich (formerly Bluma Blanka Basch), is highlighted. &#160;She now lives in Israel.</span></span></p>\n",
    "attachments": [
     {
      "guid": "9E9E68EB-0B43-8713-7421-84CF87CA5F79",
@@ -1549,7 +1562,7 @@
    "type": "default",
    "parent": {
     "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-    "name": "The National Library of Israel as a Memory Deposit"
+    "name": "The National Library of Israel: A Memory Deposit"
    },
    "hasChronologicalChildren": true,
    "children": [
@@ -1837,9 +1850,9 @@
           "attachmentEntryID": "61FDBEE7-4C1E-D13B-502B-15680CFCC0D3"
          },
          "objectID": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293",
-         "name": "The Lo&#9568;&#1489;dz Ghetto.jpg",
+         "name": "The Lodz Ghetto.jpg",
          "attachmentType": "1",
-         "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\The Lo&#9568;&#1489;dz Ghetto.jpg",
+         "location": "72F39E01-4AA4-B0F0-A73F-6A5A2A39C293\\The Lodz Ghetto.jpg",
          "dataLength": "52046",
          "format": ".jpg"
         }
@@ -2115,12 +2128,24 @@
      "location": "https://soundcloud.com/shayesh/reading-the-torah-genesis",
      "dataLength": "0",
      "format": ""
+    },
+    {
+     "guid": "FA7215CA-8A70-250E-34C8-4F3788083E16",
+     "AttachmentEntries": {
+      "attachmentEntryID": "979A36D4-1661-4FCE-ADFA-CC53437A66B8"
+     },
+     "objectID": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
+     "name": "The Torah Scroll from Spain.jpg",
+     "attachmentType": "1",
+     "location": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3\\The Torah Scroll from Spain.jpg",
+     "dataLength": "145775",
+     "format": ".jpg"
     }
    ],
    "type": "default",
    "parent": {
     "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-    "name": "The National Library of Israel as a Memory Deposit"
+    "name": "The National Library of Israel: A Memory Deposit"
    },
    "hasChronologicalChildren": false,
    "children": [
@@ -2949,7 +2974,7 @@
    "type": "default",
    "parent": {
     "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-    "name": "The National Library of Israel as a Memory Deposit"
+    "name": "The National Library of Israel: A Memory Deposit"
    },
    "hasChronologicalChildren": false,
    "children": [
@@ -3629,7 +3654,7 @@
   {
    "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
    "name": "Maps of The Holy Land in the Laor collection",
-   "data": "<p><span>From ancient times the Holy Land has been the focus of great attraction for both Jews and Christians and Muslims. Throughout the ages Jews and Christians have made pilgrimages to the Holy Land, envisaged scenes and stories from the Scriptures, and dreamt of it from afar. Many of them left behind them descriptions and studies of the Holy Land accompanied by views and drawings.</span></p>\n<p><span>The Eran Laor map collection in the National Library of Israel contains about 1500 maps of Jerusalem and of the Holy Land from the beginning of print up to our days.</span></p>\n<p><span>&#160;</span></p>\n<p>&#160;</p>\n",
+   "data": "<p><span>From ancient times the Holy Land has been the focus of great attraction for both Jews and Christians and Muslims. Throughout the ages Jews and Christians have made pilgrimages to the Holy Land, envisaged scenes and stories from the Scriptures, and dreamt of it from afar. Many of them left behind them descriptions and studies of the Holy Land accompanied by views and drawings.</span></p>\n<p><span>The Eran Laor map collection in the National Library of Israel contains about 1500 maps of Jerusalem and of the Holy Land from the beginning of print up to our days.</span></p>\n<p>&#160;</p>\n<p>&#160;</p>\n",
    "attachments": [
     {
      "guid": "9F6D752E-7310-475F-4A3B-24B3609AB101",
@@ -3695,7 +3720,7 @@
    "type": "default",
    "parent": {
     "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-    "name": "The National Library of Israel as a Memory Deposit"
+    "name": "The National Library of Israel: A Memory Deposit"
    },
    "hasChronologicalChildren": false,
    "children": [
@@ -4001,7 +4026,7 @@
                    "name": "Ortelius, Covenant of the Parts.jpg",
                    "attachmentType": "1",
                    "location": "4EF3CC70-DB9E-94F9-F02C-E59FA90A2BC5\\Ortelius, Covenant of the Parts.jpg",
-                   "dataLength": "118685",
+                   "dataLength": "99944",
                    "format": ".jpg"
                   }
                  ],
@@ -4725,7 +4750,7 @@
   },
   {
    "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-   "name": "Zweig, Benjamin and Kafka in German Culture",
+   "name": "Zweig, Benjamin and Kafka",
    "data": "<p><span><span><span>In a gradual process, from the last quarter of the 19th century until the rise of the Nazis, Jews in the German-speaking world made the transition from exclusion to acceptance. Up until then Jews who wanted to take part in these societies usually had to convert to Christianity. However a definite change took place after 1848, when many former restrictions were lifted. Jews were especially successful in exploiting opportunities for advancement through education. It is this trend which allowed Kafka Zweig, and Benjamin to study in university, and made the idea of Benjamin receiving a university position tenable. &#160;Jews had become intellectual leaders in the German-speaking world.&#160;</span></span></span></p>\n",
    "attachments": [
     {
@@ -4768,7 +4793,7 @@
    "type": "default",
    "parent": {
     "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-    "name": "The National Library of Israel as a Memory Deposit"
+    "name": "The National Library of Israel: A Memory Deposit"
    },
    "hasChronologicalChildren": true,
    "children": [
@@ -4793,7 +4818,7 @@
      "type": "default",
      "parent": {
       "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-      "name": "Zweig, Benjamin and Kafka in German Culture"
+      "name": "Zweig, Benjamin and Kafka"
      },
      "hasChronologicalChildren": false,
      "children": [
@@ -5332,7 +5357,7 @@
      "type": "default",
      "parent": {
       "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-      "name": "Zweig, Benjamin and Kafka in German Culture"
+      "name": "Zweig, Benjamin and Kafka"
      },
      "hasChronologicalChildren": false,
      "children": [
@@ -5512,7 +5537,7 @@
          "children": [
           {
            "guid": "CC6A7FD0-DD1F-B725-6AE4-F6E52977F471",
-           "name": ":_: Theodore Herzl (1860 – 1904)t",
+           "name": ":_: Theodore Herzl (1860 – 1904)",
            "data": "<p><span>Theodore (Binyamin Ze'ev) Herzl was a Jewish journalist from Austro-Hungary. He is considered the father of the political Zionist movement.</span></p>\n<p><span>While serving as a correspondent of the Viennese paper, the <i>Neue Freie Presse</i> in Paris, Herzl witnessed the Dreyfus trial in which a Jewish officer was unjustly accused of treason. Herzl was horrified to see the Parisian mobs shouting: \"Death to the Jews!\" This, as well as many other anti-Semitic occurrences, brought him to the conclusion that the Jews must have a state of their own. In 1896, &#160;he published the revolutionary book, <i>Der Judenastaat</i>,&#160; and from then on worked relentlessly to promote the idea of a Jewish National State.&#160; Herzl died in 1904 and did not live to see his vision come to fruition.</span></p>\n",
            "attachments": [
             {
@@ -5526,10 +5551,34 @@
              "location": "http://de.wikisource.org/wiki/Der_Judenstaat",
              "dataLength": "0",
              "format": ""
+            },
+            {
+             "guid": "3B0A5110-B4A3-5534-01CE-60F2ACD0FB3F",
+             "AttachmentEntries": {
+              "attachmentEntryID": "3C99E366-CD6E-9EB7-5E5C-6500F3D6590E"
+             },
+             "objectID": "CC6A7FD0-DD1F-B725-6AE4-F6E52977F471",
+             "name": "Der Judenstaat, 1896.jpg",
+             "attachmentType": "1",
+             "location": "CC6A7FD0-DD1F-B725-6AE4-F6E52977F471\\Der Judenstaat, 1896.jpg",
+             "dataLength": "23754",
+             "format": ".jpg"
+            },
+            {
+             "guid": "42B4765D-2402-86BE-A8EF-6E23342DEC35",
+             "AttachmentEntries": {
+              "attachmentEntryID": "3C99E366-CD6E-9EB7-5E5C-6500F3D6590E"
+             },
+             "objectID": "CC6A7FD0-DD1F-B725-6AE4-F6E52977F471",
+             "name": "Herzl, First Zionist Congress at Basel, 1897.jpg",
+             "attachmentType": "1",
+             "location": "CC6A7FD0-DD1F-B725-6AE4-F6E52977F471\\Herzl, First Zionist Congress at Basel, 1897.jpg",
+             "dataLength": "101981",
+             "format": ".jpg"
             }
            ],
            "type": "bastard",
-           "bastardName": "Theodore Herzl (1860 – 1904)t",
+           "bastardName": "Theodore Herzl (1860 – 1904)",
            "parent": {
             "guid": "8C71E338-7233-5876-B3D8-8B072725E49F",
             "name": "First Steps as a Writer – Zweig and Herzl"
@@ -5849,7 +5898,7 @@
               {
                "guid": "50F6B590-8A6C-A11A-E704-EB7A6C61EF9A",
                "name": ":4: Stefan Zweig in WW I",
-               "data": "<p><span><span><span>When WWI broke out, Zweig, a patriotic Austrian, at first came out in favor of the war. Zweig was conscripted and assigned to serve in the Austrian Archives of the Ministry of War. Having been exposed to the horrors of the war, Zweig underwent a significant change, and wrote a fervent anti-war drama called \"Jeremiah\" which won the acclaim of his friend, the famous author Thomas Mann. It was at that time, that Zweig adopted an extreme pacifist position, as did his friend the French novelist </span></span><a href=\"http://en.wikipedia.org/wiki/Romain_Rolland\" title=\"Romain Rolland\"><span><span><span>Romain Rolland</span></span></span></a><span><span>. He then moved to&#160;</span></span><a href=\"http://en.wikipedia.org/wiki/Switzerland\" title=\"Switzerland\"><span><span><span>Switzerland</span></span></span></a><span><span>&#160;until the end of the war. Zweig remained a pacifist all of his life and advocated for the unification of Europe.</span></span></span></p>\n",
+               "data": "<p><span><span><span>When WWI broke out, Zweig, a patriotic Austrian, at first came out in favor of the war. Zweig was conscripted and assigned to serve in the Austrian Archives of the Ministry of War. Having been exposed to the horrors of the war, Zweig underwent a significant change, and wrote a fervent anti-war drama called \"Jeremiah\" which won the acclaim of his friend, the famous author Thomas Mann. It was at that time, that Zweig adopted an extreme pacifist position, as did his friend the French novelist Romain Rolland. He then moved to Switzerland until the end of the war. Zweig remained a pacifist all of his life and advocated for the unification of Europe.</span></span></span></p>\n",
                "attachments": [
                 {
                  "guid": "89C6FB0A-BC06-B744-D1FC-F315426583D4",
@@ -5888,7 +5937,7 @@
                 {
                  "guid": "BF444223-70EA-6FA3-A859-2978BACB205C",
                  "name": ":5: The Salzburg Period (1919-1933)",
-                 "data": "<p><span><span><span>In 1920, Zweig married Friderike Maria von Winternitz (whom he divorced in 1938), and moved into a grand house in Salzburg. In the following years he wrote a series of novellas and biographical works, which were full of emotional tension and situations of social and psychological crises revolving around issues such as gambling, prostitution, adultery, and suicide. Zweig's works became extremely popular, and were criticized by some of his colleagues as \"railway carriage reading\". Among these novellas were </span></span><i><span><span>Amok, Fear, Compulsion</span></span></i><span><span> and </span></span><a href=\"http://en.wikipedia.org/wiki/Twenty-Four_Hours_in_the_Life_of_a_Woman\" title=\"Twenty-Four Hours in the Life of a Woman\"><i><span><span><span>Twenty-Four Hours in the Life of a Woman</span></span></span></i></a><span><span><span>,</span></span></span><span><span> while his biographical subjects included Marie-Antoinette, Joseph Fouché and Magellan.</span></span></span></p>\n",
+                 "data": "<p><span><span><span>In 1920, Zweig married Friderike Maria von Winternitz (whom he divorced in 1938), and moved into a grand house in Salzburg. In the following years he wrote a series of novellas and biographical works, which were full of emotional tension and situations of social and psychological crises revolving around issues such as gambling, prostitution, adultery, and suicide. Zweig's works became extremely popular, and were criticized by some of his colleagues as \"railway carriage reading\". Among these novellas were </span></span><i><span><span>Amok, Fear, Compulsion </span></span></i><span><span>and</span></span><i><span><span> Twenty-Four Hours in the Life of a Woman</span></span></i><span><span>,</span></span><i><span><span> w</span></span></i><span><span>hile his biographical subjects included Marie-Antoinette, Joseph Fouché and Magellan.</span></span></span></p>\n",
                  "attachments": [
                   {
                    "guid": "D0F2DD32-AD99-303B-A2C4-EEA5C191CA1F",
@@ -6151,7 +6200,7 @@
      "type": "default",
      "parent": {
       "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-      "name": "Zweig, Benjamin and Kafka in German Culture"
+      "name": "Zweig, Benjamin and Kafka"
      },
      "hasChronologicalChildren": false,
      "children": [
@@ -6549,15 +6598,15 @@
        "data": "<p><span><span><span>When Benjamin felt the ground beginning to tremble under his feet he started thinking of the possibility of immigrating to Palestine, as did many other German-Jews at the time. Although he never reached Palestine, he had been sending material to his close friend Gershom Scholem, who was then the head of the Judaica department at the National Library, and, starting in 1925, a professor at the Hebrew University. In fact, Benjamin wrote to Scholem that these materials were all part of the </span></span><i><span><span>Beniaminia</span></span></i><span><span> archive which he was slowly building. Benjamin, like Zweig, understood that if he were to perish, the NLI was the safe haven for his intellectual work when all else was lost.</span></span></span></p>\n",
        "attachments": [
         {
-         "guid": "3B9644C5-63BD-F8C1-D923-3E56B2D9F8E9",
+         "guid": "2DB2C1F3-6190-A4A2-A68C-3CA4E6E63E5B",
          "AttachmentEntries": {
           "attachmentEntryID": "D2180E5B-B2A5-FE50-BBBB-1D4456BAE3AA"
          },
          "objectID": "FF8523E3-155F-6F3D-37FB-5E17940C6DAF",
-         "name": "Benjamin&apos;s handwritten notebook, with parchment cover, NLI.jpg",
+         "name": "Benjamin&apos;s handwritten notebook with parchment cover, NLI.jpg",
          "attachmentType": "1",
-         "location": "FF8523E3-155F-6F3D-37FB-5E17940C6DAF\\Benjamin&apos;s handwritten notebook, with parchment cover, NLI.jpg",
-         "dataLength": "60145",
+         "location": "FF8523E3-155F-6F3D-37FB-5E17940C6DAF\\Benjamin&apos;s handwritten notebook with parchment cover, NLI.jpg",
+         "dataLength": "515055",
          "format": ".jpg"
         }
        ],
@@ -6579,9 +6628,9 @@
             "attachmentEntryID": "7298E5FE-4D9B-B5DC-2255-DE09E22CD465"
            },
            "objectID": "C588E3AE-91EB-2A99-50B8-6520308382D6",
-           "name": "Letter by Walter Benjamin to Gershom Scholem, Berlin 28.2.1933, p.2.jpg",
+           "name": "Letter by Walter Benjamin to Gershom Scholem, Berlin 28.2.1933, p.2, NLI.jpg",
            "attachmentType": "1",
-           "location": "C588E3AE-91EB-2A99-50B8-6520308382D6\\Letter by Walter Benjamin to Gershom Scholem, Berlin 28.2.1933, p.2.jpg",
+           "location": "C588E3AE-91EB-2A99-50B8-6520308382D6\\Letter by Walter Benjamin to Gershom Scholem, Berlin 28.2.1933, p.2, NLI.jpg",
            "dataLength": "157979",
            "format": ".jpg"
           },
@@ -6591,9 +6640,9 @@
             "attachmentEntryID": "7298E5FE-4D9B-B5DC-2255-DE09E22CD465"
            },
            "objectID": "C588E3AE-91EB-2A99-50B8-6520308382D6",
-           "name": "Letter by Walter Benjamin to Gershom Scholem, Berlin, 28.2.1933, p.1.jpg",
+           "name": "Letter by Walter Benjamin to Gershom Scholem, Berlin, 28.2.1933, p.1, NLI.jpg",
            "attachmentType": "1",
-           "location": "C588E3AE-91EB-2A99-50B8-6520308382D6\\Letter by Walter Benjamin to Gershom Scholem, Berlin, 28.2.1933, p.1.jpg",
+           "location": "C588E3AE-91EB-2A99-50B8-6520308382D6\\Letter by Walter Benjamin to Gershom Scholem, Berlin, 28.2.1933, p.1, NLI.jpg",
            "dataLength": "195305",
            "format": ".jpg"
           }
@@ -6837,7 +6886,7 @@
      "chronologicalName": "German-speaking Jews in the NLI Archives",
      "parent": {
       "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-      "name": "Zweig, Benjamin and Kafka in German Culture"
+      "name": "Zweig, Benjamin and Kafka"
      },
      "hasChronologicalChildren": false,
      "children": []
@@ -6890,7 +6939,7 @@
    "type": "default",
    "parent": {
     "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-    "name": "The National Library of Israel as a Memory Deposit"
+    "name": "The National Library of Israel: A Memory Deposit"
    },
    "hasChronologicalChildren": false,
    "children": [
