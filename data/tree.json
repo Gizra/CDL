@@ -21,10 +21,6 @@
     }
    ],
    "type": "default",
-   "parent": {
-    "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-    "name": "The National Library of Israel: A Memory Deposit"
-   },
    "hasChronologicalChildren": false,
    "children": [
     {
@@ -942,10 +938,6 @@
     }
    ],
    "type": "default",
-   "parent": {
-    "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-    "name": "The National Library of Israel: A Memory Deposit"
-   },
    "hasChronologicalChildren": false,
    "children": [
     {
@@ -1560,10 +1552,6 @@
     }
    ],
    "type": "default",
-   "parent": {
-    "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-    "name": "The National Library of Israel: A Memory Deposit"
-   },
    "hasChronologicalChildren": true,
    "children": [
     {
@@ -2143,10 +2131,6 @@
     }
    ],
    "type": "default",
-   "parent": {
-    "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-    "name": "The National Library of Israel: A Memory Deposit"
-   },
    "hasChronologicalChildren": false,
    "children": [
     {
@@ -2972,10 +2956,6 @@
     }
    ],
    "type": "default",
-   "parent": {
-    "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-    "name": "The National Library of Israel: A Memory Deposit"
-   },
    "hasChronologicalChildren": false,
    "children": [
     {
@@ -3718,10 +3698,6 @@
     }
    ],
    "type": "default",
-   "parent": {
-    "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-    "name": "The National Library of Israel: A Memory Deposit"
-   },
    "hasChronologicalChildren": false,
    "children": [
     {
@@ -4791,10 +4767,6 @@
     }
    ],
    "type": "default",
-   "parent": {
-    "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-    "name": "The National Library of Israel: A Memory Deposit"
-   },
    "hasChronologicalChildren": true,
    "children": [
     {
@@ -6937,10 +6909,6 @@
     }
    ],
    "type": "default",
-   "parent": {
-    "guid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
-    "name": "The National Library of Israel: A Memory Deposit"
-   },
    "hasChronologicalChildren": false,
    "children": [
     {
