@@ -1,0 +1,16 @@
+/*
+ * This file contains the fixes for compass file generated.
+ */
+
+div.node-title {
+  display: -moz-box;
+  -moz-box-align: center;
+  -moz-box-pack: center;
+}
+
+div.navigation-list > ul > li {
+  display: -moz-box;
+  -moz-box-align: center;
+  -moz-box-pack: justify;
+}
+

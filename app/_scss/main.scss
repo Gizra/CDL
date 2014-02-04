@@ -175,6 +175,7 @@ div.cdl {
       @include display-box;
       @include box-align(center);
       @include box-pack(center);
+
       height: 270px;
       width: 270px;
       border-radius: 50%;
@@ -185,6 +186,7 @@ div.cdl {
       margin-bottom: 55px;
 
       div.text-title {
+
         width: 191px;
         max-height: 147px;
         font-family: 'Miso';
@@ -192,6 +194,7 @@ div.cdl {
 
         div.inner-text-title {
           line-height: 1em;
+
         }
       }
     }
