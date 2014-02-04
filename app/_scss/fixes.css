@@ -8,9 +8,9 @@ div.node-title {
   -moz-box-pack: center;
 }
 
-div.navigation-list > ul > li {
+div.navigation-list ul li {
   display: -moz-box;
   -moz-box-align: center;
-  -moz-box-pack: justify;
+  -moz-box-pack: center;
 }
 
