@@ -244,7 +244,7 @@ layout: page
       <div id="menu-nodes">
         <div class="navigation-node">
           <div class="navigation-parent">
-            {% if page.parent != empty %}
+            {% if page.parent %}
             <div class="navigation-list">
               <ul class="nav nav-tabs">
                 <li>
@@ -259,9 +259,21 @@ layout: page
             <div class="navigation-list">
               <ul class="nav nav-tabs">
                 {% for child in page.children %}
+
+                {% if forloop.index0 == 0 %}
+                  {% if page.parent %}
                 <li>
+                  {% else %}
+                <li class="top-children">
+                  {% endif %}
+                {% else %}
+                <li>
+                {% endif %}
+
                   <a href="{{ BASE_PATH }}/pages/{{ child.guid }}">{{ child.name | upcase }}</a><a class="node-link" href="{{ BASE_PATH }}/pages/{{ child.guid }}"><img src="{{ BASE_PATH }}/images/link.png" alt="node-link"/></a>
                 </li>
+
+
                 {% endfor %}
               </ul>
             </div>
