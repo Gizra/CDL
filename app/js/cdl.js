@@ -394,6 +394,11 @@
             circlesChronological,
             triangle;
 
+          // Get actual scale in case the ratio if is undefined.
+          if (typeof ratio === 'undefined') {
+            ratio = this.getScale();
+          }
+
           // Selection of the objects.
           selection = g.selectAll('.node');
 
@@ -436,19 +441,21 @@
           // Refresh properties of the circles.
           if (ratio < config.chart.zoom.hideGrandChildren) {
 
-            circles.transition()
+            circles.filter(function(node) { return node.depth > 1; })
+              .transition()
               .duration(config.chart.transitions.circles)
               .ease('linear')
               .attr('r', 0);
 
-            circlesChronological.transition()
+            circlesChronological.filter(function(node) { return node.depth > 1; })
+              .transition()
               .duration(config.chart.transitions.circles)
               .ease('linear')
               .attr('r', 0);
-
 
             // Target Touch: Resize target touch area.
-            circleTarget.transition()
+            circleTarget.filter(function(node) { return node.depth > 1; })
+              .transition()
               .duration(config.chart.transitions.circles)
               .attr('r', 0);
 
@@ -1296,6 +1303,7 @@
           .attr('cy', function() { return drawModule().centerPoint().y; });
 
         draw.setInitialScalation();
+        draw.all();
       },
       selectNodeById: function(id) {
         return draw.getElementById(id);

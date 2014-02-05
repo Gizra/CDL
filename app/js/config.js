@@ -135,9 +135,9 @@
         fill: 'red',
         stroke: 'red',
         strokeWidth: 1,
-        r: 80,
-        rFocus: 80,
-        targetTouch: 80
+        r: 50,
+        rFocus: 50,
+        targetTouch: 50
       },
       focus: {
         fill: 'black',
