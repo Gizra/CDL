@@ -115,7 +115,6 @@ div.cdl {
       .item-2 {
         min-width: 220px;
         width: 220px;
-        height: 138px;
         float: right;
       }
     }
@@ -129,7 +128,6 @@ div.cdl {
       .item-2 {
         min-width: 220px;
         width: 220px;
-        height: 138px;
         float: right;
       }
     }
@@ -151,7 +149,6 @@ div.cdl {
       .item-2 {
         min-width: 220px;
         width: 220px;
-        height: 138px;
         float: right;
       }
     }
@@ -171,6 +168,15 @@ div.cdl {
       }
 
     }
+  }
+
+  div.caption {
+    font-family: 'Calluna';
+    line-height: 1.2em;
+    font-size: 15px;
+    color: black;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
   }
 
   div.canvas {

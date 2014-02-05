@@ -1019,6 +1019,10 @@ module.exports = function (grunt) {
           if (attachment.format === '.jpg' || attachment.format === '.png') {
             // Sanitize url.
             item.src = item.src.replace(/\\/, '/');
+            // Normalize the extension format.
+            item.name = item.name.replace(/.PNG|.JPG/, attachment.format);
+            // Remove extension value from the name.
+            item.name = item.name.replace(attachment.format, '');
             attachmentsParsed.images.push(item);
           }
           else if (attachment.format === '.mp3') {

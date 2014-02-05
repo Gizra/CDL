@@ -53,6 +53,7 @@ layout: page
                   <a class="data-gallery-0" href="{{ BASE_PATH }}/pages/{{ attachment.src }}" title="{{ attachment.name }}" data-gallery="data-gallery-0">
                     <img class="images-{{ forloop.index }}" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
                   </a>
+                  <div class="caption caption-{{ forloop.index }}">{{ attachment.name }}</div>
                 </div>
 
               {% if count == 2 %}
@@ -76,6 +77,7 @@ layout: page
                   <a class="data-gallery-0" href="{{ BASE_PATH }}/pages/{{ attachment.src }}" title="{{ attachment.name }}" data-gallery="data-gallery-0">
                     <img class="images-{{ forloop.index }}" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
                   </a>
+                  <div class="caption caption-{{ forloop.index }}">{{ attachment.name }}</div>
                 </div>
 
               </div>
@@ -164,6 +166,7 @@ layout: page
                         <a class="data-gallery-{{ galleryIndex }}" href="{{ BASE_PATH }}/pages/{{ attachment.src }}" title="{{ attachment.name }}" data-gallery="#data-gallery-{{ galleryIndex }}">
                           <img class="images-{{ forloop.index }}" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
                         </a>
+                        <div class="caption caption-{{ forloop.index }}">{{ attachment.name }}</div>
                       </div>
 
                     {% if count == 2 %}
@@ -184,6 +187,7 @@ layout: page
                       <a class="data-gallery-{{ galleryIndex }}" href="{{ BASE_PATH }}/pages/{{ attachment.src }}" title="{{ attachment.name }}" data-gallery="data-gallery-{{ galleryIndex }}">
                         <img class="images-{{ forloop.index }}" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
                       </a>
+                      <div class="caption caption-{{ forloop.index }}">{{ attachment.name }}</div>
                     </div>
 
                   </div>
