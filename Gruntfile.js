@@ -433,6 +433,10 @@ module.exports = function (grunt) {
         {
           from: 'url(/fonts/',
           to: 'url(http://gizra.github.io/CDL/fonts/'
+        },
+        {
+          from: 'url(/images/',
+          to: 'url(http://gizra.github.io/CDL/images/'
         }]
       }
     },
