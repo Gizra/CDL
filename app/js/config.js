@@ -18,9 +18,9 @@
      */
     this.chart = {
       initial: {
-        x: function(width) { return -width * 0.20;},
-        y: function(height) { return height * 0.45;},
-        minZoom: 1,
+        x: function(width) { return -width * 0.03;},
+        y: function(height) { return height * 0.35;},
+        minZoom: 0.60,
         maxZoom: 5,
         rootPosition: {
           x: function(width) { return width/3;},
@@ -41,7 +41,8 @@
           show: false
         },
         transition: 750,
-        hideTriangle: 10
+        hideTriangle: 10,
+        hideGrandChildren: 0.61
       },
       center: {
         color: 'green',
@@ -118,7 +119,7 @@
         fill: 'red',
         stroke: 'red',
         strokeWidth: 1,
-        r: 15,
+        r: 12,
         rFocus: 80,
         targetTouch: 50
       },
@@ -134,9 +135,9 @@
         fill: 'red',
         stroke: 'red',
         strokeWidth: 1,
-        r: 80,
-        rFocus: 80,
-        targetTouch: 80
+        r: 50,
+        rFocus: 50,
+        targetTouch: 50
       },
       focus: {
         fill: 'black',
