@@ -438,80 +438,45 @@
           // Refresh Text.
           this.updateText(selection);
 
-          // Refresh properties of the circles.
-          if (ratio < config.chart.zoom.hideGrandChildren) {
+          // Refresh Circles.
+          circles.filter(function(node){ return node.depth > 0; })
+            .transition()
+            .duration(config.chart.transitions.circles)
+            .ease('linear')
+            .attr('r', nodeExtend().getRadius)
+            .style('fill', nodeExtend().fill)
+            .style('stroke', nodeExtend().stroke)
+            .style('stroke-width', nodeExtend().strokeWidth);
 
-            circles.filter(function(node) { return node.depth > 1; })
-              .transition()
-              .duration(config.chart.transitions.circles)
-              .ease('linear')
-              .attr('r', 0);
+          circlesChronological.transition()
+            .duration(config.chart.transitions.circles)
+            .ease('linear')
+            .attr('r', nodeExtend().getRadiusInternal)
+            .style('stroke', nodeExtend().stroke)
+            .style('stroke-width', nodeExtend().strokeWidth);
 
-            circlesChronological.filter(function(node) { return node.depth > 1; })
-              .transition()
-              .duration(config.chart.transitions.circles)
-              .ease('linear')
-              .attr('r', 0);
+          // Target Touch: Resize target touch area.
+          circleTarget.transition()
+            .duration(config.chart.transitions.circles)
+            .attr('r', nodeExtend().targetTouch);
 
-            // Target Touch: Resize target touch area.
-            circleTarget.filter(function(node) { return node.depth > 1; })
-              .transition()
-              .duration(config.chart.transitions.circles)
-              .attr('r', 0);
+          // Update connections.
+          system.selectAll('.link')
+            .transition()
+            .duration(config.chart.transitions.lines)
+            .style('stroke-width', draw.getLinkWidth());
 
-            // Update connections.
-            system.selectAll('.link')
-              .transition()
-              .duration(config.chart.transitions.lines)
-              .style('stroke-width', 0);
+          system.selectAll('.dashed')
+            .transition()
+            .duration(config.chart.transitions.lines)
+            .style('stroke-width', function() { return (ratio > config.chart.zoom.dashedLine.hideInScale) ? 0 : config.chart.dashedLine.strokeWidth/ratio;});
 
-            system.selectAll('.dashed')
-              .transition()
-              .duration(config.chart.transitions.lines)
-              .style('stroke-width', 0);
+          system.select('#line-active')
+            .transition()
+            .duration(config.chart.transitions.lines)
+            .style('stroke-width', draw.getLinkWidth());
 
-            system.select('#line-active')
-              .transition()
-              .duration(config.chart.transitions.lines)
-              .style('stroke-width', 0);
-          }
-          else {
-            circles.transition()
-              .duration(config.chart.transitions.circles)
-              .ease('linear')
-              .attr('r', nodeExtend().getRadius)
-              .style('fill', nodeExtend().fill)
-              .style('stroke', nodeExtend().stroke)
-              .style('stroke-width', nodeExtend().strokeWidth);
-
-            circlesChronological.transition()
-              .duration(config.chart.transitions.circles)
-              .ease('linear')
-              .attr('r', nodeExtend().getRadiusInternal)
-              .style('stroke', nodeExtend().stroke)
-              .style('stroke-width', nodeExtend().strokeWidth);
-
-            // Target Touch: Resize target touch area.
-            circleTarget.transition()
-              .duration(config.chart.transitions.circles)
-              .attr('r', nodeExtend().targetTouch);
-
-            // Update connections.
-            system.selectAll('.link')
-              .transition()
-              .duration(config.chart.transitions.lines)
-              .style('stroke-width', draw.getLinkWidth());
-
-            system.selectAll('.dashed')
-              .transition()
-              .duration(config.chart.transitions.lines)
-              .style('stroke-width', function() { return (ratio > config.chart.zoom.dashedLine.hideInScale) ? 0 : config.chart.dashedLine.strokeWidth/ratio;});
-
-            system.select('#line-active')
-              .transition()
-              .duration(config.chart.transitions.lines)
-              .style('stroke-width', draw.getLinkWidth());
-          }
+          this.hideGrandChildren(ratio);
 
         },
         updateText: function(selection) {
@@ -725,6 +690,10 @@
          * @returns {{x: *, y: *}}
          */
         initialPoint: function() {
+          if (typeof drawReference.initialPoint === 'undefined') {
+            draw.setInitialPoint(config.chart.initial.x(width), config.chart.initial.y(height));
+          }
+
           return drawReference.initialPoint;
         },
         /**
@@ -874,6 +843,9 @@
 
           // Check if the hash exist on the URL.
           if (!hash) {
+
+            // Apply the inital scale scale
+            draw.setInitialScalation();
             return;
           }
 
@@ -903,14 +875,63 @@
          *   Scale of zoom requested. Actually maximun zoom scale.
          */
         setInitialScalation: function() {
-          var initialPosition;
+          var initialPosition,
+            scale = this.getScale();
 
-          initialPosition = system.transition()
+          system.transition()
             .duration(config.chart.zoom.transition)
-            .attr('transform', 'translate(' + draw.initialPoint().x + ', ' + draw.initialPoint().y + ')scale(' + this.getScale() + ')');
+            .attr('transform', 'translate(' + draw.initialPoint().x +', ' + draw.initialPoint().y + ')scale(' + scale + ')');
 
         },
-        hideGrandChildren: function() {
+        hideGrandChildren: function(ratio) {
+          // Selection of the objects.
+          var selection,
+            circles,
+            circlesChronological,
+            circleTarget;
+
+          if (ratio < config.chart.zoom.hideGrandChildren) {
+            selection = g.selectAll('.node');
+
+            circles = selection.selectAll('.circle-node');
+            circlesChronological = selection.selectAll('.circle-chronological');
+            circleTarget = selection.selectAll('.circle-target');
+
+            circles.filter(function(node) { return node.depth > 1; })
+              .transition()
+              .duration(config.chart.transitions.circles)
+              .ease('linear')
+              .attr('r', 0);
+
+            circlesChronological.filter(function(node) { return node.depth > 1; })
+              .transition()
+              .duration(config.chart.transitions.circles)
+              .ease('linear')
+              .attr('r', 0);
+
+            // Target Touch: Resize target touch area.
+            circleTarget.filter(function(node) { return node.depth > 1; })
+              .transition()
+              .duration(config.chart.transitions.circles)
+              .attr('r', 0);
+
+            // Update connections.
+            system.selectAll('.link')
+              .transition()
+              .duration(config.chart.transitions.lines)
+              .style('stroke-width', 0);
+
+            system.selectAll('.dashed')
+              .transition()
+              .duration(config.chart.transitions.lines)
+              .style('stroke-width', 0);
+
+            system.select('#line-active')
+              .transition()
+              .duration(config.chart.transitions.lines)
+              .style('stroke-width', 0);
+          }
+
 
         }
       };
@@ -1277,7 +1298,7 @@
     draw.updateText();
 
     // Hide the nodes and connection of depth 2+.
-    draw.hideGrandChildren();
+    draw.hideGrandChildren(draw.getScale());
 
     // Refocus the last node checked in the content pages.
     draw.refocusNode(node);
@@ -1287,11 +1308,10 @@
       setBackgroud: function() {
         draw.setInitialPoint(config.chart.initial.x(width), config.chart.initial.y(height));
 
-        background
-          .style('fill', 'white')
+        background.style('fill', 'white')
           .attr('transform', 'translate(' + draw.initialPoint().x + ', ' + draw.initialPoint().y + ')');
-        system
-          .attr('transform', 'translate(' + draw.initialPoint().x + ', ' + draw.initialPoint().y + ')');
+
+        system.attr('transform', 'translate(' + draw.initialPoint().x + ', ' + draw.initialPoint().y + ')');
 
         zoomSvg.translate([draw.initialPoint().x, draw.initialPoint().y]);
         zoomSvg.scale(config.chart.initial.minZoom);
@@ -1301,9 +1321,6 @@
           .style('fill', color)
           .attr('cx', function() { return drawModule().centerPoint().x; })
           .attr('cy', function() { return drawModule().centerPoint().y; });
-
-        draw.setInitialScalation();
-        draw.all();
       },
       selectNodeById: function(id) {
         return draw.getElementById(id);

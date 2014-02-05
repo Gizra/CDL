@@ -119,7 +119,7 @@
         fill: 'red',
         stroke: 'red',
         strokeWidth: 1,
-        r: 15,
+        r: 12,
         rFocus: 80,
         targetTouch: 50
       },
