@@ -21,7 +21,23 @@ div.home-icon {
   margin-top: 8px;
   margin-left: 10px;
   position: fixed;
+
+  div.arrow-icon {
+    background:url('/images/home.png') no-repeat top left;
+    width: 50px;
+    height: 50px;
+  }
 }
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+
+  div.arrow-icon {
+    background:url('/images/home@2x.png') no-repeat top left;
+    background-size: 50px 50px;
+  }
+}
+
 
 div.cdl {
   margin-left: 0;
