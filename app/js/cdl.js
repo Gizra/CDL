@@ -934,17 +934,58 @@
         },
         showTranslation: function() {
           var translation = system.select('#translation'),
-            circle;
+            circle,
+            gTranslate,
+            data = {
+              name: 'La Bibioteca Nacional de Israel depósito de memoria',
+              styleNode: 'translation'
+            };
+
 
           if (config.chart.translation.show) {
+
+
             // Create translation button.
             if (translation.empty()) {
-              system.append('circle')
+
+              gTranslate = system.append('g')
                 .attr('id', 'translation')
-                .attr('r', config.chart.translation.size.r/this.getScale())
+                .selectAll('node-translate')
+                .data([config.chart.translation.data])
+                .enter()
+                .append('g')
+                .attr('id', 'node-translate')
+                .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; });
+
+              console.log(gTranslate.data());
+
+              circle = gTranslate.append('circle')
+                .attr('id', 'node-translate')
+                .attr('r', nodeExtend().getRadius)
                 .attr('cx', config.chart.translation.position.x/this.getScale())
                 .attr('cy', config.chart.translation.position.y/this.getScale())
-                .style('fill', 'red');
+                .style('fill', nodeExtend().fill)
+                .style('stroke', nodeExtend().stroke)
+                .style('stroke-width', nodeExtend().strokeWidth);
+
+              textbox = gTranslate.append('foreignObject')
+                .attr('class', 'textbox textbox-translate');
+
+              textbox.attr('x', text().x)
+                .attr('y', text().y)
+                .attr('width', text().width)
+                .attr('height', text().height)
+                .attr('transform', text().transform)
+                .append('xhtml:body')
+                .attr('class', 'area')
+                .html(text().html)
+                .on('click', nodeExtend().click);
+
+              textbox.select('.translate')
+                .style('height', function() { console.log(this); return text().heightCss(draw.searchNode(this)); })
+                .style('color', 'black')
+                .style('display', 'table-cell')
+                .style('vertical-align', 'middle');
 
             }
 
@@ -1263,6 +1304,9 @@
       .attr('class', 'node')
       .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; });
 
+    // Translation.
+    draw.showTranslation();
+
     // Circles.
     node.append('circle')
       .attr('id', function(node, index) { return 'n' + index + '-circle'; })
@@ -1320,8 +1364,6 @@
     // Refocus the last node checked in the content pages.
     draw.refocusNode(node);
 
-    // Translation.
-    draw.showTranslation();
 
 
     // Public CDL API.

@@ -78,14 +78,17 @@
       translation: {
         show: true,
         position: {
-          x: 920,
+          x: 320,
           y: -90
         },
         size: {
           r: 50
         },
-        text: {
-          title: '',
+        data: {
+          name: 'bibloteca',
+          x: 320,
+          y: -90,
+          styleNode: 'translation',
           url: '#'
         }
       }
@@ -160,6 +163,14 @@
         r: 5,
         rFocus: 12,
         targetTouch: 15
+      },
+      translation: {
+        fill: 'transparent',
+        stroke: 'black',
+        strokeWidth: 1,
+        r: 50,
+        rFocus: 50,
+        targetTouch: 50
       }
     };
 
@@ -236,6 +247,14 @@
         height: 60,
         scale: 0.2,
         class: 'activated'
+      },
+      translation: {
+        x: -55,
+        y: -55,
+        width: 110,
+        height: 110,
+        scale: 1.2,
+        class: 'translate'
       }
     };
   }
