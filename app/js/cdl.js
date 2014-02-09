@@ -939,8 +939,6 @@
           if (config.chart.translation.show) {
             // Create translation button.
             if (translation.empty()) {
-              console.log();
-
               system.append('circle')
                 .attr('id', 'translation')
                 .attr('r', config.chart.translation.size.r/this.getScale())
@@ -948,7 +946,6 @@
                 .attr('cy', config.chart.translation.position.y/this.getScale())
                 .style('fill', 'red');
 
-              console.log(circle);
             }
 
 
