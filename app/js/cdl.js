@@ -1305,7 +1305,7 @@
       .on('click', nodeExtend().click)
       .attr('class', 'circle-target')
       .attr('r', nodeExtend().targetTouch)
-      .style('fill', function() { return (config.chart.initial.targetTouch.show) ? config.chart.initial.targetTouch.color : 'tranparent'; })
+      .style('fill', function() { return (config.chart.initial.targetTouch.show) ? config.chart.initial.targetTouch.color : 'transparent'; })
       .style('stroke', config.chart.initial.targetTouch.color)
       .style('stroke-width', 1);
 
