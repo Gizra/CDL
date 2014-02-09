@@ -74,6 +74,20 @@
         titles: 40,
         circles: 40,
         lines: 40
+      },
+      translation: {
+        show: true,
+        position: {
+          x: 920,
+          y: -90
+        },
+        size: {
+          r: 50
+        },
+        text: {
+          title: '',
+          url: '#'
+        }
       }
     };
 

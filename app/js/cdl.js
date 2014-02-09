@@ -931,8 +931,28 @@
               .duration(config.chart.transitions.lines)
               .style('stroke-width', 0);
           }
+        },
+        showTranslation: function() {
+          var translation = system.select('#translation'),
+            circle;
+
+          if (config.chart.translation.show) {
+            // Create translation button.
+            if (translation.empty()) {
+              console.log();
+
+              system.append('circle')
+                .attr('id', 'translation')
+                .attr('r', config.chart.translation.size.r/this.getScale())
+                .attr('cx', config.chart.translation.position.x/this.getScale())
+                .attr('cy', config.chart.translation.position.y/this.getScale())
+                .style('fill', 'red');
+
+              console.log(circle);
+            }
 
 
+          }
         }
       };
     };
@@ -1302,6 +1322,10 @@
 
     // Refocus the last node checked in the content pages.
     draw.refocusNode(node);
+
+    // Translation.
+    draw.showTranslation();
+
 
     // Public CDL API.
     return {
