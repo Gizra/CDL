@@ -59,7 +59,7 @@
         strokeWidth: 1
       },
       titles: {
-        backgroundAlfa: 0.60
+        backgroundAlfa: 0
       },
       link: {
         strokeWidth: {
