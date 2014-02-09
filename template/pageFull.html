@@ -6,7 +6,7 @@ layout: page
 <div id="{{ page.guid }}"  class="cdl">
   <div id="wrapper-content" class="clearfix">
     <div class="home-icon">
-      <a href="{{ BASE_PATH }}/#/{{ page.guid }}" alt="Home"><img class="img-responsive" src="{{ BASE_PATH }}/images/home.png"/></a>
+      <a href="{{ BASE_PATH }}/#/{{ page.guid }}" alt="Home"><div class="arrow-icon"></div></a>
     </div>
     <div id="content">
       <div class="node clearfix">
@@ -53,6 +53,7 @@ layout: page
                   <a class="data-gallery-0" href="{{ BASE_PATH }}/pages/{{ attachment.src }}" title="{{ attachment.name }}" data-gallery="data-gallery-0">
                     <img class="images-{{ forloop.index }}" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
                   </a>
+                  <div class="caption caption-{{ forloop.index }}">{{ attachment.name }}</div>
                 </div>
 
               {% if count == 2 %}
@@ -76,6 +77,7 @@ layout: page
                   <a class="data-gallery-0" href="{{ BASE_PATH }}/pages/{{ attachment.src }}" title="{{ attachment.name }}" data-gallery="data-gallery-0">
                     <img class="images-{{ forloop.index }}" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
                   </a>
+                  <div class="caption caption-{{ forloop.index }}">{{ attachment.name }}</div>
                 </div>
 
               </div>
@@ -164,6 +166,7 @@ layout: page
                         <a class="data-gallery-{{ galleryIndex }}" href="{{ BASE_PATH }}/pages/{{ attachment.src }}" title="{{ attachment.name }}" data-gallery="#data-gallery-{{ galleryIndex }}">
                           <img class="images-{{ forloop.index }}" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
                         </a>
+                        <div class="caption caption-{{ forloop.index }}">{{ attachment.name }}</div>
                       </div>
 
                     {% if count == 2 %}
@@ -184,6 +187,7 @@ layout: page
                       <a class="data-gallery-{{ galleryIndex }}" href="{{ BASE_PATH }}/pages/{{ attachment.src }}" title="{{ attachment.name }}" data-gallery="data-gallery-{{ galleryIndex }}">
                         <img class="images-{{ forloop.index }}" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
                       </a>
+                      <div class="caption caption-{{ forloop.index }}">{{ attachment.name }}</div>
                     </div>
 
                   </div>
@@ -244,7 +248,7 @@ layout: page
       <div id="menu-nodes">
         <div class="navigation-node">
           <div class="navigation-parent">
-            {% if page.parent != empty %}
+            {% if page.parent %}
             <div class="navigation-list">
               <ul class="nav nav-tabs">
                 <li>
@@ -259,9 +263,21 @@ layout: page
             <div class="navigation-list">
               <ul class="nav nav-tabs">
                 {% for child in page.children %}
+
+                {% if forloop.index0 == 0 %}
+                  {% if page.parent %}
                 <li>
+                  {% else %}
+                <li class="top-children">
+                  {% endif %}
+                {% else %}
+                <li>
+                {% endif %}
+
                   <a href="{{ BASE_PATH }}/pages/{{ child.guid }}">{{ child.name | upcase }}</a><a class="node-link" href="{{ BASE_PATH }}/pages/{{ child.guid }}"><img src="{{ BASE_PATH }}/images/link.png" alt="node-link"/></a>
                 </li>
+
+
                 {% endfor %}
               </ul>
             </div>

@@ -54,7 +54,7 @@
 
     zoomSvg = d3.behavior.zoom()
       .center([window.innerWidth / 2, window.innerHeight / 2])
-      .scaleExtent([1, config.chart.initial.maxZoom])
+      .scaleExtent([config.chart.initial.minZoom, config.chart.initial.maxZoom])
       .on('zoomstart', zoomstart)
       .on('zoom', zoom)
       .on('zoomend', zoomend);
@@ -74,7 +74,7 @@
 
     // Background.
     background =  svgContainer.append('rect')
-      .attr('id', 'backgroud')
+      .attr('id', 'background')
       .attr('width', width)
       .attr('height', height)
       .style('fill', 'transparent')
@@ -274,6 +274,11 @@
          * @param node
          */
         click: function(node) {
+          // If root element, do not perform any action.
+          if (node.depth === 0) {
+            return;
+          }
+
           var nodeSelected;
 
           // Start click node event.
@@ -321,11 +326,6 @@
          * @param node
          */
         secondClick: function(node) {
-          // If root element, do not perform any action.
-          if (node.depth === 0) {
-            return;
-          }
-
           // If it's chronological node, go up until the parent not chronological and set like active node.
           while (node.type === 'chronological') {
             node = node.parent;
@@ -394,6 +394,11 @@
             circlesChronological,
             triangle;
 
+          // Get actual scale in case the ratio if is undefined.
+          if (typeof ratio === 'undefined') {
+            ratio = this.getScale();
+          }
+
           // Selection of the objects.
           selection = g.selectAll('.node');
 
@@ -433,8 +438,9 @@
           // Refresh Text.
           this.updateText(selection);
 
-          // Refresh properties of the circles.
-          circles.transition()
+          // Refresh Circles.
+          circles.filter(function(node){ return node.depth > 0; })
+            .transition()
             .duration(config.chart.transitions.circles)
             .ease('linear')
             .attr('r', nodeExtend().getRadius)
@@ -469,6 +475,8 @@
             .transition()
             .duration(config.chart.transitions.lines)
             .style('stroke-width', draw.getLinkWidth());
+
+          this.hideGrandChildren(ratio);
 
         },
         updateText: function(selection) {
@@ -682,6 +690,10 @@
          * @returns {{x: *, y: *}}
          */
         initialPoint: function() {
+          if (typeof drawReference.initialPoint === 'undefined') {
+            draw.setInitialPoint(config.chart.initial.x(width), config.chart.initial.y(height));
+          }
+
           return drawReference.initialPoint;
         },
         /**
@@ -698,7 +710,7 @@
          * @returns {number}
          */
         getScale: function() {
-          return (typeof drawReference.actualScale === 'undefined') ? drawReference.actualScale = 1 : drawReference.actualScale;
+          return (typeof drawReference.actualScale === 'undefined') ? drawReference.actualScale = config.chart.initial.minZoom : drawReference.actualScale;
         },
         /**
          * Store an array of the translation coordinates {x, y} of the actual position
@@ -831,6 +843,9 @@
 
           // Check if the hash exist on the URL.
           if (!hash) {
+
+            // Apply the inital scale scale
+            draw.setInitialScalation();
             return;
           }
 
@@ -850,6 +865,74 @@
             draw.refocusNode(g.selectAll('.node'));
             //@todo: zoom out if the all tree node.
           }
+        },
+        /**
+         * Set initial scalation with the zoom configuration.
+         *
+         * @param node
+         *   Selected node object.
+         * @param ratio
+         *   Scale of zoom requested. Actually maximun zoom scale.
+         */
+        setInitialScalation: function() {
+          var initialPosition,
+            scale = this.getScale();
+
+          system.transition()
+            .duration(config.chart.zoom.transition)
+            .attr('transform', 'translate(' + draw.initialPoint().x +', ' + draw.initialPoint().y + ')scale(' + scale + ')');
+
+        },
+        hideGrandChildren: function(ratio) {
+          // Selection of the objects.
+          var selection,
+            circles,
+            circlesChronological,
+            circleTarget;
+
+          if (ratio < config.chart.zoom.hideGrandChildren) {
+            selection = g.selectAll('.node');
+
+            circles = selection.selectAll('.circle-node');
+            circlesChronological = selection.selectAll('.circle-chronological');
+            circleTarget = selection.selectAll('.circle-target');
+
+            circles.filter(function(node) { return node.depth > 1; })
+              .transition()
+              .duration(config.chart.transitions.circles)
+              .ease('linear')
+              .attr('r', 0);
+
+            circlesChronological.filter(function(node) { return node.depth > 1; })
+              .transition()
+              .duration(config.chart.transitions.circles)
+              .ease('linear')
+              .attr('r', 0);
+
+            // Target Touch: Resize target touch area.
+            circleTarget.filter(function(node) { return node.depth > 1; })
+              .transition()
+              .duration(config.chart.transitions.circles)
+              .attr('r', 0);
+
+            // Update connections.
+            system.selectAll('.link')
+              .transition()
+              .duration(config.chart.transitions.lines)
+              .style('stroke-width', 0);
+
+            system.selectAll('.dashed')
+              .transition()
+              .duration(config.chart.transitions.lines)
+              .style('stroke-width', 0);
+
+            system.select('#line-active')
+              .transition()
+              .duration(config.chart.transitions.lines)
+              .style('stroke-width', 0);
+          }
+
+
         }
       };
     };
@@ -1214,6 +1297,9 @@
     // Update the text.
     draw.updateText();
 
+    // Hide the nodes and connection of depth 2+.
+    draw.hideGrandChildren(draw.getScale());
+
     // Refocus the last node checked in the content pages.
     draw.refocusNode(node);
 
@@ -1224,6 +1310,7 @@
 
         background.style('fill', 'white')
           .attr('transform', 'translate(' + draw.initialPoint().x + ', ' + draw.initialPoint().y + ')');
+
         system.attr('transform', 'translate(' + draw.initialPoint().x + ', ' + draw.initialPoint().y + ')');
 
         zoomSvg.translate([draw.initialPoint().x, draw.initialPoint().y]);

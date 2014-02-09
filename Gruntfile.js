@@ -433,6 +433,10 @@ module.exports = function (grunt) {
         {
           from: 'url(/fonts/',
           to: 'url(http://gizra.github.io/CDL/fonts/'
+        },
+        {
+          from: 'url(/images/',
+          to: 'url(http://gizra.github.io/CDL/images/'
         }]
       }
     },
@@ -555,7 +559,6 @@ module.exports = function (grunt) {
             result = _.filter(result, function(attachment) {
               return attachment.objectID !== node.guid;
             });
-            console.log(node.guid);
           });
           return result;
         };
@@ -840,9 +843,13 @@ module.exports = function (grunt) {
         // Parse the content and set the classification of the node.
         setNodeContent(child.node);
 
+        // Add parent information
+        if (parent.guid !== firstNode) {
+          child.node.parent = _.pick(parent, 'guid');
+          child.node.parent.name = getName(parent);
+        }
+
         // Set parent guid.
-        child.node.parent = _.pick(parent, 'guid');
-        child.node.parent.name = getName(parent);
         child.node.hasChronologicalChildren = false;
 
         // Look up for more generations of childrens.
@@ -1012,6 +1019,10 @@ module.exports = function (grunt) {
           if (attachment.format === '.jpg' || attachment.format === '.png') {
             // Sanitize url.
             item.src = item.src.replace(/\\/, '/');
+            // Normalize the extension format.
+            item.name = item.name.replace(/.PNG|.JPG/, attachment.format);
+            // Remove extension value from the name.
+            item.name = item.name.replace(attachment.format, '');
             attachmentsParsed.images.push(item);
           }
           else if (attachment.format === '.mp3') {
