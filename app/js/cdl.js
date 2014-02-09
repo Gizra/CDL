@@ -481,7 +481,8 @@
         },
         updateText: function(selection) {
           var titles,
-            textbox;
+            textbox,
+            textFocus;
 
           // Get a default selection if is undefined.
           if (typeof selection === 'undefined') {
@@ -500,7 +501,8 @@
             .attr('transform', text().transform);
 
           // Apply the opacity to the titles hide/show.
-          textbox.filter(function(d) { return d.styleNode === 'default' || d.styleNode === 'chronological' || d.styleNode === 'bastard' || d.styleNode === 'activated' || d.styleNode === 'selected'; })
+          textbox.filter(function(d) { return d.depth > 1; })
+            .filter(function(d) { return d.styleNode === 'default' || d.styleNode === 'chronological' || d.styleNode === 'bastard' || d.styleNode === 'activated' || d.styleNode === 'selected'; })
             .transition()
             .duration(config.chart.transitions.titles)
             .style('opacity', this.redrawTitles());
@@ -514,13 +516,30 @@
             .style('display', 'table-cell')
             .style('vertical-align', 'middle');
           titles.filter(function(node) { return node.styleNode === 'focus'; })
-            .style('color', 'black');
+            .style('color', 'black')
+            .style('display', 'table-cell')
+            .style('vertical-align', 'bottom');
+
           titles.filter(function(node) { return node.styleNode === 'selected'; })
             .style('color', 'white')
             .style('background-color', 'transparent')
             .style('display', 'table-cell')
             .style('vertical-align', 'middle')
             .style('font-size', '1em');
+
+          if (draw.getScale() < config.chart.zoom.titles.showTextScale) {
+            textFocus = config.text.focus;
+            textbox.filter(function(node) { return node.depth === 1 && node.styleNode === 'selected'; })
+              .attr('width', textFocus.width)
+              .attr('height', textFocus.height)
+              .attr('x', textFocus.x)
+              .attr('y', textFocus.y)
+              .attr('transform', 'scale(' + textFocus.scale + ')');
+
+            titles.filter(function(node) { return node.depth === 1 && node.styleNode === 'selected'; })
+              .style('color', 'red');
+          }
+
           titles.filter(function(node) { return node.styleNode === 'activated'; })
             .style('color', 'red');
           titles.filter(function(node) { return node.styleNode === 'default' || node.styleNode === 'chronological' || node.styleNode === 'bastard'; })
