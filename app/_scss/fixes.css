@@ -1,16 +1,22 @@
 /*
  * This file contains the fixes for compass file generated.
  */
+@-moz-document url-prefix() {
 
-div.node-title {
-  display: -moz-box;
-  -moz-box-align: center;
-  -moz-box-pack: center;
+  div.node-title {
+    display: -moz-box;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+  }
+
+  div.navigation-list ul li {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+
 }
 
-div.navigation-list ul li {
-  display: -moz-box;
-  -moz-box-align: center;
-  -moz-box-pack: center;
-}
 

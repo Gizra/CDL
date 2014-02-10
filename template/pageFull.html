@@ -128,48 +128,51 @@ layout: page
           </ul>
           {% endif%}
         </div>
-      </div>
-      {% if page.siblings == empty %}
-      <div id="menu-nodes">
-        <div class="navigation-node">
-          <div class="navigation-parent">
-            {% if page.parent %}
-            <div class="navigation-list">
-              <ul class="nav nav-tabs">
-                <li>
-                  <a href="{{ BASE_PATH }}/pages/{{ page.parent.guid }}">{{ page.parent.name | upcase }}</a><a class="node-link" href="{{ BASE_PATH }}/pages/{{ page.parent.guid }}"><img src="{{ BASE_PATH }}/images/link.png" alt="node-link"/></a>
-                </li>
-              </ul>
-            </div>
-            {% endif %}
-          </div>
-          <div class="navigation-children">
-            {% if page.children != empty %}
-            <div class="navigation-list">
-              <ul class="nav nav-tabs">
-                {% for child in page.children %}
 
-                {% if forloop.index0 == 0 %}
+        {% if page.siblings == empty %}
+        <div id="menu-nodes">
+          <div class="navigation-node">
+            <div class="navigation-parent">
+              {% if page.parent %}
+              <div class="navigation-list">
+                <ul class="nav nav-tabs">
+                  <li>
+                    <a href="{{ BASE_PATH }}/pages/{{ page.parent.guid }}">{{ page.parent.name | upcase }}</a><a class="node-link" href="{{ BASE_PATH }}/pages/{{ page.parent.guid }}"><img src="{{ BASE_PATH }}/images/link.png" alt="node-link"/></a>
+                  </li>
+                </ul>
+              </div>
+              {% endif %}
+            </div>
+            <div class="navigation-children">
+              {% if page.children != empty %}
+              <div class="navigation-list">
+                <ul class="nav nav-tabs">
+                  {% for child in page.children %}
+
+                  {% if forloop.index0 == 0 %}
                   {% if page.parent %}
-                <li>
-                  {% else %}
-                <li class="top-children">
-                  {% endif %}
-                {% else %}
-                <li>
-                {% endif %}
+                  <li>
+                    {% else %}
+                  <li class="top-children">
+                    {% endif %}
+                    {% else %}
+                  <li>
+                    {% endif %}
 
-                  <a href="{{ BASE_PATH }}/pages/{{ child.guid }}">{{ child.name | upcase }}</a><a class="node-link" href="{{ BASE_PATH }}/pages/{{ child.guid }}"><img src="{{ BASE_PATH }}/images/link.png" alt="node-link"/></a>
-                </li>
+                    <a href="{{ BASE_PATH }}/pages/{{ child.guid }}">{{ child.name | upcase }}</a><a class="node-link" href="{{ BASE_PATH }}/pages/{{ child.guid }}"><img src="{{ BASE_PATH }}/images/link.png" alt="node-link"/></a>
+                  </li>
 
-                {% endfor %}
-              </ul>
+                  {% endfor %}
+                </ul>
+              </div>
+              {% endif %}
             </div>
-            {% endif %}
           </div>
         </div>
+        {% endif %}
+
       </div>
-      {% endif %}
+
 
       <div class="footer-line clearfix"></div>
     </div>
