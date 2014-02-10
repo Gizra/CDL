@@ -7,7 +7,6 @@
     "underscore": "~1.5.2",
     "bootstrap-sass": "~3.0.2",
     "jquery-fittext.js": "*",
-    "blueimp-bootstrap-image-gallery": "~3.1.0",
     "fastclick": "~0.6.11",
     "soundcloud": "~0.1.0"
   }

@@ -4,6 +4,13 @@
 @include font-face('Calluna', font-files('CallunaSansRegular-webfont.ttf', 'CallunaSansRegular-webfont.eot', 'CallunaSansRegular-webfont.svg', 'CallunaSansRegular-webfont.woff'));
 @include font-face('Miso', font-files('miso-regular-webfont.ttf', 'miso-regular-webfont.eot', 'miso-regular-webfont.svg', 'miso-regular-webfont.woff'));
 
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -55,121 +62,6 @@ div.cdl {
   }
 
 
-  // General styling of image flexbox.
-  .flex {
-    margin-left: -70px;
-
-    img {
-      width: 100%;
-    }
-
-    .box {
-      margin-bottom: 10px;
-    }
-
-    .box-1,
-    .box-2 {
-      @include display-box;
-      @include box-orient(vertical);
-      @include box-align(baseline);
-      @include box-pack(end);
-    }
-
-    .box-1 {
-
-      .item-1 {
-        margin-right: 10px;
-        width: 520px;
-      }
-
-      img {
-        vertical-align: bottom;
-      }
-    }
-
-    .box-2 {
-      width: 750px;
-
-      img {
-        vertical-align: top;
-      }
-    }
-  }
-
-  // Specific style for image flexbox according the layout.
-
-  .box-wrapper-1 {
-
-    .box-1 {
-
-      .item-1 {
-        width: 100%;
-      }
-    }
-  }
-
-  .box-wrapper-2 {
-
-    .box-1 {
-
-      .item-2 {
-        min-width: 220px;
-        width: 220px;
-        float: right;
-      }
-    }
-  }
-
-
-  .box-wrapper-3 {
-
-    .box-1 {
-
-      .item-2 {
-        min-width: 220px;
-        width: 220px;
-        float: right;
-      }
-    }
-
-    .box-2 {
-      float: right;
-
-      .item-3 {
-        width: 750px;
-      }
-    }
-  }
-
-  // 4 images.
-  .box-wrapper-4 {
-
-    .box-1 {
-
-      .item-2 {
-        min-width: 220px;
-        width: 220px;
-        float: right;
-      }
-    }
-
-    .box-2 {
-      float: right;
-
-      .item-3 {
-        min-width: 140px;
-        width: 140px;
-        margin-right: 10px;
-        float: right;
-      }
-
-      .item-4 {
-        width: 100%;
-      }
-
-    }
-  }
-
   div.caption {
     font-family: 'Calluna';
     line-height: 1.2em;
@@ -191,6 +83,7 @@ div.cdl {
       @include display-box;
       @include box-align(center);
       @include box-pack(center);
+
       height: 270px;
       width: 270px;
       border-radius: 50%;
@@ -201,6 +94,7 @@ div.cdl {
       margin-bottom: 55px;
 
       div.text-title {
+
         width: 191px;
         max-height: 147px;
         font-family: 'Miso';
@@ -208,6 +102,7 @@ div.cdl {
 
         div.inner-text-title {
           line-height: 1em;
+
         }
       }
     }
@@ -217,6 +112,12 @@ div.cdl {
       line-height: 1.4em;
       font-size: 21px;
       color: black;
+    }
+
+    div.gallery {
+      img {
+        width: 100%;
+      }
     }
   }
 
@@ -348,7 +249,6 @@ div.cdl {
     background-color: red;
     margin-bottom: 75px;
     margin-top: 75px;
-    margin-left: 16px;
   }
 
 }
