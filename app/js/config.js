@@ -15,6 +15,7 @@
      *   dashedLine: Define stroke and style (length "line, separation").
      *   nodesSeparation: Horizontal separation of the nodes, this value it's related with
      *   the size of the nodes.
+     *   transitions: Define duration in miliseconds of the transitions, for each kind of elements.
      */
     this.chart = {
       initial: {

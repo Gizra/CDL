@@ -21,73 +21,15 @@ layout: page
           {{ page.data }}
         </div>
         {% if page.attachments.images != empty %}
-          {% assign totalImages = 0 %}
-          {% assign count = 1 %}
-          {% assign box = 1 %}
-          {% assign boxImages = 0 %}
 
+        <div class="gallery">
           {% for attachment in page.attachments.images %}
-            {% if forloop.index0 == 0 %}
-              {% assign totalImages = forloop.length %}
-            {% endif %}
+          <div class="item item-{{ forloop.index }}">
+            <img class="images-{{ forloop.index }}" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
+            <div class="caption caption-{{ forloop.index }}">{{ attachment.name }}</div>
+          </div>
           {% endfor %}
-
-          {% if totalImages > 4 %}
-            {% assign boxImages = 4 %}
-          {% else %}
-            {% assign boxImages = totalImages %}
-          {% endif %}
-
-          {% for attachment in page.attachments.images %}
-            {% if forloop.index0 < 4 %}
-              {% if forloop.first %}
-              <div class="flex box-wrapper-{{ totalImages }}">
-              {% endif %}
-
-
-              {% if count == 1 %}
-              <div class="box box-{{ box }}">
-              {% endif %}
-
-                <div class="item item-{{ forloop.index }}">
-                  <a class="data-gallery-0" href="{{ BASE_PATH }}/pages/{{ attachment.src }}" title="{{ attachment.name }}" data-gallery="data-gallery-0">
-                    <img class="images-{{ forloop.index }}" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
-                  </a>
-                  <div class="caption caption-{{ forloop.index }}">{{ attachment.name }}</div>
-                </div>
-
-              {% if count == 2 %}
-              </div>
-              {% endif %}
-
-              {% if count == 2 %}
-                {% assign count = 0 %}
-                {% assign box=box | plus:1 %}
-              {% endif %}
-
-              {% assign count=count | plus:1 %}
-
-              {% if forloop.last %}
-              </div>
-              {% endif %}
-            {% else %}
-              <div class="box box-extra">
-
-                <div class="item item-{{ forloop.index }} hidden">
-                  <a class="data-gallery-0" href="{{ BASE_PATH }}/pages/{{ attachment.src }}" title="{{ attachment.name }}" data-gallery="data-gallery-0">
-                    <img class="images-{{ forloop.index }}" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
-                  </a>
-                  <div class="caption caption-{{ forloop.index }}">{{ attachment.name }}</div>
-                </div>
-
-              </div>
-             {% endif %}
-
-          {% endfor %}
-
-          {% if totalImages > 4 %}
-            <div data-id="0" class="button-more">More...</div>
-          {% endif %}
+        </div>
 
         {% endif %}
 
@@ -135,97 +77,40 @@ layout: page
                 {{ sibling.data }}
 
               {% if sibling.attachments.images != empty %}
-                {% assign totalImages = 0 %}
-                {% assign boxImages = 0 %}
-
-                {% for attachment in sibling.attachments.images %}
-                  {% if forloop.index0 == 0 %}
-                    {% assign totalImages = forloop.length %}
-                  {% endif %}
-                {% endfor %}
-
-                {% if totalImages > 4 %}
-                  {% assign boxImages = 4 %}
-                {% else %}
-                  {% assign boxImages = totalImages %}
-                {% endif %}
-
-                <div class="flex box-wrapper-{{ boxImages }}">
-                {% assign count = 1 %}
-                {% assign box = 1 %}
-
+                <div class="gallery">
                 {% for attachment in sibling.attachments.images %}
 
-                  {% if forloop.index0 < 4 %}
-
-                    {% if count == 1 %}
-                    <div class="box box-{{ box }}">
-                    {% endif %}
-
-                      <div class="item item-{{ forloop.index }}">
-                        <a class="data-gallery-{{ galleryIndex }}" href="{{ BASE_PATH }}/pages/{{ attachment.src }}" title="{{ attachment.name }}" data-gallery="#data-gallery-{{ galleryIndex }}">
-                          <img class="images-{{ forloop.index }}" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
-                        </a>
-                        <div class="caption caption-{{ forloop.index }}">{{ attachment.name }}</div>
-                      </div>
-
-                    {% if count == 2 %}
-                    </div>
-                    {% endif %}
-
-                    {% if count == 2 %}
-                      {% assign count = 0 %}
-                      {% assign box=box | plus:1 %}
-                    {% endif %}
-
-                    {% assign count=count | plus:1 %}
-
-                  {% else %}
-                  <div class="box box-extra">
-
-                    <div class="item item-{{ forloop.index }} hidden">
-                      <a class="data-gallery-{{ galleryIndex }}" href="{{ BASE_PATH }}/pages/{{ attachment.src }}" title="{{ attachment.name }}" data-gallery="data-gallery-{{ galleryIndex }}">
-                        <img class="images-{{ forloop.index }}" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
-                      </a>
-                      <div class="caption caption-{{ forloop.index }}">{{ attachment.name }}</div>
-                    </div>
-
+                  <div class="item item-{{ forloop.index }}">
+                    <img class="images-{{ forloop.index }}" src="{{ BASE_PATH }}/pages/{{ attachment.src }}" alt="{{ attachment.name }}"/>
+                    <div class="caption caption-{{ forloop.index }}">{{ attachment.name }}</div>
                   </div>
-
-                  {% endif %}
 
                 {% endfor %}
                 </div>
-
-                {% if totalImages > 4 %}
-                  <div data-id="{{ galleryIndex }}" class="button-more">More...</div>
-                {% endif %}
-
-
               {% endif %}
 
               {% if sibling.attachments.media != empty %}
-              {% for attachment in sibling.attachments.media %}
-              <div>
-                <audio src="{{ BASE_PATH }}/pages/{{ attachment.src }}" controls></audio>
-              </div>
-              {% endfor %}
+                {% for attachment in sibling.attachments.media %}
+                <div>
+                  <audio src="{{ BASE_PATH }}/pages/{{ attachment.src }}" controls></audio>
+                </div>
+                {% endfor %}
               {% endif %}
 
               {% if sibling.attachments.pages != empty %}
-              {% for attachment in sibling.attachments.pages %}
-              <div>
-                <a href="{{ attachment.src }}" target="_blank">{{ attachment.name }}</a>
-              </div>
-              {% endfor %}
+                {% for attachment in sibling.attachments.pages %}
+                <div>
+                  <a href="{{ attachment.src }}" target="_blank">{{ attachment.name }}</a>
+                </div>
+                {% endfor %}
               {% endif %}
 
               {% if sibling.attachments.youtube != empty %}
-              {% for attachment in sibling.attachments.youtube %}
-              <div>
-                <iframe  width="560" height="315" src="//www.youtube.com/embed/{{ attachment.id }}" frameborder="0" allowfullscreen></iframe>
-              </div>
-              {% endfor %}
+                {% for attachment in sibling.attachments.youtube %}
+                <div>
+                  <iframe  width="560" height="315" src="//www.youtube.com/embed/{{ attachment.id }}" frameborder="0" allowfullscreen></iframe>
+                </div>
+                {% endfor %}
               {% endif %}
 
               {% if sibling.attachments.soundcloud != empty %}
