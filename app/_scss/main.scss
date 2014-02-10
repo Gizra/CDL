@@ -27,7 +27,24 @@ html, body {
 div.home-icon {
   margin-top: 8px;
   margin-left: 10px;
+  position: fixed;
+
+  div.arrow-icon {
+    background:url('/images/home.png') no-repeat top left;
+    width: 50px;
+    height: 50px;
+  }
 }
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+
+  div.arrow-icon {
+    background:url('/images/home@2x.png') no-repeat top left;
+    background-size: 50px 50px;
+  }
+}
+
 
 div.cdl {
   margin-left: 0;
@@ -45,122 +62,13 @@ div.cdl {
   }
 
 
-  // General styling of image flexbox.
-  .flex {
-    margin-left: -70px;
-
-    img {
-      width: 100%;
-    }
-
-    .box {
-      margin-bottom: 10px;
-    }
-
-    .box-1,
-    .box-2 {
-      @include display-box;
-      @include box-orient(vertical);
-      @include box-align(baseline);
-      @include box-pack(end);
-    }
-
-    .box-1 {
-
-      .item-1 {
-        margin-right: 10px;
-        width: 520px;
-      }
-
-      img {
-        vertical-align: bottom;
-      }
-    }
-
-    .box-2 {
-      width: 750px;
-
-      img {
-        vertical-align: top;
-      }
-    }
-  }
-
-  // Specific style for image flexbox according the layout.
-
-  .box-wrapper-1 {
-
-    .box-1 {
-
-      .item-1 {
-        width: 100%;
-      }
-    }
-  }
-
-  .box-wrapper-2 {
-
-    .box-1 {
-
-      .item-2 {
-        min-width: 220px;
-        width: 220px;
-        height: 138px;
-        float: right;
-      }
-    }
-  }
-
-
-  .box-wrapper-3 {
-
-    .box-1 {
-
-      .item-2 {
-        min-width: 220px;
-        width: 220px;
-        height: 138px;
-        float: right;
-      }
-    }
-
-    .box-2 {
-      float: right;
-
-      .item-3 {
-        width: 750px;
-      }
-    }
-  }
-
-  // 4 images.
-  .box-wrapper-4 {
-
-    .box-1 {
-
-      .item-2 {
-        min-width: 220px;
-        width: 220px;
-        height: 138px;
-        float: right;
-      }
-    }
-
-    .box-2 {
-      float: right;
-
-      .item-3 {
-        min-width: 140px;
-        width: 140px;
-        margin-right: 10px;
-        float: right;
-      }
-
-      .item-4 {
-        width: 100%;
-      }
-
-    }
+  div.caption {
+    font-family: 'Calluna';
+    line-height: 1.2em;
+    font-size: 15px;
+    color: black;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
   }
 
   div.canvas {
@@ -204,6 +112,12 @@ div.cdl {
       line-height: 1.4em;
       font-size: 21px;
       color: black;
+    }
+
+    div.gallery {
+      img {
+        width: 100%;
+      }
     }
   }
 
@@ -323,6 +237,10 @@ div.cdl {
         }
       }
     }
+  }
+
+  .top-children {
+    border-top: 1px solid black;
   }
 
   div.footer-line {
