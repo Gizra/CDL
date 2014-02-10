@@ -4,9 +4,9 @@
 @-moz-document url-prefix() {
 
   div.node-title {
-    display: -moz-box;
-    -moz-box-align: center;
-    -moz-box-pack: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   div.navigation-list ul li {
