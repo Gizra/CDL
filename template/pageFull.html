@@ -162,7 +162,6 @@ layout: page
                   <a href="{{ BASE_PATH }}/pages/{{ child.guid }}">{{ child.name | upcase }}</a><a class="node-link" href="{{ BASE_PATH }}/pages/{{ child.guid }}"><img src="{{ BASE_PATH }}/images/link.png" alt="node-link"/></a>
                 </li>
 
-
                 {% endfor %}
               </ul>
             </div>
@@ -191,35 +190,6 @@ layout: page
           </ul>
         </div>
         {% endif%}
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-  <!-- The container for the modal slides -->
-  <div class="slides"></div>
-  <!-- Controls for the borderless lightbox -->
-  <h3 class="title"></h3>
-  <a class="prev">‹</a>
-  <a class="next">›</a>
-  <a class="close">×</a>
-  <a class="play-pause"></a>
-  <ol class="indicator"></ol>
-  <!-- The modal dialog, which will be used to wrap the lightbox content -->
-  <div class="modal fade">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close"></button>
-          <h4 class="modal-title"></h4>
-        </div>
-        <div class="modal-body"></div>
-        <div class="modal-footer">
-          <div class="modal-indicator"></div>
-          <div class="modal-counter"></div>
-        </div>
       </div>
     </div>
   </div>
