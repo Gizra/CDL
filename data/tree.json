@@ -963,9 +963,9 @@
           "attachmentEntryID": "6BF09FA7-776A-D697-0B40-32EA59D7D764"
          },
          "objectID": "D2A4CE8A-71E4-A342-78BF-9ABCCF2A3C76",
-         "name": "Qur&apos;an, Qaryawan, 9th century, NLI.jpg",
+         "name": "Qur&apos;an, Qayrawan, 9th century, NLI.jpg",
          "attachmentType": "1",
-         "location": "D2A4CE8A-71E4-A342-78BF-9ABCCF2A3C76\\Qur&apos;an, Qaryawan, 9th century, NLI.jpg",
+         "location": "D2A4CE8A-71E4-A342-78BF-9ABCCF2A3C76\\Qur&apos;an, Qayrawan, 9th century, NLI.jpg",
          "dataLength": "81165",
          "format": ".jpg"
         }
@@ -1138,7 +1138,20 @@
      "guid": "E9D2870A-9528-B9CE-9EE5-E667565D0126",
      "name": "Yahuda  -  Collector and Scholar",
      "data": "",
-     "attachments": [],
+     "attachments": [
+      {
+       "guid": "DAB59EB2-63A9-82C5-4A21-E9831ECB2A49",
+       "AttachmentEntries": {
+        "attachmentEntryID": "73D2B847-0D98-E901-B06C-CB9C5CF1E29C"
+       },
+       "objectID": "E9D2870A-9528-B9CE-9EE5-E667565D0126",
+       "name": "Abraham Shalom Yahuda (1877-1951), NLI.png",
+       "attachmentType": "1",
+       "location": "E9D2870A-9528-B9CE-9EE5-E667565D0126\\Abraham Shalom Yahuda (1877-1951), NLI.png",
+       "dataLength": "421814",
+       "format": ".png"
+      }
+     ],
      "type": "default",
      "parent": {
       "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
@@ -1149,7 +1162,7 @@
       {
        "guid": "79B40A33-627E-2A53-5707-5A3C129A9EE6",
        "name": "Exquisite Manuscript Collection",
-       "data": "<p dir=\"LTR\"><b><span><span>Eastern Manuscripts</span></span></b><span><span><span></span></span></span></p>\n<p dir=\"LTR\"><span><span><span><span>Yahuda bequeathed the National Library of Israel with 1,184 exquisite eastern manuscripts in the field of Islamic religion, sciences, Arabic literature and Persian poetry. These include a unique collection of over 100 rare manuscripts of the Qur'an- some of them very early (8th-10th centuries), and others which are beautifully illustrated.</span></span></span></span><span><span><span></span></span></span></p>\n<p dir=\"LTR\"><b><span><span><span>Jewish manuscripts</span></span></span></b><span><span><span></span></span></span></p>\n<p><span><span><span>Yahuda's collection of Jewish manuscripts includes the most beautiful existing manuscript of Maimonides' </span></span><i><span><span><span>Mishneh Torah</span></span></span></i></span><span><span><span></span></span></span></p>\n<p><span><span> Documents from the Jewish Community in Aragon, including a privilege granted by King Alfonso V of Aragon (1416-1438) to the nobleman Berenguer de Bardaxi , granting him permission to settle 30-40 Jewish families on his lands in Oliete, south of Zaragossa.</span></span><span><span><span></span></span></span></p>\n<p dir=\"LTR\"><b><span><span><span>Other Manuscripts</span></span></span></b><span><span><span></span></span></span></p>\n<p><span><span><span>Besides Newton's theological papers, the collection includes beautiful Books of Hours, letters from Napoleon Bonaparte, and many more important manuscripts.&#160;</span></span></span></p>\n",
+       "data": "",
        "attachments": [
         {
          "guid": "1A9B11C2-388E-979F-BE94-2898E64B0DAE",
@@ -1241,8 +1254,208 @@
         "guid": "E9D2870A-9528-B9CE-9EE5-E667565D0126",
         "name": "Yahuda  -  Collector and Scholar"
        },
-       "hasChronologicalChildren": false,
-       "children": []
+       "hasChronologicalChildren": true,
+       "children": [
+        {
+         "guid": "366A2E31-0D90-5CD7-0B0A-FAB526A229BE",
+         "name": ":1: Jewish manuscripts",
+         "data": "<p><span><span><span>Yahuda's rich collection of Jewish manuscripts includes the most beautiful existing manuscript of Maimonides' </span></span><i><span><span><span>Mishneh Torah, </span></span></span></i><span><span><span>as well as various manuscripts of the Old Testament, commentaries and philological and philosophical treatises written by Jewish scholars.</span></span></span></span></p>\n",
+         "attachments": [
+          {
+           "guid": "91B71E13-11E4-8604-6343-418FA5356818",
+           "AttachmentEntries": {
+            "attachmentEntryID": "E6E921F5-0AD4-7C21-2458-81A74C60E36D"
+           },
+           "objectID": "366A2E31-0D90-5CD7-0B0A-FAB526A229BE",
+           "name": "Maimonides, Mishne Torah, 1300-1350, &apos;Mada&apos; (Science), NLI.jpg",
+           "attachmentType": "1",
+           "location": "366A2E31-0D90-5CD7-0B0A-FAB526A229BE\\Maimonides, Mishne Torah, 1300-1350, &apos;Mada&apos; (Science), NLI.jpg",
+           "dataLength": "400794",
+           "format": ".jpg"
+          },
+          {
+           "guid": "B593063A-4184-F289-B4E3-FDB54EE3A732",
+           "AttachmentEntries": {
+            "attachmentEntryID": "E6E921F5-0AD4-7C21-2458-81A74C60E36D"
+           },
+           "objectID": "366A2E31-0D90-5CD7-0B0A-FAB526A229BE",
+           "name": "Maimonides, Mishne Torah, 1300-1350, NLI.jpg",
+           "attachmentType": "1",
+           "location": "366A2E31-0D90-5CD7-0B0A-FAB526A229BE\\Maimonides, Mishne Torah, 1300-1350, NLI.jpg",
+           "dataLength": "105213",
+           "format": ".jpg"
+          },
+          {
+           "guid": "46211D51-93FD-C9CB-1E09-4ED3659F4AF7",
+           "AttachmentEntries": {
+            "attachmentEntryID": "E6E921F5-0AD4-7C21-2458-81A74C60E36D"
+           },
+           "objectID": "366A2E31-0D90-5CD7-0B0A-FAB526A229BE",
+           "name": "Maimonides, Mishneh Torah, Judges, copied in 1433, NLI.jpg",
+           "attachmentType": "1",
+           "location": "366A2E31-0D90-5CD7-0B0A-FAB526A229BE\\Maimonides, Mishneh Torah, Judges, copied in 1433, NLI.jpg",
+           "dataLength": "316242",
+           "format": ".jpg"
+          },
+          {
+           "guid": "FE700FC7-AEFC-A78A-C371-C08B8F91BF42",
+           "AttachmentEntries": {
+            "attachmentEntryID": "E6E921F5-0AD4-7C21-2458-81A74C60E36D"
+           },
+           "objectID": "366A2E31-0D90-5CD7-0B0A-FAB526A229BE",
+           "name": "Song of Songs, with trans. and Rashi&apos;s commentary, 18th century, NLI.jpg",
+           "attachmentType": "1",
+           "location": "366A2E31-0D90-5CD7-0B0A-FAB526A229BE\\Song of Songs, with trans. and Rashi&apos;s commentary, 18th century, NLI.jpg",
+           "dataLength": "381468",
+           "format": ".jpg"
+          }
+         ],
+         "type": "chronological",
+         "chronologicalId": "1",
+         "chronologicalName": "Jewish manuscripts",
+         "parent": {
+          "guid": "79B40A33-627E-2A53-5707-5A3C129A9EE6",
+          "name": "Exquisite Manuscript Collection"
+         },
+         "hasChronologicalChildren": false,
+         "children": [
+          {
+           "guid": "4CE83A62-1362-4274-2A3A-A41B8A603F5C",
+           "name": ":2: Documents regarding the Jewish community in Spain",
+           "data": "<p><span><span>Being of Spanish origin, Yahuda took a special interest in collecting material pertaining to the history of the Jews in Spain. Among these are documents from the Jewish Community in Aragon, including a privilege granted by King Alfonso V of Aragon (1416-1438) to the nobleman Berenguer de Bardaxi , granting him permission to settle 30-40 Jewish families on his lands in Oliete, south of Zaragoza.</span></span></p>\n",
+           "attachments": [
+            {
+             "guid": "BE0F95E0-6F76-66BE-A983-A84994CE3C4F",
+             "AttachmentEntries": {
+              "attachmentEntryID": "A5F56659-F016-18D3-E2C4-67520430A6C5"
+             },
+             "objectID": "4CE83A62-1362-4274-2A3A-A41B8A603F5C",
+             "name": "Privilege granted to the Jews by King Alfonso V of Aragon, Zaragossa 1429, NLI.jpg",
+             "attachmentType": "1",
+             "location": "4CE83A62-1362-4274-2A3A-A41B8A603F5C\\Privilege granted to the Jews by King Alfonso V of Aragon, Zaragossa 1429, NLI.jpg",
+             "dataLength": "203947",
+             "format": ".jpg"
+            }
+           ],
+           "type": "chronological",
+           "chronologicalId": "2",
+           "chronologicalName": "Documents regarding the Jewish community in Spain",
+           "parent": {
+            "guid": "79B40A33-627E-2A53-5707-5A3C129A9EE6",
+            "name": "Exquisite Manuscript Collection"
+           },
+           "hasChronologicalChildren": false,
+           "children": [
+            {
+             "guid": "15AB72EF-EC6C-E5EE-8832-12AB89C9FCE1",
+             "name": ":3: Eastern Manuscripts",
+             "data": "<p><span><span><span><span>Yahuda bequeathed the National Library of Israel with 1,184 exquisite eastern manuscripts in the field of Islamic religion, sciences, Arabic literature and Persian poetry. These include a unique collection of over 100 rare manuscripts of the Qur'an- some of them very early (8th-10th centuries), and others which are beautifully illustrated.</span></span></span></span></p>\n",
+             "attachments": [
+              {
+               "guid": "7E3F2F48-B424-F08B-E5FD-B3277ECB72EF",
+               "AttachmentEntries": {
+                "attachmentEntryID": "03A9BA7A-80B0-D36D-2687-8D286EC58785"
+               },
+               "objectID": "15AB72EF-EC6C-E5EE-8832-12AB89C9FCE1",
+               "name": "Qur&apos;an, 9th. century, Qayrawan.jpg",
+               "attachmentType": "1",
+               "location": "15AB72EF-EC6C-E5EE-8832-12AB89C9FCE1\\Qur&apos;an, 9th. century, Qayrawan.jpg",
+               "dataLength": "308234",
+               "format": ".jpg"
+              },
+              {
+               "guid": "2FBCB07D-EBEC-CEB6-9123-08DA37E64705",
+               "AttachmentEntries": {
+                "attachmentEntryID": "03A9BA7A-80B0-D36D-2687-8D286EC58785"
+               },
+               "objectID": "15AB72EF-EC6C-E5EE-8832-12AB89C9FCE1",
+               "name": "Muhammad al-Busiri, Al-Burdah (poem of the Mantle), mid 14th century, NLI.jpg",
+               "attachmentType": "1",
+               "location": "15AB72EF-EC6C-E5EE-8832-12AB89C9FCE1\\Muhammad al-Busiri, Al-Burdah (poem of the Mantle), mid 14th century, NLI.jpg",
+               "dataLength": "426621",
+               "format": ".jpg"
+              },
+              {
+               "guid": "9A444B95-A373-F4C2-892B-23790C30009C",
+               "AttachmentEntries": {
+                "attachmentEntryID": "03A9BA7A-80B0-D36D-2687-8D286EC58785"
+               },
+               "objectID": "15AB72EF-EC6C-E5EE-8832-12AB89C9FCE1",
+               "name": "An Andalusian Qur&apos;an, 12th century, NLI.jpg",
+               "attachmentType": "1",
+               "location": "15AB72EF-EC6C-E5EE-8832-12AB89C9FCE1\\An Andalusian Qur&apos;an, 12th century, NLI.jpg",
+               "dataLength": "133625",
+               "format": ".jpg"
+              }
+             ],
+             "type": "chronological",
+             "chronologicalId": "3",
+             "chronologicalName": "Eastern Manuscripts",
+             "parent": {
+              "guid": "79B40A33-627E-2A53-5707-5A3C129A9EE6",
+              "name": "Exquisite Manuscript Collection"
+             },
+             "hasChronologicalChildren": false,
+             "children": [
+              {
+               "guid": "E592A578-DFE2-5B37-5BDA-9A5FD45D85D3",
+               "name": ":4: Western Manuscripts",
+               "data": "<p><span><span><span>Besides Newton's theological papers, the collection includes beautiful Books of Hours, letters from Napoleon Bonaparte, and many more important manuscripts.&#160;</span></span></span></p>\n",
+               "attachments": [
+                {
+                 "guid": "49463B52-C78D-1695-0A84-A7B5303E5362",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "68675668-A1C9-5067-55F1-EC95030399CB"
+                 },
+                 "objectID": "E592A578-DFE2-5B37-5BDA-9A5FD45D85D3",
+                 "name": "Book of Hours, 15th century, Bruges, NLI .jpg",
+                 "attachmentType": "1",
+                 "location": "E592A578-DFE2-5B37-5BDA-9A5FD45D85D3\\Book of Hours, 15th century, Bruges, NLI .jpg",
+                 "dataLength": "432242",
+                 "format": ".jpg"
+                },
+                {
+                 "guid": "BF3E7912-1468-1B91-AE18-C7FA4800E8E7",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "68675668-A1C9-5067-55F1-EC95030399CB"
+                 },
+                 "objectID": "E592A578-DFE2-5B37-5BDA-9A5FD45D85D3",
+                 "name": "Napoleon&apos;s letter to  general Destaing during the campaign in Egypt, 9.7.1799 .jpg",
+                 "attachmentType": "1",
+                 "location": "E592A578-DFE2-5B37-5BDA-9A5FD45D85D3\\Napoleon&apos;s letter to  general Destaing during the campaign in Egypt, 9.7.1799 .jpg",
+                 "dataLength": "485893",
+                 "format": ".jpg"
+                },
+                {
+                 "guid": "F2541C0B-68F3-30A0-5AE8-12B22D7F1158",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "68675668-A1C9-5067-55F1-EC95030399CB"
+                 },
+                 "objectID": "E592A578-DFE2-5B37-5BDA-9A5FD45D85D3",
+                 "name": "Newton, Map of the Fifth and Sixth Trumpets, NLI.jpg",
+                 "attachmentType": "1",
+                 "location": "E592A578-DFE2-5B37-5BDA-9A5FD45D85D3\\Newton, Map of the Fifth and Sixth Trumpets, NLI.jpg",
+                 "dataLength": "179468",
+                 "format": ".jpg"
+                }
+               ],
+               "type": "chronological",
+               "chronologicalId": "4",
+               "chronologicalName": "Western Manuscripts",
+               "parent": {
+                "guid": "79B40A33-627E-2A53-5707-5A3C129A9EE6",
+                "name": "Exquisite Manuscript Collection"
+               },
+               "hasChronologicalChildren": false,
+               "children": []
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
       },
       {
        "guid": "A6351551-62EE-E455-916F-996F497369D6",
@@ -1882,6 +2095,138 @@
            "location": "http://www.yadvashem.org/yv/en/holocaust/about/index.asp",
            "dataLength": "0",
            "format": ".asp"
+          },
+          {
+           "guid": "0C128716-F64D-F706-03D9-55615416F4DE",
+           "AttachmentEntries": {
+            "attachmentEntryID": "300C8440-FCE5-541F-8534-EF527C3D9F17"
+           },
+           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
+           "name": "A boy surrenders to the Nazis, the Warsaw Ghetto revolt.jpg",
+           "attachmentType": "1",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\A boy surrenders to the Nazis, the Warsaw Ghetto revolt.jpg",
+           "dataLength": "62329",
+           "format": ".jpg"
+          },
+          {
+           "guid": "0C809E88-00CB-D463-E4EA-9D3A1914569C",
+           "AttachmentEntries": {
+            "attachmentEntryID": "300C8440-FCE5-541F-8534-EF527C3D9F17"
+           },
+           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
+           "name": "A jew digging his own grave.jpg",
+           "attachmentType": "1",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\A jew digging his own grave.jpg",
+           "dataLength": "42453",
+           "format": ".jpg"
+          },
+          {
+           "guid": "360C4DFA-C88C-FB11-2222-6BB8DE42EAF3",
+           "AttachmentEntries": {
+            "attachmentEntryID": "300C8440-FCE5-541F-8534-EF527C3D9F17"
+           },
+           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
+           "name": "Arbeit macht frei (Labour liberates), the deceptive sign above the entrance to Auschwitz[1].jpg",
+           "attachmentType": "1",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Arbeit macht frei (Labour liberates), the deceptive sign above the entrance to Auschwitz[1].jpg",
+           "dataLength": "40616",
+           "format": ".jpg"
+          },
+          {
+           "guid": "ADC89CF2-C7C0-1BD7-71A9-7CF65DF470A8",
+           "AttachmentEntries": {
+            "attachmentEntryID": "300C8440-FCE5-541F-8534-EF527C3D9F17"
+           },
+           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
+           "name": "buchenwald.jpg",
+           "attachmentType": "1",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\buchenwald.jpg",
+           "dataLength": "39873",
+           "format": ".jpg"
+          },
+          {
+           "guid": "9AC2D748-B89E-1EEE-4C0C-9F7DAFE44108",
+           "AttachmentEntries": {
+            "attachmentEntryID": "300C8440-FCE5-541F-8534-EF527C3D9F17"
+           },
+           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
+           "name": "Children at a concentration camp wearing the striped uniform.jpg",
+           "attachmentType": "1",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Children at a concentration camp wearing the striped uniform.jpg",
+           "dataLength": "118977",
+           "format": ".jpg"
+          },
+          {
+           "guid": "C15C7F13-8546-60DF-0A9D-609CDB2FAB64",
+           "AttachmentEntries": {
+            "attachmentEntryID": "300C8440-FCE5-541F-8534-EF527C3D9F17"
+           },
+           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
+           "name": "Children at concentration camp with stripe uniform.jpg",
+           "attachmentType": "1",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Children at concentration camp with stripe uniform.jpg",
+           "dataLength": "118977",
+           "format": ".jpg"
+          },
+          {
+           "guid": "4B28FDA4-1666-8258-19DB-5F1F8CAE780C",
+           "AttachmentEntries": {
+            "attachmentEntryID": "300C8440-FCE5-541F-8534-EF527C3D9F17"
+           },
+           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
+           "name": "Crematorium_ burning the bodies at the Death Camps.jpg",
+           "attachmentType": "1",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Crematorium_ burning the bodies at the Death Camps.jpg",
+           "dataLength": "99784",
+           "format": ".jpg"
+          },
+          {
+           "guid": "70AFAABC-0600-4E85-8332-1E87D9CBDD2E",
+           "AttachmentEntries": {
+            "attachmentEntryID": "300C8440-FCE5-541F-8534-EF527C3D9F17"
+           },
+           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
+           "name": "Nazi killing a woman and child.jpg",
+           "attachmentType": "1",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Nazi killing a woman and child.jpg",
+           "dataLength": "50378",
+           "format": ".jpg"
+          },
+          {
+           "guid": "13CA2964-AF81-DF67-92CE-B9DF1B5D17DB",
+           "AttachmentEntries": {
+            "attachmentEntryID": "300C8440-FCE5-541F-8534-EF527C3D9F17"
+           },
+           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
+           "name": "Nazis taking pride in killing Partisans.jpg",
+           "attachmentType": "1",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Nazis taking pride in killing Partisans.jpg",
+           "dataLength": "71220",
+           "format": ".jpg"
+          },
+          {
+           "guid": "82B2A9C6-3EE0-A018-F0B4-65A1D1F028A4",
+           "AttachmentEntries": {
+            "attachmentEntryID": "300C8440-FCE5-541F-8534-EF527C3D9F17"
+           },
+           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
+           "name": "The Auschwitz Gate.jpg",
+           "attachmentType": "1",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\The Auschwitz Gate.jpg",
+           "dataLength": "47763",
+           "format": ".jpg"
+          },
+          {
+           "guid": "F32904AF-5DD6-6E60-6144-9607E5B16226",
+           "AttachmentEntries": {
+            "attachmentEntryID": "300C8440-FCE5-541F-8534-EF527C3D9F17"
+           },
+           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
+           "name": "The number inscribed by the Nazis into the victims&apos; flesh.jpg",
+           "attachmentType": "1",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\The number inscribed by the Nazis into the victims&apos; flesh.jpg",
+           "dataLength": "10394",
+           "format": ".jpg"
           }
          ],
          "type": "bastard",
@@ -2314,18 +2659,6 @@
            "format": ".php"
           },
           {
-           "guid": "3692BADC-FAFA-7548-CB42-00055842D527",
-           "AttachmentEntries": {
-            "attachmentEntryID": "A9F1B193-B16D-8847-8993-A7FF0EFDB66B"
-           },
-           "objectID": "A4FB7080-C969-0ECA-6223-F8DFD4ACB047",
-           "name": "The Kahal Shalom Synagogue.jpg",
-           "attachmentType": "1",
-           "location": "A4FB7080-C969-0ECA-6223-F8DFD4ACB047\\The Kahal Shalom Synagogue.jpg",
-           "dataLength": "10172",
-           "format": ".jpg"
-          },
-          {
            "guid": "CDF6EFF3-9A5C-CAFD-0E80-073137017187",
            "AttachmentEntries": {
             "attachmentEntryID": "A9F1B193-B16D-8847-8993-A7FF0EFDB66B"
@@ -2361,6 +2694,42 @@
            "location": "https://soundcloud.com/shayesh/piyyut-jewish-liturgical-poem",
            "dataLength": "0",
            "format": ""
+          },
+          {
+           "guid": "837D13FC-C70B-893F-A316-1B0625726721",
+           "AttachmentEntries": {
+            "attachmentEntryID": "A9F1B193-B16D-8847-8993-A7FF0EFDB66B"
+           },
+           "objectID": "A4FB7080-C969-0ECA-6223-F8DFD4ACB047",
+           "name": "Kahal Shalom synagogue, entrance.jpg",
+           "attachmentType": "1",
+           "location": "A4FB7080-C969-0ECA-6223-F8DFD4ACB047\\Kahal Shalom synagogue, entrance.jpg",
+           "dataLength": "56920",
+           "format": ".jpg"
+          },
+          {
+           "guid": "4437CF28-91AF-D82D-6E30-E0AAC3C1B0B4",
+           "AttachmentEntries": {
+            "attachmentEntryID": "A9F1B193-B16D-8847-8993-A7FF0EFDB66B"
+           },
+           "objectID": "A4FB7080-C969-0ECA-6223-F8DFD4ACB047",
+           "name": "The Kahal Shalom synagogue.jpg",
+           "attachmentType": "1",
+           "location": "A4FB7080-C969-0ECA-6223-F8DFD4ACB047\\The Kahal Shalom synagogue.jpg",
+           "dataLength": "10172",
+           "format": ".jpg"
+          },
+          {
+           "guid": "66A7F59C-D007-0A78-728D-7264D4332F91",
+           "AttachmentEntries": {
+            "attachmentEntryID": "A9F1B193-B16D-8847-8993-A7FF0EFDB66B"
+           },
+           "objectID": "A4FB7080-C969-0ECA-6223-F8DFD4ACB047",
+           "name": "Kahal Shalom synagogue, interior.jpg",
+           "attachmentType": "1",
+           "location": "A4FB7080-C969-0ECA-6223-F8DFD4ACB047\\Kahal Shalom synagogue, interior.jpg",
+           "dataLength": "96373",
+           "format": ".jpg"
           }
          ],
          "type": "chronological",
@@ -2636,7 +3005,7 @@
               "attachmentEntryID": "63266BF7-05C8-76D1-2025-5B8D9D0B7D26"
              },
              "objectID": "EB4FD149-5DEF-8C54-818E-9F93C286A13E",
-             "name": "Interview with Benjamin Richler",
+             "name": "Richler tells the story of the discovery",
              "attachmentType": "3",
              "location": "http://youtu.be/jAsepl1nmN4",
              "dataLength": "0",
@@ -3047,9 +3416,9 @@
               "attachmentEntryID": "8D20D326-C161-1005-92C1-2F4214B32C38"
              },
              "objectID": "4130AC26-0B7C-306D-58D1-87B4DD7C00BD",
-             "name": "Newton, Fragments on the kingdoms of the European tribes, the Temple and the history of Jewish and Christian Churches.jpg",
+             "name": "Newton, Fragments on the kingdoms of the European tribes, the Temple and the history of Jewish and Christian Churches, NLI.jpg",
              "attachmentType": "1",
-             "location": "4130AC26-0B7C-306D-58D1-87B4DD7C00BD\\Newton, Fragments on the kingdoms of the European tribes, the Temple and the history of Jewish and Christian Churches.jpg",
+             "location": "4130AC26-0B7C-306D-58D1-87B4DD7C00BD\\Newton, Fragments on the kingdoms of the European tribes, the Temple and the history of Jewish and Christian Churches, NLI.jpg",
              "dataLength": "225185",
              "format": ".jpg"
             }
@@ -3445,7 +3814,20 @@
      "guid": "DFAB247D-78C0-81D1-C14B-B79DF943FAA7",
      "name": "Yahuda - Collector and Scholar",
      "data": "",
-     "attachments": [],
+     "attachments": [
+      {
+       "guid": "02FBBEA3-14EC-E738-9789-4392E2871B2D",
+       "AttachmentEntries": {
+        "attachmentEntryID": "E884F638-2B2C-84DA-0B07-CEE81F8F9C60"
+       },
+       "objectID": "DFAB247D-78C0-81D1-C14B-B79DF943FAA7",
+       "name": "Abraham Shalom Yahuda (1877-1951), NLI.png",
+       "attachmentType": "1",
+       "location": "DFAB247D-78C0-81D1-C14B-B79DF943FAA7\\Abraham Shalom Yahuda (1877-1951), NLI.png",
+       "dataLength": "421814",
+       "format": ".png"
+      }
+     ],
      "type": "default",
      "parent": {
       "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
@@ -3456,91 +3838,33 @@
       {
        "guid": "F365BDA9-E322-11FB-C378-58447FD36578",
        "name": "Exquisite Manuscript Collection",
-       "data": "<p dir=\"LTR\"><b><span><span>Eastern Manuscripts</span></span></b><span><span><span></span></span></span></p>\n<p dir=\"LTR\"><span><span><span><span>Yahuda bequeathed the National Library of Israel with 1,184 exquisite eastern manuscripts in the field of Islamic religion, sciences, Arabic literature and Persian poetry. These include a unique collection of over 100 rare manuscripts of the Qur'an- some of them very early (8th-10th centuries), and others which are beautifully illustrated.</span></span></span></span><span><span><span></span></span></span></p>\n<p dir=\"LTR\"><b><span><span><span>Jewish manuscripts</span></span></span></b><span><span><span></span></span></span></p>\n<p><span><span><span>Yahuda's collection of Jewish manuscripts includes the most beautiful existing manuscript of Maimonides' </span></span><i><span><span><span>Mishneh Torah</span></span></span></i></span><span><span><span></span></span></span></p>\n<p><span><span> Documents from the Jewish Community in Aragon, including a privilege granted by King Alfonso V of Aragon (1416-1438) to the nobleman Berenguer de Bardaxi , granting him permission to settle 30-40 Jewish families on his lands in Oliete, south of Zaragossa.</span></span><span><span><span></span></span></span></p>\n<p dir=\"LTR\"><b><span><span><span>Other Manuscripts</span></span></span></b><span><span><span></span></span></span></p>\n<p><span><span><span>Besides Newton's theological papers, the collection includes beautiful Books of Hours, letters from Napoleon Bonaparte, and many more important manuscripts. </span></span></span></p>\n",
+       "data": "",
        "attachments": [
         {
-         "guid": "9B28A2B3-2C5F-DC77-C8AC-2532487334D6",
+         "guid": "398CC252-A91F-6DF6-5798-96C831E53A48",
          "AttachmentEntries": {
           "attachmentEntryID": "1C1A3A81-22E8-3CD8-1BA2-2CEF9A786EB1"
          },
          "objectID": "F365BDA9-E322-11FB-C378-58447FD36578",
-         "name": "Qur&apos;an, 9th. century, Qayrawan.jpg",
-         "attachmentType": "1",
-         "location": "F365BDA9-E322-11FB-C378-58447FD36578\\Qur&apos;an, 9th. century, Qayrawan.jpg",
-         "dataLength": "308234",
-         "format": ".jpg"
+         "name": "",
+         "attachmentType": "0",
+         "location": "",
+         "dataLength": "0",
+         "format": "",
+         "deletedDateTime": "2014-02-09 15:43:18.982 @+0200"
         },
         {
-         "guid": "23CABC6E-D302-18C5-0E56-1CEF28B3F7D0",
+         "guid": "5B82549A-2703-997D-FFF1-C91E9D10AD2F",
          "AttachmentEntries": {
           "attachmentEntryID": "1C1A3A81-22E8-3CD8-1BA2-2CEF9A786EB1"
          },
          "objectID": "F365BDA9-E322-11FB-C378-58447FD36578",
-         "name": "Maimonides, Mishne Torah, 1300-1350, &apos;Mada&apos; (Science), NLI.jpg",
-         "attachmentType": "1",
-         "location": "F365BDA9-E322-11FB-C378-58447FD36578\\Maimonides, Mishne Torah, 1300-1350, &apos;Mada&apos; (Science), NLI.jpg",
-         "dataLength": "400794",
-         "format": ".jpg"
-        },
-        {
-         "guid": "65BE7B49-FB59-D1D9-9443-67399F00380B",
-         "AttachmentEntries": {
-          "attachmentEntryID": "1C1A3A81-22E8-3CD8-1BA2-2CEF9A786EB1"
-         },
-         "objectID": "F365BDA9-E322-11FB-C378-58447FD36578",
-         "name": "Maimonides, Mishne Torah, 1300-1350, NLI.jpg",
-         "attachmentType": "1",
-         "location": "F365BDA9-E322-11FB-C378-58447FD36578\\Maimonides, Mishne Torah, 1300-1350, NLI.jpg",
-         "dataLength": "105213",
-         "format": ".jpg"
-        },
-        {
-         "guid": "1572A4B4-E7C3-2AA3-E86F-3E8F56833B1D",
-         "AttachmentEntries": {
-          "attachmentEntryID": "1C1A3A81-22E8-3CD8-1BA2-2CEF9A786EB1"
-         },
-         "objectID": "F365BDA9-E322-11FB-C378-58447FD36578",
-         "name": "Napoleon&apos;s letter to  general Destaing during the campaign in Egypt, 9.7.1799 .jpg",
-         "attachmentType": "1",
-         "location": "F365BDA9-E322-11FB-C378-58447FD36578\\Napoleon&apos;s letter to  general Destaing during the campaign in Egypt, 9.7.1799 .jpg",
-         "dataLength": "485893",
-         "format": ".jpg"
-        },
-        {
-         "guid": "459A1C82-8460-7E96-9966-42992B17FBEA",
-         "AttachmentEntries": {
-          "attachmentEntryID": "1C1A3A81-22E8-3CD8-1BA2-2CEF9A786EB1"
-         },
-         "objectID": "F365BDA9-E322-11FB-C378-58447FD36578",
-         "name": "Privilege granted to the Jews by King Alfonso V of Aragon, Zaragossa 1429, NLI.jpg",
-         "attachmentType": "1",
-         "location": "F365BDA9-E322-11FB-C378-58447FD36578\\Privilege granted to the Jews by King Alfonso V of Aragon, Zaragossa 1429, NLI.jpg",
-         "dataLength": "360649",
-         "format": ".jpg"
-        },
-        {
-         "guid": "A78B9BF5-1BD2-D484-BC06-ED9911634EA4",
-         "AttachmentEntries": {
-          "attachmentEntryID": "1C1A3A81-22E8-3CD8-1BA2-2CEF9A786EB1"
-         },
-         "objectID": "F365BDA9-E322-11FB-C378-58447FD36578",
-         "name": "Book of Hours, 15th century, Bruges, NLI .jpg",
-         "attachmentType": "1",
-         "location": "F365BDA9-E322-11FB-C378-58447FD36578\\Book of Hours, 15th century, Bruges, NLI .jpg",
-         "dataLength": "432242",
-         "format": ".jpg"
-        },
-        {
-         "guid": "A6E7E6E8-5012-7011-3A13-81B91973B7BC",
-         "AttachmentEntries": {
-          "attachmentEntryID": "1C1A3A81-22E8-3CD8-1BA2-2CEF9A786EB1"
-         },
-         "objectID": "F365BDA9-E322-11FB-C378-58447FD36578",
-         "name": "Muhammad al-Busiri, Al-Burdah (poem of the Mantle), mid 14th century, NLI.jpg",
-         "attachmentType": "1",
-         "location": "F365BDA9-E322-11FB-C378-58447FD36578\\Muhammad al-Busiri, Al-Burdah (poem of the Mantle), mid 14th century, NLI.jpg",
-         "dataLength": "426621",
-         "format": ".jpg"
+         "name": "",
+         "attachmentType": "0",
+         "location": "",
+         "dataLength": "0",
+         "format": "",
+         "deletedDateTime": "2014-02-09 15:44:24.289 @+0200"
         }
        ],
        "type": "default",
@@ -3548,14 +3872,227 @@
         "guid": "DFAB247D-78C0-81D1-C14B-B79DF943FAA7",
         "name": "Yahuda - Collector and Scholar"
        },
-       "hasChronologicalChildren": false,
-       "children": []
+       "hasChronologicalChildren": true,
+       "children": [
+        {
+         "guid": "42116843-CC5D-0E5E-5B09-0417EF55B8D8",
+         "name": ":1: Jewish manuscripts",
+         "data": "<p><span><span><span>Yahuda's rich collection of Jewish manuscripts includes the most beautiful existing manuscript of Maimonides' </span></span><i><span><span><span>Mishneh Torah, </span></span></span></i><span><span><span>as well as various manuscripts of the Old Testament, commentaries and philological and philosophical treatises written by Jewish scholars.</span></span></span></span></p>\n",
+         "attachments": [
+          {
+           "guid": "569FB746-DB25-68B1-B52A-F4E1D68ADF69",
+           "AttachmentEntries": {
+            "attachmentEntryID": "3EBF6E31-24EB-5A92-2BC3-93048FF6C920"
+           },
+           "objectID": "42116843-CC5D-0E5E-5B09-0417EF55B8D8",
+           "name": "Maimonides, Mishne Torah, 1300-1350, &apos;Mada&apos; (Science), NLI.jpg",
+           "attachmentType": "1",
+           "location": "42116843-CC5D-0E5E-5B09-0417EF55B8D8\\Maimonides, Mishne Torah, 1300-1350, &apos;Mada&apos; (Science), NLI.jpg",
+           "dataLength": "400794",
+           "format": ".jpg"
+          },
+          {
+           "guid": "9207244A-D0A4-8330-A906-2C1E42CD67D1",
+           "AttachmentEntries": {
+            "attachmentEntryID": "3EBF6E31-24EB-5A92-2BC3-93048FF6C920"
+           },
+           "objectID": "42116843-CC5D-0E5E-5B09-0417EF55B8D8",
+           "name": "Maimonides, Mishne Torah, 1300-1350, NLI.jpg",
+           "attachmentType": "1",
+           "location": "42116843-CC5D-0E5E-5B09-0417EF55B8D8\\Maimonides, Mishne Torah, 1300-1350, NLI.jpg",
+           "dataLength": "105213",
+           "format": ".jpg"
+          },
+          {
+           "guid": "E45B6A25-1A5C-B198-3D48-75B266CE73A1",
+           "AttachmentEntries": {
+            "attachmentEntryID": "3EBF6E31-24EB-5A92-2BC3-93048FF6C920"
+           },
+           "objectID": "42116843-CC5D-0E5E-5B09-0417EF55B8D8",
+           "name": "Maimonides, Mishneh Torah, Judges, copied in 1433, NLI.jpg",
+           "attachmentType": "1",
+           "location": "42116843-CC5D-0E5E-5B09-0417EF55B8D8\\Maimonides, Mishneh Torah, Judges, copied in 1433, NLI.jpg",
+           "dataLength": "316242",
+           "format": ".jpg"
+          },
+          {
+           "guid": "957B9440-76A3-916C-69DF-033384E4083E",
+           "AttachmentEntries": {
+            "attachmentEntryID": "3EBF6E31-24EB-5A92-2BC3-93048FF6C920"
+           },
+           "objectID": "42116843-CC5D-0E5E-5B09-0417EF55B8D8",
+           "name": "Song of Songs, with trans. and Rashi&apos;s commentary, 18th century, NLI.jpg",
+           "attachmentType": "1",
+           "location": "42116843-CC5D-0E5E-5B09-0417EF55B8D8\\Song of Songs, with trans. and Rashi&apos;s commentary, 18th century, NLI.jpg",
+           "dataLength": "381468",
+           "format": ".jpg"
+          }
+         ],
+         "type": "chronological",
+         "chronologicalId": "1",
+         "chronologicalName": "Jewish manuscripts",
+         "parent": {
+          "guid": "F365BDA9-E322-11FB-C378-58447FD36578",
+          "name": "Exquisite Manuscript Collection"
+         },
+         "hasChronologicalChildren": false,
+         "children": [
+          {
+           "guid": "D1D6FCC7-F64A-93B3-12D0-03E90BE4D3FA",
+           "name": ":2: Documents regarding the Jewish community in Spain",
+           "data": "<p><span><span>Being of Spanish origin, Yahuda took a special interest in collecting material pertaining to the history of the Jews in Spain. Among these are documents from the Jewish Community in Aragon, including a privilege granted by King Alfonso V of Aragon (1416-1438) to the nobleman Berenguer de Bardaxi , granting him permission to settle 30-40 Jewish families on his lands in Oliete, south of Zaragoza.</span></span></p>\n",
+           "attachments": [
+            {
+             "guid": "1AEE6C82-2A84-6971-B7D2-F1CF6B71CE78",
+             "AttachmentEntries": {
+              "attachmentEntryID": "4D1AAAA8-B9DB-51B7-4505-3FAE491DE67E"
+             },
+             "objectID": "D1D6FCC7-F64A-93B3-12D0-03E90BE4D3FA",
+             "name": "Privilege granted to the Jews by King Alfonso V of Aragon, Zaragossa 1429, NLI.jpg",
+             "attachmentType": "1",
+             "location": "D1D6FCC7-F64A-93B3-12D0-03E90BE4D3FA\\Privilege granted to the Jews by King Alfonso V of Aragon, Zaragossa 1429, NLI.jpg",
+             "dataLength": "203947",
+             "format": ".jpg"
+            }
+           ],
+           "type": "chronological",
+           "chronologicalId": "2",
+           "chronologicalName": "Documents regarding the Jewish community in Spain",
+           "parent": {
+            "guid": "F365BDA9-E322-11FB-C378-58447FD36578",
+            "name": "Exquisite Manuscript Collection"
+           },
+           "hasChronologicalChildren": false,
+           "children": [
+            {
+             "guid": "30FBEE2C-024A-DDA0-31C4-340153E44CA9",
+             "name": ":3: Eastern  Manuscripts",
+             "data": "<p><span><span><span><span>Yahuda bequeathed the National Library of Israel with 1,184 exquisite eastern manuscripts in the field of Islamic religion, sciences, Arabic literature and Persian poetry. These include a unique collection of over 100 rare manuscripts of the Qur'an- some of them very early (8th-10th centuries), and others which are beautifully illustrated.</span></span></span></span></p>\n",
+             "attachments": [
+              {
+               "guid": "FBCA5E23-FE7B-76FB-460C-051030FAF212",
+               "AttachmentEntries": {
+                "attachmentEntryID": "ABEC725B-8689-9510-1C2A-FD3672A7DDDD"
+               },
+               "objectID": "30FBEE2C-024A-DDA0-31C4-340153E44CA9",
+               "name": "Qur&apos;an, 9th. century, Qayrawan.jpg",
+               "attachmentType": "1",
+               "location": "30FBEE2C-024A-DDA0-31C4-340153E44CA9\\Qur&apos;an, 9th. century, Qayrawan.jpg",
+               "dataLength": "308234",
+               "format": ".jpg"
+              },
+              {
+               "guid": "0816395D-4C58-AF32-32D6-9FAE8B25F1E8",
+               "AttachmentEntries": {
+                "attachmentEntryID": "ABEC725B-8689-9510-1C2A-FD3672A7DDDD"
+               },
+               "objectID": "30FBEE2C-024A-DDA0-31C4-340153E44CA9",
+               "name": "Muhammad al-Busiri, Al-Burdah (poem of the Mantle), mid 14th century, NLI.jpg",
+               "attachmentType": "1",
+               "location": "30FBEE2C-024A-DDA0-31C4-340153E44CA9\\Muhammad al-Busiri, Al-Burdah (poem of the Mantle), mid 14th century, NLI.jpg",
+               "dataLength": "426621",
+               "format": ".jpg"
+              },
+              {
+               "guid": "DEBDED67-BC3C-DAD1-34D3-67D0E8F897B7",
+               "AttachmentEntries": {
+                "attachmentEntryID": "ABEC725B-8689-9510-1C2A-FD3672A7DDDD"
+               },
+               "objectID": "30FBEE2C-024A-DDA0-31C4-340153E44CA9",
+               "name": "An Andalusian Qur&apos;an, 12th century, NLI.jpg",
+               "attachmentType": "1",
+               "location": "30FBEE2C-024A-DDA0-31C4-340153E44CA9\\An Andalusian Qur&apos;an, 12th century, NLI.jpg",
+               "dataLength": "133625",
+               "format": ".jpg"
+              }
+             ],
+             "type": "chronological",
+             "chronologicalId": "3",
+             "chronologicalName": "Eastern  Manuscripts",
+             "parent": {
+              "guid": "F365BDA9-E322-11FB-C378-58447FD36578",
+              "name": "Exquisite Manuscript Collection"
+             },
+             "hasChronologicalChildren": false,
+             "children": [
+              {
+               "guid": "DD19038B-20EE-84D7-1A38-2A043EE50D32",
+               "name": ":4: Western Manuscripts",
+               "data": "<p><span><span><span>Besides Newton's theological papers, the collection includes beautiful Books of Hours, letters from Napoleon Bonaparte, and many more important manuscripts.&#160;</span></span></span></p>\n",
+               "attachments": [
+                {
+                 "guid": "7B94ABB5-A910-DCA7-DC3B-2BDE4943B256",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "D65EBDE2-BD86-8CE2-18E6-C64813207263"
+                 },
+                 "objectID": "DD19038B-20EE-84D7-1A38-2A043EE50D32",
+                 "name": "Book of Hours, 15th century, Bruges, NLI .jpg",
+                 "attachmentType": "1",
+                 "location": "DD19038B-20EE-84D7-1A38-2A043EE50D32\\Book of Hours, 15th century, Bruges, NLI .jpg",
+                 "dataLength": "432242",
+                 "format": ".jpg"
+                },
+                {
+                 "guid": "D581F988-52E2-044E-0051-F6FC30DEBAEA",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "D65EBDE2-BD86-8CE2-18E6-C64813207263"
+                 },
+                 "objectID": "DD19038B-20EE-84D7-1A38-2A043EE50D32",
+                 "name": "Napoleon&apos;s letter to  general Destaing during the campaign in Egypt, 9.7.1799 .jpg",
+                 "attachmentType": "1",
+                 "location": "DD19038B-20EE-84D7-1A38-2A043EE50D32\\Napoleon&apos;s letter to  general Destaing during the campaign in Egypt, 9.7.1799 .jpg",
+                 "dataLength": "485893",
+                 "format": ".jpg"
+                },
+                {
+                 "guid": "CD862005-4DF8-23CF-756B-5C00BFFD16B8",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "D65EBDE2-BD86-8CE2-18E6-C64813207263"
+                 },
+                 "objectID": "DD19038B-20EE-84D7-1A38-2A043EE50D32",
+                 "name": "Newton, Map of the Fifth and Sixth Trumpets, NLI.jpg",
+                 "attachmentType": "1",
+                 "location": "DD19038B-20EE-84D7-1A38-2A043EE50D32\\Newton, Map of the Fifth and Sixth Trumpets, NLI.jpg",
+                 "dataLength": "179468",
+                 "format": ".jpg"
+                }
+               ],
+               "type": "chronological",
+               "chronologicalId": "4",
+               "chronologicalName": "Western Manuscripts",
+               "parent": {
+                "guid": "F365BDA9-E322-11FB-C378-58447FD36578",
+                "name": "Exquisite Manuscript Collection"
+               },
+               "hasChronologicalChildren": false,
+               "children": []
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
       },
       {
        "guid": "E0173FCD-8591-E6E3-CF36-7AB44ACDA9E4",
        "name": ":1: Life",
-       "data": "<p dir=\"LTR\"><span>Abraham Shalom Yahuda (1877 – 1951) was born in Jerusalem to a respectable family. His father's family, which had arrived in Jerusalem from Baghdad, descended from the famous Yosef ben Shushan, a Jewish minister at the court of Alfonso VIII (1155-1214), king of Castile, while his mother came from a well-known German Jewish family.</span></p>\n<p dir=\"LTR\"><span> </span></p>\n<p dir=\"LTR\"><span>photograph: The Tolledo synagogue built by Yosef Ben-Shushan's son, one of A.S. Yahuda's forefathers. The Synagogue was later converted into a church by the name of Santa Maria la Blanca.                           </span></p>\n",
-       "attachments": [],
+       "data": "<p dir=\"LTR\"><span>Abraham Shalom Yahuda (1877 – 1951) was born in Jerusalem to a respectable family. His father's family, which had arrived in Jerusalem from Baghdad, descended from the famous Yosef ben Shushan, a Jewish minister at the court of Alfonso VIII (1155-1214), king of Castile, while his mother came from a well-known German Jewish family.</span></p>\n<p dir=\"LTR\"><span>&#160;</span></p>\n<p dir=\"LTR\"><span>photograph: The Toledo synagogue built by Yosef Ben-Shushan's son, one of A.S. Yahuda's forefathers. The Synagogue was later converted into a church by the name of Santa Maria la Blanca.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span></p>\n",
+       "attachments": [
+        {
+         "guid": "EE73DE7A-8151-3B87-CD1C-ED997DEBA773",
+         "AttachmentEntries": {
+          "attachmentEntryID": "B0C876CD-974C-9434-99A2-54676B3E5A47"
+         },
+         "objectID": "E0173FCD-8591-E6E3-CF36-7AB44ACDA9E4",
+         "name": "The Santa Maria La Blanca Synagogue, Toledo.jpg",
+         "attachmentType": "1",
+         "location": "E0173FCD-8591-E6E3-CF36-7AB44ACDA9E4\\The Santa Maria La Blanca Synagogue, Toledo.jpg",
+         "dataLength": "71947",
+         "format": ".jpg"
+        }
+       ],
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "Life",
@@ -4100,7 +4637,20 @@
                          "guid": "F366C647-3357-CCE2-2D7B-3B0D2EBFEC07",
                          "name": ":7: Abraham Banishes Hagar and Ishma'el",
                          "data": "<p><span>After Isaac is born, Abraham sends Hagar away with Ishma'el while the feast in honour of the newborn Isaac is taking place in the background. The protecting angel hovers above the scene. (Genesis 21:8-11)</span></p>\n<p>&#160;</p>\n",
-                         "attachments": [],
+                         "attachments": [
+                          {
+                           "guid": "D9C2CB1D-0570-3CDA-08E9-8A993839E312",
+                           "AttachmentEntries": {
+                            "attachmentEntryID": "A7B3C634-B71F-E874-EA3D-3A50A135D213"
+                           },
+                           "objectID": "F366C647-3357-CCE2-2D7B-3B0D2EBFEC07",
+                           "name": "Ortelius, Banishment of Hagar and Ishma&apos;el.jpg",
+                           "attachmentType": "1",
+                           "location": "F366C647-3357-CCE2-2D7B-3B0D2EBFEC07\\Ortelius, Banishment of Hagar and Ishma&apos;el.jpg",
+                           "dataLength": "55245",
+                           "format": ".jpg"
+                          }
+                         ],
                          "type": "chronological",
                          "chronologicalId": "7",
                          "chronologicalName": "Abraham Banishes Hagar and Ishma'el",
@@ -5274,7 +5824,7 @@
                  "name": "Shmuel Hugo Bergman.jpg",
                  "attachmentType": "1",
                  "location": "F8764905-77D6-2F1F-C4A6-0376797AED4A\\Shmuel Hugo Bergman.jpg",
-                 "dataLength": "23093",
+                 "dataLength": "27640",
                  "format": ".jpg"
                 },
                 {
@@ -5286,7 +5836,7 @@
                  "name": "Bergman and the Czech president Masaryk on their way to visit the National Library, Jerusalem, 1927.jpg",
                  "attachmentType": "1",
                  "location": "F8764905-77D6-2F1F-C4A6-0376797AED4A\\Bergman and the Czech president Masaryk on their way to visit the National Library, Jerusalem, 1927.jpg",
-                 "dataLength": "369503",
+                 "dataLength": "119190",
                  "format": ".jpg"
                 }
                ],
@@ -6199,7 +6749,7 @@
           "attachmentEntryID": "E2BC6A1F-18BF-23B1-E6C7-A8B122028C24"
          },
          "objectID": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02",
-         "name": "Paris Arcades (with Walter Benjamin)",
+         "name": "Paris Arcades",
          "attachmentType": "3",
          "location": "http://www.youtube.com/watch?v=c6-weVtivNE",
          "dataLength": "0",
@@ -7231,7 +7781,7 @@
         "attachmentEntryID": "64BBDE6C-E5EE-00BB-A7A2-D39B06D2F9C3"
        },
        "objectID": "9D6F504D-AC12-E7CA-54E4-0C5AB510A1D3",
-       "name": "The Rebbe",
+       "name": "Chabad movie on the Rebbe",
        "attachmentType": "3",
        "location": "http://www.youtube.com/watch?v=HtE34e3nDd0",
        "dataLength": "0",
@@ -7573,6 +8123,781 @@
          },
          "hasChronologicalChildren": false,
          "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
+   "name": "The National Library of Israel",
+   "data": "<p>The National Library of Israel is a repository of Jewish spiritual heritage, preserving &#160;the memory of Jewish culture and the Jewish people throughout history, from its their very beginnings to the present-day State of Israel.</p>\n<p>As such, the Library continuously strives to collect all materials, past and present, relevant to the Jewish people and the Land of Israel.</p>\n",
+   "attachments": [
+    {
+     "guid": "10EABC5C-B224-F13D-45B7-E3CFE368A55D",
+     "AttachmentEntries": {
+      "attachmentEntryID": "51C3824D-C517-D48B-C40B-AE68AD71C49D"
+     },
+     "objectID": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
+     "name": "The National Library of Israel, Jerusalem.jpg",
+     "attachmentType": "1",
+     "location": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10\\The National Library of Israel, Jerusalem.jpg",
+     "dataLength": "78151",
+     "format": ".jpg"
+    },
+    {
+     "guid": "F71AA043-BFF6-2419-4899-E0A2F4C81470",
+     "AttachmentEntries": {
+      "attachmentEntryID": "51C3824D-C517-D48B-C40B-AE68AD71C49D"
+     },
+     "objectID": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
+     "name": "The Ardon windows, NLI.jpg",
+     "attachmentType": "1",
+     "location": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10\\The Ardon windows, NLI.jpg",
+     "dataLength": "154231",
+     "format": ".jpg"
+    },
+    {
+     "guid": "38754F27-AF3D-E11D-E45A-F78CC94FB079",
+     "AttachmentEntries": {
+      "attachmentEntryID": "51C3824D-C517-D48B-C40B-AE68AD71C49D"
+     },
+     "objectID": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
+     "name": "National Library of Israel",
+     "attachmentType": "3",
+     "location": "http://web.nli.org.il/sites/NLI/English/Pages/default.aspx",
+     "dataLength": "0",
+     "format": ".aspx"
+    }
+   ],
+   "type": "default",
+   "hasChronologicalChildren": true,
+   "children": [
+    {
+     "guid": "C1702A52-DDE2-96B8-01D8-7FA78990CDED",
+     "name": "The Library's Collections",
+     "data": "<p><span><span><span>At present, the Library houses&#160; over 3 million books including incunabula, manuscripts, periodicals, personal archives, music, maps, photographs and audio recordings. These are divided into four main collections: Judiaca, Israel, Islam and Humanities</span></span></span></p>\n",
+     "attachments": [],
+     "type": "default",
+     "parent": {
+      "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
+      "name": "The National Library of Israel"
+     },
+     "hasChronologicalChildren": true,
+     "children": [
+      {
+       "guid": "99BCF440-FBE1-A1E7-1B2F-1E73F169FE87",
+       "name": ":1: Judaica",
+       "data": "<p>The Judaica collection is among the most important in the world. It contains a wealth of material on Judaism, Jews, and Jewish culture, as expressed in writing, music and art. &#160;</p>\n",
+       "attachments": [
+        {
+         "guid": "581C99FA-A176-9DDA-744C-62406A5851C6",
+         "AttachmentEntries": {
+          "attachmentEntryID": "BFAD6536-15CD-F9D0-6858-44C17C7C657B"
+         },
+         "objectID": "99BCF440-FBE1-A1E7-1B2F-1E73F169FE87",
+         "name": "Autograph of Maimonides, Seder Mo&apos;ed,  Page 72, details, NLI.jpg",
+         "attachmentType": "1",
+         "location": "99BCF440-FBE1-A1E7-1B2F-1E73F169FE87\\Autograph of Maimonides, Seder Mo&apos;ed,  Page 72, details, NLI.jpg",
+         "dataLength": "165770",
+         "format": ".jpg"
+        },
+        {
+         "guid": "B5FBF6F4-152F-239C-3369-71C5096FB0FE",
+         "AttachmentEntries": {
+          "attachmentEntryID": "BFAD6536-15CD-F9D0-6858-44C17C7C657B"
+         },
+         "objectID": "99BCF440-FBE1-A1E7-1B2F-1E73F169FE87",
+         "name": "Maimonides, Mishneh Torah, 1300-1350, &apos;Ahava&apos; (Love), detail, NLI.jpg",
+         "attachmentType": "1",
+         "location": "99BCF440-FBE1-A1E7-1B2F-1E73F169FE87\\Maimonides, Mishneh Torah, 1300-1350, &apos;Ahava&apos; (Love), detail, NLI.jpg",
+         "dataLength": "182522",
+         "format": ".jpg"
+        },
+        {
+         "guid": "1BFD34D2-F782-0E5D-C545-8F1B12141496",
+         "AttachmentEntries": {
+          "attachmentEntryID": "BFAD6536-15CD-F9D0-6858-44C17C7C657B"
+         },
+         "objectID": "99BCF440-FBE1-A1E7-1B2F-1E73F169FE87",
+         "name": "Stefan Zweig&apos;s Letter to Martin Buber, 24.1.1917, p.1.jpg",
+         "attachmentType": "1",
+         "location": "99BCF440-FBE1-A1E7-1B2F-1E73F169FE87\\Stefan Zweig&apos;s Letter to Martin Buber, 24.1.1917, p.1.jpg",
+         "dataLength": "74857",
+         "format": ".jpg"
+        },
+        {
+         "guid": "F3297A90-5C20-2AAA-1552-93ADAF48B334",
+         "AttachmentEntries": {
+          "attachmentEntryID": "BFAD6536-15CD-F9D0-6858-44C17C7C657B"
+         },
+         "objectID": "99BCF440-FBE1-A1E7-1B2F-1E73F169FE87",
+         "name": "Kafka&apos;s Hebrew Booklet, circa 1917, NLI.jpg",
+         "attachmentType": "1",
+         "location": "99BCF440-FBE1-A1E7-1B2F-1E73F169FE87\\Kafka&apos;s Hebrew Booklet, circa 1917, NLI.jpg",
+         "dataLength": "51333",
+         "format": ".jpg"
+        },
+        {
+         "guid": "674D8478-E431-AF02-8C02-356EC5225411",
+         "AttachmentEntries": {
+          "attachmentEntryID": "BFAD6536-15CD-F9D0-6858-44C17C7C657B"
+         },
+         "objectID": "99BCF440-FBE1-A1E7-1B2F-1E73F169FE87",
+         "name": "Prayer for Rain, &apos;Tikun Ha-Geshem&apos;, Italy, NLI by shayesh on SoundCloud",
+         "attachmentType": "3",
+         "location": "https://soundcloud.com/shayesh/prayer-for-rain-tikun-ha",
+         "dataLength": "0",
+         "format": ""
+        },
+        {
+         "guid": "FA0B88C3-7377-12F2-B291-23E28C720BCF",
+         "AttachmentEntries": {
+          "attachmentEntryID": "BFAD6536-15CD-F9D0-6858-44C17C7C657B"
+         },
+         "objectID": "99BCF440-FBE1-A1E7-1B2F-1E73F169FE87",
+         "name": "Judaica",
+         "attachmentType": "3",
+         "location": "http://web.nli.org.il/sites/NLI/English/digitallibrary/gallery/jewish/Pages/default.aspx",
+         "dataLength": "0",
+         "format": ".aspx"
+        }
+       ],
+       "type": "chronological",
+       "chronologicalId": "1",
+       "chronologicalName": "Judaica",
+       "parent": {
+        "guid": "C1702A52-DDE2-96B8-01D8-7FA78990CDED",
+        "name": "The Library's Collections"
+       },
+       "hasChronologicalChildren": false,
+       "children": [
+        {
+         "guid": "F371557E-6759-37C4-D798-E6BDDA6B2AF5",
+         "name": ":2: Israel",
+         "data": "<p>The Israel Collection<b> </b>serves as the repository for the 'National memory' of the State and&#160;the Land of Israel. It contains all private and governmental material published in Israel, as well as ephemera, internet material, photographs, and the personal archives of prominent artists and cultural figures.</p>\n",
+         "attachments": [
+          {
+           "guid": "AFFC9FFC-FDF1-79EC-2D82-6701B689AE94",
+           "AttachmentEntries": {
+            "attachmentEntryID": "8D73DE8E-A4C0-CDA9-D54D-ACA6916537C2"
+           },
+           "objectID": "F371557E-6759-37C4-D798-E6BDDA6B2AF5",
+           "name": "Schottlaender, &apos;Panorama des heiligen Landes&apos;, Breslau, circa 1900,  NLI.jpg",
+           "attachmentType": "1",
+           "location": "F371557E-6759-37C4-D798-E6BDDA6B2AF5\\Schottlaender, &apos;Panorama des heiligen Landes&apos;, Breslau, circa 1900,  NLI.jpg",
+           "dataLength": "256200",
+           "format": ".jpg"
+          },
+          {
+           "guid": "AE3E09EF-D8EE-2EEF-EC12-0B58289BEAC0",
+           "AttachmentEntries": {
+            "attachmentEntryID": "8D73DE8E-A4C0-CDA9-D54D-ACA6916537C2"
+           },
+           "objectID": "F371557E-6759-37C4-D798-E6BDDA6B2AF5",
+           "name": "Adrichom, map of Jerusalem, Cologne, 1584,  NLI.jpg",
+           "attachmentType": "1",
+           "location": "F371557E-6759-37C4-D798-E6BDDA6B2AF5\\Adrichom, map of Jerusalem, Cologne, 1584,  NLI.jpg",
+           "dataLength": "303458",
+           "format": ".jpg"
+          },
+          {
+           "guid": "988D5D45-5373-191C-56D8-5B62C9512322",
+           "AttachmentEntries": {
+            "attachmentEntryID": "8D73DE8E-A4C0-CDA9-D54D-ACA6916537C2"
+           },
+           "objectID": "F371557E-6759-37C4-D798-E6BDDA6B2AF5",
+           "name": "Celebrating the UN&#180;s decision to establish a Jewish State in Palestine, Tel Aviv, 30.11.1947, NLI.jpg",
+           "attachmentType": "1",
+           "location": "F371557E-6759-37C4-D798-E6BDDA6B2AF5\\Celebrating the UN&#180;s decision to establish a Jewish State in Palestine, Tel Aviv, 30.11.1947, NLI.jpg",
+           "dataLength": "83003",
+           "format": ".jpg"
+          },
+          {
+           "guid": "D10E330B-C3FD-8F87-A130-A99CB44B249D",
+           "AttachmentEntries": {
+            "attachmentEntryID": "8D73DE8E-A4C0-CDA9-D54D-ACA6916537C2"
+           },
+           "objectID": "F371557E-6759-37C4-D798-E6BDDA6B2AF5",
+           "name": "Israel",
+           "attachmentType": "3",
+           "location": "http://web.nli.org.il/sites/NLI/English/digitallibrary/gallery/of-israel/Pages/default.aspx",
+           "dataLength": "0",
+           "format": ".aspx"
+          }
+         ],
+         "type": "chronological",
+         "chronologicalId": "2",
+         "chronologicalName": "Israel",
+         "parent": {
+          "guid": "C1702A52-DDE2-96B8-01D8-7FA78990CDED",
+          "name": "The Library's Collections"
+         },
+         "hasChronologicalChildren": false,
+         "children": [
+          {
+           "guid": "DCC59C4C-8581-A2D2-7E52-A08855BCDEAC",
+           "name": ":3: Islam and Middle East",
+           "data": "<p>The Islam and the Middle East collection deals extensively with the Middle East - past and present- and Islamic culture and history. The collection contains material relating to the classical languages of the Islamic world-Arabic, Persian and Turkish- and the literature written in these languages over the generations. The collection includes books, journals, archival material, and a rich collection of 2,500 Arabic, Persian and Turkish manuscripts.</p>\n",
+           "attachments": [
+            {
+             "guid": "B56C121A-71D4-2F7A-0A74-DA6254BC2B78",
+             "AttachmentEntries": {
+              "attachmentEntryID": "110926C0-ADA1-124C-7E70-88E2A858C6CE"
+             },
+             "objectID": "DCC59C4C-8581-A2D2-7E52-A08855BCDEAC",
+             "name": "Jami, Gift to the Noble, Persian garden scene, NLI.jpg",
+             "attachmentType": "1",
+             "location": "DCC59C4C-8581-A2D2-7E52-A08855BCDEAC\\Jami, Gift to the Noble, Persian garden scene, NLI.jpg",
+             "dataLength": "256144",
+             "format": ".jpg"
+            },
+            {
+             "guid": "2EBB0183-1EAD-674A-6200-EBFC7FDA219B",
+             "AttachmentEntries": {
+              "attachmentEntryID": "110926C0-ADA1-124C-7E70-88E2A858C6CE"
+             },
+             "objectID": "DCC59C4C-8581-A2D2-7E52-A08855BCDEAC",
+             "name": "",
+             "attachmentType": "0",
+             "location": "",
+             "dataLength": "0",
+             "format": "",
+             "deletedDateTime": "2014-02-09 13:57:26.884 @+0200"
+            },
+            {
+             "guid": "A665D976-5E44-8A08-8CF2-4E0EC29FB270",
+             "AttachmentEntries": {
+              "attachmentEntryID": "110926C0-ADA1-124C-7E70-88E2A858C6CE"
+             },
+             "objectID": "DCC59C4C-8581-A2D2-7E52-A08855BCDEAC",
+             "name": "Shukri Bey Biltisi, Selim Nameh (The Book of Selim), manuscript-1524, NLI.jpg",
+             "attachmentType": "1",
+             "location": "DCC59C4C-8581-A2D2-7E52-A08855BCDEAC\\Shukri Bey Biltisi, Selim Nameh (The Book of Selim), manuscript-1524, NLI.jpg",
+             "dataLength": "179982",
+             "format": ".jpg"
+            },
+            {
+             "guid": "F05BB157-22BB-8D4A-3106-7BCEE1B8F8C4",
+             "AttachmentEntries": {
+              "attachmentEntryID": "110926C0-ADA1-124C-7E70-88E2A858C6CE"
+             },
+             "objectID": "DCC59C4C-8581-A2D2-7E52-A08855BCDEAC",
+             "name": "An Andalusian Qur&apos;an, 12th century, NLI.jpg",
+             "attachmentType": "1",
+             "location": "DCC59C4C-8581-A2D2-7E52-A08855BCDEAC\\An Andalusian Qur&apos;an, 12th century, NLI.jpg",
+             "dataLength": "133625",
+             "format": ".jpg"
+            },
+            {
+             "guid": "358509FE-902C-DCFF-93B1-9F191C51F38E",
+             "AttachmentEntries": {
+              "attachmentEntryID": "110926C0-ADA1-124C-7E70-88E2A858C6CE"
+             },
+             "objectID": "DCC59C4C-8581-A2D2-7E52-A08855BCDEAC",
+             "name": "Islam collection, Eid al-Adha",
+             "attachmentType": "3",
+             "location": "http://web.nli.org.il/sites/NLI/English/digitallibrary/gallery/Islam-Collection/Pages/Id-Al-Adha--2012.aspx",
+             "dataLength": "0",
+             "format": ".aspx"
+            }
+           ],
+           "type": "chronological",
+           "chronologicalId": "3",
+           "chronologicalName": "Islam and Middle East",
+           "parent": {
+            "guid": "C1702A52-DDE2-96B8-01D8-7FA78990CDED",
+            "name": "The Library's Collections"
+           },
+           "hasChronologicalChildren": false,
+           "children": [
+            {
+             "guid": "FBB87542-8711-9658-C73F-D63EC0CD546E",
+             "name": ":4: Humanities",
+             "data": "<p>The Humanities collection specializes in fields that have interacted historically with Jewish and Israeli culture, such as the Ancient Near East, the Mediterranean Basin and Western culture. The collection also provides research material to complement the other core collections. Highlights include ancient and medieval Christian manuscripts and the theological writings of Sir Isaac Newton.</p>\n",
+             "attachments": [
+              {
+               "guid": "C1E65E12-2986-BE01-1A22-D960B5D16C09",
+               "AttachmentEntries": {
+                "attachmentEntryID": "81F0CC2C-C589-983C-8EC8-86601235690D"
+               },
+               "objectID": "FBB87542-8711-9658-C73F-D63EC0CD546E",
+               "name": "Newton, Fragments on the kingdoms of the European tribes, the Temple and the history of Jewish and Christian Churches, NLI.jpg",
+               "attachmentType": "1",
+               "location": "FBB87542-8711-9658-C73F-D63EC0CD546E\\Newton, Fragments on the kingdoms of the European tribes, the Temple and the history of Jewish and Christian Churches, NLI.jpg",
+               "dataLength": "225185",
+               "format": ".jpg"
+              },
+              {
+               "guid": "DD58D5D1-A273-EB4C-F3B1-89EDA3B230DA",
+               "AttachmentEntries": {
+                "attachmentEntryID": "81F0CC2C-C589-983C-8EC8-86601235690D"
+               },
+               "objectID": "FBB87542-8711-9658-C73F-D63EC0CD546E",
+               "name": "Book of Hours, 15th century, Bruges, NLI .jpg",
+               "attachmentType": "1",
+               "location": "FBB87542-8711-9658-C73F-D63EC0CD546E\\Book of Hours, 15th century, Bruges, NLI .jpg",
+               "dataLength": "432242",
+               "format": ".jpg"
+              },
+              {
+               "guid": "910819C5-A2AC-9FFA-BB88-B630B13A34E9",
+               "AttachmentEntries": {
+                "attachmentEntryID": "81F0CC2C-C589-983C-8EC8-86601235690D"
+               },
+               "objectID": "FBB87542-8711-9658-C73F-D63EC0CD546E",
+               "name": "Napoleon&apos;s letter to  general Destaing during the campaign in Egypt, 9.7.1799 .jpg",
+               "attachmentType": "1",
+               "location": "FBB87542-8711-9658-C73F-D63EC0CD546E\\Napoleon&apos;s letter to  general Destaing during the campaign in Egypt, 9.7.1799 .jpg",
+               "dataLength": "485893",
+               "format": ".jpg"
+              },
+              {
+               "guid": "F3004C46-ED16-C747-F7F6-AF8838852CF7",
+               "AttachmentEntries": {
+                "attachmentEntryID": "81F0CC2C-C589-983C-8EC8-86601235690D"
+               },
+               "objectID": "FBB87542-8711-9658-C73F-D63EC0CD546E",
+               "name": "Humanities",
+               "attachmentType": "3",
+               "location": "http://web.nli.org.il/sites/NLI/English/digitallibrary/gallery/Humanities/Pages/default.aspx",
+               "dataLength": "0",
+               "format": ".aspx"
+              }
+             ],
+             "type": "chronological",
+             "chronologicalId": "4",
+             "chronologicalName": "Humanities",
+             "parent": {
+              "guid": "C1702A52-DDE2-96B8-01D8-7FA78990CDED",
+              "name": "The Library's Collections"
+             },
+             "hasChronologicalChildren": false,
+             "children": []
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "guid": "BBCD57B0-3245-D3AC-45EB-9EB2C1BFD53B",
+     "name": ":1: The Vision",
+     "data": "<p>The written word has always stood at the center of Jewish religion and culture. And yet, it was not until the end of the 19<sup>th</sup> century that the idea of aggregating all Jewish written material in one place arose.</p>\n<p>The Jewish National Movement, which came into being during the last quarter of the 19<sup>th</sup> century, sought to establish an independent Jewish State in the ancient Jewish homeland – the Land of Israel. The idea of collecting written Jewish spiritual heritage developed in tandem with the idea of the foundation of a Jewish State. A Jewish State was in fact meaningless without its spiritual legacy. Unlike other national libraries which were founded on previous collections – the National Library of Israel began ex nihilo.</p>\n",
+     "attachments": [
+      {
+       "guid": "3FDEDF41-CFC6-691F-8BCC-8C4257B07A2E",
+       "AttachmentEntries": {
+        "attachmentEntryID": "57C89101-9716-92B7-266A-D147369BC615"
+       },
+       "objectID": "BBCD57B0-3245-D3AC-45EB-9EB2C1BFD53B",
+       "name": "The first article calling for the establishment of a Jewish national library, Joshua Heschel Levin, Habazeleth newspaper, 26.1.1872.jpg",
+       "attachmentType": "1",
+       "location": "BBCD57B0-3245-D3AC-45EB-9EB2C1BFD53B\\The first article calling for the establishment of a Jewish national library, Joshua Heschel Levin, Habazeleth newspaper, 26.1.1872.jpg",
+       "dataLength": "124849",
+       "format": ".jpg"
+      },
+      {
+       "guid": "2C5522E9-A905-AB8B-D863-632DC35CD4ED",
+       "AttachmentEntries": {
+        "attachmentEntryID": "57C89101-9716-92B7-266A-D147369BC615"
+       },
+       "objectID": "BBCD57B0-3245-D3AC-45EB-9EB2C1BFD53B",
+       "name": "Participant card at the First Zionist Congress, 1897.jpg",
+       "attachmentType": "1",
+       "location": "BBCD57B0-3245-D3AC-45EB-9EB2C1BFD53B\\Participant card at the First Zionist Congress, 1897.jpg",
+       "dataLength": "38946",
+       "format": ".jpg"
+      },
+      {
+       "guid": "E5D47B5B-88E2-F486-89D3-DD7D158C2056",
+       "AttachmentEntries": {
+        "attachmentEntryID": "57C89101-9716-92B7-266A-D147369BC615"
+       },
+       "objectID": "BBCD57B0-3245-D3AC-45EB-9EB2C1BFD53B",
+       "name": "Flag of the First Zionist Congress, 1897.jpg",
+       "attachmentType": "1",
+       "location": "BBCD57B0-3245-D3AC-45EB-9EB2C1BFD53B\\Flag of the First Zionist Congress, 1897.jpg",
+       "dataLength": "21182",
+       "format": ".jpg"
+      }
+     ],
+     "type": "chronological",
+     "chronologicalId": "1",
+     "chronologicalName": "The Vision",
+     "parent": {
+      "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
+      "name": "The National Library of Israel"
+     },
+     "hasChronologicalChildren": false,
+     "children": [
+      {
+       "guid": "A18ECFA2-54E6-B8AC-CADA-10F771C5453E",
+       "name": ":2: The Founding of the Library",
+       "data": "<p>In 1892, exactly 400 years after the expulsion of the Jews from Spain, a small \"Bnei Brith\" library, meant to serve as the core of a national library, was founded in Jerusalem.</p>\n<p>The idea of a national library materialized due to one man's determined efforts: In 1890, Joseph Chazanowitch, a learned Jewish scholar and physician from Russia, visited Palestine as part of a Zionist delegation. From that point forward he dedicated his life to the creation of a national Jewish library. By 1914, he had managed to collect 22,000 books. &#160;In 1899, Chazanowitch wrote:</p>\n<p>\"A big, high and lofty house will be built in Jerusalem where all the spiritual fruit of Israel will be preserved from the time it became a people…\".</p>\n",
+       "attachments": [
+        {
+         "guid": "BCF79A53-AA54-496D-6092-9DB1AD40348A",
+         "AttachmentEntries": {
+          "attachmentEntryID": "4A50F165-26D6-2D17-3601-76AACAF62D0F"
+         },
+         "objectID": "A18ECFA2-54E6-B8AC-CADA-10F771C5453E",
+         "name": "Reading room at Bet Neeman, the Midrash Abarbanel library, 1902 (photo Zasok Basan).jpg",
+         "attachmentType": "1",
+         "location": "A18ECFA2-54E6-B8AC-CADA-10F771C5453E\\Reading room at Bet Neeman, the Midrash Abarbanel library, 1902 (photo Zasok Basan).jpg",
+         "dataLength": "605610",
+         "format": ".jpg"
+        },
+        {
+         "guid": "536DC623-0E41-1336-0D72-68E60A745A62",
+         "AttachmentEntries": {
+          "attachmentEntryID": "4A50F165-26D6-2D17-3601-76AACAF62D0F"
+         },
+         "objectID": "A18ECFA2-54E6-B8AC-CADA-10F771C5453E",
+         "name": "Joseph Chasanowitz.jpg",
+         "attachmentType": "1",
+         "location": "A18ECFA2-54E6-B8AC-CADA-10F771C5453E\\Joseph Chasanowitz.jpg",
+         "dataLength": "53145",
+         "format": ".jpg"
+        }
+       ],
+       "type": "chronological",
+       "chronologicalId": "2",
+       "chronologicalName": "The Founding of the Library",
+       "parent": {
+        "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
+        "name": "The National Library of Israel"
+       },
+       "hasChronologicalChildren": false,
+       "children": [
+        {
+         "guid": "693D46A8-1A91-41DF-5FF3-A20010E8D386",
+         "name": ":3: A Jewish National and University Library",
+         "data": "<p>In 1920, the small Bnei Brith Library was transferred to the World Zionist Organization, S.H. Bergmann, a librarian at the German University in Prague and a philosopher, was appointed its director. In 1925, with the foundation of the Hebrew University of Jerusalem, the Library was declared to be both a national and university library. Up until that point, the Library contained only Jewish texts. However, Bergmann set out to turn the Library into a modern university library. During his term, from 1920 – 1935, the number of books in the Library grew from 30,000 to 300,000. He expanded the Library&#160; to include books on various areas in the humanities and sciences.</p>\n",
+         "attachments": [
+          {
+           "guid": "E0E70025-6068-4186-D25D-E23A4FC47688",
+           "AttachmentEntries": {
+            "attachmentEntryID": "91687CFF-45F1-31EA-0E08-168C194BFBC8"
+           },
+           "objectID": "693D46A8-1A91-41DF-5FF3-A20010E8D386",
+           "name": "The Goldziher library at Bet-Neeman, 1927 (Photo, Zadok Basan).jpg",
+           "attachmentType": "1",
+           "location": "693D46A8-1A91-41DF-5FF3-A20010E8D386\\The Goldziher library at Bet-Neeman, 1927 (Photo, Zadok Basan).jpg",
+           "dataLength": "108590",
+           "format": ".jpg"
+          },
+          {
+           "guid": "30AE67AD-DA82-5322-C460-537859A9B71D",
+           "AttachmentEntries": {
+            "attachmentEntryID": "91687CFF-45F1-31EA-0E08-168C194BFBC8"
+           },
+           "objectID": "693D46A8-1A91-41DF-5FF3-A20010E8D386",
+           "name": "Shmuel Hugo Bergman.jpg",
+           "attachmentType": "1",
+           "location": "693D46A8-1A91-41DF-5FF3-A20010E8D386\\Shmuel Hugo Bergman.jpg",
+           "dataLength": "27640",
+           "format": ".jpg"
+          },
+          {
+           "guid": "56CF6DBD-C1FA-8FE4-AA5C-642EC173A360",
+           "AttachmentEntries": {
+            "attachmentEntryID": "91687CFF-45F1-31EA-0E08-168C194BFBC8"
+           },
+           "objectID": "693D46A8-1A91-41DF-5FF3-A20010E8D386",
+           "name": "Bergman and the Czech president Masaryk on their way to visit the National Library, Jerusalem, 1927.jpg",
+           "attachmentType": "1",
+           "location": "693D46A8-1A91-41DF-5FF3-A20010E8D386\\Bergman and the Czech president Masaryk on their way to visit the National Library, Jerusalem, 1927.jpg",
+           "dataLength": "119190",
+           "format": ".jpg"
+          },
+          {
+           "guid": "B969683D-5565-1346-B4CB-EAE5F7237568",
+           "AttachmentEntries": {
+            "attachmentEntryID": "91687CFF-45F1-31EA-0E08-168C194BFBC8"
+           },
+           "objectID": "693D46A8-1A91-41DF-5FF3-A20010E8D386",
+           "name": "The library staff with Bergmann as director in the middle, around 1935, NLI.jpg",
+           "attachmentType": "1",
+           "location": "693D46A8-1A91-41DF-5FF3-A20010E8D386\\The library staff with Bergmann as director in the middle, around 1935, NLI.jpg",
+           "dataLength": "102100",
+           "format": ".jpg"
+          }
+         ],
+         "type": "chronological",
+         "chronologicalId": "3",
+         "chronologicalName": "A Jewish National and University Library",
+         "parent": {
+          "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
+          "name": "The National Library of Israel"
+         },
+         "hasChronologicalChildren": false,
+         "children": [
+          {
+           "guid": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36",
+           "name": ":4: 1930 – 1960: Transitions",
+           "data": "<p>In 1930, the young library was given a new impressive home on the newly-built campus of the Hebrew University on Mount Scopus. However, this beautiful building was hastily abandoned in 1947 when the area came under Jordanian rule during the War of Independence. In the following years, books were gradually smuggled out and placed in various temporary locations.</p>\n<p>In1960, the Library was given a home on the new Hebrew University campus on Giva'at &#160;Ram in Jerusalem. This building has been the Library's permanent home since then.</p>\n",
+           "attachments": [
+            {
+             "guid": "ED09300A-6950-8AC4-032B-967E9FA9B21C",
+             "AttachmentEntries": {
+              "attachmentEntryID": "8FC03C29-C352-4EA0-E519-D590C0EA6DA0"
+             },
+             "objectID": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36",
+             "name": "Inauguration ceremony of the Hebrew university, mount Scopus, 1925.jpg",
+             "attachmentType": "1",
+             "location": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36\\Inauguration ceremony of the Hebrew university, mount Scopus, 1925.jpg",
+             "dataLength": "77197",
+             "format": ".jpg"
+            },
+            {
+             "guid": "B3D67CB4-465E-04EA-BA00-D21D9B2501D7",
+             "AttachmentEntries": {
+              "attachmentEntryID": "8FC03C29-C352-4EA0-E519-D590C0EA6DA0"
+             },
+             "objectID": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36",
+             "name": "The Reading Room at Wolfson House, Mt. Scopus, 1930&apos;s-40&apos;s.jpg",
+             "attachmentType": "1",
+             "location": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36\\The Reading Room at Wolfson House, Mt. Scopus, 1930&apos;s-40&apos;s.jpg",
+             "dataLength": "65226",
+             "format": ".jpg"
+            },
+            {
+             "guid": "25B8A76E-CB06-76A5-C9F7-CAE344DE228C",
+             "AttachmentEntries": {
+              "attachmentEntryID": "8FC03C29-C352-4EA0-E519-D590C0EA6DA0"
+             },
+             "objectID": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36",
+             "name": "The Hebrew University of Jerusalem, The Spielberg Jewish Film Archive",
+             "attachmentType": "3",
+             "location": "http://www.youtube.com/watch?v=usrFycpdY-I",
+             "dataLength": "0",
+             "format": ""
+            },
+            {
+             "guid": "802968FB-9285-E7FB-F4CF-CC684E40F88B",
+             "AttachmentEntries": {
+              "attachmentEntryID": "8FC03C29-C352-4EA0-E519-D590C0EA6DA0"
+             },
+             "objectID": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36",
+             "name": "The Reading Room at Wolfson House, redeemed after 20 years of isolation, July, 1967.jpg",
+             "attachmentType": "1",
+             "location": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36\\The Reading Room at Wolfson House, redeemed after 20 years of isolation, July, 1967.jpg",
+             "dataLength": "101989",
+             "format": ".jpg"
+            },
+            {
+             "guid": "094CA253-B9BF-5EDA-E7E3-2403AE9964E7",
+             "AttachmentEntries": {
+              "attachmentEntryID": "8FC03C29-C352-4EA0-E519-D590C0EA6DA0"
+             },
+             "objectID": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36",
+             "name": "The entrance of the National Library, 1960 (Photo, Miriam Shamir).jpg",
+             "attachmentType": "1",
+             "location": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36\\The entrance of the National Library, 1960 (Photo, Miriam Shamir).jpg",
+             "dataLength": "103880",
+             "format": ".jpg"
+            },
+            {
+             "guid": "290E38F6-DA97-F65C-1E96-46E80988F9F9",
+             "AttachmentEntries": {
+              "attachmentEntryID": "8FC03C29-C352-4EA0-E519-D590C0EA6DA0"
+             },
+             "objectID": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36",
+             "name": "The circulation desk, opening day of the NLI, 1.11.1960 , D. Haris, NLI.jpg",
+             "attachmentType": "1",
+             "location": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36\\The circulation desk, opening day of the NLI, 1.11.1960 , D. Haris, NLI.jpg",
+             "dataLength": "97543",
+             "format": ".jpg"
+            },
+            {
+             "guid": "EAF4BFDE-DB88-67D7-5BEE-DEA0D63CD9BB",
+             "AttachmentEntries": {
+              "attachmentEntryID": "8FC03C29-C352-4EA0-E519-D590C0EA6DA0"
+             },
+             "objectID": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36",
+             "name": "Transferring books inside the temporary reading rooms at Terra Santa building, 1960 (Photo, David Charis).jpg",
+             "attachmentType": "1",
+             "location": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36\\Transferring books inside the temporary reading rooms at Terra Santa building, 1960 (Photo, David Charis).jpg",
+             "dataLength": "113933",
+             "format": ".jpg"
+            }
+           ],
+           "type": "chronological",
+           "chronologicalId": "4",
+           "chronologicalName": "1930 – 1960: Transitions",
+           "parent": {
+            "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
+            "name": "The National Library of Israel"
+           },
+           "hasChronologicalChildren": false,
+           "children": [
+            {
+             "guid": "8A76544D-B6F1-6F0D-9B37-00DE1FD41AA6",
+             "name": ":5: Ben Gurion's Unique Initiative",
+             "data": "<p>In 1950, Israel's first prime-minister, David Ben Gurion, allocated an immense sum from the then empty coffers of the young state, in order to obtain microfilms of all Hebrew manuscripts . These were posited at the National Library in the newly established Institute of Microfilmed Hebrew Manuscripts.</p>\n",
+             "attachments": [
+              {
+               "guid": "713B524A-B0B4-9C07-D25A-7794D16C8385",
+               "AttachmentEntries": {
+                "attachmentEntryID": "0338C61D-895F-7E2A-498A-E0114438BE75"
+               },
+               "objectID": "8A76544D-B6F1-6F0D-9B37-00DE1FD41AA6",
+               "name": "David Ben Gurion by his work desk.jpg",
+               "attachmentType": "1",
+               "location": "8A76544D-B6F1-6F0D-9B37-00DE1FD41AA6\\David Ben Gurion by his work desk.jpg",
+               "dataLength": "166431",
+               "format": ".jpg"
+              },
+              {
+               "guid": "1BCFA815-4AA4-85CB-7509-3F880B5A0B2F",
+               "AttachmentEntries": {
+                "attachmentEntryID": "0338C61D-895F-7E2A-498A-E0114438BE75"
+               },
+               "objectID": "8A76544D-B6F1-6F0D-9B37-00DE1FD41AA6",
+               "name": "David Ben Gurion standing on his head at the beach.jpg",
+               "attachmentType": "1",
+               "location": "8A76544D-B6F1-6F0D-9B37-00DE1FD41AA6\\David Ben Gurion standing on his head at the beach.jpg",
+               "dataLength": "24532",
+               "format": ".jpg"
+              },
+              {
+               "guid": "D1462CC9-7363-8291-0388-9D111E58240C",
+               "AttachmentEntries": {
+                "attachmentEntryID": "0338C61D-895F-7E2A-498A-E0114438BE75"
+               },
+               "objectID": "8A76544D-B6F1-6F0D-9B37-00DE1FD41AA6",
+               "name": "Department of Manuscripts and Institute of Microfilmed Hebrew Manuscripts",
+               "attachmentType": "3",
+               "location": "http://web.nli.org.il/sites/NLI/English/collections/manuscripts/Pages/default.aspx",
+               "dataLength": "0",
+               "format": ".aspx"
+              }
+             ],
+             "type": "chronological",
+             "chronologicalId": "5",
+             "chronologicalName": "Ben Gurion's Unique Initiative",
+             "parent": {
+              "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
+              "name": "The National Library of Israel"
+             },
+             "hasChronologicalChildren": false,
+             "children": [
+              {
+               "guid": "EEA30DA2-550F-32C2-9BF6-3779D43507FE",
+               "name": ":6: Separation from the Hebrew University",
+               "data": "<p>Following the 1967 War, it was decided that the Humanities and Social Sciences campus would return to Mt. Scopus. When this move was completed in 1982, a new library was opened on Mt. Scopus and the Library in Giva'at Ram was no longer the main university library for the Humanities. In addition, the Hebrew University was now one of a growing number of academic institutions in the country. At this point, it was both in the interest of the University and the State that the National Library be separated from the University and become an independent institution serving the needs of a diverse community of readers.</p>\n",
+               "attachments": [
+                {
+                 "guid": "51E26868-63E8-A373-1846-E90D4FABDB4D",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "A4EA46BA-ED0A-CFB0-BADD-B179D49190D0"
+                 },
+                 "objectID": "EEA30DA2-550F-32C2-9BF6-3779D43507FE",
+                 "name": "The modern Mount Scopus campus of the Hebrew University.jpg",
+                 "attachmentType": "1",
+                 "location": "EEA30DA2-550F-32C2-9BF6-3779D43507FE\\The modern Mount Scopus campus of the Hebrew University.jpg",
+                 "dataLength": "123838",
+                 "format": ".jpg"
+                },
+                {
+                 "guid": "2B6386A3-60B2-A4BA-E7E3-D79AD3790A9B",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "A4EA46BA-ED0A-CFB0-BADD-B179D49190D0"
+                 },
+                 "objectID": "EEA30DA2-550F-32C2-9BF6-3779D43507FE",
+                 "name": "The General Reading Room, Givat Ram, 1960&apos;s-70&apos;s.jpg",
+                 "attachmentType": "1",
+                 "location": "EEA30DA2-550F-32C2-9BF6-3779D43507FE\\The General Reading Room, Givat Ram, 1960&apos;s-70&apos;s.jpg",
+                 "dataLength": "79413",
+                 "format": ".jpg"
+                }
+               ],
+               "type": "chronological",
+               "chronologicalId": "6",
+               "chronologicalName": "Separation from the Hebrew University",
+               "parent": {
+                "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
+                "name": "The National Library of Israel"
+               },
+               "hasChronologicalChildren": false,
+               "children": [
+                {
+                 "guid": "FFAE2D71-526E-95F7-91CF-0F9BE7892C77",
+                 "name": ":7: The National Library is Established",
+                 "data": "<p>In 2007, the National Library Law was enacted. The Knesset's (Israeli Parliament) mandate charged the National Library to collect, preserve, cultivate and endow treasures of knowledge, heritage and culture, with an emphasis on the Land of Israel, the State of Israel, and the Jewish people around the world. &#160;&#160;As of 2011, the Library was granted independent legal status &#160;</p>\n<p>The National Library's mission is to serve as the country's repository, to disseminate knowledge and offer democratic access to the vast world of physical and digital resources, as well as &#160;to establish the National Library as a center for cultural and educational activity.</p>\n<p>In order to fulfill its new role, the government allocated a prominent location, between the Knesset and the Israel Museum, for a new state-of-the-art facility which will be completed in 2017.</p>\n",
+                 "attachments": [
+                  {
+                   "guid": "FFB55C2A-A4D1-65BF-0A49-07F26D9C2AC1",
+                   "AttachmentEntries": {
+                    "attachmentEntryID": "DC8ED9F7-55A0-C3D6-8CD4-AB959B3DCEA4"
+                   },
+                   "objectID": "FFAE2D71-526E-95F7-91CF-0F9BE7892C77",
+                   "name": "The future site of the National Library, on the right - Israel&apos;s Parliament, the Knesset.jpg",
+                   "attachmentType": "1",
+                   "location": "FFAE2D71-526E-95F7-91CF-0F9BE7892C77\\The future site of the National Library, on the right - Israel&apos;s Parliament, the Knesset.jpg",
+                   "dataLength": "145742",
+                   "format": ".jpg"
+                  },
+                  {
+                   "guid": "F92822FF-CF66-8A83-035F-E5867048222B",
+                   "AttachmentEntries": {
+                    "attachmentEntryID": "DC8ED9F7-55A0-C3D6-8CD4-AB959B3DCEA4"
+                   },
+                   "objectID": "FFAE2D71-526E-95F7-91CF-0F9BE7892C77",
+                   "name": "Cultural activity at the National Library.jpg",
+                   "attachmentType": "1",
+                   "location": "FFAE2D71-526E-95F7-91CF-0F9BE7892C77\\Cultural activity at the National Library.jpg",
+                   "dataLength": "205832",
+                   "format": ".jpg"
+                  },
+                  {
+                   "guid": "49E95B7C-CA64-77F1-352F-EA42E0E95948",
+                   "AttachmentEntries": {
+                    "attachmentEntryID": "DC8ED9F7-55A0-C3D6-8CD4-AB959B3DCEA4"
+                   },
+                   "objectID": "FFAE2D71-526E-95F7-91CF-0F9BE7892C77",
+                   "name": "Prime Minister Netanyahu and President Peres with the National Library&apos;s Charter, 2007.jpg",
+                   "attachmentType": "1",
+                   "location": "FFAE2D71-526E-95F7-91CF-0F9BE7892C77\\Prime Minister Netanyahu and President Peres with the National Library&apos;s Charter, 2007.jpg",
+                   "dataLength": "141925",
+                   "format": ".jpg"
+                  },
+                  {
+                   "guid": "CEAD3886-F388-969B-69B4-208DE1583F0F",
+                   "AttachmentEntries": {
+                    "attachmentEntryID": "DC8ED9F7-55A0-C3D6-8CD4-AB959B3DCEA4"
+                   },
+                   "objectID": "FFAE2D71-526E-95F7-91CF-0F9BE7892C77",
+                   "name": "National Library of Israel Renewal",
+                   "attachmentType": "3",
+                   "location": "http://www.youtube.com/watch?v=GE_y-ZTB470",
+                   "dataLength": "0",
+                   "format": ""
+                  }
+                 ],
+                 "type": "chronological",
+                 "chronologicalId": "7",
+                 "chronologicalName": "The National Library is Established",
+                 "parent": {
+                  "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
+                  "name": "The National Library of Israel"
+                 },
+                 "hasChronologicalChildren": false,
+                 "children": []
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
         }
        ]
       }
