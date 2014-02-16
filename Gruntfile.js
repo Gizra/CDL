@@ -471,7 +471,8 @@ module.exports = function (grunt) {
       nodesAttachments = [],
       firstNode,
       tree = {},
-      brain;
+      brain,
+      siblings;
 
     src.path = grunt.config.get('CDL.src');
     dest.path = grunt.config.get('CDL.dest');
@@ -819,6 +820,34 @@ module.exports = function (grunt) {
       return (node.type === 'chronological') ? node.chronologicalName : (node.type === 'bastard') ? node.bastardName : node.name;
     }
 
+    /**
+     * From an array of nodes links we get the information of each sibling node.
+     *
+     * @param childs
+     * @returns {*}
+     */
+    function setSiblingsInfo(childs) {
+      var key,
+        siblings = [];
+
+      _.each(childs, function(child) {
+
+        if (child.dir === '1') {
+          key = child.idB;
+        }
+        else if (child.dir === '2') {
+          key = child.idA;
+        }
+        siblings.push(nodesIndexed[key]);
+
+      });
+
+
+
+
+      return siblings;
+    }
+
 
     /**
      * Reorder the childs properties according dir: (Brain direction), type: chronological, bastard and default.
@@ -832,6 +861,7 @@ module.exports = function (grunt) {
       var childsOrdered = [],
         chronologicalChilds;
 
+      siblings = setSiblingsInfo(childs);
 
       // Parse child.
       _.each(childs, function(child) {
@@ -855,6 +885,11 @@ module.exports = function (grunt) {
           child.node.parent = _.pick(parent, 'guid');
           child.node.parent.name = getName(parent);
         }
+
+        // Get the siblings nodes.
+        child.node.siblings = _.filter(siblings, function(sibling) {
+          return sibling.guid !== child.node.guid;
+        });
 
         // Set parent guid.
         child.node.hasChronologicalChildren = false;
