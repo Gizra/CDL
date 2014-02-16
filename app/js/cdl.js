@@ -268,6 +268,14 @@
           return r;
         },
         /**
+         * Open the url in the property from the translation node configuration file.
+         *
+         * @param node
+         */
+        changeLanguage: function(node) {
+          window.location = node.url;
+        },
+        /**
          * Implementation of click actions, first click enter in "focus view", second click
          * enter to the page related.
          *
@@ -952,6 +960,62 @@
           }
 
 
+        },
+        showTranslation: function() {
+          var translation = system.select('#translation'),
+            circle,
+            gTranslate;
+
+          if (config.chart.translation.show) {
+
+            // Create translation button.
+            if (translation.empty()) {
+
+              gTranslate = system.append('g')
+                .attr('id', 'translation')
+                .selectAll('node-translate')
+                .data([config.chart.translation.data])
+                .enter()
+                .append('g')
+                .attr('id', 'node-translate')
+                .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; });
+
+              circle = gTranslate.append('circle')
+                .attr('id', 'node-translate')
+                .attr('r', nodeExtend().getRadius)
+                .style('fill', nodeExtend().fill)
+                .style('stroke', nodeExtend().stroke)
+                .style('stroke-width', nodeExtend().strokeWidth);
+
+              textbox = gTranslate.append('foreignObject')
+                .attr('class', 'textbox textbox-translate');
+
+              textbox.attr('x', text().x)
+                .attr('y', text().y)
+                .attr('width', text().width)
+                .attr('height', text().height)
+                .attr('transform', text().transform)
+                .append('xhtml:body')
+                .attr('class', 'area')
+                .html(text().html)
+                .on('click', nodeExtend().changeLanguage);
+
+              textbox.select('.translate')
+                .style('height', function() { return text().heightCss(draw.searchNode(this)); })
+                .style('color', 'black')
+                .style('display', 'table-cell')
+                .style('vertical-align', 'middle');
+
+              gTranslate.append('circle')
+                .on('click', nodeExtend().changeLanguage)
+                .attr('class', 'circle-target')
+                .attr('r', nodeExtend().targetTouch)
+                .style('fill', function() { return (config.chart.initial.targetTouch.show) ? config.chart.initial.targetTouch.color : 'transparent'; })
+                .style('stroke', config.chart.initial.targetTouch.color)
+                .style('stroke-width', 1);
+
+            }
+          }
         }
       };
     };
@@ -1175,7 +1239,7 @@
       .y(function(line) { return line.y; })
       .interpolate('linear');
 
-    //Links.
+    // Links.
     g.append('g')
       .attr('id', 'links')
       .selectAll('.link')
@@ -1264,6 +1328,9 @@
       .attr('guid', function(node) { return node.guid; })
       .attr('class', 'node')
       .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; });
+
+    // Translation.
+    draw.showTranslation();
 
     // Circles.
     node.append('circle')

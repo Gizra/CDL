@@ -75,6 +75,19 @@
         titles: 40,
         circles: 40,
         lines: 40
+      },
+      translation: {
+        show: true,
+        size: {
+          r: 50
+        },
+        data: {
+          name: 'BIBLIOTECA NACIONAL DE ISRAEL: DEPÓSITO DE MEMORIA',
+          x: 600,
+          y: -150,
+          styleNode: 'translation',
+          url: 'http://bnideposito.fundaciongsr.com/'
+        }
       }
     };
 
@@ -147,6 +160,14 @@
         r: 5,
         rFocus: 12,
         targetTouch: 15
+      },
+      translation: {
+        fill: 'transparent',
+        stroke: 'black',
+        strokeWidth: 1,
+        r: 50,
+        rFocus: 50,
+        targetTouch: 50
       }
     };
 
@@ -223,6 +244,14 @@
         height: 60,
         scale: 0.2,
         class: 'activated'
+      },
+      translation: {
+        x: -55,
+        y: -55,
+        width: 110,
+        height: 110,
+        scale: 1.3,
+        class: 'translate'
       }
     };
   }
