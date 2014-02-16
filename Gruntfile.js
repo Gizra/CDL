@@ -293,15 +293,12 @@ module.exports = function (grunt) {
           ],
           dest: '<%= yeoman.dist %>'
         },
+        // Copy the file that define domains/subdomains redirected to the gh-pages site.
         {
           expand: true,
-          dot: true,
           cwd: '<%= yeoman.app %>',
           src: 'CNAME',
-          dest: '<%= yeoman.dist %>',
-          rename: function(dest, src) {
-            return dest + '/' + src.split(/\./).reverse().pop();
-          }
+          dest: '<%= yeoman.dist %>'
         }]
       },
       // Copy CSS into .tmp directory for Autoprefixer processing
