@@ -236,14 +236,25 @@ div.cdl {
           li {
             border-top: 1px solid black;
           }
+
+          li.top-parent {
+            border-top: none;
+          }
         }
       }
+    }
+
+    div.navigation-brothers {
+      li.top-brother {
+        border-top: 1px solid black;
+      }    
     }
   }
 
   .top-children {
     border-top: 1px solid black;
   }
+
 
   div.footer-line {
     width: 100%;

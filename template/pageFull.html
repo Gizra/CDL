@@ -140,15 +140,10 @@ layout: page
                   {% for child in page.children %}
 
                   {% if forloop.index0 == 0 %}
-                  {% if page.parent %}
-                  <li>
-                    {% else %}
                   <li class="top-children">
-                    {% endif %}
-                    {% else %}
+                  {% else %}
                   <li>
-                    {% endif %}
-
+                  {% endif %}
                     <a href="{{ BASE_PATH }}/pages/{{ child.guid }}">{{ child.name | upcase }}</a><a class="node-link" href="{{ BASE_PATH }}/pages/{{ child.guid }}"><img src="{{ BASE_PATH }}/images/link.png" alt="node-link"/></a>
                   </li>
 
@@ -158,13 +153,36 @@ layout: page
               {% endif %}
             </div>
 
+            <div class="navigation-brothers">
+              {% if page.brothers != empty %}
+              <div class="navigation-list">
+                <ul class="nav nav-tabs">
+                  {% for brother in page.brothers %}
 
+                  {% if forloop.index0 == 0 %}
+                    {% if page.children != empty %}
+                  <li>
+                    {% else %}
+                  <li class="top-brother">
+                    {% endif %}
+                  {% else %}
+                  <li>
+                  {% endif %}
+
+                    <a href="{{ BASE_PATH }}/pages/{{ brother.guid }}">{{ brother.name | upcase }}</a><a class="node-link" href="{{ BASE_PATH }}/pages/{{ brother.guid }}"><img src="{{ BASE_PATH }}/images/link.png" alt="node-link"/></a>
+                  </li>
+
+                  {% endfor %}
+                </ul>
+              </div>
+              {% endif %}
+            </div>
 
             <div class="navigation-parent">
               {% if page.parent %}
               <div class="navigation-list">
                 <ul class="nav nav-tabs">
-                  <li>
+                  <li class="top-parent">
                     <a href="{{ BASE_PATH }}/pages/{{ page.parent.guid }}">{{ page.parent.name | upcase }}</a><a class="node-link" href="{{ BASE_PATH }}/pages/{{ page.parent.guid }}"><img src="{{ BASE_PATH }}/images/link.png" alt="node-link"/></a>
                   </li>
                 </ul>

@@ -471,8 +471,7 @@ module.exports = function (grunt) {
       nodesAttachments = [],
       firstNode,
       tree = {},
-      brain,
-      siblings;
+      brain;
 
     src.path = grunt.config.get('CDL.src');
     dest.path = grunt.config.get('CDL.dest');
@@ -838,12 +837,9 @@ module.exports = function (grunt) {
         else if (child.dir === '2') {
           key = child.idA;
         }
-        siblings.push(nodesIndexed[key]);
+        siblings.push(_.pick(nodesIndexed[key], 'guid', 'name'));
 
       });
-
-
-
 
       return siblings;
     }
@@ -861,10 +857,8 @@ module.exports = function (grunt) {
       var childsOrdered = [],
         chronologicalChilds;
 
-      siblings = setSiblingsInfo(childs);
-
       // Parse child.
-      _.each(childs, function(child) {
+      _.each(childs, function(child, index, childs) {
 
         // Set node information of child node.
         child.node = {};
@@ -886,11 +880,6 @@ module.exports = function (grunt) {
           child.node.parent.name = getName(parent);
         }
 
-        // Get the siblings nodes.
-        child.node.siblings = _.filter(siblings, function(sibling) {
-          return sibling.guid !== child.node.guid;
-        });
-
         // Set parent guid.
         child.node.hasChronologicalChildren = false;
 
@@ -907,6 +896,24 @@ module.exports = function (grunt) {
         // Check if have chronological children if the node is not chronological, and set it.
         if (child.node.type !== 'chronological' && _.where(child.node.children, {type: 'chronological'}).length) {
           child.node.hasChronologicalChildren = true;
+        }
+
+
+        // Get the siblings nodes.
+        child.node.brothers = [];
+
+        if (child.node.type !== 'chronological' && !child.node.hasChronologicalChildren) {
+          child.node.brothers = _.filter(setSiblingsInfo(childs), function(brother) {
+            // Clean the name property.
+            var label;
+
+            brother._name = brother.name;
+            brother.name = he.decode(brother.name);
+
+            brother.name = (label = brother.name.match(/[:\d+:|:_:]+ (.*)/)) ? label.pop() : brother.name;
+
+            return brother.guid !== child.node.guid && !brother._name.match(/:\d+:/);
+          });
         }
 
         childsOrdered.push(child.node);
@@ -1108,7 +1115,7 @@ module.exports = function (grunt) {
         }
 
         // Pick node selected properties.
-        node = _.pick(node, 'guid', 'name', 'data', 'attachments', 'siblings', 'parent', 'children');
+        node = _.pick(node, 'guid', 'name', 'data', 'attachments', 'siblings', 'parent', 'children', 'brothers');
 
         // Capitalize the name of the node.
         node.name = node.name.toUpperCase();
