@@ -819,6 +819,31 @@ module.exports = function (grunt) {
       return (node.type === 'chronological') ? node.chronologicalName : (node.type === 'bastard') ? node.bastardName : node.name;
     }
 
+    /**
+     * From an array of nodes links we get the information of each sibling node.
+     *
+     * @param childs
+     * @returns {*}
+     */
+    function setSiblingsInfo(childs) {
+      var key,
+        siblings = [];
+
+      _.each(childs, function(child) {
+
+        if (child.dir === '1') {
+          key = child.idB;
+        }
+        else if (child.dir === '2') {
+          key = child.idA;
+        }
+        siblings.push(_.pick(nodesIndexed[key], 'guid', 'name'));
+
+      });
+
+      return siblings;
+    }
+
 
     /**
      * Reorder the childs properties according dir: (Brain direction), type: chronological, bastard and default.
@@ -832,9 +857,8 @@ module.exports = function (grunt) {
       var childsOrdered = [],
         chronologicalChilds;
 
-
       // Parse child.
-      _.each(childs, function(child) {
+      _.each(childs, function(child, index, childs) {
 
         // Set node information of child node.
         child.node = {};
@@ -872,6 +896,24 @@ module.exports = function (grunt) {
         // Check if have chronological children if the node is not chronological, and set it.
         if (child.node.type !== 'chronological' && _.where(child.node.children, {type: 'chronological'}).length) {
           child.node.hasChronologicalChildren = true;
+        }
+
+
+        // Get the siblings nodes.
+        child.node.brothers = [];
+
+        if (child.node.type !== 'chronological' && !child.node.hasChronologicalChildren) {
+          child.node.brothers = _.filter(setSiblingsInfo(childs), function(brother) {
+            // Clean the name property.
+            var label;
+
+            brother._name = brother.name;
+            brother.name = he.decode(brother.name);
+
+            brother.name = (label = brother.name.match(/[:\d+:|:_:]+ (.*)/)) ? label.pop() : brother.name;
+
+            return brother.guid !== child.node.guid && !brother._name.match(/:\d+:/);
+          });
         }
 
         childsOrdered.push(child.node);
@@ -1073,7 +1115,7 @@ module.exports = function (grunt) {
         }
 
         // Pick node selected properties.
-        node = _.pick(node, 'guid', 'name', 'data', 'attachments', 'siblings', 'parent', 'children');
+        node = _.pick(node, 'guid', 'name', 'data', 'attachments', 'siblings', 'parent', 'children', 'brothers');
 
         // Capitalize the name of the node.
         node.name = node.name.toUpperCase();
