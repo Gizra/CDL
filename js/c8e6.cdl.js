@@ -18,8 +18,39 @@
     background,
     system,
     draw = {},
-    width = 900,
-    height = 600;
+    width = config.chart.canvas.width,
+    height = config.chart.canvas.height,
+    agent = navigator.userAgent;
+
+  // Detect device and set configuration respectively.
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(agent) ) {
+    if (agent.match(/iPad/)) {
+      config.chart.initial.minZoom = 0.43;
+      config.chart.zoom.hideGrandChildren = 0.44;
+      config.chart.initial.y = function(height) { return height * 0.30;};
+      config.nodes.root.r = config.nodes.root.rFocus = config.nodes.root.target = config.nodes.translation.r = config.nodes.translation.rFocus = config.nodes.translation.target = 35;
+    }
+    else if (agent.match(/Android/)) {
+      if (agent.match(/Pad/)) {
+        config.chart.initial.minZoom = 0.65;
+        config.chart.zoom.hideGrandChildren = 0.66;
+        config.chart.initial.y = function(height) { return height * 0.40;};
+        config.nodes.root.r = config.nodes.root.rFocus = config.nodes.root.target = config.nodes.translation.r = config.nodes.translation.rFocus = config.nodes.translation.target = 60 ;
+      }
+      else {
+        config.chart.initial.minZoom = 0.33;
+        config.chart.zoom.hideGrandChildren = 0.34
+        config.chart.initial.y = function(height) { return height * 0.25;};
+        config.nodes.root.r = config.nodes.root.rFocus = config.nodes.root.target = config.nodes.translation.r = config.nodes.translation.rFocus = config.nodes.translation.target = 30 ;
+      }
+    }
+
+  }
+  else {
+    config.chart.initial.minZoom = 0.55;
+    config.chart.zoom.hideGrandChildren = 0.56;
+    config.nodes.root.r = config.nodes.root.rFocus = config.nodes.root.target = config.nodes.translation.r = config.nodes.translation.rFocus = config.nodes.translation.target = 50;
+  }
 
   /**
    * Create the 'Canvas' area, it's possible define the dimensions.
@@ -29,6 +60,8 @@
    */
   function prepareScenario() {
     var initialScaleOnZoom;
+
+    // Define
 
     function zoomstart() {
       initialScaleOnZoom = draw.getScale();
