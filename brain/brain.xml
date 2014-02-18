@@ -7,7 +7,7 @@
         <personalBrainVersion>7045</personalBrainVersion>
         <telepathyVersion>10</telepathyVersion>
         <fileRoot>\\nlinetapp1\homedir\shaye\Desktop\NLI-CDL 3 pict.modified_brain\Files</fileRoot>
-        <generatedDateTime>2014-02-11 16:12:08.924 @+0200</generatedDateTime>
+        <generatedDateTime>2014-02-16 17:30:42.574 @+0200</generatedDateTime>
         <homeThoughtGuid>D9DE1825-A532-8B29-7146-4E6F2E819F1F</homeThoughtGuid>
         <modificationDateTime>2014-02-10 14:21:45.261 @+0200</modificationDateTime>
     </Source>
@@ -222,8 +222,8 @@
             <label></label>
             <creationDateTime>2014-01-07 12:19:18.447 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 12:19:18.446 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-01-28 17:03:33.039 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-20 13:10:53.629 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-16 11:12:50.998 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-16 11:11:32.746 @+0200</activationDateTime>
             <linksModificationDateTime>2013-12-24 18:38:31.738 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -249,7 +249,7 @@
             <creationDateTime>2014-01-07 11:37:58.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-28 16:10:09.421 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-28 16:10:09.421 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:37:03.058 @+0200</activationDateTime>
+            <activationDateTime>2014-02-16 11:14:22.443 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-07 11:38:09.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -314,7 +314,7 @@
             <creationDateTime>2014-01-07 11:37:58.700 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-09 12:22:39.582 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-09 12:22:39.582 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-28 16:57:16.047 @+0200</activationDateTime>
+            <activationDateTime>2014-02-13 14:40:29.926 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-09 12:24:45.305 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -392,7 +392,7 @@
             <creationDateTime>2014-01-07 11:37:56.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-03 12:27:06.544 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-03 12:27:06.544 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:36:55.943 @+0200</activationDateTime>
+            <activationDateTime>2014-02-13 14:46:36.034 @+0200</activationDateTime>
             <linksModificationDateTime>2013-11-25 14:38:09.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -484,7 +484,7 @@
             <realModificationDateTime>2014-01-07 12:09:22.000 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-23 12:47:14.000 @+0200</displayModificationDateTime>
             <activationDateTime>2014-02-09 11:58:31.574 @+0200</activationDateTime>
-            <linksModificationDateTime>2013-12-26 12:39:22.000 @+0200</linksModificationDateTime>
+            <linksModificationDateTime>2014-02-16 16:40:59.087 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
             <accessControlType>0</accessControlType>
@@ -574,7 +574,7 @@
             <creationDateTime>2014-01-07 12:09:21.533 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 12:09:21.533 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-23 12:45:32.000 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:39:00.752 @+0200</activationDateTime>
+            <activationDateTime>2014-02-16 16:40:33.031 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-07 18:02:55.848 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -716,8 +716,8 @@
             <label></label>
             <creationDateTime>2014-01-07 12:23:04.119 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 12:23:04.119 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-01-21 13:34:31.049 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-21 13:31:26.890 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-13 11:18:27.941 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-13 11:18:54.419 @+0200</activationDateTime>
             <linksModificationDateTime>2013-12-23 17:33:59.131 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -756,7 +756,7 @@
             <creationDateTime>2014-01-07 12:23:03.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-20 18:45:46.000 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-20 18:45:46.000 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-28 15:31:59.729 @+0200</activationDateTime>
+            <activationDateTime>2014-02-13 14:39:04.891 @+0200</activationDateTime>
             <linksModificationDateTime>2013-12-23 17:36:35.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -769,7 +769,7 @@
             <creationDateTime>2014-01-07 12:23:03.229 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 12:23:03.229 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-07 12:23:03.229 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-28 15:33:43.076 @+0200</activationDateTime>
+            <activationDateTime>2014-02-13 11:28:06.398 @+0200</activationDateTime>
             <linksModificationDateTime>2013-12-23 17:38:08.914 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -782,7 +782,7 @@
             <creationDateTime>2014-01-07 12:19:22.720 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 12:19:22.719 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-07 12:19:22.719 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:57:05.609 @+0200</activationDateTime>
+            <activationDateTime>2014-02-12 14:51:35.059 @+0200</activationDateTime>
             <linksModificationDateTime>2013-12-26 14:40:59.051 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -803,12 +803,12 @@
         </Thought>
         <Thought>
             <guid>0A4643E2-FE0F-B2CE-3595-29CCBCE54838</guid>
-            <name>The NLI Islam Collection</name>
+            <name>The Islam Collection</name>
             <label></label>
             <creationDateTime>2014-01-07 12:19:22.000 @+0200</creationDateTime>
-            <realModificationDateTime>2014-01-07 12:19:22.000 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-01-28 16:59:56.539 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-10 14:15:31.729 @+0200</activationDateTime>
+            <realModificationDateTime>2014-02-16 14:23:36.466 @+0200</realModificationDateTime>
+            <displayModificationDateTime>2014-02-16 14:23:36.466 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-16 14:23:24.597 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-21 15:20:05.802 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -899,7 +899,7 @@
             <creationDateTime>2014-01-07 12:19:18.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-20 18:17:31.000 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-20 18:17:31.000 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:58:28.720 @+0200</activationDateTime>
+            <activationDateTime>2014-02-16 11:14:15.509 @+0200</activationDateTime>
             <linksModificationDateTime>2013-12-26 14:41:41.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -959,12 +959,12 @@
         </Thought>
         <Thought>
             <guid>F8A8EC39-68D8-ECCF-6F51-12C17F60061D</guid>
-            <name>A National Language</name>
+            <name>:1: A National Language</name>
             <label></label>
             <creationDateTime>2014-01-07 11:32:34.000 @+0200</creationDateTime>
-            <realModificationDateTime>2014-01-07 11:32:34.000 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-01-28 16:37:09.296 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:44:16.715 @+0200</activationDateTime>
+            <realModificationDateTime>2014-02-16 11:15:06.561 @+0200</realModificationDateTime>
+            <displayModificationDateTime>2014-02-16 11:15:06.561 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-16 11:14:57.232 @+0200</activationDateTime>
             <linksModificationDateTime>2013-10-27 13:48:07.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -977,7 +977,7 @@
             <creationDateTime>2014-01-07 12:23:05.069 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 12:23:05.069 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-07 12:23:05.069 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-28 15:33:49.662 @+0200</activationDateTime>
+            <activationDateTime>2014-02-13 11:28:08.526 @+0200</activationDateTime>
             <linksModificationDateTime>2013-12-23 17:42:08.310 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1011,13 +1011,13 @@
         </Thought>
         <Thought>
             <guid>016140EA-7FBC-4959-0C2E-4C0F883530AD</guid>
-            <name>:_: The Hebrew Language</name>
+            <name>The Hebrew Language</name>
             <label></label>
             <creationDateTime>2014-01-07 11:32:36.000 @+0200</creationDateTime>
-            <realModificationDateTime>2014-01-07 11:32:36.000 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-01-23 15:13:35.154 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:44:19.912 @+0200</activationDateTime>
-            <linksModificationDateTime>2013-11-27 13:39:18.000 @+0200</linksModificationDateTime>
+            <realModificationDateTime>2014-02-16 11:14:40.210 @+0200</realModificationDateTime>
+            <displayModificationDateTime>2014-02-16 11:15:37.799 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-16 11:15:11.426 @+0200</activationDateTime>
+            <linksModificationDateTime>2014-02-16 11:14:54.393 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
             <accessControlType>0</accessControlType>
@@ -1055,7 +1055,7 @@
             <creationDateTime>2014-01-07 12:23:08.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-29 12:56:30.503 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-29 12:56:30.504 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-28 15:31:47.009 @+0200</activationDateTime>
+            <activationDateTime>2014-02-13 14:38:18.908 @+0200</activationDateTime>
             <linksModificationDateTime>2013-12-23 17:40:25.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1094,8 +1094,8 @@
             <creationDateTime>2014-01-07 11:32:31.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-28 16:15:41.320 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-29 12:43:03.884 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-10 13:34:49.829 @+0200</activationDateTime>
-            <linksModificationDateTime>2014-01-07 11:32:42.000 @+0200</linksModificationDateTime>
+            <activationDateTime>2014-02-16 11:32:41.649 @+0200</activationDateTime>
+            <linksModificationDateTime>2014-02-16 11:14:54.395 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
             <accessControlType>0</accessControlType>
@@ -1106,8 +1106,8 @@
             <label></label>
             <creationDateTime>2014-01-07 12:23:08.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-20 19:05:43.000 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-01-23 12:45:32.000 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-28 15:09:48.938 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-13 11:30:04.899 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-13 11:29:53.816 @+0200</activationDateTime>
             <linksModificationDateTime>2013-12-23 17:39:46.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1159,7 +1159,7 @@
             <creationDateTime>2014-01-07 11:32:19.028 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-03 12:27:39.297 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-03 12:40:46.173 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-06 16:25:32.837 @+0200</activationDateTime>
+            <activationDateTime>2014-02-16 15:14:00.513 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-06 16:25:39.953 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1200,6 +1200,19 @@
             <displayModificationDateTime>2014-02-10 14:21:00.380 @+0200</displayModificationDateTime>
             <activationDateTime>2014-02-10 14:20:55.097 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-10 14:19:12.061 @+0200</linksModificationDateTime>
+            <isType>0</isType>
+            <color>0</color>
+            <accessControlType>0</accessControlType>
+        </Thought>
+        <Thought>
+            <guid>799883B0-2813-0A7F-BC85-3903FC322453</guid>
+            <name>Zweig&amp;apos;s letter to Kayser: 30.11.1933</name>
+            <label></label>
+            <creationDateTime>2014-02-13 09:22:47.788 @+0200</creationDateTime>
+            <realModificationDateTime>2014-02-13 09:22:47.788 @+0200</realModificationDateTime>
+            <displayModificationDateTime>2014-02-13 09:32:47.583 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-13 09:22:52.684 @+0200</activationDateTime>
+            <linksModificationDateTime>2014-02-13 09:22:47.835 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
             <accessControlType>0</accessControlType>
@@ -1406,7 +1419,7 @@
             <creationDateTime>2014-02-06 16:43:22.567 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-06 16:43:22.567 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-09 14:04:52.273 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 15:43:05.909 @+0200</activationDateTime>
+            <activationDateTime>2014-02-16 15:22:16.194 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-06 16:43:22.577 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1418,8 +1431,8 @@
             <label></label>
             <creationDateTime>2014-02-06 16:42:51.890 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-06 16:42:51.890 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-02-09 14:00:00.071 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:59:01.395 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-16 15:18:57.528 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-16 15:17:33.706 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-06 16:42:51.897 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1431,8 +1444,8 @@
             <label></label>
             <creationDateTime>2014-02-06 16:42:23.487 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-06 16:42:23.487 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-02-09 13:56:17.274 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:48:28.292 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-16 15:20:39.340 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-16 15:19:35.508 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-06 16:42:23.498 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1444,8 +1457,8 @@
             <label></label>
             <creationDateTime>2014-02-06 16:41:52.532 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-06 16:41:52.532 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-02-09 13:45:49.082 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:44:41.633 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-16 15:16:14.817 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-16 15:14:10.504 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-06 16:41:52.542 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1458,7 +1471,7 @@
             <creationDateTime>2014-02-06 16:40:43.747 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-06 16:40:43.747 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-06 16:41:14.859 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 14:30:59.387 @+0200</activationDateTime>
+            <activationDateTime>2014-02-16 16:40:17.276 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-06 16:43:22.575 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1497,7 +1510,7 @@
             <creationDateTime>2014-01-07 11:47:42.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 11:47:42.000 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-21 14:30:24.000 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-11 13:03:21.614 @+0200</activationDateTime>
+            <activationDateTime>2014-02-12 16:19:07.483 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-28 17:07:27.927 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1582,20 +1595,6 @@
             <accessControlType>0</accessControlType>
         </Thought>
         <Thought>
-            <guid>85C297E9-3FF1-3C07-AF48-19648503D399</guid>
-            <name>:1: Jewish manuscripts</name>
-            <label></label>
-            <creationDateTime>2014-02-10 14:12:28.252 @+0200</creationDateTime>
-            <realModificationDateTime>2014-02-10 14:13:54.159 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-02-10 14:12:28.252 @+0200</displayModificationDateTime>
-            <forgottenDateTime>2014-02-10 14:13:54.159 @+0200</forgottenDateTime>
-            <activationDateTime>2014-02-10 14:12:30.093 @+0200</activationDateTime>
-            <linksModificationDateTime>2014-02-10 14:12:28.923 @+0200</linksModificationDateTime>
-            <isType>0</isType>
-            <color>0</color>
-            <accessControlType>0</accessControlType>
-        </Thought>
-        <Thought>
             <guid>6A395F06-ED22-D3F6-5818-7B3FCD5EC89C</guid>
             <name>:2: The Via Dolorosa</name>
             <label></label>
@@ -1653,7 +1652,7 @@
             <label></label>
             <creationDateTime>2014-01-07 12:00:23.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-13 14:34:50.546 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-01-13 14:34:50.546 @+0200</displayModificationDateTime>
+            <displayModificationDateTime>2014-01-23 12:46:26.000 @+0200</displayModificationDateTime>
             <activationDateTime>2014-01-21 17:14:58.259 @+0200</activationDateTime>
             <linksModificationDateTime>2013-11-19 13:20:31.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
@@ -1873,9 +1872,9 @@
             <name>Exquisite Manuscript Collection</name>
             <label></label>
             <creationDateTime>2014-01-21 15:15:40.047 @+0200</creationDateTime>
-            <realModificationDateTime>2014-01-28 16:40:07.022 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-02-10 14:23:00.717 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-11 13:04:07.768 @+0200</activationDateTime>
+            <realModificationDateTime>2014-02-12 15:31:53.205 @+0200</realModificationDateTime>
+            <displayModificationDateTime>2014-02-12 15:31:53.207 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-12 15:31:08.830 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-10 14:21:18.296 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1953,7 +1952,7 @@
             <creationDateTime>2014-01-21 14:33:43.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-21 14:33:43.000 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-04 15:16:41.582 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-11 13:03:23.596 @+0200</activationDateTime>
+            <activationDateTime>2014-02-12 16:19:06.372 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-04 15:44:18.057 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1961,12 +1960,12 @@
         </Thought>
         <Thought>
             <guid>D4C41630-D4E6-107B-C285-E728DB90E00B</guid>
-            <name>Maps of The Holy Land in the Laor collection</name>
+            <name>Maps of The Holy Land</name>
             <label></label>
             <creationDateTime>2014-01-07 12:00:27.000 @+0200</creationDateTime>
-            <realModificationDateTime>2014-01-28 16:15:41.476 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-01-29 14:00:06.047 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:47:54.223 @+0200</activationDateTime>
+            <realModificationDateTime>2014-02-16 11:07:33.687 @+0200</realModificationDateTime>
+            <displayModificationDateTime>2014-02-16 11:07:33.687 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-16 13:25:00.893 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-07 12:00:37.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1991,8 +1990,8 @@
             <label></label>
             <creationDateTime>2014-01-07 11:42:55.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-09 15:08:57.839 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-01-23 12:46:52.000 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-19 17:31:39.619 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-12 14:59:05.956 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-12 14:59:02.845 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-09 15:09:39.331 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>ffffff</color>
@@ -2017,8 +2016,8 @@
             <label></label>
             <creationDateTime>2014-01-07 11:42:53.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-09 15:08:17.000 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-01-23 15:18:25.387 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:43:34.452 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-12 11:08:47.921 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-16 11:52:11.629 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-22 15:31:04.381 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>ffffff</color>
@@ -2031,7 +2030,7 @@
             <creationDateTime>2014-01-21 15:06:27.851 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-04 14:48:27.867 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-04 14:48:38.581 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-10 14:15:34.991 @+0200</activationDateTime>
+            <activationDateTime>2014-02-16 13:25:06.840 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-10 14:12:28.923 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2129,19 +2128,6 @@
             <accessControlType>0</accessControlType>
         </Thought>
         <Thought>
-            <guid>A511D2A0-4CF8-6EAA-4E6E-FC7CD0EDBCE9</guid>
-            <name>:3: Hosting Kafka at Bergmann&amp;apos;s Home</name>
-            <label></label>
-            <creationDateTime>2014-01-07 12:09:06.910 @+0200</creationDateTime>
-            <realModificationDateTime>2014-01-07 12:09:06.909 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-01-23 12:46:20.000 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 11:58:06.060 @+0200</activationDateTime>
-            <linksModificationDateTime>2013-12-26 12:39:22.961 @+0200</linksModificationDateTime>
-            <isType>0</isType>
-            <color>0</color>
-            <accessControlType>0</accessControlType>
-        </Thought>
-        <Thought>
             <guid>E0E8F390-F4AC-5530-4CC7-1E6781681DD3</guid>
             <name>:7: Death</name>
             <label></label>
@@ -2161,7 +2147,7 @@
             <creationDateTime>2014-01-07 11:42:47.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-29 12:29:32.924 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-29 12:30:10.462 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 15:48:39.871 @+0200</activationDateTime>
+            <activationDateTime>2014-02-16 11:52:13.629 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-22 15:31:04.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>ffffff</color>
@@ -2173,7 +2159,7 @@
             <label></label>
             <creationDateTime>2014-01-07 12:09:06.157 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-08 14:12:59.616 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-01-16 15:50:15.871 @+0200</displayModificationDateTime>
+            <displayModificationDateTime>2014-01-23 12:47:12.000 @+0200</displayModificationDateTime>
             <activationDateTime>2014-01-16 15:49:53.617 @+0200</activationDateTime>
             <linksModificationDateTime>2013-12-05 11:33:16.754 @+0200</linksModificationDateTime>
             <isType>0</isType>
@@ -2213,7 +2199,7 @@
             <creationDateTime>2014-01-07 11:42:42.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-22 14:32:03.039 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-28 16:28:16.780 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:42:13.210 @+0200</activationDateTime>
+            <activationDateTime>2014-02-13 15:10:50.373 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-09 15:09:18.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>ffffff</color>
@@ -2239,8 +2225,8 @@
             <creationDateTime>2014-01-21 14:33:44.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-10 14:30:48.051 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-10 14:30:48.051 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-11 13:03:26.772 @+0200</activationDateTime>
-            <linksModificationDateTime>2014-02-10 14:12:28.669 @+0200</linksModificationDateTime>
+            <activationDateTime>2014-02-12 15:32:10.501 @+0200</activationDateTime>
+            <linksModificationDateTime>2014-02-16 16:42:15.056 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
             <accessControlType>0</accessControlType>
@@ -2251,8 +2237,8 @@
             <label></label>
             <creationDateTime>2014-02-06 16:25:39.945 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-06 16:25:39.945 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-02-09 11:29:27.919 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-10 15:42:54.790 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-13 13:41:28.580 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-16 16:40:18.408 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-06 16:40:43.756 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2264,8 +2250,8 @@
             <label></label>
             <creationDateTime>2014-02-06 16:32:37.530 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-09 11:16:01.649 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-02-09 11:44:44.490 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 11:31:44.651 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-12 10:15:15.531 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-12 10:14:36.420 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-06 16:32:37.538 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2277,8 +2263,8 @@
             <label></label>
             <creationDateTime>2014-02-06 16:33:23.003 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-06 16:33:23.003 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-02-09 11:50:59.061 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 11:51:52.831 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-13 13:45:13.763 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-13 13:45:02.236 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-06 16:33:23.011 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2291,7 +2277,7 @@
             <creationDateTime>2014-02-06 16:35:44.760 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-06 16:35:44.760 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-09 12:06:06.004 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 11:58:38.981 @+0200</activationDateTime>
+            <activationDateTime>2014-02-13 13:42:05.923 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-06 16:35:44.767 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2303,8 +2289,8 @@
             <label></label>
             <creationDateTime>2014-02-06 16:36:41.682 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-06 16:36:41.682 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-02-09 13:00:17.177 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 12:06:34.833 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-16 11:57:51.543 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-16 11:56:02.192 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-06 16:36:41.690 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2317,7 +2303,7 @@
             <creationDateTime>2014-02-06 16:37:46.882 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-06 16:38:07.156 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-09 13:05:22.735 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:00:31.617 @+0200</activationDateTime>
+            <activationDateTime>2014-02-12 13:04:16.379 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-06 16:37:46.893 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2329,8 +2315,8 @@
             <label></label>
             <creationDateTime>2014-02-06 16:38:43.512 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-06 16:38:43.512 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-02-09 13:12:09.388 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:05:47.866 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-13 13:47:39.149 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-13 13:46:45.261 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-06 16:38:43.522 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2342,8 +2328,8 @@
             <label></label>
             <creationDateTime>2014-02-06 16:39:41.258 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-06 16:39:41.258 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-02-09 13:31:52.887 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:16:22.313 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-16 11:54:06.837 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-16 11:52:23.039 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-06 16:39:41.266 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2421,8 +2407,8 @@
             <creationDateTime>2014-01-07 12:09:09.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 12:09:09.000 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-28 15:46:47.994 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 14:00:29.322 @+0200</activationDateTime>
-            <linksModificationDateTime>2013-11-26 14:59:00.000 @+0200</linksModificationDateTime>
+            <activationDateTime>2014-02-13 11:15:44.141 @+0200</activationDateTime>
+            <linksModificationDateTime>2014-02-13 09:22:47.835 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
             <accessControlType>0</accessControlType>
@@ -2473,8 +2459,8 @@
             <creationDateTime>2014-01-07 12:09:12.129 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 12:09:12.129 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-16 12:08:44.919 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-16 12:08:15.768 @+0200</activationDateTime>
-            <linksModificationDateTime>2013-12-09 17:02:00.954 @+0200</linksModificationDateTime>
+            <activationDateTime>2014-02-16 16:42:16.739 @+0200</activationDateTime>
+            <linksModificationDateTime>2014-02-16 16:40:59.088 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
             <accessControlType>0</accessControlType>
@@ -2499,8 +2485,8 @@
             <creationDateTime>2014-01-07 12:09:12.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 12:09:12.000 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-22 15:16:11.685 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:39:03.799 @+0200</activationDateTime>
-            <linksModificationDateTime>2013-12-26 12:37:48.000 @+0200</linksModificationDateTime>
+            <activationDateTime>2014-02-16 16:40:34.845 @+0200</activationDateTime>
+            <linksModificationDateTime>2014-02-16 16:42:13.186 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
             <accessControlType>0</accessControlType>
@@ -2511,8 +2497,8 @@
             <label></label>
             <creationDateTime>2014-01-07 12:09:10.947 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 12:09:10.947 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-01-16 15:52:05.874 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-16 15:51:39.606 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-12 16:26:26.892 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-12 16:27:04.949 @+0200</activationDateTime>
             <linksModificationDateTime>2013-11-28 16:36:21.290 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2525,7 +2511,7 @@
             <creationDateTime>2014-01-07 12:09:10.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 12:09:10.000 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-28 17:09:17.344 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:37:33.751 @+0200</activationDateTime>
+            <activationDateTime>2014-02-13 09:11:55.211 @+0200</activationDateTime>
             <linksModificationDateTime>2013-12-05 11:33:16.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2577,7 +2563,7 @@
             <creationDateTime>2014-01-07 12:09:11.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 12:09:11.000 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-23 15:17:19.688 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 14:00:35.781 @+0200</activationDateTime>
+            <activationDateTime>2014-02-13 11:15:45.436 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-07 18:03:17.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2668,7 +2654,7 @@
             <creationDateTime>2014-01-07 12:09:15.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-09 12:54:33.000 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-28 15:36:01.280 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 15:50:56.090 @+0200</activationDateTime>
+            <activationDateTime>2014-02-13 09:22:34.562 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-07 18:03:23.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2681,7 +2667,7 @@
             <creationDateTime>2014-01-07 11:38:02.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-22 13:30:14.831 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-30 14:04:23.715 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-30 14:01:17.361 @+0200</activationDateTime>
+            <activationDateTime>2014-02-16 11:04:23.896 @+0200</activationDateTime>
             <linksModificationDateTime>2013-12-01 16:37:06.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>ffffffff</color>
@@ -2746,7 +2732,7 @@
             <creationDateTime>2014-01-07 12:09:12.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-03 12:26:18.418 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-03 12:26:18.418 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 15:50:57.256 @+0200</activationDateTime>
+            <activationDateTime>2014-02-16 16:40:27.514 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-07 18:03:23.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2837,7 +2823,7 @@
             <creationDateTime>2014-01-07 12:09:16.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 12:09:16.000 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-02 12:26:54.120 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-02 12:26:28.063 @+0200</activationDateTime>
+            <activationDateTime>2014-02-13 09:22:33.135 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-07 18:46:52.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2862,8 +2848,8 @@
             <label></label>
             <creationDateTime>2014-01-07 18:46:52.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 18:46:52.000 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-01-21 14:10:18.000 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-21 13:59:41.000 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-13 09:15:54.306 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-13 09:12:10.216 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-07 18:46:52.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2888,8 +2874,8 @@
             <label></label>
             <creationDateTime>2014-01-15 14:52:37.496 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-15 14:58:40.328 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-02-04 16:23:14.554 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 13:40:16.963 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-12 11:58:50.950 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-12 15:27:47.143 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-15 14:52:37.573 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2901,8 +2887,8 @@
             <label></label>
             <creationDateTime>2014-01-07 12:23:09.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-28 16:15:43.817 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-01-28 16:15:43.817 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-09 15:46:59.197 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-13 11:16:27.920 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-16 11:04:08.701 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-07 12:23:16.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -3032,7 +3018,7 @@
             <creationDateTime>2014-01-07 11:42:38.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-28 16:23:55.542 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-28 16:23:55.542 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-28 16:34:54.457 @+0200</activationDateTime>
+            <activationDateTime>2014-02-12 11:37:02.906 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-12 12:58:49.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>ffffff</color>
@@ -3057,8 +3043,8 @@
             <label></label>
             <creationDateTime>2014-01-07 11:42:38.221 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 11:42:38.221 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-01-23 12:46:34.000 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-05 16:49:58.938 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-02-12 11:07:03.680 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-02-12 11:29:09.308 @+0200</activationDateTime>
             <linksModificationDateTime>2013-11-10 10:42:23.374 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -3188,7 +3174,7 @@
             <creationDateTime>2014-01-07 11:42:37.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-14 18:16:40.622 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-23 12:46:36.000 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-03 14:14:32.269 @+0200</activationDateTime>
+            <activationDateTime>2014-02-16 11:33:19.692 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-09 15:09:47.609 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>ffffff</color>
@@ -3750,16 +3736,16 @@
             <linkTypeID></linkTypeID>
         </Link>
         <Link>
-            <guid>6FD52F8A-1444-60B7-B02B-A2D31455C6D0</guid>
+            <guid>1EAB4797-7FB9-5135-0F66-8753A9BB316C</guid>
             <idA>F8764905-77D6-2F1F-C4A6-0376797AED4A</idA>
-            <idB>A511D2A0-4CF8-6EAA-4E6E-FC7CD0EDBCE9</idB>
+            <idB>343B06F5-4019-F47A-55D7-6EDD1286F463</idB>
             <dir>2</dir>
             <isBackward>0</isBackward>
             <name></name>
             <labelForward></labelForward>
             <labelBackward></labelBackward>
-            <creationDateTime>2014-01-05 13:17:45.737 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-07 12:09:27.016 @+0200</modificationDateTime>
+            <creationDateTime>2014-02-16 16:40:59.077 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-16 16:40:59.077 @+0200</modificationDateTime>
             <isType>0</isType>
             <color>0</color>
             <thickness>0</thickness>
@@ -4605,13 +4591,13 @@
             <labelForward></labelForward>
             <labelBackward></labelBackward>
             <creationDateTime>2014-01-05 13:17:49.527 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-07 11:32:40.101 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-16 11:14:54.390 @+0200</modificationDateTime>
             <isType>0</isType>
             <color>0</color>
             <thickness>0</thickness>
             <strength>0</strength>
             <meaning>0</meaning>
-            <linkTypeID>A612649B-7311-4A04-D5F9-0D53879CACE3</linkTypeID>
+            <linkTypeID></linkTypeID>
         </Link>
         <Link>
             <guid>619B1C2F-6C27-8C57-5F6B-A1C1709E279D</guid>
@@ -4912,6 +4898,24 @@
             <labelBackward></labelBackward>
             <creationDateTime>2014-02-10 14:19:12.051 @+0200</creationDateTime>
             <modificationDateTime>2014-02-10 14:19:12.051 @+0200</modificationDateTime>
+            <isType>0</isType>
+            <color>0</color>
+            <thickness>0</thickness>
+            <strength>0</strength>
+            <meaning>0</meaning>
+            <linkTypeID></linkTypeID>
+        </Link>
+        <Link>
+            <guid>F221E2A3-D4D5-CCE7-8E1B-DDB4719964F0</guid>
+            <idA>D6C48A53-A866-3508-8FCC-68CED1AA200F</idA>
+            <idB>799883B0-2813-0A7F-BC85-3903FC322453</idB>
+            <dir>1</dir>
+            <isBackward>0</isBackward>
+            <name></name>
+            <labelForward></labelForward>
+            <labelBackward></labelBackward>
+            <creationDateTime>2014-02-13 09:22:47.803 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-13 09:22:47.803 @+0200</modificationDateTime>
             <isType>0</isType>
             <color>0</color>
             <thickness>0</thickness>
@@ -5506,42 +5510,6 @@
             <labelBackward></labelBackward>
             <creationDateTime>2014-02-10 14:15:55.747 @+0200</creationDateTime>
             <modificationDateTime>2014-02-10 14:15:55.747 @+0200</modificationDateTime>
-            <isType>0</isType>
-            <color>0</color>
-            <thickness>0</thickness>
-            <strength>0</strength>
-            <meaning>0</meaning>
-            <linkTypeID></linkTypeID>
-        </Link>
-        <Link>
-            <guid>EDA70BC2-EC84-513E-B2A0-F48DD5941ECC</guid>
-            <idA>F365BDA9-E322-11FB-C378-58447FD36578</idA>
-            <idB>85C297E9-3FF1-3C07-AF48-19648503D399</idB>
-            <dir>1</dir>
-            <isBackward>0</isBackward>
-            <name></name>
-            <labelForward></labelForward>
-            <labelBackward></labelBackward>
-            <creationDateTime>2014-02-10 13:47:48.194 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-10 14:12:28.783 @+0200</modificationDateTime>
-            <isType>0</isType>
-            <color>0</color>
-            <thickness>0</thickness>
-            <strength>0</strength>
-            <meaning>0</meaning>
-            <linkTypeID></linkTypeID>
-        </Link>
-        <Link>
-            <guid>FC50E2DF-B657-DC10-DA6C-148A2941D873</guid>
-            <idA>E9D2870A-9528-B9CE-9EE5-E667565D0126</idA>
-            <idB>85C297E9-3FF1-3C07-AF48-19648503D399</idB>
-            <dir>1</dir>
-            <isBackward>0</isBackward>
-            <name></name>
-            <labelForward></labelForward>
-            <labelBackward></labelBackward>
-            <creationDateTime>2014-02-10 14:12:28.923 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-10 14:12:28.923 @+0200</modificationDateTime>
             <isType>0</isType>
             <color>0</color>
             <thickness>0</thickness>
@@ -6412,24 +6380,6 @@
             <strength>0</strength>
             <meaning>0</meaning>
             <linkTypeID>97DE2148-BCEE-C81E-699C-8634E6ADCE2A</linkTypeID>
-        </Link>
-        <Link>
-            <guid>EC518266-1E83-B421-E6AA-F89BCC100BE1</guid>
-            <idA>DF00CA57-F915-CDD6-7365-1491D0609B78</idA>
-            <idB>A511D2A0-4CF8-6EAA-4E6E-FC7CD0EDBCE9</idB>
-            <dir>1</dir>
-            <isBackward>0</isBackward>
-            <name></name>
-            <labelForward></labelForward>
-            <labelBackward></labelBackward>
-            <creationDateTime>2014-01-05 13:17:45.629 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-07 12:09:26.906 @+0200</modificationDateTime>
-            <isType>0</isType>
-            <color>0</color>
-            <thickness>0</thickness>
-            <strength>0</strength>
-            <meaning>0</meaning>
-            <linkTypeID></linkTypeID>
         </Link>
         <Link>
             <guid>67EDA333-9E08-E738-4B1C-0702BB50C7C1</guid>
@@ -9476,23 +9426,20 @@ font-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;
 p {
 margin-top: 0pt;  margin-bottom: 0pt;
 }
-p.msonormal {
-margin: 0cm;  margin-bottom: .0001pt;  font-size: 11.0pt;  font-family: Calibri, sans-serif;
-}
 --&amp;gt;
 &amp;lt;/style&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
 &amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;The Hebrew language is an ancient language, spoken and written by the people of Israel as early as the beginning of the first millennium. It is the language of the Old Testament and Jewish scripture. Though Jews started speaking other languages as well from the end of the First Temple Period onwards (Aramaic, Greek and as well as other European vernacular languages in later eras), Hebrew remained the language of the Scriptures and prayer, and was called &amp;quot;The Holy Tongue&amp;quot;.&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 &amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;Jews continued to learn, to read and write in Hebrew throughout the last two millennia even though it was not their spoken language, specifically because it was their ancient holy language.&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;/p&amp;gt;
 &amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span pt=&amp;quot;pt&amp;quot; font-size=&amp;quot;font-size&amp;quot; plus=&amp;quot;Plus&amp;quot; gentium=&amp;quot;Gentium&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;Photographs: &amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot; line-height: 115%; color: black; background: white;&amp;quot;&amp;gt;&amp;lt;span pt=&amp;quot;pt&amp;quot; font-size=&amp;quot;font-size&amp;quot; plus=&amp;quot;Plus&amp;quot; gentium=&amp;quot;Gentium&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;The Worms Mahzor (festival prayerbook),&amp;amp;#160;Germany, 13th century, NLI.&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot; line-height: 115%;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt; The prayerbook was used by the Worms community until the synagogue&amp;apos;s destruction on Kristallnacht, November 1938. It was rescued by the city archivist who hid it in the cathedral, and was transferred in 1957 to the NLI.&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 </body>
             <format>HTML</format>
             <creationDateTime>2014-01-07 11:32:40.241 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-14 14:42:19.589 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-16 11:15:37.736 @+0200</modificationDateTime>
         </Entry>
         <Entry>
             <guid>A782DBA7-5B84-6B4D-7339-1CD7AA42B4B2</guid>
@@ -9960,6 +9907,53 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <format>HTML</format>
             <creationDateTime>2014-02-10 14:19:33.570 @+0200</creationDateTime>
             <modificationDateTime>2014-02-10 14:19:33.570 @+0200</modificationDateTime>
+        </Entry>
+        <Entry>
+            <guid>C46B09B5-D325-96A2-2EE8-52F309B4C6B9</guid>
+            <EntryObjects>
+                <EntryObject>
+                    <objectType>0</objectType>
+                    <objectID>799883B0-2813-0A7F-BC85-3903FC322453</objectID>
+                </EntryObject>
+            </EntryObjects>
+            <body>&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;quot; &amp;quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;quot;&amp;gt; 
+&amp;lt;html xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta name=&amp;quot;generator&amp;quot; content=&amp;quot;EditLive! 7.6.2.10&amp;quot; /&amp;gt;
+&amp;lt;meta name=&amp;quot;generator&amp;quot; content=&amp;quot;TheBrain 7.0.4.5&amp;quot; /&amp;gt;
+&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot; content=&amp;quot;text/html; charset=UTF-8&amp;quot; /&amp;gt;
+&amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
+&amp;lt;!--
+body {
+font-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;
+}
+p {
+margin-top: 0pt;  margin-bottom: 0pt;
+}
+p.msonormal {
+margin-top: 0cm;  margin-right: 0cm;  margin-bottom: 10.0pt;  margin-left: 0cm;  text-align: right;  line-height: 115%;  direction: rtl;  unicode-bidi: embed;  font-size: 11.0pt;  font-family: Calibri, sans-serif;
+}
+--&amp;gt;
+&amp;lt;/style&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; style=&amp;quot; text-align: left; direction: ltr; unicode-bidi: embed;&amp;quot;&amp;gt;Before 1933, Rudolf Kayser was the chief editor of the &amp;lt;i&amp;gt;Neue Rundschau&amp;lt;/i&amp;gt;, the most influential literary journal published by the S. Fischer publishing house. Kayser was in contact with many German speaking authors, among them also Stefan Zweig. In this letter, written in London, Zweig refers to his plans to stop his cooperation with Fischer, which, following the Nazi takeover, was about to cancel all contracts with Jewish authors. He also mentions the fact that he is compelled to leave his home and his collections, and that he has to start a new life, tired as he is. Zweig mentions the great success of the biography of &amp;lt;i&amp;gt;Marie Antoinette&amp;lt;/i&amp;gt; and his study on Erasmus of Rotterdam, whose fate Zweig regarded as similar to his own: a weak intellectual in harsh times.&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; style=&amp;quot; text-align: left; direction: ltr; unicode-bidi: embed;&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; dir=&amp;quot;LTR&amp;quot; style=&amp;quot; margin-left: 324.0pt; text-align: left; text-indent: 36.0pt; direction: ltr; unicode-bidi: embed;&amp;quot;&amp;gt;30.11.1933&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; dir=&amp;quot;LTR&amp;quot; style=&amp;quot; text-align: left; direction: ltr; unicode-bidi: embed;&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; dir=&amp;quot;LTR&amp;quot; style=&amp;quot; text-align: left; direction: ltr; unicode-bidi: embed;&amp;quot;&amp;gt;Dear Dr. Kayser,&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; dir=&amp;quot;LTR&amp;quot; style=&amp;quot; text-align: left; direction: ltr; unicode-bidi: embed;&amp;quot;&amp;gt;Your letter moved me deeply. It reached me at a terrible time. I have, like you, been holding onto the &amp;apos;middle way&amp;apos;, and have not published a single line in order to escape my inner conflict.. (However) I wasn&amp;apos;t allowed to do so, as the B&amp;#246;rsenblatt published my letter to the Insel without a headline, and since then I am considered a traitor among the emigr&amp;#233;s. Out of revenge one of the extremists published a private letter written by me, and now there&amp;apos;s gossip in the air about me &amp;#8211; Thomas Mann was in a similar situation but his success proved that he was right. Soon [I will be] without a homeland. I cannot stay in Salzburg, a small town of the most anti-Semitic type, close to the German border, without being strongly inhibited: and so, I am losing my home, my books, my collections and have to start a completely new life, tired as I am. The only [positive] thing is that my economic situation is secure for the near future. &amp;lt;i&amp;gt;Marie Antoinette&amp;lt;/i&amp;gt; provided me independence from the need to earn money for one or two years, and given all that I am losing because of the circumstances, it is beneficial not to have abhorrent economic worries. Much worse the [situation of the] others &amp;#8211; I was betrayed by friends for a small sensation in the newspapers, and others disappointed me &amp;#8211; did I handle this correctly? The wisest saying is: what a Jew does today is always wrong. My consolation is a small book on Erasmus, the tragedy of a fragile weak man who is [stuck] in the middle and defeated by the fanatics: by doing so, I throw inner destiny in some way into the mirror.&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; dir=&amp;quot;LTR&amp;quot; style=&amp;quot; text-align: left; direction: ltr; unicode-bidi: embed;&amp;quot;&amp;gt;I have been here in London for some time (I am going to write a &amp;lt;i&amp;gt;Mary Stuart&amp;lt;/i&amp;gt;) and I find life pleasant. The indifference of people, which once used to bother me, now pleases me: people are not concerned with one another. I am seriously considering to move here if it becomes necessary, but I understand completely your withdrawal: here too one is not taken seriously and probably nowhere else. If I return perhaps I could do something for your &amp;lt;i&amp;gt;Spinoza&amp;lt;/i&amp;gt; and for your new book &amp;#8211; I have been thinking about you often. Through silence we understand each other best.&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; dir=&amp;quot;LTR&amp;quot; style=&amp;quot; text-align: left; direction: ltr; unicode-bidi: embed;&amp;quot;&amp;gt;My address is again Salzburg (but I hope not for long. I cannot bear their faces full of hate any longer). Blessed be the indifferent people here who enjoy cats, soccer and whiskey: we are complicated enough ourselves. All the best and courage and courage!&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; dir=&amp;quot;LTR&amp;quot; style=&amp;quot; text-align: left; direction: ltr; unicode-bidi: embed;&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; dir=&amp;quot;LTR&amp;quot; style=&amp;quot; text-align: left; direction: ltr; unicode-bidi: embed;&amp;quot;&amp;gt;Most heartedly yours&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; dir=&amp;quot;LTR&amp;quot; style=&amp;quot; text-align: left; direction: ltr; unicode-bidi: embed;&amp;quot;&amp;gt;Stefan Zweig&amp;amp;#160;&amp;amp;#160;&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+</body>
+            <format>HTML</format>
+            <creationDateTime>2014-02-13 09:23:23.370 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-13 09:32:47.566 @+0200</modificationDateTime>
         </Entry>
         <Entry>
             <guid>68675668-A1C9-5067-55F1-EC95030399CB</guid>
@@ -10911,39 +10905,6 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <format>HTML</format>
             <creationDateTime>2014-02-10 14:16:48.446 @+0200</creationDateTime>
             <modificationDateTime>2014-02-10 14:16:48.446 @+0200</modificationDateTime>
-        </Entry>
-        <Entry>
-            <guid>3A1BC4E4-8966-BDF7-09E0-BCF4A899E9FE</guid>
-            <EntryObjects>
-                <EntryObject>
-                    <objectType>0</objectType>
-                    <objectID>85C297E9-3FF1-3C07-AF48-19648503D399</objectID>
-                </EntryObject>
-            </EntryObjects>
-            <body>&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;quot; &amp;quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;quot;&amp;gt;&amp;lt;html xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;
-&amp;lt;head&amp;gt;
-&amp;lt;meta name=&amp;quot;generator&amp;quot; content=&amp;quot;EditLive! 7.6.2.10&amp;quot; /&amp;gt;
-&amp;lt;meta name=&amp;quot;generator&amp;quot; content=&amp;quot;TheBrain 7.0.4.5&amp;quot; /&amp;gt;
-&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot; content=&amp;quot;text/html; charset=UTF-8&amp;quot; /&amp;gt;
-&amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
-&amp;lt;!--
-body {
-font-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;
-}
-p {
-margin-top: 0pt;  margin-bottom: 0pt;
-}
---&amp;gt;
-&amp;lt;/style&amp;gt;
-&amp;lt;/head&amp;gt;
-&amp;lt;body&amp;gt;
-&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot; line-height: 115%;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;Yahuda&amp;apos;s rich collection of Jewish manuscripts includes the most beautiful existing manuscript of Maimonides&amp;apos; &amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;i&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;Mishneh Torah, &amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;as well as various manuscripts of the Old Testament, commentaries and philological and philosophical treatises written by Jewish scholars.&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-</body>
-            <format>HTML</format>
-            <creationDateTime>2014-02-10 14:12:28.803 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-10 14:12:28.803 @+0200</modificationDateTime>
         </Entry>
         <Entry>
             <guid>11FF8AE4-DC46-E113-C789-40D75BEC5C2B</guid>
@@ -11970,21 +11931,21 @@ body {
 font-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;
 }
 p {
-margin-top: 0pt;  margin-bottom: 0pt;  margin-right: 0cm;  margin-left: 0cm;  font-size: 12.0pt;  font-family: &amp;quot;Times New Roman&amp;quot;, serif;
+margin-top: 0pt;  margin-bottom: 0pt;
 }
 --&amp;gt;
 &amp;lt;/style&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
-&amp;lt;p style=&amp;quot; margin-top: 5.05pt; margin-right: 0cm; margin-bottom: 1.45pt; margin-left: 8.65pt;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; color: #3F3F3F;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;The Torah served the community of Kahal-Shalom for over 400 years, until the island was occupied by the Nazis. Most of the island&amp;apos;s Jews were transported to Auschwitz and killed. From among 2000 members of the island&amp;apos;s Jewish community, 1,673 were deported. Of these, only 151 survived.&amp;amp;#160;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;p style=&amp;quot; margin-top: 5.05pt; margin-right: 0cm; margin-bottom: 1.45pt; margin-left: 8.65pt;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; color: #3F3F3F;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;The Torah scroll was saved by the good relationship between the Jewish and Muslim communities, as well as through an intriguing family connection: the Torah was deposited with the Mufti of Rhodes, Suleyman Kasiloglou, just a few days before the deportation of the Jews on July 25th, 1944. &amp;amp;#160;Kasiloglu&amp;apos;s father-in-law was Jewish, which may explain why the Jewish community trusted him with its most valuable possession. &amp;amp;#160;Kasiloglou hid the Torah under the pulpit of the Morad Reis mosque.&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p style=&amp;quot; margin-top: 5.05pt; margin-right: 0cm; margin-bottom: 1.45pt; margin-left: 8.65pt;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; color: #3F3F3F;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;The Torah served the community of Kahal-Shalom for over 400 years, until the island was occupied by the Nazis. Most of the island&amp;apos;s Jews were transported to Auschwitz and killed. From among 2000 members of the island&amp;apos;s Jewish community, 1,673 were deported. Of these, only 151 survived.&amp;amp;#160;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p style=&amp;quot; margin-top: 5.05pt; margin-right: 0cm; margin-bottom: 1.45pt; margin-left: 8.65pt;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; color: #3F3F3F;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;The Torah scroll was saved by the good relationship between the Jewish and Muslim communities, as well as through an intriguing family connection: the Torah was deposited with the Mufti of Rhodes, Suleyman Kasiloglou, just a few days before the deportation of the Jews on July 25th, 1944. &amp;amp;#160;Kasiloglu&amp;apos;s father-in-law was Jewish, which may explain why the Jewish community trusted him with its most valuable possession. &amp;amp;#160;Kasiloglou hid the Torah under the pulpit of the Morad Reis mosque.&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 &amp;lt;p style=&amp;quot; margin-top: 5.05pt; margin-right: 0cm; margin-bottom: 1.45pt; margin-left: 8.65pt;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; color: #3F3F3F;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;The Scroll remained rolled to the last portion which was read in the synagogue, &amp;quot;Parashat Pinhas&amp;quot;, on the Sabbath of July 15th, 1944. This same part in the scroll was heavily damaged by mildew due to the conditions under the pulpit.&amp;amp;#160;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 </body>
             <format>HTML</format>
             <creationDateTime>2014-01-07 11:43:00.209 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-14 18:15:01.949 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-12 12:11:48.894 @+0200</modificationDateTime>
         </Entry>
         <Entry>
             <guid>D6D75B4B-DD72-61B0-E310-93CFF3A71480</guid>
@@ -12042,23 +12003,23 @@ body {
 font-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;
 }
 p {
-margin-top: 0pt;  margin-bottom: 0pt;  margin-right: 0cm;  margin-left: 0cm;  font-size: 12.0pt;  font-family: &amp;quot;Times New Roman&amp;quot;, serif;
+margin-top: 0pt;  margin-bottom: 0pt;
 }
 --&amp;gt;
 &amp;lt;/style&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
-&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot; color: #3F3F3F;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;The National Library of Israel houses various Torah scrolls. The Torah we present here, which belonged to the Kahal Shalom Synagogue in Rhodes, is actually one of the less impressive to look at; it is, in fact, disintegrating and according to our conservationist - is actually beyond repair.&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot; color: #3F3F3F;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;Although the National Library of Israel possesses finer ones - in a much better state of preservation, we chose to present this one because of the fascinating story of its wanderings throughout the Mediterranean and the hardships it encountered until its arrival at our library in the summer of 1999.&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot; color: #3F3F3F;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;This story represents the history of the Jewish people throughout the ages&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;.&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot; color: #3F3F3F;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;The National Library of Israel houses various Torah scrolls. The Torah we present here, which belonged to the Kahal Shalom Synagogue in Rhodes, is actually one of the less impressive to look at; it is, in fact, disintegrating and according to our conservationist - is actually beyond repair.&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot; color: #3F3F3F;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;Although the National Library of Israel possesses finer ones - in a much better state of preservation, we chose to present this one because of the fascinating story of its wanderings throughout the Mediterranean and the hardships it encountered until its arrival at our library in the summer of 1999.&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot; color: #3F3F3F;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;This story represents the history of the Jewish people throughout the ages&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;.&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;amp;#160;&amp;lt;/p&amp;gt;
 &amp;lt;p&amp;gt;&amp;lt;span style=&amp;quot; color: rgb(63, 63, 63);&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;Photograph of Coat: The inscription reads &amp;apos;Donated in memory of our dear brothers who died in sanctification of the divine name, by Hayyim and Lilly Noterika&amp;apos;.&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 </body>
             <format>HTML</format>
             <creationDateTime>2014-01-07 11:43:00.000 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-14 17:58:26.281 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-12 11:08:47.915 @+0200</modificationDateTime>
         </Entry>
         <Entry>
             <guid>73D2B847-0D98-E901-B06C-CB9C5CF1E29C</guid>
@@ -12247,43 +12208,6 @@ margin-top: 0cm;  margin-right: 0cm;  margin-bottom: 10.0pt;  margin-left: 0cm; 
             <format>HTML</format>
             <creationDateTime>2014-01-07 12:09:32.046 @+0200</creationDateTime>
             <modificationDateTime>2014-01-16 15:48:50.881 @+0200</modificationDateTime>
-        </Entry>
-        <Entry>
-            <guid>0643A74A-C1B6-B1AD-619C-F8CC992B4AB9</guid>
-            <EntryObjects>
-                <EntryObject>
-                    <objectType>0</objectType>
-                    <objectID>A511D2A0-4CF8-6EAA-4E6E-FC7CD0EDBCE9</objectID>
-                </EntryObject>
-            </EntryObjects>
-            <body>&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;quot; &amp;quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;quot;&amp;gt;&amp;lt;html xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;
-&amp;lt;head&amp;gt;
-&amp;lt;meta name=&amp;quot;generator&amp;quot; content=&amp;quot;EditLive! 7.6.2.10&amp;quot; /&amp;gt;
-&amp;lt;meta name=&amp;quot;generator&amp;quot; content=&amp;quot;TheBrain 7.0.4.5&amp;quot; /&amp;gt;
-&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot; content=&amp;quot;text/html; charset=UTF-8&amp;quot; /&amp;gt;
-&amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
-&amp;lt;!--
-body {
-font-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;
-}
-p {
-margin-top: 0pt;  margin-bottom: 0pt;
-}
-p.msonormal {
-margin-top: 0cm;  margin-right: 0cm;  margin-bottom: 10.0pt;  margin-left: 0cm;  text-align: right;  line-height: 115%;  direction: rtl;  unicode-bidi: embed;  font-size: 11.0pt;  font-family: Calibri, sans-serif;
-}
---&amp;gt;
-&amp;lt;/style&amp;gt;
-&amp;lt;/head&amp;gt;
-&amp;lt;body&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; align=&amp;quot;right&amp;quot; dir=&amp;quot;RTL&amp;quot; style=&amp;quot; text-align: left;&amp;quot;&amp;gt;&amp;lt;span dir=&amp;quot;LTR&amp;quot;&amp;gt;In summer 1923 Kafka had written to Bergmann about his plan to visit Palestine. In a letter dated August 1923 Bergmann wrote&amp;amp;#160; to his wife Else the following:&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; style=&amp;quot; text-align: left; direction: ltr; unicode-bidi: embed;&amp;quot;&amp;gt;&amp;quot;Regarding Kafka: I would of course be very glad to have him here, but I beg you not to take this burden upon yourself and upon our house. The room in the cellar is taken up by Lea (the maid), and it is doubtful whether this room is suited for living, especially when it comes to Franz. Even Lea had not wanted this room&amp;#8230;As long as mother is here, we do not have a spare room. Even if she leaves &amp;#8211; who knows when that will happen &amp;#8211; there will still be the problem of attending to Franz. It is one thing to help him as much as possible when he is living abroad, but it&amp;apos;s another, when you invite him to our home and take upon yourself the responsibility and the care. This will end up at the expense of the children! &amp;#8230; You know that I love Franz very much, and would like him to stay with me, but I ask you to make no commitments or to build up (his) hopes.&amp;quot;&amp;lt;/p&amp;gt;
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-</body>
-            <format>HTML</format>
-            <creationDateTime>2014-01-07 12:09:32.006 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-07 12:09:32.006 @+0200</modificationDateTime>
         </Entry>
         <Entry>
             <guid>C5316111-71AE-6007-7342-E80509D12B07</guid>
@@ -12554,7 +12478,8 @@ margin-top: 0pt;  margin-bottom: 0pt;
                     <objectID>951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10</objectID>
                 </EntryObject>
             </EntryObjects>
-            <body>&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;quot; &amp;quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;quot;&amp;gt;&amp;lt;html xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;
+            <body>&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;quot; &amp;quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;quot;&amp;gt; 
+&amp;lt;html xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;
 &amp;lt;head&amp;gt;
 &amp;lt;meta name=&amp;quot;generator&amp;quot; content=&amp;quot;EditLive! 7.6.2.10&amp;quot; /&amp;gt;
 &amp;lt;meta name=&amp;quot;generator&amp;quot; content=&amp;quot;TheBrain 7.0.4.5&amp;quot; /&amp;gt;
@@ -12567,21 +12492,18 @@ font-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;
 p {
 margin-top: 0pt;  margin-bottom: 0pt;
 }
-p.msonormal {
-margin: 0cm;  margin-bottom: .0001pt;  line-height: 115%;  font-size: 11.0pt;  font-family: Calibri, sans-serif;
-}
 --&amp;gt;
 &amp;lt;/style&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;The National Library of Israel is a repository of Jewish spiritual heritage, preserving &amp;amp;#160;the memory of Jewish culture and the Jewish people throughout history, from its their very beginnings to the present-day State of Israel.&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;The National Library of Israel is a repository of Jewish heritage, preserving &amp;amp;#160;the memory of Jewish culture and the Jewish people throughout history, from their very beginnings to the present-day State of Israel.&amp;lt;/p&amp;gt;
 &amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;As such, the Library continuously strives to collect all materials, past and present, relevant to the Jewish people and the Land of Israel.&amp;lt;/p&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 </body>
             <format>HTML</format>
             <creationDateTime>2014-02-06 16:26:11.825 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-06 16:26:11.825 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-12 10:13:54.559 @+0200</modificationDateTime>
         </Entry>
         <Entry>
             <guid>57C89101-9716-92B7-266A-D147369BC615</guid>
@@ -12591,7 +12513,8 @@ margin: 0cm;  margin-bottom: .0001pt;  line-height: 115%;  font-size: 11.0pt;  f
                     <objectID>BBCD57B0-3245-D3AC-45EB-9EB2C1BFD53B</objectID>
                 </EntryObject>
             </EntryObjects>
-            <body>&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;quot; &amp;quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;quot;&amp;gt;&amp;lt;html xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;
+            <body>&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;quot; &amp;quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;quot;&amp;gt; 
+&amp;lt;html xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;
 &amp;lt;head&amp;gt;
 &amp;lt;meta name=&amp;quot;generator&amp;quot; content=&amp;quot;EditLive! 7.6.2.10&amp;quot; /&amp;gt;
 &amp;lt;meta name=&amp;quot;generator&amp;quot; content=&amp;quot;TheBrain 7.0.4.5&amp;quot; /&amp;gt;
@@ -12604,21 +12527,18 @@ font-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;
 p {
 margin-top: 0pt;  margin-bottom: 0pt;
 }
-p.msonormal {
-margin: 0cm;  margin-bottom: .0001pt;  line-height: 115%;  font-size: 11.0pt;  font-family: Calibri, sans-serif;
-}
 --&amp;gt;
 &amp;lt;/style&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
 &amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;The written word has always stood at the center of Jewish religion and culture. And yet, it was not until the end of the 19&amp;lt;sup&amp;gt;th&amp;lt;/sup&amp;gt; century that the idea of aggregating all Jewish written material in one place arose.&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;The Jewish National Movement, which came into being during the last quarter of the 19&amp;lt;sup&amp;gt;th&amp;lt;/sup&amp;gt; century, sought to establish an independent Jewish State in the ancient Jewish homeland &amp;#8211; the Land of Israel. The idea of collecting written Jewish spiritual heritage developed in tandem with the idea of the foundation of a Jewish State. A Jewish State was in fact meaningless without its spiritual legacy. Unlike other national libraries which were founded on previous collections &amp;#8211; the National Library of Israel began ex nihilo.&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;The Jewish National Movement, which came into being during the last quarter of the 19&amp;lt;sup&amp;gt;th&amp;lt;/sup&amp;gt; century, sought to establish an independent Jewish State in the ancient Jewish homeland &amp;#8211; the Land of Israel. The idea of collecting written Jewish heritage developed in tandem with the idea of the foundation of a Jewish State. A Jewish State was in fact meaningless without its cultural legacy. Unlike other national libraries which were founded on previous collections &amp;#8211; the National Library of Israel began ex nihilo.&amp;lt;/p&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 </body>
             <format>HTML</format>
             <creationDateTime>2014-02-06 16:33:02.172 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-06 16:33:02.172 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-12 10:15:15.529 @+0200</modificationDateTime>
         </Entry>
         <Entry>
             <guid>4A50F165-26D6-2D17-3601-76AACAF62D0F</guid>
@@ -13273,7 +13193,8 @@ margin-top: 0pt;  margin-bottom: 0pt;
                     <objectID>E6BEF91A-FBC5-E14F-9B65-4C7EA63AD875</objectID>
                 </EntryObject>
             </EntryObjects>
-            <body>&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;quot; &amp;quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;quot;&amp;gt;&amp;lt;html xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;
+            <body>&amp;lt;!DOCTYPE html PUBLIC &amp;quot;-//W3C//DTD XHTML 1.0 Transitional//EN&amp;quot; &amp;quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&amp;quot;&amp;gt; 
+&amp;lt;html xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;
 &amp;lt;head&amp;gt;
 &amp;lt;meta name=&amp;quot;generator&amp;quot; content=&amp;quot;EditLive! 7.6.2.10&amp;quot; /&amp;gt;
 &amp;lt;meta name=&amp;quot;generator&amp;quot; content=&amp;quot;TheBrain 7.0.4.5&amp;quot; /&amp;gt;
@@ -13286,29 +13207,17 @@ font-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;
 p {
 margin-top: 0pt;  margin-bottom: 0pt;
 }
-p.msonormal {
-margin-top: 0cm;  margin-right: 0cm;  margin-bottom: 10.0pt;  margin-left: 0cm;  text-align: right;  line-height: 115%;  direction: rtl;  unicode-bidi: embed;  font-size: 11.0pt;  font-family: Calibri, sans-serif;
-}
-a:link {
-color: blue;  text-decoration: underline;
-}
-span.msohyperlink {
-color: blue;  text-decoration: underline;
-}
-a:visited {
-color: purple;  text-decoration: underline;
-}
 --&amp;gt;
 &amp;lt;/style&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; style=&amp;quot; text-align: left; direction: ltr; unicode-bidi: embed;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; line-height: 115%;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;Although born to Jewish parents, &amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/Religion&amp;quot; title=&amp;quot;Religion&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; color: windowtext; text-decoration: none;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;religion&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;&amp;amp;#160;did not play a central role in Zweig&amp;apos;s education.&amp;amp;#160; When asked about this in an interview, Zweig said: &amp;quot;My mother and father were Jewish only through&amp;amp;#160;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/Accident_of_birth&amp;quot; title=&amp;quot;Accident of birth&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; color: windowtext; text-decoration: none;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;accident of birth&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;&amp;quot;. Zweig believed in&amp;amp;#160;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/Internationalism_(politics)&amp;quot; title=&amp;quot;Internationalism (politics)&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; color: windowtext; text-decoration: none;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;universalism&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;span class=&amp;quot;MsoHyperlink&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; color: windowtext; text-decoration: none;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt; &amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;&amp;amp;#160;and in&amp;amp;#160;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/Europeanism&amp;quot; title=&amp;quot;Europeanism&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; color: windowtext; text-decoration: none;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;Europeanism&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt; and adopted Judaism only inasmuch as it supported these ideas. However, he did not renounce his Jewish faith and wrote repeatedly on Jews and Jewish themes- such as in his story&amp;amp;#160;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;a href=&amp;quot;http://en.wikipedia.org/wiki/Buchmendel&amp;quot; title=&amp;quot;Buchmendel&amp;quot;&amp;gt;&amp;lt;i&amp;gt;&amp;lt;span style=&amp;quot; color: windowtext; text-decoration: none;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;Buchmendel&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;-and his Jewish identity clearly played a significant role in his life: &amp;#8220;I have been vitally interested in Jewish problems all my life,&amp;#8221; he wrote, &amp;#8220;vitally aware of the Jewish blood that is in me ever since I have been conscious of it.&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; style=&amp;quot; text-align: left; direction: ltr; unicode-bidi: embed;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; line-height: 115%;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;Although born to Jewish parents, religion did not play a central role in Zweig&amp;apos;s education.&amp;amp;#160; When asked about this in an interview, Zweig said: &amp;quot;My mother and father were Jewish only through accident of birth&amp;quot;. Zweig believed in universalism and Europeanism and adopted Judaism only inasmuch as it supported these ideas. However, he did not renounce his Jewish faith and wrote repeatedly on Jews and Jewish themes - such as in his story &amp;lt;i&amp;gt;Buchmendel&amp;lt;/i&amp;gt; - and his Jewish identity clearly played a significant role in his life: &amp;#8220;I have been vitally interested in Jewish problems all my life,&amp;#8221; he wrote, &amp;#8220;vitally aware of the Jewish blood that is in me ever since I have been conscious of it.&amp;quot;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 </body>
             <format>HTML</format>
             <creationDateTime>2014-01-07 12:09:32.126 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-16 15:52:05.873 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-12 16:26:26.891 @+0200</modificationDateTime>
         </Entry>
         <Entry>
             <guid>83567A2D-B82E-438D-6533-963E1838DFAB</guid>
@@ -14259,13 +14168,13 @@ margin-top: 0pt;  margin-bottom: 0pt;
 &amp;lt;/style&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; style=&amp;quot; margin-left: -7.1pt;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; color: black; background: white;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;In 2010, a unique manuscript containing a rare collection of Kabbalah lectures-. some of which were unknown until now- was discovered in an attic in Bnei-Brak, Israel. The manuscript, central to our understanding of Lurianic Kabbalah, was written by Rabbi Menahem de Lonzano in 1610, exactly 400 years before it was discovered in the attic. De Lonzano, an important scholar and a colourful figure, recorded the lectures of two famous students of R. Isaac Luria (1534-1572), the most significant figure in the Kabbalah movement in Safed (in the Land of Israel), only a few decades after they were given.&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot; style=&amp;quot; margin-left: -7.1pt;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; color: black; background: white;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;In 2010, a unique manuscript containing a rare collection of Kabbalah lectures - some of which were unknown until now - was discovered in an attic in Bnei-Brak, Israel. The manuscript, central to our understanding of Lurianic Kabbalah, was written by Rabbi Menahem de Lonzano in 1610, exactly 400 years before it was discovered in the attic. De Lonzano, an important scholar and a colourful figure, recorded the lectures of two famous students of R. Isaac Luria (1534-1572), the most significant figure in the Kabbalah movement in Safed (in the Land of Israel), only a few decades after they were given.&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 </body>
             <format>HTML</format>
             <creationDateTime>2014-01-07 12:23:13.000 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-15 15:30:40.454 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-13 11:16:27.900 @+0200</modificationDateTime>
         </Entry>
         <Entry>
             <guid>B97A119C-050E-370C-84E2-A49B19A596CA</guid>
@@ -15083,13 +14992,13 @@ margin-top: 0pt;  margin-bottom: 0pt;
                 <attachmentEntryID>CC46C825-0790-6F75-44B4-36946DDE57FB</attachmentEntryID>
             </AttachmentEntries>
             <objectID>CB984E7E-BE68-951B-69B3-EA7F108D345E</objectID>
-            <name>The Shirazi Qur&amp;apos;an,  the gold covered prayer.jpg</name>
+            <name>The Shirazi Qur&amp;apos;an, the concluding prayer with Ali&amp;apos;s name, covered in gold.jpg</name>
             <attachmentType>1</attachmentType>
-            <location>CB984E7E-BE68-951B-69B3-EA7F108D345E\The Shirazi Qur&amp;apos;an,  the gold covered prayer.jpg</location>
+            <location>CB984E7E-BE68-951B-69B3-EA7F108D345E\The Shirazi Qur&amp;apos;an, the concluding prayer with Ali&amp;apos;s name, covered in gold.jpg</location>
             <dataLength>204482</dataLength>
             <format>.jpg</format>
             <creationDateTime>2014-01-28 17:03:33.034 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-28 17:03:33.034 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-16 11:12:50.997 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>64CCF417-A03E-E59D-69D8-207449BCCE9F</guid>
@@ -15946,6 +15855,34 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <modificationDateTime>2014-01-28 15:31:29.874 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
+            <guid>3F6B049E-D3ED-FE88-C9B2-7C699AEB6957</guid>
+            <AttachmentEntries>
+                <attachmentEntryID>0D710919-655D-11C5-CF7A-15CB3AF20522</attachmentEntryID>
+            </AttachmentEntries>
+            <objectID>84103AC8-681F-ABA9-B055-0147AE6759FA</objectID>
+            <name>Athanasius Kircher&amp;apos;s 1652 &amp;apos;Tree of Life&amp;apos;, arranged according to the Kabbalistic Sephirot.jpg</name>
+            <attachmentType>1</attachmentType>
+            <location>84103AC8-681F-ABA9-B055-0147AE6759FA\Athanasius Kircher&amp;apos;s 1652 &amp;apos;Tree of Life&amp;apos;, arranged according to the Kabbalistic Sephirot.jpg</location>
+            <dataLength>84974</dataLength>
+            <format>.jpg</format>
+            <creationDateTime>2014-02-13 11:18:27.868 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-13 11:18:27.868 @+0200</modificationDateTime>
+        </Attachment>
+        <Attachment>
+            <guid>44443DF0-F710-0C34-EBE7-CF0C31F5FC62</guid>
+            <AttachmentEntries>
+                <attachmentEntryID>0D710919-655D-11C5-CF7A-15CB3AF20522</attachmentEntryID>
+            </AttachmentEntries>
+            <objectID>84103AC8-681F-ABA9-B055-0147AE6759FA</objectID>
+            <name>Madonna promoting Kabbalah.jpg</name>
+            <attachmentType>1</attachmentType>
+            <location>84103AC8-681F-ABA9-B055-0147AE6759FA\Madonna promoting Kabbalah.jpg</location>
+            <dataLength>14508</dataLength>
+            <format>.jpg</format>
+            <creationDateTime>2014-02-13 11:18:27.937 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-13 11:18:27.937 @+0200</modificationDateTime>
+        </Attachment>
+        <Attachment>
             <guid>58F51631-7A69-018F-BAF7-8E37016247EA</guid>
             <AttachmentEntries>
                 <attachmentEntryID>F7BB19D1-688F-F950-BA22-8AA1FCD065F3</attachmentEntryID>
@@ -16702,20 +16639,6 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <modificationDateTime>2014-01-28 13:27:46.514 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
-            <guid>475C1BD4-237B-92D5-0F2B-028EB614343C</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>3E5CC5A8-2D60-132F-3342-D236B99FC611</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>66ACABEC-39A0-5CE7-4B93-07D4D1822C41</objectID>
-            <name>The book Kerekh Qatan (small volume) by Haim Vital, a  1714 copy, NLI.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>66ACABEC-39A0-5CE7-4B93-07D4D1822C41\The book Kerekh Qatan (small volume) by Haim Vital, a  1714 copy, NLI.jpg</location>
-            <dataLength>109810</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-01-07 12:23:14.000 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-28 13:27:46.546 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
             <guid>9C6F5285-86EE-7998-A874-BC3449496792</guid>
             <AttachmentEntries>
                 <attachmentEntryID>3E5CC5A8-2D60-132F-3342-D236B99FC611</attachmentEntryID>
@@ -17050,6 +16973,34 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <format>.jpg</format>
             <creationDateTime>2014-02-10 14:21:00.377 @+0200</creationDateTime>
             <modificationDateTime>2014-02-10 14:21:00.377 @+0200</modificationDateTime>
+        </Attachment>
+        <Attachment>
+            <guid>6027856A-088E-7DD9-2544-E5B0D6396099</guid>
+            <AttachmentEntries>
+                <attachmentEntryID>C46B09B5-D325-96A2-2EE8-52F309B4C6B9</attachmentEntryID>
+            </AttachmentEntries>
+            <objectID>799883B0-2813-0A7F-BC85-3903FC322453</objectID>
+            <name>Zweig to Kayser, page 1, NLI.jpg</name>
+            <attachmentType>1</attachmentType>
+            <location>799883B0-2813-0A7F-BC85-3903FC322453\Zweig to Kayser, page 1, NLI.jpg</location>
+            <dataLength>451131</dataLength>
+            <format>.jpg</format>
+            <creationDateTime>2014-02-13 09:27:24.952 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-13 09:27:24.952 @+0200</modificationDateTime>
+        </Attachment>
+        <Attachment>
+            <guid>0826D68A-73FD-B28E-E602-0AEE1590D6DB</guid>
+            <AttachmentEntries>
+                <attachmentEntryID>C46B09B5-D325-96A2-2EE8-52F309B4C6B9</attachmentEntryID>
+            </AttachmentEntries>
+            <objectID>799883B0-2813-0A7F-BC85-3903FC322453</objectID>
+            <name>Zweig to Kayser, page 2, NLI.jpg</name>
+            <attachmentType>1</attachmentType>
+            <location>799883B0-2813-0A7F-BC85-3903FC322453\Zweig to Kayser, page 2, NLI.jpg</location>
+            <dataLength>438653</dataLength>
+            <format>.jpg</format>
+            <creationDateTime>2014-02-13 09:27:37.458 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-13 09:27:37.458 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>49463B52-C78D-1695-0A84-A7B5303E5362</guid>
@@ -17458,20 +17409,6 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <modificationDateTime>2014-02-09 14:04:52.273 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
-            <guid>B56C121A-71D4-2F7A-0A74-DA6254BC2B78</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>110926C0-ADA1-124C-7E70-88E2A858C6CE</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>DCC59C4C-8581-A2D2-7E52-A08855BCDEAC</objectID>
-            <name>Jami, Gift to the Noble, Persian garden scene, NLI.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>DCC59C4C-8581-A2D2-7E52-A08855BCDEAC\Jami, Gift to the Noble, Persian garden scene, NLI.jpg</location>
-            <dataLength>256144</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-02-09 13:57:26.679 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 13:57:26.679 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
             <guid>2EBB0183-1EAD-674A-6200-EBFC7FDA219B</guid>
             <AttachmentEntries>
                 <attachmentEntryID>110926C0-ADA1-124C-7E70-88E2A858C6CE</attachmentEntryID>
@@ -17484,34 +17421,6 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <format></format>
             <modificationDateTime>2014-02-09 13:57:26.884 @+0200</modificationDateTime>
             <deletedDateTime>2014-02-09 13:57:26.884 @+0200</deletedDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>A665D976-5E44-8A08-8CF2-4E0EC29FB270</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>110926C0-ADA1-124C-7E70-88E2A858C6CE</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>DCC59C4C-8581-A2D2-7E52-A08855BCDEAC</objectID>
-            <name>Shukri Bey Biltisi, Selim Nameh (The Book of Selim), manuscript-1524, NLI.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>DCC59C4C-8581-A2D2-7E52-A08855BCDEAC\Shukri Bey Biltisi, Selim Nameh (The Book of Selim), manuscript-1524, NLI.jpg</location>
-            <dataLength>179982</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-02-09 13:58:38.869 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 13:58:38.869 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>F05BB157-22BB-8D4A-3106-7BCEE1B8F8C4</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>110926C0-ADA1-124C-7E70-88E2A858C6CE</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>DCC59C4C-8581-A2D2-7E52-A08855BCDEAC</objectID>
-            <name>An Andalusian Qur&amp;apos;an, 12th century, NLI.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>DCC59C4C-8581-A2D2-7E52-A08855BCDEAC\An Andalusian Qur&amp;apos;an, 12th century, NLI.jpg</location>
-            <dataLength>133625</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-02-09 13:59:03.907 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 13:59:03.907 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>358509FE-902C-DCFF-93B1-9F191C51F38E</guid>
@@ -17528,32 +17437,32 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <modificationDateTime>2014-02-09 14:00:00.070 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
-            <guid>AFFC9FFC-FDF1-79EC-2D82-6701B689AE94</guid>
+            <guid>75347D35-450E-7DBD-53FD-BA309F0338E3</guid>
             <AttachmentEntries>
-                <attachmentEntryID>8D73DE8E-A4C0-CDA9-D54D-ACA6916537C2</attachmentEntryID>
+                <attachmentEntryID>110926C0-ADA1-124C-7E70-88E2A858C6CE</attachmentEntryID>
             </AttachmentEntries>
-            <objectID>F371557E-6759-37C4-D798-E6BDDA6B2AF5</objectID>
-            <name>Schottlaender, &amp;apos;Panorama des heiligen Landes&amp;apos;, Breslau, circa 1900,  NLI.jpg</name>
+            <objectID>DCC59C4C-8581-A2D2-7E52-A08855BCDEAC</objectID>
+            <name>Manasik al-Khajj, rituals of the Khajj (18th century), NLI.jpg</name>
             <attachmentType>1</attachmentType>
-            <location>F371557E-6759-37C4-D798-E6BDDA6B2AF5\Schottlaender, &amp;apos;Panorama des heiligen Landes&amp;apos;, Breslau, circa 1900,  NLI.jpg</location>
-            <dataLength>256200</dataLength>
+            <location>DCC59C4C-8581-A2D2-7E52-A08855BCDEAC\Manasik al-Khajj, rituals of the Khajj (18th century), NLI.jpg</location>
+            <dataLength>116237</dataLength>
             <format>.jpg</format>
-            <creationDateTime>2014-02-09 13:47:32.399 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 13:47:32.399 @+0200</modificationDateTime>
+            <creationDateTime>2014-02-16 15:17:36.595 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-16 15:17:36.595 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
-            <guid>AE3E09EF-D8EE-2EEF-EC12-0B58289BEAC0</guid>
+            <guid>FC99F6EA-C9DE-07F7-FDD1-4B05431239A3</guid>
             <AttachmentEntries>
-                <attachmentEntryID>8D73DE8E-A4C0-CDA9-D54D-ACA6916537C2</attachmentEntryID>
+                <attachmentEntryID>110926C0-ADA1-124C-7E70-88E2A858C6CE</attachmentEntryID>
             </AttachmentEntries>
-            <objectID>F371557E-6759-37C4-D798-E6BDDA6B2AF5</objectID>
-            <name>Adrichom, map of Jerusalem, Cologne, 1584,  NLI.jpg</name>
+            <objectID>DCC59C4C-8581-A2D2-7E52-A08855BCDEAC</objectID>
+            <name>Dala&amp;apos;il al-Khayrat, an illuminated Islamic prayer book, Yahuda collection (18th century), NLI.jpg</name>
             <attachmentType>1</attachmentType>
-            <location>F371557E-6759-37C4-D798-E6BDDA6B2AF5\Adrichom, map of Jerusalem, Cologne, 1584,  NLI.jpg</location>
-            <dataLength>303458</dataLength>
+            <location>DCC59C4C-8581-A2D2-7E52-A08855BCDEAC\Dala&amp;apos;il al-Khayrat, an illuminated Islamic prayer book, Yahuda collection (18th century), NLI.jpg</location>
+            <dataLength>185881</dataLength>
             <format>.jpg</format>
-            <creationDateTime>2014-02-09 13:48:30.154 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 13:48:30.154 @+0200</modificationDateTime>
+            <creationDateTime>2014-02-16 15:18:08.152 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-16 15:18:08.152 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>988D5D45-5373-191C-56D8-5B62C9512322</guid>
@@ -17584,18 +17493,32 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <modificationDateTime>2014-02-09 13:56:17.274 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
-            <guid>581C99FA-A176-9DDA-744C-62406A5851C6</guid>
+            <guid>CCFEE49A-027E-DBE0-7D3D-003FBF7CC895</guid>
             <AttachmentEntries>
-                <attachmentEntryID>BFAD6536-15CD-F9D0-6858-44C17C7C657B</attachmentEntryID>
+                <attachmentEntryID>8D73DE8E-A4C0-CDA9-D54D-ACA6916537C2</attachmentEntryID>
             </AttachmentEntries>
-            <objectID>99BCF440-FBE1-A1E7-1B2F-1E73F169FE87</objectID>
-            <name>Autograph of Maimonides, Seder Mo&amp;apos;ed,  Page 72, details, NLI.jpg</name>
+            <objectID>F371557E-6759-37C4-D798-E6BDDA6B2AF5</objectID>
+            <name>Poster announcing the third Maccabiah sporting event in 1950, NLI.jpeg</name>
             <attachmentType>1</attachmentType>
-            <location>99BCF440-FBE1-A1E7-1B2F-1E73F169FE87\Autograph of Maimonides, Seder Mo&amp;apos;ed,  Page 72, details, NLI.jpg</location>
-            <dataLength>165770</dataLength>
+            <location>F371557E-6759-37C4-D798-E6BDDA6B2AF5\Poster announcing the third Maccabiah sporting event in 1950, NLI.jpeg</location>
+            <dataLength>429858</dataLength>
+            <format>.jpeg</format>
+            <creationDateTime>2014-02-16 15:20:13.183 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-16 15:20:13.183 @+0200</modificationDateTime>
+        </Attachment>
+        <Attachment>
+            <guid>3B54AF4C-94F2-687A-9833-0DE17D3FD3D2</guid>
+            <AttachmentEntries>
+                <attachmentEntryID>8D73DE8E-A4C0-CDA9-D54D-ACA6916537C2</attachmentEntryID>
+            </AttachmentEntries>
+            <objectID>F371557E-6759-37C4-D798-E6BDDA6B2AF5</objectID>
+            <name>Poster issued by the Jewish National Fund encouraging agricultural education, NLI.jpg</name>
+            <attachmentType>1</attachmentType>
+            <location>F371557E-6759-37C4-D798-E6BDDA6B2AF5\Poster issued by the Jewish National Fund encouraging agricultural education, NLI.jpg</location>
+            <dataLength>227491</dataLength>
             <format>.jpg</format>
-            <creationDateTime>2014-02-09 13:35:54.238 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 13:35:54.238 @+0200</modificationDateTime>
+            <creationDateTime>2014-02-16 15:20:24.397 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-16 15:20:39.339 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>B5FBF6F4-152F-239C-3369-71C5096FB0FE</guid>
@@ -17612,46 +17535,18 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <modificationDateTime>2014-02-09 13:36:44.255 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
-            <guid>1BFD34D2-F782-0E5D-C545-8F1B12141496</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>BFAD6536-15CD-F9D0-6858-44C17C7C657B</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>99BCF440-FBE1-A1E7-1B2F-1E73F169FE87</objectID>
-            <name>Stefan Zweig&amp;apos;s Letter to Martin Buber, 24.1.1917, p.1.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>99BCF440-FBE1-A1E7-1B2F-1E73F169FE87\Stefan Zweig&amp;apos;s Letter to Martin Buber, 24.1.1917, p.1.jpg</location>
-            <dataLength>74857</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-02-09 13:38:11.239 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 13:38:21.502 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>F3297A90-5C20-2AAA-1552-93ADAF48B334</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>BFAD6536-15CD-F9D0-6858-44C17C7C657B</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>99BCF440-FBE1-A1E7-1B2F-1E73F169FE87</objectID>
-            <name>Kafka&amp;apos;s Hebrew Booklet, circa 1917, NLI.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>99BCF440-FBE1-A1E7-1B2F-1E73F169FE87\Kafka&amp;apos;s Hebrew Booklet, circa 1917, NLI.jpg</location>
-            <dataLength>51333</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-02-09 13:39:30.895 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 13:39:30.895 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
             <guid>674D8478-E431-AF02-8C02-356EC5225411</guid>
             <AttachmentEntries>
                 <attachmentEntryID>BFAD6536-15CD-F9D0-6858-44C17C7C657B</attachmentEntryID>
             </AttachmentEntries>
             <objectID>99BCF440-FBE1-A1E7-1B2F-1E73F169FE87</objectID>
-            <name>Prayer for Rain, &amp;apos;Tikun Ha-Geshem&amp;apos;, Italy, NLI by shayesh on SoundCloud</name>
+            <name>Prayer for Rain, &amp;apos;Tikun Ha-Geshem&amp;apos;, Italy, NLI</name>
             <attachmentType>3</attachmentType>
             <location>https://soundcloud.com/shayesh/prayer-for-rain-tikun-ha</location>
             <dataLength>0</dataLength>
             <format></format>
             <creationDateTime>2014-02-09 13:44:46.904 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 13:44:48.010 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-13 13:48:29.052 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>FA0B88C3-7377-12F2-B291-23E28C720BCF</guid>
@@ -17666,6 +17561,48 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <format>.aspx</format>
             <creationDateTime>2014-02-09 13:45:48.715 @+0200</creationDateTime>
             <modificationDateTime>2014-02-09 13:45:49.072 @+0200</modificationDateTime>
+        </Attachment>
+        <Attachment>
+            <guid>F209AA64-1EB2-9EA3-AE7B-810EAE524241</guid>
+            <AttachmentEntries>
+                <attachmentEntryID>BFAD6536-15CD-F9D0-6858-44C17C7C657B</attachmentEntryID>
+            </AttachmentEntries>
+            <objectID>99BCF440-FBE1-A1E7-1B2F-1E73F169FE87</objectID>
+            <name>A Jewish marriage contract (Kettubah) from Trieste, Italy (1699 CE), NLI.jpg</name>
+            <attachmentType>1</attachmentType>
+            <location>99BCF440-FBE1-A1E7-1B2F-1E73F169FE87\A Jewish marriage contract (Kettubah) from Trieste, Italy (1699 CE), NLI.jpg</location>
+            <dataLength>214077</dataLength>
+            <format>.jpg</format>
+            <creationDateTime>2014-02-16 15:14:49.861 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-16 15:14:49.861 @+0200</modificationDateTime>
+        </Attachment>
+        <Attachment>
+            <guid>57DF4066-DCF7-D9C9-D0F0-4C6F250F3A75</guid>
+            <AttachmentEntries>
+                <attachmentEntryID>BFAD6536-15CD-F9D0-6858-44C17C7C657B</attachmentEntryID>
+            </AttachmentEntries>
+            <objectID>99BCF440-FBE1-A1E7-1B2F-1E73F169FE87</objectID>
+            <name>Festival prayer book of the Worms community in Germany (13th century) was in use until 1938, NLI.jpg</name>
+            <attachmentType>1</attachmentType>
+            <location>99BCF440-FBE1-A1E7-1B2F-1E73F169FE87\Festival prayer book of the Worms community in Germany (13th century) was in use until 1938, NLI.jpg</location>
+            <dataLength>155614</dataLength>
+            <format>.jpg</format>
+            <creationDateTime>2014-02-16 15:15:40.075 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-16 15:15:40.075 @+0200</modificationDateTime>
+        </Attachment>
+        <Attachment>
+            <guid>3E447A0E-018F-CA4E-2E7F-90FA16AA46EF</guid>
+            <AttachmentEntries>
+                <attachmentEntryID>BFAD6536-15CD-F9D0-6858-44C17C7C657B</attachmentEntryID>
+            </AttachmentEntries>
+            <objectID>99BCF440-FBE1-A1E7-1B2F-1E73F169FE87</objectID>
+            <name>A Jewish marriage contract (Kettubah) from Segura, near Zaragoza (1480 CE), NLI.jpg</name>
+            <attachmentType>1</attachmentType>
+            <location>99BCF440-FBE1-A1E7-1B2F-1E73F169FE87\A Jewish marriage contract (Kettubah) from Segura, near Zaragoza (1480 CE), NLI.jpg</location>
+            <dataLength>128176</dataLength>
+            <format>.jpg</format>
+            <creationDateTime>2014-02-16 15:16:14.801 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-16 15:16:14.801 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>FED3DB48-6754-A374-A920-D5825FAE374C</guid>
@@ -17850,34 +17787,6 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <modificationDateTime>2014-02-11 13:04:25.382 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
-            <guid>1AA8E3EF-0316-24B9-04F5-F88670D484B6</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>3A1BC4E4-8966-BDF7-09E0-BCF4A899E9FE</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>85C297E9-3FF1-3C07-AF48-19648503D399</objectID>
-            <name>Maimonides, Mishne Torah, 1300-1350, &amp;apos;Mada&amp;apos; (Science), NLI.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>85C297E9-3FF1-3C07-AF48-19648503D399\Maimonides, Mishne Torah, 1300-1350, &amp;apos;Mada&amp;apos; (Science), NLI.jpg</location>
-            <dataLength>400794</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-02-10 14:12:28.823 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-10 14:12:28.823 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>716B5F31-5A8E-E74E-4564-78E651C546CF</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>3A1BC4E4-8966-BDF7-09E0-BCF4A899E9FE</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>85C297E9-3FF1-3C07-AF48-19648503D399</objectID>
-            <name>Maimonides, Mishne Torah, 1300-1350, NLI.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>85C297E9-3FF1-3C07-AF48-19648503D399\Maimonides, Mishne Torah, 1300-1350, NLI.jpg</location>
-            <dataLength>105213</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-02-10 14:12:28.843 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-10 14:12:28.843 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
             <guid>ED8ECBD9-85DC-4E78-79B6-13A91F813DF5</guid>
             <AttachmentEntries>
                 <attachmentEntryID>11FF8AE4-DC46-E113-C789-40D75BEC5C2B</attachmentEntryID>
@@ -17928,10 +17837,10 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <name>Ortelius Abraham leaving Haran.jpg</name>
             <attachmentType>1</attachmentType>
             <location>AE425D1A-E082-CD9A-27EE-740250DFB6A6\Ortelius Abraham leaving Haran.jpg</location>
-            <dataLength>69677</dataLength>
+            <dataLength>54134</dataLength>
             <format>.jpg</format>
             <creationDateTime>2014-01-09 12:14:46.000 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-09 12:14:46.000 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-16 16:40:12.601 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>F8EDA736-7979-C50C-4581-68609119A580</guid>
@@ -18200,104 +18109,6 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <modificationDateTime>2014-01-28 16:45:57.446 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
-            <guid>1A9B11C2-388E-979F-BE94-2898E64B0DAE</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>D3FCC79B-1B87-D352-97FA-92DE48E569CE</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>79B40A33-627E-2A53-5707-5A3C129A9EE6</objectID>
-            <name>Maimonides, Mishne Torah, 1300-1350, NLI.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>79B40A33-627E-2A53-5707-5A3C129A9EE6\Maimonides, Mishne Torah, 1300-1350, NLI.jpg</location>
-            <dataLength>93660</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-01-21 15:15:41.891 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-28 16:40:06.835 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>02B70899-D8AD-3711-2041-B9507892B6B7</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>D3FCC79B-1B87-D352-97FA-92DE48E569CE</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>79B40A33-627E-2A53-5707-5A3C129A9EE6</objectID>
-            <name>Maimonides, Mishne Torah, 1300-1350, &amp;apos;Mada&amp;apos; (Science), NLI.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>79B40A33-627E-2A53-5707-5A3C129A9EE6\Maimonides, Mishne Torah, 1300-1350, &amp;apos;Mada&amp;apos; (Science), NLI.jpg</location>
-            <dataLength>259437</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-01-21 15:15:41.913 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-28 16:40:06.819 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>4BFCE732-8FDC-4F7F-AAE3-AD71ED75667B</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>D3FCC79B-1B87-D352-97FA-92DE48E569CE</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>79B40A33-627E-2A53-5707-5A3C129A9EE6</objectID>
-            <name>Qur&amp;apos;an, 9th. century, Qayrawan.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>79B40A33-627E-2A53-5707-5A3C129A9EE6\Qur&amp;apos;an, 9th. century, Qayrawan.jpg</location>
-            <dataLength>82432</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-01-21 15:15:41.933 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-28 16:40:06.913 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>F507CFC1-516C-3EFA-8BED-5463A8CB2440</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>D3FCC79B-1B87-D352-97FA-92DE48E569CE</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>79B40A33-627E-2A53-5707-5A3C129A9EE6</objectID>
-            <name>Book of Hours, 15th century, Bruges, NLI .jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>79B40A33-627E-2A53-5707-5A3C129A9EE6\Book of Hours, 15th century, Bruges, NLI .jpg</location>
-            <dataLength>262694</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-01-21 15:15:41.952 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-28 16:40:06.741 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>A8FA35AF-6C51-C4E3-564B-C773775F7016</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>D3FCC79B-1B87-D352-97FA-92DE48E569CE</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>79B40A33-627E-2A53-5707-5A3C129A9EE6</objectID>
-            <name>Muhammad al-Busiri, Al-Burdah (poem of the Mantle), mid 14th century, NLI.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>79B40A33-627E-2A53-5707-5A3C129A9EE6\Muhammad al-Busiri, Al-Burdah (poem of the Mantle), mid 14th century, NLI.jpg</location>
-            <dataLength>170656</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-01-21 15:15:41.972 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-28 16:40:06.851 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>B4118A6B-A132-19AD-E2FD-2341C22F6423</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>D3FCC79B-1B87-D352-97FA-92DE48E569CE</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>79B40A33-627E-2A53-5707-5A3C129A9EE6</objectID>
-            <name>Napoleon&amp;apos;s letter to  general Destaing during the campaign in Egypt, 9.7.1799 .jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>79B40A33-627E-2A53-5707-5A3C129A9EE6\Napoleon&amp;apos;s letter to  general Destaing during the campaign in Egypt, 9.7.1799 .jpg</location>
-            <dataLength>137508</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-01-21 15:15:41.993 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-28 16:40:06.882 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>ECC118A7-2A12-928E-CB37-8BC0E28B9ADF</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>D3FCC79B-1B87-D352-97FA-92DE48E569CE</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>79B40A33-627E-2A53-5707-5A3C129A9EE6</objectID>
-            <name>Privilege granted to the Jews by King Alfonso V of Aragon, Zaragossa 1429, NLI.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>79B40A33-627E-2A53-5707-5A3C129A9EE6\Privilege granted to the Jews by King Alfonso V of Aragon, Zaragossa 1429, NLI.jpg</location>
-            <dataLength>203947</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-01-21 15:15:42.012 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-28 16:40:06.897 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
             <guid>8160B64A-C20E-AE2D-4A44-C16BB9F5C195</guid>
             <AttachmentEntries>
                 <attachmentEntryID>5706EAC6-F366-034A-5DB3-3A469504B254</attachmentEntryID>
@@ -18424,20 +18235,6 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <modificationDateTime>2014-01-28 16:37:40.052 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
-            <guid>5E968CCB-EAD4-87D6-E098-905D3EB52FA5</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>5870C902-F152-634E-5ED4-99E82367D6BD</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>DC714013-3F75-D6D6-147E-175C6A4DE4B7</objectID>
-            <name>Kahal Shalom Synagogue, list of the Nazi victims.JPG</name>
-            <attachmentType>1</attachmentType>
-            <location>DC714013-3F75-D6D6-147E-175C6A4DE4B7\Kahal Shalom Synagogue, list of the Nazi victims.jpg</location>
-            <dataLength>21110</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-01-07 11:43:01.000 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-23 15:18:57.896 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
             <guid>D3843E39-E367-4442-2B92-3F1D8C6E714A</guid>
             <AttachmentEntries>
                 <attachmentEntryID>5870C902-F152-634E-5ED4-99E82367D6BD</attachmentEntryID>
@@ -18464,6 +18261,20 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <format>.jpg</format>
             <creationDateTime>2014-01-07 11:43:01.172 @+0200</creationDateTime>
             <modificationDateTime>2014-01-23 15:18:57.936 @+0200</modificationDateTime>
+        </Attachment>
+        <Attachment>
+            <guid>3909F7EE-8E46-6E2B-BA22-564FDE91AD84</guid>
+            <AttachmentEntries>
+                <attachmentEntryID>5870C902-F152-634E-5ED4-99E82367D6BD</attachmentEntryID>
+            </AttachmentEntries>
+            <objectID>DC714013-3F75-D6D6-147E-175C6A4DE4B7</objectID>
+            <name>Kahal Shalom Synagogue, list of the Nazi victims.jpg</name>
+            <attachmentType>1</attachmentType>
+            <location>DC714013-3F75-D6D6-147E-175C6A4DE4B7\Kahal Shalom Synagogue, list of the Nazi victims.jpg</location>
+            <dataLength>21110</dataLength>
+            <format>.jpg</format>
+            <creationDateTime>2014-02-12 14:59:05.880 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-12 14:59:05.880 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>B66DAB3C-BECA-6890-9740-F9293F783B15</guid>
@@ -18534,34 +18345,6 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <format>.jpg</format>
             <creationDateTime>2014-01-23 15:18:25.297 @+0200</creationDateTime>
             <modificationDateTime>2014-01-23 15:18:25.297 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>6EA181B5-94E0-750D-2D51-1A9C1961D6DD</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>0468B19A-2E6C-900E-791D-1F8F706DA3EE</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>83ED5D28-8062-92A0-A3EB-4C70BAB53875</objectID>
-            <name>The Torah Scroll from Spain with coat, NLI.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>83ED5D28-8062-92A0-A3EB-4C70BAB53875\The Torah Scroll from Spain with coat, NLI.jpg</location>
-            <dataLength>93884</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-01-23 15:18:25.327 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-23 15:18:25.327 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>F4DD0506-1E38-933B-51DE-A59E16258D1C</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>0468B19A-2E6C-900E-791D-1F8F706DA3EE</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>83ED5D28-8062-92A0-A3EB-4C70BAB53875</objectID>
-            <name>The Torah Scroll from Spain, close view of roller, NLI.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>83ED5D28-8062-92A0-A3EB-4C70BAB53875\The Torah Scroll from Spain, close view of roller, NLI.jpg</location>
-            <dataLength>83463</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-01-23 15:18:25.357 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-23 15:18:25.357 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>0F8406A0-1B99-DB0D-3EB2-49AC2D12B4AA</guid>
@@ -18732,48 +18515,6 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <modificationDateTime>2014-02-02 15:52:20.033 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
-            <guid>AE53E0DD-7919-A281-916B-7494DF6B3749</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>0643A74A-C1B6-B1AD-619C-F8CC992B4AB9</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>A511D2A0-4CF8-6EAA-4E6E-FC7CD0EDBCE9</objectID>
-            <name>Hugo Bergmann to his wife Else, p.1, NLI.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>A511D2A0-4CF8-6EAA-4E6E-FC7CD0EDBCE9\Hugo Bergmann to his wife Else, p.1, NLI.jpg</location>
-            <dataLength>149811</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-01-07 12:09:32.843 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-28 17:09:41.468 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>7FD1316B-48A8-E653-7420-B8A9343D0A05</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>0643A74A-C1B6-B1AD-619C-F8CC992B4AB9</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>A511D2A0-4CF8-6EAA-4E6E-FC7CD0EDBCE9</objectID>
-            <name>Hugo Bergmann to his wife Else, p.2, NLI.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>A511D2A0-4CF8-6EAA-4E6E-FC7CD0EDBCE9\Hugo Bergmann to his wife Else, p.2, NLI.jpg</location>
-            <dataLength>146864</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-01-07 12:09:32.868 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-28 17:09:41.484 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>8A36EB35-F839-5249-E716-80B2B6CDE676</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>0643A74A-C1B6-B1AD-619C-F8CC992B4AB9</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>A511D2A0-4CF8-6EAA-4E6E-FC7CD0EDBCE9</objectID>
-            <name>Hugo Bergmann to his wife Else, p.3, NLI.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>A511D2A0-4CF8-6EAA-4E6E-FC7CD0EDBCE9\Hugo Bergmann to his wife Else, p.3, NLI.jpg</location>
-            <dataLength>165778</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-01-07 12:09:32.892 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-28 17:09:41.499 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
             <guid>C906C505-E9D9-421E-7FAD-D74AF19CE3BC</guid>
             <AttachmentEntries>
                 <attachmentEntryID>C5316111-71AE-6007-7342-E80509D12B07</attachmentEntryID>
@@ -18880,10 +18621,10 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <name>Martin Buber.jpg</name>
             <attachmentType>1</attachmentType>
             <location>F5CF3D21-6D29-2B7A-46BC-E1D5188ADE41\Martin Buber.jpg</location>
-            <dataLength>477909</dataLength>
+            <dataLength>130366</dataLength>
             <format>.jpg</format>
             <creationDateTime>2014-01-07 12:09:32.754 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-07 12:09:32.754 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-12 16:21:11.060 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>079DF50D-F90D-B246-7E7C-151A74C13F02</guid>
@@ -19031,13 +18772,13 @@ margin-top: 0pt;  margin-bottom: 0pt;
                 <attachmentEntryID>51C3824D-C517-D48B-C40B-AE68AD71C49D</attachmentEntryID>
             </AttachmentEntries>
             <objectID>951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10</objectID>
-            <name>The National Library of Israel, Jerusalem.jpg</name>
+            <name>The National Library of Israel, Jerusalem (photo, Asaf Pinchuk).jpg</name>
             <attachmentType>1</attachmentType>
-            <location>951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10\The National Library of Israel, Jerusalem.jpg</location>
+            <location>951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10\The National Library of Israel, Jerusalem (photo, Asaf Pinchuk).jpg</location>
             <dataLength>78151</dataLength>
             <format>.jpg</format>
             <creationDateTime>2014-02-09 11:24:35.759 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 11:24:35.759 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-13 13:41:28.579 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>F71AA043-BFF6-2419-4899-E0A2F4C81470</guid>
@@ -19115,13 +18856,13 @@ margin-top: 0pt;  margin-bottom: 0pt;
                 <attachmentEntryID>4A50F165-26D6-2D17-3601-76AACAF62D0F</attachmentEntryID>
             </AttachmentEntries>
             <objectID>A18ECFA2-54E6-B8AC-CADA-10F771C5453E</objectID>
-            <name>Reading room at Bet Neeman, the Midrash Abarbanel library, 1902 (photo Zasok Basan).jpg</name>
+            <name>Reading room at Bet Neeman, the Midrash Abarbanel library, 1902 (photo Zadok Basan).jpg</name>
             <attachmentType>1</attachmentType>
-            <location>A18ECFA2-54E6-B8AC-CADA-10F771C5453E\Reading room at Bet Neeman, the Midrash Abarbanel library, 1902 (photo Zasok Basan).jpg</location>
+            <location>A18ECFA2-54E6-B8AC-CADA-10F771C5453E\Reading room at Bet Neeman, the Midrash Abarbanel library, 1902 (photo Zadok Basan).jpg</location>
             <dataLength>605610</dataLength>
             <format>.jpg</format>
             <creationDateTime>2014-02-09 11:45:56.079 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 11:45:56.079 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-13 13:45:13.761 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>536DC623-0E41-1336-0D72-68E60A745A62</guid>
@@ -19194,32 +18935,18 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <modificationDateTime>2014-02-09 12:06:06.003 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
-            <guid>ED09300A-6950-8AC4-032B-967E9FA9B21C</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>8FC03C29-C352-4EA0-E519-D590C0EA6DA0</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>56BF9C7F-8E83-080D-9541-6DD1DE77EB36</objectID>
-            <name>Inauguration ceremony of the Hebrew university, mount Scopus, 1925.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>56BF9C7F-8E83-080D-9541-6DD1DE77EB36\Inauguration ceremony of the Hebrew university, mount Scopus, 1925.jpg</location>
-            <dataLength>77197</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-02-09 12:21:46.833 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 12:21:46.833 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
             <guid>B3D67CB4-465E-04EA-BA00-D21D9B2501D7</guid>
             <AttachmentEntries>
                 <attachmentEntryID>8FC03C29-C352-4EA0-E519-D590C0EA6DA0</attachmentEntryID>
             </AttachmentEntries>
             <objectID>56BF9C7F-8E83-080D-9541-6DD1DE77EB36</objectID>
-            <name>The Reading Room at Wolfson House, Mt. Scopus, 1930&amp;apos;s-40&amp;apos;s.jpg</name>
+            <name>The reading room at Wolfson House, Mount Scopus, 1930&amp;apos;s-40&amp;apos;s.jpg</name>
             <attachmentType>1</attachmentType>
-            <location>56BF9C7F-8E83-080D-9541-6DD1DE77EB36\The Reading Room at Wolfson House, Mt. Scopus, 1930&amp;apos;s-40&amp;apos;s.jpg</location>
+            <location>56BF9C7F-8E83-080D-9541-6DD1DE77EB36\The reading room at Wolfson House, Mount Scopus, 1930&amp;apos;s-40&amp;apos;s.jpg</location>
             <dataLength>65226</dataLength>
             <format>.jpg</format>
             <creationDateTime>2014-02-09 12:24:24.790 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 12:34:17.107 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-13 13:43:13.381 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>25B8A76E-CB06-76A5-C9F7-CAE344DE228C</guid>
@@ -19234,20 +18961,6 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <format></format>
             <creationDateTime>2014-02-09 12:25:20.804 @+0200</creationDateTime>
             <modificationDateTime>2014-02-09 12:26:08.631 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>802968FB-9285-E7FB-F4CF-CC684E40F88B</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>8FC03C29-C352-4EA0-E519-D590C0EA6DA0</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>56BF9C7F-8E83-080D-9541-6DD1DE77EB36</objectID>
-            <name>The Reading Room at Wolfson House, redeemed after 20 years of isolation, July, 1967.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>56BF9C7F-8E83-080D-9541-6DD1DE77EB36\The Reading Room at Wolfson House, redeemed after 20 years of isolation, July, 1967.jpg</location>
-            <dataLength>101989</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-02-09 12:32:08.850 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 12:33:38.849 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>094CA253-B9BF-5EDA-E7E3-2403AE9964E7</guid>
@@ -19283,13 +18996,41 @@ margin-top: 0pt;  margin-bottom: 0pt;
                 <attachmentEntryID>8FC03C29-C352-4EA0-E519-D590C0EA6DA0</attachmentEntryID>
             </AttachmentEntries>
             <objectID>56BF9C7F-8E83-080D-9541-6DD1DE77EB36</objectID>
-            <name>Transferring books inside the temporary reading rooms at Terra Santa building, 1960 (Photo, David Charis).jpg</name>
+            <name>The library at its temporary home at the Terra Sancta building, 1960 (Photo, David Charis).jpg</name>
             <attachmentType>1</attachmentType>
-            <location>56BF9C7F-8E83-080D-9541-6DD1DE77EB36\Transferring books inside the temporary reading rooms at Terra Santa building, 1960 (Photo, David Charis).jpg</location>
+            <location>56BF9C7F-8E83-080D-9541-6DD1DE77EB36\The library at its temporary home at the Terra Sancta building, 1960 (Photo, David Charis).jpg</location>
             <dataLength>113933</dataLength>
             <format>.jpg</format>
             <creationDateTime>2014-02-09 12:50:30.494 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 13:00:17.176 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-16 11:56:56.594 @+0200</modificationDateTime>
+        </Attachment>
+        <Attachment>
+            <guid>8FC33CDF-336E-4D9F-88B9-676293527559</guid>
+            <AttachmentEntries>
+                <attachmentEntryID>8FC03C29-C352-4EA0-E519-D590C0EA6DA0</attachmentEntryID>
+            </AttachmentEntries>
+            <objectID>56BF9C7F-8E83-080D-9541-6DD1DE77EB36</objectID>
+            <name>The return to the reading room of the library at Mount Scopus after twenty years of desolation.jpg</name>
+            <attachmentType>1</attachmentType>
+            <location>56BF9C7F-8E83-080D-9541-6DD1DE77EB36\The return to the reading room of the library at Mount Scopus after twenty years of desolation.jpg</location>
+            <dataLength>101989</dataLength>
+            <format>.jpg</format>
+            <creationDateTime>2014-02-13 13:42:48.796 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-16 11:57:51.542 @+0200</modificationDateTime>
+        </Attachment>
+        <Attachment>
+            <guid>617EBF4D-18A1-2455-B53E-C6BBA6D22F79</guid>
+            <AttachmentEntries>
+                <attachmentEntryID>8FC03C29-C352-4EA0-E519-D590C0EA6DA0</attachmentEntryID>
+            </AttachmentEntries>
+            <objectID>56BF9C7F-8E83-080D-9541-6DD1DE77EB36</objectID>
+            <name>Inauguration ceremony of the Hebrew University, Mount Scopus, 1925.jpg</name>
+            <attachmentType>1</attachmentType>
+            <location>56BF9C7F-8E83-080D-9541-6DD1DE77EB36\Inauguration ceremony of the Hebrew University, Mount Scopus, 1925.jpg</location>
+            <dataLength>77197</dataLength>
+            <format>.jpg</format>
+            <creationDateTime>2014-02-13 13:46:29.063 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-16 11:56:10.700 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>713B524A-B0B4-9C07-D25A-7794D16C8385</guid>
@@ -19348,18 +19089,18 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <modificationDateTime>2014-02-09 13:07:33.965 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
-            <guid>2B6386A3-60B2-A4BA-E7E3-D79AD3790A9B</guid>
+            <guid>526989F9-9258-1966-94E1-0AF90CE59C67</guid>
             <AttachmentEntries>
                 <attachmentEntryID>A4EA46BA-ED0A-CFB0-BADD-B179D49190D0</attachmentEntryID>
             </AttachmentEntries>
             <objectID>EEA30DA2-550F-32C2-9BF6-3779D43507FE</objectID>
-            <name>The General Reading Room, Givat Ram, 1960&amp;apos;s-70&amp;apos;s.jpg</name>
+            <name>The general reading room, Givat Ram, 1960&amp;apos;s-70&amp;apos;s.jpg</name>
             <attachmentType>1</attachmentType>
-            <location>EEA30DA2-550F-32C2-9BF6-3779D43507FE\The General Reading Room, Givat Ram, 1960&amp;apos;s-70&amp;apos;s.jpg</location>
+            <location>EEA30DA2-550F-32C2-9BF6-3779D43507FE\The general reading room, Givat Ram, 1960&amp;apos;s-70&amp;apos;s.jpg</location>
             <dataLength>79413</dataLength>
             <format>.jpg</format>
-            <creationDateTime>2014-02-09 13:11:52.624 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 13:12:09.387 @+0200</modificationDateTime>
+            <creationDateTime>2014-02-13 13:47:27.851 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-13 13:47:39.148 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>FFB55C2A-A4D1-65BF-0A49-07F26D9C2AC1</guid>
@@ -19395,13 +19136,13 @@ margin-top: 0pt;  margin-bottom: 0pt;
                 <attachmentEntryID>DC8ED9F7-55A0-C3D6-8CD4-AB959B3DCEA4</attachmentEntryID>
             </AttachmentEntries>
             <objectID>FFAE2D71-526E-95F7-91CF-0F9BE7892C77</objectID>
-            <name>Prime Minister Netanyahu and President Peres with the National Library&amp;apos;s Charter, 2007.jpg</name>
+            <name>Prime Minister Netanyahu and President Peres with the National Library&amp;apos;s Charter, 2011.jpg</name>
             <attachmentType>1</attachmentType>
-            <location>FFAE2D71-526E-95F7-91CF-0F9BE7892C77\Prime Minister Netanyahu and President Peres with the National Library&amp;apos;s Charter, 2007.jpg</location>
+            <location>FFAE2D71-526E-95F7-91CF-0F9BE7892C77\Prime Minister Netanyahu and President Peres with the National Library&amp;apos;s Charter, 2011.jpg</location>
             <dataLength>141925</dataLength>
             <format>.jpg</format>
             <creationDateTime>2014-02-09 13:31:08.044 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-09 13:31:08.044 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-16 11:54:06.836 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>CEAD3886-F388-969B-69B4-208DE1583F0F</guid>
@@ -19720,10 +19461,10 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <name>Zweig&amp;apos;s letter to Martin Buber,  24.1.1917, p.2, NLI.jpg</name>
             <attachmentType>1</attachmentType>
             <location>E6BEF91A-FBC5-E14F-9B65-4C7EA63AD875\Zweig&amp;apos;s letter to Martin Buber,  24.1.1917, p.2, NLI.jpg</location>
-            <dataLength>116504</dataLength>
+            <dataLength>75746</dataLength>
             <format>.jpg</format>
             <creationDateTime>2014-01-08 14:03:06.470 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-08 14:03:06.470 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-12 16:21:12.026 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>9DEA3823-5098-AB60-773E-7B21F8C6A56D</guid>
@@ -20314,32 +20055,18 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <modificationDateTime>2014-01-28 17:09:57.094 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
-            <guid>408F08C8-AC90-3187-DE17-879CDB4BB7F5</guid>
+            <guid>E7F444FF-4C20-E2DD-096E-3EFBBE0238E1</guid>
             <AttachmentEntries>
                 <attachmentEntryID>E24826C7-DCD1-5EFA-C633-ECD316DF8709</attachmentEntryID>
             </AttachmentEntries>
             <objectID>07D1614D-6B22-3067-3DD4-4225322EB5C4</objectID>
-            <name>Copy of letter of the Spanish authorities to Horkheimer made by Scholem, part 2, NLI.png</name>
+            <name>Copy of letter of the Spanish authorities to Horkheimer made by Scholem,  NLI.jpg</name>
             <attachmentType>1</attachmentType>
-            <location>07D1614D-6B22-3067-3DD4-4225322EB5C4\Copy of letter of the Spanish authorities to Horkheimer made by Scholem, part 2, NLI.png</location>
-            <dataLength>545972</dataLength>
-            <format>.png</format>
-            <creationDateTime>2014-01-21 13:59:41.000 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-21 14:10:18.000 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>2BB753FD-8301-4F43-E8BA-12ACD2B37A26</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>E24826C7-DCD1-5EFA-C633-ECD316DF8709</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>07D1614D-6B22-3067-3DD4-4225322EB5C4</objectID>
-            <name>Copy of letter of the Spanish authorities to Horkheimer made by Scholem, part 1, NLI.png</name>
-            <attachmentType>1</attachmentType>
-            <location>07D1614D-6B22-3067-3DD4-4225322EB5C4\Copy of letter of the Spanish authorities to Horkheimer made by Scholem, part 1, NLI.png</location>
-            <dataLength>493769</dataLength>
-            <format>.png</format>
-            <creationDateTime>2014-01-21 13:59:41.000 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-21 14:09:56.000 @+0200</modificationDateTime>
+            <location>07D1614D-6B22-3067-3DD4-4225322EB5C4\Copy of letter of the Spanish authorities to Horkheimer made by Scholem,  NLI.jpg</location>
+            <dataLength>273968</dataLength>
+            <format>.jpg</format>
+            <creationDateTime>2014-02-13 09:14:16.018 @+0200</creationDateTime>
+            <modificationDateTime>2014-02-13 09:14:16.018 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>332BBE20-16C2-779B-624A-E72FEA4649EF</guid>
@@ -20410,20 +20137,6 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <format>.jpg</format>
             <creationDateTime>2014-02-04 16:21:49.076 @+0200</creationDateTime>
             <modificationDateTime>2014-02-04 16:22:11.966 @+0200</modificationDateTime>
-        </Attachment>
-        <Attachment>
-            <guid>4437CF28-91AF-D82D-6E30-E0AAC3C1B0B4</guid>
-            <AttachmentEntries>
-                <attachmentEntryID>A9F1B193-B16D-8847-8993-A7FF0EFDB66B</attachmentEntryID>
-            </AttachmentEntries>
-            <objectID>A4FB7080-C969-0ECA-6223-F8DFD4ACB047</objectID>
-            <name>The Kahal Shalom synagogue.jpg</name>
-            <attachmentType>1</attachmentType>
-            <location>A4FB7080-C969-0ECA-6223-F8DFD4ACB047\The Kahal Shalom synagogue.jpg</location>
-            <dataLength>10172</dataLength>
-            <format>.jpg</format>
-            <creationDateTime>2014-02-04 16:22:01.993 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-04 16:23:14.553 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>66A7F59C-D007-0A78-728D-7264D4332F91</guid>
@@ -20753,13 +20466,13 @@ margin-top: 0pt;  margin-bottom: 0pt;
                 <attachmentEntryID>A9993AF3-7C1B-9B46-3393-FAE8F37952F3</attachmentEntryID>
             </AttachmentEntries>
             <objectID>BEEF4DB1-AC8B-667A-BAE5-E0FAF2C9F03C</objectID>
-            <name>Yaakov Fux Reading the Torah, NLI</name>
+            <name>Yacov Fuchs Reading the Torah, NLI</name>
             <attachmentType>3</attachmentType>
             <location>http://youtu.be/kQDgTgOVRTo</location>
             <dataLength>0</dataLength>
             <format></format>
             <creationDateTime>2014-01-07 11:43:00.559 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-07 11:43:00.559 @+0200</modificationDateTime>
+            <modificationDateTime>2014-02-12 11:07:03.597 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>13DE8743-0923-00C6-0BF4-9D337747FE94</guid>
