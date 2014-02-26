@@ -1024,8 +1024,8 @@
     },
     {
      "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-     "name": "Maps of The Holy Land",
-     "_name": "Maps of The Holy Land"
+     "name": "Maps of The Holy Land and Jerusalem",
+     "_name": "Maps of The Holy Land and Jerusalem"
     },
     {
      "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
@@ -1449,7 +1449,7 @@
             {
              "guid": "15AB72EF-EC6C-E5EE-8832-12AB89C9FCE1",
              "name": ":3: Eastern Manuscripts",
-             "data": "<p><span><span><span><span>Yahuda bequeathed the National Library of Israel with 1,184 exquisite eastern manuscripts in the field of Islamic religion, sciences, Arabic literature and Persian poetry. These include a unique collection of over 100 rare manuscripts of the Qur'an- some of them very early (8th-10th centuries), and others which are beautifully illustrated.</span></span></span></span></p>\n",
+             "data": "<p><span><span><span><span>Yahuda bequeathed the National Library of Israel 1,184 exquisite eastern manuscripts in the field of Islamic religion, sciences, Arabic literature and Persian poetry. These include a unique collection of over 100 rare manuscripts of the Qur'an- some of them very early (8th-10th centuries), and others which are beautifully illustrated.</span></span></span></span></p>\n",
              "attachments": [
               {
                "guid": "7E3F2F48-B424-F08B-E5FD-B3277ECB72EF",
@@ -1859,8 +1859,8 @@
     },
     {
      "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-     "name": "Maps of The Holy Land",
-     "_name": "Maps of The Holy Land"
+     "name": "Maps of The Holy Land and Jerusalem",
+     "_name": "Maps of The Holy Land and Jerusalem"
     },
     {
      "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
@@ -1896,18 +1896,6 @@
      "dataLength": "0",
      "format": "",
      "deletedDateTime": "2014-01-09 12:54:23.589 @+0200"
-    },
-    {
-     "guid": "FC1EA5CC-3C5D-F534-CB3B-CAF6852F6CC3",
-     "AttachmentEntries": {
-      "attachmentEntryID": "41409552-B64B-0A78-8D9E-0F9634678EE2"
-     },
-     "objectID": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-     "name": "The Basch Diary, p.4, NLI.jpg",
-     "attachmentType": "1",
-     "location": "403D55C8-4B15-4985-CB9F-6A8D5646BE79\\The Basch Diary, p.4, NLI.jpg",
-     "dataLength": "246348",
-     "format": ".jpg"
     },
     {
      "guid": "50E546CD-0B9F-D300-0167-7F41B11DC6DD",
@@ -2033,7 +2021,7 @@
           "attachmentEntryID": "B25669CB-3066-48DE-849D-DE5E23A210BD"
          },
          "objectID": "F8A8EC39-68D8-ECCF-6F51-12C17F60061D",
-         "name": "Ha Tikva - The Israeli Anthem, performed by the IDF orchestra",
+         "name": "Ha Tikva - The Israeli Anthem, orchestra conductor - Isaac Graziani",
          "attachmentType": "3",
          "location": "https://soundcloud.com/shayesh/ha-tikva-the-israeli-anthem",
          "dataLength": "0",
@@ -2230,7 +2218,7 @@
        "children": [
         {
          "guid": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-         "name": ":_: The Holocaust",
+         "name": "The Holocaust",
          "data": "<p><span><span>One of the most distinct characteristics of the Nazi regime was its belief in the supremacy of the Aryan race and its hatred of Jews and other groups. At the Wannsee Conference in 1942, the Nazi party decided to implement a plan called the “Final Solution of the Jewish Question”. Following the Wannsee Conference, the Jews of Europe were systematically murdered in the extermination camps as part of the Final Solution. In some of the camps permanent gas chambers were erected.</span></span></p>\n<p><span><span>By 1945, 6,000,000 Jews,-the majority of European Jewry- were dead.</span></span></p>\n<p><span><span>For more on the Holocaust, follow the link to Yad Vashem's website.</span></span></p>\n",
          "attachments": [
           {
@@ -2287,22 +2275,10 @@
             "attachmentEntryID": "300C8440-FCE5-541F-8534-EF527C3D9F17"
            },
            "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-           "name": "Arbeit macht frei (Labour liberates), the deceptive sign above the entrance to Auschwitz[1].jpg",
+           "name": "Arbeit macht frei (Labour liberates), the deceptive sign above the entrance to Auschwitz.jpg",
            "attachmentType": "1",
-           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Arbeit macht frei (Labour liberates), the deceptive sign above the entrance to Auschwitz[1].jpg",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Arbeit macht frei (Labour liberates), the deceptive sign above the entrance to Auschwitz.jpg",
            "dataLength": "40616",
-           "format": ".jpg"
-          },
-          {
-           "guid": "ADC89CF2-C7C0-1BD7-71A9-7CF65DF470A8",
-           "AttachmentEntries": {
-            "attachmentEntryID": "300C8440-FCE5-541F-8534-EF527C3D9F17"
-           },
-           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-           "name": "buchenwald.jpg",
-           "attachmentType": "1",
-           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\buchenwald.jpg",
-           "dataLength": "39873",
            "format": ".jpg"
           },
           {
@@ -2318,26 +2294,14 @@
            "format": ".jpg"
           },
           {
-           "guid": "C15C7F13-8546-60DF-0A9D-609CDB2FAB64",
-           "AttachmentEntries": {
-            "attachmentEntryID": "300C8440-FCE5-541F-8534-EF527C3D9F17"
-           },
-           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-           "name": "Children at concentration camp with stripe uniform.jpg",
-           "attachmentType": "1",
-           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Children at concentration camp with stripe uniform.jpg",
-           "dataLength": "118977",
-           "format": ".jpg"
-          },
-          {
            "guid": "4B28FDA4-1666-8258-19DB-5F1F8CAE780C",
            "AttachmentEntries": {
             "attachmentEntryID": "300C8440-FCE5-541F-8534-EF527C3D9F17"
            },
            "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
-           "name": "Crematorium_ burning the bodies at the Death Camps.jpg",
+           "name": "Crematorium, burning the bodies at the Death Camps.jpg",
            "attachmentType": "1",
-           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Crematorium_ burning the bodies at the Death Camps.jpg",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Crematorium, burning the bodies at the Death Camps.jpg",
            "dataLength": "99784",
            "format": ".jpg"
           },
@@ -2388,10 +2352,21 @@
            "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\The number inscribed by the Nazis into the victims&apos; flesh.jpg",
            "dataLength": "10394",
            "format": ".jpg"
+          },
+          {
+           "guid": "E89E40A3-542A-5287-3FB8-1FA617E54BCE",
+           "AttachmentEntries": {
+            "attachmentEntryID": "300C8440-FCE5-541F-8534-EF527C3D9F17"
+           },
+           "objectID": "5F686845-0FE0-05B2-DA4E-F175EF995458",
+           "name": "Buchenwald.jpg",
+           "attachmentType": "1",
+           "location": "5F686845-0FE0-05B2-DA4E-F175EF995458\\Buchenwald.jpg",
+           "dataLength": "39873",
+           "format": ".jpg"
           }
          ],
-         "type": "bastard",
-         "bastardName": "The Holocaust",
+         "type": "default",
          "parent": {
           "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
           "name": "Elimelech Basch's Diary"
@@ -2457,7 +2432,7 @@
             {
              "guid": "72190B03-074A-B546-1F89-73EFBBE16E0D",
              "name": ":5: Surviving Daughter in Israel",
-             "data": "<p><span><span>Elimelech Basch's eldest daughter, Bluma (Perhiya), was the only member of the Basch family to survive the Holocaust. &#160;&#160;Bluma immigrated to Israel, changed her name to Perhiya and built a new family. &#160;Perhiya has three children, many grandchildren and a newborn great granddaughter. &#160;She is now 87 years old and is still an active volunteer in her hometown, Lydda (Lod). &#160;</span></span></p>\n<p><span><span>&#160;</span></span></p>\n<p><span><span>Photograph: Perhiya (center) receiving a token of gratitude from the city of Lydda in honor of her long years as a volunteer.</span></span></p>\n<p><span><span>&#160;</span></span></p>\n<p><span><span>Photograph: Perhiya's testimony, given in January, 1956, regarding the murder of her family. &#160;The testimony was given to the Yad Vashem Holocaust History Museum in Jerusalem, Israel.</span></span></p>\n",
+             "data": "<p><span><span>Elimelech Basch's eldest daughter, Bluma (Perhiya), was the only member of the Basch family to survive the Holocaust. &#160;&#160;Bluma immigrated to Israel, changed her name to Perhiya and built a new family. &#160;Perhiya has three children, many grandchildren and a newborn great granddaughter. &#160;She is now 87 years old and is still an active volunteer in her hometown, Lydda (Lod). &#160;</span></span></p>\n",
              "attachments": [
               {
                "guid": "ABCE9653-05F2-DB0F-2E34-06565C328C4A",
@@ -2875,6 +2850,33 @@
          "hasChronologicalChildren": false,
          "children": [
           {
+           "guid": "291B00DA-6A47-6BC4-98BE-63B1C5F553DC",
+           "name": "Ladino Music",
+           "data": "<p>Dr. Shoshana Weich has been documenting Ladino music for many years. In the following film Shoshana gives an introduction (min. 00:00-07:21), followed by several recordings of Ladino songs made by her (min. 7:21-21:00). Dr. Weich deposited her collection at the National Library; the last part includes a recording of Ladino music taped at the concert \"Spanish <em><span>Cancionero</span></em> and Romansero according to &#160;the tradition of the Jews of Thessalonica \" &#160;held at the NLI in 20.11.2013 (min.21:00-49:02).</p>\n",
+           "attachments": [
+            {
+             "guid": "3BD25D32-2303-BA96-4EBE-B237E29A73D9",
+             "AttachmentEntries": {
+              "attachmentEntryID": "ED5726B6-E8DE-843C-6478-B31F8D18BE13"
+             },
+             "objectID": "291B00DA-6A47-6BC4-98BE-63B1C5F553DC",
+             "name": "The collection of Dr. Shoshana Weich-Shahak",
+             "attachmentType": "3",
+             "location": "http://www.youtube.com/watch?v=890qst6GSaY&amp;feature=youtu.be",
+             "dataLength": "0",
+             "format": ".be"
+            }
+           ],
+           "type": "default",
+           "parent": {
+            "guid": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
+            "name": "From Spain to Jerusalem"
+           },
+           "hasChronologicalChildren": false,
+           "children": [],
+           "brothers": []
+          },
+          {
            "guid": "DC714013-3F75-D6D6-147E-175C6A4DE4B7",
            "name": ":3: The Nazi Occupation",
            "data": "<p><span><span><span>The Torah served the community of Kahal-Shalom for over 400 years, until the island was occupied by the Nazis. Most of the island's Jews were transported to Auschwitz and killed. From among 2000 members of the island's Jewish community, 1,673 were deported. Of these, only 151 survived.&#160;</span></span></span></p>\n<p><span><span><span>The Torah scroll was saved by the good relationship between the Jewish and Muslim communities, as well as through an intriguing family connection: the Torah was deposited with the Mufti of Rhodes, Suleyman Kasiloglou, just a few days before the deportation of the Jews on July 25th, 1944. &#160;Kasiloglu's father-in-law was Jewish, which may explain why the Jewish community trusted him with its most valuable possession. &#160;Kasiloglou hid the Torah under the pulpit of the Morad Reis mosque.</span></span></span></p>\n<p><span><span><span>The Scroll remained rolled to the last portion which was read in the synagogue, \"Parashat Pinhas\", on the Sabbath of July 15th, 1944. This same part in the scroll was heavily damaged by mildew due to the conditions under the pulpit.&#160;</span></span></span></p>\n",
@@ -2931,18 +2933,6 @@
              "data": "<p><span>After the war, the scroll was returned to the few survivors of the community. The honorary president of the community, Mr. Moshe Sauriano gave it to the Benatar family, to be brought to the National Library, in memory of the Jews of Rhodes who were killed.</span></p>\n",
              "attachments": [
               {
-               "guid": "4CB40C02-07EA-E3D0-0084-DCC72C5B8D44",
-               "AttachmentEntries": {
-                "attachmentEntryID": "73874BB3-45C1-996E-DFD1-B8EDAFB2C668"
-               },
-               "objectID": "C686E53C-0F9C-5637-78E5-A508AE770632",
-               "name": "Interview with the Benatar sisters",
-               "attachmentType": "3",
-               "location": " http://youtu.be/jTa_mqCx54E",
-               "dataLength": "0",
-               "format": ""
-              },
-              {
                "guid": "546FA508-8B07-82F6-F06A-56B9256E75DC",
                "AttachmentEntries": {
                 "attachmentEntryID": "73874BB3-45C1-996E-DFD1-B8EDAFB2C668"
@@ -2965,6 +2955,18 @@
                "location": "C686E53C-0F9C-5637-78E5-A508AE770632\\Donation of the Torah scroll by the Benatar family 2.jpg",
                "dataLength": "109254",
                "format": ".jpg"
+              },
+              {
+               "guid": "E6FA152A-576B-1489-3406-69B1F58E76E9",
+               "AttachmentEntries": {
+                "attachmentEntryID": "73874BB3-45C1-996E-DFD1-B8EDAFB2C668"
+               },
+               "objectID": "C686E53C-0F9C-5637-78E5-A508AE770632",
+               "name": "Interview with the Benatar sisters",
+               "attachmentType": "3",
+               "location": "http://www.youtube.com/watch?v=_DRZ9M2DPB4&amp;feature=youtu.be",
+               "dataLength": "0",
+               "format": ".be"
               }
              ],
              "type": "chronological",
@@ -3479,8 +3481,8 @@
     },
     {
      "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-     "name": "Maps of The Holy Land",
-     "_name": "Maps of The Holy Land"
+     "name": "Maps of The Holy Land and Jerusalem",
+     "_name": "Maps of The Holy Land and Jerusalem"
     },
     {
      "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
@@ -3562,7 +3564,7 @@
         {
          "guid": "05C16366-E98F-8859-A0D8-AA8FE3251A80",
          "name": ":2: Newton the Heretic",
-         "data": "<p><span><span><span>Newton's extensive study of Christian doctrine brought him to the conclusion that the doctrine of the Trinity was a corruption of the original Biblical doctrine. He believed that the Scriptures taught that God is one divine person and that this one divine person is the Father, while Christ is the literal Son of God, having no human father.</span></span></span></p>\n<p><span><span><span>Newton hid his beliefs. Had his contemporaries known of them he would have been considered a heretic. He however, believed that he held the true belief.</span></span></span></p>\n<p> </p>\n<p><span><span>Citations from the 'Twelve Statements on God', in the attached photograph</span></span></p>\n<p><span><span><span>Par. 1 - \"The [word] God is no where in the scriptures used to signify more han the three persons at once</span></span><span dir=\"RTL\"><span><span>.\"</span></span></span></span></p>\n<p><span><span><span>Par. 3 - \"When ever it is said in the scriptures that there is but one God, it is meant of th</span></span><span><span>e Father.\"</span></span></span></p>\n\n\n",
+         "data": "<p><span><span><span>Newton's extensive study of Christian doctrine brought him to the conclusion that the doctrine of the Trinity was a corruption of the original Biblical doctrine. He believed that the Scriptures taught that God is one divine person and that this one divine person is the Father, while Christ is the literal Son of God, having no human father.</span></span></span></p>\n<p><span><span><span>Newton hid his beliefs. Had his contemporaries known of them he would have been considered a heretic. He however, believed that he held the true belief.</span></span></span></p>\n<p>&#160;</p>\n<p><span><span>Citations from the 'Twelve Statements on God', in the attached photograph</span></span></p>\n<p><span><span><span>Par. 1 - \"The [word] God is no where in the scriptures used to signify more than the three persons at once</span></span><span dir=\"RTL\"><span><span>.\"</span></span></span></span></p>\n<p><span><span><span>Par. 3 - \"When ever it is said in the scriptures that there is but one God, it is meant of th</span></span><span><span>e Father.\"</span></span></span></p>\n",
          "attachments": [
           {
            "guid": "FED3DB48-6754-A374-A920-D5825FAE374C",
@@ -3601,7 +3603,7 @@
           {
            "guid": "4130AC26-0B7C-306D-58D1-87B4DD7C00BD",
            "name": ":3: Newton and the Jewish Temple",
-           "data": "<p><span><span><span>Newton believed that the temple described in the prophecy of Ezekiel would materialize at the End of Days. He therefore invested much effort in studying matters related to the Jewish Temple and its rituals.</span></span></span></p>\n<p><span><span><span><span>This trilingual manuscript- written in Latin, Hebrew and Greek- shows that Newton was familiar not only with the work of&#160; scholars of his time but also with the ancient Jewish sources including the Mishna , the Zohar, the Talmud, and many more.</span></span></span></span></p>\n<p><span><span><span><span>On the third line from the top Newton copied, in meticulous Hebrew script, the words:</span></span></span></span></p>\n<p><span dir=\"RTL\"><span><span><span>ברוך שם כבוד מלכותו לעולם ועד&#160; - </span></span></span></span><span><span><span><span>\"Blessed be the name of His glorious kingdom for a</span></span></span><span><span>ll eternity\".</span></span></span></p>\n",
+           "data": "<p><span><span><span>Newton believed that the temple described in the prophecy of Ezekiel would materialize at the End of Days. He therefore invested much effort in studying matters related to the Jewish Temple and its rituals.</span></span></span></p>\n<p><span><span><span><span>This trilingual manuscript- written in Latin, Hebrew and Greek- shows that Newton was familiar not only with the work of&#160; scholars of his time but also with the ancient Jewish sources including the Mishna , the Zohar, the Talmud, and many more.</span></span></span></span></p>\n<p><span><span><span><span>On the third line from the top Newton copied, in meticulous Hebrew script, the words:</span></span></span></span></p>\n<p><span dir=\"RTL\"><span><span><span>ברוך שם כבוד מלכותו לעולם ועד&#160;\"Blessed be the name of His glorious kingdom for a</span></span></span></span><span><span><span>ll eternity\".</span></span></span></p>\n",
            "attachments": [
             {
              "guid": "9C778FAC-EC11-3EB4-66A9-468896DBB577",
@@ -3686,18 +3688,6 @@
                "data": "<p><span><span><span>Besides being a brilliant scientist and theologian, Newton also displayed adroit skills as an administrator. In 1696, he was appointed Warden of the Royal Mint in London. In this capacity Newton wrote this letter to the tin mine owners, explaining to them through meticulous calculations that Her Majesty, Queen Anne, has already purchased from them much more tin than she can sell, leaving her with \"dead stock\" (surplus), which can only be sold at a loss.</span></span></span><span><span /></span></p>\n<p><span><span>He therefore announces his decision to end the contract with them.</span></span></p>\n\n\n",
                "attachments": [
                 {
-                 "guid": "2302BE33-9C9B-09C5-BF67-99822D5122EE",
-                 "AttachmentEntries": {
-                  "attachmentEntryID": "17A1ACF6-820F-8CC0-6F20-064D67254DC9"
-                 },
-                 "objectID": "A57F02ED-9DB6-892F-DB09-767958D3DFC7",
-                 "name": "Newton&apos;s letter to the miners (Draft), NLI.jpg",
-                 "attachmentType": "1",
-                 "location": "A57F02ED-9DB6-892F-DB09-767958D3DFC7\\Newton&apos;s letter to the miners (Draft), NLI.jpg",
-                 "dataLength": "119778",
-                 "format": ".jpg"
-                },
-                {
                  "guid": "282E5D1C-98DD-34A9-AEEE-45CEA9B596B6",
                  "AttachmentEntries": {
                   "attachmentEntryID": "17A1ACF6-820F-8CC0-6F20-064D67254DC9"
@@ -3722,6 +3712,18 @@
                  "dataLength": "0",
                  "format": "",
                  "deletedDateTime": "2014-01-28 14:15:48.608 @+0200"
+                },
+                {
+                 "guid": "D4906E33-90B2-587E-F2E8-505BB1D0B9E6",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "17A1ACF6-820F-8CC0-6F20-064D67254DC9"
+                 },
+                 "objectID": "A57F02ED-9DB6-892F-DB09-767958D3DFC7",
+                 "name": "Copy ofNewton&apos;s letter to the miners (draft), NLI.jpg",
+                 "attachmentType": "1",
+                 "location": "A57F02ED-9DB6-892F-DB09-767958D3DFC7\\Copy ofNewton&apos;s letter to the miners (draft), NLI.jpg",
+                 "dataLength": "119778",
+                 "format": ".jpg"
                 }
                ],
                "type": "chronological",
@@ -3736,7 +3738,7 @@
                 {
                  "guid": "63A1DFAA-E53C-BB5B-35AF-0FE5825914EC",
                  "name": ":6: Newton the Alchemist (c. 1680)",
-                 "data": "<p><span><span><span>Newton also took a deep interest in alchemy. Although most of the alchemical papers are in Cambridge, the NLI possesses one unique page. It is a part of Newton's copy of an English translation made in 1624 of </span></span><i><span><span>The Exposition of the Hieroglyphical Figures</span></span></i><span><span>, by the famous French Alchemist Nicholas Flamel. Newton sketched Flamel's symbolic figures, and described their alchemical role in the text below .</span></span></span></p>\n<p>&#160;</p>\n<p><span><span><span>photograph:</span></span></span></p>\n<p><span><span>\"She is now like a Lion devouring all metallic nature and turning it to pure gold…\"</span></span></p>\n",
+                 "data": "<p><span><span><span>Newton also took a deep interest in alchemy. Although most of the alchemical papers are in Cambridge, the NLI possesses </span></span></span><span><span><span><span>some alchemical papers, amongst which there is </span></span></span></span><span><span><span>one unique page. It is a part of Newton's copy of an English translation made in 1624 of </span></span><i><span><span>The Exposition of the Hieroglyphical Figures</span></span></i><span><span>, by the famous French Alchemist Nicholas Flamel. Newton sketched Flamel's symbolic figures, and described their alchemical role in the text below .</span></span></span></p>\n<p>&#160;</p>\n<p><span><span><span>photograph:</span></span></span></p>\n<p><span><span>\"She is now like a Lion devouring all metallic nature and turning it to pure gold…\"</span></span></p>\n",
                  "attachments": [
                   {
                    "guid": "502E357E-9B26-07ED-DF2C-2338FA7D05BD",
@@ -3795,7 +3797,7 @@
       {
        "guid": "0A03EA07-2321-29CC-8455-B7C8B5DB90F6",
        "name": ":1: Newton's Papers, 1727-1872",
-       "data": "<p><span><span><span>Upon Newton's death in Cambridge in 1727, his relatives, the Conduitts, took possession of his papers. Newton's papers reflected an array of various interests and occupations: papers in mathematics and physics, documents written as part of his function as head of the Royal Mint and President of the Royal Society, more obscure and intriguing papers on theology, history and alchemy.</span></span></span></p>\n",
+       "data": "<p><span><span><span>Upon Newton's death in Cambridge in 1727, his relatives, the Conduitts, took possession of his papers. Newton's papers reflected an array of various interests and occupations: papers in mathematics and physics, documents written as part of his function as head of the Royal Mint and President of the Royal Society, and more obscure and intriguing papers on theology, history and alchemy.</span></span></span></p>\n",
        "attachments": [
         {
          "guid": "DF086D3C-971A-9701-2D2D-C84079512B6D",
@@ -3842,9 +3844,9 @@
             "attachmentEntryID": "07C00154-0749-14F8-2A7B-6AC3A5E79985"
            },
            "objectID": "A3CB6E55-1059-5AE7-473A-103D04566C62",
-           "name": "Isaac Newton Wallop,  5th Earl of Portsmouth, Vanity Fair caricature, 1876-07-01.jpg",
+           "name": "Isaac Newton Wallop,  5th Earl of Portsmouth, Vanity Fair caricature, 1.7.1876.jpg",
            "attachmentType": "1",
-           "location": "A3CB6E55-1059-5AE7-473A-103D04566C62\\Isaac Newton Wallop,  5th Earl of Portsmouth, Vanity Fair caricature, 1876-07-01.jpg",
+           "location": "A3CB6E55-1059-5AE7-473A-103D04566C62\\Isaac Newton Wallop,  5th Earl of Portsmouth, Vanity Fair caricature, 1.7.1876.jpg",
            "dataLength": "26959",
            "format": ".jpg"
           }
@@ -4174,7 +4176,7 @@
             {
              "guid": "30FBEE2C-024A-DDA0-31C4-340153E44CA9",
              "name": ":3: Eastern  Manuscripts",
-             "data": "<p><span><span><span><span>Yahuda bequeathed the National Library of Israel with 1,184 exquisite eastern manuscripts in the field of Islamic religion, sciences, Arabic literature and Persian poetry. These include a unique collection of over 100 rare manuscripts of the Qur'an- some of them very early (8th-10th centuries), and others which are beautifully illustrated.</span></span></span></span></p>\n",
+             "data": "<p><span><span><span><span>Yahuda bequeathed the National Library of Israel 1,184 exquisite eastern manuscripts in the field of Islamic religion, sciences, Arabic literature and Persian poetry. These include a unique collection of over 100 rare manuscripts of the Qur'an- some of them very early (8th-10th centuries), and others which are beautifully illustrated.</span></span></span></span></p>\n",
              "attachments": [
               {
                "guid": "FBCA5E23-FE7B-76FB-460C-051030FAF212",
@@ -4407,8 +4409,8 @@
     },
     {
      "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-     "name": "Maps of The Holy Land",
-     "_name": "Maps of The Holy Land"
+     "name": "Maps of The Holy Land and Jerusalem",
+     "_name": "Maps of The Holy Land and Jerusalem"
     },
     {
      "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
@@ -4429,7 +4431,7 @@
   },
   {
    "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-   "name": "Maps of The Holy Land",
+   "name": "Maps of The Holy Land and Jerusalem",
    "data": "<p><span>From ancient times the Holy Land has been the focus of great attraction for both Jews and Christians and Muslims. Throughout the ages Jews and Christians have made pilgrimages to the Holy Land, envisaged scenes and stories from the Scriptures, and dreamt of it from afar. Many of them left behind them descriptions and studies of the Holy Land accompanied by views and drawings.</span></p>\n<p><span>The Eran Laor map collection in the National Library of Israel contains about 1500 maps of Jerusalem and of the Holy Land from the beginning of print up to our days.</span></p>\n<p>&#160;</p>\n<p>&#160;</p>\n",
    "attachments": [
     {
@@ -4507,9 +4509,9 @@
         "attachmentEntryID": "50BC40DA-E4FD-E65C-C5B0-1A3990D84933"
        },
        "objectID": "03BA7521-8885-B14D-345A-0440CB69EB04",
-       "name": "Abraham ben Jacob, The Land Israel, showing the wanderings of the Israelite, Amsterdam, 17th century,  NLI.jpg",
+       "name": "Abraham ben Jacob, The Land Israel, showing the wanderings of the Israelite in the desrt, Amsterdam, 17th century,  NLI.jpg",
        "attachmentType": "1",
-       "location": "03BA7521-8885-B14D-345A-0440CB69EB04\\Abraham ben Jacob, The Land Israel, showing the wanderings of the Israelite, Amsterdam, 17th century,  NLI.jpg",
+       "location": "03BA7521-8885-B14D-345A-0440CB69EB04\\Abraham ben Jacob, The Land Israel, showing the wanderings of the Israelite in the desrt, Amsterdam, 17th century,  NLI.jpg",
        "dataLength": "201329",
        "format": ".jpg"
       }
@@ -4517,7 +4519,7 @@
      "type": "default",
      "parent": {
       "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-      "name": "Maps of The Holy Land"
+      "name": "Maps of The Holy Land and Jerusalem"
      },
      "hasChronologicalChildren": false,
      "children": [
@@ -4670,7 +4672,7 @@
      "type": "default",
      "parent": {
       "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-      "name": "Maps of The Holy Land"
+      "name": "Maps of The Holy Land and Jerusalem"
      },
      "hasChronologicalChildren": false,
      "children": [
@@ -4746,9 +4748,9 @@
               "attachmentEntryID": "DC45FAB0-5439-E45C-9695-6098D3E14BE3"
              },
              "objectID": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
-             "name": "Ortelius Abraham leaving Haran.jpg",
+             "name": "Ortelius, Abraham leaving Haran.jpg",
              "attachmentType": "1",
-             "location": "AE425D1A-E082-CD9A-27EE-740250DFB6A6\\Ortelius Abraham leaving Haran.jpg",
+             "location": "AE425D1A-E082-CD9A-27EE-740250DFB6A6\\Ortelius, Abraham leaving Haran.jpg",
              "dataLength": "54134",
              "format": ".jpg"
             }
@@ -4788,7 +4790,7 @@
                  "name": "Ortelius, Abraham and Melchizedek.jpg",
                  "attachmentType": "1",
                  "location": "D3158852-0071-7096-970B-B5F2359C7A86\\Ortelius, Abraham and Melchizedek.jpg",
-                 "dataLength": "67115",
+                 "dataLength": "51091",
                  "format": ".jpg"
                 }
                ],
@@ -4842,7 +4844,7 @@
                      "name": "Ortelius, Sarah gives Abraham her slave-girl.jpg",
                      "attachmentType": "1",
                      "location": "D5BB007B-4816-6078-11E5-64D3907C4FBD\\Ortelius, Sarah gives Abraham her slave-girl.jpg",
-                     "dataLength": "68386",
+                     "dataLength": "52382",
                      "format": ".jpg"
                     }
                    ],
@@ -4950,7 +4952,7 @@
                              "name": "Ortelius, sacrifice of Isaac.jpg",
                              "attachmentType": "1",
                              "location": "56593CFE-D613-37C1-5991-38D79A66E195\\Ortelius, sacrifice of Isaac.jpg",
-                             "dataLength": "71925",
+                             "dataLength": "55553",
                              "format": ".jpg"
                             }
                            ],
@@ -4977,7 +4979,7 @@
                                "name": "Ortelius, Abraham&apos;s death.jpg",
                                "attachmentType": "1",
                                "location": "2B7E3C49-61E3-7609-A9E5-64EE7B72A80C\\Ortelius, Abraham&apos;s death.jpg",
-                               "dataLength": "69837",
+                               "dataLength": "54286",
                                "format": ".jpg"
                               }
                              ],
@@ -5058,9 +5060,9 @@
             "attachmentEntryID": "5A70C14B-7EBB-8FBC-0E45-433D48AB89B8"
            },
            "objectID": "7A22DA9A-DE90-ABED-F4F5-300AD3B57259",
-           "name": "Blaeu, map of the Holy Land, Amsterdam, 1629,  NLI, Sinai.jpg",
+           "name": "Blaeu, map of the Holy Land, Amsterdam, 1629, the route of the Children of Israel in the desert.jpg",
            "attachmentType": "1",
-           "location": "7A22DA9A-DE90-ABED-F4F5-300AD3B57259\\Blaeu, map of the Holy Land, Amsterdam, 1629,  NLI, Sinai.jpg",
+           "location": "7A22DA9A-DE90-ABED-F4F5-300AD3B57259\\Blaeu, map of the Holy Land, Amsterdam, 1629, the route of the Children of Israel in the desert.jpg",
            "dataLength": "98779",
            "format": ".jpg"
           },
@@ -5507,9 +5509,9 @@
                 "attachmentEntryID": "E34F2FB4-9649-4551-5753-AA5930BC1FC2"
                },
                "objectID": "62CF2583-19FF-9B73-7ED2-2E3C833E1F7F",
-               "name": "Antonino de Angelis, map of Jerusalem, Rome, 1578, NLI.jpg",
+               "name": "Antonino de Angelis, map of Jerusalem, Rome, 1578, Alfred Moldovan Collection, New-York.jpg",
                "attachmentType": "1",
-               "location": "62CF2583-19FF-9B73-7ED2-2E3C833E1F7F\\Antonino de Angelis, map of Jerusalem, Rome, 1578, NLI.jpg",
+               "location": "62CF2583-19FF-9B73-7ED2-2E3C833E1F7F\\Antonino de Angelis, map of Jerusalem, Rome, 1578, Alfred Moldovan Collection, New-York.jpg",
                "dataLength": "286501",
                "format": ".jpg"
               },
@@ -5705,7 +5707,7 @@
        "data": "",
        "attachments": [
         {
-         "guid": "4F841C05-6AEC-360B-9AC0-072D7BAF7BFB",
+         "guid": "0BABBF98-835B-6B1F-064A-6BCD8592EA93",
          "AttachmentEntries": {
           "attachmentEntryID": "9E519C8B-91B5-39D5-3CEA-56CA149389AC"
          },
@@ -5713,7 +5715,7 @@
          "name": "Jaroslav Rona&apos;s bronze statue of Franz Kafka in Prague.jpg",
          "attachmentType": "1",
          "location": "BECC5ABA-AB23-EA10-9DD6-17B72E29AE48\\Jaroslav Rona&apos;s bronze statue of Franz Kafka in Prague.jpg",
-         "dataLength": "23980",
+         "dataLength": "260029",
          "format": ".jpg"
         }
        ],
@@ -5727,7 +5729,7 @@
         {
          "guid": "9211A3E8-4BD5-6E99-0C37-E41E7A4D161D",
          "name": ":1: Childhood and Youth",
-         "data": "<p><span><span><span>Franz Kafka was born in 1883, to a German-speaking Jewish family. He was the first of six children, though only he and his three sisters reached adulthood. His father, who ran a retail business, was a domineering uneducated man, while his mother was a quiet, shy, well-educated woman.&#160; Kafka suffered under his father's authoritarian regime. Their relationship left a dominant mark on his psyche, as is evident from his </span></span><i><span><span>Letter to His Father</span></span></i><span><span> (early 1920's).</span></span></span><span><span></span></span></p>\n<p><span><span><span>Kafka, who was an excellent student, studied at a German elementary school, and later in a classic German Gymnasium, where High German was taught. Although he spoke Czech, he cultivated his German and identified with the German culture.</span></span></span></p>\n",
+         "data": "<p><span><span><span>Franz Kafka was born in 1883, to a German-speaking Jewish family. He was the first of six children, though only he and his three sisters reached adulthood. His father, who ran a retail business, was a domineering uneducated man, while his mother was a quiet, shy, well-educated woman.&#160; Kafka suffered under his father's authoritarian regime. Their relationship left a dominant mark on his psyche, as is evident from his </span></span><i><span><span>Letter to His Father</span></span></i><span><span> (early 1920's).</span></span></span></p>\n<p><span><span><span>Kafka, who was an excellent student, studied at a German elementary school, and later in a classic German Gymnasium, where High German was taught. Although he spoke Czech, he cultivated his German and identified with the German culture.</span></span></span></p>\n",
          "attachments": [
           {
            "guid": "6FCAA7BB-24B1-15B5-9C1D-5110FB2BF357",
@@ -5735,9 +5737,9 @@
             "attachmentEntryID": "7300F8F4-FC64-693A-82D9-43BBF5857FEC"
            },
            "objectID": "9211A3E8-4BD5-6E99-0C37-E41E7A4D161D",
-           "name": "kafka&apos;s letter to his father.jpg",
+           "name": "kafka&apos;s letter to his father, Deutsches Literaturarchiv Marbach.jpg",
            "attachmentType": "1",
-           "location": "9211A3E8-4BD5-6E99-0C37-E41E7A4D161D\\kafka&apos;s letter to his father.jpg",
+           "location": "9211A3E8-4BD5-6E99-0C37-E41E7A4D161D\\kafka&apos;s letter to his father, Deutsches Literaturarchiv Marbach.jpg",
            "dataLength": "134156",
            "format": ".jpg"
           },
@@ -5841,7 +5843,7 @@
             {
              "guid": "A420860D-74E0-837F-B44D-486B85BBE00F",
              "name": ":3: Kafka and Friends  in Vienna, 1913",
-             "data": "<p>In 1913 Franz Kafka attended two large congresses in Vienna: a professional congress of insurance officers and the 11<sup>th</sup> Zionist Congress, where he met friends: the expressionistic authors Albert Ehrenstein and Otto Pick, as well as Lise Weltsch, Felix Weltsch's cousin, who was from Prague as well. As seen on the photograph, the friends did not only attend sessions of the Zionist Congress, but also spent some leisure time together. This photograph survived in two personal archives at the National Library of Israel: in Albert Ehrenstei's archives &#160;and among Lise Weltsch's papers.</p>\n",
+             "data": "<p>In 1913 Franz Kafka attended two large congresses in Vienna: a professional congress of insurance officers and the 11<sup>th</sup> Zionist Congress, where he met friends: the expressionistic authors Albert Ehrenstein and Otto Pick, as well as Lise Weltsch, Felix Weltsch's cousin, who was from Prague as well. As seen on the photograph, the friends did not only attend sessions of the Zionist Congress, but also spent some leisure time together. This photograph survived in two personal archives at the National Library of Israel: in Albert Ehrenstein's archives &#160;and among Lise Weltsch's papers.</p>\n",
              "attachments": [
               {
                "guid": "A082C1F4-2481-8EBD-1933-17839E221470",
@@ -6237,7 +6239,7 @@
         {
          "guid": "4FB68FFB-D884-EE6A-4A8B-2AF40CD10E3B",
          "name": "Zweig's Suicide Letter",
-         "data": "<p><span>Having escaped the horrors of the war in Europe, Zweig and his wife looked for a refuge where they could resume their lives. Disappointed with London and New-York, they had hoped to make a fresh start in Brazil. However, being constantly on the run, the encounter with multitudes of Jewish refugees like him, and the feeling that his cultural world was lost, filled him with great despair. He could not find the strength to begin a new life.</span></p>\n<p><span>Zweig's suicide was criticized by many. But he was not the only one: two other Jewish intellectuals who were war refugees, the author Ernest Toller in New-York, and the philosopher Walter Benjamin in Portbou, had committed suicide before him.&#160;</span></p>\n<p>&#160;</p>\n<p><span>Zweig's suicide letter, written in German, was found by local police officers. They called in a German-Jewish doctor to translate the letter for them. The doctor who had read the note asked to keep it, but was refused. <span>&#160;20 years later, he was able to purchase it from a retired police officer. In 1991, he donated the letter to the National Library of Israel.</span></span></p>\n<p>&#160;</p>\n<p><span>The Letter</span></p>\n<p><span>Declaration</span></p>\n<p><span>Of my own will and in clear mind</span></p>\n<p><span>Every day I learned to love this country more, and I would not have asked to rebuild my life in any other place after the world of my own language sank and was lost to me and my spiritual homeland, Europe, destroyed itself.</span></p>\n<p>&#160;</p>\n<p><span>But to start everything anew after a man’s 60th year requires special powers, and my own power has been expended after years of wandering homeless. I thus prefer to end my life at the right time, upright, as a man for whom cultural work has always been his purest happiness and personal freedom – the most precious of possessions on this earth.</span></p>\n<p>&#160;</p>\n<p><span>I send greetings to all of my friends: May they live to see the dawn after this long night. I, who am most impatient, go before them.</span></p>\n<p><span>Stefan Zweig, Petropolis, 22.2.1942.</span></p>\n",
+         "data": "<p><span><span><span>Having escaped the horrors of the war in Europe, Zweig and his wife looked for a refuge where they could resume their lives. Disappointed with London and New-York, they had hoped to make a fresh start in Brazil. However, being constantly on the run, the encounter with multitudes of Jewish refugees like him, and the feeling that his cultural world was lost, filled him with great despair. He could not find the strength to begin a new life.</span></span></span><span><span></span></span></p>\n<p><span><span><span>Zweig's suicide was criticized by many. But he was not the only one: two other Jewish intellectuals who were war refugees, the author Ernest Toller in New-York, and the philosopher Walter Benjamin in Portbou, had committed suicide before him.&#160;</span></span></span><span><span></span></span></p>\n<p><span><span>&#160;</span></span></p>\n<p><span><span><span>Zweig's suicide letter, written in German, was found by local police officers. They called in Fritz Weil, a German-Jewish manufacturer from Petropolis, to help them translate the letter to Portuguese. Having provided them with a translation of the letter, Fritz asked to purchase it, but was refused.&#160;&#160;In 1972 Weil finally managed to buy the letter from a retired police officer; in 1992 he donated the letter to the National Library of Israel in memory of his wife's parents who died in the Holocaust.</span></span></span><span><span></span></span></p>\n<p><span><span>&#160;</span></span></p>\n<p><span><span><span>The Letter</span></span></span><span><span></span></span></p>\n<p><span><span><span>Declaration</span></span></span><span><span></span></span></p>\n<p><span><span><span>Of my own will and in clear mind</span></span></span><span><span></span></span></p>\n<p><span><span><span>Every day I learned to love this country more, and I would not have asked to rebuild my life in any other place after the world of my own language sank and was lost to me and my spiritual homeland, Europe, destroyed itself.</span></span></span><span><span></span></span></p>\n<p><span><span>&#160;</span></span></p>\n<p><span><span><span>But to start everything anew after a man’s 60th year requires special powers, and my own power has been expended after years of wandering homeless. I thus prefer to end my life at the right time, upright, as a man for whom cultural work has always been his purest happiness and personal freedom – the most precious of possessions on this earth.</span></span></span><span><span></span></span></p>\n<p><span><span>&#160;</span></span></p>\n<p><span><span><span>I send greetings to all of my friends: May they live to see the dawn after this long night. I, who am most impatient, go before them.</span></span></span><span><span></span></span></p>\n<p><span><span><span>Stefan Zweig, Petropolis, 22.2.1942.</span></span></span></p>\n",
          "attachments": [
           {
            "guid": "727FFB5D-DFDA-063A-886C-FC628BE0C1E8",
@@ -6277,8 +6279,8 @@
           },
           {
            "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
-           "name": "Zweig's Letter To Martin Buber – on Judaism and Zionism",
-           "_name": "Zweig&apos;s Letter To Martin Buber &#8211; on Judaism and Zionism"
+           "name": "Zweig's Letter To Martin Buber",
+           "_name": "Zweig&apos;s Letter To Martin Buber"
           }
          ]
         },
@@ -6361,8 +6363,8 @@
           },
           {
            "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
-           "name": "Zweig's Letter To Martin Buber – on Judaism and Zionism",
-           "_name": "Zweig&apos;s Letter To Martin Buber &#8211; on Judaism and Zionism"
+           "name": "Zweig's Letter To Martin Buber",
+           "_name": "Zweig&apos;s Letter To Martin Buber"
           }
          ]
         },
@@ -6421,8 +6423,8 @@
           },
           {
            "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
-           "name": "Zweig's Letter To Martin Buber – on Judaism and Zionism",
-           "_name": "Zweig&apos;s Letter To Martin Buber &#8211; on Judaism and Zionism"
+           "name": "Zweig's Letter To Martin Buber",
+           "_name": "Zweig&apos;s Letter To Martin Buber"
           }
          ]
         },
@@ -6558,14 +6560,14 @@
           },
           {
            "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
-           "name": "Zweig's Letter To Martin Buber – on Judaism and Zionism",
-           "_name": "Zweig&apos;s Letter To Martin Buber &#8211; on Judaism and Zionism"
+           "name": "Zweig's Letter To Martin Buber",
+           "_name": "Zweig&apos;s Letter To Martin Buber"
           }
          ]
         },
         {
          "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
-         "name": "Zweig's Letter To Martin Buber – on Judaism and Zionism",
+         "name": "Zweig's Letter To Martin Buber",
          "data": "",
          "attachments": [
           {
@@ -6578,18 +6580,6 @@
            "attachmentType": "1",
            "location": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB\\Martin Buber.jpg",
            "dataLength": "51861",
-           "format": ".jpg"
-          },
-          {
-           "guid": "9B00A339-E469-66CF-C361-49C0475FFA91",
-           "AttachmentEntries": {
-            "attachmentEntryID": "83567A2D-B82E-438D-6533-963E1838DFAB"
-           },
-           "objectID": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
-           "name": "Zweig&apos;s Letter to Martin Buber, 24.1.1917, p.1.jpg",
-           "attachmentType": "1",
-           "location": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB\\Zweig&apos;s Letter to Martin Buber, 24.1.1917, p.1.jpg",
-           "dataLength": "74857",
            "format": ".jpg"
           }
          ],
@@ -6646,7 +6636,7 @@
            "bastardName": "Martin Buber (1878-1965)",
            "parent": {
             "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
-            "name": "Zweig's Letter To Martin Buber – on Judaism and Zionism"
+            "name": "Zweig's Letter To Martin Buber"
            },
            "hasChronologicalChildren": false,
            "children": [],
@@ -6656,26 +6646,13 @@
            "guid": "E6BEF91A-FBC5-E14F-9B65-4C7EA63AD875",
            "name": ":1: Zweig and Judaism",
            "data": "<p><span><span><span><span>Although born to Jewish parents, religion did not play a central role in Zweig's education.&#160; When asked about this in an interview, Zweig said: \"My mother and father were Jewish only through accident of birth\". Zweig believed in universalism and Europeanism and adopted Judaism only inasmuch as it supported these ideas. However, he did not renounce his Jewish faith and wrote repeatedly on Jews and Jewish themes - such as in his story <i>Buchmendel</i> - and his Jewish identity clearly played a significant role in his life: “I have been vitally interested in Jewish problems all my life,” he wrote, “vitally aware of the Jewish blood that is in me ever since I have been conscious of it.\"</span></span></span></span></p>\n",
-           "attachments": [
-            {
-             "guid": "947143FA-152D-05D0-05C9-0AC155F56D34",
-             "AttachmentEntries": {
-              "attachmentEntryID": "ACF2C040-52DD-5E45-0313-31007E3497F7"
-             },
-             "objectID": "E6BEF91A-FBC5-E14F-9B65-4C7EA63AD875",
-             "name": "Zweig&apos;s letter to Martin Buber,  24.1.1917, p.2, NLI.jpg",
-             "attachmentType": "1",
-             "location": "E6BEF91A-FBC5-E14F-9B65-4C7EA63AD875\\Zweig&apos;s letter to Martin Buber,  24.1.1917, p.2, NLI.jpg",
-             "dataLength": "75746",
-             "format": ".jpg"
-            }
-           ],
+           "attachments": [],
            "type": "chronological",
            "chronologicalId": "1",
            "chronologicalName": "Zweig and Judaism",
            "parent": {
             "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
-            "name": "Zweig's Letter To Martin Buber – on Judaism and Zionism"
+            "name": "Zweig's Letter To Martin Buber"
            },
            "hasChronologicalChildren": false,
            "children": [
@@ -6693,19 +6670,7 @@
                "name": "Balfour Declaration as published in The Times, 9th of November, 1917.jpg",
                "attachmentType": "1",
                "location": "BCD6A75F-82F3-6EDC-1024-7F03831F6CA0\\Balfour Declaration as published in The Times, 9th of November, 1917.jpg",
-               "dataLength": "95289",
-               "format": ".jpg"
-              },
-              {
-               "guid": "D75B561B-29AB-5A4C-1C88-6F8149B22705",
-               "AttachmentEntries": {
-                "attachmentEntryID": "AE619E52-59F2-780C-0E3B-FDB11F2003A7"
-               },
-               "objectID": "BCD6A75F-82F3-6EDC-1024-7F03831F6CA0",
-               "name": "Zweig&apos;s letter to Martin Buber,  24.1.1917, p.3, NLI.jpg",
-               "attachmentType": "1",
-               "location": "BCD6A75F-82F3-6EDC-1024-7F03831F6CA0\\Zweig&apos;s letter to Martin Buber,  24.1.1917, p.3, NLI.jpg",
-               "dataLength": "110695",
+               "dataLength": "99350",
                "format": ".jpg"
               }
              ],
@@ -6714,7 +6679,7 @@
              "chronologicalName": "Zweig and the Zionist Movement",
              "parent": {
               "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
-              "name": "Zweig's Letter To Martin Buber – on Judaism and Zionism"
+              "name": "Zweig's Letter To Martin Buber"
              },
              "hasChronologicalChildren": false,
              "children": [
@@ -6744,7 +6709,69 @@
                  "name": "Zweig&apos;s letter to Martin Buber,  24.1.1917, p.4, NLI.jpg",
                  "attachmentType": "1",
                  "location": "A39F194E-7EA0-E641-B943-A9255C33A28D\\Zweig&apos;s letter to Martin Buber,  24.1.1917, p.4, NLI.jpg",
-                 "dataLength": "106714",
+                 "dataLength": "70137",
+                 "format": ".jpg"
+                },
+                {
+                 "guid": "52C280E3-2A6F-42C4-21C8-124BFE30BBFC",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "D1275DEC-73F0-A3A9-2FA8-69761E34551D"
+                 },
+                 "objectID": "A39F194E-7EA0-E641-B943-A9255C33A28D",
+                 "name": "Zweig&apos;s Letter to Martin Buber,  24.1.1917, p.1, NLI.jpg",
+                 "attachmentType": "1",
+                 "location": "A39F194E-7EA0-E641-B943-A9255C33A28D\\Zweig&apos;s Letter to Martin Buber,  24.1.1917, p.1, NLI.jpg",
+                 "dataLength": "74857",
+                 "format": ".jpg"
+                },
+                {
+                 "guid": "9A40686D-F913-0CEA-6970-9E2FB3FBBCD0",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "D1275DEC-73F0-A3A9-2FA8-69761E34551D"
+                 },
+                 "objectID": "A39F194E-7EA0-E641-B943-A9255C33A28D",
+                 "name": "Zweig&apos;s letter to Martin Buber,  24.1.1917, p.2, NLI.jpg",
+                 "attachmentType": "1",
+                 "location": "A39F194E-7EA0-E641-B943-A9255C33A28D\\Zweig&apos;s letter to Martin Buber,  24.1.1917, p.2, NLI.jpg",
+                 "dataLength": "75746",
+                 "format": ".jpg"
+                },
+                {
+                 "guid": "B34B4E08-E86D-076E-22DB-7E1F37642620",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "D1275DEC-73F0-A3A9-2FA8-69761E34551D"
+                 },
+                 "objectID": "A39F194E-7EA0-E641-B943-A9255C33A28D",
+                 "name": "",
+                 "attachmentType": "0",
+                 "location": "",
+                 "dataLength": "0",
+                 "format": "",
+                 "deletedDateTime": "2014-02-24 16:15:18.469 @+0200"
+                },
+                {
+                 "guid": "2835D43D-DC33-9DF9-FF11-F80AFF5F2447",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "D1275DEC-73F0-A3A9-2FA8-69761E34551D"
+                 },
+                 "objectID": "A39F194E-7EA0-E641-B943-A9255C33A28D",
+                 "name": "",
+                 "attachmentType": "0",
+                 "location": "",
+                 "dataLength": "0",
+                 "format": "",
+                 "deletedDateTime": "2014-02-24 16:15:41.521 @+0200"
+                },
+                {
+                 "guid": "58FCC70A-A69F-3177-B745-CE4E88375BFC",
+                 "AttachmentEntries": {
+                  "attachmentEntryID": "D1275DEC-73F0-A3A9-2FA8-69761E34551D"
+                 },
+                 "objectID": "A39F194E-7EA0-E641-B943-A9255C33A28D",
+                 "name": "Zweig&apos;s letter to Martin Buber,  24.1.1917, p.3, NLI.jpg",
+                 "attachmentType": "1",
+                 "location": "A39F194E-7EA0-E641-B943-A9255C33A28D\\Zweig&apos;s letter to Martin Buber,  24.1.1917, p.3, NLI.jpg",
+                 "dataLength": "71888",
                  "format": ".jpg"
                 }
                ],
@@ -6753,7 +6780,7 @@
                "chronologicalName": "The Letter to Buber",
                "parent": {
                 "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
-                "name": "Zweig's Letter To Martin Buber – on Judaism and Zionism"
+                "name": "Zweig's Letter To Martin Buber"
                },
                "hasChronologicalChildren": false,
                "children": [],
@@ -7217,7 +7244,7 @@
       {
        "guid": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02",
        "name": "Philosopher and Critic",
-       "data": "<p><span><span><span>Benjamin’s philosophy drew on several sources:&#160; aesthetics, Marxist theory, the philosophy of Theodore Adorno and the Frankfurt School, and the influence of Jewish mysticism as encountered through the works of Gershom Scholem. Today, Walter Benjamin is perceived as a seminal critic of twentieth century western intellectual trends, someone who viewed the proletariat as the central force on the historical and cultural stage, understood the significance of the city in modernist perceptions and the new human experience, and dealt intensively in the importance of translation as a cultural act.</span></span></span><span><span></span></span></p>\n<p><span><span>&#160;</span></span></p>\n<p><span><span><span>Photograph of the Frankfurt School: &#160;Horkheimer (front left), &#160;Adorno (front right) and Habermas (background, right).&#160;</span></span></span></p>\n",
+       "data": "<p><span><span><span>Benjamin’s philosophy drew on several sources:&#160; aesthetics, Marxist theory, the philosophy of Theodore Adorno and the Frankfurt School, and the influence of Jewish mysticism as encountered through the works of Gershom Scholem. Today, Walter Benjamin is perceived as a seminal critic of twentieth century western intellectual trends, someone who viewed the proletariat as the central force on the historical and cultural stage, understood the significance of the city in modernist perceptions and the new human experience, and dealt intensively in the importance of translation as a cultural act.</span></span></span></p>\n",
        "attachments": [
         {
          "guid": "1CA2A9B4-5BB9-CD29-3CD4-109FA531BFD5",
@@ -7230,18 +7257,6 @@
          "location": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02\\Gershom Scholem.png",
          "dataLength": "53161",
          "format": ".png"
-        },
-        {
-         "guid": "0EF5F36C-446E-722B-B6F3-0F347DE8BC9D",
-         "AttachmentEntries": {
-          "attachmentEntryID": "E2BC6A1F-18BF-23B1-E6C7-A8B122028C24"
-         },
-         "objectID": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02",
-         "name": "Paris Arcades",
-         "attachmentType": "3",
-         "location": "http://www.youtube.com/watch?v=c6-weVtivNE",
-         "dataLength": "0",
-         "format": ""
         },
         {
          "guid": "204464E8-D25A-AE8E-0CA7-53C8D0FF598F",
@@ -7278,6 +7293,18 @@
          "location": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02\\Thumbs.db",
          "dataLength": "14848",
          "format": ".db"
+        },
+        {
+         "guid": "E29D7F3F-8AB9-D5B0-E142-2E713FC5A80E",
+         "AttachmentEntries": {
+          "attachmentEntryID": "E2BC6A1F-18BF-23B1-E6C7-A8B122028C24"
+         },
+         "objectID": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02",
+         "name": "The Passages of Walter Benjamin",
+         "attachmentType": "3",
+         "location": "http://www.youtube.com/watch?v=rsbzzMRdIBg&amp;feature=youtu.be",
+         "dataLength": "0",
+         "format": ".be"
         }
        ],
        "type": "default",
@@ -7460,9 +7487,9 @@
                     "attachmentEntryID": "FA74FE2C-DA64-7080-8ED5-047ED2B9B6E6"
                    },
                    "objectID": "97F1239D-149E-FD6A-7BF3-6C48E4B27E43",
-                   "name": "Walter Benjamin - Plaque comme&#9568;&#1489;morative 10 rue Dombasle, 75015 Paris.jpg",
+                   "name": "Walter Benjamin - Plaque commemorative 10 rue Dombasle, 75015 Paris.jpg",
                    "attachmentType": "1",
-                   "location": "97F1239D-149E-FD6A-7BF3-6C48E4B27E43\\Walter Benjamin - Plaque comme&#9568;&#1489;morative 10 rue Dombasle, 75015 Paris.jpg",
+                   "location": "97F1239D-149E-FD6A-7BF3-6C48E4B27E43\\Walter Benjamin - Plaque commemorative 10 rue Dombasle, 75015 Paris.jpg",
                    "dataLength": "64260",
                    "format": ".jpg"
                   }
@@ -7533,7 +7560,7 @@
                        "format": ".html"
                       },
                       {
-                       "guid": "2A6AC8F8-F908-9F8B-78C9-9EBDA0C6A126",
+                       "guid": "E9976759-60C2-C51A-1524-153F8FFC67FE",
                        "AttachmentEntries": {
                         "attachmentEntryID": "1D71BA3D-F811-F4BB-EFBB-5A15ACB2B0C1"
                        },
@@ -7541,7 +7568,7 @@
                        "name": "Walter Benjamin&apos;s grave in Portbou.jpg",
                        "attachmentType": "1",
                        "location": "5A10788F-2F22-AEC1-F1C1-1D90B2AB0CD0\\Walter Benjamin&apos;s grave in Portbou.jpg",
-                       "dataLength": "21030",
+                       "dataLength": "241449",
                        "format": ".jpg"
                       }
                      ],
@@ -7764,7 +7791,7 @@
         },
         {
          "guid": "1DD1B7AA-B6DC-8BF8-E629-916882ACB92A",
-         "name": "Commemorative Essay on Kafka",
+         "name": "Essay on Kafka",
          "data": "<p><b><i>Zur zehnten Wiederkehr seines Todestages, 1934</i></b></p>\n<p>This is Benjamin's personal copy of his essay commemorating Franz Kafka on the occasion of the ten year anniversary of his death, written in exile in 1934. Benjamin was one of the first scholars who dealt intensively with Kafka's work and its Jewish context. In this text he also discusses a number of famous works by Kafka, including <i>The Trial</i>. Like the others, Benjamin sent this typescript with his own handwritten corrections, to Scholem, who had been living in Jerusalem for over a decade.</p>\n",
          "attachments": [
           {
@@ -7851,8 +7878,8 @@
           },
           {
            "guid": "1DD1B7AA-B6DC-8BF8-E629-916882ACB92A",
-           "name": "Commemorative Essay on Kafka",
-           "_name": "Commemorative Essay on Kafka"
+           "name": "Essay on Kafka",
+           "_name": "Essay on Kafka"
           },
           {
            "guid": "07D1614D-6B22-3067-3DD4-4225322EB5C4",
@@ -7864,7 +7891,7 @@
         {
          "guid": "07D1614D-6B22-3067-3DD4-4225322EB5C4",
          "name": "Letter of the Spanish authorities",
-         "data": "<p>The<span> </span>Commissariat for Investigation and Vigilance in Figueras, Spain to Max Horkheimer, New York<b>, </b>October 30 1940:</p>\n<p>This letter, found in the NLI archives, was sent to Max Horkheimer, Benjamin's colleague and friend in New York, who had procured for him an entry visa to the US. The letter was no doubt written in response to Horkheimer's inquiries regarding the fate of his friend who was scheduled to arrive in New York via Spain and Portugal. The letter clearly attempts to exonerate the Spanish authorities from any responsibility for Benjamin's fate, claiming that his death was due to his poor physical condition. Neither the fact that he was about to be deported back to France by the Spanish authorities, nor the fact that he most probably committed suicide are mentioned.</p>\n<p>&#160;</p>\n<p dir=\"LTR\">October 30<sup>th</sup>, 1940</p>\n<p dir=\"LTR\">Mr. MAX HORKHEIMER</p>\n<p dir=\"LTR\">New York</p>\n<p dir=\"LTR\">General Directorate of Security</p>\n<p dir=\"LTR\">The commissariat for Investigation and Vigilance of the Eastern Frontier</p>\n<p dir=\"LTR\">FIGUERAS (Girona), Spain</p>\n<p dir=\"LTR\">Chief Commissary</p>\n<p dir=\"LTR\">&#160;</p>\n<p dir=\"LTR\">Dear Sir,</p>\n<p dir=\"LTR\">In response to your letter [of the] 11[th] of the current [month] regarding the Doctor of Philosophy Don BENJAMIN WALTER, I hereby inform you that the said gentleman entered Spain by way of Port-Bou, through the mountains, on September 25<sup>th</sup> last, at 20:00 with an authorization of entry expedited by the American consulate in Marseilles and a Spanish transit visa to Portugal. The said gentleman declared that he had left France clandestinely for lack of authorization and that he had walked from Banyuls (France) and that he had suffered a sunstroke and was quite ill. In view of his situation he moved into a hotel and was immediately visited by a doctor from Port-Bou, whose report certified that &#160;Mr. Walter was suffering from cerebral congestion and a bronchial catarrh which forced him to stay in bed. The same doctor certifies that don Benjamin Walter passed away at 22:00 on the 26<sup>th</sup> of the same month, as a result of a cerebral hemorrhage. The said gentleman made no declaration.</p>\n<p dir=\"LTR\">As you can see in the medical certificate, this is not a case of suicide but of natural death.</p>\n<p dir=\"LTR\">The Municipal Court of Port-Bou intervened In this unfortunate event, taking charge of Mr. Walter's belongings, which consisted of a leather briefcase such as are used by businessmen; a used gentleman's watch; a pipe; six photographs; one x-ray image; a pair of glasses; several letters; newspapers and a few papers, the content which is, however, unknown, as well as a sum of money from which we have deducted the expenses caused, leaving at present a sum of 273 pesetas.</p>\n<p dir=\"LTR\">All the items previously detailed are at the courthouse in Figueras, at the heirs' disposal; you may therefore contact the court as to the manner by which you can recuperate the said articles as well as any further details which might interest you. Figueras belongs to this province and is close to Port-Bou.</p>\n<p dir=\"LTR\">Very truly yours,</p>\n<p dir=\"LTR\">&#160;</p>\n<p dir=\"LTR\">P.A. [Signature]</p>\n",
+         "data": "<p>Letter of the<span> </span>Commissariat for Investigation and Vigilance in Figueras, Spain to Max Horkheimer, New York<b>, </b>October 30 1940:</p>\n<p>This letter, found in the NLI archives, was sent to Max Horkheimer, Benjamin's colleague and friend in New York, who had procured for him an entry visa to the US. The letter was no doubt written in response to Horkheimer's inquiries regarding the fate of his friend who was scheduled to arrive in New York via Spain and Portugal. The letter clearly attempts to exonerate the Spanish authorities from any responsibility for Benjamin's fate, claiming that his death was due to his poor physical condition. Neither the fact that he was about to be deported back to France by the Spanish authorities, nor the fact that he most probably committed suicide are mentioned.</p>\n<p>&#160;</p>\n<p dir=\"LTR\">October 30<sup>th</sup>, 1940</p>\n<p dir=\"LTR\">Mr. MAX HORKHEIMER</p>\n<p dir=\"LTR\">New York</p>\n<p dir=\"LTR\">General Directorate of Security</p>\n<p dir=\"LTR\">The commissariat for Investigation and Vigilance of the Eastern Frontier</p>\n<p dir=\"LTR\">FIGUERAS (Girona), Spain</p>\n<p dir=\"LTR\">Chief Commissary</p>\n<p dir=\"LTR\">&#160;</p>\n<p dir=\"LTR\">Dear Sir,</p>\n<p dir=\"LTR\">In response to your letter [of the] 11[th] of the current [month] regarding the Doctor of Philosophy Don BENJAMIN WALTER, I hereby inform you that the said gentleman entered Spain by way of Port-Bou, through the mountains, on September 25<sup>th</sup> last, at 20:00 with an authorization of entry expedited by the American consulate in Marseilles and a Spanish transit visa to Portugal. The said gentleman declared that he had left France clandestinely for lack of authorization and that he had walked from Banyuls (France) and that he had suffered a sunstroke and was quite ill. In view of his situation he moved into a hotel and was immediately visited by a doctor from Port-Bou, whose report certified that &#160;Mr. Walter was suffering from cerebral congestion and a bronchial catarrh which forced him to stay in bed. The same doctor certifies that don Benjamin Walter passed away at 22:00 on the 26<sup>th</sup> of the same month, as a result of a cerebral hemorrhage. The said gentleman made no declaration.</p>\n<p dir=\"LTR\">As you can see in the medical certificate, this is not a case of suicide but of natural death.</p>\n<p dir=\"LTR\">The Municipal Court of Port-Bou intervened In this unfortunate event, taking charge of Mr. Walter's belongings, which consisted of a leather briefcase such as are used by businessmen; a used gentleman's watch; a pipe; six photographs; one x-ray image; a pair of glasses; several letters; newspapers and a few papers, the content which is, however, unknown, as well as a sum of money from which we have deducted the expenses caused, leaving at present a sum of 273 pesetas.</p>\n<p dir=\"LTR\">All the items previously detailed are at the courthouse in Figueras, at the heirs' disposal; you may therefore contact the court as to the manner by which you can recuperate the said articles as well as any further details which might interest you. Figueras belongs to this province and is close to Port-Bou.</p>\n<p dir=\"LTR\">Very truly yours,</p>\n<p dir=\"LTR\">&#160;</p>\n<p dir=\"LTR\">P.A. [Signature]</p>\n",
          "attachments": [
           {
            "guid": "E7F444FF-4C20-E2DD-096E-3EFBBE0238E1",
@@ -7894,8 +7921,8 @@
           },
           {
            "guid": "1DD1B7AA-B6DC-8BF8-E629-916882ACB92A",
-           "name": "Commemorative Essay on Kafka",
-           "_name": "Commemorative Essay on Kafka"
+           "name": "Essay on Kafka",
+           "_name": "Essay on Kafka"
           },
           {
            "guid": "773D5BCA-C739-7062-0261-B746CF4091BA",
@@ -8023,18 +8050,6 @@
    "data": "<p><span><span><span>In 2010, a unique manuscript containing a rare collection of Kabbalah lectures - some of which were unknown until now - was discovered in an attic in Bnei-Brak, Israel. The manuscript, central to our understanding of Lurianic Kabbalah, was written by Rabbi Menahem de Lonzano in 1610, exactly 400 years before it was discovered in the attic. De Lonzano, an important scholar and a colourful figure, recorded the lectures of two famous students of R. Isaac Luria (1534-1572), the most significant figure in the Kabbalah movement in Safed (in the Land of Israel), only a few decades after they were given.</span></span></span></p>\n",
    "attachments": [
     {
-     "guid": "32B3C7F8-72F5-ECC9-FC12-9562B7560E52",
-     "AttachmentEntries": {
-      "attachmentEntryID": "85344F9A-9950-A274-8A2B-B80214591399"
-     },
-     "objectID": "127359C4-ED56-148C-0494-212AB1F43A86",
-     "name": "de  Lonzano,  &apos;Derushim&apos;, 1610,  fol.11, NLI.jpg",
-     "attachmentType": "1",
-     "location": "127359C4-ED56-148C-0494-212AB1F43A86\\de  Lonzano,  &apos;Derushim&apos;, 1610,  fol.11, NLI.jpg",
-     "dataLength": "402486",
-     "format": ".jpg"
-    },
-    {
      "guid": "809B2C7B-2152-92F9-1A75-9FDEE0C9CF64",
      "AttachmentEntries": {
       "attachmentEntryID": "85344F9A-9950-A274-8A2B-B80214591399"
@@ -8048,14 +8063,26 @@
      "deletedDateTime": "2014-01-28 15:07:06.323 @+0200"
     },
     {
-     "guid": "D0E61775-DA62-6D0D-AC76-BF8F30988D09",
+     "guid": "FE49C9E0-380A-DEBF-A0DA-9FF49419AF41",
      "AttachmentEntries": {
       "attachmentEntryID": "85344F9A-9950-A274-8A2B-B80214591399"
      },
      "objectID": "127359C4-ED56-148C-0494-212AB1F43A86",
-     "name": "de Lonzano, &apos;Derushim&apos;, 1610, fol.20, detail, NLI.jpg",
+     "name": "De  Lonzano,  &apos;Derushim&apos;, 1610,  fol.11, NLI.jpg",
      "attachmentType": "1",
-     "location": "127359C4-ED56-148C-0494-212AB1F43A86\\de Lonzano, &apos;Derushim&apos;, 1610, fol.20, detail, NLI.jpg",
+     "location": "127359C4-ED56-148C-0494-212AB1F43A86\\De  Lonzano,  &apos;Derushim&apos;, 1610,  fol.11, NLI.jpg",
+     "dataLength": "402486",
+     "format": ".jpg"
+    },
+    {
+     "guid": "87F959AC-974B-6984-4841-4E53198C9066",
+     "AttachmentEntries": {
+      "attachmentEntryID": "85344F9A-9950-A274-8A2B-B80214591399"
+     },
+     "objectID": "127359C4-ED56-148C-0494-212AB1F43A86",
+     "name": "De Lonzano, &apos;Derushim&apos;, 1610, fol.20, detail, NLI.jpg",
+     "attachmentType": "1",
+     "location": "127359C4-ED56-148C-0494-212AB1F43A86\\De Lonzano, &apos;Derushim&apos;, 1610, fol.20, detail, NLI.jpg",
      "dataLength": "156360",
      "format": ".jpg"
     }
@@ -8081,27 +8108,27 @@
        "data": "<p><span><span><span>De Lonzano's manuscript contains \"Derushim\" or&#160; lessons which he recorded from the writings of two famous Kabbalists from Safed, R. Hayyim Vital and R. Joseph b. Tabul, who passed on the mystical teachings of their teacher, the famous Rabbi Isaac Luria also known as </span></span><i><span><span>The Ari</span></span></i><span><span>. The book, 200 pages long, is full of De Lonzano's often quite critical comments. One of the newly discovered lessons, which is especially important, is Luria's </span></span><i><span><span>Lesson on the Primordial Man</span></span></i><span><span> </span></span></span><span><span><span>as passed on by Rabbi Hayyim Vital.</span></span></span></p>\n",
        "attachments": [
         {
-         "guid": "674113F6-3FD5-A3E6-F3B8-276BA05EC545",
+         "guid": "6F86206E-C074-96F7-9260-EEBB6E9AA69F",
          "AttachmentEntries": {
           "attachmentEntryID": "1DD874A8-5766-7C44-E96E-BCC206F1CFCD"
          },
          "objectID": "EDBD8E04-D63F-B5AF-1698-1132C1923A81",
-         "name": "de Lonzano, &apos;Derushim&apos;, detail with &apos;Bereshit&apos; (Genesis), Fol. 218, detail, NLI.jpg",
+         "name": "De Lonzano,  &apos;Avodat Mikdash&apos; (Temple Worship), manuscript, 1768, NLI.jpg",
          "attachmentType": "1",
-         "location": "EDBD8E04-D63F-B5AF-1698-1132C1923A81\\de Lonzano, &apos;Derushim&apos;, detail with &apos;Bereshit&apos; (Genesis), Fol. 218, detail, NLI.jpg",
-         "dataLength": "153309",
+         "location": "EDBD8E04-D63F-B5AF-1698-1132C1923A81\\De Lonzano,  &apos;Avodat Mikdash&apos; (Temple Worship), manuscript, 1768, NLI.jpg",
+         "dataLength": "173915",
          "format": ".jpg"
         },
         {
-         "guid": "CDB0106E-F372-BC20-C407-CE5FB3D9812A",
+         "guid": "BC216031-9AD3-61CE-3B07-BD6794C57131",
          "AttachmentEntries": {
           "attachmentEntryID": "1DD874A8-5766-7C44-E96E-BCC206F1CFCD"
          },
          "objectID": "EDBD8E04-D63F-B5AF-1698-1132C1923A81",
-         "name": "de Lonzano,  &apos;Avodat Mikdash&apos; (Temple&apos;s Worship), manuscript - 1768, p.2, NLI.jpg",
+         "name": "De Lonzano, &apos;Derushim&apos;, detail with &apos;Bereshit&apos; (Genesis), Fol. 218, detail, NLI.jpg",
          "attachmentType": "1",
-         "location": "EDBD8E04-D63F-B5AF-1698-1132C1923A81\\de Lonzano,  &apos;Avodat Mikdash&apos; (Temple&apos;s Worship), manuscript - 1768, p.2, NLI.jpg",
-         "dataLength": "173915",
+         "location": "EDBD8E04-D63F-B5AF-1698-1132C1923A81\\De Lonzano, &apos;Derushim&apos;, detail with &apos;Bereshit&apos; (Genesis), Fol. 218, detail, NLI.jpg",
+         "dataLength": "153309",
          "format": ".jpg"
         }
        ],
@@ -8277,14 +8304,14 @@
        "data": "<p><span><span><span>In 2010 a member of the </span></span><i><span><span>Hasidut</span></span></i><span><span> of the Gur </span></span><i><span><span>Rebbe</span></span></i><span><span> found an anonymous manuscript in his attic. The book was saved from disposal by his grandfather only because it contained the stamp of the first </span></span><i><span><span>Rebbe</span></span></i><span><span> of Radomsk, Rabbi Shlomo Ha-Cohen Rabinowitz (1801-1866). Curious about the value of the manuscript, the grandson contacted a dealer, who in his turn consulted an expert. To his surprise, the expert recognized the distinct writing of De Lonzano, and realized that he was holding a unique and treasured autograph.</span></span></span></p>\n",
        "attachments": [
         {
-         "guid": "8E9E0166-3CC6-08FC-212B-1A2C44B60B5F",
+         "guid": "D2BB5F7D-A42D-DD80-0585-3C9CF4693B52",
          "AttachmentEntries": {
           "attachmentEntryID": "0CBFAF74-F8DF-F100-CE9C-141D714A93F9"
          },
          "objectID": "6E7E005E-E885-AC0B-AA37-B6D5DB7DE578",
-         "name": "de Lonzano, &apos;Derushim&apos;, fol.1, NLI.jpg",
+         "name": "De Lonzano, &apos;Derushim&apos;, fol.1, NLI.jpg",
          "attachmentType": "1",
-         "location": "6E7E005E-E885-AC0B-AA37-B6D5DB7DE578\\de Lonzano, &apos;Derushim&apos;, fol.1, NLI.jpg",
+         "location": "6E7E005E-E885-AC0B-AA37-B6D5DB7DE578\\De Lonzano, &apos;Derushim&apos;, fol.1, NLI.jpg",
          "dataLength": "150362",
          "format": ".jpg"
         }
@@ -8301,17 +8328,17 @@
         {
          "guid": "C8B201A2-EC0D-A5FA-68D2-A24B3F926965",
          "name": ":2: When and Where was it written?",
-         "data": "<p><span><span><span>Menahem de Lonzano did not note at the end of his manuscript, as authors often did, either the place or the time in which he wrote it. Yet in one place he noted that \"the exile has lasted 370 years after the sixth millennium…Menahem D\"L\". This meant that the manuscript was copied 370 years after the creation of the world, which is the year 1610 CE, exactly 400 years before it was rediscovered.</span></span></span></p>\n<p><span><span><span>As for the place, it is likely that it was copied in Egypt, as De Lonzano mentions negotiations with a one of the great scholars living in Egypt at that t</span><span>im</span></span></span><span><span><span>e.&#160;</span></span></span></p>\n",
+         "data": "<p><span><span><span>Menahem de Lonzano did not note at the end of his manuscript, as authors often did, either the place or the time in which he wrote it. Yet in one place he noted that \"the exile has lasted 370 years …Menahem DL\". This meant that according to the Jewish calendar the manuscript was copied 370 years after the beginning of the sixth millennium of the creation of the universe, which is the year 1610 CE, exactly 400 years before it was rediscovered.</span></span></span><span><span></span></span></p>\n<p><span><span><span>As for the place, it is likely that it was copied in Egypt, as De Lonzano mentions negotiations with a one of the great scholars living in Egypt at that tim</span></span></span><span><span><span>e.&#160;</span></span></span></p>\n",
          "attachments": [
           {
-           "guid": "58F51631-7A69-018F-BAF7-8E37016247EA",
+           "guid": "34B44F98-14D6-9122-6CF8-F8514928521F",
            "AttachmentEntries": {
             "attachmentEntryID": "F7BB19D1-688F-F950-BA22-8AA1FCD065F3"
            },
            "objectID": "C8B201A2-EC0D-A5FA-68D2-A24B3F926965",
-           "name": "de Lonzano, &apos;Derushim&apos;, fol.18, detail, NLI.jpg",
+           "name": "De Lonzano, &apos;Derushim&apos;, fol.18, detail, NLI.jpg",
            "attachmentType": "1",
-           "location": "C8B201A2-EC0D-A5FA-68D2-A24B3F926965\\de Lonzano, &apos;Derushim&apos;, fol.18, detail, NLI.jpg",
+           "location": "C8B201A2-EC0D-A5FA-68D2-A24B3F926965\\De Lonzano, &apos;Derushim&apos;, fol.18, detail, NLI.jpg",
            "dataLength": "235900",
            "format": ".jpg"
           }
@@ -8446,9 +8473,9 @@
         "attachmentEntryID": "B2471148-46EE-0CC0-0FCE-3CC98BEFB253"
        },
        "objectID": "7660CE39-5432-7D03-DF5C-1645E15FBAF7",
-       "name": "Latin translation of a Kabalah text, Gikatilla&apos;s Shaarei Ora.jpg",
+       "name": "Portae Lucis, Latin translation of Gikatilla&apos;s Kabbalistic work Shaarei Ora - Gates of Light.jpg",
        "attachmentType": "1",
-       "location": "7660CE39-5432-7D03-DF5C-1645E15FBAF7\\Latin translation of a Kabalah text, Gikatilla&apos;s Shaarei Ora.jpg",
+       "location": "7660CE39-5432-7D03-DF5C-1645E15FBAF7\\Portae Lucis, Latin translation of Gikatilla&apos;s Kabbalistic work Shaarei Ora - Gates of Light.jpg",
        "dataLength": "430796",
        "format": ".jpg"
       }
@@ -8681,7 +8708,7 @@
       {
        "guid": "BBDC52AA-6BBB-9167-4038-76189F1461BF",
        "name": ":1: Christian Kabbalah",
-       "data": "<p><span><span><span>From the Rennaisance </span></span></span><span><span><span><span>onwards Jewish Kabbalistic texts entered non-Jewish culture. The Kabbalistic tradition was adopted by Western Esoteric tendencies. Christian intellectuals developed an interest in Kabbalah. Yochanan Alemanno (1435-after 1504), the Italian Jewish humanist, translated Kabbalistic texts to Latin and influenced the Italian philosopher Pico della Mirandola (1463-1494), who in turn, was instrumental in spreading Kabbalistic ideas. Syncretistic </span></span></span></span><span><span><span><span>traditions of <i>\"Christian Kabbalah</i>\" </span></span></span></span><span><span><span><span>and \"<i>Hermetic Kabbalah</i>\" </span></span></span></span><span><span><span><span>developed independently, reading the Jewish texts as universal, ancient w</span></span></span><span><span>isdom.</span></span></span></p>\n\n\n",
+       "data": "<p><span><span><span><i>From</i> the Rennaisance </span></span></span><span><span><span><span>onwards Jewish Kabbalistic texts entered non-Jewish culture. The Kabbalistic tradition was adopted by Western Esoteric tendencies. Christian intellectuals developed an interest in Kabbalah. Yochanan Alemanno (1435-after 1504), the Italian Jewish humanist, translated Kabbalistic texts to Latin and influenced the Italian philosopher Pico della Mirandola (1463-1494), who in turn, was instrumental in spreading Kabbalistic ideas. Syncretistic </span></span></span></span><span><span><span><span>traditions of <i>\"Christian Kabbalah</i>\" </span></span></span></span><span><span><span><span>and \"<i>Hermetic Kabbalah</i>\" </span></span></span></span><span><span><span><span>developed independently, reading the Jewish texts as universal, ancient w</span></span></span><span><span>isdom.</span></span></span></p>\n",
        "attachments": [
         {
          "guid": "71367AB6-880F-02CD-914F-7B61D3AD077C",
@@ -8713,9 +8740,9 @@
           "attachmentEntryID": "A782DBA7-5B84-6B4D-7339-1CD7AA42B4B2"
          },
          "objectID": "BBDC52AA-6BBB-9167-4038-76189F1461BF",
-         "name": "Matthaus Merian&apos;s engraving of Ezekiel&apos;s vision (1670).jpg",
+         "name": "A copy of Matthaus Merian&apos;s engraving of Ezekiel&apos;s vision,  Iconum Biblicarum (1670).jpg",
          "attachmentType": "1",
-         "location": "BBDC52AA-6BBB-9167-4038-76189F1461BF\\Matthaus Merian&apos;s engraving of Ezekiel&apos;s vision (1670).jpg",
+         "location": "BBDC52AA-6BBB-9167-4038-76189F1461BF\\A copy of Matthaus Merian&apos;s engraving of Ezekiel&apos;s vision,  Iconum Biblicarum (1670).jpg",
          "dataLength": "61028",
          "format": ".jpg"
         },
@@ -8818,8 +8845,8 @@
     },
     {
      "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-     "name": "Maps of The Holy Land",
-     "_name": "Maps of The Holy Land"
+     "name": "Maps of The Holy Land and Jerusalem",
+     "_name": "Maps of The Holy Land and Jerusalem"
     },
     {
      "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
@@ -8878,6 +8905,54 @@
    "type": "default",
    "hasChronologicalChildren": true,
    "children": [
+    {
+     "guid": "8E5F1F36-794D-9386-8CD6-504BA1C12B63",
+     "name": "Terms of Use and Credits",
+     "data": "",
+     "attachments": [],
+     "type": "default",
+     "parent": {
+      "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
+      "name": "The National Library of Israel"
+     },
+     "hasChronologicalChildren": true,
+     "children": [
+      {
+       "guid": "6053970D-6522-F249-7948-1F0088320C4D",
+       "name": ":1: Disclaimer",
+       "data": "<p><b><u><span>Disclaimer</span></u></b><span></span></p>\n<p><span>The materials contained in this Exhibition are the intellectual property of the National Library of Israel and of other third parties. Downloading and use of materials is permitted only for visitors to the Exhibition so that they may continue to experience the Exhibition after their visit, and then only within the \"fair use\" parameters of the applicable copyright legislation. Except as specified herein, the materials may not be copied, reproduced, published, submitted to third parties, distributed or otherwise used for any purpose, whether commercial or non-commercial, without the advance permission of the rights holders.</span></p>\n",
+       "attachments": [],
+       "type": "chronological",
+       "chronologicalId": "1",
+       "chronologicalName": "Disclaimer",
+       "parent": {
+        "guid": "8E5F1F36-794D-9386-8CD6-504BA1C12B63",
+        "name": "Terms of Use and Credits"
+       },
+       "hasChronologicalChildren": false,
+       "children": [
+        {
+         "guid": "AB8BC076-91F7-7A6C-8B7E-C2AF3B5DDD42",
+         "name": ":2: Credits",
+         "data": "<p><b><span>Credits</span></b></p>\n<p>&#160;</p>\n<p><b>Exhibition Staff</b></p>\n<p>Exhibition Curator:<b> </b>Dr. Milka Levy-Rubin</p>\n<p>Concept and Digital Architecture: Yechiam Halevy</p>\n<p>Interactive Design and Video: Nir Yenni</p>\n<p>Development Team: Gizra LTD</p>\n<p>Research and Production: Shay Eshel</p>\n<p>Spanish Translation: Ioram Melcer</p>\n<p>English Translation: Tichye Krakowsky</p>\n<p>Photography: Hanan Cohen</p>\n<p>&#160;</p>\n<p><b>NLI Contributors</b></p>\n<p>Ido Ivri, Strategy and Innovation</p>\n<p>Dr. Raquel Ukeles, &#160;Dr. Aviad Stollman, Collections Division</p>\n<p>Dr. Stefan Litt, Archives Department</p>\n<p>Anat Wax, Dr. Amalia Kedem, Gil Stein, Music Department</p>\n<p>Dr. Zvi Leshem, Scholem Collection</p>\n<p>Shai Chazan, Moran Yair, Digital Content</p>\n<p>Noam Solan, Liora Nixon, Intellectual Property Advisors</p>\n<p><span><span>Information Technology Department</span></span></p>\n<p><span><span><span>Department of Manuscripts and Rare Books</span></span></span><span><span></span></span></p>\n<p>&#160;</p>\n<p><b>Our thanks to all those who have contributed to this exhibition:</b></p>\n<p>Benatar sisters</p>\n<p>Prof. Rachel Elior</p>\n<p>Yacov Fuchs</p>\n<p>Dr. Benjamin Richler</p>\n<p>Perhiya and Avi Senderowitcz</p>\n<p>Prof. Judith Wechsler</p>\n<p>Dr. Shoshana Weich-Shahak</p>\n",
+         "attachments": [],
+         "type": "chronological",
+         "chronologicalId": "2",
+         "chronologicalName": "Credits",
+         "parent": {
+          "guid": "8E5F1F36-794D-9386-8CD6-504BA1C12B63",
+          "name": "Terms of Use and Credits"
+         },
+         "hasChronologicalChildren": false,
+         "children": [],
+         "brothers": []
+        }
+       ],
+       "brothers": []
+      }
+     ],
+     "brothers": []
+    },
     {
      "guid": "C1702A52-DDE2-96B8-01D8-7FA78990CDED",
      "name": "The Library's Collections",
@@ -9110,42 +9185,6 @@
              "data": "<p>The Humanities collection specializes in fields that have interacted historically with Jewish and Israeli culture, such as the Ancient Near East, the Mediterranean Basin and Western culture. The collection also provides research material to complement the other core collections. Highlights include ancient and medieval Christian manuscripts and the theological writings of Sir Isaac Newton.</p>\n",
              "attachments": [
               {
-               "guid": "C1E65E12-2986-BE01-1A22-D960B5D16C09",
-               "AttachmentEntries": {
-                "attachmentEntryID": "81F0CC2C-C589-983C-8EC8-86601235690D"
-               },
-               "objectID": "FBB87542-8711-9658-C73F-D63EC0CD546E",
-               "name": "Newton, Fragments on the kingdoms of the European tribes, the Temple and the history of Jewish and Christian Churches, NLI.jpg",
-               "attachmentType": "1",
-               "location": "FBB87542-8711-9658-C73F-D63EC0CD546E\\Newton, Fragments on the kingdoms of the European tribes, the Temple and the history of Jewish and Christian Churches, NLI.jpg",
-               "dataLength": "225185",
-               "format": ".jpg"
-              },
-              {
-               "guid": "DD58D5D1-A273-EB4C-F3B1-89EDA3B230DA",
-               "AttachmentEntries": {
-                "attachmentEntryID": "81F0CC2C-C589-983C-8EC8-86601235690D"
-               },
-               "objectID": "FBB87542-8711-9658-C73F-D63EC0CD546E",
-               "name": "Book of Hours, 15th century, Bruges, NLI .jpg",
-               "attachmentType": "1",
-               "location": "FBB87542-8711-9658-C73F-D63EC0CD546E\\Book of Hours, 15th century, Bruges, NLI .jpg",
-               "dataLength": "432242",
-               "format": ".jpg"
-              },
-              {
-               "guid": "910819C5-A2AC-9FFA-BB88-B630B13A34E9",
-               "AttachmentEntries": {
-                "attachmentEntryID": "81F0CC2C-C589-983C-8EC8-86601235690D"
-               },
-               "objectID": "FBB87542-8711-9658-C73F-D63EC0CD546E",
-               "name": "Napoleon&apos;s letter to  general Destaing during the campaign in Egypt, 9.7.1799 .jpg",
-               "attachmentType": "1",
-               "location": "FBB87542-8711-9658-C73F-D63EC0CD546E\\Napoleon&apos;s letter to  general Destaing during the campaign in Egypt, 9.7.1799 .jpg",
-               "dataLength": "485893",
-               "format": ".jpg"
-              },
-              {
                "guid": "F3004C46-ED16-C747-F7F6-AF8838852CF7",
                "AttachmentEntries": {
                 "attachmentEntryID": "81F0CC2C-C589-983C-8EC8-86601235690D"
@@ -9156,6 +9195,42 @@
                "location": "http://web.nli.org.il/sites/NLI/English/digitallibrary/gallery/Humanities/Pages/default.aspx",
                "dataLength": "0",
                "format": ".aspx"
+              },
+              {
+               "guid": "CB9AF409-7A0A-C0E2-89AD-311155E71085",
+               "AttachmentEntries": {
+                "attachmentEntryID": "81F0CC2C-C589-983C-8EC8-86601235690D"
+               },
+               "objectID": "FBB87542-8711-9658-C73F-D63EC0CD546E",
+               "name": "The Kiss of Judas, Book of Hours, Manuscript, 15th century, Bruges, NLI.jpg",
+               "attachmentType": "1",
+               "location": "FBB87542-8711-9658-C73F-D63EC0CD546E\\The Kiss of Judas, Book of Hours, Manuscript, 15th century, Bruges, NLI.jpg",
+               "dataLength": "112946",
+               "format": ".jpg"
+              },
+              {
+               "guid": "9561D6B0-AE2F-A33B-FE94-6066ACB036FE",
+               "AttachmentEntries": {
+                "attachmentEntryID": "81F0CC2C-C589-983C-8EC8-86601235690D"
+               },
+               "objectID": "FBB87542-8711-9658-C73F-D63EC0CD546E",
+               "name": "Paradise, opening page of an illuminated Armenian manuscript of the History of the World, 1693, NLI.jpg",
+               "attachmentType": "1",
+               "location": "FBB87542-8711-9658-C73F-D63EC0CD546E\\Paradise, opening page of an illuminated Armenian manuscript of the History of the World, 1693, NLI.jpg",
+               "dataLength": "295586",
+               "format": ".jpg"
+              },
+              {
+               "guid": "ADFC6682-C576-2DF2-A0C1-E6ADD3F10140",
+               "AttachmentEntries": {
+                "attachmentEntryID": "81F0CC2C-C589-983C-8EC8-86601235690D"
+               },
+               "objectID": "FBB87542-8711-9658-C73F-D63EC0CD546E",
+               "name": "Map of Asia according to Ptolemy&apos;s Cosmographia (2ed cent.), printed in Ulm 1486, with hand-drawn illustrations. Laor Collection, NLI.jpg",
+               "attachmentType": "1",
+               "location": "FBB87542-8711-9658-C73F-D63EC0CD546E\\Map of Asia according to Ptolemy&apos;s Cosmographia (2ed cent.), printed in Ulm 1486, with hand-drawn illustrations. Laor Collection, NLI.jpg",
+               "dataLength": "346843",
+               "format": ".jpg"
               }
              ],
              "type": "chronological",
@@ -9238,18 +9313,6 @@
        "data": "<p>In 1892, exactly 400 years after the expulsion of the Jews from Spain, a small \"Bnei Brith\" library, meant to serve as the core of a national library, was founded in Jerusalem.</p>\n<p>The idea of a national library materialized due to one man's determined efforts: In 1890, Joseph Chazanowitch, a learned Jewish scholar and physician from Russia, visited Palestine as part of a Zionist delegation. From that point forward he dedicated his life to the creation of a national Jewish library. By 1914, he had managed to collect 22,000 books. &#160;In 1899, Chazanowitch wrote:</p>\n<p>\"A big, high and lofty house will be built in Jerusalem where all the spiritual fruit of Israel will be preserved from the time it became a people…\".</p>\n",
        "attachments": [
         {
-         "guid": "BCF79A53-AA54-496D-6092-9DB1AD40348A",
-         "AttachmentEntries": {
-          "attachmentEntryID": "4A50F165-26D6-2D17-3601-76AACAF62D0F"
-         },
-         "objectID": "A18ECFA2-54E6-B8AC-CADA-10F771C5453E",
-         "name": "Reading room at Bet Neeman, the Midrash Abarbanel library, 1902 (photo Zadok Basan).jpg",
-         "attachmentType": "1",
-         "location": "A18ECFA2-54E6-B8AC-CADA-10F771C5453E\\Reading room at Bet Neeman, the Midrash Abarbanel library, 1902 (photo Zadok Basan).jpg",
-         "dataLength": "605610",
-         "format": ".jpg"
-        },
-        {
          "guid": "536DC623-0E41-1336-0D72-68E60A745A62",
          "AttachmentEntries": {
           "attachmentEntryID": "4A50F165-26D6-2D17-3601-76AACAF62D0F"
@@ -9259,6 +9322,18 @@
          "attachmentType": "1",
          "location": "A18ECFA2-54E6-B8AC-CADA-10F771C5453E\\Joseph Chasanowitz.jpg",
          "dataLength": "53145",
+         "format": ".jpg"
+        },
+        {
+         "guid": "9F359957-7C30-0759-4461-27B2A93A3C10",
+         "AttachmentEntries": {
+          "attachmentEntryID": "4A50F165-26D6-2D17-3601-76AACAF62D0F"
+         },
+         "objectID": "A18ECFA2-54E6-B8AC-CADA-10F771C5453E",
+         "name": "Copy ofReading room at Bet Neeman, the Midrash Abarbanel Library, 1902 (photo Zadok Basan).jpg",
+         "attachmentType": "1",
+         "location": "A18ECFA2-54E6-B8AC-CADA-10F771C5453E\\Copy ofReading room at Bet Neeman, the Midrash Abarbanel Library, 1902 (photo Zadok Basan).jpg",
+         "dataLength": "605610",
          "format": ".jpg"
         }
        ],
@@ -9352,18 +9427,6 @@
              "format": ".jpg"
             },
             {
-             "guid": "25B8A76E-CB06-76A5-C9F7-CAE344DE228C",
-             "AttachmentEntries": {
-              "attachmentEntryID": "8FC03C29-C352-4EA0-E519-D590C0EA6DA0"
-             },
-             "objectID": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36",
-             "name": "The Hebrew University of Jerusalem, The Spielberg Jewish Film Archive",
-             "attachmentType": "3",
-             "location": "http://www.youtube.com/watch?v=usrFycpdY-I",
-             "dataLength": "0",
-             "format": ""
-            },
-            {
              "guid": "094CA253-B9BF-5EDA-E7E3-2403AE9964E7",
              "AttachmentEntries": {
               "attachmentEntryID": "8FC03C29-C352-4EA0-E519-D590C0EA6DA0"
@@ -9409,18 +9472,6 @@
              "attachmentType": "1",
              "location": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36\\The return to the reading room of the library at Mount Scopus after twenty years of desolation.jpg",
              "dataLength": "101989",
-             "format": ".jpg"
-            },
-            {
-             "guid": "617EBF4D-18A1-2455-B53E-C6BBA6D22F79",
-             "AttachmentEntries": {
-              "attachmentEntryID": "8FC03C29-C352-4EA0-E519-D590C0EA6DA0"
-             },
-             "objectID": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36",
-             "name": "Inauguration ceremony of the Hebrew University, Mount Scopus, 1925.jpg",
-             "attachmentType": "1",
-             "location": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36\\Inauguration ceremony of the Hebrew University, Mount Scopus, 1925.jpg",
-             "dataLength": "77197",
              "format": ".jpg"
             }
            ],
@@ -9525,7 +9576,7 @@
                "children": [
                 {
                  "guid": "FFAE2D71-526E-95F7-91CF-0F9BE7892C77",
-                 "name": ":7: The National Library is Established",
+                 "name": ":7: The National Library Law is Enacted",
                  "data": "<p>In 2007, the National Library Law was enacted. The Knesset's (Israeli Parliament) mandate charged the National Library to collect, preserve, cultivate and endow treasures of knowledge, heritage and culture, with an emphasis on the Land of Israel, the State of Israel, and the Jewish people around the world. &#160;&#160;As of 2011, the Library was granted independent legal status &#160;</p>\n<p>The National Library's mission is to serve as the country's repository, to disseminate knowledge and offer democratic access to the vast world of physical and digital resources, as well as &#160;to establish the National Library as a center for cultural and educational activity.</p>\n<p>In order to fulfill its new role, the government allocated a prominent location, between the Knesset and the Israel Museum, for a new state-of-the-art facility which will be completed in 2017.</p>\n",
                  "attachments": [
                   {
@@ -9579,7 +9630,7 @@
                  ],
                  "type": "chronological",
                  "chronologicalId": "7",
-                 "chronologicalName": "The National Library is Established",
+                 "chronologicalName": "The National Library Law is Enacted",
                  "parent": {
                   "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
                   "name": "The National Library of Israel"
