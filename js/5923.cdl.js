@@ -61,16 +61,13 @@
   function prepareScenario() {
     var initialScaleOnZoom;
 
-    // Define
-
     function zoomstart() {
       initialScaleOnZoom = draw.getScale();
     }
 
     // Zoom Behaviours.
     function zoom() {
-      system
-        .attr('transform', 'translate(' + d3.event.translate + ')scale(' + d3.event.scale + ')');
+      system.attr('transform', 'translate(' + d3.event.translate + ')scale(' + d3.event.scale + ')');
 
       // Store current position and zoom ratio.
       draw.setPositionByTransform(system.attr('transform'));
@@ -81,29 +78,31 @@
       if (typeof draw.getScale() === 'undefined' || initialScaleOnZoom === draw.getScale()) {
         return;
       }
-      // Redraw the chart.
+
       draw.all(draw.getScale());
     }
 
     zoomSvg = d3.behavior.zoom()
-      .center([window.innerWidth / 2, window.innerHeight / 2])
-      .scaleExtent([config.chart.initial.minZoom, config.chart.initial.maxZoom])
-      .on('zoomstart', zoomstart)
-      .on('zoom', zoom)
-      .on('zoomend', zoomend);
+        .center([window.innerWidth / 2, window.innerHeight / 2])
+        .scaleExtent([config.chart.initial.minZoom, config.chart.initial.maxZoom])
+        .on('zoomstart', zoomstart)
+        .on('zoom', zoom)
+        .on('zoomend', zoomend);
 
     // Canvas.
     svgContainer = d3.select('body').append('svg')
-      .attr('id', 'chart')
-      .attr('width', '100%')
-      .attr('height', '100%')
-      .style('fill', 'transparent')
-      .on('dblclick.zoom', null)
-      .on('touch', null)
-      .on('touchstart', null)
-      .on('touchmove', null)
-      .on('touchend', null)
-      .call(zoomSvg);
+        .attr('id', 'chart')
+        .attr('width', '100%')
+        .attr('height', '100%')
+        .style('fill', 'transparent')
+        .on('dblclick.zoom', function(){d3.event.stopPropagation();})
+        .on('touchstart', function(){d3.event.preventDefault();})
+        .on('touchmove', zoomSvg)
+        .on('touchend', function(){d3.event.preventDefault();})
+        .on('gesturestart', function(){d3.event.stopPropagation();})
+        .on('gesturechange', zoomSvg)
+        .on('gestureend', function(){d3.event.stopPropagation();})
+        .call(zoomSvg);
 
     // Background.
     background =  svgContainer.append('rect')
