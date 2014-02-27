@@ -90,7 +90,7 @@
           x: 600,
           y: -150,
           styleNode: 'translation',
-          url: 'http://bnideposito.fundaciongsr.com/'
+          url: 'http://gizra.github.io/CDL-ES/'
         }
       }
     };

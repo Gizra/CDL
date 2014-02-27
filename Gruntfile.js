@@ -427,23 +427,23 @@ module.exports = function (grunt) {
         overwrite: true,
         replacements: [{
           from: '<link rel="stylesheet" href="css/',
-          to: '<link rel="stylesheet" href="//nlideposit.fundaciongsr.com/css/'
+          to: '<link rel="stylesheet" href="//gizra.github.io/CDL/css/'
         },
         {
           from: '<script src="js/',
-          to: '<script src="//nlideposit.fundaciongsr.com/js/'
+          to: '<script src="//gizra.github.io/CDL/js/'
         },
         {
           from: '<script src="/js/',
-          to: '<script src="//nlideposit.fundaciongsr.com/js/'
+          to: '<script src="//gizra.github.io/CDL/js/'
         },
         {
           from: 'url(/fonts/',
-          to: 'url(http://nlideposit.fundaciongsr.com/fonts/'
+          to: 'url(http://gizra.github.io/CDL/fonts/'
         },
         {
           from: 'url(/images/',
-          to: 'url(http://nlideposit.fundaciongsr.com/images/'
+          to: 'url(http://gizra.github.io/CDL/images/'
         }]
       }
     },
