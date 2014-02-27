@@ -21,6 +21,7 @@
     }
    ],
    "type": "default",
+   "_depth": 1,
    "hasChronologicalChildren": false,
    "children": [
     {
@@ -54,10 +55,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
-      "name": "Maimonides' Commentary on the Mishnah"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": false,
      "children": [
       {
@@ -103,6 +101,7 @@
         }
        ],
        "type": "default",
+       "_depth": 3,
        "parent": {
         "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
         "name": "The Commentary"
@@ -185,6 +184,7 @@
        ],
        "type": "bastard",
        "bastardName": "What is the Mishnah?",
+       "_depth": 3,
        "parent": {
         "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
         "name": "The Commentary"
@@ -237,6 +237,7 @@
        ],
        "type": "bastard",
        "bastardName": "What is the Talmud?",
+       "_depth": 3,
        "parent": {
         "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
         "name": "The Commentary"
@@ -275,6 +276,7 @@
        "data": "",
        "attachments": [],
        "type": "default",
+       "_depth": 3,
        "parent": {
         "guid": "4504BA63-8A03-E369-3B65-6AA7A2D71392",
         "name": "The Commentary"
@@ -302,6 +304,7 @@
          "type": "chronological",
          "chronologicalId": "1",
          "chronologicalName": "From Egypt to Aleppo",
+         "_depth": 4,
          "parent": {
           "guid": "BBABED78-4615-B590-7227-87D4BA75B9E2",
           "name": "The History of the Manuscript"
@@ -329,6 +332,7 @@
            "type": "chronological",
            "chronologicalId": "2",
            "chronologicalName": "The Library in Aleppo",
+           "_depth": 4,
            "parent": {
             "guid": "BBABED78-4615-B590-7227-87D4BA75B9E2",
             "name": "The History of the Manuscript"
@@ -356,6 +360,7 @@
              "type": "chronological",
              "chronologicalId": "3",
              "chronologicalName": "The Dispersal of the Library",
+             "_depth": 4,
              "parent": {
               "guid": "BBABED78-4615-B590-7227-87D4BA75B9E2",
               "name": "The History of the Manuscript"
@@ -395,6 +400,7 @@
                "type": "chronological",
                "chronologicalId": "4",
                "chronologicalName": "From Aleppo to the NLI",
+               "_depth": 4,
                "parent": {
                 "guid": "BBABED78-4615-B590-7227-87D4BA75B9E2",
                 "name": "The History of the Manuscript"
@@ -450,10 +456,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
-      "name": "Maimonides' Commentary on the Mishnah"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -477,6 +480,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "Maimonides in Cordoba",
+       "_depth": 3,
        "parent": {
         "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
         "name": "A Remarkable Life Story"
@@ -528,6 +532,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "Master of Jewish Law and the Liberal Arts",
+         "_depth": 3,
          "parent": {
           "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
           "name": "A Remarkable Life Story"
@@ -555,6 +560,7 @@
            "type": "chronological",
            "chronologicalId": "3",
            "chronologicalName": "Intellectual Milieu and Influences",
+           "_depth": 3,
            "parent": {
             "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
             "name": "A Remarkable Life Story"
@@ -582,6 +588,7 @@
              "type": "chronological",
              "chronologicalId": "4",
              "chronologicalName": "Forced to Leave Cordoba",
+             "_depth": 3,
              "parent": {
               "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
               "name": "A Remarkable Life Story"
@@ -621,6 +628,7 @@
                "type": "chronological",
                "chronologicalId": "5",
                "chronologicalName": "1160-1165 - Forced Conversion",
+               "_depth": 3,
                "parent": {
                 "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
                 "name": "A Remarkable Life Story"
@@ -648,6 +656,7 @@
                  "type": "chronological",
                  "chronologicalId": "6",
                  "chronologicalName": "Pilgrimage to the Holy Land",
+                 "_depth": 3,
                  "parent": {
                   "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
                   "name": "A Remarkable Life Story"
@@ -687,6 +696,7 @@
                    "type": "chronological",
                    "chronologicalId": "7",
                    "chronologicalName": "Moving to Old Cairo (Fustat)",
+                   "_depth": 3,
                    "parent": {
                     "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
                     "name": "A Remarkable Life Story"
@@ -714,6 +724,7 @@
                      "type": "chronological",
                      "chronologicalId": "8",
                      "chronologicalName": "Court  Physician of the Ayyubids",
+                     "_depth": 3,
                      "parent": {
                       "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
                       "name": "A Remarkable Life Story"
@@ -777,6 +788,7 @@
                        "type": "chronological",
                        "chronologicalId": "9",
                        "chronologicalName": "Head of the  Jewish Community",
+                       "_depth": 3,
                        "parent": {
                         "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
                         "name": "A Remarkable Life Story"
@@ -816,6 +828,7 @@
                          "type": "chronological",
                          "chronologicalId": "10",
                          "chronologicalName": "Death",
+                         "_depth": 3,
                          "parent": {
                           "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
                           "name": "A Remarkable Life Story"
@@ -873,10 +886,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
-      "name": "Maimonides' Commentary on the Mishnah"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -936,6 +946,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "The  Mishneh Torah",
+       "_depth": 3,
        "parent": {
         "guid": "D426D901-F0FB-99E7-6E57-289CFFFBDD64",
         "name": "Other Masterpieces of Maimonides"
@@ -975,6 +986,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "The NLI manuscript",
+         "_depth": 3,
          "parent": {
           "guid": "D426D901-F0FB-99E7-6E57-289CFFFBDD64",
           "name": "Other Masterpieces of Maimonides"
@@ -1002,6 +1014,7 @@
            "type": "chronological",
            "chronologicalId": "3",
            "chronologicalName": "The Guide of the Perplexed",
+           "_depth": 3,
            "parent": {
             "guid": "D426D901-F0FB-99E7-6E57-289CFFFBDD64",
             "name": "Other Masterpieces of Maimonides"
@@ -1020,56 +1033,7 @@
      "brothers": []
     }
    ],
-   "brothers": [
-    {
-     "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
-     "name": "The Islam Collection",
-     "_name": "The Islam Collection",
-     "result": null
-    },
-    {
-     "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-     "name": "Elimelech Basch's Diary",
-     "_name": "Elimelech Basch&apos;s Diary",
-     "result": null
-    },
-    {
-     "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
-     "name": "The Torah Scroll From Spain",
-     "_name": "The Torah Scroll From Spain",
-     "result": null
-    },
-    {
-     "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
-     "name": "Newton's Theological Papers",
-     "_name": "Newton&apos;s Theological Papers",
-     "result": null
-    },
-    {
-     "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-     "name": "Maps of The Holy Land and Jerusalem",
-     "_name": "Maps of The Holy Land and Jerusalem",
-     "result": null
-    },
-    {
-     "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-     "name": "Zweig, Benjamin and Kafka",
-     "_name": "Zweig, Benjamin and Kafka",
-     "result": null
-    },
-    {
-     "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
-     "name": "De Lonzano Kabbalistic Manuscript",
-     "_name": "De Lonzano Kabbalistic Manuscript",
-     "result": null
-    },
-    {
-     "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
-     "name": "The National Library of Israel",
-     "_name": "The National Library of Israel",
-     "result": null
-    }
-   ]
+   "brothers": []
   },
   {
    "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
@@ -1090,6 +1054,7 @@
     }
    ],
    "type": "default",
+   "_depth": 1,
    "hasChronologicalChildren": false,
    "children": [
     {
@@ -1098,10 +1063,7 @@
      "data": "",
      "attachments": [],
      "type": "default",
-     "parent": {
-      "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
-      "name": "The Islam Collection"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -1125,6 +1087,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "A Ninth Century Qur'an",
+       "_depth": 3,
        "parent": {
         "guid": "B996E13B-ADA2-C7E2-8DAF-5BFC40D2738A",
         "name": "Qur'an Manuscripts at NLI"
@@ -1152,6 +1115,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "An Andalusian Qur'an",
+         "_depth": 3,
          "parent": {
           "guid": "B996E13B-ADA2-C7E2-8DAF-5BFC40D2738A",
           "name": "Qur'an Manuscripts at NLI"
@@ -1172,10 +1136,7 @@
      "data": "",
      "attachments": [],
      "type": "default",
-     "parent": {
-      "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
-      "name": "The Islam Collection"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -1199,6 +1160,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "The Manuscript",
+       "_depth": 3,
        "parent": {
         "guid": "B45E9A40-A718-3240-108E-447339EC7AF7",
         "name": "Jami’s “Gift to the Noble”"
@@ -1226,6 +1188,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "The Persian Garden Miniatures",
+         "_depth": 3,
          "parent": {
           "guid": "B45E9A40-A718-3240-108E-447339EC7AF7",
           "name": "Jami’s “Gift to the Noble”"
@@ -1259,10 +1222,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
-      "name": "The Islam Collection"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": false,
      "children": [],
      "brothers": [
@@ -1317,10 +1277,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
-      "name": "The Islam Collection"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": false,
      "children": [],
      "brothers": [
@@ -1375,10 +1332,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
-      "name": "The Islam Collection"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -1387,6 +1341,7 @@
        "data": "",
        "attachments": [],
        "type": "default",
+       "_depth": 3,
        "parent": {
         "guid": "E9D2870A-9528-B9CE-9EE5-E667565D0126",
         "name": "Yahuda  -  Collector and Scholar"
@@ -1450,6 +1405,7 @@
          "type": "chronological",
          "chronologicalId": "1",
          "chronologicalName": "Jewish manuscripts",
+         "_depth": 4,
          "parent": {
           "guid": "79B40A33-627E-2A53-5707-5A3C129A9EE6",
           "name": "Exquisite Manuscript Collection"
@@ -1477,6 +1433,7 @@
            "type": "chronological",
            "chronologicalId": "2",
            "chronologicalName": "Documents regarding the Jewish community in Spain",
+           "_depth": 4,
            "parent": {
             "guid": "79B40A33-627E-2A53-5707-5A3C129A9EE6",
             "name": "Exquisite Manuscript Collection"
@@ -1528,6 +1485,7 @@
              "type": "chronological",
              "chronologicalId": "3",
              "chronologicalName": "Eastern Manuscripts",
+             "_depth": 4,
              "parent": {
               "guid": "79B40A33-627E-2A53-5707-5A3C129A9EE6",
               "name": "Exquisite Manuscript Collection"
@@ -1579,6 +1537,7 @@
                "type": "chronological",
                "chronologicalId": "4",
                "chronologicalName": "Western Manuscripts",
+               "_depth": 4,
                "parent": {
                 "guid": "79B40A33-627E-2A53-5707-5A3C129A9EE6",
                 "name": "Exquisite Manuscript Collection"
@@ -1620,6 +1579,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "Life",
+       "_depth": 3,
        "parent": {
         "guid": "E9D2870A-9528-B9CE-9EE5-E667565D0126",
         "name": "Yahuda  -  Collector and Scholar"
@@ -1647,6 +1607,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "Education",
+         "_depth": 3,
          "parent": {
           "guid": "E9D2870A-9528-B9CE-9EE5-E667565D0126",
           "name": "Yahuda  -  Collector and Scholar"
@@ -1674,6 +1635,7 @@
            "type": "chronological",
            "chronologicalId": "3",
            "chronologicalName": "From Madrid to Europe and the East",
+           "_depth": 3,
            "parent": {
             "guid": "E9D2870A-9528-B9CE-9EE5-E667565D0126",
             "name": "Yahuda  -  Collector and Scholar"
@@ -1688,6 +1650,7 @@
              "type": "chronological",
              "chronologicalId": "4",
              "chronologicalName": "America",
+             "_depth": 3,
              "parent": {
               "guid": "E9D2870A-9528-B9CE-9EE5-E667565D0126",
               "name": "Yahuda  -  Collector and Scholar"
@@ -1714,10 +1677,7 @@
      "data": "",
      "attachments": [],
      "type": "default",
-     "parent": {
-      "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
-      "name": "The Islam Collection"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -1741,6 +1701,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "The Shirazi Qur’an",
+       "_depth": 3,
        "parent": {
         "guid": "CDD19939-20FC-9662-CA45-A7ACE1D5FCC7",
         "name": "Story of the Shirazi Qur’an"
@@ -1768,6 +1729,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "Between Shi‘a and Sunnah",
+         "_depth": 3,
          "parent": {
           "guid": "CDD19939-20FC-9662-CA45-A7ACE1D5FCC7",
           "name": "Story of the Shirazi Qur’an"
@@ -1795,6 +1757,7 @@
            "type": "chronological",
            "chronologicalId": "3",
            "chronologicalName": "At the Hands of the Ottoman Sultan",
+           "_depth": 3,
            "parent": {
             "guid": "CDD19939-20FC-9662-CA45-A7ACE1D5FCC7",
             "name": "Story of the Shirazi Qur’an"
@@ -1822,6 +1785,7 @@
              "type": "chronological",
              "chronologicalId": "4",
              "chronologicalName": "The Selim Nameh Manuscript",
+             "_depth": 3,
              "parent": {
               "guid": "CDD19939-20FC-9662-CA45-A7ACE1D5FCC7",
               "name": "Story of the Shirazi Qur’an"
@@ -1849,6 +1813,7 @@
                "type": "chronological",
                "chronologicalId": "5",
                "chronologicalName": "Sultan Selim as the Defender of Islam",
+               "_depth": 3,
                "parent": {
                 "guid": "CDD19939-20FC-9662-CA45-A7ACE1D5FCC7",
                 "name": "Story of the Shirazi Qur’an"
@@ -1873,56 +1838,7 @@
      "brothers": []
     }
    ],
-   "brothers": [
-    {
-     "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
-     "name": "Maimonides' Commentary on the Mishnah",
-     "_name": "Maimonides' Commentary on the Mishnah",
-     "result": null
-    },
-    {
-     "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-     "name": "Elimelech Basch's Diary",
-     "_name": "Elimelech Basch&apos;s Diary",
-     "result": null
-    },
-    {
-     "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
-     "name": "The Torah Scroll From Spain",
-     "_name": "The Torah Scroll From Spain",
-     "result": null
-    },
-    {
-     "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
-     "name": "Newton's Theological Papers",
-     "_name": "Newton&apos;s Theological Papers",
-     "result": null
-    },
-    {
-     "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-     "name": "Maps of The Holy Land and Jerusalem",
-     "_name": "Maps of The Holy Land and Jerusalem",
-     "result": null
-    },
-    {
-     "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-     "name": "Zweig, Benjamin and Kafka",
-     "_name": "Zweig, Benjamin and Kafka",
-     "result": null
-    },
-    {
-     "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
-     "name": "De Lonzano Kabbalistic Manuscript",
-     "_name": "De Lonzano Kabbalistic Manuscript",
-     "result": null
-    },
-    {
-     "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
-     "name": "The National Library of Israel",
-     "_name": "The National Library of Israel",
-     "result": null
-    }
-   ]
+   "brothers": []
   },
   {
    "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
@@ -1956,6 +1872,7 @@
     }
    ],
    "type": "default",
+   "_depth": 1,
    "hasChronologicalChildren": true,
    "children": [
     {
@@ -2049,10 +1966,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-      "name": "Elimelech Basch's Diary"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -2088,6 +2002,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "A National Language",
+       "_depth": 3,
        "parent": {
         "guid": "016140EA-7FBC-4959-0C2E-4C0F883530AD",
         "name": "The Hebrew Language"
@@ -2168,10 +2083,7 @@
      "type": "chronological",
      "chronologicalId": "1",
      "chronologicalName": "The Jewish Community of Tiachiv",
-     "parent": {
-      "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-      "name": "Elimelech Basch's Diary"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": false,
      "children": [
       {
@@ -2255,10 +2167,7 @@
        "type": "chronological",
        "chronologicalId": "2",
        "chronologicalName": "Dark Times",
-       "parent": {
-        "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-        "name": "Elimelech Basch's Diary"
-       },
+       "_depth": 2,
        "hasChronologicalChildren": false,
        "children": [
         {
@@ -2412,10 +2321,7 @@
           }
          ],
          "type": "default",
-         "parent": {
-          "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-          "name": "Elimelech Basch's Diary"
-         },
+         "_depth": 3,
          "hasChronologicalChildren": false,
          "children": [],
          "brothers": []
@@ -2441,10 +2347,7 @@
          "type": "chronological",
          "chronologicalId": "3",
          "chronologicalName": "The family's Last Days",
-         "parent": {
-          "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-          "name": "Elimelech Basch's Diary"
-         },
+         "_depth": 2,
          "hasChronologicalChildren": false,
          "children": [
           {
@@ -2468,10 +2371,7 @@
            "type": "chronological",
            "chronologicalId": "4",
            "chronologicalName": "Deportation to the Death Camps",
-           "parent": {
-            "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-            "name": "Elimelech Basch's Diary"
-           },
+           "_depth": 2,
            "hasChronologicalChildren": false,
            "children": [
             {
@@ -2519,10 +2419,7 @@
              "type": "chronological",
              "chronologicalId": "5",
              "chronologicalName": "Surviving Daughter in Israel",
-             "parent": {
-              "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-              "name": "Elimelech Basch's Diary"
-             },
+             "_depth": 2,
              "hasChronologicalChildren": false,
              "children": [
               {
@@ -2608,10 +2505,7 @@
                "type": "chronological",
                "chronologicalId": "6",
                "chronologicalName": "The Diary at The National Library",
-               "parent": {
-                "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-                "name": "Elimelech Basch's Diary"
-               },
+               "_depth": 2,
                "hasChronologicalChildren": false,
                "children": [],
                "brothers": []
@@ -2665,6 +2559,7 @@
     }
    ],
    "type": "default",
+   "_depth": 1,
    "hasChronologicalChildren": false,
    "children": [
     {
@@ -2736,10 +2631,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
-      "name": "The Torah Scroll From Spain"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -2800,6 +2692,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "From Spain to Rhodes",
+       "_depth": 3,
        "parent": {
         "guid": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
         "name": "From Spain to Jerusalem"
@@ -2888,6 +2781,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "Kahal Shalom Synagogue",
+         "_depth": 3,
          "parent": {
           "guid": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
           "name": "From Spain to Jerusalem"
@@ -2913,6 +2807,7 @@
             }
            ],
            "type": "default",
+           "_depth": 4,
            "parent": {
             "guid": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
             "name": "From Spain to Jerusalem"
@@ -2966,6 +2861,7 @@
            "type": "chronological",
            "chronologicalId": "3",
            "chronologicalName": "The Nazi Occupation",
+           "_depth": 3,
            "parent": {
             "guid": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
             "name": "From Spain to Jerusalem"
@@ -3017,6 +2913,7 @@
              "type": "chronological",
              "chronologicalId": "4",
              "chronologicalName": "Final Stop - the National Library",
+             "_depth": 3,
              "parent": {
               "guid": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
               "name": "From Spain to Jerusalem"
@@ -3056,10 +2953,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
-      "name": "The Torah Scroll From Spain"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -3108,6 +3002,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "Other Torah Scrolls at NLI",
+       "_depth": 3,
        "parent": {
         "guid": "7F13F425-9474-7539-509D-FEDE3A2F8619",
         "name": "Other Torah manuscripts at the NLI"
@@ -3160,6 +3055,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "The Damascus Crown (Keter) from Spain",
+         "_depth": 3,
          "parent": {
           "guid": "7F13F425-9474-7539-509D-FEDE3A2F8619",
           "name": "Other Torah manuscripts at the NLI"
@@ -3172,6 +3068,7 @@
            "data": "<p><span><span>The name </span><i><span>Keter</span></i><span>, meaning crown in Hebrew, originally referred to one very special codex of the Torah, which was written with punctuation and cantillation marks in the city of Tiberias (Eretz Israel) by Aaron ben Asher. Receiving later Maimonides' approbation as the most precise edition of the text, it became the most cherished manuscript of the Torah. The manuscript, which ended up in Aleppo (Syria), was rescued by Jews and brought to Israel and is now on permanent display at the Israel Museum. &#160;Over time, the term </span><i><span>Keter</span></i><span> came to include any codex of the Bible or one of its components which includes vocalization and masoretic marks.</span></span></p>\n",
            "attachments": [],
            "type": "default",
+           "_depth": 4,
            "parent": {
             "guid": "7F13F425-9474-7539-509D-FEDE3A2F8619",
             "name": "Other Torah manuscripts at the NLI"
@@ -3213,6 +3110,7 @@
            "type": "chronological",
            "chronologicalId": "3",
            "chronologicalName": "Journey of the Edel Torah",
+           "_depth": 3,
            "parent": {
             "guid": "7F13F425-9474-7539-509D-FEDE3A2F8619",
             "name": "Other Torah manuscripts at the NLI"
@@ -3249,10 +3147,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
-      "name": "The Torah Scroll From Spain"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -3300,6 +3195,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "Reading The Torah",
+       "_depth": 3,
        "parent": {
         "guid": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
         "name": "Torah Introduction"
@@ -3339,6 +3235,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "Making the Torah Scroll",
+         "_depth": 3,
          "parent": {
           "guid": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
           "name": "Torah Introduction"
@@ -3353,6 +3250,7 @@
            "type": "chronological",
            "chronologicalId": "3",
            "chronologicalName": "Torah Accessories",
+           "_depth": 3,
            "parent": {
             "guid": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
             "name": "Torah Introduction"
@@ -3392,6 +3290,7 @@
              "type": "chronological",
              "chronologicalId": "4",
              "chronologicalName": "The Coat/Case",
+             "_depth": 3,
              "parent": {
               "guid": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
               "name": "Torah Introduction"
@@ -3419,6 +3318,7 @@
                "type": "chronological",
                "chronologicalId": "5",
                "chronologicalName": "Breastplate",
+               "_depth": 3,
                "parent": {
                 "guid": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
                 "name": "Torah Introduction"
@@ -3446,6 +3346,7 @@
                  "type": "chronological",
                  "chronologicalId": "6",
                  "chronologicalName": "The Reading Pointer",
+                 "_depth": 3,
                  "parent": {
                   "guid": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
                   "name": "Torah Introduction"
@@ -3473,6 +3374,7 @@
                    "type": "chronological",
                    "chronologicalId": "7",
                    "chronologicalName": "The Finials",
+                   "_depth": 3,
                    "parent": {
                     "guid": "AC791DF6-12F4-259A-66B5-2CF6E747A6A1",
                     "name": "Torah Introduction"
@@ -3503,56 +3405,7 @@
      "brothers": []
     }
    ],
-   "brothers": [
-    {
-     "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
-     "name": "Maimonides' Commentary on the Mishnah",
-     "_name": "Maimonides' Commentary on the Mishnah",
-     "result": null
-    },
-    {
-     "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
-     "name": "The Islam Collection",
-     "_name": "The Islam Collection",
-     "result": null
-    },
-    {
-     "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-     "name": "Elimelech Basch's Diary",
-     "_name": "Elimelech Basch's Diary",
-     "result": null
-    },
-    {
-     "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
-     "name": "Newton's Theological Papers",
-     "_name": "Newton&apos;s Theological Papers",
-     "result": null
-    },
-    {
-     "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-     "name": "Maps of The Holy Land and Jerusalem",
-     "_name": "Maps of The Holy Land and Jerusalem",
-     "result": null
-    },
-    {
-     "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-     "name": "Zweig, Benjamin and Kafka",
-     "_name": "Zweig, Benjamin and Kafka",
-     "result": null
-    },
-    {
-     "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
-     "name": "De Lonzano Kabbalistic Manuscript",
-     "_name": "De Lonzano Kabbalistic Manuscript",
-     "result": null
-    },
-    {
-     "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
-     "name": "The National Library of Israel",
-     "_name": "The National Library of Israel",
-     "result": null
-    }
-   ]
+   "brothers": []
   },
   {
    "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
@@ -3573,6 +3426,7 @@
     }
    ],
    "type": "default",
+   "_depth": 1,
    "hasChronologicalChildren": false,
    "children": [
     {
@@ -3581,10 +3435,7 @@
      "data": "",
      "attachments": [],
      "type": "default",
-     "parent": {
-      "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
-      "name": "Newton's Theological Papers"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -3608,6 +3459,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "2060 – The End of Days",
+       "_depth": 3,
        "parent": {
         "guid": "505C629C-1C39-D352-683D-7C205AC724C8",
         "name": "Newton's Papers"
@@ -3647,6 +3499,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "Newton the Heretic",
+         "_depth": 3,
          "parent": {
           "guid": "505C629C-1C39-D352-683D-7C205AC724C8",
           "name": "Newton's Papers"
@@ -3674,6 +3527,7 @@
            "type": "chronological",
            "chronologicalId": "3",
            "chronologicalName": "Newton and the Jewish Temple",
+           "_depth": 3,
            "parent": {
             "guid": "505C629C-1C39-D352-683D-7C205AC724C8",
             "name": "Newton's Papers"
@@ -3700,6 +3554,7 @@
              ],
              "type": "bastard",
              "bastardName": "What is The Talmud",
+             "_depth": 4,
              "parent": {
               "guid": "505C629C-1C39-D352-683D-7C205AC724C8",
               "name": "Newton's Papers"
@@ -3729,6 +3584,7 @@
              "type": "chronological",
              "chronologicalId": "4",
              "chronologicalName": "Map of the Trumpets",
+             "_depth": 3,
              "parent": {
               "guid": "505C629C-1C39-D352-683D-7C205AC724C8",
               "name": "Newton's Papers"
@@ -3782,6 +3638,7 @@
                "type": "chronological",
                "chronologicalId": "5",
                "chronologicalName": "Shrewd Head of the Royal Mint",
+               "_depth": 3,
                "parent": {
                 "guid": "505C629C-1C39-D352-683D-7C205AC724C8",
                 "name": "Newton's Papers"
@@ -3809,6 +3666,7 @@
                  "type": "chronological",
                  "chronologicalId": "6",
                  "chronologicalName": "Newton the Alchemist (c. 1680)",
+                 "_depth": 3,
                  "parent": {
                   "guid": "505C629C-1C39-D352-683D-7C205AC724C8",
                   "name": "Newton's Papers"
@@ -3841,10 +3699,7 @@
      "data": "",
      "attachments": [],
      "type": "default",
-     "parent": {
-      "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
-      "name": "Newton's Theological Papers"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -3868,6 +3723,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "Newton's Papers, 1727-1872",
+       "_depth": 3,
        "parent": {
         "guid": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
         "name": "Journey of Newton's Papers"
@@ -3907,6 +3763,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "Donation to Cambridge, 1872-1936",
+         "_depth": 3,
          "parent": {
           "guid": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
           "name": "Journey of Newton's Papers"
@@ -3934,6 +3791,7 @@
            "type": "chronological",
            "chronologicalId": "3",
            "chronologicalName": "July 13th 1936 – The Auction",
+           "_depth": 3,
            "parent": {
             "guid": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
             "name": "Journey of Newton's Papers"
@@ -3985,6 +3843,7 @@
              "type": "chronological",
              "chronologicalId": "4",
              "chronologicalName": "1936-1951,  The Chase",
+             "_depth": 3,
              "parent": {
               "guid": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
               "name": "Journey of Newton's Papers"
@@ -4049,6 +3908,7 @@
                "type": "chronological",
                "chronologicalId": "5",
                "chronologicalName": "1951 - Bequest of the Papers",
+               "_depth": 3,
                "parent": {
                 "guid": "4FDE2B58-CB47-0212-32F1-9352581E5C14",
                 "name": "Journey of Newton's Papers"
@@ -4091,10 +3951,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
-      "name": "Newton's Theological Papers"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -4130,6 +3987,7 @@
         }
        ],
        "type": "default",
+       "_depth": 3,
        "parent": {
         "guid": "DFAB247D-78C0-81D1-C14B-B79DF943FAA7",
         "name": "Yahuda - Collector and Scholar"
@@ -4193,6 +4051,7 @@
          "type": "chronological",
          "chronologicalId": "1",
          "chronologicalName": "Jewish manuscripts",
+         "_depth": 4,
          "parent": {
           "guid": "F365BDA9-E322-11FB-C378-58447FD36578",
           "name": "Exquisite Manuscript Collection"
@@ -4220,6 +4079,7 @@
            "type": "chronological",
            "chronologicalId": "2",
            "chronologicalName": "Documents regarding the Jewish community in Spain",
+           "_depth": 4,
            "parent": {
             "guid": "F365BDA9-E322-11FB-C378-58447FD36578",
             "name": "Exquisite Manuscript Collection"
@@ -4271,6 +4131,7 @@
              "type": "chronological",
              "chronologicalId": "3",
              "chronologicalName": "Eastern  Manuscripts",
+             "_depth": 4,
              "parent": {
               "guid": "F365BDA9-E322-11FB-C378-58447FD36578",
               "name": "Exquisite Manuscript Collection"
@@ -4322,6 +4183,7 @@
                "type": "chronological",
                "chronologicalId": "4",
                "chronologicalName": "Western Manuscripts",
+               "_depth": 4,
                "parent": {
                 "guid": "F365BDA9-E322-11FB-C378-58447FD36578",
                 "name": "Exquisite Manuscript Collection"
@@ -4363,6 +4225,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "Life",
+       "_depth": 3,
        "parent": {
         "guid": "DFAB247D-78C0-81D1-C14B-B79DF943FAA7",
         "name": "Yahuda - Collector and Scholar"
@@ -4377,6 +4240,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "Education",
+         "_depth": 3,
          "parent": {
           "guid": "DFAB247D-78C0-81D1-C14B-B79DF943FAA7",
           "name": "Yahuda - Collector and Scholar"
@@ -4404,6 +4268,7 @@
            "type": "chronological",
            "chronologicalId": "3",
            "chronologicalName": "From Madrid to Europe and the East",
+           "_depth": 3,
            "parent": {
             "guid": "DFAB247D-78C0-81D1-C14B-B79DF943FAA7",
             "name": "Yahuda - Collector and Scholar"
@@ -4418,6 +4283,7 @@
              "type": "chronological",
              "chronologicalId": "4",
              "chronologicalName": "America",
+             "_depth": 3,
              "parent": {
               "guid": "DFAB247D-78C0-81D1-C14B-B79DF943FAA7",
               "name": "Yahuda - Collector and Scholar"
@@ -4439,56 +4305,7 @@
      "brothers": []
     }
    ],
-   "brothers": [
-    {
-     "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
-     "name": "Maimonides' Commentary on the Mishnah",
-     "_name": "Maimonides' Commentary on the Mishnah",
-     "result": null
-    },
-    {
-     "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
-     "name": "The Islam Collection",
-     "_name": "The Islam Collection",
-     "result": null
-    },
-    {
-     "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-     "name": "Elimelech Basch's Diary",
-     "_name": "Elimelech Basch's Diary",
-     "result": null
-    },
-    {
-     "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
-     "name": "The Torah Scroll From Spain",
-     "_name": "The Torah Scroll From Spain",
-     "result": null
-    },
-    {
-     "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-     "name": "Maps of The Holy Land and Jerusalem",
-     "_name": "Maps of The Holy Land and Jerusalem",
-     "result": null
-    },
-    {
-     "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-     "name": "Zweig, Benjamin and Kafka",
-     "_name": "Zweig, Benjamin and Kafka",
-     "result": null
-    },
-    {
-     "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
-     "name": "De Lonzano Kabbalistic Manuscript",
-     "_name": "De Lonzano Kabbalistic Manuscript",
-     "result": null
-    },
-    {
-     "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
-     "name": "The National Library of Israel",
-     "_name": "The National Library of Israel",
-     "result": null
-    }
-   ]
+   "brothers": []
   },
   {
    "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
@@ -4557,6 +4374,7 @@
     }
    ],
    "type": "default",
+   "_depth": 1,
    "hasChronologicalChildren": false,
    "children": [
     {
@@ -4578,10 +4396,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-      "name": "Maps of The Holy Land and Jerusalem"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": false,
      "children": [
       {
@@ -4590,6 +4405,7 @@
        "data": "",
        "attachments": [],
        "type": "default",
+       "_depth": 3,
        "parent": {
         "guid": "03BA7521-8885-B14D-345A-0440CB69EB04",
         "name": "The Land of Israel in Jewish Eyes"
@@ -4629,6 +4445,7 @@
          "type": "chronological",
          "chronologicalId": "1",
          "chronologicalName": "Shlomo of Helm's Map",
+         "_depth": 4,
          "parent": {
           "guid": "8E6FBBBA-8792-BECF-1DCA-DBB2CDCF970B",
           "name": "The Land of Israel -  European  Inspirations"
@@ -4656,6 +4473,7 @@
            "type": "chronological",
            "chronologicalId": "2",
            "chronologicalName": "Schottlaender: A Harbinger of Zionism",
+           "_depth": 4,
            "parent": {
             "guid": "8E6FBBBA-8792-BECF-1DCA-DBB2CDCF970B",
             "name": "The Land of Israel -  European  Inspirations"
@@ -4689,6 +4507,7 @@
         }
        ],
        "type": "default",
+       "_depth": 3,
        "parent": {
         "guid": "03BA7521-8885-B14D-345A-0440CB69EB04",
         "name": "The Land of Israel in Jewish Eyes"
@@ -4733,10 +4552,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-      "name": "Maps of The Holy Land and Jerusalem"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": false,
      "children": [
       {
@@ -4745,6 +4561,7 @@
        "data": "",
        "attachments": [],
        "type": "default",
+       "_depth": 3,
        "parent": {
         "guid": "AE0BA84A-88FB-0EC6-25D5-BDD81F99F748",
         "name": "Christian Maps"
@@ -4794,6 +4611,7 @@
           }
          ],
          "type": "default",
+         "_depth": 4,
          "parent": {
           "guid": "8EED17FE-8220-9F7E-0223-B5EC4177BAA1",
           "name": "Journeys to the Holy Land"
@@ -4819,6 +4637,7 @@
             }
            ],
            "type": "default",
+           "_depth": 5,
            "parent": {
             "guid": "F513BEB2-1736-0874-4F04-5DA0EE9C5BF3",
             "name": "Ortelius' Map"
@@ -4833,6 +4652,7 @@
              "type": "chronological",
              "chronologicalId": "1",
              "chronologicalName": "The Altar at Beth-El",
+             "_depth": 6,
              "parent": {
               "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
               "name": "Abraham's Stories in the Picture Emblems"
@@ -4860,6 +4680,7 @@
                "type": "chronological",
                "chronologicalId": "2",
                "chronologicalName": "Abraham and Melchizedek",
+               "_depth": 6,
                "parent": {
                 "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
                 "name": "Abraham's Stories in the Picture Emblems"
@@ -4887,6 +4708,7 @@
                  "type": "chronological",
                  "chronologicalId": "3",
                  "chronologicalName": "The Covenant of the Parts",
+                 "_depth": 6,
                  "parent": {
                   "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
                   "name": "Abraham's Stories in the Picture Emblems"
@@ -4914,6 +4736,7 @@
                    "type": "chronological",
                    "chronologicalId": "4",
                    "chronologicalName": "Sarah Gives Abraham Her Slave-Girl",
+                   "_depth": 6,
                    "parent": {
                     "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
                     "name": "Abraham's Stories in the Picture Emblems"
@@ -4941,6 +4764,7 @@
                      "type": "chronological",
                      "chronologicalId": "5",
                      "chronologicalName": "The Three Angels",
+                     "_depth": 6,
                      "parent": {
                       "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
                       "name": "Abraham's Stories in the Picture Emblems"
@@ -4968,6 +4792,7 @@
                        "type": "chronological",
                        "chronologicalId": "6",
                        "chronologicalName": "Birth of Isaac",
+                       "_depth": 6,
                        "parent": {
                         "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
                         "name": "Abraham's Stories in the Picture Emblems"
@@ -4995,6 +4820,7 @@
                          "type": "chronological",
                          "chronologicalId": "7",
                          "chronologicalName": "Abraham Banishes Hagar and Ishma'el",
+                         "_depth": 6,
                          "parent": {
                           "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
                           "name": "Abraham's Stories in the Picture Emblems"
@@ -5022,6 +4848,7 @@
                            "type": "chronological",
                            "chronologicalId": "8",
                            "chronologicalName": "The Sacrifice of Isaac",
+                           "_depth": 6,
                            "parent": {
                             "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
                             "name": "Abraham's Stories in the Picture Emblems"
@@ -5049,6 +4876,7 @@
                              "type": "chronological",
                              "chronologicalId": "9",
                              "chronologicalName": "Abraham's Death",
+                             "_depth": 6,
                              "parent": {
                               "guid": "AE425D1A-E082-CD9A-27EE-740250DFB6A6",
                               "name": "Abraham's Stories in the Picture Emblems"
@@ -5145,6 +4973,7 @@
          "type": "chronological",
          "chronologicalId": "1",
          "chronologicalName": "Blaeu's Map",
+         "_depth": 4,
          "parent": {
           "guid": "8EED17FE-8220-9F7E-0223-B5EC4177BAA1",
           "name": "Journeys to the Holy Land"
@@ -5172,6 +5001,7 @@
            "type": "chronological",
            "chronologicalId": "2",
            "chronologicalName": "Seutter's Map",
+           "_depth": 4,
            "parent": {
             "guid": "8EED17FE-8220-9F7E-0223-B5EC4177BAA1",
             "name": "Journeys to the Holy Land"
@@ -5199,6 +5029,7 @@
              "type": "chronological",
              "chronologicalId": "3",
              "chronologicalName": "A Dutch Map",
+             "_depth": 4,
              "parent": {
               "guid": "8EED17FE-8220-9F7E-0223-B5EC4177BAA1",
               "name": "Journeys to the Holy Land"
@@ -5235,6 +5066,7 @@
         }
        ],
        "type": "default",
+       "_depth": 3,
        "parent": {
         "guid": "AE0BA84A-88FB-0EC6-25D5-BDD81F99F748",
         "name": "Christian Maps"
@@ -5260,6 +5092,7 @@
           }
          ],
          "type": "default",
+         "_depth": 4,
          "parent": {
           "guid": "EA722CB1-C926-E708-A0CF-FD4515FA7174",
           "name": "Journeys to Jerusalem"
@@ -5272,6 +5105,7 @@
            "data": "<p><span>The Via Dolorosa of Jesus, from his trial to his Crucifixion is depicted in detail in Adrichom's map. &#160;&#160;</span></p>\n",
            "attachments": [],
            "type": "default",
+           "_depth": 5,
            "parent": {
             "guid": "34D4BBF6-4BD4-7A1C-03CD-AB701C9D6ADF",
             "name": "Adrichom's Map of Jerusalem"
@@ -5299,6 +5133,7 @@
              "type": "chronological",
              "chronologicalId": "1",
              "chronologicalName": "The Antonia Fortress and Pilate's Palace",
+             "_depth": 6,
              "parent": {
               "guid": "5E56A18A-96A4-E51C-9360-DC06D768B887",
               "name": "The Via Dolorosa"
@@ -5326,6 +5161,7 @@
                "type": "chronological",
                "chronologicalId": "2",
                "chronologicalName": "The Via Dolorosa",
+               "_depth": 6,
                "parent": {
                 "guid": "5E56A18A-96A4-E51C-9360-DC06D768B887",
                 "name": "The Via Dolorosa"
@@ -5353,6 +5189,7 @@
                  "type": "chronological",
                  "chronologicalId": "3",
                  "chronologicalName": "The Crucifixion",
+                 "_depth": 6,
                  "parent": {
                   "guid": "5E56A18A-96A4-E51C-9360-DC06D768B887",
                   "name": "The Via Dolorosa"
@@ -5376,6 +5213,7 @@
            "data": "<p><span>Biblical Scenes are represented widely in Adrichom's map:</span></p>\n",
            "attachments": [],
            "type": "default",
+           "_depth": 5,
            "parent": {
             "guid": "34D4BBF6-4BD4-7A1C-03CD-AB701C9D6ADF",
             "name": "Adrichom's Map of Jerusalem"
@@ -5403,6 +5241,7 @@
              "type": "chronological",
              "chronologicalId": "1",
              "chronologicalName": "King David's Palace",
+             "_depth": 6,
              "parent": {
               "guid": "3AC23FB6-BE42-7EE4-D511-4D8E8E656254",
               "name": "Biblical Scenes in Adrichom's Map"
@@ -5430,6 +5269,7 @@
                "type": "chronological",
                "chronologicalId": "2",
                "chronologicalName": "King Solomon's Palace and the First Temple",
+               "_depth": 6,
                "parent": {
                 "guid": "3AC23FB6-BE42-7EE4-D511-4D8E8E656254",
                 "name": "Biblical Scenes in Adrichom's Map"
@@ -5457,6 +5297,7 @@
                  "type": "chronological",
                  "chronologicalId": "3",
                  "chronologicalName": "The Shrine of the Idol Moloch",
+                 "_depth": 6,
                  "parent": {
                   "guid": "3AC23FB6-BE42-7EE4-D511-4D8E8E656254",
                   "name": "Biblical Scenes in Adrichom's Map"
@@ -5484,6 +5325,7 @@
                    "type": "chronological",
                    "chronologicalId": "4",
                    "chronologicalName": "The Babylonian Army Camp",
+                   "_depth": 6,
                    "parent": {
                     "guid": "3AC23FB6-BE42-7EE4-D511-4D8E8E656254",
                     "name": "Biblical Scenes in Adrichom's Map"
@@ -5528,6 +5370,7 @@
          "type": "chronological",
          "chronologicalId": "1",
          "chronologicalName": "Daumont's Map",
+         "_depth": 4,
          "parent": {
           "guid": "EA722CB1-C926-E708-A0CF-FD4515FA7174",
           "name": "Journeys to Jerusalem"
@@ -5555,6 +5398,7 @@
            "type": "chronological",
            "chronologicalId": "2",
            "chronologicalName": "Braun and Hogenberg's map",
+           "_depth": 4,
            "parent": {
             "guid": "EA722CB1-C926-E708-A0CF-FD4515FA7174",
             "name": "Journeys to Jerusalem"
@@ -5594,6 +5438,7 @@
              "type": "chronological",
              "chronologicalId": "3",
              "chronologicalName": "Dapper's map",
+             "_depth": 4,
              "parent": {
               "guid": "EA722CB1-C926-E708-A0CF-FD4515FA7174",
               "name": "Journeys to Jerusalem"
@@ -5621,6 +5466,7 @@
                "type": "chronological",
                "chronologicalId": "4",
                "chronologicalName": "Mondhare's Map",
+               "_depth": 4,
                "parent": {
                 "guid": "EA722CB1-C926-E708-A0CF-FD4515FA7174",
                 "name": "Journeys to Jerusalem"
@@ -5652,56 +5498,7 @@
      ]
     }
    ],
-   "brothers": [
-    {
-     "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
-     "name": "Maimonides' Commentary on the Mishnah",
-     "_name": "Maimonides' Commentary on the Mishnah",
-     "result": null
-    },
-    {
-     "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
-     "name": "The Islam Collection",
-     "_name": "The Islam Collection",
-     "result": null
-    },
-    {
-     "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-     "name": "Elimelech Basch's Diary",
-     "_name": "Elimelech Basch's Diary",
-     "result": null
-    },
-    {
-     "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
-     "name": "The Torah Scroll From Spain",
-     "_name": "The Torah Scroll From Spain",
-     "result": null
-    },
-    {
-     "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
-     "name": "Newton's Theological Papers",
-     "_name": "Newton's Theological Papers",
-     "result": null
-    },
-    {
-     "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-     "name": "Zweig, Benjamin and Kafka",
-     "_name": "Zweig, Benjamin and Kafka",
-     "result": null
-    },
-    {
-     "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
-     "name": "De Lonzano Kabbalistic Manuscript",
-     "_name": "De Lonzano Kabbalistic Manuscript",
-     "result": null
-    },
-    {
-     "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
-     "name": "The National Library of Israel",
-     "_name": "The National Library of Israel",
-     "result": null
-    }
-   ]
+   "brothers": []
   },
   {
    "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
@@ -5746,6 +5543,7 @@
     }
    ],
    "type": "default",
+   "_depth": 1,
    "hasChronologicalChildren": true,
    "children": [
     {
@@ -5767,10 +5565,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-      "name": "Zweig, Benjamin and Kafka"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": false,
      "children": [
       {
@@ -5792,6 +5587,7 @@
         }
        ],
        "type": "default",
+       "_depth": 3,
        "parent": {
         "guid": "69DCDB29-0DCD-2429-FB9E-E72337CB76E1",
         "name": "Franz Kafka (1883 – 1924)"
@@ -5855,6 +5651,7 @@
          "type": "chronological",
          "chronologicalId": "1",
          "chronologicalName": "Childhood and Youth",
+         "_depth": 4,
          "parent": {
           "guid": "BECC5ABA-AB23-EA10-9DD6-17B72E29AE48",
           "name": "Life"
@@ -5906,6 +5703,7 @@
            "type": "chronological",
            "chronologicalId": "2",
            "chronologicalName": "University Days,",
+           "_depth": 4,
            "parent": {
             "guid": "BECC5ABA-AB23-EA10-9DD6-17B72E29AE48",
             "name": "Life"
@@ -5933,6 +5731,7 @@
              "type": "chronological",
              "chronologicalId": "3",
              "chronologicalName": "Kafka and Friends  in Vienna, 1913",
+             "_depth": 4,
              "parent": {
               "guid": "BECC5ABA-AB23-EA10-9DD6-17B72E29AE48",
               "name": "Life"
@@ -5972,6 +5771,7 @@
                "type": "chronological",
                "chronologicalId": "4",
                "chronologicalName": "Kafka's Private Life",
+               "_depth": 4,
                "parent": {
                 "guid": "BECC5ABA-AB23-EA10-9DD6-17B72E29AE48",
                 "name": "Life"
@@ -6011,6 +5811,7 @@
                  "type": "chronological",
                  "chronologicalId": "5",
                  "chronologicalName": "Letter to Lise Weltsch, 1914",
+                 "_depth": 4,
                  "parent": {
                   "guid": "BECC5ABA-AB23-EA10-9DD6-17B72E29AE48",
                   "name": "Life"
@@ -6050,6 +5851,7 @@
                    "type": "chronological",
                    "chronologicalId": "6",
                    "chronologicalName": "The Bread Job and the Calling",
+                   "_depth": 4,
                    "parent": {
                     "guid": "BECC5ABA-AB23-EA10-9DD6-17B72E29AE48",
                     "name": "Life"
@@ -6101,6 +5903,7 @@
                      "type": "chronological",
                      "chronologicalId": "7",
                      "chronologicalName": "Death",
+                     "_depth": 4,
                      "parent": {
                       "guid": "BECC5ABA-AB23-EA10-9DD6-17B72E29AE48",
                       "name": "Life"
@@ -6136,6 +5939,7 @@
        "data": "<p><span><span><span>Although his family was Jewish, Kafka's Jewish education was minimal, and amounted to a few visits to synagogue a year. Yet, in 1911, having been enchanted by a Yiddish theatre performance, he took up the study of Yiddish language and literature; as a consequence his interest in Judaism was aroused. During the early 1920's, Kafka started studying modern Hebrew. Under the influence of his last lover, Dora Diamant, who came from an Orthodox Jewish family, Kafka even showed interest in the Talmud. It was during that time, when they were living in Berlin, that Kafka took classes in Judaism.</span></span></span></p>\n",
        "attachments": [],
        "type": "default",
+       "_depth": 3,
        "parent": {
         "guid": "69DCDB29-0DCD-2429-FB9E-E72337CB76E1",
         "name": "Franz Kafka (1883 – 1924)"
@@ -6163,6 +5967,7 @@
          "type": "chronological",
          "chronologicalId": "1",
          "chronologicalName": "Kafka's Hebrew Booklet",
+         "_depth": 4,
          "parent": {
           "guid": "DF00CA57-F915-CDD6-7365-1491D0609B78",
           "name": "Kafka and Judaism"
@@ -6190,6 +5995,7 @@
            "type": "chronological",
            "chronologicalId": "2",
            "chronologicalName": "Kafka and Zionism",
+           "_depth": 4,
            "parent": {
             "guid": "DF00CA57-F915-CDD6-7365-1491D0609B78",
             "name": "Kafka and Judaism"
@@ -6227,6 +6033,7 @@
               }
              ],
              "type": "default",
+             "_depth": 5,
              "parent": {
               "guid": "DF00CA57-F915-CDD6-7365-1491D0609B78",
               "name": "Kafka and Judaism"
@@ -6279,10 +6086,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-      "name": "Zweig, Benjamin and Kafka"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": false,
      "children": [
       {
@@ -6304,6 +6108,7 @@
         }
        ],
        "type": "default",
+       "_depth": 3,
        "parent": {
         "guid": "2E410E15-5403-8D01-B232-146BF004FBDC",
         "name": "Stefan Zweig (1881 – 1942)"
@@ -6329,6 +6134,7 @@
           }
          ],
          "type": "default",
+         "_depth": 4,
          "parent": {
           "guid": "D6C48A53-A866-3508-8FCC-68CED1AA200F",
           "name": "Zweig's Papers at the NLI"
@@ -6417,6 +6223,7 @@
           }
          ],
          "type": "default",
+         "_depth": 4,
          "parent": {
           "guid": "D6C48A53-A866-3508-8FCC-68CED1AA200F",
           "name": "Zweig's Papers at the NLI"
@@ -6481,6 +6288,7 @@
           }
          ],
          "type": "default",
+         "_depth": 4,
          "parent": {
           "guid": "D6C48A53-A866-3508-8FCC-68CED1AA200F",
           "name": "Zweig's Papers at the NLI"
@@ -6569,6 +6377,7 @@
           }
          ],
          "type": "default",
+         "_depth": 4,
          "parent": {
           "guid": "D6C48A53-A866-3508-8FCC-68CED1AA200F",
           "name": "Zweig's Papers at the NLI"
@@ -6619,6 +6428,7 @@
            ],
            "type": "bastard",
            "bastardName": "Theodore Herzl (1860 – 1904)",
+           "_depth": 5,
            "parent": {
             "guid": "8C71E338-7233-5876-B3D8-8B072725E49F",
             "name": "First Steps as a Writer – Zweig and Herzl"
@@ -6674,6 +6484,7 @@
           }
          ],
          "type": "default",
+         "_depth": 4,
          "parent": {
           "guid": "D6C48A53-A866-3508-8FCC-68CED1AA200F",
           "name": "Zweig's Papers at the NLI"
@@ -6724,6 +6535,7 @@
            ],
            "type": "bastard",
            "bastardName": "Martin Buber (1878-1965)",
+           "_depth": 5,
            "parent": {
             "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
             "name": "Zweig's Letter To Martin Buber"
@@ -6740,6 +6552,7 @@
            "type": "chronological",
            "chronologicalId": "1",
            "chronologicalName": "Zweig and Judaism",
+           "_depth": 5,
            "parent": {
             "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
             "name": "Zweig's Letter To Martin Buber"
@@ -6767,6 +6580,7 @@
              "type": "chronological",
              "chronologicalId": "2",
              "chronologicalName": "Zweig and the Zionist Movement",
+             "_depth": 5,
              "parent": {
               "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
               "name": "Zweig's Letter To Martin Buber"
@@ -6868,6 +6682,7 @@
                "type": "chronological",
                "chronologicalId": "3",
                "chronologicalName": "The Letter to Buber",
+               "_depth": 5,
                "parent": {
                 "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
                 "name": "Zweig's Letter To Martin Buber"
@@ -6901,6 +6716,7 @@
        "data": "",
        "attachments": [],
        "type": "default",
+       "_depth": 3,
        "parent": {
         "guid": "2E410E15-5403-8D01-B232-146BF004FBDC",
         "name": "Stefan Zweig (1881 – 1942)"
@@ -6928,6 +6744,7 @@
          "type": "chronological",
          "chronologicalId": "1",
          "chronologicalName": "The Young Zweig",
+         "_depth": 4,
          "parent": {
           "guid": "EC3B8D22-81D8-8D73-2AFD-F263C976B714",
           "name": "Stefan Zweig's Life (1881-1942)"
@@ -6955,6 +6772,7 @@
            "type": "chronological",
            "chronologicalId": "2",
            "chronologicalName": "University Days",
+           "_depth": 4,
            "parent": {
             "guid": "EC3B8D22-81D8-8D73-2AFD-F263C976B714",
             "name": "Stefan Zweig's Life (1881-1942)"
@@ -6994,6 +6812,7 @@
              "type": "chronological",
              "chronologicalId": "3",
              "chronologicalName": "The European Traveller",
+             "_depth": 4,
              "parent": {
               "guid": "EC3B8D22-81D8-8D73-2AFD-F263C976B714",
               "name": "Stefan Zweig's Life (1881-1942)"
@@ -7033,6 +6852,7 @@
                "type": "chronological",
                "chronologicalId": "4",
                "chronologicalName": "Stefan Zweig in WW I",
+               "_depth": 4,
                "parent": {
                 "guid": "EC3B8D22-81D8-8D73-2AFD-F263C976B714",
                 "name": "Stefan Zweig's Life (1881-1942)"
@@ -7084,6 +6904,7 @@
                  "type": "chronological",
                  "chronologicalId": "5",
                  "chronologicalName": "The Salzburg Period (1919-1933)",
+                 "_depth": 4,
                  "parent": {
                   "guid": "EC3B8D22-81D8-8D73-2AFD-F263C976B714",
                   "name": "Stefan Zweig's Life (1881-1942)"
@@ -7123,6 +6944,7 @@
                    "type": "chronological",
                    "chronologicalId": "6",
                    "chronologicalName": "The Rise of the Nazis",
+                   "_depth": 4,
                    "parent": {
                     "guid": "EC3B8D22-81D8-8D73-2AFD-F263C976B714",
                     "name": "Stefan Zweig's Life (1881-1942)"
@@ -7162,6 +6984,7 @@
                      "type": "chronological",
                      "chronologicalId": "7",
                      "chronologicalName": "1934 – 1939 - London",
+                     "_depth": 4,
                      "parent": {
                       "guid": "EC3B8D22-81D8-8D73-2AFD-F263C976B714",
                       "name": "Stefan Zweig's Life (1881-1942)"
@@ -7201,6 +7024,7 @@
                        "type": "chronological",
                        "chronologicalId": "8",
                        "chronologicalName": "London - New-York - Petropolis",
+                       "_depth": 4,
                        "parent": {
                         "guid": "EC3B8D22-81D8-8D73-2AFD-F263C976B714",
                         "name": "Stefan Zweig's Life (1881-1942)"
@@ -7228,6 +7052,7 @@
                          "type": "chronological",
                          "chronologicalId": "9",
                          "chronologicalName": "Suicide Letter",
+                         "_depth": 4,
                          "parent": {
                           "guid": "EC3B8D22-81D8-8D73-2AFD-F263C976B714",
                           "name": "Stefan Zweig's Life (1881-1942)"
@@ -7255,6 +7080,7 @@
                            "type": "chronological",
                            "chronologicalId": "10",
                            "chronologicalName": "House in Petropolis",
+                           "_depth": 4,
                            "parent": {
                             "guid": "EC3B8D22-81D8-8D73-2AFD-F263C976B714",
                             "name": "Stefan Zweig's Life (1881-1942)"
@@ -7328,10 +7154,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-      "name": "Zweig, Benjamin and Kafka"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": false,
      "children": [
       {
@@ -7389,6 +7212,7 @@
         }
        ],
        "type": "default",
+       "_depth": 3,
        "parent": {
         "guid": "EE550BDB-EFDD-6B93-AA1D-B5936F29BAFB",
         "name": "Walter Benjamin (1892-1940)"
@@ -7422,6 +7246,7 @@
        "data": "",
        "attachments": [],
        "type": "default",
+       "_depth": 3,
        "parent": {
         "guid": "EE550BDB-EFDD-6B93-AA1D-B5936F29BAFB",
         "name": "Walter Benjamin (1892-1940)"
@@ -7449,6 +7274,7 @@
          "type": "chronological",
          "chronologicalId": "1",
          "chronologicalName": "Youth",
+         "_depth": 4,
          "parent": {
           "guid": "063191BF-282F-35D3-AD28-70F721D9DD0C",
           "name": "A Tempestuous Life"
@@ -7476,6 +7302,7 @@
            "type": "chronological",
            "chronologicalId": "2",
            "chronologicalName": "The Hardships of a Young Critic, Translator and Philosopher",
+           "_depth": 4,
            "parent": {
             "guid": "063191BF-282F-35D3-AD28-70F721D9DD0C",
             "name": "A Tempestuous Life"
@@ -7515,6 +7342,7 @@
              "type": "chronological",
              "chronologicalId": "3",
              "chronologicalName": "Benjamin, Scholem, and Zionism",
+             "_depth": 4,
              "parent": {
               "guid": "063191BF-282F-35D3-AD28-70F721D9DD0C",
               "name": "A Tempestuous Life"
@@ -7542,6 +7370,7 @@
                "type": "chronological",
                "chronologicalId": "4",
                "chronologicalName": "A European Intellectual",
+               "_depth": 4,
                "parent": {
                 "guid": "063191BF-282F-35D3-AD28-70F721D9DD0C",
                 "name": "A Tempestuous Life"
@@ -7581,6 +7410,7 @@
                  "type": "chronological",
                  "chronologicalId": "5",
                  "chronologicalName": "1929 -1940: Berlin- Ibiza –Nice- Paris",
+                 "_depth": 4,
                  "parent": {
                   "guid": "063191BF-282F-35D3-AD28-70F721D9DD0C",
                   "name": "A Tempestuous Life"
@@ -7608,6 +7438,7 @@
                    "type": "chronological",
                    "chronologicalId": "6",
                    "chronologicalName": "Fleeing from the Nazis",
+                   "_depth": 4,
                    "parent": {
                     "guid": "063191BF-282F-35D3-AD28-70F721D9DD0C",
                     "name": "A Tempestuous Life"
@@ -7659,6 +7490,7 @@
                      "type": "chronological",
                      "chronologicalId": "7",
                      "chronologicalName": "Despair and Suicide",
+                     "_depth": 4,
                      "parent": {
                       "guid": "063191BF-282F-35D3-AD28-70F721D9DD0C",
                       "name": "A Tempestuous Life"
@@ -7731,6 +7563,7 @@
         }
        ],
        "type": "default",
+       "_depth": 3,
        "parent": {
         "guid": "EE550BDB-EFDD-6B93-AA1D-B5936F29BAFB",
         "name": "Walter Benjamin (1892-1940)"
@@ -7777,6 +7610,7 @@
         }
        ],
        "type": "default",
+       "_depth": 3,
        "parent": {
         "guid": "EE550BDB-EFDD-6B93-AA1D-B5936F29BAFB",
         "name": "Walter Benjamin (1892-1940)"
@@ -7814,6 +7648,7 @@
           }
          ],
          "type": "default",
+         "_depth": 4,
          "parent": {
           "guid": "FF8523E3-155F-6F3D-37FB-5E17940C6DAF",
           "name": "Benjamin's Archive at the NLI"
@@ -7865,6 +7700,7 @@
            "type": "chronological",
            "chronologicalId": "1",
            "chronologicalName": "In Exile: Letter to Scholem",
+           "_depth": 5,
            "parent": {
             "guid": "C588E3AE-91EB-2A99-50B8-6520308382D6",
             "name": "Berlin: Letter to Scholem"
@@ -7895,6 +7731,7 @@
           }
          ],
          "type": "default",
+         "_depth": 4,
          "parent": {
           "guid": "FF8523E3-155F-6F3D-37FB-5E17940C6DAF",
           "name": "Benjamin's Archive at the NLI"
@@ -7954,6 +7791,7 @@
           }
          ],
          "type": "default",
+         "_depth": 4,
          "parent": {
           "guid": "FF8523E3-155F-6F3D-37FB-5E17940C6DAF",
           "name": "Benjamin's Archive at the NLI"
@@ -8000,6 +7838,7 @@
           }
          ],
          "type": "default",
+         "_depth": 4,
          "parent": {
           "guid": "FF8523E3-155F-6F3D-37FB-5E17940C6DAF",
           "name": "Benjamin's Archive at the NLI"
@@ -8134,10 +7973,7 @@
      "type": "chronological",
      "chronologicalId": "1",
      "chronologicalName": "German-speaking Jews in the NLI Archives",
-     "parent": {
-      "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-      "name": "Zweig, Benjamin and Kafka"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": false,
      "children": [],
      "brothers": []
@@ -8189,6 +8025,7 @@
     }
    ],
    "type": "default",
+   "_depth": 1,
    "hasChronologicalChildren": false,
    "children": [
     {
@@ -8197,10 +8034,7 @@
      "data": "<p><span><span><span>Menahem de Lonzano (1550 – 1624) was a scholar who was well- versed in many fields. Born in Italy or in Istanbul, Turkey, he moved to the Land of Israel, first to Jerusalem in 1575, then to Safed, and again toTurkey, Egypt and Italy, only to return to Jerusalem in 1618, where &#160;he died in 1624. Although ill, crippled and almost blind, he was not deterred from composing books in which he attacked his fellow Rabbis. He was therefore often censured, and constantly wandered destitute from one place to the other. He was especially known as a scholar of the Mesorah- a tradition aimed at determining the precise text of the Torah- and was the author of many original compositions related to Jewish sources, Kabbalah, and Hebrew poetry and grammar.&#160;</span></span></span></p>\n",
      "attachments": [],
      "type": "default",
-     "parent": {
-      "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
-      "name": "De Lonzano Kabbalistic Manuscript"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -8236,6 +8070,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "The Book of \"Derushim\"",
+       "_depth": 3,
        "parent": {
         "guid": "39ABFFE0-8C5D-9650-9F17-034E7E7E896B",
         "name": "Who was Menahem de Lonzano"
@@ -8263,6 +8098,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "What is The Lesson on the Primordial Man",
+         "_depth": 3,
          "parent": {
           "guid": "39ABFFE0-8C5D-9650-9F17-034E7E7E896B",
           "name": "Who was Menahem de Lonzano"
@@ -8283,10 +8119,7 @@
      "data": "",
      "attachments": [],
      "type": "default",
-     "parent": {
-      "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
-      "name": "De Lonzano Kabbalistic Manuscript"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -8322,6 +8155,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "Who was Gershom Scholem (1897-1982)?",
+       "_depth": 3,
        "parent": {
         "guid": "57A84264-5C68-ED20-E214-07FC16BAECC2",
         "name": "Scholem and his Library at NLI"
@@ -8373,6 +8207,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "The Scholem Collection at NLI",
+         "_depth": 3,
          "parent": {
           "guid": "57A84264-5C68-ED20-E214-07FC16BAECC2",
           "name": "Scholem and his Library at NLI"
@@ -8393,10 +8228,7 @@
      "data": "",
      "attachments": [],
      "type": "default",
-     "parent": {
-      "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
-      "name": "De Lonzano Kabbalistic Manuscript"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -8420,6 +8252,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "The Discovery of the Manuscript",
+       "_depth": 3,
        "parent": {
         "guid": "B70CC56F-232A-8B7F-9EE2-0C2E0D6338A3",
         "name": "The Manuscript"
@@ -8447,6 +8280,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "When and Where was it written?",
+         "_depth": 3,
          "parent": {
           "guid": "B70CC56F-232A-8B7F-9EE2-0C2E0D6338A3",
           "name": "The Manuscript"
@@ -8529,10 +8363,7 @@
      ],
      "type": "bastard",
      "bastardName": "What is the Hasidut?",
-     "parent": {
-      "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
-      "name": "De Lonzano Kabbalistic Manuscript"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": false,
      "children": [],
      "brothers": [
@@ -8587,10 +8418,7 @@
       }
      ],
      "type": "default",
-     "parent": {
-      "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
-      "name": "De Lonzano Kabbalistic Manuscript"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -8601,6 +8429,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "Origins of  Jewish Mysticism",
+       "_depth": 3,
        "parent": {
         "guid": "7660CE39-5432-7D03-DF5C-1645E15FBAF7",
         "name": "What is the Kabbalah?"
@@ -8641,6 +8470,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "Book of Splendor – Sefer Ha-Zohar",
+         "_depth": 3,
          "parent": {
           "guid": "7660CE39-5432-7D03-DF5C-1645E15FBAF7",
           "name": "What is the Kabbalah?"
@@ -8680,6 +8510,7 @@
            "type": "chronological",
            "chronologicalId": "3",
            "chronologicalName": "From Spain to Safed: the Lurianic Kabbalah",
+           "_depth": 3,
            "parent": {
             "guid": "7660CE39-5432-7D03-DF5C-1645E15FBAF7",
             "name": "What is the Kabbalah?"
@@ -8719,6 +8550,7 @@
              "type": "chronological",
              "chronologicalId": "4",
              "chronologicalName": "New Center in Safed",
+             "_depth": 3,
              "parent": {
               "guid": "7660CE39-5432-7D03-DF5C-1645E15FBAF7",
               "name": "What is the Kabbalah?"
@@ -8746,6 +8578,7 @@
                "type": "chronological",
                "chronologicalId": "5",
                "chronologicalName": "Spread of the Kabbalah of Safed",
+               "_depth": 3,
                "parent": {
                 "guid": "7660CE39-5432-7D03-DF5C-1645E15FBAF7",
                 "name": "What is the Kabbalah?"
@@ -8773,6 +8606,7 @@
                  "type": "chronological",
                  "chronologicalId": "6",
                  "chronologicalName": "Esoteric Doctrine?",
+                 "_depth": 3,
                  "parent": {
                   "guid": "7660CE39-5432-7D03-DF5C-1645E15FBAF7",
                   "name": "What is the Kabbalah?"
@@ -8805,10 +8639,7 @@
      "data": "",
      "attachments": [],
      "type": "default",
-     "parent": {
-      "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
-      "name": "De Lonzano Kabbalistic Manuscript"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -8869,6 +8700,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "Christian Kabbalah",
+       "_depth": 3,
        "parent": {
         "guid": "FC8267B2-2167-0CD9-C3FE-A30FDBBCCE3D",
         "name": "Non-Jewish Kabbalah"
@@ -8908,6 +8740,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "Hermetic Kabbalah",
+         "_depth": 3,
          "parent": {
           "guid": "FC8267B2-2167-0CD9-C3FE-A30FDBBCCE3D",
           "name": "Non-Jewish Kabbalah"
@@ -8923,56 +8756,7 @@
      "brothers": []
     }
    ],
-   "brothers": [
-    {
-     "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
-     "name": "Maimonides' Commentary on the Mishnah",
-     "_name": "Maimonides' Commentary on the Mishnah",
-     "result": null
-    },
-    {
-     "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
-     "name": "The Islam Collection",
-     "_name": "The Islam Collection",
-     "result": null
-    },
-    {
-     "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
-     "name": "Elimelech Basch's Diary",
-     "_name": "Elimelech Basch's Diary",
-     "result": null
-    },
-    {
-     "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
-     "name": "The Torah Scroll From Spain",
-     "_name": "The Torah Scroll From Spain",
-     "result": null
-    },
-    {
-     "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
-     "name": "Newton's Theological Papers",
-     "_name": "Newton's Theological Papers",
-     "result": null
-    },
-    {
-     "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
-     "name": "Maps of The Holy Land and Jerusalem",
-     "_name": "Maps of The Holy Land and Jerusalem",
-     "result": null
-    },
-    {
-     "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
-     "name": "Zweig, Benjamin and Kafka",
-     "_name": "Zweig, Benjamin and Kafka",
-     "result": null
-    },
-    {
-     "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
-     "name": "The National Library of Israel",
-     "_name": "The National Library of Israel",
-     "result": null
-    }
-   ]
+   "brothers": []
   },
   {
    "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
@@ -9017,6 +8801,7 @@
     }
    ],
    "type": "default",
+   "_depth": 1,
    "hasChronologicalChildren": true,
    "children": [
     {
@@ -9025,10 +8810,7 @@
      "data": "",
      "attachments": [],
      "type": "default",
-     "parent": {
-      "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
-      "name": "The National Library of Israel"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -9039,6 +8821,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "Disclaimer",
+       "_depth": 3,
        "parent": {
         "guid": "8E5F1F36-794D-9386-8CD6-504BA1C12B63",
         "name": "Terms of Use and Credits"
@@ -9053,6 +8836,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "Credits",
+         "_depth": 3,
          "parent": {
           "guid": "8E5F1F36-794D-9386-8CD6-504BA1C12B63",
           "name": "Terms of Use and Credits"
@@ -9073,10 +8857,7 @@
      "data": "<p><span><span><span>At present, the Library houses&#160; over 3 million books including incunabula, manuscripts, periodicals, personal archives, music, maps, photographs and audio recordings. These are divided into four main collections: Judiaca, Israel, Islam and Humanities</span></span></span></p>\n",
      "attachments": [],
      "type": "default",
-     "parent": {
-      "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
-      "name": "The National Library of Israel"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": true,
      "children": [
       {
@@ -9160,6 +8941,7 @@
        "type": "chronological",
        "chronologicalId": "1",
        "chronologicalName": "Judaica",
+       "_depth": 3,
        "parent": {
         "guid": "C1702A52-DDE2-96B8-01D8-7FA78990CDED",
         "name": "The Library's Collections"
@@ -9223,6 +9005,7 @@
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "Israel",
+         "_depth": 3,
          "parent": {
           "guid": "C1702A52-DDE2-96B8-01D8-7FA78990CDED",
           "name": "The Library's Collections"
@@ -9287,6 +9070,7 @@
            "type": "chronological",
            "chronologicalId": "3",
            "chronologicalName": "Islam and Middle East",
+           "_depth": 3,
            "parent": {
             "guid": "C1702A52-DDE2-96B8-01D8-7FA78990CDED",
             "name": "The Library's Collections"
@@ -9350,6 +9134,7 @@
              "type": "chronological",
              "chronologicalId": "4",
              "chronologicalName": "Humanities",
+             "_depth": 3,
              "parent": {
               "guid": "C1702A52-DDE2-96B8-01D8-7FA78990CDED",
               "name": "The Library's Collections"
@@ -9415,10 +9200,7 @@
      "type": "chronological",
      "chronologicalId": "1",
      "chronologicalName": "The Vision",
-     "parent": {
-      "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
-      "name": "The National Library of Israel"
-     },
+     "_depth": 2,
      "hasChronologicalChildren": false,
      "children": [
       {
@@ -9454,10 +9236,7 @@
        "type": "chronological",
        "chronologicalId": "2",
        "chronologicalName": "The Founding of the Library",
-       "parent": {
-        "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
-        "name": "The National Library of Israel"
-       },
+       "_depth": 2,
        "hasChronologicalChildren": false,
        "children": [
         {
@@ -9517,10 +9296,7 @@
          "type": "chronological",
          "chronologicalId": "3",
          "chronologicalName": "A Jewish National and University Library",
-         "parent": {
-          "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
-          "name": "The National Library of Israel"
-         },
+         "_depth": 2,
          "hasChronologicalChildren": false,
          "children": [
           {
@@ -9592,10 +9368,7 @@
            "type": "chronological",
            "chronologicalId": "4",
            "chronologicalName": "1930 – 1960: Transitions",
-           "parent": {
-            "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
-            "name": "The National Library of Israel"
-           },
+           "_depth": 2,
            "hasChronologicalChildren": false,
            "children": [
             {
@@ -9643,10 +9416,7 @@
              "type": "chronological",
              "chronologicalId": "5",
              "chronologicalName": "Ben Gurion's Unique Initiative",
-             "parent": {
-              "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
-              "name": "The National Library of Israel"
-             },
+             "_depth": 2,
              "hasChronologicalChildren": false,
              "children": [
               {
@@ -9682,10 +9452,7 @@
                "type": "chronological",
                "chronologicalId": "6",
                "chronologicalName": "Separation from the Hebrew University",
-               "parent": {
-                "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
-                "name": "The National Library of Israel"
-               },
+               "_depth": 2,
                "hasChronologicalChildren": false,
                "children": [
                 {
@@ -9745,10 +9512,7 @@
                  "type": "chronological",
                  "chronologicalId": "7",
                  "chronologicalName": "The National Library Law is Enacted",
-                 "parent": {
-                  "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
-                  "name": "The National Library of Israel"
-                 },
+                 "_depth": 2,
                  "hasChronologicalChildren": false,
                  "children": [],
                  "brothers": []
