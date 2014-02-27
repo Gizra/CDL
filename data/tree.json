@@ -513,18 +513,6 @@
            "format": ".jpg"
           },
           {
-           "guid": "835DCD32-00A7-F437-B962-79AC0EF2A15D",
-           "AttachmentEntries": {
-            "attachmentEntryID": "0D234876-46AC-7377-AD4B-BA5F38A833FA"
-           },
-           "objectID": "DF6089D1-D5E1-82D5-A31D-1B98BE878817",
-           "name": "Maimonides&apos; Hanhagat ha-Beri&apos;ut (medical treatise), Florence 1481, NLI.jpg",
-           "attachmentType": "1",
-           "location": "DF6089D1-D5E1-82D5-A31D-1B98BE878817\\Maimonides&apos; Hanhagat ha-Beri&apos;ut (medical treatise), Florence 1481, NLI.jpg",
-           "dataLength": "130728",
-           "format": ".jpg"
-          },
-          {
            "guid": "1A1E21BE-B96E-EE44-9CC3-3F5C77F9CF02",
            "AttachmentEntries": {
             "attachmentEntryID": "0D234876-46AC-7377-AD4B-BA5F38A833FA"
@@ -650,9 +638,9 @@
                     "attachmentEntryID": "D134652B-A664-96B1-FEAA-1F515391DFB6"
                    },
                    "objectID": "A35916B5-7608-6F21-7BC9-A0335815B679",
-                   "name": "Map of Acre, Petrus Vesconte, 17th century, Civitas Acon Sive Ptolomayda.jpg",
+                   "name": "Map of Acre, Petrus Vesconte, Civitas Acon Sive Ptolomayda, 17th century (after an original from 1320), NLI.jpg",
                    "attachmentType": "1",
-                   "location": "A35916B5-7608-6F21-7BC9-A0335815B679\\Map of Acre, Petrus Vesconte, 17th century, Civitas Acon Sive Ptolomayda.jpg",
+                   "location": "A35916B5-7608-6F21-7BC9-A0335815B679\\Map of Acre, Petrus Vesconte, Civitas Acon Sive Ptolomayda, 17th century (after an original from 1320), NLI.jpg",
                    "dataLength": "271738",
                    "format": ".jpg"
                   }
@@ -2909,7 +2897,7 @@
           {
            "guid": "291B00DA-6A47-6BC4-98BE-63B1C5F553DC",
            "name": "Ladino Music",
-           "data": "<p>Dr. Shoshana Weich has been documenting Ladino music for many years. In the following film Shoshana gives an introduction (min. 00:00-07:21), followed by several recordings of Ladino songs made by her (min. 7:21-21:00). Dr. Weich deposited her collection at the National Library; the last part includes a recording of Ladino music taped at the concert \"Spanish <em><span>Cancionero</span></em> and Romansero according to &#160;the tradition of the Jews of Thessalonica \" &#160;held at the NLI in 20.11.2013 (min.21:00-49:02).</p>\n",
+           "data": "<p><span><span>Dr. Shoshana Weich has been documenting Ladino music for many years. In the following film Shoshana gives an introduction (min. 00:00-07:21), followed by several recordings of Ladino songs made by her (min. 7:21-21:00). Dr. Weich deposited her collection at the National Library; the last part includes a recording of Ladino music taped at the concert \"</span></span><span dir=\"LTR\"><span><span>Spanish&#160;</span></span><em><span><span>Cancionero</span></span></em><span><span>&#160;and </span></span><i><span><span>Romancero</span></span></i><span><span> according to &#160;the tradition of the Jews of Thessalonica</span></span></span><span><span>\",&#160;held at the NLI in 20.11.2013 (min.21:00-49:02).</span></span></p>\n",
            "attachments": [
             {
              "guid": "3BD25D32-2303-BA96-4EBE-B237E29A73D9",
@@ -2919,7 +2907,7 @@
              "objectID": "291B00DA-6A47-6BC4-98BE-63B1C5F553DC",
              "name": "The collection of Dr. Shoshana Weich-Shahak",
              "attachmentType": "3",
-             "location": "http://www.youtube.com/watch?v=890qst6GSaY&amp;feature=youtu.be",
+             "location": "http://www.youtube.com/watch?v=890qst6GSaY",
              "dataLength": "0",
              "format": ".be"
             }
@@ -3021,7 +3009,7 @@
                "objectID": "C686E53C-0F9C-5637-78E5-A508AE770632",
                "name": "Interview with the Benatar sisters",
                "attachmentType": "3",
-               "location": "http://www.youtube.com/watch?v=_DRZ9M2DPB4&amp;feature=youtu.be",
+               "location": "http://www.youtube.com/watch?v=_DRZ9M2DPB4",
                "dataLength": "0",
                "format": ".be"
               }
@@ -5718,7 +5706,7 @@
   {
    "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
    "name": "Zweig, Benjamin and Kafka",
-   "data": "<p><span><span><span>In a gradual process, from the last quarter of the 19th century until the rise of the Nazis, Jews in the German-speaking world made the transition from exclusion to acceptance. Up until then Jews who wanted to take part in these societies usually had to convert to Christianity. However a definite change took place after 1848, when many former restrictions were lifted. Jews were especially successful in exploiting opportunities for advancement through education. It is this trend which allowed Kafka Zweig, and Benjamin to study in university, and made the idea of Benjamin receiving a university position tenable. &#160;Jews had become intellectual leaders in the German-speaking world.&#160;</span></span></span></p>\n",
+   "data": "<p><span><span><span>In a gradual process, from the last quarter of the 19th century until the rise of the Nazis, Jews in the German-speaking world made the transition from exclusion to acceptance. Up until then Jews who wanted to take part in these societies usually had to convert to Christianity. However a definite change took place after 1848, when many former restrictions were lifted. Jews were especially successful in exploiting opportunities for advancement through education. It is this trend which allowed Kafka, Zweig, and Benjamin to study in university, and made the idea of Benjamin receiving a university position tenable. &#160;Jews had become intellectual leaders in the German-speaking world.&#160;</span></span></span></p>\n",
    "attachments": [
     {
      "guid": "B4A3B19B-C484-205D-D7E9-7B501CFD59E8",
@@ -7221,7 +7209,7 @@
                        "children": [
                         {
                          "guid": "129C5BB4-255B-050C-8511-93A446033B36",
-                         "name": ":9: Suicide Lettel",
+                         "name": ":9: Suicide Letter",
                          "data": "<p><span><span><span>On February 22nd, 1942, Stefan Zweig and his wife Lotte, having taken an overdose of barbiturates, were found dead in their apartment in Petropolis. She was wearing her kimono, he, his shirt and tie. The previous evening Zweig had played chess with his neighbor, gone home and written a suicide note, explaining his decision to leave the world.</span></span></span></p>\n",
                          "attachments": [
                           {
@@ -7239,7 +7227,7 @@
                          ],
                          "type": "chronological",
                          "chronologicalId": "9",
-                         "chronologicalName": "Suicide Lettel",
+                         "chronologicalName": "Suicide Letter",
                          "parent": {
                           "guid": "EC3B8D22-81D8-8D73-2AFD-F263C976B714",
                           "name": "Stefan Zweig's Life (1881-1942)"
@@ -7357,9 +7345,9 @@
           "attachmentEntryID": "E2BC6A1F-18BF-23B1-E6C7-A8B122028C24"
          },
          "objectID": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02",
-         "name": "Gershom Scholem.png",
+         "name": "Gershom Scholem, NLI.png",
          "attachmentType": "1",
-         "location": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02\\Gershom Scholem.png",
+         "location": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02\\Gershom Scholem, NLI.png",
          "dataLength": "53161",
          "format": ".png"
         },
@@ -7388,18 +7376,6 @@
          "format": ".png"
         },
         {
-         "guid": "5C875895-AA73-E4EE-5BFB-4EEE0F1C3E65",
-         "AttachmentEntries": {
-          "attachmentEntryID": "E2BC6A1F-18BF-23B1-E6C7-A8B122028C24"
-         },
-         "objectID": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02",
-         "name": "Thumbs.db",
-         "attachmentType": "1",
-         "location": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02\\Thumbs.db",
-         "dataLength": "14848",
-         "format": ".db"
-        },
-        {
          "guid": "E29D7F3F-8AB9-D5B0-E142-2E713FC5A80E",
          "AttachmentEntries": {
           "attachmentEntryID": "E2BC6A1F-18BF-23B1-E6C7-A8B122028C24"
@@ -7407,7 +7383,7 @@
          "objectID": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02",
          "name": "The Passages of Walter Benjamin",
          "attachmentType": "3",
-         "location": "http://www.youtube.com/watch?v=rsbzzMRdIBg&amp;feature=youtu.be",
+         "location": "http://www.youtube.com/watch?v=rsbzzMRdIBg",
          "dataLength": "0",
          "format": ".be"
         }
@@ -7529,9 +7505,9 @@
                 "attachmentEntryID": "96758E4F-8AB2-34BB-1BAB-962607030E71"
                },
                "objectID": "448A68D1-326C-D903-A151-5FE65663F890",
-               "name": "Gershom Scholem.jpg",
+               "name": "Gershom Scholem, NLI.jpg",
                "attachmentType": "1",
-               "location": "448A68D1-326C-D903-A151-5FE65663F890\\Gershom Scholem.jpg",
+               "location": "448A68D1-326C-D903-A151-5FE65663F890\\Gershom Scholem, NLI.jpg",
                "dataLength": "41806",
                "format": ".jpg"
               }
@@ -8336,9 +8312,9 @@
           "attachmentEntryID": "7824A03F-5138-C4AA-6809-ADDC713589B7"
          },
          "objectID": "0B2BD36E-A6E5-0282-CF07-4E244E18CB6F",
-         "name": "Gershom Scholem, 1925, NLI.jpg",
+         "name": "Gershom Scholem, 1925.jpg",
          "attachmentType": "1",
-         "location": "0B2BD36E-A6E5-0282-CF07-4E244E18CB6F\\Gershom Scholem, 1925, NLI.jpg",
+         "location": "0B2BD36E-A6E5-0282-CF07-4E244E18CB6F\\Gershom Scholem, 1925.jpg",
          "dataLength": "51145",
          "format": ".jpg"
         }
@@ -8375,9 +8351,9 @@
             "attachmentEntryID": "FC5CEDDC-5EDA-783E-1292-526C7B9C0E77"
            },
            "objectID": "B1672742-A3B6-91B3-4F54-B51E19F39D89",
-           "name": "Kerekh Qatan, Haim Vital, a 1714 copy, the Scholem collection, NLI.jpg",
+           "name": "Sefer Kerekh Qatan, Haim Vital, manuscript 1714, the Scholem Collection, NLI.jpg",
            "attachmentType": "1",
-           "location": "B1672742-A3B6-91B3-4F54-B51E19F39D89\\Kerekh Qatan, Haim Vital, a 1714 copy, the Scholem collection, NLI.jpg",
+           "location": "B1672742-A3B6-91B3-4F54-B51E19F39D89\\Sefer Kerekh Qatan, Haim Vital, manuscript 1714, the Scholem Collection, NLI.jpg",
            "dataLength": "109810",
            "format": ".jpg"
           },
@@ -8603,9 +8579,9 @@
         "attachmentEntryID": "B2471148-46EE-0CC0-0FCE-3CC98BEFB253"
        },
        "objectID": "7660CE39-5432-7D03-DF5C-1645E15FBAF7",
-       "name": "Portae Lucis, Latin translation of Gikatilla&apos;s Kabbalistic work Shaarei Ora - Gates of Light.jpg",
+       "name": "Riccio&apos;s Portae Lucis, Latin translation of Gikatilla&apos;s Kabbalistic work Shaarei Ora - Gates of Light, Augsburg 1516.jpg",
        "attachmentType": "1",
-       "location": "7660CE39-5432-7D03-DF5C-1645E15FBAF7\\Portae Lucis, Latin translation of Gikatilla&apos;s Kabbalistic work Shaarei Ora - Gates of Light.jpg",
+       "location": "7660CE39-5432-7D03-DF5C-1645E15FBAF7\\Riccio&apos;s Portae Lucis, Latin translation of Gikatilla&apos;s Kabbalistic work Shaarei Ora - Gates of Light, Augsburg 1516.jpg",
        "dataLength": "430796",
        "format": ".jpg"
       }
@@ -9468,9 +9444,9 @@
           "attachmentEntryID": "4A50F165-26D6-2D17-3601-76AACAF62D0F"
          },
          "objectID": "A18ECFA2-54E6-B8AC-CADA-10F771C5453E",
-         "name": "Copy ofReading room at Bet Neeman, the Midrash Abarbanel Library, 1902 (photo Zadok Basan).jpg",
+         "name": "Reading room at Bet Neeman, the Midrash Abarbanel Library, 1902 (photo Zadok Basan).jpg",
          "attachmentType": "1",
-         "location": "A18ECFA2-54E6-B8AC-CADA-10F771C5453E\\Copy ofReading room at Bet Neeman, the Midrash Abarbanel Library, 1902 (photo Zadok Basan).jpg",
+         "location": "A18ECFA2-54E6-B8AC-CADA-10F771C5453E\\Reading room at Bet Neeman, the Midrash Abarbanel Library, 1902 (photo Zadok Basan).jpg",
          "dataLength": "605610",
          "format": ".jpg"
         }
@@ -9531,9 +9507,9 @@
             "attachmentEntryID": "91687CFF-45F1-31EA-0E08-168C194BFBC8"
            },
            "objectID": "693D46A8-1A91-41DF-5FF3-A20010E8D386",
-           "name": "The library staff with Bergmann as director in the middle, around 1935, NLI.jpg",
+           "name": "The library staff with Bergmann as director in the middle, around 1935.jpg",
            "attachmentType": "1",
-           "location": "693D46A8-1A91-41DF-5FF3-A20010E8D386\\The library staff with Bergmann as director in the middle, around 1935, NLI.jpg",
+           "location": "693D46A8-1A91-41DF-5FF3-A20010E8D386\\The library staff with Bergmann as director in the middle, around 1935.jpg",
            "dataLength": "102100",
            "format": ".jpg"
           }
@@ -9582,9 +9558,9 @@
               "attachmentEntryID": "8FC03C29-C352-4EA0-E519-D590C0EA6DA0"
              },
              "objectID": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36",
-             "name": "The circulation desk, opening day of the NLI, 1.11.1960 , D. Haris, NLI.jpg",
+             "name": "The circulation desk, opening day of the NLI, 1.11.1960 (Photo, David Charis).jpg",
              "attachmentType": "1",
-             "location": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36\\The circulation desk, opening day of the NLI, 1.11.1960 , D. Haris, NLI.jpg",
+             "location": "56BF9C7F-8E83-080D-9541-6DD1DE77EB36\\The circulation desk, opening day of the NLI, 1.11.1960 (Photo, David Charis).jpg",
              "dataLength": "97543",
              "format": ".jpg"
             },
