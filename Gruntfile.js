@@ -905,12 +905,24 @@ module.exports = function (grunt) {
         if (child.node.type !== 'chronological' && !child.node.hasChronologicalChildren) {
           child.node.brothers = _.filter(setSiblingsInfo(childs), function(brother) {
             // Clean the name property.
-            var label;
+            var label = undefined;
 
             brother._name = brother.name;
             brother.name = he.decode(brother.name);
 
-            brother.name = (label = brother.name.match(/[:\d+:|:_:]+ (.*)/)) ? label.pop() : brother.name;
+            brother.result = brother.name.match(/^:\d+: (.*)|^:_: (.*)/);
+            if (brother.result) {
+              brother._result = [];
+              brother.result.forEach(function(item) {
+                if (typeof item !== 'undefined') {
+                  brother._result.push(item);
+                }
+              });
+              brother._result = new Array(brother._result);
+              label = brother._result.pop();
+            }
+
+            brother.name = (label) ? label.pop() : brother.name;
 
             return brother.guid !== child.node.guid && !brother._name.match(/:\d+:/);
           });
