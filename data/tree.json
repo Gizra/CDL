@@ -113,17 +113,30 @@
         {
          "guid": "F7473840-FD1D-D51D-F9E9-E5C0737401F5",
          "name": "What is the Mishnah?",
-         "_name": ":_: What is the Mishnah?"
+         "_name": ":_: What is the Mishnah?",
+         "result": [
+          ":_: What is the Mishnah?",
+          null,
+          "What is the Mishnah?"
+         ],
+         "_result": []
         },
         {
          "guid": "04742146-4A6C-FCA8-766B-176722205CC9",
          "name": "What is the Talmud?",
-         "_name": ":_: What is the Talmud?"
+         "_name": ":_: What is the Talmud?",
+         "result": [
+          ":_: What is the Talmud?",
+          null,
+          "What is the Talmud?"
+         ],
+         "_result": []
         },
         {
          "guid": "BBABED78-4615-B590-7227-87D4BA75B9E2",
          "name": "The History of the Manuscript",
-         "_name": "The History of the Manuscript"
+         "_name": "The History of the Manuscript",
+         "result": null
         }
        ]
       },
@@ -182,17 +195,25 @@
         {
          "guid": "7505D43F-518B-4B46-4495-45B81531F2A9",
          "name": "Language of the Commentary",
-         "_name": "Language of the Commentary"
+         "_name": "Language of the Commentary",
+         "result": null
         },
         {
          "guid": "04742146-4A6C-FCA8-766B-176722205CC9",
          "name": "What is the Talmud?",
-         "_name": ":_: What is the Talmud?"
+         "_name": ":_: What is the Talmud?",
+         "result": [
+          ":_: What is the Talmud?",
+          null,
+          "What is the Talmud?"
+         ],
+         "_result": []
         },
         {
          "guid": "BBABED78-4615-B590-7227-87D4BA75B9E2",
          "name": "The History of the Manuscript",
-         "_name": "The History of the Manuscript"
+         "_name": "The History of the Manuscript",
+         "result": null
         }
        ]
       },
@@ -226,17 +247,25 @@
         {
          "guid": "7505D43F-518B-4B46-4495-45B81531F2A9",
          "name": "Language of the Commentary",
-         "_name": "Language of the Commentary"
+         "_name": "Language of the Commentary",
+         "result": null
         },
         {
          "guid": "F7473840-FD1D-D51D-F9E9-E5C0737401F5",
          "name": "What is the Mishnah?",
-         "_name": ":_: What is the Mishnah?"
+         "_name": ":_: What is the Mishnah?",
+         "result": [
+          ":_: What is the Mishnah?",
+          null,
+          "What is the Mishnah?"
+         ],
+         "_result": []
         },
         {
          "guid": "BBABED78-4615-B590-7227-87D4BA75B9E2",
          "name": "The History of the Manuscript",
-         "_name": "The History of the Manuscript"
+         "_name": "The History of the Manuscript",
+         "result": null
         }
        ]
       },
@@ -391,12 +420,14 @@
       {
        "guid": "B45441E4-0097-0317-6BDB-FD5F59E44DDA",
        "name": "A Remarkable Life Story",
-       "_name": "A Remarkable Life Story"
+       "_name": "A Remarkable Life Story",
+       "result": null
       },
       {
        "guid": "D426D901-F0FB-99E7-6E57-289CFFFBDD64",
        "name": "Other Masterpieces of Maimonides",
-       "_name": "Other Masterpieces of Maimonides"
+       "_name": "Other Masterpieces of Maimonides",
+       "result": null
       }
      ]
     },
@@ -1005,42 +1036,50 @@
     {
      "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
      "name": "The Islam Collection",
-     "_name": "The Islam Collection"
+     "_name": "The Islam Collection",
+     "result": null
     },
     {
      "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
      "name": "Elimelech Basch's Diary",
-     "_name": "Elimelech Basch&apos;s Diary"
+     "_name": "Elimelech Basch&apos;s Diary",
+     "result": null
     },
     {
      "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
      "name": "The Torah Scroll From Spain",
-     "_name": "The Torah Scroll From Spain"
+     "_name": "The Torah Scroll From Spain",
+     "result": null
     },
     {
      "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
      "name": "Newton's Theological Papers",
-     "_name": "Newton&apos;s Theological Papers"
+     "_name": "Newton&apos;s Theological Papers",
+     "result": null
     },
     {
      "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
      "name": "Maps of The Holy Land and Jerusalem",
-     "_name": "Maps of The Holy Land and Jerusalem"
+     "_name": "Maps of The Holy Land and Jerusalem",
+     "result": null
     },
     {
      "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
      "name": "Zweig, Benjamin and Kafka",
-     "_name": "Zweig, Benjamin and Kafka"
+     "_name": "Zweig, Benjamin and Kafka",
+     "result": null
     },
     {
      "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
      "name": "De Lonzano Kabbalistic Manuscript",
-     "_name": "De Lonzano Kabbalistic Manuscript"
+     "_name": "De Lonzano Kabbalistic Manuscript",
+     "result": null
     },
     {
      "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
      "name": "The National Library of Israel",
-     "_name": "The National Library of Israel"
+     "_name": "The National Library of Israel",
+     "result": null
     }
    ]
   },
@@ -1242,27 +1281,32 @@
       {
        "guid": "B996E13B-ADA2-C7E2-8DAF-5BFC40D2738A",
        "name": "Qur'an Manuscripts at NLI",
-       "_name": "Qur'an Manuscripts at NLI"
+       "_name": "Qur'an Manuscripts at NLI",
+       "result": null
       },
       {
        "guid": "B45E9A40-A718-3240-108E-447339EC7AF7",
        "name": "Jami’s “Gift to the Noble”",
-       "_name": "Jami’s “Gift to the Noble”"
+       "_name": "Jami’s “Gift to the Noble”",
+       "result": null
       },
       {
        "guid": "A644331A-76D0-F19B-F559-BCF92E098237",
        "name": "Poem of the Prophet's Mantle",
-       "_name": "Poem of the Prophet&apos;s Mantle"
+       "_name": "Poem of the Prophet&apos;s Mantle",
+       "result": null
       },
       {
        "guid": "E9D2870A-9528-B9CE-9EE5-E667565D0126",
        "name": "Yahuda  -  Collector and Scholar",
-       "_name": "Yahuda  -  Collector and Scholar"
+       "_name": "Yahuda  -  Collector and Scholar",
+       "result": null
       },
       {
        "guid": "CDD19939-20FC-9662-CA45-A7ACE1D5FCC7",
        "name": "Story of the Shirazi Qur’an",
-       "_name": "Story of the Shirazi Qur&#8217;an"
+       "_name": "Story of the Shirazi Qur&#8217;an",
+       "result": null
       }
      ]
     },
@@ -1295,27 +1339,32 @@
       {
        "guid": "B996E13B-ADA2-C7E2-8DAF-5BFC40D2738A",
        "name": "Qur'an Manuscripts at NLI",
-       "_name": "Qur'an Manuscripts at NLI"
+       "_name": "Qur'an Manuscripts at NLI",
+       "result": null
       },
       {
        "guid": "B45E9A40-A718-3240-108E-447339EC7AF7",
        "name": "Jami’s “Gift to the Noble”",
-       "_name": "Jami’s “Gift to the Noble”"
+       "_name": "Jami’s “Gift to the Noble”",
+       "result": null
       },
       {
        "guid": "5D28A0C8-3777-05BD-F7B8-93F0360B0BC6",
        "name": "The Book of Alexander the Great",
-       "_name": "The Book of Alexander the Great"
+       "_name": "The Book of Alexander the Great",
+       "result": null
       },
       {
        "guid": "E9D2870A-9528-B9CE-9EE5-E667565D0126",
        "name": "Yahuda  -  Collector and Scholar",
-       "_name": "Yahuda  -  Collector and Scholar"
+       "_name": "Yahuda  -  Collector and Scholar",
+       "result": null
       },
       {
        "guid": "CDD19939-20FC-9662-CA45-A7ACE1D5FCC7",
        "name": "Story of the Shirazi Qur’an",
-       "_name": "Story of the Shirazi Qur&#8217;an"
+       "_name": "Story of the Shirazi Qur&#8217;an",
+       "result": null
       }
      ]
     },
@@ -1840,42 +1889,50 @@
     {
      "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
      "name": "Maimonides' Commentary on the Mishnah",
-     "_name": "Maimonides' Commentary on the Mishnah"
+     "_name": "Maimonides' Commentary on the Mishnah",
+     "result": null
     },
     {
      "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
      "name": "Elimelech Basch's Diary",
-     "_name": "Elimelech Basch&apos;s Diary"
+     "_name": "Elimelech Basch&apos;s Diary",
+     "result": null
     },
     {
      "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
      "name": "The Torah Scroll From Spain",
-     "_name": "The Torah Scroll From Spain"
+     "_name": "The Torah Scroll From Spain",
+     "result": null
     },
     {
      "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
      "name": "Newton's Theological Papers",
-     "_name": "Newton&apos;s Theological Papers"
+     "_name": "Newton&apos;s Theological Papers",
+     "result": null
     },
     {
      "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
      "name": "Maps of The Holy Land and Jerusalem",
-     "_name": "Maps of The Holy Land and Jerusalem"
+     "_name": "Maps of The Holy Land and Jerusalem",
+     "result": null
     },
     {
      "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
      "name": "Zweig, Benjamin and Kafka",
-     "_name": "Zweig, Benjamin and Kafka"
+     "_name": "Zweig, Benjamin and Kafka",
+     "result": null
     },
     {
      "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
      "name": "De Lonzano Kabbalistic Manuscript",
-     "_name": "De Lonzano Kabbalistic Manuscript"
+     "_name": "De Lonzano Kabbalistic Manuscript",
+     "result": null
     },
     {
      "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
      "name": "The National Library of Israel",
-     "_name": "The National Library of Israel"
+     "_name": "The National Library of Israel",
+     "result": null
     }
    ]
   },
@@ -3462,42 +3519,50 @@
     {
      "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
      "name": "Maimonides' Commentary on the Mishnah",
-     "_name": "Maimonides' Commentary on the Mishnah"
+     "_name": "Maimonides' Commentary on the Mishnah",
+     "result": null
     },
     {
      "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
      "name": "The Islam Collection",
-     "_name": "The Islam Collection"
+     "_name": "The Islam Collection",
+     "result": null
     },
     {
      "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
      "name": "Elimelech Basch's Diary",
-     "_name": "Elimelech Basch's Diary"
+     "_name": "Elimelech Basch's Diary",
+     "result": null
     },
     {
      "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
      "name": "Newton's Theological Papers",
-     "_name": "Newton&apos;s Theological Papers"
+     "_name": "Newton&apos;s Theological Papers",
+     "result": null
     },
     {
      "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
      "name": "Maps of The Holy Land and Jerusalem",
-     "_name": "Maps of The Holy Land and Jerusalem"
+     "_name": "Maps of The Holy Land and Jerusalem",
+     "result": null
     },
     {
      "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
      "name": "Zweig, Benjamin and Kafka",
-     "_name": "Zweig, Benjamin and Kafka"
+     "_name": "Zweig, Benjamin and Kafka",
+     "result": null
     },
     {
      "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
      "name": "De Lonzano Kabbalistic Manuscript",
-     "_name": "De Lonzano Kabbalistic Manuscript"
+     "_name": "De Lonzano Kabbalistic Manuscript",
+     "result": null
     },
     {
      "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
      "name": "The National Library of Israel",
-     "_name": "The National Library of Israel"
+     "_name": "The National Library of Israel",
+     "result": null
     }
    ]
   },
@@ -4390,42 +4455,50 @@
     {
      "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
      "name": "Maimonides' Commentary on the Mishnah",
-     "_name": "Maimonides' Commentary on the Mishnah"
+     "_name": "Maimonides' Commentary on the Mishnah",
+     "result": null
     },
     {
      "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
      "name": "The Islam Collection",
-     "_name": "The Islam Collection"
+     "_name": "The Islam Collection",
+     "result": null
     },
     {
      "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
      "name": "Elimelech Basch's Diary",
-     "_name": "Elimelech Basch's Diary"
+     "_name": "Elimelech Basch's Diary",
+     "result": null
     },
     {
      "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
      "name": "The Torah Scroll From Spain",
-     "_name": "The Torah Scroll From Spain"
+     "_name": "The Torah Scroll From Spain",
+     "result": null
     },
     {
      "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
      "name": "Maps of The Holy Land and Jerusalem",
-     "_name": "Maps of The Holy Land and Jerusalem"
+     "_name": "Maps of The Holy Land and Jerusalem",
+     "result": null
     },
     {
      "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
      "name": "Zweig, Benjamin and Kafka",
-     "_name": "Zweig, Benjamin and Kafka"
+     "_name": "Zweig, Benjamin and Kafka",
+     "result": null
     },
     {
      "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
      "name": "De Lonzano Kabbalistic Manuscript",
-     "_name": "De Lonzano Kabbalistic Manuscript"
+     "_name": "De Lonzano Kabbalistic Manuscript",
+     "result": null
     },
     {
      "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
      "name": "The National Library of Israel",
-     "_name": "The National Library of Israel"
+     "_name": "The National Library of Israel",
+     "result": null
     }
    ]
   },
@@ -4638,7 +4711,8 @@
         {
          "guid": "8E6FBBBA-8792-BECF-1DCA-DBB2CDCF970B",
          "name": "The Land of Israel -  European  Inspirations",
-         "_name": "The Land of Israel -  European  Inspirations"
+         "_name": "The Land of Israel -  European  Inspirations",
+         "result": null
         }
        ]
       }
@@ -4647,7 +4721,8 @@
       {
        "guid": "AE0BA84A-88FB-0EC6-25D5-BDD81F99F748",
        "name": "Christian Maps",
-       "_name": "Christian Maps"
+       "_name": "Christian Maps",
+       "result": null
       }
      ]
     },
@@ -5583,7 +5658,8 @@
       {
        "guid": "03BA7521-8885-B14D-345A-0440CB69EB04",
        "name": "The Land of Israel in Jewish Eyes",
-       "_name": "The Land of Israel in Jewish Eyes"
+       "_name": "The Land of Israel in Jewish Eyes",
+       "result": null
       }
      ]
     }
@@ -5592,42 +5668,50 @@
     {
      "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
      "name": "Maimonides' Commentary on the Mishnah",
-     "_name": "Maimonides' Commentary on the Mishnah"
+     "_name": "Maimonides' Commentary on the Mishnah",
+     "result": null
     },
     {
      "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
      "name": "The Islam Collection",
-     "_name": "The Islam Collection"
+     "_name": "The Islam Collection",
+     "result": null
     },
     {
      "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
      "name": "Elimelech Basch's Diary",
-     "_name": "Elimelech Basch's Diary"
+     "_name": "Elimelech Basch's Diary",
+     "result": null
     },
     {
      "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
      "name": "The Torah Scroll From Spain",
-     "_name": "The Torah Scroll From Spain"
+     "_name": "The Torah Scroll From Spain",
+     "result": null
     },
     {
      "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
      "name": "Newton's Theological Papers",
-     "_name": "Newton's Theological Papers"
+     "_name": "Newton's Theological Papers",
+     "result": null
     },
     {
      "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
      "name": "Zweig, Benjamin and Kafka",
-     "_name": "Zweig, Benjamin and Kafka"
+     "_name": "Zweig, Benjamin and Kafka",
+     "result": null
     },
     {
      "guid": "127359C4-ED56-148C-0494-212AB1F43A86",
      "name": "De Lonzano Kabbalistic Manuscript",
-     "_name": "De Lonzano Kabbalistic Manuscript"
+     "_name": "De Lonzano Kabbalistic Manuscript",
+     "result": null
     },
     {
      "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
      "name": "The National Library of Israel",
-     "_name": "The National Library of Israel"
+     "_name": "The National Library of Israel",
+     "result": null
     }
    ]
   },
@@ -6176,13 +6260,15 @@
      "brothers": [
       {
        "guid": "2E410E15-5403-8D01-B232-146BF004FBDC",
-       "name": "– 1942)",
-       "_name": "Stefan Zweig (1881 &#8211; 1942)"
+       "name": "Stefan Zweig (1881 – 1942)",
+       "_name": "Stefan Zweig (1881 &#8211; 1942)",
+       "result": null
       },
       {
        "guid": "EE550BDB-EFDD-6B93-AA1D-B5936F29BAFB",
        "name": "Walter Benjamin (1892-1940)",
-       "_name": "Walter Benjamin (1892-1940)"
+       "_name": "Walter Benjamin (1892-1940)",
+       "result": null
       }
      ]
     },
@@ -6265,22 +6351,26 @@
           {
            "guid": "043D9139-9007-60EF-7560-FCE81E7D244D",
            "name": "The World of Yesterday",
-           "_name": "The World of Yesterday"
+           "_name": "The World of Yesterday",
+           "result": null
           },
           {
            "guid": "799883B0-2813-0A7F-BC85-3903FC322453",
-           "name": "30.11.1933",
-           "_name": "Zweig&apos;s letter to Kayser: 30.11.1933"
+           "name": "Zweig's letter to Kayser: 30.11.1933",
+           "_name": "Zweig&apos;s letter to Kayser: 30.11.1933",
+           "result": null
           },
           {
            "guid": "8C71E338-7233-5876-B3D8-8B072725E49F",
            "name": "First Steps as a Writer – Zweig and Herzl",
-           "_name": "First Steps as a Writer &#8211; Zweig and Herzl"
+           "_name": "First Steps as a Writer &#8211; Zweig and Herzl",
+           "result": null
           },
           {
            "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
            "name": "Zweig's Letter To Martin Buber",
-           "_name": "Zweig&apos;s Letter To Martin Buber"
+           "_name": "Zweig&apos;s Letter To Martin Buber",
+           "result": null
           }
          ]
         },
@@ -6349,22 +6439,26 @@
           {
            "guid": "4FB68FFB-D884-EE6A-4A8B-2AF40CD10E3B",
            "name": "Zweig's Suicide Letter",
-           "_name": "Zweig's Suicide Letter"
+           "_name": "Zweig's Suicide Letter",
+           "result": null
           },
           {
            "guid": "799883B0-2813-0A7F-BC85-3903FC322453",
-           "name": "30.11.1933",
-           "_name": "Zweig&apos;s letter to Kayser: 30.11.1933"
+           "name": "Zweig's letter to Kayser: 30.11.1933",
+           "_name": "Zweig&apos;s letter to Kayser: 30.11.1933",
+           "result": null
           },
           {
            "guid": "8C71E338-7233-5876-B3D8-8B072725E49F",
            "name": "First Steps as a Writer – Zweig and Herzl",
-           "_name": "First Steps as a Writer &#8211; Zweig and Herzl"
+           "_name": "First Steps as a Writer &#8211; Zweig and Herzl",
+           "result": null
           },
           {
            "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
            "name": "Zweig's Letter To Martin Buber",
-           "_name": "Zweig&apos;s Letter To Martin Buber"
+           "_name": "Zweig&apos;s Letter To Martin Buber",
+           "result": null
           }
          ]
         },
@@ -6409,22 +6503,26 @@
           {
            "guid": "4FB68FFB-D884-EE6A-4A8B-2AF40CD10E3B",
            "name": "Zweig's Suicide Letter",
-           "_name": "Zweig's Suicide Letter"
+           "_name": "Zweig's Suicide Letter",
+           "result": null
           },
           {
            "guid": "043D9139-9007-60EF-7560-FCE81E7D244D",
            "name": "The World of Yesterday",
-           "_name": "The World of Yesterday"
+           "_name": "The World of Yesterday",
+           "result": null
           },
           {
            "guid": "8C71E338-7233-5876-B3D8-8B072725E49F",
            "name": "First Steps as a Writer – Zweig and Herzl",
-           "_name": "First Steps as a Writer &#8211; Zweig and Herzl"
+           "_name": "First Steps as a Writer &#8211; Zweig and Herzl",
+           "result": null
           },
           {
            "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
            "name": "Zweig's Letter To Martin Buber",
-           "_name": "Zweig&apos;s Letter To Martin Buber"
+           "_name": "Zweig&apos;s Letter To Martin Buber",
+           "result": null
           }
          ]
         },
@@ -6546,22 +6644,26 @@
           {
            "guid": "4FB68FFB-D884-EE6A-4A8B-2AF40CD10E3B",
            "name": "Zweig's Suicide Letter",
-           "_name": "Zweig's Suicide Letter"
+           "_name": "Zweig's Suicide Letter",
+           "result": null
           },
           {
            "guid": "043D9139-9007-60EF-7560-FCE81E7D244D",
            "name": "The World of Yesterday",
-           "_name": "The World of Yesterday"
+           "_name": "The World of Yesterday",
+           "result": null
           },
           {
            "guid": "799883B0-2813-0A7F-BC85-3903FC322453",
-           "name": "30.11.1933",
-           "_name": "Zweig's letter to Kayser: 30.11.1933"
+           "name": "Zweig's letter to Kayser: 30.11.1933",
+           "_name": "Zweig's letter to Kayser: 30.11.1933",
+           "result": null
           },
           {
            "guid": "464AAD88-DF79-75FE-4CAE-3B36EF5DDECB",
            "name": "Zweig's Letter To Martin Buber",
-           "_name": "Zweig&apos;s Letter To Martin Buber"
+           "_name": "Zweig&apos;s Letter To Martin Buber",
+           "result": null
           }
          ]
         },
@@ -6800,7 +6902,8 @@
         {
          "guid": "EC3B8D22-81D8-8D73-2AFD-F263C976B714",
          "name": "Stefan Zweig's Life (1881-1942)",
-         "_name": "Stefan Zweig&apos;s Life (1881-1942)"
+         "_name": "Stefan Zweig&apos;s Life (1881-1942)",
+         "result": null
         }
        ]
       },
@@ -7206,13 +7309,15 @@
      "brothers": [
       {
        "guid": "69DCDB29-0DCD-2429-FB9E-E72337CB76E1",
-       "name": "– 1924)",
-       "_name": "Franz Kafka (1883 – 1924)"
+       "name": "Franz Kafka (1883 – 1924)",
+       "_name": "Franz Kafka (1883 – 1924)",
+       "result": null
       },
       {
        "guid": "EE550BDB-EFDD-6B93-AA1D-B5936F29BAFB",
        "name": "Walter Benjamin (1892-1940)",
-       "_name": "Walter Benjamin (1892-1940)"
+       "_name": "Walter Benjamin (1892-1940)",
+       "result": null
       }
      ]
     },
@@ -7318,17 +7423,20 @@
         {
          "guid": "063191BF-282F-35D3-AD28-70F721D9DD0C",
          "name": "A Tempestuous Life",
-         "_name": "A Tempestuous Life"
+         "_name": "A Tempestuous Life",
+         "result": null
         },
         {
          "guid": "95934A56-2137-1032-C7F4-2BD7F29A375E",
          "name": "Harbinger of the 21st Century",
-         "_name": "Harbinger of the 21st Century"
+         "_name": "Harbinger of the 21st Century",
+         "result": null
         },
         {
          "guid": "FF8523E3-155F-6F3D-37FB-5E17940C6DAF",
          "name": "Benjamin's Archive at the NLI",
-         "_name": "Benjamin&apos;s Archive at the NLI"
+         "_name": "Benjamin&apos;s Archive at the NLI",
+         "result": null
         }
        ]
       },
@@ -7657,17 +7765,20 @@
         {
          "guid": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02",
          "name": "Philosopher and Critic",
-         "_name": "Philosopher and Critic"
+         "_name": "Philosopher and Critic",
+         "result": null
         },
         {
          "guid": "063191BF-282F-35D3-AD28-70F721D9DD0C",
          "name": "A Tempestuous Life",
-         "_name": "A Tempestuous Life"
+         "_name": "A Tempestuous Life",
+         "result": null
         },
         {
          "guid": "FF8523E3-155F-6F3D-37FB-5E17940C6DAF",
          "name": "Benjamin's Archive at the NLI",
-         "_name": "Benjamin&apos;s Archive at the NLI"
+         "_name": "Benjamin&apos;s Archive at the NLI",
+         "result": null
         }
        ]
       },
@@ -7817,18 +7928,21 @@
          "brothers": [
           {
            "guid": "C588E3AE-91EB-2A99-50B8-6520308382D6",
-           "name": "Letter to Scholem",
-           "_name": "Berlin: Letter to Scholem"
+           "name": "Berlin: Letter to Scholem",
+           "_name": "Berlin: Letter to Scholem",
+           "result": null
           },
           {
            "guid": "773D5BCA-C739-7062-0261-B746CF4091BA",
            "name": "Manuscript of Trauerspielbuch, 1925",
-           "_name": "Manuscript of Trauerspielbuch, 1925"
+           "_name": "Manuscript of Trauerspielbuch, 1925",
+           "result": null
           },
           {
            "guid": "07D1614D-6B22-3067-3DD4-4225322EB5C4",
            "name": "Letter of the Spanish authorities",
-           "_name": "Letter of the Spanish authorities"
+           "_name": "Letter of the Spanish authorities",
+           "result": null
           }
          ]
         },
@@ -7873,18 +7987,21 @@
          "brothers": [
           {
            "guid": "C588E3AE-91EB-2A99-50B8-6520308382D6",
-           "name": "Letter to Scholem",
-           "_name": "Berlin: Letter to Scholem"
+           "name": "Berlin: Letter to Scholem",
+           "_name": "Berlin: Letter to Scholem",
+           "result": null
           },
           {
            "guid": "1DD1B7AA-B6DC-8BF8-E629-916882ACB92A",
            "name": "Essay on Kafka",
-           "_name": "Essay on Kafka"
+           "_name": "Essay on Kafka",
+           "result": null
           },
           {
            "guid": "07D1614D-6B22-3067-3DD4-4225322EB5C4",
            "name": "Letter of the Spanish authorities",
-           "_name": "Letter of the Spanish authorities"
+           "_name": "Letter of the Spanish authorities",
+           "result": null
           }
          ]
         },
@@ -7916,18 +8033,21 @@
          "brothers": [
           {
            "guid": "C588E3AE-91EB-2A99-50B8-6520308382D6",
-           "name": "Letter to Scholem",
-           "_name": "Berlin: Letter to Scholem"
+           "name": "Berlin: Letter to Scholem",
+           "_name": "Berlin: Letter to Scholem",
+           "result": null
           },
           {
            "guid": "1DD1B7AA-B6DC-8BF8-E629-916882ACB92A",
            "name": "Essay on Kafka",
-           "_name": "Essay on Kafka"
+           "_name": "Essay on Kafka",
+           "result": null
           },
           {
            "guid": "773D5BCA-C739-7062-0261-B746CF4091BA",
            "name": "Manuscript of Trauerspielbuch, 1925",
-           "_name": "Manuscript of Trauerspielbuch, 1925"
+           "_name": "Manuscript of Trauerspielbuch, 1925",
+           "result": null
           }
          ]
         }
@@ -7936,17 +8056,20 @@
         {
          "guid": "0D46F88A-0E6D-309A-FCEF-E7D11C0DEC02",
          "name": "Philosopher and Critic",
-         "_name": "Philosopher and Critic"
+         "_name": "Philosopher and Critic",
+         "result": null
         },
         {
          "guid": "063191BF-282F-35D3-AD28-70F721D9DD0C",
          "name": "A Tempestuous Life",
-         "_name": "A Tempestuous Life"
+         "_name": "A Tempestuous Life",
+         "result": null
         },
         {
          "guid": "95934A56-2137-1032-C7F4-2BD7F29A375E",
          "name": "Harbinger of the 21st Century",
-         "_name": "Harbinger of the 21st Century"
+         "_name": "Harbinger of the 21st Century",
+         "result": null
         }
        ]
       }
@@ -7954,13 +8077,15 @@
      "brothers": [
       {
        "guid": "69DCDB29-0DCD-2429-FB9E-E72337CB76E1",
-       "name": "– 1924)",
-       "_name": "Franz Kafka (1883 – 1924)"
+       "name": "Franz Kafka (1883 – 1924)",
+       "_name": "Franz Kafka (1883 – 1924)",
+       "result": null
       },
       {
        "guid": "2E410E15-5403-8D01-B232-146BF004FBDC",
-       "name": "– 1942)",
-       "_name": "Stefan Zweig (1881 – 1942)"
+       "name": "Stefan Zweig (1881 – 1942)",
+       "_name": "Stefan Zweig (1881 – 1942)",
+       "result": null
       }
      ]
     },
@@ -8438,27 +8563,32 @@
       {
        "guid": "39ABFFE0-8C5D-9650-9F17-034E7E7E896B",
        "name": "Who was Menahem de Lonzano",
-       "_name": "Who was Menahem de Lonzano"
+       "_name": "Who was Menahem de Lonzano",
+       "result": null
       },
       {
        "guid": "57A84264-5C68-ED20-E214-07FC16BAECC2",
        "name": "Scholem and his Library at NLI",
-       "_name": "Scholem and his Library at NLI"
+       "_name": "Scholem and his Library at NLI",
+       "result": null
       },
       {
        "guid": "B70CC56F-232A-8B7F-9EE2-0C2E0D6338A3",
        "name": "The Manuscript",
-       "_name": "The Manuscript"
+       "_name": "The Manuscript",
+       "result": null
       },
       {
        "guid": "7660CE39-5432-7D03-DF5C-1645E15FBAF7",
        "name": "What is the Kabbalah?",
-       "_name": "What is the Kabbalah?"
+       "_name": "What is the Kabbalah?",
+       "result": null
       },
       {
        "guid": "FC8267B2-2167-0CD9-C3FE-A30FDBBCCE3D",
        "name": "Non-Jewish Kabbalah",
-       "_name": "Non-Jewish Kabbalah"
+       "_name": "Non-Jewish Kabbalah",
+       "result": null
       }
      ]
     },
@@ -8821,42 +8951,50 @@
     {
      "guid": "E07DE180-4F9F-F5EF-5597-F1B13CA9F5B3",
      "name": "Maimonides' Commentary on the Mishnah",
-     "_name": "Maimonides' Commentary on the Mishnah"
+     "_name": "Maimonides' Commentary on the Mishnah",
+     "result": null
     },
     {
      "guid": "0A4643E2-FE0F-B2CE-3595-29CCBCE54838",
      "name": "The Islam Collection",
-     "_name": "The Islam Collection"
+     "_name": "The Islam Collection",
+     "result": null
     },
     {
      "guid": "403D55C8-4B15-4985-CB9F-6A8D5646BE79",
      "name": "Elimelech Basch's Diary",
-     "_name": "Elimelech Basch's Diary"
+     "_name": "Elimelech Basch's Diary",
+     "result": null
     },
     {
      "guid": "FB8F983C-DEC9-E871-658F-868ABD5B1FC3",
      "name": "The Torah Scroll From Spain",
-     "_name": "The Torah Scroll From Spain"
+     "_name": "The Torah Scroll From Spain",
+     "result": null
     },
     {
      "guid": "A9033D67-7C48-B1E8-59A7-6F4E372E0EA7",
      "name": "Newton's Theological Papers",
-     "_name": "Newton's Theological Papers"
+     "_name": "Newton's Theological Papers",
+     "result": null
     },
     {
      "guid": "D4C41630-D4E6-107B-C285-E728DB90E00B",
      "name": "Maps of The Holy Land and Jerusalem",
-     "_name": "Maps of The Holy Land and Jerusalem"
+     "_name": "Maps of The Holy Land and Jerusalem",
+     "result": null
     },
     {
      "guid": "009AFF8A-7D15-F90B-EBDE-1B572F9D7ED5",
      "name": "Zweig, Benjamin and Kafka",
-     "_name": "Zweig, Benjamin and Kafka"
+     "_name": "Zweig, Benjamin and Kafka",
+     "result": null
     },
     {
      "guid": "951EE7CF-B79F-21B4-D7ED-DE07FCD7CC10",
      "name": "The National Library of Israel",
-     "_name": "The National Library of Israel"
+     "_name": "The National Library of Israel",
+     "result": null
     }
    ]
   },
