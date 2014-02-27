@@ -853,7 +853,7 @@ module.exports = function (grunt) {
      * @param parent
      * @returns {*}
      */
-    function parseChilds(childs, parent) {
+    function parseChilds(childs, parent, depth) {
       var childsOrdered = [],
         chronologicalChilds;
 
@@ -874,8 +874,16 @@ module.exports = function (grunt) {
         // Parse the content and set the classification of the node.
         setNodeContent(child.node);
 
-        // Add parent information
-        if (parent.guid !== firstNode) {
+        // Add depth.
+        if (typeof depth === 'undefined') {
+          child.node._depth = 1;
+        }
+        else {
+          child.node._depth = depth+1;
+        }
+
+        // Add parent information.
+        if (parent.guid !== firstNode && child.node._depth > 2) {
           child.node.parent = _.pick(parent, 'guid');
           child.node.parent.name = getName(parent);
         }
@@ -884,7 +892,7 @@ module.exports = function (grunt) {
         child.node.hasChronologicalChildren = false;
 
         // Look up for more generations of childrens.
-        child.node.children = getChilds(child.node);
+        child.node.children = getChilds(child.node, child.node._depth);
 
         // If a chronological node have grandchildSet the granchild.parent like the father parent.
         if (child.node.type === 'chronological' && child.node.children.length > 0) {
@@ -898,11 +906,10 @@ module.exports = function (grunt) {
           child.node.hasChronologicalChildren = true;
         }
 
-
         // Get the siblings nodes.
         child.node.brothers = [];
 
-        if (child.node.type !== 'chronological' && !child.node.hasChronologicalChildren) {
+        if (child.node.type !== 'chronological' && !child.node.hasChronologicalChildren && child.node._depth > 1) {
           child.node.brothers = _.filter(setSiblingsInfo(childs), function(brother) {
             // Clean the name property.
             var label = undefined;
@@ -948,9 +955,10 @@ module.exports = function (grunt) {
      * Get childs of the node.
      *
      * @param node
+     * @param depth
      * @returns {*}
      */
-    function getChilds(node) {
+    function getChilds(node, depth) {
       var childsOrdered = [],
           childs = [];
 
@@ -958,7 +966,7 @@ module.exports = function (grunt) {
       childs = _.union( _.where(nodesLinks, {idA: node.guid, dir: '1'}), _.where(nodesLinks, {idB: node.guid, dir: '2'}) );
 
       if (childs.length) {
-        childsOrdered = parseChilds(childs, node);
+        childsOrdered = parseChilds(childs, node, depth);
       }
 
       return childsOrdered;
