@@ -881,7 +881,6 @@ module.exports = function (grunt) {
         else {
           child.node._depth = depth+1;
         }
-        grunt.log.write(depth, child.node._depth);
 
         // Add parent information.
         if (parent.guid !== firstNode && child.node._depth > 2) {
@@ -906,7 +905,6 @@ module.exports = function (grunt) {
         if (child.node.type !== 'chronological' && _.where(child.node.children, {type: 'chronological'}).length) {
           child.node.hasChronologicalChildren = true;
         }
-
 
         // Get the siblings nodes.
         child.node.brothers = [];
