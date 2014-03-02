@@ -20,17 +20,20 @@
     draw = {},
     width = config.chart.canvas.width,
     height = config.chart.canvas.height,
-    agent = navigator.userAgent;
+    agent = navigator.userAgent,
+    os;
 
   // Detect device and set configuration respectively.
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(agent) ) {
     if (agent.match(/iPad/)) {
+      os = 'ios';
       config.chart.initial.minZoom = 0.43;
       config.chart.zoom.hideGrandChildren = 0.44;
       config.chart.initial.y = function(height) { return height * 0.30;};
       config.nodes.root.r = config.nodes.root.rFocus = config.nodes.root.target = config.nodes.translation.r = config.nodes.translation.rFocus = config.nodes.translation.target = 35;
     }
     else if (agent.match(/Android/)) {
+      os = 'android';
       if (agent.match(/Pad/)) {
         config.chart.initial.minZoom = 0.65;
         config.chart.zoom.hideGrandChildren = 0.66;
@@ -47,6 +50,13 @@
 
   }
   else {
+    if (agent.match(/Mac OS X/)) {
+      os = 'osx';
+    }
+    else {
+      os = 'other';
+    }
+
     config.chart.initial.minZoom = 0.55;
     config.chart.zoom.hideGrandChildren = 0.56;
     config.nodes.root.r = config.nodes.root.rFocus = config.nodes.root.target = config.nodes.translation.r = config.nodes.translation.rFocus = config.nodes.translation.target = 50;
@@ -83,34 +93,44 @@
     }
 
     zoomSvg = d3.behavior.zoom()
-        .center([window.innerWidth / 2, window.innerHeight / 2])
-        .scaleExtent([config.chart.initial.minZoom, config.chart.initial.maxZoom])
-        .on('zoomstart', zoomstart)
-        .on('zoom', zoom)
-        .on('zoomend', zoomend);
+      .center([window.innerWidth / 2, window.innerHeight / 2])
+      .scaleExtent([config.chart.initial.minZoom, config.chart.initial.maxZoom])
+      .on('zoomstart', zoomstart)
+      .on('zoom', zoom)
+      .on('zoomend', zoomend);
 
-    // Canvas.
-    svgContainer = d3.select('body').append('svg')
+    // Defining canvas object, properties and events according.
+    if (os === 'ios' || os === 'osx') {
+      svgContainer = d3.select('body').append('svg')
         .attr('id', 'chart')
         .attr('width', '100%')
         .attr('height', '100%')
         .style('fill', 'transparent')
-        .on('dblclick.zoom', function(){d3.event.stopPropagation();})
-        .on('touchstart', function(){d3.event.preventDefault();})
+        .on('zoom', zoomSvg)
+        .on('dblclick.zoom', function(){d3.event.stopPropagation(); return null;})
+        .on('touchstart', function(){d3.event.preventDefault(); return null;})
         .on('touchmove', zoomSvg)
-        .on('touchend', function(){d3.event.preventDefault();})
-        .on('gesturestart', function(){d3.event.stopPropagation();})
+        .on('touchend', function(){d3.event.preventDefault(); return null;})
+        .on('gesturestart', function(){d3.event.stopPropagation(); return null;})
         .on('gesturechange', zoomSvg)
-        .on('gestureend', function(){d3.event.stopPropagation();})
+        .on('gestureend', function(){d3.event.stopPropagation(); return null; })
         .call(zoomSvg);
+    }
+    else {
+      svgContainer = d3.select('body').append('svg')
+        .attr('id', 'chart')
+        .attr('width', '100%')
+        .attr('height', '100%')
+        .style('fill', 'transparent')
+        .call(zoomSvg);
+    }
 
     // Background.
     background =  svgContainer.append('rect')
       .attr('id', 'background')
       .attr('width', width)
       .attr('height', height)
-      .style('fill', 'transparent')
-      .on('zoom', zoom);
+      .style('fill', 'transparent');
 
     // System.
     system = svgContainer.append('g')
