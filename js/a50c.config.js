@@ -77,7 +77,7 @@
       },
       transitions: {
         titles: 40,
-        circles: 10,
+        circles: 40,
         lines: 40
       },
       translation: {
