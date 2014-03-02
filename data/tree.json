@@ -2611,9 +2611,9 @@
         "attachmentEntryID": "0468B19A-2E6C-900E-791D-1F8F706DA3EE"
        },
        "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
-       "name": "The Torah scroll from Spain with coat, close view, NLI.jpg",
+       "name": "The Torah scroll from Spain with coat, NLI.jpg",
        "attachmentType": "1",
-       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah scroll from Spain with coat, close view, NLI.jpg",
+       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah scroll from Spain with coat, NLI.jpg",
        "dataLength": "111047",
        "format": ".jpg"
       },
@@ -2623,9 +2623,9 @@
         "attachmentEntryID": "0468B19A-2E6C-900E-791D-1F8F706DA3EE"
        },
        "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
-       "name": "Torah Scroll from Spain,  Open Sheet, NLI.jpg",
+       "name": "Torah Scroll from Spain, NLI.jpg",
        "attachmentType": "1",
-       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\Torah Scroll from Spain,  Open Sheet, NLI.jpg",
+       "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\Torah Scroll from Spain, NLI.jpg",
        "dataLength": "61909",
        "format": ".jpg"
       }
@@ -8831,8 +8831,34 @@
         {
          "guid": "AB8BC076-91F7-7A6C-8B7E-C2AF3B5DDD42",
          "name": ":2: Credits",
-         "data": "<p><b><span>Credits</span></b></p>\n<p>&#160;</p>\n<p><b>Exhibition Staff</b></p>\n<p>Exhibition Curator:<b> </b>Dr. Milka Levy-Rubin</p>\n<p>Concept and Digital Architecture: Yechiam Halevy</p>\n<p>Interactive Design and Video: Nir Yenni</p>\n<p>Development Team: Gizra LTD</p>\n<p>Research and Production: Shay Eshel</p>\n<p>Spanish Translation: Ioram Melcer</p>\n<p>English Translation: Tichye Krakowsky</p>\n<p>Photography: Hanan Cohen</p>\n<p>&#160;</p>\n<p><b>NLI Contributors</b></p>\n<p>Ido Ivri, Strategy and Innovation</p>\n<p>Dr. Raquel Ukeles, &#160;Dr. Aviad Stollman, Collections Division</p>\n<p>Dr. Stefan Litt, Archives Department</p>\n<p>Anat Wax, Dr. Amalia Kedem, Gil Stein, Music Department</p>\n<p>Dr. Zvi Leshem, Scholem Collection</p>\n<p>Shai Chazan, Moran Yair, Digital Content</p>\n<p>Noam Solan, Liora Nixon, Intellectual Property Advisors</p>\n<p><span><span>Information Technology Department</span></span></p>\n<p><span><span><span>Department of Manuscripts and Rare Books</span></span></span><span><span></span></span></p>\n<p>&#160;</p>\n<p><b>Our thanks to all those who have contributed to this exhibition:</b></p>\n<p>Benatar sisters</p>\n<p>Prof. Rachel Elior</p>\n<p>Yacov Fuchs</p>\n<p>Dr. Benjamin Richler</p>\n<p>Perhiya and Avi Senderowitcz</p>\n<p>Prof. Judith Wechsler</p>\n<p>Dr. Shoshana Weich-Shahak</p>\n",
-         "attachments": [],
+         "data": "<p><b><span>Exhibition organised by<br />\n</span></b><span>Fundación Germán Sánchez Ruipérez-Casa del Lector<br />\nNational Library of Israel</span></p>\n<p><span>&#160;<br />\n<b>In collaboration with</b></span></p>\n<p><span>Embassy of Israel in Spain</span></p>\n<p><span>Sefarad-Israel Center, Madrid</span></p>\n<p>&#160;</p>\n<p><b><span>Exhibition Curator</span></b></p>\n<p><span>Dr. Milka Levy-Rubin</span></p>\n<p>&#160;</p>\n<p><b><span>Concept and Digital Architecture</span></b></p>\n<p><span>Yechiam Halevy</span></p>\n<p>&#160;</p>\n<p><b><span>Exhibition coordinator</span></b></p>\n<p><span>José Vicente Quirante</span></p>\n<p>&#160;</p>\n<p><b><span>Assistants</span></b></p>\n<p><span>Maura Sánchez</span></p>\n<p><span>Aitor Ibáñez</span></p>\n<p><span>Francisco M. Guzmán</span></p>\n<p>&#160;</p>\n<p><b><span>Interactive Design and Video:</span></b><span> Nir Yenni</span></p>\n<p><b><span>Development Team:</span></b><span> Gizra LTD</span></p>\n<p><b><span>Research and Production:</span></b><span> Shay Eshel</span></p>\n<p><b><span>Spanish Translation:</span></b><span> Ioram Melcer</span></p>\n<p><b><span>Photography:</span></b><span>Hanan Cohen</span></p>\n<p>&#160;</p>\n<p><b><span>Exhibition design</span></b></p>\n<p><span>Marta Redondo con Tino de la Carrera</span></p>\n<p>&#160;</p>\n<p><b><span>Graphic production</span></b></p>\n<p><span>White rock</span></p>\n<p>&#160;</p>\n<p><b><span>NLI Contributors</span></b></p>\n<p><span>Ido Ivri, Strategy and Innovation</span></p>\n<p><span>Dr. Raquel Ukeles, Dr. Aviad Stollman, Collections Division</span></p>\n<p><span>Dr. Stefan Litt, Archives Department</span></p>\n<p><span>Anat Wax, Dr. Amalia Kedem, Gil Stein, Music Department</span></p>\n<p><span>Dr. Zvi Leshem, Scholem Collection</span></p>\n<p><span>Shai Chazan, Moran Yair, Digital Content</span></p>\n<p><span>Noam Solan, Liora Nixon, Intellectual Property Advisors</span></p>\n<p><span>Information Technology <a id=\"_GoBack\" name=\"_GoBack\"> </a>Department</span></p>\n<p>&#160;</p>\n<p>&#160;</p>\n<p><b><span>Our thanks to all those who have contributed to this exhibition:</span></b></p>\n<p><span>Benatar sisters</span></p>\n<p><span>Prof. Rachel Elior</span></p>\n<p><span>Yacov Fuchs</span></p>\n<p><span>Dr. Benjamin Richler</span></p>\n<p><span>Perhiya and Avi Senderowitcz</span></p>\n<p><span>Prof. Judith Wechsler</span></p>\n<p><span>Dr. Shoshana Weich-Shahak</span></p>\n",
+         "attachments": [
+          {
+           "guid": "B3595C1B-70B5-235A-EC2B-198DFF75D289",
+           "AttachmentEntries": {
+            "attachmentEntryID": "E697F604-7F02-7500-FDFA-4E4A6936A7FA"
+           },
+           "objectID": "AB8BC076-91F7-7A6C-8B7E-C2AF3B5DDD42",
+           "name": "Participating institutions.jpg",
+           "attachmentType": "1",
+           "location": "AB8BC076-91F7-7A6C-8B7E-C2AF3B5DDD42\\Participating institutions.jpg",
+           "dataLength": "49555",
+           "format": ".jpg"
+          },
+          {
+           "guid": "C5F15137-4226-0FA3-5448-1F58226AAD1A",
+           "AttachmentEntries": {
+            "attachmentEntryID": "E697F604-7F02-7500-FDFA-4E4A6936A7FA"
+           },
+           "objectID": "AB8BC076-91F7-7A6C-8B7E-C2AF3B5DDD42",
+           "name": "",
+           "attachmentType": "0",
+           "location": "",
+           "dataLength": "0",
+           "format": "",
+           "deletedDateTime": "2014-03-02 15:06:18.035 @+0200"
+          }
+         ],
          "type": "chronological",
          "chronologicalId": "2",
          "chronologicalName": "Credits",

@@ -6,7 +6,7 @@
       "personalBrainVersion": "7045",
       "telepathyVersion": "10",
       "fileRoot": "\\\\nlinetapp1\\homedir\\shaye\\Desktop\\NLI-CDL 3 pict.modified_brain\\Files",
-      "generatedDateTime": "2014-02-27 15:15:25.849 @+0200",
+      "generatedDateTime": "2014-03-02 15:53:56.007 @+0200",
       "homeThoughtGuid": "D9DE1825-A532-8B29-7146-4E6F2E819F1F",
       "modificationDateTime": "2014-02-10 14:21:45.261 @+0200"
     },
@@ -251,7 +251,7 @@
           "creationDateTime": "2014-01-07 11:37:58.000 @+0200",
           "realModificationDateTime": "2014-01-28 16:10:09.421 @+0200",
           "displayModificationDateTime": "2014-01-28 16:10:09.421 @+0200",
-          "activationDateTime": "2014-02-27 15:01:29.545 @+0200",
+          "activationDateTime": "2014-03-02 15:51:55.817 @+0200",
           "linksModificationDateTime": "2014-01-07 11:38:09.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -368,7 +368,7 @@
           "creationDateTime": "2014-01-07 11:37:57.000 @+0200",
           "realModificationDateTime": "2014-01-09 11:56:55.000 @+0200",
           "displayModificationDateTime": "2014-01-23 12:45:42.000 @+0200",
-          "activationDateTime": "2014-01-22 14:39:34.373 @+0200",
+          "activationDateTime": "2014-03-02 15:48:35.022 @+0200",
           "linksModificationDateTime": "2013-10-22 16:42:09.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -394,7 +394,7 @@
           "creationDateTime": "2014-01-07 11:37:56.000 @+0200",
           "realModificationDateTime": "2014-02-03 12:27:06.544 @+0200",
           "displayModificationDateTime": "2014-02-03 12:27:06.544 @+0200",
-          "activationDateTime": "2014-02-13 14:46:36.034 @+0200",
+          "activationDateTime": "2014-03-02 15:51:52.181 @+0200",
           "linksModificationDateTime": "2013-11-25 14:38:09.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1018,7 +1018,7 @@
           "creationDateTime": "2014-01-07 11:32:36.000 @+0200",
           "realModificationDateTime": "2014-02-16 11:14:40.210 @+0200",
           "displayModificationDateTime": "2014-02-16 11:15:37.799 @+0200",
-          "activationDateTime": "2014-02-27 11:25:27.784 @+0200",
+          "activationDateTime": "2014-03-02 15:53:34.071 @+0200",
           "linksModificationDateTime": "2014-02-16 11:14:54.393 @+0200",
           "isType": "0",
           "color": "0",
@@ -1096,7 +1096,7 @@
           "creationDateTime": "2014-01-07 11:32:31.000 @+0200",
           "realModificationDateTime": "2014-02-17 13:19:18.276 @+0200",
           "displayModificationDateTime": "2014-02-17 13:19:18.278 @+0200",
-          "activationDateTime": "2014-02-27 11:25:29.398 @+0200",
+          "activationDateTime": "2014-03-02 15:53:08.638 @+0200",
           "linksModificationDateTime": "2014-02-16 11:14:54.395 @+0200",
           "isType": "0",
           "color": "0",
@@ -1148,7 +1148,7 @@
           "creationDateTime": "2014-01-07 11:32:32.000 @+0200",
           "realModificationDateTime": "2014-01-07 11:32:32.000 @+0200",
           "displayModificationDateTime": "2014-01-23 12:46:38.000 @+0200",
-          "activationDateTime": "2014-01-19 15:10:58.694 @+0200",
+          "activationDateTime": "2014-03-02 15:53:13.376 @+0200",
           "linksModificationDateTime": "2013-10-17 15:10:08.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -1212,8 +1212,8 @@
           "label": "",
           "creationDateTime": "2014-02-17 14:07:15.429 @+0200",
           "realModificationDateTime": "2014-02-17 14:20:50.330 @+0200",
-          "displayModificationDateTime": "2014-02-24 15:45:29.381 @+0200",
-          "activationDateTime": "2014-02-24 15:44:36.111 @+0200",
+          "displayModificationDateTime": "2014-03-02 15:06:51.535 @+0200",
+          "activationDateTime": "2014-03-02 15:06:15.194 @+0200",
           "linksModificationDateTime": "2014-02-17 14:07:15.459 @+0200",
           "isType": "0",
           "color": "0",
@@ -1252,7 +1252,7 @@
           "creationDateTime": "2014-02-17 14:06:38.795 @+0200",
           "realModificationDateTime": "2014-02-17 14:06:38.795 @+0200",
           "displayModificationDateTime": "2014-02-17 14:06:38.795 @+0200",
-          "activationDateTime": "2014-02-24 15:46:25.220 @+0200",
+          "activationDateTime": "2014-03-02 15:48:17.836 @+0200",
           "linksModificationDateTime": "2014-02-17 14:07:15.459 @+0200",
           "isType": "0",
           "color": "0",
@@ -2070,8 +2070,8 @@
           "label": "",
           "creationDateTime": "2014-01-07 11:42:53.000 @+0200",
           "realModificationDateTime": "2014-01-09 15:08:17.000 @+0200",
-          "displayModificationDateTime": "2014-02-12 11:08:47.921 @+0200",
-          "activationDateTime": "2014-02-27 14:09:15.068 @+0200",
+          "displayModificationDateTime": "2014-03-02 14:55:48.465 @+0200",
+          "activationDateTime": "2014-03-02 14:55:06.316 @+0200",
           "linksModificationDateTime": "2014-01-22 15:31:04.381 @+0200",
           "isType": "0",
           "color": "ffffff",
@@ -2201,7 +2201,7 @@
           "creationDateTime": "2014-01-07 11:42:47.000 @+0200",
           "realModificationDateTime": "2014-01-29 12:29:32.924 @+0200",
           "displayModificationDateTime": "2014-01-29 12:30:10.462 @+0200",
-          "activationDateTime": "2014-02-27 14:09:16.598 @+0200",
+          "activationDateTime": "2014-03-02 15:52:55.160 @+0200",
           "linksModificationDateTime": "2014-01-22 15:31:04.000 @+0200",
           "isType": "0",
           "color": "ffffff",
@@ -2253,7 +2253,7 @@
           "creationDateTime": "2014-01-07 11:42:42.000 @+0200",
           "realModificationDateTime": "2014-01-22 14:32:03.039 @+0200",
           "displayModificationDateTime": "2014-01-28 16:28:16.780 @+0200",
-          "activationDateTime": "2014-02-13 15:10:50.373 @+0200",
+          "activationDateTime": "2014-03-02 14:54:17.564 @+0200",
           "linksModificationDateTime": "2014-01-09 15:09:18.000 @+0200",
           "isType": "0",
           "color": "ffffff",
@@ -2292,7 +2292,7 @@
           "creationDateTime": "2014-02-06 16:25:39.945 @+0200",
           "realModificationDateTime": "2014-02-06 16:25:39.945 @+0200",
           "displayModificationDateTime": "2014-02-13 13:41:28.580 @+0200",
-          "activationDateTime": "2014-02-27 15:00:10.321 @+0200",
+          "activationDateTime": "2014-03-02 15:48:18.810 @+0200",
           "linksModificationDateTime": "2014-02-17 14:06:38.815 @+0200",
           "isType": "0",
           "color": "0",
@@ -2721,7 +2721,7 @@
           "creationDateTime": "2014-01-07 11:38:02.000 @+0200",
           "realModificationDateTime": "2014-01-22 13:30:14.831 @+0200",
           "displayModificationDateTime": "2014-01-30 14:04:23.715 @+0200",
-          "activationDateTime": "2014-02-27 15:01:33.924 @+0200",
+          "activationDateTime": "2014-03-02 12:46:01.878 @+0200",
           "linksModificationDateTime": "2013-12-01 16:37:06.000 @+0200",
           "isType": "0",
           "color": "ffffffff",
@@ -2786,7 +2786,7 @@
           "creationDateTime": "2014-01-07 12:09:12.000 @+0200",
           "realModificationDateTime": "2014-02-03 12:26:18.418 @+0200",
           "displayModificationDateTime": "2014-02-27 11:26:52.362 @+0200",
-          "activationDateTime": "2014-02-27 14:09:59.789 @+0200",
+          "activationDateTime": "2014-03-02 12:46:13.647 @+0200",
           "linksModificationDateTime": "2014-01-07 18:03:23.000 @+0200",
           "isType": "0",
           "color": "0",
@@ -2929,7 +2929,7 @@
           "creationDateTime": "2014-01-15 14:52:37.496 @+0200",
           "realModificationDateTime": "2014-01-15 14:58:40.328 @+0200",
           "displayModificationDateTime": "2014-02-12 11:58:50.950 @+0200",
-          "activationDateTime": "2014-02-27 14:09:12.780 @+0200",
+          "activationDateTime": "2014-03-02 14:54:36.704 @+0200",
           "linksModificationDateTime": "2014-02-25 14:49:06.392 @+0200",
           "isType": "0",
           "color": "0",
@@ -3072,7 +3072,7 @@
           "creationDateTime": "2014-01-07 11:42:38.000 @+0200",
           "realModificationDateTime": "2014-01-28 16:23:55.542 @+0200",
           "displayModificationDateTime": "2014-01-28 16:23:55.542 @+0200",
-          "activationDateTime": "2014-02-12 11:37:02.906 @+0200",
+          "activationDateTime": "2014-03-02 15:52:46.880 @+0200",
           "linksModificationDateTime": "2014-01-12 12:58:49.000 @+0200",
           "isType": "0",
           "color": "ffffff",
@@ -8489,10 +8489,10 @@
               "objectID": "AB8BC076-91F7-7A6C-8B7E-C2AF3B5DDD42"
             }
           },
-          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Credits&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;Exhibition Staff&lt;/b&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Exhibition Curator:&lt;b&gt; &lt;/b&gt;Dr. Milka Levy-Rubin&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Concept and Digital Architecture: Yechiam Halevy&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Interactive Design and Video: Nir Yenni&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Development Team: Gizra LTD&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Research and Production: Shay Eshel&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Spanish Translation: Ioram Melcer&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;English Translation: Tichye Krakowsky&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Photography: Hanan Cohen&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;NLI Contributors&lt;/b&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Ido Ivri, Strategy and Innovation&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Dr. Raquel Ukeles, &amp;#160;Dr. Aviad Stollman, Collections Division&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Dr. Stefan Litt, Archives Department&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Anat Wax, Dr. Amalia Kedem, Gil Stein, Music Department&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Dr. Zvi Leshem, Scholem Collection&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Shai Chazan, Moran Yair, Digital Content&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Noam Solan, Liora Nixon, Intellectual Property Advisors&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Information Technology Department&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; line-height: 115%; color: #333333;&quot;&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;Department of Manuscripts and Rare Books&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot; font-size: small;&quot;&gt;&lt;span style=&quot; font-family: Arial;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;Our thanks to all those who have contributed to this exhibition:&lt;/b&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Benatar sisters&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Prof. Rachel Elior&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Yacov Fuchs&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Dr. Benjamin Richler&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Perhiya and Avi Senderowitcz&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Prof. Judith Wechsler&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;Dr. Shoshana Weich-Shahak&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
+          "body": "&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt; \n&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n&lt;head&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;EditLive! 7.6.2.10&quot; /&gt;\n&lt;meta name=&quot;generator&quot; content=&quot;TheBrain 7.0.4.5&quot; /&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;\n&lt;style type=&quot;text/css&quot;&gt;\n&lt;!--\nbody {\nfont-family: Arial;  font-size: small;  background: #ffffff;  color: #000000;\n}\np {\nmargin-top: 0pt;  margin-bottom: 0pt;\n}\n--&gt;\n&lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Exhibition organised by&lt;br /&gt;\n&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Fundaci&#243;n Germ&#225;n S&#225;nchez Ruip&#233;rez-Casa del Lector&lt;br /&gt;\nNational Library of Israel&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;&amp;#160;&lt;br /&gt;\n&lt;b&gt;In collaboration with&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Embassy of Israel in Spain&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Sefarad-Israel Center, Madrid&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Exhibition Curator&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Dr. Milka Levy-Rubin&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Concept and Digital Architecture&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Yechiam Halevy&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Exhibition coordinator&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Jos&#233; Vicente Quirante&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Assistants&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Maura S&#225;nchez&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Aitor Ib&#225;&#241;ez&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Francisco M. Guzm&#225;n&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Interactive Design and Video:&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt; Nir Yenni&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Development Team:&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt; Gizra LTD&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Research and Production:&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt; Shay Eshel&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Spanish Translation:&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt; Ioram Melcer&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Photography:&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Hanan Cohen&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Exhibition design&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Marta Redondo con Tino de la Carrera&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Graphic production&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;White rock&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;NLI Contributors&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Ido Ivri, Strategy and Innovation&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Dr. Raquel Ukeles, Dr. Aviad Stollman, Collections Division&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Dr. Stefan Litt, Archives Department&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Anat Wax, Dr. Amalia Kedem, Gil Stein, Music Department&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Dr. Zvi Leshem, Scholem Collection&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Shai Chazan, Moran Yair, Digital Content&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Noam Solan, Liora Nixon, Intellectual Property Advisors&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Information Technology &lt;a id=&quot;_GoBack&quot; name=&quot;_GoBack&quot;&gt; &lt;/a&gt;Department&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&amp;#160;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Our thanks to all those who have contributed to this exhibition:&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Benatar sisters&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Prof. Rachel Elior&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Yacov Fuchs&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Dr. Benjamin Richler&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Perhiya and Avi Senderowitcz&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Prof. Judith Wechsler&lt;/span&gt;&lt;/p&gt;\n&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot; font-family: Arial,sans-serif;&quot;&gt;Dr. Shoshana Weich-Shahak&lt;/span&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n",
           "format": "HTML",
           "creationDateTime": "2014-02-17 14:09:14.233 @+0200",
-          "modificationDateTime": "2014-02-24 15:45:29.380 @+0200"
+          "modificationDateTime": "2014-03-02 14:50:00.082 @+0200"
         },
         {
           "guid": "03A9BA7A-80B0-D36D-2687-8D286EC58785",
@@ -12394,6 +12394,34 @@
           "modificationDateTime": "2014-02-27 11:53:46.922 @+0200"
         },
         {
+          "guid": "B3595C1B-70B5-235A-EC2B-198DFF75D289",
+          "AttachmentEntries": {
+            "attachmentEntryID": "E697F604-7F02-7500-FDFA-4E4A6936A7FA"
+          },
+          "objectID": "AB8BC076-91F7-7A6C-8B7E-C2AF3B5DDD42",
+          "name": "Participating institutions.jpg",
+          "attachmentType": "1",
+          "location": "AB8BC076-91F7-7A6C-8B7E-C2AF3B5DDD42\\Participating institutions.jpg",
+          "dataLength": "49555",
+          "format": ".jpg",
+          "creationDateTime": "2014-03-02 15:06:17.880 @+0200",
+          "modificationDateTime": "2014-03-02 15:06:51.534 @+0200"
+        },
+        {
+          "guid": "C5F15137-4226-0FA3-5448-1F58226AAD1A",
+          "AttachmentEntries": {
+            "attachmentEntryID": "E697F604-7F02-7500-FDFA-4E4A6936A7FA"
+          },
+          "objectID": "AB8BC076-91F7-7A6C-8B7E-C2AF3B5DDD42",
+          "name": "",
+          "attachmentType": "0",
+          "location": "",
+          "dataLength": "0",
+          "format": "",
+          "modificationDateTime": "2014-03-02 15:06:18.035 @+0200",
+          "deletedDateTime": "2014-03-02 15:06:18.035 @+0200"
+        },
+        {
           "guid": "7E3F2F48-B424-F08B-E5FD-B3277ECB72EF",
           "AttachmentEntries": {
             "attachmentEntryID": "03A9BA7A-80B0-D36D-2687-8D286EC58785"
@@ -13799,13 +13827,13 @@
             "attachmentEntryID": "0468B19A-2E6C-900E-791D-1F8F706DA3EE"
           },
           "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
-          "name": "The Torah scroll from Spain with coat, close view, NLI.jpg",
+          "name": "The Torah scroll from Spain with coat, NLI.jpg",
           "attachmentType": "1",
-          "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah scroll from Spain with coat, close view, NLI.jpg",
+          "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\The Torah scroll from Spain with coat, NLI.jpg",
           "dataLength": "111047",
           "format": ".jpg",
           "creationDateTime": "2014-01-23 15:18:25.297 @+0200",
-          "modificationDateTime": "2014-01-23 15:18:25.297 @+0200"
+          "modificationDateTime": "2014-03-02 14:55:38.772 @+0200"
         },
         {
           "guid": "0F8406A0-1B99-DB0D-3EB2-49AC2D12B4AA",
@@ -13813,13 +13841,13 @@
             "attachmentEntryID": "0468B19A-2E6C-900E-791D-1F8F706DA3EE"
           },
           "objectID": "83ED5D28-8062-92A0-A3EB-4C70BAB53875",
-          "name": "Torah Scroll from Spain,  Open Sheet, NLI.jpg",
+          "name": "Torah Scroll from Spain, NLI.jpg",
           "attachmentType": "1",
-          "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\Torah Scroll from Spain,  Open Sheet, NLI.jpg",
+          "location": "83ED5D28-8062-92A0-A3EB-4C70BAB53875\\Torah Scroll from Spain, NLI.jpg",
           "dataLength": "61909",
           "format": ".jpg",
           "creationDateTime": "2014-01-23 15:18:25.387 @+0200",
-          "modificationDateTime": "2014-01-23 15:18:25.387 @+0200"
+          "modificationDateTime": "2014-03-02 14:55:48.464 @+0200"
         },
         {
           "guid": "DAB59EB2-63A9-82C5-4A21-E9831ECB2A49",
