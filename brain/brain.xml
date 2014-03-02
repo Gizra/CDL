@@ -7,7 +7,7 @@
         <personalBrainVersion>7045</personalBrainVersion>
         <telepathyVersion>10</telepathyVersion>
         <fileRoot>\\nlinetapp1\homedir\shaye\Desktop\NLI-CDL 3 pict.modified_brain\Files</fileRoot>
-        <generatedDateTime>2014-02-27 15:15:25.849 @+0200</generatedDateTime>
+        <generatedDateTime>2014-03-02 15:53:56.007 @+0200</generatedDateTime>
         <homeThoughtGuid>D9DE1825-A532-8B29-7146-4E6F2E819F1F</homeThoughtGuid>
         <modificationDateTime>2014-02-10 14:21:45.261 @+0200</modificationDateTime>
     </Source>
@@ -249,7 +249,7 @@
             <creationDateTime>2014-01-07 11:37:58.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-28 16:10:09.421 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-28 16:10:09.421 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-27 15:01:29.545 @+0200</activationDateTime>
+            <activationDateTime>2014-03-02 15:51:55.817 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-07 11:38:09.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -366,7 +366,7 @@
             <creationDateTime>2014-01-07 11:37:57.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-09 11:56:55.000 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-23 12:45:42.000 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-22 14:39:34.373 @+0200</activationDateTime>
+            <activationDateTime>2014-03-02 15:48:35.022 @+0200</activationDateTime>
             <linksModificationDateTime>2013-10-22 16:42:09.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -392,7 +392,7 @@
             <creationDateTime>2014-01-07 11:37:56.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-03 12:27:06.544 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-03 12:27:06.544 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-13 14:46:36.034 @+0200</activationDateTime>
+            <activationDateTime>2014-03-02 15:51:52.181 @+0200</activationDateTime>
             <linksModificationDateTime>2013-11-25 14:38:09.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1016,7 +1016,7 @@
             <creationDateTime>2014-01-07 11:32:36.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-16 11:14:40.210 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-16 11:15:37.799 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-27 11:25:27.784 @+0200</activationDateTime>
+            <activationDateTime>2014-03-02 15:53:34.071 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-16 11:14:54.393 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1094,7 +1094,7 @@
             <creationDateTime>2014-01-07 11:32:31.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-17 13:19:18.276 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-17 13:19:18.278 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-27 11:25:29.398 @+0200</activationDateTime>
+            <activationDateTime>2014-03-02 15:53:08.638 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-16 11:14:54.395 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1146,7 +1146,7 @@
             <creationDateTime>2014-01-07 11:32:32.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-07 11:32:32.000 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-23 12:46:38.000 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-01-19 15:10:58.694 @+0200</activationDateTime>
+            <activationDateTime>2014-03-02 15:53:13.376 @+0200</activationDateTime>
             <linksModificationDateTime>2013-10-17 15:10:08.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1210,8 +1210,8 @@
             <label></label>
             <creationDateTime>2014-02-17 14:07:15.429 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-17 14:20:50.330 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-02-24 15:45:29.381 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-24 15:44:36.111 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-03-02 15:06:51.535 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-03-02 15:06:15.194 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-17 14:07:15.459 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -1250,7 +1250,7 @@
             <creationDateTime>2014-02-17 14:06:38.795 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-17 14:06:38.795 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-17 14:06:38.795 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-24 15:46:25.220 @+0200</activationDateTime>
+            <activationDateTime>2014-03-02 15:48:17.836 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-17 14:07:15.459 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2068,8 +2068,8 @@
             <label></label>
             <creationDateTime>2014-01-07 11:42:53.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-09 15:08:17.000 @+0200</realModificationDateTime>
-            <displayModificationDateTime>2014-02-12 11:08:47.921 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-27 14:09:15.068 @+0200</activationDateTime>
+            <displayModificationDateTime>2014-03-02 14:55:48.465 @+0200</displayModificationDateTime>
+            <activationDateTime>2014-03-02 14:55:06.316 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-22 15:31:04.381 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>ffffff</color>
@@ -2199,7 +2199,7 @@
             <creationDateTime>2014-01-07 11:42:47.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-29 12:29:32.924 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-29 12:30:10.462 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-27 14:09:16.598 @+0200</activationDateTime>
+            <activationDateTime>2014-03-02 15:52:55.160 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-22 15:31:04.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>ffffff</color>
@@ -2251,7 +2251,7 @@
             <creationDateTime>2014-01-07 11:42:42.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-22 14:32:03.039 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-28 16:28:16.780 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-13 15:10:50.373 @+0200</activationDateTime>
+            <activationDateTime>2014-03-02 14:54:17.564 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-09 15:09:18.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>ffffff</color>
@@ -2290,7 +2290,7 @@
             <creationDateTime>2014-02-06 16:25:39.945 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-06 16:25:39.945 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-13 13:41:28.580 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-27 15:00:10.321 @+0200</activationDateTime>
+            <activationDateTime>2014-03-02 15:48:18.810 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-17 14:06:38.815 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2719,7 +2719,7 @@
             <creationDateTime>2014-01-07 11:38:02.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-22 13:30:14.831 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-30 14:04:23.715 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-27 15:01:33.924 @+0200</activationDateTime>
+            <activationDateTime>2014-03-02 12:46:01.878 @+0200</activationDateTime>
             <linksModificationDateTime>2013-12-01 16:37:06.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>ffffffff</color>
@@ -2784,7 +2784,7 @@
             <creationDateTime>2014-01-07 12:09:12.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-02-03 12:26:18.418 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-27 11:26:52.362 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-27 14:09:59.789 @+0200</activationDateTime>
+            <activationDateTime>2014-03-02 12:46:13.647 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-07 18:03:23.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -2927,7 +2927,7 @@
             <creationDateTime>2014-01-15 14:52:37.496 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-15 14:58:40.328 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-02-12 11:58:50.950 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-27 14:09:12.780 @+0200</activationDateTime>
+            <activationDateTime>2014-03-02 14:54:36.704 @+0200</activationDateTime>
             <linksModificationDateTime>2014-02-25 14:49:06.392 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>0</color>
@@ -3070,7 +3070,7 @@
             <creationDateTime>2014-01-07 11:42:38.000 @+0200</creationDateTime>
             <realModificationDateTime>2014-01-28 16:23:55.542 @+0200</realModificationDateTime>
             <displayModificationDateTime>2014-01-28 16:23:55.542 @+0200</displayModificationDateTime>
-            <activationDateTime>2014-02-12 11:37:02.906 @+0200</activationDateTime>
+            <activationDateTime>2014-03-02 15:52:46.880 @+0200</activationDateTime>
             <linksModificationDateTime>2014-01-12 12:58:49.000 @+0200</linksModificationDateTime>
             <isType>0</isType>
             <color>ffffff</color>
@@ -10054,43 +10054,65 @@ margin-top: 0pt;  margin-bottom: 0pt;
 &amp;lt;/style&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; text-decoration: underline;&amp;quot;&amp;gt;Credits&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Exhibition organised by&amp;lt;br /&amp;gt;
+&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Fundaci&amp;#243;n Germ&amp;#225;n S&amp;#225;nchez Ruip&amp;#233;rez-Casa del Lector&amp;lt;br /&amp;gt;
+National Library of Israel&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;br /&amp;gt;
+&amp;lt;b&amp;gt;In collaboration with&amp;lt;/b&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Embassy of Israel in Spain&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Sefarad-Israel Center, Madrid&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 &amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Exhibition Staff&amp;lt;/b&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Exhibition Curator:&amp;lt;b&amp;gt; &amp;lt;/b&amp;gt;Dr. Milka Levy-Rubin&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Concept and Digital Architecture: Yechiam Halevy&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Interactive Design and Video: Nir Yenni&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Development Team: Gizra LTD&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Research and Production: Shay Eshel&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Spanish Translation: Ioram Melcer&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;English Translation: Tichye Krakowsky&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Photography: Hanan Cohen&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Exhibition Curator&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Dr. Milka Levy-Rubin&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 &amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;NLI Contributors&amp;lt;/b&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Ido Ivri, Strategy and Innovation&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Dr. Raquel Ukeles, &amp;amp;#160;Dr. Aviad Stollman, Collections Division&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Dr. Stefan Litt, Archives Department&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Anat Wax, Dr. Amalia Kedem, Gil Stein, Music Department&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Dr. Zvi Leshem, Scholem Collection&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Shai Chazan, Moran Yair, Digital Content&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Noam Solan, Liora Nixon, Intellectual Property Advisors&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;Information Technology Department&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; line-height: 115%; color: #333333;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;Department of Manuscripts and Rare Books&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;span style=&amp;quot; font-size: small;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial;&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Concept and Digital Architecture&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Yechiam Halevy&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 &amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;Our thanks to all those who have contributed to this exhibition:&amp;lt;/b&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Benatar sisters&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Prof. Rachel Elior&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Yacov Fuchs&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Dr. Benjamin Richler&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Perhiya and Avi Senderowitcz&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Prof. Judith Wechsler&amp;lt;/p&amp;gt;
-&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;Dr. Shoshana Weich-Shahak&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Exhibition coordinator&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Jos&amp;#233; Vicente Quirante&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Assistants&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Maura S&amp;#225;nchez&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Aitor Ib&amp;#225;&amp;#241;ez&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Francisco M. Guzm&amp;#225;n&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Interactive Design and Video:&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt; Nir Yenni&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Development Team:&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt; Gizra LTD&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Research and Production:&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt; Shay Eshel&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Spanish Translation:&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt; Ioram Melcer&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Photography:&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Hanan Cohen&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Exhibition design&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Marta Redondo con Tino de la Carrera&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Graphic production&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;White rock&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;NLI Contributors&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Ido Ivri, Strategy and Innovation&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Dr. Raquel Ukeles, Dr. Aviad Stollman, Collections Division&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Dr. Stefan Litt, Archives Department&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Anat Wax, Dr. Amalia Kedem, Gil Stein, Music Department&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Dr. Zvi Leshem, Scholem Collection&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Shai Chazan, Moran Yair, Digital Content&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Noam Solan, Liora Nixon, Intellectual Property Advisors&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Information Technology &amp;lt;a id=&amp;quot;_GoBack&amp;quot; name=&amp;quot;_GoBack&amp;quot;&amp;gt; &amp;lt;/a&amp;gt;Department&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;amp;#160;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;b&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Our thanks to all those who have contributed to this exhibition:&amp;lt;/span&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Benatar sisters&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Prof. Rachel Elior&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Yacov Fuchs&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Dr. Benjamin Richler&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Perhiya and Avi Senderowitcz&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Prof. Judith Wechsler&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;MsoNormal&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot; font-family: Arial,sans-serif;&amp;quot;&amp;gt;Dr. Shoshana Weich-Shahak&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 </body>
             <format>HTML</format>
             <creationDateTime>2014-02-17 14:09:14.233 @+0200</creationDateTime>
-            <modificationDateTime>2014-02-24 15:45:29.380 @+0200</modificationDateTime>
+            <modificationDateTime>2014-03-02 14:50:00.082 @+0200</modificationDateTime>
         </Entry>
         <Entry>
             <guid>03A9BA7A-80B0-D36D-2687-8D286EC58785</guid>
@@ -17163,6 +17185,34 @@ margin-top: 0pt;  margin-bottom: 0pt;
             <modificationDateTime>2014-02-27 11:53:46.922 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
+            <guid>B3595C1B-70B5-235A-EC2B-198DFF75D289</guid>
+            <AttachmentEntries>
+                <attachmentEntryID>E697F604-7F02-7500-FDFA-4E4A6936A7FA</attachmentEntryID>
+            </AttachmentEntries>
+            <objectID>AB8BC076-91F7-7A6C-8B7E-C2AF3B5DDD42</objectID>
+            <name>Participating institutions.jpg</name>
+            <attachmentType>1</attachmentType>
+            <location>AB8BC076-91F7-7A6C-8B7E-C2AF3B5DDD42\Participating institutions.jpg</location>
+            <dataLength>49555</dataLength>
+            <format>.jpg</format>
+            <creationDateTime>2014-03-02 15:06:17.880 @+0200</creationDateTime>
+            <modificationDateTime>2014-03-02 15:06:51.534 @+0200</modificationDateTime>
+        </Attachment>
+        <Attachment>
+            <guid>C5F15137-4226-0FA3-5448-1F58226AAD1A</guid>
+            <AttachmentEntries>
+                <attachmentEntryID>E697F604-7F02-7500-FDFA-4E4A6936A7FA</attachmentEntryID>
+            </AttachmentEntries>
+            <objectID>AB8BC076-91F7-7A6C-8B7E-C2AF3B5DDD42</objectID>
+            <name></name>
+            <attachmentType>0</attachmentType>
+            <location></location>
+            <dataLength>0</dataLength>
+            <format></format>
+            <modificationDateTime>2014-03-02 15:06:18.035 @+0200</modificationDateTime>
+            <deletedDateTime>2014-03-02 15:06:18.035 @+0200</deletedDateTime>
+        </Attachment>
+        <Attachment>
             <guid>7E3F2F48-B424-F08B-E5FD-B3277ECB72EF</guid>
             <AttachmentEntries>
                 <attachmentEntryID>03A9BA7A-80B0-D36D-2687-8D286EC58785</attachmentEntryID>
@@ -18568,13 +18618,13 @@ margin-top: 0pt;  margin-bottom: 0pt;
                 <attachmentEntryID>0468B19A-2E6C-900E-791D-1F8F706DA3EE</attachmentEntryID>
             </AttachmentEntries>
             <objectID>83ED5D28-8062-92A0-A3EB-4C70BAB53875</objectID>
-            <name>The Torah scroll from Spain with coat, close view, NLI.jpg</name>
+            <name>The Torah scroll from Spain with coat, NLI.jpg</name>
             <attachmentType>1</attachmentType>
-            <location>83ED5D28-8062-92A0-A3EB-4C70BAB53875\The Torah scroll from Spain with coat, close view, NLI.jpg</location>
+            <location>83ED5D28-8062-92A0-A3EB-4C70BAB53875\The Torah scroll from Spain with coat, NLI.jpg</location>
             <dataLength>111047</dataLength>
             <format>.jpg</format>
             <creationDateTime>2014-01-23 15:18:25.297 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-23 15:18:25.297 @+0200</modificationDateTime>
+            <modificationDateTime>2014-03-02 14:55:38.772 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>0F8406A0-1B99-DB0D-3EB2-49AC2D12B4AA</guid>
@@ -18582,13 +18632,13 @@ margin-top: 0pt;  margin-bottom: 0pt;
                 <attachmentEntryID>0468B19A-2E6C-900E-791D-1F8F706DA3EE</attachmentEntryID>
             </AttachmentEntries>
             <objectID>83ED5D28-8062-92A0-A3EB-4C70BAB53875</objectID>
-            <name>Torah Scroll from Spain,  Open Sheet, NLI.jpg</name>
+            <name>Torah Scroll from Spain, NLI.jpg</name>
             <attachmentType>1</attachmentType>
-            <location>83ED5D28-8062-92A0-A3EB-4C70BAB53875\Torah Scroll from Spain,  Open Sheet, NLI.jpg</location>
+            <location>83ED5D28-8062-92A0-A3EB-4C70BAB53875\Torah Scroll from Spain, NLI.jpg</location>
             <dataLength>61909</dataLength>
             <format>.jpg</format>
             <creationDateTime>2014-01-23 15:18:25.387 @+0200</creationDateTime>
-            <modificationDateTime>2014-01-23 15:18:25.387 @+0200</modificationDateTime>
+            <modificationDateTime>2014-03-02 14:55:48.464 @+0200</modificationDateTime>
         </Attachment>
         <Attachment>
             <guid>DAB59EB2-63A9-82C5-4A21-E9831ECB2A49</guid>
