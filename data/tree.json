@@ -289,7 +289,7 @@
          "data": "<p><span><span><span>After Maimonides' death the manuscript remained in the hands of the family in Egypt for several generations. In </span></span></span><span dir=\"RTL\"><span><span>1375</span></span></span><span><span><span>, due to the persecution of Jews in Egypt, the descendants of Maimonides moved to Aleppo in Syria.</span></span></span></p>\n",
          "attachments": [
           {
-           "guid": "4D378EF0-4CB6-B75D-AEF7-01E68FC32B03",
+           "guid": "EC80D725-3908-EF51-76F3-8F5CD8DFBF39",
            "AttachmentEntries": {
             "attachmentEntryID": "2F36FFB7-72D7-8DFF-55B8-2D7BFD106C47"
            },
@@ -517,7 +517,7 @@
            "format": ".jpg"
           },
           {
-           "guid": "1A1E21BE-B96E-EE44-9CC3-3F5C77F9CF02",
+           "guid": "E38FAA3C-B026-FC46-12BF-FE596CCEB5F5",
            "AttachmentEntries": {
             "attachmentEntryID": "0D234876-46AC-7377-AD4B-BA5F38A833FA"
            },
@@ -573,7 +573,7 @@
              "data": "<p>In 1148, Cordoba was taken over by the intolerant<i> </i>dynasty of the <i>Muwahhidun</i> (Almohads), who by then ruled most of the Maghreb as well. The Almohads deprived the non-Muslim communities of their previous rights and persecuted them with threats of forced conversion or deportation. The Maimonides family, like many others, left Cordoba and began an extended period of wandering.</p>\n",
              "attachments": [
               {
-               "guid": "59BA14C4-B638-C9C0-BEE5-50ED75E06FD4",
+               "guid": "A71BE75A-F84E-08C8-D3CD-66B408698960",
                "AttachmentEntries": {
                 "attachmentEntryID": "21F17F20-4DA4-D098-A6D6-46F6167F7267"
                },
@@ -681,7 +681,7 @@
                      "format": ".jpg"
                     },
                     {
-                     "guid": "FB245D01-9412-22E6-CA94-E369A94B0EF6",
+                     "guid": "F8411FEC-737C-BB8E-2325-8DB79A359E56",
                      "AttachmentEntries": {
                       "attachmentEntryID": "3375B5FB-D6E6-C133-B474-88B3D1C3E6E0"
                      },
@@ -773,7 +773,7 @@
                          "format": ".jpg"
                         },
                         {
-                         "guid": "7EF8983A-9478-EEEB-EC62-333AF09E1253",
+                         "guid": "78447E5C-523A-E879-CB89-82F1BE0D06E6",
                          "AttachmentEntries": {
                           "attachmentEntryID": "D66B31AE-849D-FEAC-16F3-3FA8EB799D6B"
                          },
@@ -801,18 +801,6 @@
                          "data": "<p>Maimonides died in 1204 in Egypt and was buried there. However, early Jewish tradition claims that he had asked to be buried in the Holy Land and that his bones were brought to burial in Tiberias, where his tomb is still shown. On his tomb the following famous saying in Hebrew is inscribed: \"From Moses to Moses no one was as great as Moses\"- meaning that from the biblical Moses, to Moses son of Maymon (Maimonides), there was no one who equaled them.</p>\n",
                          "attachments": [
                           {
-                           "guid": "9BDA6864-706B-D760-9A0D-3DB0F559EB46",
-                           "AttachmentEntries": {
-                            "attachmentEntryID": "1683E5F1-56FE-EAA2-C2CC-0CE35B2647D8"
-                           },
-                           "objectID": "0E88C45C-353C-2D9C-D6C2-A2395A860B45",
-                           "name": "Inscription on Maimonides&apos; tomb at Tiberias - From Moses to Moses there was none as great as Moses.jpg",
-                           "attachmentType": "1",
-                           "location": "0E88C45C-353C-2D9C-D6C2-A2395A860B45\\Inscription on Maimonides&apos; tomb at Tiberias - From Moses to Moses there was none as great as Moses.jpg",
-                           "dataLength": "88982",
-                           "format": ".jpg"
-                          },
-                          {
                            "guid": "7504CB16-2B16-0A0E-41F4-5D7AC0C6EC91",
                            "AttachmentEntries": {
                             "attachmentEntryID": "1683E5F1-56FE-EAA2-C2CC-0CE35B2647D8"
@@ -822,6 +810,18 @@
                            "attachmentType": "1",
                            "location": "0E88C45C-353C-2D9C-D6C2-A2395A860B45\\Maimonides&apos; tomb at Tiberias.jpg",
                            "dataLength": "138935",
+                           "format": ".jpg"
+                          },
+                          {
+                           "guid": "16F6261C-CACF-308F-5254-093A0DD0BEA3",
+                           "AttachmentEntries": {
+                            "attachmentEntryID": "1683E5F1-56FE-EAA2-C2CC-0CE35B2647D8"
+                           },
+                           "objectID": "0E88C45C-353C-2D9C-D6C2-A2395A860B45",
+                           "name": "Inscription on Maimonides&apos; tomb at Tiberias - From Moses to Moses there was none as great as Moses.jpg",
+                           "attachmentType": "1",
+                           "location": "0E88C45C-353C-2D9C-D6C2-A2395A860B45\\Inscription on Maimonides&apos; tomb at Tiberias - From Moses to Moses there was none as great as Moses.jpg",
+                           "dataLength": "88982",
                            "format": ".jpg"
                           }
                          ],
@@ -2392,18 +2392,6 @@
                "format": ".jpg"
               },
               {
-               "guid": "4A8AEFFE-2058-B43C-5105-657D07B6387C",
-               "AttachmentEntries": {
-                "attachmentEntryID": "CF49FB13-4808-E2DB-A48D-AA928418F664"
-               },
-               "objectID": "72190B03-074A-B546-1F89-73EFBBE16E0D",
-               "name": "Perhiya receiving a token of gratitude from the city of Lydda.jpg",
-               "attachmentType": "1",
-               "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\Perhiya receiving a token of gratitude from the city of Lydda.jpg",
-               "dataLength": "31940",
-               "format": ".jpg"
-              },
-              {
                "guid": "2A56670A-CEDD-63B3-A0CD-9AE3E07E42E9",
                "AttachmentEntries": {
                 "attachmentEntryID": "CF49FB13-4808-E2DB-A48D-AA928418F664"
@@ -2413,6 +2401,18 @@
                "attachmentType": "1",
                "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\Perhiya&apos;s &apos;Page of Testimony&apos; at Yad Vashem museum, 1956.jpg",
                "dataLength": "98900",
+               "format": ".jpg"
+              },
+              {
+               "guid": "9D23E489-C437-AF84-3C97-335C482D7DED",
+               "AttachmentEntries": {
+                "attachmentEntryID": "CF49FB13-4808-E2DB-A48D-AA928418F664"
+               },
+               "objectID": "72190B03-074A-B546-1F89-73EFBBE16E0D",
+               "name": "Perhiya receiving a token of gratitude from the city of Lydda.jpg",
+               "attachmentType": "1",
+               "location": "72190B03-074A-B546-1F89-73EFBBE16E0D\\Perhiya receiving a token of gratitude from the city of Lydda.jpg",
+               "dataLength": "31940",
                "format": ".jpg"
               }
              ],
@@ -2846,14 +2846,14 @@
              "format": ".jpg"
             },
             {
-             "guid": "3909F7EE-8E46-6E2B-BA22-564FDE91AD84",
+             "guid": "5CA5C19D-BEF8-DA67-FD59-2FAC67A2704B",
              "AttachmentEntries": {
               "attachmentEntryID": "5870C902-F152-634E-5ED4-99E82367D6BD"
              },
              "objectID": "DC714013-3F75-D6D6-147E-175C6A4DE4B7",
-             "name": "Kahal Shalom Synagogue, list of the Nazi victims.jpg",
+             "name": "Kahal Shalom synagogue, list of the Nazi victims.jpg",
              "attachmentType": "1",
-             "location": "DC714013-3F75-D6D6-147E-175C6A4DE4B7\\Kahal Shalom Synagogue, list of the Nazi victims.jpg",
+             "location": "DC714013-3F75-D6D6-147E-175C6A4DE4B7\\Kahal Shalom synagogue, list of the Nazi victims.jpg",
              "dataLength": "21110",
              "format": ".jpg"
             }
@@ -3444,14 +3444,14 @@
        "data": "<p><span>In these notes, written on a letter bearing the remnants of its red seal wax, Newton calculated- based on the Book of Daniel 7:25- that the End of Days will arrive in the year </span><b><span>2060</span></b><span>.  Newton's calculations relied on his belief that the starting point for his calculations was the year 800 c.e, when Charlemagne founded the Holy Roman Empire and the Pope's supremacy commenced. Here, Newton believed, began the period of the \"Apostate\" Church's deepest corruption which will end in apocalyptic events such as plagues and fires, the terrible battle of Armageddon and eternal damnation of the wicked mentioned in the Book of Revelation.</span></p>\n\n\n",
        "attachments": [
         {
-         "guid": "249320D0-2A0B-4A49-D92A-51D85B27A8B0",
+         "guid": "1E6D740C-9820-3E60-4DE2-792DA04C7C87",
          "AttachmentEntries": {
           "attachmentEntryID": "AED5007F-D3CA-778F-5FF0-3D83EC5F8A1E"
          },
          "objectID": "6CBFE979-B4EF-E377-DEA7-2F096D47FC66",
-         "name": "Newton,  Apocalyptic Calculations regarding the Year 2060, NLI.jpg",
+         "name": "Newton,  Apocalyptic calculations regarding the year 2060, NLI.jpg",
          "attachmentType": "1",
-         "location": "6CBFE979-B4EF-E377-DEA7-2F096D47FC66\\Newton,  Apocalyptic Calculations regarding the Year 2060, NLI.jpg",
+         "location": "6CBFE979-B4EF-E377-DEA7-2F096D47FC66\\Newton,  Apocalyptic calculations regarding the year 2060, NLI.jpg",
          "dataLength": "86033",
          "format": ".jpg"
         }
@@ -5636,7 +5636,7 @@
            "format": ".jpg"
           },
           {
-           "guid": "C4ECC300-447A-94A3-ABAA-97E7951B668F",
+           "guid": "4B22749A-73EB-E220-2C90-56E214798653",
            "AttachmentEntries": {
             "attachmentEntryID": "7300F8F4-FC64-693A-82D9-43BBF5857FEC"
            },
@@ -5676,18 +5676,6 @@
              "format": ""
             },
             {
-             "guid": "7857C9A9-29AE-8FCB-86CE-DBB6AC4213A2",
-             "AttachmentEntries": {
-              "attachmentEntryID": "551E24FD-B306-A926-DFF1-B8136897476A"
-             },
-             "objectID": "B9A5DA7A-D132-ACC5-C1EB-F21A3A65455A",
-             "name": "Franz Kafka and Max Brod on the beach.jpg",
-             "attachmentType": "1",
-             "location": "B9A5DA7A-D132-ACC5-C1EB-F21A3A65455A\\Franz Kafka and Max Brod on the beach.jpg",
-             "dataLength": "24895",
-             "format": ".jpg"
-            },
-            {
              "guid": "C5A35748-D091-E663-05FB-76DC144DB898",
              "AttachmentEntries": {
               "attachmentEntryID": "551E24FD-B306-A926-DFF1-B8136897476A"
@@ -5697,6 +5685,18 @@
              "attachmentType": "1",
              "location": "B9A5DA7A-D132-ACC5-C1EB-F21A3A65455A\\Kafka with his sister Ottilie near their parents&apos; house in Prague.jpg",
              "dataLength": "44637",
+             "format": ".jpg"
+            },
+            {
+             "guid": "5CF8F068-6EF0-4E19-538D-8AE8CB38A98C",
+             "AttachmentEntries": {
+              "attachmentEntryID": "551E24FD-B306-A926-DFF1-B8136897476A"
+             },
+             "objectID": "B9A5DA7A-D132-ACC5-C1EB-F21A3A65455A",
+             "name": "Franz Kafka and Max Brod on the beach.jpg",
+             "attachmentType": "1",
+             "location": "B9A5DA7A-D132-ACC5-C1EB-F21A3A65455A\\Franz Kafka and Max Brod on the beach.jpg",
+             "dataLength": "24895",
              "format": ".jpg"
             }
            ],
@@ -6929,14 +6929,14 @@
                      "format": ""
                     },
                     {
-                     "guid": "9F77F0EC-00B1-1B8E-3773-8684723EFA0E",
+                     "guid": "9D7FEB67-5B5C-02E4-64AD-DB7B13916236",
                      "AttachmentEntries": {
                       "attachmentEntryID": "AC1750FF-1E3B-2A1A-6F80-7776AE18CD93"
                      },
                      "objectID": "70F1F07B-915B-F430-74FC-A0425393D6E4",
-                     "name": "Nazis Burning books, Berlin, 1933.jpg",
+                     "name": "Nazis burning books, Berlin, 1933.jpg",
                      "attachmentType": "1",
-                     "location": "70F1F07B-915B-F430-74FC-A0425393D6E4\\Nazis Burning books, Berlin, 1933.jpg",
+                     "location": "70F1F07B-915B-F430-74FC-A0425393D6E4\\Nazis burning books, Berlin, 1933.jpg",
                      "dataLength": "55333",
                      "format": ".jpg"
                     }
@@ -7550,7 +7550,7 @@
          "format": ".jpg"
         },
         {
-         "guid": "F2DF00B7-8017-C9D9-BAC0-A11B5C305FB2",
+         "guid": "B8A2847B-803F-1B29-B7DB-E852A18CB433",
          "AttachmentEntries": {
           "attachmentEntryID": "215498D8-DCFD-7EC3-B0D4-B2F138DC7282"
          },
@@ -8000,19 +8000,7 @@
      "deletedDateTime": "2014-01-28 15:07:06.323 @+0200"
     },
     {
-     "guid": "FE49C9E0-380A-DEBF-A0DA-9FF49419AF41",
-     "AttachmentEntries": {
-      "attachmentEntryID": "85344F9A-9950-A274-8A2B-B80214591399"
-     },
-     "objectID": "127359C4-ED56-148C-0494-212AB1F43A86",
-     "name": "De  Lonzano,  &apos;Derushim&apos;, 1610,  fol.11, NLI.jpg",
-     "attachmentType": "1",
-     "location": "127359C4-ED56-148C-0494-212AB1F43A86\\De  Lonzano,  &apos;Derushim&apos;, 1610,  fol.11, NLI.jpg",
-     "dataLength": "402486",
-     "format": ".jpg"
-    },
-    {
-     "guid": "87F959AC-974B-6984-4841-4E53198C9066",
+     "guid": "45F780DE-F07E-2F92-3163-D2C7645137BE",
      "AttachmentEntries": {
       "attachmentEntryID": "85344F9A-9950-A274-8A2B-B80214591399"
      },
@@ -8021,6 +8009,18 @@
      "attachmentType": "1",
      "location": "127359C4-ED56-148C-0494-212AB1F43A86\\De Lonzano, &apos;Derushim&apos;, 1610, fol.20, detail, NLI.jpg",
      "dataLength": "156360",
+     "format": ".jpg"
+    },
+    {
+     "guid": "DE0155A9-50EA-EC11-FB81-5DE833E1CF9D",
+     "AttachmentEntries": {
+      "attachmentEntryID": "85344F9A-9950-A274-8A2B-B80214591399"
+     },
+     "objectID": "127359C4-ED56-148C-0494-212AB1F43A86",
+     "name": "De  Lonzano,  &apos;Derushim&apos;, 1610,  fol.11, NLI.jpg",
+     "attachmentType": "1",
+     "location": "127359C4-ED56-148C-0494-212AB1F43A86\\De  Lonzano,  &apos;Derushim&apos;, 1610,  fol.11, NLI.jpg",
+     "dataLength": "402486",
      "format": ".jpg"
     }
    ],
@@ -8055,7 +8055,7 @@
          "format": ".jpg"
         },
         {
-         "guid": "BC216031-9AD3-61CE-3B07-BD6794C57131",
+         "guid": "60A5B1E4-C0D6-8D5A-E24D-C6957E3238EF",
          "AttachmentEntries": {
           "attachmentEntryID": "1DD874A8-5766-7C44-E96E-BCC206F1CFCD"
          },
@@ -8237,7 +8237,7 @@
        "data": "<p><span><span><span>In 2010 a member of the </span></span><i><span><span>Hasidut</span></span></i><span><span> of the Gur </span></span><i><span><span>Rebbe</span></span></i><span><span> found an anonymous manuscript in his attic. The book was saved from disposal by his grandfather only because it contained the stamp of the first </span></span><i><span><span>Rebbe</span></span></i><span><span> of Radomsk, Rabbi Shlomo Ha-Cohen Rabinowitz (1801-1866). Curious about the value of the manuscript, the grandson contacted a dealer, who in his turn consulted an expert. To his surprise, the expert recognized the distinct writing of De Lonzano, and realized that he was holding a unique and treasured autograph.</span></span></span></p>\n",
        "attachments": [
         {
-         "guid": "D2BB5F7D-A42D-DD80-0585-3C9CF4693B52",
+         "guid": "0A39913F-7756-FC3D-A728-B0047AB3FF19",
          "AttachmentEntries": {
           "attachmentEntryID": "0CBFAF74-F8DF-F100-CE9C-141D714A93F9"
          },
@@ -8265,7 +8265,7 @@
          "data": "<p><span><span><span>Menahem de Lonzano did not note at the end of his manuscript, as authors often did, either the place or the time in which he wrote it. Yet in one place he noted that \"the exile has lasted 370 years …Menahem DL\". This meant that according to the Jewish calendar the manuscript was copied 370 years after the beginning of the sixth millennium of the creation of the universe, which is the year 1610 CE, exactly 400 years before it was rediscovered.</span></span></span><span><span></span></span></p>\n<p><span><span><span>As for the place, it is likely that it was copied in Egypt, as De Lonzano mentions negotiations with a one of the great scholars living in Egypt at that tim</span></span></span><span><span><span>e.&#160;</span></span></span></p>\n",
          "attachments": [
           {
-           "guid": "34B44F98-14D6-9122-6CF8-F8514928521F",
+           "guid": "2C3DB38C-9E80-F567-CFE9-F9C365CD3964",
            "AttachmentEntries": {
             "attachmentEntryID": "F7BB19D1-688F-F950-BA22-8AA1FCD065F3"
            },
@@ -8523,18 +8523,6 @@
              "data": "<p><span><span><span>The school of Safed started with R. Joseph Caro, R. Shlomo Alkabetz, and R. Moshe Cordovero between 1535 and 1572, and culminated with Isaac Luria, its most influential leader.&#160; </span></span></span><span><span><span>While earlier Kabbalah centered on the return of man to the wellspring of life through the contemplation of the upper worlds, </span></span></span><span><span><span>the Safed mystics combined Kabbalistic doctrine and practice with Messianic and apocalyptic trends.</span></span></span></p>\n",
              "attachments": [
               {
-               "guid": "3EC28498-6B3C-B246-B77E-CB6997E4836D",
-               "AttachmentEntries": {
-                "attachmentEntryID": "3E5CC5A8-2D60-132F-3342-D236B99FC611"
-               },
-               "objectID": "66ACABEC-39A0-5CE7-4B93-07D4D1822C41",
-               "name": "A street in Safed&apos;s old city.JPG",
-               "attachmentType": "1",
-               "location": "66ACABEC-39A0-5CE7-4B93-07D4D1822C41\\A street in Safed&apos;s old city.jpg",
-               "dataLength": "241100",
-               "format": ".jpg"
-              },
-              {
                "guid": "9C6F5285-86EE-7998-A874-BC3449496792",
                "AttachmentEntries": {
                 "attachmentEntryID": "3E5CC5A8-2D60-132F-3342-D236B99FC611"
@@ -8544,6 +8532,18 @@
                "attachmentType": "1",
                "location": "66ACABEC-39A0-5CE7-4B93-07D4D1822C41\\Rabbi Isaac Luria&apos;s grave in Safed.jpg",
                "dataLength": "57829",
+               "format": ".jpg"
+              },
+              {
+               "guid": "5716B53C-2B4F-7388-FB2A-FB88D922DB9B",
+               "AttachmentEntries": {
+                "attachmentEntryID": "3E5CC5A8-2D60-132F-3342-D236B99FC611"
+               },
+               "objectID": "66ACABEC-39A0-5CE7-4B93-07D4D1822C41",
+               "name": "A street in Safed&apos;s old city.jpg",
+               "attachmentType": "1",
+               "location": "66ACABEC-39A0-5CE7-4B93-07D4D1822C41\\A street in Safed&apos;s old city.jpg",
+               "dataLength": "241100",
                "format": ".jpg"
               }
              ],
@@ -9463,7 +9463,7 @@
                  "format": ".jpg"
                 },
                 {
-                 "guid": "526989F9-9258-1966-94E1-0AF90CE59C67",
+                 "guid": "40312747-A98E-EFC1-5A37-DA1286514F62",
                  "AttachmentEntries": {
                   "attachmentEntryID": "A4EA46BA-ED0A-CFB0-BADD-B179D49190D0"
                  },
